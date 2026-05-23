@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Link } from "@/i18n/navigation";
 import RekaSidebar from "@/components/landing/reka-sidebar";
+import { useRekaClipGate } from "@/hooks/use-reka-clip-gate";
 import { Link as LinkIcon, Upload, MonitorPlay, Lock } from "lucide-react";
 
 const HERO_VIDEO_SRC = "/videos/hero-visual-new.mp4";
@@ -46,7 +47,15 @@ function PlatformIcon({ icon }: { icon: string }) {
   return <MonitorPlay size={18} strokeWidth={2} />;
 }
 
-function ClipSection({ data }: { data: RekaClipData["clip"] }) {
+function ClipSection({
+  data,
+  onGenerate,
+  onUpload,
+}: {
+  data: RekaClipData["clip"];
+  onGenerate: () => void;
+  onUpload: () => void;
+}) {
   return (
     <section id="clip" className="reka-clip-hero">
       <div className="reka-clip-hero-grid">
@@ -83,13 +92,17 @@ function ClipSection({ data }: { data: RekaClipData["clip"] }) {
                   <input type="text" placeholder={data.placeholder} aria-label={data.placeholder} />
                 </div>
               </div>
-              <button type="button" className="reka-clip-cta-primary reka-clip-cta-inline">
+              <button
+                type="button"
+                className="reka-clip-cta-primary reka-clip-cta-inline"
+                onClick={onGenerate}
+              >
                 {data.generate_text}
               </button>
             </div>
             <div className="reka-clip-upload-row">
               <span className="reka-clip-or">{data.or_label}</span>
-              <button type="button" className="reka-clip-upload-btn">
+              <button type="button" className="reka-clip-upload-btn" onClick={onUpload}>
                 <Upload size={16} />
                 {data.upload_text}
               </button>
@@ -115,6 +128,19 @@ function ClipSection({ data }: { data: RekaClipData["clip"] }) {
 
 export default function RekaClipLanding({ data }: { data: RekaClipData }) {
   const [activeSection, setActiveSection] = useState("clip");
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const { requireAuthAndPayment } = useRekaClipGate();
+
+  const handleGenerate = async () => {
+    await requireAuthAndPayment("clip_generate");
+  };
+
+  const handleUpload = async () => {
+    const allowed = await requireAuthAndPayment("clip_upload");
+    if (allowed) {
+      fileInputRef.current?.click();
+    }
+  };
 
   const scrollToSection = (id: string) => {
     setActiveSection(id);
@@ -126,7 +152,20 @@ export default function RekaClipLanding({ data }: { data: RekaClipData }) {
     <div className="landing-reka">
       <RekaSidebar activeSection={activeSection} onNavigate={scrollToSection} />
       <main className="reka-main">
-        <ClipSection data={data.clip} />
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="video/mp4,video/*"
+          className="sr-only"
+          tabIndex={-1}
+          aria-hidden
+          onChange={() => {
+            if (fileInputRef.current) {
+              fileInputRef.current.value = "";
+            }
+          }}
+        />
+        <ClipSection data={data.clip} onGenerate={handleGenerate} onUpload={handleUpload} />
 
         <footer className="border-t border-[var(--glass-border)] py-8 px-4">
           <div className="max-w-5xl mx-auto text-center text-sm text-[var(--text-secondary)]">

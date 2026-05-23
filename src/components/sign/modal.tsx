@@ -60,10 +60,10 @@ export default function SignModal() {
       {/* Text Area */}
       <div className="text-center space-y-2">
         <h2 className="text-2xl font-semibold tracking-tight text-foreground">
-          Welcome to EasyClaw
+          Welcome to Reka Clip
         </h2>
         <p className="text-sm text-muted-foreground">
-          Sign in to deploy and manage OpenClaw
+          Sign in to deploy and manage Reka Clip
         </p>
       </div>
 

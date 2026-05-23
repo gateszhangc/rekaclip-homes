@@ -30,11 +30,16 @@ export async function findManualPaymentRequestByOrderNo(orderNo: string) {
 }
 
 export async function getManualPaymentRequestsByUserUuid(userUuid: string) {
-  return db()
-    .select()
-    .from(manualPaymentRequests)
-    .where(eq(manualPaymentRequests.user_uuid, userUuid))
-    .orderBy(desc(manualPaymentRequests.created_at));
+  try {
+    return await db()
+      .select()
+      .from(manualPaymentRequests)
+      .where(eq(manualPaymentRequests.user_uuid, userUuid))
+      .orderBy(desc(manualPaymentRequests.created_at));
+  } catch (error) {
+    console.error("getManualPaymentRequestsByUserUuid failed:", error);
+    return [];
+  }
 }
 
 export async function getPendingManualPaymentRequests() {

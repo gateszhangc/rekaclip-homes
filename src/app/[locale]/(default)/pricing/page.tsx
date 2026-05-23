@@ -1,4 +1,5 @@
-import Pricing from "@/components/blocks/pricing";
+import RekaPricingSection from "@/components/landing/reka-pricing-section";
+import RekaPricingShell from "@/components/landing/reka-pricing-shell";
 import { getPricingPage } from "@/services/page";
 import { getSiteUrl } from "@/lib/site-url";
 import {
@@ -17,11 +18,10 @@ export async function generateMetadata({
   const languages = buildAlternateLanguageUrls(siteUrl, "/pricing");
   const page = await getPricingPage(locale);
   const title = page.pricing?.title ?? "Pricing";
-  const description = page.pricing?.description;
 
   return {
-    title: `${title} | EasyClaw`,
-    description,
+    title: `${title} | Reka Clip`,
+    description: page.pricing?.description,
     alternates: {
       canonical: canonicalUrl,
       languages,
@@ -37,5 +37,11 @@ export default async function PricingPage({
   const { locale } = await params;
   const page = await getPricingPage(locale);
 
-  return <>{page.pricing && <Pricing pricing={page.pricing} isStandalone />}</>;
+  if (!page.pricing) return null;
+
+  return (
+    <RekaPricingShell>
+      <RekaPricingSection pricing={page.pricing} />
+    </RekaPricingShell>
+  );
 }

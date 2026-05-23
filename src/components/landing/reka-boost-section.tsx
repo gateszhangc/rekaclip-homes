@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { Check, Flame } from "lucide-react";
+import { useRekaClipGate } from "@/hooks/use-reka-clip-gate";
 
 export interface BoostTier {
   name: string;
@@ -244,6 +247,12 @@ function BoostStepSection({ step }: { step: BoostStep }) {
 }
 
 export default function RekaBoostSection({ data }: { data: RekaBoostData }) {
+  const { requireAuthAndPayment } = useRekaClipGate();
+
+  const handleBoostCta = () => {
+    void requireAuthAndPayment("boost_cta");
+  };
+
   return (
     <>
       <section className="reka-boost-page reka-boost-page--hero">
@@ -255,7 +264,7 @@ export default function RekaBoostSection({ data }: { data: RekaBoostData }) {
               <span className="gradient-text">{data.hero.title_highlight}</span>
             </h1>
             <p className="reka-boost-desc">{data.hero.description}</p>
-            <button type="button" className="reka-boost-cta-btn">
+            <button type="button" className="reka-boost-cta-btn" onClick={handleBoostCta}>
               <Flame size={18} aria-hidden />
               {data.hero.cta}
             </button>
@@ -287,7 +296,7 @@ export default function RekaBoostSection({ data }: { data: RekaBoostData }) {
           </h2>
           <p className="reka-boost-cta-desc">{data.cta.description}</p>
           <div className="reka-boost-cta-actions">
-            <button type="button" className="reka-boost-cta-btn">
+            <button type="button" className="reka-boost-cta-btn" onClick={handleBoostCta}>
               <Flame size={18} aria-hidden />
               {data.cta.primary}
             </button>
