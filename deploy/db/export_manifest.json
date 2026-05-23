@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-23T14:21:57.767Z",
+  "database": "rekaclip",
+  "schema": "easyclaw",
+  "tables": [
+    "drizzle.__drizzle_migrations",
+    "easyclaw.affiliates",
+    "easyclaw.apikeys",
+    "easyclaw.credits",
+    "easyclaw.deployments",
+    "easyclaw.feedbacks",
+    "easyclaw.manual_payment_requests",
+    "easyclaw.orders",
+    "easyclaw.posts",
+    "easyclaw.users"
+  ],
+  "files": [
+    "00_schema.sql",
+    "01_data.sql",
+    "migrations_combined.sql",
+    "README.md"
+  ]
+}
