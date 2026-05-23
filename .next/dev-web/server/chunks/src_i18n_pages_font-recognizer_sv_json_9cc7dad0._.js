@@ -1,9 +1,0 @@
-module.exports = {
-
-"[project]/src/i18n/pages/font-recognizer/sv.json (json)": ((__turbopack_context__) => {
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Bild Flipper\",\"description\":\"Ladda upp en bild för professionell färginversion och förbättring\",\"disabled\":false,\"upload\":{\"title\":\"Dra och släpp en bild\",\"description\":\"Stöder PNG, JPG, JPEG, WebP upp till 10MB\",\"buttonText\":\"Välj en fil\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Ren bild\",\"textListTitle\":\"Upptäckta textområden\",\"fontRecommendationTitle\":\"Borttagningsförslag\",\"detectedFontLabel\":\"Valt område\",\"similarFontsLabel\":\"Alternativa fyllningar\",\"selectTextPrompt\":\"Välj ett textblock att ta bort\"},\"actions\":{\"reuploadText\":\"Ladda upp igen\"},\"messages\":{\"uploadSuccess\":\"Bilden har laddats upp\",\"uploadError\":\"Det gick inte att ladda upp bilden\",\"recognitionSuccess\":\"Detektering avslutad\",\"recognitionError\":\"Detektering misslyckades\",\"fontRecognitionSuccess\":\"Textborttagning slutförd\",\"fontRecognitionError\":\"Det gick inte att ta bort text\",\"processing\":\"Bearbetar...\"}}}"));}}),
-
-};

@@ -1,9 +1,0 @@
-module.exports = {
-
-"[project]/src/i18n/pages/font-recognizer/id.json (json)": ((__turbopack_context__) => {
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Sirip Gambar\",\"description\":\"Unggah gambar untuk inversi dan peningkatan warna profesional\",\"disabled\":false,\"upload\":{\"title\":\"Seret & lepas gambar\",\"description\":\"Mendukung PNG, JPG, JPEG, WebP hingga 10MB\",\"buttonText\":\"Pilih file\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Gambar Bersih\",\"textListTitle\":\"Area Teks Terdeteksi\",\"fontRecommendationTitle\":\"Saran Penghapusan\",\"detectedFontLabel\":\"Daerah yang Dipilih\",\"similarFontsLabel\":\"Isian Alternatif\",\"selectTextPrompt\":\"Pilih blok teks untuk dihapus\"},\"actions\":{\"reuploadText\":\"Unggah ulang\"},\"messages\":{\"uploadSuccess\":\"Gambar berhasil diunggah\",\"uploadError\":\"Gagal mengunggah gambar\",\"recognitionSuccess\":\"Deteksi selesai\",\"recognitionError\":\"Deteksi gagal\",\"fontRecognitionSuccess\":\"Penghapusan teks selesai\",\"fontRecognitionError\":\"Penghapusan teks gagal\",\"processing\":\"Memproses...\"}}}"));}}),
-
-};

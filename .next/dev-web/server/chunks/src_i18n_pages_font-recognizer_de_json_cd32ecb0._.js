@@ -1,9 +1,0 @@
-module.exports = {
-
-"[project]/src/i18n/pages/font-recognizer/de.json (json)": ((__turbopack_context__) => {
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Bildflipper\",\"description\":\"Laden Sie ein Bild zur professionellen Farbumkehr und -verbesserung hoch\",\"disabled\":false,\"upload\":{\"title\":\"Ziehen Sie ein Bild per Drag & Drop\",\"description\":\"Unterstützt PNG, JPG, JPEG, WebP bis zu 10 MB\",\"buttonText\":\"Wählen Sie eine Datei\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Sauberes Bild\",\"textListTitle\":\"Erkannte Textbereiche\",\"fontRecommendationTitle\":\"Vorschläge zum Entfernen\",\"detectedFontLabel\":\"Ausgewählter Bereich\",\"similarFontsLabel\":\"Alternative Füllungen\",\"selectTextPrompt\":\"Wählen Sie einen Textblock zum Entfernen aus\"},\"actions\":{\"reuploadText\":\"Erneut hochladen\"},\"messages\":{\"uploadSuccess\":\"Bild erfolgreich hochgeladen\",\"uploadError\":\"Bild konnte nicht hochgeladen werden\",\"recognitionSuccess\":\"Erkennung abgeschlossen\",\"recognitionError\":\"Die Erkennung ist fehlgeschlagen\",\"fontRecognitionSuccess\":\"Textentfernung abgeschlossen\",\"fontRecognitionError\":\"Das Entfernen des Textes ist fehlgeschlagen\",\"processing\":\"Wird bearbeitet...\"}}}"));}}),
-
-};
