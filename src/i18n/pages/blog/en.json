@@ -1,6 +1,6 @@
 {
   "blog": {
-    "disabled": false,
+    "disabled": true,
     "label": "Creator Notes",
     "title": "Blog",
     "description": "Guides on clipping, captions, Boost publishing, and growing with short-form video.",

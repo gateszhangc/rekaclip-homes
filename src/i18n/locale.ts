@@ -34,10 +34,8 @@ export const locales = [
 ] as string[];
 
 export const defaultLocale = "en";
-// All app pages live under the [locale] segment, so the default locale must
-// stay prefixed as well. Using "as-needed" caused / -> /en rewrites to fight
-// with /en -> / canonical redirects and produced a 404 homepage.
-export const localePrefix = "always";
+// English-only product surface: hide /en in URLs; other locales keep a prefix when used.
+export const localePrefix = "as-needed";
 export const localeDetection = false;
 export const localeSwitcherEnabled = false;
 
