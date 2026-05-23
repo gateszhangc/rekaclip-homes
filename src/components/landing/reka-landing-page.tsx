@@ -1,8 +1,20 @@
 "use client";
 
-import { useRef, useState } from "react";
-import { Link } from "@/i18n/navigation";
-import RekaSidebar from "@/components/landing/reka-sidebar";
+import { useCallback, useEffect, useRef, useState } from "react";
+import RekaLandingShell from "@/components/landing/reka-landing-shell";
+import RekaSiteFooter from "@/components/landing/reka-site-footer";
+import type { Footer } from "@/types/blocks/footer";
+import RekaBoostSection, {
+  RekaBoostCtaSection,
+  SHOW_BOOST_CTA,
+  type RekaBoostData,
+} from "@/components/landing/reka-boost-section";
+import RekaFeatureSection, { type RekaFeatureData } from "@/components/landing/reka-feature-section";
+import RekaFaqSection, { type RekaFaqData } from "@/components/landing/reka-faq-section";
+import RekaTestimonialsSection, {
+  type RekaTestimonialsData,
+} from "@/components/landing/reka-testimonials-section";
+import { REKA_SECTION_IDS } from "@/components/landing/reka-top-nav";
 import { useRekaClipGate } from "@/hooks/use-reka-clip-gate";
 import { Link as LinkIcon, Upload, MonitorPlay, Lock } from "lucide-react";
 
@@ -24,9 +36,14 @@ interface RekaClipData {
     metrics: { clips_per_stream: string; clips_label: string; turnaround: string; turnaround_label: string; engagement: string; engagement_label: string };
     features: string[];
   };
-  footer: {
-    copyright: string;
-  };
+  footer?: Footer;
+}
+
+export interface RekaLandingPageData extends RekaClipData {
+  boost?: RekaBoostData;
+  feature?: RekaFeatureData;
+  faq?: RekaFaqData;
+  testimonials?: RekaTestimonialsData;
 }
 
 function PlatformIcon({ icon }: { icon: string }) {
@@ -57,8 +74,9 @@ function ClipSection({
   onUpload: () => void;
 }) {
   return (
-    <section id="clip" className="reka-clip-hero">
-      <div className="reka-clip-hero-grid">
+    <section id="clip" className="reka-clip-hero reka-section-anchor">
+      <div className="reka-page-container reka-clip-hero-container">
+        <div className="reka-clip-hero-grid">
         <div className="reka-clip-hero-copy landing-reveal landing-reveal--1">
           <h1 className="reka-clip-hero-title">
             {data.title_prefix}
@@ -122,14 +140,49 @@ function ClipSection({
           />
         </div>
       </div>
+      </div>
     </section>
   );
 }
 
-export default function RekaClipLanding({ data }: { data: RekaClipData }) {
+export default function RekaLandingPage({ data }: { data: RekaLandingPageData }) {
   const [activeSection, setActiveSection] = useState("clip");
   const fileInputRef = useRef<HTMLInputElement>(null);
   const { requireAuthAndPayment } = useRekaClipGate();
+
+  const scrollToSection = useCallback((id: string) => {
+    setActiveSection(id);
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (REKA_SECTION_IDS.includes(hash as (typeof REKA_SECTION_IDS)[number])) {
+      requestAnimationFrame(() => scrollToSection(hash));
+    }
+  }, [scrollToSection]);
+
+  useEffect(() => {
+    const sections = REKA_SECTION_IDS.map((id) => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+    if (!sections.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((e) => e.isIntersecting)
+          .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
+        const top = visible[0];
+        if (top?.target.id) {
+          setActiveSection(top.target.id);
+        }
+      },
+      { rootMargin: "-30% 0px -55% 0px", threshold: [0, 0.15, 0.35, 0.55] }
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, [data.boost, data.feature, data.faq]);
 
   const handleGenerate = async () => {
     await requireAuthAndPayment("clip_generate");
@@ -142,42 +195,49 @@ export default function RekaClipLanding({ data }: { data: RekaClipData }) {
     }
   };
 
-  const scrollToSection = (id: string) => {
-    setActiveSection(id);
-    const el = document.getElementById(id);
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
-
   return (
-    <div className="landing-reka">
-      <RekaSidebar activeSection={activeSection} onNavigate={scrollToSection} />
-      <main className="reka-main">
-        <input
-          ref={fileInputRef}
-          type="file"
-          accept="video/mp4,video/*"
-          className="sr-only"
-          tabIndex={-1}
-          aria-hidden
-          onChange={() => {
-            if (fileInputRef.current) {
-              fileInputRef.current.value = "";
-            }
-          }}
-        />
-        <ClipSection data={data.clip} onGenerate={handleGenerate} onUpload={handleUpload} />
+    <RekaLandingShell activeSection={activeSection} onNavigate={scrollToSection}>
+      <input
+        ref={fileInputRef}
+        type="file"
+        accept="video/mp4,video/*"
+        className="sr-only"
+        tabIndex={-1}
+        aria-hidden
+        onChange={() => {
+          if (fileInputRef.current) {
+            fileInputRef.current.value = "";
+          }
+        }}
+      />
 
-        <footer className="border-t border-[var(--glass-border)] py-8 px-4">
-          <div className="max-w-5xl mx-auto text-center text-sm text-[var(--text-secondary)]">
-            <p>{data.footer.copyright}</p>
-            <div className="flex justify-center gap-4 mt-4">
-              <Link href="/privacy-policy" className="hover:text-[var(--text)] transition">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="hover:text-[var(--text)] transition">Terms of Service</Link>
-              <Link href="/refund-policy" className="hover:text-[var(--text)] transition">Refund Policy</Link>
-            </div>
-          </div>
-        </footer>
-      </main>
-    </div>
+      <ClipSection data={data.clip} onGenerate={handleGenerate} onUpload={handleUpload} />
+
+      {data.boost && (
+        <div id="boost" className="reka-section-anchor">
+          <RekaBoostSection data={data.boost} />
+        </div>
+      )}
+
+      {data.feature && (
+        <div id="feature" className="reka-section-anchor">
+          <RekaFeatureSection data={data.feature} />
+        </div>
+      )}
+
+      {data.testimonials && !data.testimonials.disabled && (
+        <RekaTestimonialsSection data={data.testimonials} />
+      )}
+
+      {data.faq && !data.faq.disabled && (
+        <div id="faq" className="reka-section-anchor">
+          <RekaFaqSection data={data.faq} />
+        </div>
+      )}
+
+      {SHOW_BOOST_CTA && data.boost?.cta && <RekaBoostCtaSection cta={data.boost.cta} />}
+
+      {data.footer && <RekaSiteFooter footer={data.footer} />}
+    </RekaLandingShell>
   );
 }

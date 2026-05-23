@@ -121,7 +121,8 @@ export default function RekaPricingSection({ pricing }: RekaPricingSectionProps)
 
   return (
     <section className="reka-pricing-page">
-      <div className="reka-pricing-inner">
+      <div className="reka-page-container">
+        <div className="reka-pricing-inner">
         <header className="reka-pricing-header landing-reveal landing-reveal--1">
           <h1 className="reka-pricing-title">{pricing.title}</h1>
           {pricing.description && <p className="reka-pricing-desc">{pricing.description}</p>}
@@ -240,6 +241,7 @@ export default function RekaPricingSection({ pricing }: RekaPricingSectionProps)
               </ul>
             </article>
           ))}
+        </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import type { RekaBoostData } from "@/components/landing/reka-boost-section";
 import type { RekaFaqData } from "@/components/landing/reka-faq-section";
+import type { RekaTestimonialsData } from "@/components/landing/reka-testimonials-section";
 import { LandingPage, PricingPage, ShowcasePage } from "@/types/pages/landing";
 import { toFileLocale } from "@/i18n/locale";
 
@@ -25,6 +26,10 @@ export interface FaqPageData {
   faq?: RekaFaqData;
 }
 
+export interface TestimonialsPageData {
+  testimonials?: RekaTestimonialsData;
+}
+
 export async function getLandingPage(locale: string): Promise<LandingPage> {
   // Force cache invalidation
   return (await getPage("landing", locale)) as LandingPage;
@@ -40,6 +45,10 @@ export async function getBoostPage(locale: string): Promise<BoostPageData> {
 
 export async function getFaqPage(locale: string): Promise<FaqPageData> {
   return (await getPage("faq", locale)) as FaqPageData;
+}
+
+export async function getTestimonialsPage(locale: string): Promise<TestimonialsPageData> {
+  return (await getPage("testimonials", locale)) as TestimonialsPageData;
 }
 
 export async function getPricingPage(locale: string): Promise<PricingPage> {

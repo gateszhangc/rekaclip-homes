@@ -3,31 +3,56 @@
     "disabled": false,
     "label": "FAQ",
     "title": "Common Questions",
-    "description": "Everything you need to know about Reka Clip.",
+    "description": "Everything you need to know about Reka Clip — clipping, captions, live streams, and Boost.",
+    "contact_email": "support@rekaclip.com",
     "items": [
       {
-        "title": "How do credits work?",
-        "description": "Each video minute processed consumes one credit. HD clips cost an additional credit. Free tier includes 3 hours of video processing."
+        "title": "What is Reka Clip and how does it work?",
+        "description": "Reka Clip is an AI video clipping platform that turns long YouTube, Twitch, or uploaded videos into short-form clips in one click. Paste a link or upload an MP4, and our model finds highlight moments, reframes for vertical platforms, and adds captions — so you can publish faster without manual editing."
       },
       {
-        "title": "Can I cancel my subscription?",
-        "description": "Yes, you can cancel anytime from your account settings. Your access continues until the end of your billing period."
+        "title": "Who is Reka Clip built for?",
+        "description": "Clippers, streamers, podcasters, musicians, marketers, and any creator who wants more reach from long-form content. Whether you run a gaming channel, interview show, or brand account, Reka Clip helps you repurpose hours of footage into shareable shorts."
       },
       {
-        "title": "What if clip generation fails?",
-        "description": "If a generation fails, your credits are automatically refunded. Check the error message for details or contact support."
+        "title": "What video sources can I use?",
+        "description": "You can paste a public YouTube or Twitch VOD link, or upload your own MP4 file. Live stream clipping is supported for eligible streams — insert a live URL and receive captioned, reframed clips within minutes of the moment happening."
+      },
+      {
+        "title": "How does AI choose what to clip?",
+        "description": "Reka Clip analyzes speech, visuals, and pacing to surface moments likely to perform as shorts. Use Moments for a single highlight or Compilation to combine several peaks. You can also guide the AI with a prompt — for example, \"clip the funniest reactions\" or \"highlight the product demo.\""
+      },
+      {
+        "title": "Can I control aspect ratio, captions, and length?",
+        "description": "Yes. Export in 9:16, 9:16 split-screen, 16:9, 4:5, or 1:1, up to 1080p. Auto-captions are available in 80+ languages with customizable style. Clip length can be left on Auto or constrained with min/max duration so outputs fit your platform."
       },
       {
         "title": "How long does processing take?",
-        "description": "A 20-minute video typically takes about 4 minutes. Longer videos may take proportionally longer."
+        "description": "Most 20-minute videos finish in about four minutes. Longer inputs scale proportionally. Live clips are designed to land within roughly five minutes of the moment so you can post while the stream is still active — when timing matters most for engagement."
       },
       {
-        "title": "Can I use it for commercial projects?",
-        "description": "Yes, all paid plans include commercial usage rights. Generated clips can be used for monetized content."
+        "title": "What is Boost and how does it work?",
+        "description": "Boost distributes a clip you already generated through Reka’s verified creator network. Pick a clip, choose TikTok, Instagram, or YouTube, set a view-based budget tier, add accounts and hashtags, and matched creators post on your behalf. Track views, likes, and comments in your dashboard."
       },
       {
-        "title": "What languages are supported?",
-        "description": "Reka Clip supports auto-captions in 80+ languages. You can customize caption style, position, and appearance."
+        "title": "How do credits and pricing work?",
+        "description": "Processing is metered by video minutes and options such as HD output. Free tier includes a starter allowance; paid plans add more minutes and commercial rights. If a generation fails, credits are refunded automatically. See Pricing for current plan details."
+      },
+      {
+        "title": "Can I use generated clips commercially?",
+        "description": "Paid plans include commercial usage rights for monetized channels, brand campaigns, and client work. Always review your plan terms and any third-party assets (music, logos, or guest appearances) in the source video before publishing."
+      },
+      {
+        "title": "Will my shorts pass platform originality checks?",
+        "description": "Clips are rendered fresh with reframing, captions, and edits applied per output — not simple trims of the same file. That helps shorts meet originality expectations on TikTok, YouTube Shorts, and Instagram Reels, though platform policies can change and vary by account."
+      },
+      {
+        "title": "What if clip generation fails?",
+        "description": "Failed jobs show an error in your history and credits are returned when applicable. Common causes include unavailable source videos, unsupported formats, or rate limits. Retry with a stable link or contact support if the issue persists."
+      },
+      {
+        "title": "How does Reka Clip handle my data?",
+        "description": "We process your video to generate clips and retain only what’s needed to deliver the service — such as job history and outputs you save. Do not submit content you do not have rights to use. For full details, see our Privacy Policy."
       }
     ]
   }

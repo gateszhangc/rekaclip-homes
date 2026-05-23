@@ -20,7 +20,7 @@ export default async function DefaultLayout({
     <LandingTheme>
       <BlogPrefetch locale={locale} />
       {!isRekaClip && page.header && <Header header={page.header} />}
-      <main className="overflow-x-hidden">{children}</main>
+      <main className={isRekaClip ? "" : "overflow-x-hidden"}>{children}</main>
       {!isRekaClip && page.footer && <Footer footer={page.footer} />}
     </LandingTheme>
   );

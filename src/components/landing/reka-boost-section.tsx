@@ -1,8 +1,18 @@
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { Check, Flame } from "lucide-react";
+import {
+  BarChart3,
+  Check,
+  Clapperboard,
+  Flame,
+  Hash,
+  Rocket,
+  Share2,
+  Wallet,
+} from "lucide-react";
 import { useRekaClipGate } from "@/hooks/use-reka-clip-gate";
 
 export interface BoostTier {
@@ -17,6 +27,7 @@ export interface BoostTier {
 
 export interface BoostStep {
   number: string;
+  tab_label?: string;
   title?: string;
   title_prefix?: string;
   title_highlight?: string;
@@ -207,39 +218,133 @@ function BoostStepVisual({ step }: { step: BoostStep }) {
   return null;
 }
 
-function BoostStepSection({ step }: { step: BoostStep }) {
+const STEP_TAB_ICONS = [Clapperboard, Share2, Wallet, Hash, Rocket, BarChart3] as const;
+
+function getStepTabLabel(step: BoostStep) {
+  return step.tab_label || `Step ${step.number}`;
+}
+
+function BoostStepPanel({ step }: { step: BoostStep }) {
   const reverse = step.reverse ?? false;
 
   return (
-    <section className="reka-boost-page">
-      <div className={`reka-boost-grid ${reverse ? "reka-boost-grid--reverse" : ""}`}>
-        <div className="reka-boost-copy landing-reveal landing-reveal--1">
-          <span className="reka-boost-step-label">Step {step.number}</span>
-          <BoostTitle
-            title={step.title}
-            title_prefix={step.title_prefix}
-            title_highlight={step.title_highlight}
-          />
-          <p className="reka-boost-desc">{step.description}</p>
+    <div className={`reka-boost-grid ${reverse ? "reka-boost-grid--reverse" : ""}`}>
+      <div className="reka-boost-copy">
+        <span className="reka-boost-step-label">Step {step.number}</span>
+        <BoostTitle
+          title={step.title}
+          title_prefix={step.title_prefix}
+          title_highlight={step.title_highlight}
+        />
+        <p className="reka-boost-desc">{step.description}</p>
 
-          {step.platforms && <BoostPlatformsList platforms={step.platforms} />}
+        {step.platforms && <BoostPlatformsList platforms={step.platforms} />}
 
-          {step.bullets && (
-            <ul className="reka-boost-bullets">
-              {step.bullets.map((item) => (
-                <li key={item}>
-                  <span className="reka-boost-bullet-icon" aria-hidden>
-                    <Check size={14} strokeWidth={3} />
+        {step.bullets && (
+          <ul className="reka-boost-bullets">
+            {step.bullets.map((item) => (
+              <li key={item}>
+                <span className="reka-boost-bullet-icon" aria-hidden>
+                  <Check size={14} strokeWidth={3} />
+                </span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <div className="reka-boost-visual">
+        <div className="reka-boost-visual-frame">
+          <BoostStepVisual step={step} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BoostStepsExplorer({ steps }: { steps: BoostStep[] }) {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const activeStep = steps[activeIndex] ?? steps[0];
+
+  if (!activeStep) return null;
+
+  return (
+    <section className="reka-boost-page reka-boost-page--steps">
+      <div className="reka-page-container reka-boost-steps-shell">
+        <div className="reka-boost-steps-tabs-wrap">
+          <div className="reka-boost-steps-tabs" role="tablist" aria-label="Boost steps">
+            {steps.map((step, index) => {
+              const Icon = STEP_TAB_ICONS[index] ?? Rocket;
+              const isActive = index === activeIndex;
+
+              return (
+                <button
+                  key={step.number}
+                  type="button"
+                  role="tab"
+                  id={`boost-step-tab-${step.number}`}
+                  aria-selected={isActive}
+                  aria-controls={`boost-step-panel-${step.number}`}
+                  className={`reka-boost-steps-tab ${isActive ? "reka-boost-steps-tab--active" : ""}`}
+                  onClick={() => setActiveIndex(index)}
+                >
+                  <Icon size={18} aria-hidden className="reka-boost-steps-tab-icon" />
+                  <span className="reka-boost-steps-tab-text">
+                    <span className="reka-boost-steps-tab-step">Step {step.number}</span>
+                    <span className="reka-boost-steps-tab-label">{getStepTabLabel(step)}</span>
                   </span>
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
-          )}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
-        <div className="reka-boost-visual landing-reveal landing-reveal--2">
-          <BoostStepVisual step={step} />
+        <div
+          className="reka-boost-steps-panel"
+          role="tabpanel"
+          id={`boost-step-panel-${activeStep.number}`}
+          aria-labelledby={`boost-step-tab-${activeStep.number}`}
+        >
+          <BoostStepPanel key={activeStep.number} step={activeStep} />
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/** Set to true when Step 01–06 sections are ready to show again. */
+const SHOW_BOOST_STEPS = true;
+
+/** Set to true when the "Ready to go viral?" CTA block should show. */
+export const SHOW_BOOST_CTA = false;
+
+export function RekaBoostCtaSection({ cta }: { cta: RekaBoostData["cta"] }) {
+  const { requireAuthAndPayment } = useRekaClipGate();
+
+  const handleBoostCta = () => {
+    void requireAuthAndPayment("boost_cta");
+  };
+
+  return (
+    <section className="reka-boost-page reka-boost-page--cta">
+      <div className="reka-page-container">
+        <div className="reka-boost-cta-inner landing-reveal landing-reveal--1">
+          <span className="reka-boost-cta-label">{cta.label}</span>
+          <h2 className="reka-boost-cta-title">
+            {cta.title_prefix}
+            <span className="gradient-text">{cta.title_highlight}</span>
+          </h2>
+          <p className="reka-boost-cta-desc">{cta.description}</p>
+          <div className="reka-boost-cta-actions">
+            <button type="button" className="reka-boost-cta-btn" onClick={handleBoostCta}>
+              <Flame size={18} aria-hidden />
+              {cta.primary}
+            </button>
+            <Link href={cta.secondary_href} className="reka-boost-cta-secondary">
+              {cta.secondary}
+            </Link>
+          </div>
         </div>
       </div>
     </section>
@@ -254,9 +359,10 @@ export default function RekaBoostSection({ data }: { data: RekaBoostData }) {
   };
 
   return (
-    <>
+    <div className="reka-boost-module">
       <section className="reka-boost-page reka-boost-page--hero">
-        <div className="reka-boost-grid">
+        <div className="reka-page-container">
+          <div className="reka-boost-grid">
           <div className="reka-boost-copy landing-reveal landing-reveal--1">
             <span className="reka-boost-hero-label">{data.hero.label}</span>
             <h1 className="reka-boost-hero-title">
@@ -280,32 +386,13 @@ export default function RekaBoostSection({ data }: { data: RekaBoostData }) {
               priority
             />
           </div>
-        </div>
-      </section>
-
-      {data.steps.map((step) => (
-        <BoostStepSection key={step.number} step={step} />
-      ))}
-
-      <section className="reka-boost-page reka-boost-page--cta">
-        <div className="reka-boost-cta-inner landing-reveal landing-reveal--1">
-          <span className="reka-boost-cta-label">{data.cta.label}</span>
-          <h2 className="reka-boost-cta-title">
-            {data.cta.title_prefix}
-            <span className="gradient-text">{data.cta.title_highlight}</span>
-          </h2>
-          <p className="reka-boost-cta-desc">{data.cta.description}</p>
-          <div className="reka-boost-cta-actions">
-            <button type="button" className="reka-boost-cta-btn" onClick={handleBoostCta}>
-              <Flame size={18} aria-hidden />
-              {data.cta.primary}
-            </button>
-            <Link href={data.cta.secondary_href} className="reka-boost-cta-secondary">
-              {data.cta.secondary}
-            </Link>
           </div>
         </div>
       </section>
-    </>
+
+      {SHOW_BOOST_STEPS && data.steps.length > 0 && (
+        <BoostStepsExplorer steps={data.steps} />
+      )}
+    </div>
   );
 }

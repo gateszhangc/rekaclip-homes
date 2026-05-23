@@ -1,5 +1,13 @@
-import { getLandingPage } from "@/services/page";
-import RekaClipLanding from "@/components/landing/reka-clip-landing";
+import RekaLandingPage, {
+  type RekaLandingPageData,
+} from "@/components/landing/reka-landing-page";
+import {
+  getBoostPage,
+  getFaqPage,
+  getFeaturePage,
+  getLandingPage,
+  getTestimonialsPage,
+} from "@/services/page";
 
 export async function generateMetadata() {
   return {
@@ -17,7 +25,50 @@ export default async function LandingPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const page = await getLandingPage(locale);
+  const [landing, boostPage, featurePage, faqPage, testimonialsPage] = await Promise.all([
+    getLandingPage(locale),
+    getBoostPage(locale),
+    getFeaturePage(locale),
+    getFaqPage(locale),
+    getTestimonialsPage(locale),
+  ]);
 
-  return <RekaClipLanding data={page as any} />;
+  const faq = faqPage.faq;
+  const faqSchema =
+    faq && !faq.disabled
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faq.items.map((item) => ({
+            "@type": "Question",
+            name: item.title,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: item.description,
+            },
+          })),
+        }
+      : null;
+
+  return (
+    <>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      <RekaLandingPage
+        data={
+          {
+            ...landing,
+            boost: boostPage.boost,
+            feature: featurePage.feature,
+            faq,
+            testimonials: testimonialsPage.testimonials,
+          } as RekaLandingPageData
+        }
+      />
+    </>
+  );
 }

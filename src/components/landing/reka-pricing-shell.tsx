@@ -1,13 +1,12 @@
 "use client";
 
 import { ReactNode } from "react";
-import RekaSidebar from "@/components/landing/reka-sidebar";
+import RekaLandingShell from "@/components/landing/reka-landing-shell";
 
 export default function RekaPricingShell({ children }: { children: ReactNode }) {
   return (
-    <div className="landing-reka">
-      <RekaSidebar activeSection="pricing" />
-      <main className="reka-main">{children}</main>
-    </div>
+    <RekaLandingShell activeSection="pricing">
+      {children}
+    </RekaLandingShell>
   );
 }

@@ -1,0 +1,83 @@
+{
+  "testimonials": {
+    "disabled": false,
+    "label": "Testimonials",
+    "title": "What Creators Say About Reka Clip",
+    "description": "See how clippers, streamers, and marketers turn long videos into viral shorts with Reka Clip.",
+    "rating": "Rated 4.9/5 by 12,000+ creators.",
+    "items": [
+      {
+        "quote": "I turned a 3-hour Twitch VOD into a week of Shorts in one afternoon. Reka Clip finds the hype moments better than I do manually.",
+        "name": "Jordan Lee",
+        "role": "Twitch Streamer",
+        "avatar": "/imgs/testimonials/michael-chen.webp"
+      },
+      {
+        "quote": "Auto-captions in multiple languages saved our podcast team hours per episode. The 9:16 reframing stays locked on the speaker every time.",
+        "name": "Sarah Wang",
+        "role": "Podcast Producer",
+        "avatar": "/imgs/testimonials/sophie-miller.webp"
+      },
+      {
+        "quote": "Boost got our launch clip onto creator accounts we could never reach ourselves. We saw real views on TikTok within 48 hours.",
+        "name": "Tom Anderson",
+        "role": "Growth Marketer",
+        "avatar": "/imgs/testimonials/sarah-wang.webp"
+      },
+      {
+        "quote": "As a clipper, speed is everything. Paste the YouTube link, pick Moments, and I have branded vertical clips before the stream hype dies down.",
+        "name": "Alex Rivera",
+        "role": "YouTube Clipper",
+        "avatar": "/imgs/testimonials/emma-zhang.webp"
+      },
+      {
+        "quote": "The AI actually understands gameplay highlights — not just loud moments. My retention on Shorts doubled after switching to Reka Clip.",
+        "name": "Kevin Wu",
+        "role": "Gaming Creator",
+        "avatar": "/imgs/testimonials/david-liu.webp"
+      },
+      {
+        "quote": "We batch-process client webinars into thought-leadership clips. Commercial usage on the Pro plan made procurement painless.",
+        "name": "Michael Chen",
+        "role": "Agency Creative Lead",
+        "avatar": "/imgs/testimonials/kevin-wu.webp"
+      },
+      {
+        "quote": "Live stream clipping is the killer feature. Clips land in Discord while I'm still on air — our community posts them instantly.",
+        "name": "Emma Zhang",
+        "role": "Live Content Creator",
+        "avatar": "/imgs/testimonials/male_1.webp"
+      },
+      {
+        "quote": "I compared five AI clippers. Reka Clip was the only one that nailed subject tracking when guests move around the frame.",
+        "name": "David Liu",
+        "role": "Interview Channel Owner",
+        "avatar": "/imgs/testimonials/male_2.webp"
+      },
+      {
+        "quote": "Compilation mode stitches our best customer stories into one tight reel. Perfect for ads without hiring an editor.",
+        "name": "Jessica Li",
+        "role": "B2B Marketing Manager",
+        "avatar": "/imgs/testimonials/male_3.webp"
+      },
+      {
+        "quote": "Credits are transparent and failed jobs refund automatically. That alone made me trust the product for client work.",
+        "name": "Nina Patel",
+        "role": "Freelance Video Editor",
+        "avatar": "/imgs/testimonials/male_4.webp"
+      },
+      {
+        "quote": "From zero to 8K subscribers in four months — mostly Shorts cut from long streams. Reka Clip is the backbone of my workflow.",
+        "name": "Sophie Miller",
+        "role": "Variety Streamer",
+        "avatar": "/imgs/testimonials/male_5.webp"
+      },
+      {
+        "quote": "Musicians on our label use it for session highlights. Captions, vertical crop, and export quality are ready for Instagram Reels.",
+        "name": "Maya Chen",
+        "role": "Label Operations",
+        "avatar": "/imgs/testimonials/male_6.webp"
+      }
+    ]
+  }
+}

@@ -71,9 +71,15 @@ export default function LandingTheme({
 
   const showHeroBg = landingClassName.includes("landing-raphael");
 
+  const isRekaLanding = landingClassName.includes("landing-reka");
+
   return (
     <div
-      className={shouldApplyTheme ? cn(landingWrapperClassName, "overflow-x-hidden") : ""}
+      className={
+        shouldApplyTheme
+          ? cn(landingWrapperClassName, !isRekaLanding && "overflow-x-hidden")
+          : ""
+      }
     >
       {shouldApplyTheme && showHeroBg ? <HeroBg /> : null}
       {children}

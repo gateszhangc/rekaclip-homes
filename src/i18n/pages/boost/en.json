@@ -14,6 +14,7 @@
     "steps": [
       {
         "number": "01",
+        "tab_label": "Choose clip",
         "title_prefix": "Choose a clip you want to ",
         "title_highlight": "boost",
         "description": "After your clip is generated, pick the one you want to boost. Any clip from YouTube, Twitch, or your own uploads can be boosted.",
@@ -25,6 +26,7 @@
       },
       {
         "number": "02",
+        "tab_label": "Platform",
         "title": "Choose a platform",
         "description": "Distribute your clips on platforms where your audience is active.",
         "platforms": ["TikTok", "Instagram", "YouTube"],
@@ -36,6 +38,7 @@
       },
       {
         "number": "03",
+        "tab_label": "Budget",
         "title_prefix": "Choose a ",
         "title_highlight": "budget",
         "description": "Our budget tiers are based on how many views you want your clip to get. Pick the plan that fits your goals.",
@@ -72,6 +75,7 @@
       },
       {
         "number": "04",
+        "tab_label": "Tags",
         "title_prefix": "Add tags and ",
         "title_highlight": "hashtags",
         "description": "Specify the accounts and hashtags you want creators and clippers to include in post copy to maximize exposure.",
@@ -86,6 +90,7 @@
       },
       {
         "number": "05",
+        "tab_label": "Go viral",
         "title_prefix": "Go viral with Reka's verified ",
         "title_highlight": "network",
         "description": "Reka matches your clips to selected creators and clippers who publish and distribute them for maximum reach.",
@@ -102,6 +107,7 @@
       },
       {
         "number": "06",
+        "tab_label": "Analytics",
         "title_prefix": "Track every ",
         "title_highlight": "view, like, and share",
         "description": "See who posted your clips and how they performed—views, comments, follower counts, and detailed analytics—in your personal Discord dashboard.",

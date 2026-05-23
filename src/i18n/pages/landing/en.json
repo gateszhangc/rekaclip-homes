@@ -10,10 +10,10 @@
     "nav": {
       "items": [
         { "title": "Clip", "url": "/#clip", "icon": "RiScissors2Line" },
-        { "title": "Boost", "url": "/boost", "icon": "RiRocketLine" },
-        { "title": "Feature", "url": "/feature", "icon": "RiSparkling2Line" },
+        { "title": "Boost", "url": "/#boost", "icon": "RiRocketLine" },
+        { "title": "Feature", "url": "/#feature", "icon": "RiSparkling2Line" },
         { "title": "Pricing", "url": "/pricing", "icon": "RiMoneyDollarCircleLine" },
-        { "title": "FAQ", "url": "/faq", "icon": "RiQuestionLine" }
+        { "title": "FAQ", "url": "/#faq", "icon": "RiQuestionLine" }
       ]
     },
     "show_sign": true,
@@ -32,7 +32,7 @@
       { "name": "Livestreams", "icon": "livestream", "selected": false, "locked": true }
     ],
     "or_label": "or",
-    "placeholder": "Paste a YouTube, Twitch link, or upload a video (MP4)",
+    "placeholder": "Paste a YouTube, Twitch link, or upload a video",
     "generate_text": "Make Magic",
     "upload_text": "Upload file",
     "templates": { "moments": "Moments", "compilation": "Compilation" },
@@ -60,21 +60,23 @@
     "name": "footer",
     "brand": {
       "title": "Reka Clip",
-      "description": "AI-powered video clipping platform. Turn long videos into viral shorts.",
+      "description": "AI-powered video clipping for creators. Turn long-form streams and uploads into viral shorts with auto-captions, smart moment detection, and optional Boost distribution.",
       "logo": { "src": "/imgs/logos/logo.svg", "alt": "Reka Clip" },
-      "url": "/"
+      "url": "/",
+      "target": "_self"
     },
-    "copyright": "(c) 2026 . rekaclip. All rights reserved.",
+    "copyright": "All rights reserved.",
+    "disclaimer": "Reka Clip is an AI-assisted video editing product. Generated clips and performance metrics are illustrative; review outputs before publishing or paid promotion.",
     "nav": {
       "items": [
         {
-          "title": "Product",
+          "title": "Explore",
           "children": [
             { "title": "Clip", "url": "/#clip", "target": "_self" },
-            { "title": "Boost", "url": "/boost", "target": "_self" },
-            { "title": "Feature", "url": "/feature", "target": "_self" },
+            { "title": "Boost", "url": "/#boost", "target": "_self" },
+            { "title": "Feature", "url": "/#feature", "target": "_self" },
             { "title": "Pricing", "url": "/pricing", "target": "_self" },
-            { "title": "FAQ", "url": "/faq", "target": "_self" }
+            { "title": "FAQ", "url": "/#faq", "target": "_self" }
           ]
         }
       ]
@@ -82,7 +84,7 @@
     "social": {
       "items": [
         {
-          "title": "Email Support",
+          "title": "Email support",
           "icon": "RiMailLine",
           "url": "mailto:support@rekaclip.com",
           "target": "_self"
@@ -91,9 +93,9 @@
     },
     "agreement": {
       "items": [
-        { "title": "Privacy Policy", "url": "/privacy-policy" },
-        { "title": "Terms of Service", "url": "/terms-of-service" },
-        { "title": "Refund Policy", "url": "/refund-policy" }
+        { "title": "Privacy Policy", "url": "/privacy-policy", "target": "_self" },
+        { "title": "Terms of Service", "url": "/terms-of-service", "target": "_self" },
+        { "title": "Refund Policy", "url": "/refund-policy", "target": "_self" }
       ]
     }
   }

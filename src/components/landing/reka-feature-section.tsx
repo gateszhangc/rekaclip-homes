@@ -17,7 +17,8 @@ export default function RekaFeatureSection({ data }: { data: RekaFeatureData }) 
   return (
     <>
       <section className="reka-feature-page">
-        <div className="reka-feature-grid reka-feature-grid--image-left">
+        <div className="reka-page-container">
+          <div className="reka-feature-grid reka-feature-grid--image-left">
           <div className="reka-feature-visual landing-reveal landing-reveal--1">
             <Image
               src={data.image.src}
@@ -44,11 +45,13 @@ export default function RekaFeatureSection({ data }: { data: RekaFeatureData }) 
               ))}
             </ul>
           </div>
+          </div>
         </div>
       </section>
 
       <section className="reka-feature-page reka-feature-page--tracking">
-        <div className="reka-feature-grid reka-feature-grid--text-left">
+        <div className="reka-page-container">
+          <div className="reka-feature-grid reka-feature-grid--text-left">
           <div className="reka-feature-copy landing-reveal landing-reveal--1">
             <h2 className="reka-feature-title">{data.tracking.title}</h2>
             <p className="reka-feature-desc">{data.tracking.description}</p>
@@ -66,6 +69,7 @@ export default function RekaFeatureSection({ data }: { data: RekaFeatureData }) 
                 aria-label={data.tracking.video.alt}
               />
             </div>
+          </div>
           </div>
         </div>
       </section>
