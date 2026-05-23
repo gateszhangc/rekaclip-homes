@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "वैशिष्ट्ये",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "किंमत",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "ब्लॉग",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "वारंवार विचारले जाणारे प्रश्न",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw लोगो"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "उच्च दर्जाची कला तयार करा",
+    "description": "पोर्ट्रेट अपलोड करा, शैली निवडा आणि अवतार, भेटवस्तू किंवा सामग्रीसाठी स्वच्छ व्यंगचित्र मिळवा.",
+    "features": [
+      "उच्च दर्जाचे तपशील आणि स्वच्छ रेषा",
+      "दैनंदिन वापरासाठी वाजवी किंमत",
+      "प्रोफाइल, भेटवस्तू आणि प्रिंटसाठी तयार"
+    ],
+    "buttons": [
+      {
+        "title": "माझे व्यंगचित्र तयार करा",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "व्यंगचित्र उदाहरण"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "व्यंगचित्र उदाहरण १"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "व्यंगचित्र उदाहरण २"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "व्यंगचित्र उदाहरण ३"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "प्रगत तंत्रज्ञानाद्वारे समर्थित",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "खरे",
+    "name": "introduce",
+    "title": "व्यंगचित्र कसे बनवायचे",
+    "label": "साधी प्रक्रिया",
+    "description": "तीन सोप्या चरणांमध्ये आकर्षक व्यंगचित्रे तयार करा. कलात्मक कौशल्ये आवश्यक नाहीत.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "फोटो अपलोड करा",
+        "description": "स्पष्ट पोर्ट्रेट फोटो अपलोड करा. आम्ही JPG, PNG आणि WebP चे समर्थन करतो.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "शैली निवडा",
+        "description": "मजेदार, अतिशयोक्तीपूर्ण, ॲनिम किंवा 3D कार्टून शैलींमधून निवडा.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "डाउनलोड करा",
+        "description": "वॉटरमार्कशिवाय तुमचे उच्च-गुणवत्तेचे व्यंगचित्र झटपट मिळवा.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "खरे",
+    "name": "benefit",
+    "title": "OpenClaw का वापरावे?",
+    "label": "फायदे",
+    "description": "भेटवस्तू, प्रोफाइल चित्रे आणि सोशल मीडिया सामग्रीसाठी योग्य साधन.",
+    "items": [
+      {
+        "title": "झटपट एआय मॅजिक",
+        "description": "प्रगत AI काही सेकंदात उत्तम प्रकारे अतिशयोक्तीपूर्ण व्यंगचित्रे तयार करण्यासाठी चेहऱ्याच्या वैशिष्ट्यांचे विश्लेषण करते.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "विविध कला शैली",
+        "description": "हाताने काढलेल्या क्लासिक लुक्सपासून ते आधुनिक 3D ॲनिमेटेड अवतारांपर्यंत. आमच्याकडे ते सर्व आहे.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "उच्च रिझोल्यूशन",
+        "description": "मग, टी-शर्ट आणि पोस्टर्सवर छपाईसाठी योग्य असलेल्या कुरकुरीत, उच्च-गुणवत्तेच्या प्रतिमा डाउनलोड करा.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "गॅलरी",
+    "title": "आश्चर्यकारक परिवर्तने",
+    "description": "सामान्य फोटो विलक्षण व्यंगचित्र कसे बनतात ते पहा.",
+    "items": [
+      {
+        "title": "सामाजिक अवतार",
+        "highlight": "ऑनलाइन बाहेर उभे रहा",
+        "description": "तुमचे व्यक्तिमत्त्व कॅप्चर करणारे एक अद्वितीय प्रोफाइल चित्र तयार करा.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "मूळ फोटो",
+        "afterAlt": "व्यंगचित्र परिणाम",
+        "reverse": false
+      },
+      {
+        "title": "वैयक्तिक भेटवस्तू",
+        "highlight": "संस्मरणीय भेटवस्तू",
+        "description": "सानुकूल मजेदार पोर्ट्रेटसह मित्र आणि कुटुंबाला आश्चर्यचकित करा.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "मूळ फोटो",
+        "afterAlt": "व्यंगचित्र परिणाम",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw उपयोजित करण्यासाठी 3 पायऱ्या",
+    "description": "तुमचे मॉडेल निवडा, चॅनेल कनेक्ट करा आणि लॉन्च करा.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "बाकी",
+    "text_align": "केंद्र",
+    "items": [
+      {
+        "title": "एक मॉडेल निवडा",
+        "description": "Claude, GPT, Gemini — प्रत्येक कार्यासाठी सर्वोत्तम मॉडेल निवडा. Claude सह सर्जनशील कार्य, GPT सह विश्लेषण. कधीही स्विच करा.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI मॉडेल निवडा - Claude, GPT, किंवा Gemini"
+        }
+      },
+      {
+        "title": "चॅनेल कनेक्ट करा",
+        "description": "Telegram, Discord, WhatsApp — सर्व चॅनेलसाठी एक डॅशबोर्ड. सर्व संभाषणे एकाच ठिकाणाहून व्यवस्थापित करा, यापुढे ॲप्स बदलू नका.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "मेसेजिंग चॅनेल कनेक्ट करा"
+        }
+      },
+      {
+        "title": "उपयोजित करा आणि सुरू करा",
+        "description": "तुमचा AI सहाय्यक 60 सेकंदात ऑनलाइन आहे. तुमचा पहिला संदेश पाठवा आणि स्वयंचलित सुरू करा.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "तुमचा सहाय्यक तैनात करा आणि सुरू करा"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "तुमचे व्यंगचित्र तयार करा",
+    "description": "फोटो अपलोड करा, शैली निवडा आणि जनरेट करा."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "व्यंगचित्र स्टुडिओ",
+    "description": "एक फोटो अपलोड करा, एक शैली निवडा आणि उच्च-गुणवत्तेचे व्यंगचित्र तयार करा.",
+    "disabled": false,
+    "upload": {
+      "title": "तुमचा फोटो अपलोड करा",
+      "description": "अपलोड करण्यासाठी ड्रॅग आणि ड्रॉप किंवा क्लिक करा (JPG, PNG, WebP 10MB पर्यंत)",
+      "buttonText": "प्रतिमा निवडा",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "तुमचे व्यंगचित्र",
+      "textListTitle": "शैली सेटिंग्ज",
+      "fontRecommendationTitle": "शिफारस केलेल्या शैली",
+      "detectedFontLabel": "वर्तमान निवड",
+      "similarFontsLabel": "हे पण करून पहा",
+      "selectTextPrompt": "लागू करण्यासाठी एक शैली निवडा"
+    },
+    "actions": {
+      "reuploadText": "दुसरा फोटो वापरून पहा"
+    },
+    "messages": {
+      "uploadSuccess": "फोटो यशस्वीरित्या अपलोड झाला!",
+      "uploadError": "अरेरे, अपलोड अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+      "recognitionSuccess": "तुमचे व्यंगचित्र तयार आहे!",
+      "recognitionError": "जनरेशन अयशस्वी. कृपया पुन्हा प्रयत्न करा.",
+      "fontRecognitionSuccess": "शैली लागू!",
+      "fontRecognitionError": "शैली लागू करण्यात अयशस्वी.",
+      "processing": "तुमचे व्यंगचित्र तयार करत आहे..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "त्रासाला निरोप द्या",
+    "description": "तुम्ही EasyClaw वर स्विच करता तेव्हा काय बदल होतात ते पहा",
+    "before_label": "पारंपारिक सेटअप",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "सर्व्हर भाड्याने द्या, वातावरण कॉन्फिगर करा",
+        "after": "एक-क्लिक उपयोजन, सर्व्हरची आवश्यकता नाही"
+      },
+      {
+        "before": "3 AM चेतावणी निश्चित करण्यासाठी जागे व्हा",
+        "after": "24/7 स्वयंचलित ऑपरेशन"
+      },
+      {
+        "before": "OpenClaw आवृत्त्या व्यक्तिचलितपणे अपडेट करा",
+        "after": "नवीनतम आवृत्तीवर स्वयंचलित अद्यतने"
+      },
+      {
+        "before": "डॉकर, लिनक्स कमांड शिका",
+        "after": "शून्य तांत्रिक कौशल्ये आवश्यक"
+      },
+      {
+        "before": "प्रति उपयोजन 30+ मिनिटे",
+        "after": "60 सेकंदांखाली उपयोजित करा"
+      }
+    ],
+    "footer": "वेळ वाचवला: प्रति तैनाती ~29 मिनिटे"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "संघ EasyClaw का निवडतात",
+    "description": "DevOps ओव्हरहेडशिवाय उत्पादन-तयार उपयोजन. शून्य देखभाल, जास्तीत जास्त फोकस.",
+    "items": [
+      {
+        "title": "60 सेकंदात तैनात करा",
+        "description": "शून्य ते एका मिनिटाच्या आत धावणे. डॉकर नाही, लिनक्स कमांड नाही, सर्व्हर सेटअप नाही.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "शून्य देखभाल",
+        "description": "आम्ही अद्यतने, देखरेख आणि पुनर्प्राप्ती हाताळतो. तुम्ही फक्त तुमचा एआय असिस्टंट वापरण्यावर लक्ष केंद्रित करा.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "मॉडेल लवचिकता",
+        "description": "Claude, GPT आणि Gemini दरम्यान कधीही स्विच करा. प्रत्येक कार्यासाठी सर्वोत्तम मॉडेल वापरा.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "युनिफाइड चॅनेल",
+        "description": "एका डॅशबोर्डवरून Telegram, Discord आणि WhatsApp व्यवस्थापित करा. यापुढे स्विचिंग ॲप्स नाहीत.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "नेहमी अद्ययावत",
+        "description": "स्वयंचलित OpenClaw अद्यतने. बोट न उचलता नेहमी नवीनतम वैशिष्ट्ये वापरा.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "आत्मविश्वासाने स्केल करा",
+        "description": "एकट्याने प्रारंभ करा, नंतर संघांमध्ये वापर वाढवा आणि केस वापरा. 1 ते 100 तैनाती पर्यंत.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "कोणत्याही कार्यप्रवाहासाठी OpenClaw तैनात करा",
+    "description": "एक सहाय्यक, अनेक वापर प्रकरणे. एकदा लाँच करा, सर्वत्र स्वयंचलित करा.",
+    "items": [
+      {
+        "title": "दैनिक ब्रीफिंग्ज",
+        "description": "तुमच्या टीमसाठी मेसेज आणि अपडेट्स सकाळच्या संक्षिप्त ब्रिफमध्ये बदला.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "दैनिक ब्रीफिंग ऑटोमेशन वर्कफ्लो"
+        },
+        "buttons": [
+          {
+            "title": "अधिक जाणून घ्या ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "ग्राहक समर्थन सहाय्यक",
+        "description": "प्रश्न मार्गी लावा, उत्तरे मसुदा करा आणि समर्थन चॅनेल प्रतिसादात्मक ठेवा.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "ग्राहक समर्थन ऑटोमेशन वर्कफ्लो"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "तैनात करणे सुरू करा ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "टीम ऑप्स ऑटोमेशन",
+        "description": "चॅनेलवर स्वयंचलित स्मरणपत्रे, स्थिती अहवाल आणि नियमित फॉलो-अप.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "टीम ऑपरेशन्स ऑटोमेशन वर्कफ्लो"
+        },
+        "buttons": [
+          {
+            "title": "किंमत पहा ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "खोटे",
+    "name": "stats",
+    "label": "ठळक मुद्दे",
+    "title": "जलद प्रक्षेपणासाठी तयार केलेले",
+    "description": "OpenClaw विश्वसनीयरित्या चालविण्यासाठी आवश्यक असलेली प्रत्येक गोष्ट.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "प्रथम उपयोजित करण्याची वेळ",
+        "label": "< 1 मि",
+        "description": "सेटअप पासून रनिंग असिस्टंट पर्यंत"
+      },
+      {
+        "title": "समर्थित चॅनेल",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "उपयोजन दृश्यमानता",
+        "label": "रिअल-टाइम",
+        "description": "ट्रॅक चालू आणि अयशस्वी राज्य"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "पुनरावलोकने",
+    "title": "वापरकर्ते काय म्हणत आहेत",
+    "description": "प्रत्येकजण OpenClaw बद्दल का बोलत आहे ते पहा.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "सारा जेनकिन्स",
+        "label": "सोशल मीडिया मॅनेजर",
+        "description": "आमच्या बद्दल पेजसाठी मी एक आनंदी टीम फोटो बनवला आहे. सर्वांना ते आवडले!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "माईक रॉस",
+        "label": "फ्रीलांसर",
+        "description": "माझ्या फ्रीलान्स प्रोफाइलसाठी एक अद्वितीय अवतार तयार करण्यासाठी याचा वापर केला. तो बाहेर उभा आहे!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "एमिली चेन",
+        "label": "विद्यार्थी",
+        "description": "वाढदिवसाच्या कार्डासाठी माझ्या सर्व मित्रांची व्यंगचित्रे बनवली. आतापर्यंतची सर्वोत्तम भेट.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "डेव्हिड मिलर",
+        "label": "सामग्री निर्माता",
+        "description": "विविध शैली आश्चर्यकारक आहेत. मी माझ्या लघुप्रतिमांसाठी 3D शैली वापरतो.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "जेसिका वोंग",
+        "label": "विपणन आघाडी",
+        "description": "जलद, सोपे आणि परिणाम प्रत्यक्षात मजेदार आहेत, फक्त विचित्र नाही.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "टॉम बेकर",
+        "label": "विकसक",
+        "description": "सुपर सिंपल API आणि माझ्या पाळीव प्राण्यांच्या प्रकल्पासाठी उत्कृष्ट परिणाम.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "वारंवार विचारले जाणारे प्रश्न",
+    "title": "सामान्य प्रश्न",
+    "description": "EasyClaw सह OpenClaw तैनात करण्यापूर्वी तुम्हाला आवश्यक असलेली प्रत्येक गोष्ट.",
+    "items": [
+      {
+        "title": "EasyClaw ची किंमत किती आहे?",
+        "description": "योजना $10/महिना पासून सुरू होतात. तुमच्या खात्यातून कधीही रद्द करा."
+      },
+      {
+        "title": "मला सर्व्हर व्यवस्थापित करण्याची आवश्यकता आहे का?",
+        "description": "नाही. EasyClaw उपयोजन कार्यप्रवाह सुव्यवस्थित करते जेणेकरून तुम्ही सर्व्हर किंवा DevOps शिवाय OpenClaw लाँच करू शकता."
+      },
+      {
+        "title": "कोणते मॉडेल समर्थित आहेत?",
+        "description": "Claude, GPT आणि Gemini."
+      },
+      {
+        "title": "मी एकाधिक चॅनेलवर तैनात करू शकतो?",
+        "description": "होय. Telegram, Discord आणि WhatsApp समर्थित आहेत."
+      },
+      {
+        "title": "तैनात करण्यासाठी किती वेळ लागतो?",
+        "description": "सामान्यतः 1 मिनिटापेक्षा कमी. प्रथमच सेटअपला थोडा जास्त वेळ लागू शकतो."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw लाँच करण्यास तयार आहात?",
+    "description": "तुमचा पहिला सहाय्यक एका मिनिटात तैनात करा. सर्व्हर नाही, देखभाल नाही, शिक्षण वक्र नाही.",
+    "note": "कधीही रद्द करा. दीर्घकालीन करार नाही.",
+    "buttons": [
+      {
+        "title": "OpenClaw तैनात करा",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI सहाय्यक तैनात करण्याचा सर्वात सोपा मार्ग.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. सर्व हक्क राखीव.",
+    "nav": {
+      "items": [
+        {
+          "title": "बद्दल",
+          "children": [
+            {
+              "title": "वैशिष्ट्ये",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "किंमत",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "ब्लॉग",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "वारंवार विचारले जाणारे प्रश्न",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "ईमेल समर्थन",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw एक स्वतंत्र उत्पादन आहे आणि कोणत्याही तृतीय-पक्ष मॉडेल प्रदाते किंवा ट्रेडमार्क मालकांशी संबद्ध नाही.",
+    "agreement": {
+      "items": [
+        {
+          "title": "गोपनीयता धोरण",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "सेवा अटी",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "परतावा धोरण",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "किंमत",
+    "title": "किंमत",
+    "description": "तुम्हाला किती OpenClaw उपयोजनांची आवश्यकता आहे यावर आधारित योजना निवडा. तुमच्या खात्यातून कधीही रद्द करा.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "मासिक",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "वार्षिक",
+        "is_featured": true,
+        "label": "५०% वाचवा"
+      }
+    ],
+    "items": [
+      {
+        "title": "प्रो",
+        "label": "लोकप्रिय",
+        "features_title": "कोर उपयोजन वैशिष्ट्ये",
+        "features": [
+          "5 पर्यंत सक्रिय OpenClaw उपयोजन",
+          "उपयोजित, रीस्टार्ट आणि रीडिप्लॉय एक-क्लिक करा",
+          "मॉडेल आणि चॅनेल कॉन्फिगरेशन प्रीसेट",
+          "उपयोजन स्थिती डॅशबोर्ड",
+          "मूलभूत वापर विश्लेषणे",
+          "ईमेल समर्थन",
+          "व्यावसायिक वापर",
+          "नवीन उपयोजन वैशिष्ट्यांमध्ये प्रवेश"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "प्रो मिळवा",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro मासिक",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "प्रीमियम",
+        "features_title": "प्रो मधील सर्व काही, अधिक",
+        "features": [
+          "20 सक्रिय OpenClaw तैनाती पर्यंत",
+          "प्राधान्य तरतूद रांग",
+          "पुन्हा वापरण्यायोग्य मॉडेल आणि चॅनेल प्रीसेट",
+          "उपयोजन स्थितीसाठी वेबहुक सूचना",
+          "संघ प्रवेश (3 सदस्यांपर्यंत)",
+          "API प्रवेश",
+          "प्राधान्य समर्थन",
+          "बीटा वैशिष्ट्यांमध्ये लवकर प्रवेश"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "प्रीमियम मिळवा",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw प्रीमियम मासिक",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "प्रो",
+        "label": "लोकप्रिय",
+        "features_title": "कोर उपयोजन वैशिष्ट्ये",
+        "features": [
+          "5 पर्यंत सक्रिय OpenClaw उपयोजन",
+          "उपयोजित, रीस्टार्ट आणि रीडिप्लॉय एक-क्लिक करा",
+          "मॉडेल आणि चॅनेल कॉन्फिगरेशन प्रीसेट",
+          "उपयोजन स्थिती डॅशबोर्ड",
+          "मूलभूत वापर विश्लेषणे",
+          "ईमेल समर्थन",
+          "व्यावसायिक वापर",
+          "नवीन उपयोजन वैशिष्ट्यांमध्ये प्रवेश"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$५",
+        "original_price": "मूळ किंमत: $10/mo",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "प्रो मिळवा",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw प्रो वार्षिक",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "प्रीमियम",
+        "features_title": "प्रो मधील सर्व काही, अधिक",
+        "features": [
+          "20 सक्रिय OpenClaw तैनाती पर्यंत",
+          "प्राधान्य तरतूद रांग",
+          "पुन्हा वापरण्यायोग्य मॉडेल आणि चॅनेल प्रीसेट",
+          "उपयोजन स्थितीसाठी वेबहुक सूचना",
+          "संघ प्रवेश (3 सदस्यांपर्यंत)",
+          "API प्रवेश",
+          "प्राधान्य समर्थन",
+          "बीटा वैशिष्ट्यांमध्ये लवकर प्रवेश"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "मूळ किंमत: $20/mo",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "प्रीमियम मिळवा",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw प्रीमियम वार्षिक",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

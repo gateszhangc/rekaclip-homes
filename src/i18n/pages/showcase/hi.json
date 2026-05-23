@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "EasyClaw उपयोगकर्ताओं से OpenClaw परिनियोजन उदाहरण",
+    "description": "देखें कि टीमें समर्थन, संचालन और आंतरिक वर्कफ़्लो के लिए OpenClaw सहायक कैसे लॉन्च करती हैं।",
+    "items": [
+      {
+        "title": "ग्राहक सहायता सहायक लॉन्च",
+        "description": "मिनटों में मॉडल फ़ॉलबैक के साथ Telegram सपोर्ट बॉट तैनात किया गया",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "बिक्री अनुवर्ती स्वचालन",
+        "description": "लीड को अर्हता प्राप्त करने और अनुवर्ती उत्तरों का मसौदा तैयार करने के लिए OpenClaw सेट करें",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "आंतरिक परिचालन सूचक",
+        "description": "ऑप्स घटनाओं और घटनाओं के बारे में टीमों को सचेत करने के लिए OpenClaw से कनेक्ट किया गया",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "मल्टीचैनल समुदाय सहायक",
+        "description": "Telegram, Discord और WhatsApp में एक ही असिस्टेंट लॉन्च किया गया",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "साप्ताहिक रिपोर्टिंग वर्कफ़्लो",
+        "description": "प्रत्येक शुक्रवार को प्रबंधकों के लिए स्वचालित सारांश रिपोर्ट",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "सहपायलट को ऑनबोर्ड करना",
+        "description": "नई नियुक्तियों के लिए पहले सप्ताह का मार्गदर्शन और उत्तर दिए गए",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "लीड योग्यता बॉट",
+        "description": "आने वाले प्रश्नों को कैप्चर किया गया और बिक्री के लिए उच्च-इरादे वाले मार्ग प्रशस्त किए गए",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "उत्पाद प्रतिक्रिया संग्राहक",
+        "description": "वर्गीकृत उपयोगकर्ता प्रतिक्रिया और उत्पाद टीमों के लिए उत्पन्न कार्रवाई आइटम",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

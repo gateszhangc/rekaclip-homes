@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - OpenClaw 1 நிமிடத்திற்குள் பயன்படுத்தவும்",
+    "description": "OpenClaw உடன் EasyClaw ஐ ஒரே கிளிக்கில் பயன்படுத்தவும். Telegram ஐ இணைத்து, மாதிரியைத் தேர்ந்தெடுத்து, விரைவாக நேரலைக்குச் செல்லவும்.",
+    "keywords": "ஈஸிக்லா, ஓப்பன்க்லாவை வரிசைப்படுத்துதல், ஓபன் கிளா ஹோஸ்டிங், டெலிகிராம் பாட் வரிசைப்படுத்தல், ஏஐ அசிஸ்டெண்ட் வரிசைப்படுத்தல்"
+  },
+  "blog": {
+    "title": "வலைப்பதிவு",
+    "description": "EasyClaw உடன் OpenClaw ஐப் பயன்படுத்துவது பற்றிய செய்திகள், பயிற்சிகள் மற்றும் புதுப்பிப்புகள்.",
+    "read_more_text": "மேலும் படிக்க"
+  },
+  "user": {
+    "sign_in": "உள்நுழையவும்",
+    "sign_out": "வெளியேறு",
+    "credits": "கடன்கள்",
+    "api_keys": "API விசைகள்",
+    "my_orders": "எனது ஆர்டர்கள்",
+    "my_invites": "எனது அழைப்புகள்",
+    "user_center": "பயனர் மையம்",
+    "support": "ஆதரவு",
+    "admin_system": "நிர்வாக அமைப்பு",
+    "home": "வீடு",
+    "pricing": "விலை நிர்ணயம்",
+    "admin_center": "நிர்வாக மையம்"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClaw இல் உள்நுழையவும்",
+    "sign_in_description": "OpenClaw ஐ வரிசைப்படுத்தவும் நிர்வகிக்கவும் உங்கள் EasyClaw கணக்கை அணுகவும்.",
+    "sign_up_title": "EasyClaw இல் சேரவும்",
+    "sign_up_description": "உங்கள் EasyClaw கணக்கை உருவாக்கவும்",
+    "email_title": "மின்னஞ்சல்",
+    "email_placeholder": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
+    "password_title": "கடவுச்சொல்",
+    "password_placeholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
+    "forgot_password": "கடவுச்சொல் மறந்துவிட்டதா?",
+    "or": "அல்லது",
+    "continue": "EasyClaw க்கு தொடரவும்",
+    "no_account": "EasyClawக்கு புதியதா?",
+    "email_sign_in": "மின்னஞ்சல் மூலம் உள்நுழையவும்",
+    "google_sign_in": "Google உடன் தொடரவும்",
+    "github_sign_in": "GitHub உடன் தொடரவும்",
+    "close_title": "மூடு",
+    "cancel_title": "ரத்து செய்"
+  },
+  "my_orders": {
+    "title": "எனது ஆர்டர்கள்",
+    "no_orders": "ஆர்டர்கள் எதுவும் இல்லை",
+    "tip": "",
+    "support_tip": "பில்லிங் அல்லது ரத்து செய்ய உதவி தேவையா? மின்னஞ்சல் support@easyclaw.pro.",
+    "activate_order": "ஆர்டரைச் செயல்படுத்தவும்",
+    "actived": "செயல்படுத்தப்பட்டது",
+    "join_discord": "Discord இல் சேரவும்",
+    "read_docs": "டாக்ஸைப் படியுங்கள்",
+    "table": {
+      "order_no": "ஆணை எண்",
+      "email": "மின்னஞ்சல்",
+      "product_name": "தயாரிப்பு பெயர்",
+      "amount": "தொகை",
+      "paid_at": "செலுத்தப்பட்டது",
+      "github_username": "GitHub பயனர்பெயர்",
+      "status": "நிலை",
+      "manage_billing": "பில்லிங் நிர்வகிக்கவும்",
+      "interval": "Interval",
+      "interval_month": "மாதாந்திர",
+      "interval_year": "ஆண்டுதோறும்",
+      "interval_one_time": "ஒரு முறை"
+    }
+  },
+  "my_credits": {
+    "title": "எனது வரவுகள்",
+    "left_tip": "இடது வரவுகள்: {left_credits}",
+    "no_credits": "கிரெடிட் பதிவுகள் இல்லை",
+    "recharge": "ரீசார்ஜ்",
+    "table": {
+      "trans_no": "டிரான்ஸ் எண்",
+      "trans_type": "டிரான்ஸ் வகை",
+      "credits": "கடன்கள்",
+      "updated_at": "இல் புதுப்பிக்கப்பட்டது",
+      "status": "நிலை",
+      "expired_at": "இல் காலாவதியானது",
+      "created_at": "இல் உருவாக்கப்பட்டது"
+    }
+  },
+  "api_keys": {
+    "title": "API விசைகள்",
+    "tip": "கசிவுகளைத் தவிர்க்க உங்கள் அப்பிகேயைப் பாதுகாப்பாக வைத்திருங்கள்",
+    "no_api_keys": "API விசைகள் இல்லை",
+    "create_api_key": "API விசையை உருவாக்கவும்",
+    "table": {
+      "name": "Name",
+      "key": "முக்கிய",
+      "created_at": "இல் உருவாக்கப்பட்டது"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API முக்கிய பெயர்",
+      "submit": "சமர்ப்பிக்கவும்"
+    }
+  },
+  "my_invites": {
+    "title": "எனது அழைப்புகள்",
+    "description": "உங்கள் அழைப்புப் பதிவுகளைப் பார்க்கவும்",
+    "no_invites": "அழைப்புப் பதிவுகள் எதுவும் கிடைக்கவில்லை",
+    "my_invite_link": "எனது அழைப்பு இணைப்பு",
+    "edit_invite_link": "அழைப்பு இணைப்பைத் திருத்தவும்",
+    "copy_invite_link": "அழைப்பு இணைப்பை நகலெடுக்கவும்",
+    "invite_code": "அழைப்பு குறியீடு",
+    "invite_tip": "EasyClaw க்கு நண்பர்களை அழைத்து வெகுமதிகளைப் பெறுங்கள்.",
+    "invite_balance": "வெகுமதி இருப்பை அழைக்கவும்",
+    "total_invite_count": "மொத்த அழைப்பு எண்ணிக்கை",
+    "total_paid_count": "மொத்த கட்டண எண்ணிக்கை",
+    "total_award_amount": "மொத்த விருது தொகை",
+    "update_invite_code": "அழைப்புக் குறியீட்டை அமைக்கவும்",
+    "update_invite_code_tip": "உங்கள் தனிப்பயன் அழைப்புக் குறியீட்டை உள்ளிடவும்",
+    "update_invite_button": "சேமிக்கவும்",
+    "no_orders": "மற்றவர்களை அழைப்பதற்கு முன், பணம் செலுத்தும் திட்டம் தேவை",
+    "no_affiliates": "மற்றவர்களை அழைக்க உங்களுக்கு அனுமதி இல்லை, அனுமதிக்கு விண்ணப்பிக்க எங்களை தொடர்பு கொள்ளவும்.",
+    "table": {
+      "invite_time": "அழைப்பு நேரம்",
+      "invite_user": "பயனரை அழைக்கவும்",
+      "status": "நிலை",
+      "reward_percent": "வெகுமதி சதவீதம்",
+      "reward_amount": "வெகுமதி தொகை",
+      "pending": "நிலுவையில் உள்ளது",
+      "completed": "முடிக்கப்பட்டது"
+    }
+  },
+  "feedback": {
+    "title": "பின்னூட்டம்",
+    "description": "எது நன்றாக இருந்தது அல்லது தயாரிப்பு அனுபவத்தை எவ்வாறு மேம்படுத்தலாம் என்பதை அறிய விரும்புகிறோம்.",
+    "submit": "சமர்ப்பிக்கவும்",
+    "loading": "சமர்ப்பிக்கிறது...",
+    "contact_tip": "எங்களைத் தொடர்புகொள்வதற்கான பிற வழிகள்",
+    "rating_tip": "EasyClaw பற்றி நீங்கள் எப்படி உணருகிறீர்கள்?",
+    "placeholder": "உங்கள் வார்த்தைகளை இங்கே விடுங்கள்..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - AI கேலிச்சித்திரங்களை உடனடியாக உருவாக்கவும்",
+    "description": "AI-இயங்கும் கருவிகள் மூலம் வேடிக்கையான மற்றும் கலைசார்ந்த கேலிச்சித்திரங்களை உருவாக்க புகைப்படங்களைப் பதிவேற்றவும்.",
+    "upload_label": "உங்கள் படத்தை பதிவேற்றவும்",
+    "upload_placeholder": "பதிவேற்ற கிளிக் செய்யவும் அல்லது இழுக்கவும் (JPG, PNG, GIF, WebP)",
+    "upload_required": "தேவை",
+    "prompt_label": "விரிவாக்கத்தை விவரிக்கவும் (விரும்பினால்)",
+    "prompt_placeholder": "எ.கா., 'பின்னணியை இடது மற்றும் வலதுபுறமாக நீட்டு', 'அவுட் பெயிண்ட் ஸ்கை', 'பேனருக்கான கேன்வாஸை அகலப்படுத்து', 'பொருளைச் சுற்றி அறையைச் சேர்'...",
+    "prompt_required": "விருப்ப குறிப்புகள்",
+    "character_count": "{count}/500",
+    "generate_button": "படத்தை விரிவாக்கு",
+    "generating_button": "விரிவடைகிறது...",
+    "credits_label": "உங்கள் வரவுகள்",
+    "cost_label": "விலை: ஒரு விரிவாக்கத்திற்கு {cost} வரவுகள்",
+    "insufficient_credits": "போதுமான வரவுகள் இல்லை. படங்களை விரிவாக்குவதைத் தொடர ரீசார்ஜ் செய்யவும்.",
+    "errors": {
+      "no_image": "விரிவாக்க ஒரு படத்தை பதிவேற்றவும்",
+      "no_prompt": "படத்தை எப்படி விரிவாக்க விரும்புகிறீர்கள் என்பதை விவரிக்கவும்",
+      "invalid_format": "JPG, PNG, GIF, WebP வடிவங்கள் மட்டுமே ஆதரிக்கப்படுகின்றன",
+      "file_too_large": "படத்தின் அளவு 5MB ஐ விட அதிகமாக இருக்கக்கூடாது",
+      "generation_failed": "படத்தை விரிவாக்கம் செய்ய முடியவில்லை, மீண்டும் முயற்சிக்கவும்",
+      "download_failed": "பதிவிறக்கம் தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்"
+    },
+    "success": {
+      "generated": "உங்கள் விரிவாக்கப்பட்ட படம் தயாராக உள்ளது!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "எங்கள் கருவி மூலம் விரிவாக்கப்பட்ட சமீபத்திய படங்களைப் பார்க்கவும். முன்னோட்டம்/பின் முன்னோட்டம் மற்றும் முடிவை ஏற்றுமதி செய்யவும்.",
+    "download_hint": "விரிவாக்கப்பட்ட படத்தைப் பதிவிறக்க கிளிக் செய்யவும்",
+    "no_outfits": "இன்னும் விரிவாக்கம் இல்லை. விரிவாக்கத் தொடங்க படத்தைப் பதிவேற்றவும்!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI கேலிச்சித்திர ஜெனரேட்டர்",
+    "description": "டெக்ஸ்ட்-டு-இமேஜ் மற்றும் இமேஜ்-டு-இமேஜ் முறைகளுடன் OpenClaw AI மாதிரியைப் பயன்படுத்தி உயர்தர கேலிச்சித்திரங்களை உருவாக்கவும்",
+    "hero": {
+      "badge": "புதிய OpenClaw",
+      "title": "அற்புதமான கேலிச்சித்திரங்களை உருவாக்குங்கள்",
+      "subtitle": "OpenClaw இன் மேம்பட்ட AI மாதிரியுடன் புகைப்படங்களை பிரமிக்க வைக்கும் கேலிச்சித்திரங்களாக மாற்றவும். டெக்ஸ்ட்-டு-இமேஜ் மற்றும் இமேஜ்-டு-இமேஜ் உருவாக்க முறைகள் இரண்டையும் ஆதரிக்கிறது.",
+      "features": {
+        "text_to_image": "படத்திற்கு உரை",
+        "image_to_image": "படத்துக்கு படம்",
+        "high_quality": "உயர் தர வெளியீடு"
+      },
+      "buttons": {
+        "start_creating": "உருவாக்கத் தொடங்குங்கள்",
+        "view_gallery": "காட்சி தொகுப்பு"
+      },
+      "stats": {
+        "daily_images": "தினசரி உருவாக்கப்படும் படங்கள்",
+        "satisfaction": "பயனர் திருப்தி",
+        "generation_time": "சராசரி தலைமுறை நேரம்"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "படத்துக்கு படம்",
+        "text_to_image": "படத்திற்கு உரை"
+      },
+      "model": "மாதிரி",
+      "reference_images": "குறிப்பு படங்கள்",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "படங்களை இங்கே இழுத்து விடுங்கள்",
+        "or_click": "அல்லது உலாவ கிளிக் செய்யவும்",
+        "supported_formats": "ஆதரவுகள்: JPEG, PNG, WebP (அதிகபட்சம் 10MB)",
+        "add_more": "மேலும் சேர்க்கவும்"
+      },
+      "prompt": "உடனடியாக",
+      "prompt_placeholder_image": "படத்தை எப்படி மாற்றுவது என்பதை விவரிக்கவும்...",
+      "prompt_placeholder_text": "நீங்கள் உருவாக்க விரும்பும் படத்தை விவரிக்கவும்...",
+      "aspect_ratio": "தோற்ற விகிதம்",
+      "resolution": "தீர்மானம்",
+      "output_count": "வெளியீட்டு எண்ணிக்கை",
+      "output_count_range": "குறைந்தபட்சம் {min}, அதிகபட்சம் {max}",
+      "output_format": "வெளியீட்டு வடிவம்",
+      "generate_button": "இப்போது உருவாக்கவும்",
+      "generating": "உருவாக்குகிறது...",
+      "clear_images": "அனைத்து படங்களையும் அழிக்கவும்",
+      "output_gallery": "நீங்கள் உருவாக்கிய படம்",
+      "view_all": "அனைத்தையும் பார்க்கவும்",
+      "generating_message": "உங்கள் தலைசிறந்த படைப்பை உருவாக்குகிறது...",
+      "generating_submessage": "எங்கள் OpenClaw மாடல் அதன் மேஜிக்கைச் செய்கிறது. இதற்கு பொதுவாக சில வினாடிகள் ஆகும்.",
+      "example": "உதாரணம்"
+    },
+    "my_creations": {
+      "title": "எனது படைப்புகள்",
+      "description": "உங்கள் AI-உருவாக்கிய படங்களைக் கண்டு நிர்வகிக்கவும் - ஒரே கிளிக்கில் முன்னோட்டம் மற்றும் பதிவிறக்கம்",
+      "search_placeholder": "தேடல் படைப்புகள்...",
+      "view_all": "அனைத்தையும் காண்க ({count})",
+      "no_results": "பொருத்தமான படைப்புகள் எதுவும் இல்லை",
+      "no_results_message": "வெவ்வேறு முக்கிய வார்த்தைகளைப் பயன்படுத்த முயற்சிக்கவும் அல்லது எல்லா படைப்புகளையும் பார்க்க தேடலை அழிக்கவும்.",
+      "clear_search": "தேடலை அழிக்கவும்",
+      "empty_state": "இதுவரை படைப்புகள் இல்லை",
+      "empty_message": "உங்கள் முதல் AI-உருவாக்கிய படத்தை உருவாக்க OpenClaw ஐப் பயன்படுத்தத் தொடங்குங்கள்!",
+      "start_creating": "உருவாக்கத் தொடங்குங்கள்",
+      "download": "பதிவிறக்கவும்",
+      "delete": "நீக்கு",
+      "total_count": "மொத்த {count} படைப்புகள்",
+      "search_results": "(தேடல்: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "படத்திற்கு உரை",
+        "IMAGE_TO_IMAGE": "படத்துக்கு படம்"
+      }
+    },
+    "errors": {
+      "enter_prompt": "ஒரு அறிவிப்பை உள்ளிடவும்",
+      "upload_reference": "இமேஜ்-டு-இமேஜ் பயன்முறைக்கு குறிப்புப் படங்களைப் பதிவேற்ற வேண்டும்",
+      "generation_failed": "உருவாக்கம் தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்",
+      "upload_success": "படம் வெற்றிகரமாக பதிவேற்றப்பட்டது",
+      "upload_failed": "பதிவேற்றம் தோல்வியடைந்தது",
+      "delete_success": "படம் நீக்கப்பட்டது",
+      "delete_failed": "நீக்குவது தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்",
+      "download_started": "பதிவிறக்கம் தொடங்கியது",
+      "file_too_large": "கோப்பு அளவு {size}MB ஐ விட அதிகமாக இருக்கக்கூடாது",
+      "unsupported_format": "ஆதரிக்கப்படாத கோப்பு வடிவம். ஆதரிக்கப்படும் வடிவங்கள்: {formats}",
+      "retry": "மீண்டும் முயற்சிக்கவும்",
+      "dismiss": "நிராகரி"
+    },
+    "loading": {
+      "default": "ஏற்றுகிறது...",
+      "generation": "உங்கள் தலைசிறந்த படைப்பை உருவாக்குகிறது...",
+      "generation_message": "எங்கள் OpenClaw மாடல் அதன் மேஜிக்கைச் செய்கிறது. இதற்கு பொதுவாக சில வினாடிகள் ஆகும்.",
+      "upload": "படத்தை பதிவேற்றுகிறது...",
+      "upload_message": "உங்கள் படம் மேகக்கணியில் பதிவேற்றப்படும் வரை காத்திருக்கவும்."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "அடுக்கு ஸ்டுடியோ",
+      "title": "OpenClaw ஸ்டுடியோ",
+      "description": "உங்கள் புகைப்படங்களிலிருந்து கலைசார்ந்த கேலிச்சித்திரங்களை உருவாக்கவும்.",
+      "cta": "இலவச சோதனை",
+      "cta_hint": "தொடங்குவதற்கு ஒரு படத்தைப் பதிவேற்றவும்",
+      "features": [
+        "ஒரு படத்திற்கு 2-8 AI அடுக்குகள்",
+        "வெளிப்படையான PNG/WebP ஏற்றுமதி",
+        "உடனடி-வழிகாட்டப்பட்ட பிரிப்பு"
+      ]
+    },
+    "upload": {
+      "title": "பதிவேற்றவும்",
+      "subtitle": "JPG, PNG அல்லது WebP 10MB வரை",
+      "action": "படத்தை பதிவேற்றவும்",
+      "drop": "உங்கள் படத்தை இங்கே விடுங்கள்",
+      "or_click": "அல்லது உலாவ கிளிக் செய்யவும்",
+      "supported_formats": "ஆதரவுகள்: JPEG, PNG, WebP (அதிகபட்சம் 10MB)"
+    },
+    "prompt": {
+      "label": "உடனடியாக",
+      "placeholder": "நீங்கள் விரும்பும் அடுக்குகளை விவரிக்கவும் (எ.கா., பொருள், முட்டுகள், பின்னணி)"
+    },
+    "advanced": {
+      "title": "மேம்பட்ட அமைப்புகள்",
+      "prompt_label": "உடனடி (விரும்பினால்)",
+      "prompt_placeholder": "படத்தை விவரிக்க தயவு செய்து கட்டளையை உள்ளிடவும். (விரும்பினால்)",
+      "negative_prompt_label": "நெகடிவ் ப்ராம்ட் (விரும்பினால்)",
+      "negative_prompt_placeholder": "அடுக்குகளிலிருந்து விலக்கப்பட வேண்டியவற்றை விவரிக்கவும்.",
+      "seed": "விதை",
+      "randomize_seed": "சீரற்ற விதை",
+      "guidance_scale": "உண்மையான வழிகாட்டுதல் அளவுகோல்",
+      "inference_steps": "அனுமானப் படிகளின் எண்ணிக்கை",
+      "cfg_normalization": "CFG இயல்பாக்கத்தை இயக்க வேண்டுமா",
+      "auto_caption_language": "ப்ராம்ட் வழங்கப்படவில்லை எனில் தானியங்கி தலைப்பு மொழி, ENக்கு சரி, ZHக்கு தவறு",
+      "layer_count": "அடுக்கு எண்ணிக்கை",
+      "layer_range": "குறைந்தபட்சம் {min}, அதிகபட்சம் {max}",
+      "output_format": "வெளியீட்டு வடிவம்"
+    },
+    "actions": {
+      "decompose": "சிதைவு!",
+      "sign_in_to_decompose": "சிதைக்க உள்நுழைக!",
+      "generating": "சிதைகிறது..."
+    },
+    "results": {
+      "title": "முடிவுகள்",
+      "subtitle": "அடுக்கு வெளியீடுகள் சிதைந்த பிறகு இங்கே தோன்றும்.",
+      "download_pptx": "PPTX ஐப் பதிவிறக்கவும்",
+      "download_zip": "ZIP பதிவிறக்கவும்",
+      "packaging": "பேக்கேஜிங்...",
+      "generating_title": "உங்கள் படத்தை சிதைக்கிறது...",
+      "generating_subtitle": "அடுக்கு சொத்துக்களை உருவாக்குதல். இதற்கு பொதுவாக சில வினாடிகள் ஆகும்.",
+      "layer_label": "அடுக்கு {index}",
+      "layer_description": "அடுக்கு சொத்து",
+      "empty_title": "இன்னும் அடுக்குகள் இல்லை",
+      "empty_subtitle": "படத்தைப் பதிவேற்றி, சிதைவைக் கிளிக் செய்க! அடுக்குகளை உருவாக்க.",
+      "success": "அடுக்குகள் வெற்றிகரமாக உருவாக்கப்பட்டன!",
+      "download_ready": "பதிவிறக்கம் தயார்"
+    },
+    "examples": {
+      "title": "எடுத்துக்காட்டுகள்",
+      "subtitle": "ஒரு மூலப் படம் எவ்வாறு சுத்தமான அடுக்குகளாக உடைகிறது என்பதைப் பார்க்கவும்.",
+      "labels": {
+        "source": "ஆதாரம்",
+        "layer": "அடுக்கு {index}",
+        "sample": "எடுத்துக்காட்டு {index}"
+      },
+      "rows": {
+        "primary": "எடுத்துக்காட்டு தொகுப்பு 01",
+        "secondary": "எடுத்துக்காட்டு தொகுப்பு 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "முதலில் ஒரு குறிப்பு படத்தை பதிவேற்றவும்",
+      "generation_failed": "உருவாக்கம் தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்",
+      "upload_success": "படம் வெற்றிகரமாக பதிவேற்றப்பட்டது",
+      "upload_failed": "பதிவேற்றம் தோல்வியடைந்தது",
+      "download_failed": "பதிவிறக்கம் தோல்வியடைந்தது, மீண்டும் முயற்சிக்கவும்"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "கிடைக்கும்"
+    },
+    "errors": {
+      "no_available_account": "உங்கள் தற்போதைய சந்தாவில் கணக்கு இல்லை. பிறகு முயற்சிக்கவும்.",
+      "network_unstable": "நெட்வொர்க் நிலையற்றது. சிறிது நேரத்தில் மீண்டும் முயற்சிக்கவும்.",
+      "deployment_failed_try_again": "வரிசைப்படுத்தல் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+      "deployment_timeout": "{minutes} நிமிடங்களுக்குப் பிறகு வரிசைப்படுத்தல் நேரம் முடிந்தது. மீண்டும் முயற்சிக்கவும்.",
+      "enter_bot_token": "போட் டோக்கனை உள்ளிடவும்.",
+      "select_channel_before_deploying": "பயன்படுத்துவதற்கு முன், சேனலைத் தேர்ந்தெடுக்கவும்.",
+      "enter_telegram_bot_token": "உங்கள் Telegram போட் டோக்கனை உள்ளிடவும்.",
+      "invalid_response_missing_deployment_id": "தவறான பதில்: deployment_id இல்லை",
+      "failed_to_start_deployment": "வரிசைப்படுத்தலைத் தொடங்க முடியவில்லை",
+      "failed_to_fetch_deployment_status": "வரிசைப்படுத்தல் நிலையைப் பெற முடியவில்லை",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - ஒரு கிளிக் OpenClaw வரிசைப்படுத்தல்",
+      "description": "OpenClawஐ 1 நிமிடத்திற்குள் பயன்படுத்தவும். சர்வர்கள் அல்லது DevOps இல்லை. ஒரு மாதிரியைத் தேர்ந்தெடுத்து, சேனலை இணைத்து, தொடங்கவும்."
+    },
+    "selectors": {
+      "model_title": "உங்கள் OpenClaw க்கான இயல்புநிலை மாதிரியைத் தேர்வு செய்யவும்",
+      "channel_title": "OpenClaw எங்கு செய்திகளை அனுப்ப வேண்டும் என்பதைத் தேர்வு செய்யவும்",
+      "selected": "தேர்ந்தெடுக்கப்பட்டது"
+    },
+    "deploy": {
+      "deploying": "வரிசைப்படுத்துகிறது...",
+      "deploy_button": "வரிசைப்படுத்து",
+      "sign_in_button": "EasyClaw உடன் பயன்படுத்த உள்நுழையவும்",
+      "sign_in_hint": "EasyClaw உடன் OpenClaw பயன்படுத்த உள்நுழைந்து உங்கள் சேனல்களை இணைக்கவும்.",
+      "status_success": "வரிசைப்படுத்தல் வெற்றி! OpenClaw இப்போது இயங்குகிறது.",
+      "model_substitution_warning": "மாதிரி மாற்றீடு கண்டறியப்பட்டது. மீண்டும் வரிசைப்படுத்த முயற்சிக்கவும் அல்லது வேறொரு பிராந்தியம்/வழங்கலுக்கு மாறவும்.",
+      "hint_prefix": "தொடர Telegram ஐ இணைக்கவும்.",
+      "hint_suffix": "பிற சேனல்களை அதே கணக்கில் பின்னர் சேர்க்கலாம்.",
+      "hint_prefix_telegram": "தொடர Telegram ஐ இணைக்கவும்.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegram ஐ இணைக்கவும்",
+      "how_to_get_token": "உங்கள் போட் டோக்கனை எவ்வாறு பெறுவது?",
+      "step_1_prefix": "Telegram ஐத் திறந்து, செல்லவும்",
+      "step_2_prefix": "அரட்டையைத் தொடங்கி தட்டச்சு செய்யவும்",
+      "step_3_text": "உங்கள் போட்டிற்கு பெயரிடவும், பயனர்பெயரை தேர்வு செய்யவும் அறிவுறுத்தல்களைப் பின்பற்றவும்.",
+      "step_4_text": "BotFather உங்கள் போட் டோக்கனுடன் ஒரு செய்தியை அனுப்புவார். முழு டோக்கனையும் நகலெடுக்கவும் (இது எண்கள் மற்றும் எழுத்துக்களின் நீண்ட சரம் போல் தெரிகிறது).",
+      "step_5_text": "கீழே உள்ள புலத்தில் டோக்கனை ஒட்டவும் மற்றும் சேமி & இணைக்கவும் என்பதைக் கிளிக் செய்யவும்.",
+      "token_label": "போட் டோக்கனை உள்ளிடவும்",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "சேமித்து இணைக்கவும்",
+      "preview_intro": "Telegram போட்களை உருவாக்க மற்றும் நிர்வகிக்க நான் உங்களுக்கு உதவ முடியும். நீங்கள் என்ன செய்ய விரும்புகிறீர்கள்?",
+      "preview_newbot": "ஒரு புதிய போட் உருவாக்கவும்",
+      "preview_mybots": "உங்கள் போட்களை திருத்தவும்",
+      "preview_name_prompt": "சரி, ஒரு புதிய போட். அதை எப்படி அழைக்கப் போகிறோம்? உங்கள் போட்டிற்கு ஒரு பெயரைத் தேர்வு செய்யவும்.",
+      "preview_message_input": "செய்தி"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

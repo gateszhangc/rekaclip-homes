@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_i18n_pages_showcase_it_json";
+exports.ids = ["_rsc_src_i18n_pages_showcase_it_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/i18n/pages/showcase/it.json":
+/*!*****************************************!*\
+  !*** ./src/i18n/pages/showcase/it.json ***!
+  \*****************************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"showcase":{"name":"showcase","title":"Esempi di distribuzione OpenClaw da parte degli utenti EasyClaw","description":"Scopri come i team lanciano gli assistenti OpenClaw per supporto, operazioni e flussi di lavoro interni.","items":[{"title":"Lancio dell\'assistente di assistenza clienti","description":"Distribuito in pochi minuti un bot di supporto Telegram con modello fallback","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"}},{"title":"Automazione del follow-up delle vendite","description":"Configura OpenClaw per qualificare i lead e redigere le risposte di follow-up","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"}},{"title":"Notificatore delle operazioni interne","description":"Connesso OpenClaw per avvisare le squadre di eventi e incidenti operativi","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"}},{"title":"Assistente di community multicanale","description":"Implementato lo stesso assistente su Telegram, Discord e WhatsApp","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"}},{"title":"Flusso di lavoro di reporting settimanale","description":"Report di riepilogo automatizzati per i manager ogni venerdì","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"}},{"title":"Copilota di onboarding","description":"Fornite indicazioni e risposte nella prima settimana per i nuovi assunti","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"}},{"title":"Bot di qualificazione leader","description":"Domande in entrata acquisite e lead con intenzioni elevate instradati verso le vendite","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"}},{"title":"Raccoglitore di feedback sul prodotto","description":"Feedback degli utenti classificati e azioni generate per i team di prodotto","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"}}]}}');
+
+/***/ })
+
+};
+;

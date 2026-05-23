@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "امیج فلپر",
+    "description": "پیشہ ورانہ رنگ الٹنے اور بڑھانے کے لیے ایک تصویر اپ لوڈ کریں۔",
+    "disabled": false,
+    "upload": {
+      "title": "تصویر کو گھسیٹیں اور چھوڑیں۔",
+      "description": "PNG، JPG، JPEG، WebP کو 10MB تک سپورٹ کرتا ہے",
+      "buttonText": "ایک فائل کا انتخاب کریں۔",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "کلین امیج",
+      "textListTitle": "متنی علاقوں کا پتہ چلا",
+      "fontRecommendationTitle": "ہٹانے کی تجاویز",
+      "detectedFontLabel": "منتخب علاقہ",
+      "similarFontsLabel": "متبادل فلز",
+      "selectTextPrompt": "ہٹانے کے لیے ایک ٹیکسٹ بلاک منتخب کریں۔"
+    },
+    "actions": {
+      "reuploadText": "دوبارہ اپ لوڈ کریں۔"
+    },
+    "messages": {
+      "uploadSuccess": "تصویر کامیابی کے ساتھ اپ لوڈ ہو گئی۔",
+      "uploadError": "تصویر اپ لوڈ کرنے میں ناکام",
+      "recognitionSuccess": "کھوج مکمل ہو گئی۔",
+      "recognitionError": "پتہ لگانا ناکام ہو گیا۔",
+      "fontRecognitionSuccess": "متن کو ہٹانا مکمل ہو گیا۔",
+      "fontRecognitionError": "متن کو ہٹانا ناکام ہو گیا۔",
+      "processing": "پروسیسنگ..."
+    }
+  }
+}

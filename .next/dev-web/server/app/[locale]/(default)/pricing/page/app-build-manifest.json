@@ -1,0 +1,33 @@
+{
+  "pages": {
+    "/[locale]/(default)/pricing/page": [
+      "static/chunks/src_app_globals_b805903d.css",
+      "static/chunks/node_modules_next_dist_1a6ee436._.js",
+      "static/chunks/src_app_layout_tsx_b4714161._.js",
+      "static/chunks/_86e0cdf8._.js",
+      "static/chunks/node_modules_d92bb815._.js",
+      "static/chunks/src_a48d220b._.js",
+      "static/chunks/src_app_[locale]_layout_tsx_d2847d1c._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_d1ff0a97._.js",
+      "static/chunks/src_6b548032._.js",
+      "static/chunks/node_modules_next_c367bc0b._.js",
+      "static/chunks/node_modules_react-icons_ri_index_mjs_0e2ec0a5._.js",
+      "static/chunks/node_modules_react-icons_fa_index_mjs_d2e2d7f5._.js",
+      "static/chunks/node_modules_react-icons_go_index_mjs_af0fd222._.js",
+      "static/chunks/node_modules_react-icons_md_index_mjs_78df2b41._.js",
+      "static/chunks/node_modules_react-icons_lib_74ccc930._.js",
+      "static/chunks/node_modules_e1a07a4f._.js",
+      "static/chunks/src_app_[locale]_(default)_layout_tsx_9ccb65ea._.js",
+      "static/chunks/src_components_4aaebf7d._.js",
+      "static/chunks/node_modules_15de7c91._.js",
+      "static/chunks/src_app_[locale]_(default)_pricing_page_tsx_06b793f7._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_9b853be1._.js",
+      "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
+      "static/chunks/node_modules_next_dist_client_fdf37019._.js",
+      "static/chunks/node_modules_next_dist_3bfaed20._.js",
+      "static/chunks/node_modules_@swc_helpers_cjs_00636ac3._.js",
+      "static/chunks/_e69f0d32._.js",
+      "static/chunks/_7abfdfd3._.js"
+    ]
+  }
+}

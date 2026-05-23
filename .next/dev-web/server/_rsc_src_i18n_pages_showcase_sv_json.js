@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_i18n_pages_showcase_sv_json";
+exports.ids = ["_rsc_src_i18n_pages_showcase_sv_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/i18n/pages/showcase/sv.json":
+/*!*****************************************!*\
+  !*** ./src/i18n/pages/showcase/sv.json ***!
+  \*****************************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"showcase":{"name":"showcase","title":"OpenClaw-implementeringsexempel från EasyClaw-användare","description":"Se hur team lanserar OpenClaw-assistenter för support, drift och interna arbetsflöden.","items":[{"title":"Lansering av kundsupportassistent","description":"Implementerade en Telegram-stödbot med modellreserv på några minuter","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"}},{"title":"Automatisering av försäljningsuppföljning","description":"Ställ in OpenClaw för att kvalificera potentiella kunder och utkast till uppföljningssvar","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"}},{"title":"Intern driftanmälare","description":"Ansluten OpenClaw för att varna team om operationshändelser och incidenter","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"}},{"title":"Flerkanaligt samhällsassistent","description":"Rullade ut samma assistent över Telegram, Discord och WhatsApp","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"}},{"title":"Arbetsflöde för veckorapportering","description":"Automatiserade sammanfattningsrapporter för chefer varje fredag","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"}},{"title":"Onboarding copilot","description":"Levererade första veckans vägledning och svar för nyanställda","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"}},{"title":"Lead kvalificering bot","description":"Fångade inkommande frågor och dirigerade leads med hög avsikt till försäljning","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"}},{"title":"Samlare av produktfeedback","description":"Klassificerade användarfeedback och genererade åtgärder för produktteam","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"}}]}}');
+
+/***/ })
+
+};
+;

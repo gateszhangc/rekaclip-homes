@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Contoh penggunaan OpenClaw daripada pengguna EasyClaw",
+    "description": "Lihat cara pasukan melancarkan pembantu OpenClaw untuk sokongan, operasi dan aliran kerja dalaman.",
+    "items": [
+      {
+        "title": "Pelancaran pembantu sokongan pelanggan",
+        "description": "Menggunakan bot sokongan Telegram dengan model sandaran dalam beberapa minit",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Automasi susulan jualan",
+        "description": "Sediakan OpenClaw untuk melayakkan petunjuk dan draf balasan susulan",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Pemberitahu operasi dalaman",
+        "description": "OpenClaw disambungkan untuk memaklumkan pasukan tentang acara dan insiden ops",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Pembantu komuniti berbilang saluran",
+        "description": "Melancarkan pembantu yang sama merentas Telegram, Discord dan WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Aliran kerja pelaporan mingguan",
+        "description": "Laporan ringkasan automatik untuk pengurus setiap hari Jumaat",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Kopilot sedia ada",
+        "description": "Menyampaikan bimbingan dan jawapan minggu pertama untuk pekerja baharu",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Bot kelayakan utama",
+        "description": "Mengambil soalan masuk dan menghalakan niat tinggi membawa kepada jualan",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Pengumpul maklum balas produk",
+        "description": "Maklum balas pengguna terperingkat dan item tindakan yang dijana untuk pasukan produk",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

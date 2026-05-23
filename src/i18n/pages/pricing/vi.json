@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Định giá",
+    "title": "Định giá",
+    "description": "Chọn gói dựa trên số lượng triển khai OpenClaw bạn cần. Hủy bất cứ lúc nào từ tài khoản của bạn.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "hàng tháng",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Hàng năm",
+        "is_featured": true,
+        "label": "Tiết kiệm 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "người mới bắt đầu",
+        "label": "TRUY CẬP SỚM",
+        "description": "Mọi thứ bạn cần để chạy OpenClaw. Không có gì bạn không.",
+        "features_title": "Bao gồm dùng thử miễn phí",
+        "features": [
+          "Thời gian chạy OpenClaw được quản lý hoàn toàn",
+          "Đại lý sẵn sàng Telegram",
+          "Không thiết lập",
+          "1 đại lý OpenClaw",
+          "Claude, ChatGPT hoặc Gemini - chúng tôi điều hành nó cho bạn",
+          "Không cần khóa API",
+          "Việc sử dụng bao gồm mỗi kế hoạch. Hủy bỏ bất cứ lúc nào."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Hãy thử miễn phí. Không cần thẻ tín dụng.",
+        "button": {
+          "title": "Chạy OpenClaw ngay lập tức",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Khởi đầu hàng tháng",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "chuyên nghiệp",
+        "label": "phổ biến",
+        "features_title": "Các tính năng triển khai cốt lõi",
+        "features": [
+          "Tối đa 5 lần triển khai OpenClaw đang hoạt động",
+          "Triển khai, khởi động lại và triển khai lại bằng một cú nhấp chuột",
+          "Cài đặt trước cấu hình mô hình và kênh",
+          "Bảng thông tin trạng thái triển khai",
+          "Phân tích sử dụng cơ bản",
+          "Hỗ trợ qua email",
+          "sử dụng thương mại",
+          "Truy cập vào các tính năng triển khai mới"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Nhận chuyên nghiệp",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro hàng tháng",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "người mới bắt đầu",
+        "label": "TRUY CẬP SỚM",
+        "description": "Mọi thứ bạn cần để chạy OpenClaw. Không có gì bạn không.",
+        "features_title": "Bao gồm dùng thử miễn phí",
+        "features": [
+          "Thời gian chạy OpenClaw được quản lý hoàn toàn",
+          "Đại lý sẵn sàng Telegram",
+          "Không thiết lập",
+          "1 đại lý OpenClaw",
+          "Claude, ChatGPT hoặc Gemini - chúng tôi điều hành nó cho bạn",
+          "Không cần khóa API",
+          "Việc sử dụng bao gồm mỗi kế hoạch. Hủy bỏ bất cứ lúc nào."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Giá gốc: 10$/tháng",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Hãy thử miễn phí. Không cần thẻ tín dụng.",
+        "button": {
+          "title": "Chạy OpenClaw ngay lập tức",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "Người khởi xướng EasyClaw hàng năm",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "chuyên nghiệp",
+        "label": "phổ biến",
+        "features_title": "Các tính năng triển khai cốt lõi",
+        "features": [
+          "Tối đa 5 lần triển khai OpenClaw đang hoạt động",
+          "Triển khai, khởi động lại và triển khai lại bằng một cú nhấp chuột",
+          "Cài đặt trước cấu hình mô hình và kênh",
+          "Bảng thông tin trạng thái triển khai",
+          "Phân tích sử dụng cơ bản",
+          "Hỗ trợ qua email",
+          "sử dụng thương mại",
+          "Truy cập vào các tính năng triển khai mới"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Giá gốc: 20$/tháng",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Nhận chuyên nghiệp",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro hàng năm",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "छवि फ़्लिपर",
+    "description": "व्यावसायिक गुणवत्ता के साथ छवियों को क्षैतिज या लंबवत रूप से पलटें",
+    "disabled": false,
+    "upload": {
+      "title": "किसी छवि को खींचें और छोड़ें",
+      "description": "10MB तक PNG, JPG, JPEG, WebP को सपोर्ट करता है",
+      "buttonText": "फ़ाइलें ब्राउज़ करें",
+      "dragDropText": "URL ड्रॉप करें, पेस्ट करें या जोड़ें",
+      "selectFileText": "एक छवि फ़ाइल चुनें",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "पलटने के लिए तैयार.",
+      "replace": "बदलें",
+      "remove": "हटाओ"
+    },
+    "controls": {
+      "horizontalFlip": "क्षैतिज पलटें",
+      "verticalFlip": "लंबवत पलटें",
+      "processing": "प्रसंस्करण...",
+      "uploading": "अपलोड हो रहा है..."
+    },
+    "preview": {
+      "originalAlt": "मूल छवि",
+      "flippedAlt": "फ़्लिप की गई छवि",
+      "download": "डाउनलोड करें"
+    },
+    "credits": {
+      "label": "श्रेय:",
+      "cost": "प्रति फ़्लिप लागत:",
+      "insufficient": "अपर्याप्त क्रेडिट"
+    },
+    "errors": {
+      "noImage": "कोई छवि चयनित नहीं",
+      "noImageSuggestion": "कृपया पहले एक छवि अपलोड करें.",
+      "invalidFormat": "असमर्थित फ़ाइल स्वरूप",
+      "formatSuggestion": "कृपया इनमें से किसी एक का उपयोग करें: {formats}",
+      "fileTooLarge": "फ़ाइल बहुत बड़ी है: {size}MB",
+      "sizeSuggestion": "अधिकतम आकार {maxSize}MB है. कृपया संपीड़ित करें या छोटी फ़ाइल चुनें।",
+      "uploadFailed": "छवि अपलोड करने में विफल",
+      "uploadSuggestion": "अपना कनेक्शन जांचें और पुनः प्रयास करें।",
+      "authRequired": "प्रमाणीकरण आवश्यक है",
+      "authSuggestion": "कृपया चित्र अपलोड करने के लिए साइन इन करें।",
+      "processingFailed": "फ़्लिप ऑपरेशन विफल रहा",
+      "processingSuggestion": "यदि समस्या बनी रहती है तो कृपया पुनः प्रयास करें या सहायता से संपर्क करें।",
+      "networkError": "नेटवर्क कनेक्शन समस्या",
+      "networkSuggestion": "अपना कनेक्शन जांचें और पुनः प्रयास करें।",
+      "fileReadError": "फ़ाइल पढ़ने में विफल",
+      "fileReadSuggestion": "कृपया फ़ाइल को दोबारा चुनने का प्रयास करें.",
+      "retry": "पुनः प्रयास करें"
+    },
+    "messages": {
+      "uploadSuccess": "छवि सफलतापूर्वक अपलोड हो गई",
+      "flipSuccess": "छवि सफलतापूर्वक फ़्लिप हुई",
+      "downloadStarted": "डाउनलोड प्रारंभ हुआ"
+    },
+    "legal": {
+      "terms": "फ़ाइल अपलोड करके, आप हमारी उपयोग की शर्तों और गोपनीयता नीति से सहमत होते हैं।"
+    }
+  }
+}

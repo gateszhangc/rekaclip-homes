@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Flipper di immagini",
+    "description": "Carica un'immagine per l'inversione e il miglioramento dei colori professionali",
+    "disabled": false,
+    "upload": {
+      "title": "Trascina e rilascia un'immagine",
+      "description": "Supporta PNG, JPG, JPEG, WebP fino a 10 MB",
+      "buttonText": "Scegli un file",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Immagine pulita",
+      "textListTitle": "Aree di testo rilevate",
+      "fontRecommendationTitle": "Suggerimenti per la rimozione",
+      "detectedFontLabel": "Area selezionata",
+      "similarFontsLabel": "Riempimenti alternativi",
+      "selectTextPrompt": "Seleziona un blocco di testo da rimuovere"
+    },
+    "actions": {
+      "reuploadText": "Ricaricare"
+    },
+    "messages": {
+      "uploadSuccess": "Immagine caricata correttamente",
+      "uploadError": "Impossibile caricare l'immagine",
+      "recognitionSuccess": "Rilevamento completato",
+      "recognitionError": "Rilevamento non riuscito",
+      "fontRecognitionSuccess": "Rimozione del testo completata",
+      "fontRecognitionError": "Rimozione del testo non riuscita",
+      "processing": "Elaborazione..."
+    }
+  }
+}

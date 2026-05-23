@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw — разверните OpenClaw менее чем за 1 минуту.",
+    "description": "Разверните OpenClaw с помощью EasyClaw в один клик. Подключите Telegram, выберите модель и быстро приступайте к работе.",
+    "keywords": "easyclaw, развертывание openclaw, хостинг openclaw, развертывание бота Telegram, развертывание помощника AI"
+  },
+  "blog": {
+    "title": "Блог",
+    "description": "Новости, руководства и обновления по развертыванию OpenClaw с помощью EasyClaw.",
+    "read_more_text": "Подробнее"
+  },
+  "user": {
+    "sign_in": "Войти",
+    "sign_out": "Выйти",
+    "credits": "Кредиты",
+    "api_keys": "API Ключи",
+    "my_orders": "Мои заказы",
+    "my_invites": "Мои приглашения",
+    "user_center": "Пользовательский центр",
+    "support": "Поддержка",
+    "admin_system": "Административная система",
+    "home": "Главная",
+    "pricing": "Цены",
+    "admin_center": "Центр администрирования"
+  },
+  "sign_modal": {
+    "sign_in_title": "Войдите в EasyClaw",
+    "sign_in_description": "Получите доступ к своей учетной записи EasyClaw для развертывания и управления OpenClaw.",
+    "sign_up_title": "Присоединяйтесь к EasyClaw",
+    "sign_up_description": "Создайте свою учетную запись EasyClaw",
+    "email_title": "электронная почта",
+    "email_placeholder": "Введите свой адрес электронной почты",
+    "password_title": "Пароль",
+    "password_placeholder": "Введите свой пароль",
+    "forgot_password": "Забыли пароль?",
+    "or": "Или",
+    "continue": "Продолжить EasyClaw",
+    "no_account": "Впервые в EasyClaw?",
+    "email_sign_in": "Войти с помощью электронной почты",
+    "google_sign_in": "Продолжить с Google",
+    "github_sign_in": "Продолжить с GitHub",
+    "close_title": "Закрыть",
+    "cancel_title": "Отмена"
+  },
+  "my_orders": {
+    "title": "Мои заказы",
+    "no_orders": "Заказы не найдены",
+    "tip": "",
+    "support_tip": "Нужна помощь с выставлением счетов или отменой бронирования? Электронная почта support@easyclaw.pro.",
+    "activate_order": "Активировать заказ",
+    "actived": "Активировано",
+    "join_discord": "Присоединяйтесь к Discord",
+    "read_docs": "Читать документацию",
+    "table": {
+      "order_no": "Номер заказа",
+      "email": "электронная почта",
+      "product_name": "Название продукта",
+      "amount": "Сумма",
+      "paid_at": "Оплачено в",
+      "github_username": "Имя пользователя GitHub",
+      "status": "Статус",
+      "manage_billing": "Управление биллингом",
+      "interval": "Interval",
+      "interval_month": "Ежемесячно",
+      "interval_year": "Ежегодно",
+      "interval_one_time": "Одноразовый"
+    }
+  },
+  "my_credits": {
+    "title": "Мои кредиты",
+    "left_tip": "оставшиеся титры: {left_credits}",
+    "no_credits": "Нет записей о кредитах",
+    "recharge": "Перезарядка",
+    "table": {
+      "trans_no": "Транс Нет",
+      "trans_type": "Транс Тип",
+      "credits": "Кредиты",
+      "updated_at": "Обновлено в",
+      "status": "Статус",
+      "expired_at": "Срок действия истек в",
+      "created_at": "Создано в"
+    }
+  },
+  "api_keys": {
+    "title": "API Ключи",
+    "tip": "Пожалуйста, сохраните свой апикей в безопасности, чтобы избежать утечек.",
+    "no_api_keys": "Нет ключей API",
+    "create_api_key": "Создать ключ API",
+    "table": {
+      "name": "Name",
+      "key": "Ключ",
+      "created_at": "Создано в"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Имя ключа",
+      "submit": "Отправить"
+    }
+  },
+  "my_invites": {
+    "title": "Мои приглашения",
+    "description": "Просмотрите записи ваших приглашений",
+    "no_invites": "Записи приглашений не найдены",
+    "my_invite_link": "Моя ссылка для приглашения",
+    "edit_invite_link": "Изменить ссылку для приглашения",
+    "copy_invite_link": "Скопировать ссылку для приглашения",
+    "invite_code": "Пригласительный код",
+    "invite_tip": "Приглашайте друзей в EasyClaw и получайте награды.",
+    "invite_balance": "Баланс вознаграждений за приглашения",
+    "total_invite_count": "Общее количество приглашений",
+    "total_paid_count": "Общее количество оплаченных платежей",
+    "total_award_amount": "Общая сумма вознаграждения",
+    "update_invite_code": "Установить пригласительный код",
+    "update_invite_code_tip": "Введите свой собственный код приглашения",
+    "update_invite_button": "Сохранить",
+    "no_orders": "Вам нужен платный план, прежде чем приглашать других",
+    "no_affiliates": "Вам не разрешено приглашать других. Пожалуйста, свяжитесь с нами, чтобы подать заявку на разрешение.",
+    "table": {
+      "invite_time": "Пригласить время",
+      "invite_user": "Пригласить пользователя",
+      "status": "Статус",
+      "reward_percent": "Процент вознаграждения",
+      "reward_amount": "Сумма вознаграждения",
+      "pending": "Ожидается",
+      "completed": "Завершено"
+    }
+  },
+  "feedback": {
+    "title": "Обратная связь",
+    "description": "Нам хотелось бы услышать, что прошло хорошо или как мы можем улучшить качество продукта.",
+    "submit": "Отправить",
+    "loading": "Отправка...",
+    "contact_tip": "Другие способы связаться с нами",
+    "rating_tip": "Как вы относитесь к EasyClaw?",
+    "placeholder": "Оставьте свои слова здесь..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw — мгновенно создавайте карикатуры ИИ",
+    "description": "Загружайте фотографии, чтобы создавать забавные и художественные карикатуры с помощью инструментов на базе искусственного интеллекта.",
+    "upload_label": "Загрузите свое изображение",
+    "upload_placeholder": "Нажмите или перетащите, чтобы загрузить (JPG, PNG, GIF, WebP)",
+    "upload_required": "Требуется",
+    "prompt_label": "Опишите расширение (необязательно)",
+    "prompt_placeholder": "Например, «расширить фон влево и вправо», «закрасить небо», «расширить холст для баннера», «добавить место вокруг объекта»…",
+    "prompt_required": "Дополнительные примечания",
+    "character_count": "{count}/500",
+    "generate_button": "Развернуть изображение",
+    "generating_button": "Расширение...",
+    "credits_label": "Ваши кредиты",
+    "cost_label": "Стоимость: {cost} кредитов за расширение.",
+    "insufficient_credits": "Недостаточное количество кредитов. Пожалуйста, пополните баланс, чтобы продолжить расширять изображения.",
+    "errors": {
+      "no_image": "Пожалуйста, загрузите изображение для расширения",
+      "no_prompt": "Опишите, как вы хотите расширить изображение.",
+      "invalid_format": "Поддерживаются только форматы JPG, PNG, GIF, WebP.",
+      "file_too_large": "Размер изображения не может превышать 5 МБ.",
+      "generation_failed": "Не удалось расширить изображение. Повторите попытку.",
+      "download_failed": "Загрузка не удалась, попробуйте еще раз"
+    },
+    "success": {
+      "generated": "Ваше расширенное изображение готово!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Посмотрите последние изображения, расширенные с помощью нашего инструмента. Предварительный просмотр до/после и экспортируйте результат.",
+    "download_hint": "Нажмите, чтобы загрузить развернутое изображение",
+    "no_outfits": "Расширений пока нет. Загрузите изображение, чтобы начать расширяться!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw — Генератор карикатур ИИ",
+    "description": "Создавайте высококачественные карикатуры с помощью модели OpenClaw AI с режимами преобразования текста в изображение и изображения в изображение.",
+    "hero": {
+      "badge": "Новый OpenClaw",
+      "title": "Создавайте удивительные карикатуры",
+      "subtitle": "Превратите фотографии в потрясающие карикатуры с помощью усовершенствованной модели искусственного интеллекта OpenClaw. Поддерживает режимы создания «текст-изображение» и «изображение-изображение».",
+      "features": {
+        "text_to_image": "Текст в изображение",
+        "image_to_image": "Изображение к изображению",
+        "high_quality": "Высокое качество вывода"
+      },
+      "buttons": {
+        "start_creating": "Начать создавать",
+        "view_gallery": "Посмотреть галерею"
+      },
+      "stats": {
+        "daily_images": "Ежедневно создаваемые изображения",
+        "satisfaction": "Удовлетворенность пользователей",
+        "generation_time": "Среднее время генерации"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Изображение к изображению",
+        "text_to_image": "Текст в изображение"
+      },
+      "model": "Модель",
+      "reference_images": "Справочные изображения",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Перетащите изображения сюда",
+        "or_click": "или нажмите, чтобы просмотреть",
+        "supported_formats": "Поддерживает: JPEG, PNG, WebP (макс. 10 МБ)",
+        "add_more": "Добавить еще"
+      },
+      "prompt": "Подскажите",
+      "prompt_placeholder_image": "Опишите, как преобразовать изображение...",
+      "prompt_placeholder_text": "Опишите изображение, которое вы хотите создать...",
+      "aspect_ratio": "Соотношение сторон",
+      "resolution": "Разрешение",
+      "output_count": "Количество выходов",
+      "output_count_range": "Мин {min}, Макс {max}",
+      "output_format": "Формат вывода",
+      "generate_button": "Создать сейчас",
+      "generating": "Создание...",
+      "clear_images": "Очистить все изображения",
+      "output_gallery": "Ваше сгенерированное изображение",
+      "view_all": "Посмотреть все",
+      "generating_message": "Создавая свой шедевр...",
+      "generating_submessage": "Наша модель OpenClaw творит чудеса. Обычно это занимает несколько секунд.",
+      "example": "Пример"
+    },
+    "my_creations": {
+      "title": "Мои творения",
+      "description": "Просматривайте изображения, созданные с помощью искусственного интеллекта, и управляйте ими — просмотрите и загрузите одним щелчком мыши.",
+      "search_placeholder": "Поиск творений...",
+      "view_all": "Просмотреть все ({count})",
+      "no_results": "Подходящих творений не найдено",
+      "no_results_message": "Попробуйте использовать другие ключевые слова или очистите поиск, чтобы просмотреть все творения.",
+      "clear_search": "Очистить поиск",
+      "empty_state": "Пока нет творений",
+      "empty_message": "Начните использовать OpenClaw, чтобы создать свое первое изображение, сгенерированное искусственным интеллектом!",
+      "start_creating": "Начать создавать",
+      "download": "Скачать",
+      "delete": "Удалить",
+      "total_count": "Всего творений {count}",
+      "search_results": "(Поиск: «{term}»)",
+      "modes": {
+        "TEXT_TO_IMAGE": "Текст в изображение",
+        "IMAGE_TO_IMAGE": "Изображение к изображению"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Пожалуйста, введите подсказку",
+      "upload_reference": "Режим «изображение к изображению» требует загрузки эталонных изображений.",
+      "generation_failed": "Генерация не удалась, попробуйте еще раз",
+      "upload_success": "Изображение успешно загружено",
+      "upload_failed": "Загрузка не удалась",
+      "delete_success": "Изображение удалено.",
+      "delete_failed": "Удаление не удалось, попробуйте еще раз",
+      "download_started": "Загрузка началась",
+      "file_too_large": "Размер файла не может превышать {size}MB.",
+      "unsupported_format": "Неподдерживаемый формат файла. Поддерживаемые форматы: {formats}.",
+      "retry": "Повторить попытку",
+      "dismiss": "Уволить"
+    },
+    "loading": {
+      "default": "Загрузка...",
+      "generation": "Создавая свой шедевр...",
+      "generation_message": "Наша модель OpenClaw творит чудеса. Обычно это занимает несколько секунд.",
+      "upload": "Загрузка изображения...",
+      "upload_message": "Пожалуйста, подождите, пока ваше изображение загрузится в облако."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Многоуровневая студия",
+      "title": "OpenClaw Студия",
+      "description": "Создавайте художественные карикатуры из своих фотографий.",
+      "cta": "Бесплатная пробная версия",
+      "cta_hint": "Загрузите одно изображение, чтобы начать",
+      "features": [
+        "2–8 слоев AI на изображение",
+        "Прозрачный экспорт PNG/WebP",
+        "Оперативное разделение"
+      ]
+    },
+    "upload": {
+      "title": "Загрузить",
+      "subtitle": "JPG, PNG или WebP до 10 МБ.",
+      "action": "Загрузить изображение",
+      "drop": "Скиньте сюда свое изображение",
+      "or_click": "или нажмите, чтобы просмотреть",
+      "supported_formats": "Поддерживает: JPEG, PNG, WebP (макс. 10 МБ)"
+    },
+    "prompt": {
+      "label": "Подскажите",
+      "placeholder": "Опишите нужные слои (например, объект, реквизит, фон)."
+    },
+    "advanced": {
+      "title": "Расширенные настройки",
+      "prompt_label": "Подсказка (необязательно)",
+      "prompt_placeholder": "Пожалуйста, введите подсказку для описания изображения. (Необязательный)",
+      "negative_prompt_label": "Отрицательная подсказка (необязательно)",
+      "negative_prompt_placeholder": "Опишите, что следует исключить из слоев.",
+      "seed": "Семена",
+      "randomize_seed": "Рандомизировать семя",
+      "guidance_scale": "Истинная шкала наведения",
+      "inference_steps": "Количество шагов вывода",
+      "cfg_normalization": "Включить ли нормализацию CFG",
+      "auto_caption_language": "Автоматический язык субтитров, если подсказка не предоставлена: True для EN, False для ZH",
+      "layer_count": "Количество слоев",
+      "layer_range": "Мин {min}, Макс {max}",
+      "output_format": "Выходной формат"
+    },
+    "actions": {
+      "decompose": "Разлагайтесь!",
+      "sign_in_to_decompose": "Войдите, чтобы разложить!",
+      "generating": "Разложение..."
+    },
+    "results": {
+      "title": "Результаты",
+      "subtitle": "Многоуровневые выходные данные появляются здесь после разложения.",
+      "download_pptx": "Скачать PPTX",
+      "download_zip": "Скачать ZIP",
+      "packaging": "Упаковка...",
+      "generating_title": "Разложение вашего образа...",
+      "generating_subtitle": "Создание многослойных активов. Обычно это занимает несколько секунд.",
+      "layer_label": "Слой {index}",
+      "layer_description": "Многоуровневый актив",
+      "empty_title": "Слоев пока нет",
+      "empty_subtitle": "Загрузите изображение и нажмите «Разложить»! для создания слоев.",
+      "success": "Слои успешно созданы!",
+      "download_ready": "Скачать готово"
+    },
+    "examples": {
+      "title": "Примеры",
+      "subtitle": "Посмотрите, как исходное изображение разбивается на чистые слои.",
+      "labels": {
+        "source": "Источник",
+        "layer": "Слой {index}",
+        "sample": "Пример {index}"
+      },
+      "rows": {
+        "primary": "Пример набора 01",
+        "secondary": "Пример набора 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Пожалуйста, сначала загрузите эталонное изображение",
+      "generation_failed": "Генерация не удалась, попробуйте еще раз",
+      "upload_success": "Изображение успешно загружено",
+      "upload_failed": "Загрузка не удалась",
+      "download_failed": "Загрузка не удалась, попробуйте еще раз"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Доступно"
+    },
+    "errors": {
+      "no_available_account": "В вашей текущей подписке нет доступной учетной записи. Пожалуйста, повторите попытку позже.",
+      "network_unstable": "Сеть нестабильна. Пожалуйста, повторите попытку в ближайшее время.",
+      "deployment_failed_try_again": "Развертывание не удалось. Попробуйте еще раз.",
+      "deployment_timeout": "Тайм-аут развертывания через {minutes} минут. Пожалуйста, попробуйте еще раз.",
+      "enter_bot_token": "Введите токен бота.",
+      "select_channel_before_deploying": "Пожалуйста, выберите канал перед развертыванием.",
+      "enter_telegram_bot_token": "Пожалуйста, введите свой токен бота Telegram.",
+      "invalid_response_missing_deployment_id": "Неверный ответ: отсутствует Deployment_id.",
+      "failed_to_start_deployment": "Не удалось начать развертывание",
+      "failed_to_fetch_deployment_status": "Не удалось получить статус развертывания.",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw — развертывание OpenClaw в один клик",
+      "description": "Разверните OpenClaw менее чем за 1 минуту. Никаких серверов и DevOps. Выберите модель, подключите канал и запустите."
+    },
+    "selectors": {
+      "model_title": "Выберите модель по умолчанию для вашего OpenClaw.",
+      "channel_title": "Выберите, куда OpenClaw должен отправлять сообщения.",
+      "selected": "Выбрано"
+    },
+    "deploy": {
+      "deploying": "Развертывание...",
+      "deploy_button": "Развертывание",
+      "sign_in_button": "Войдите в систему для развертывания с помощью EasyClaw.",
+      "sign_in_hint": "Войдите, чтобы развернуть OpenClaw с помощью EasyClaw и подключить свои каналы.",
+      "status_success": "Развертывание успешно! OpenClaw теперь работает.",
+      "model_substitution_warning": "Обнаружена подмена модели. Попробуйте выполнить повторное развертывание или переключиться на другой регион/провайдера.",
+      "hint_prefix": "Подключите Telegram, чтобы продолжить.",
+      "hint_suffix": "Позже вы сможете добавить другие каналы в ту же учетную запись.",
+      "hint_prefix_telegram": "Подключите Telegram, чтобы продолжить.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Подключить Telegram",
+      "how_to_get_token": "Как получить токен бота?",
+      "step_1_prefix": "Откройте Telegram и перейдите в",
+      "step_2_prefix": "Начните чат и введите",
+      "step_3_text": "Следуйте инструкциям, чтобы назвать своего бота и выбрать имя пользователя.",
+      "step_4_text": "BotFather отправит вам сообщение с вашим токеном бота. Скопируйте весь токен (он выглядит как длинная строка цифр и букв).",
+      "step_5_text": "Вставьте токен в поле ниже и нажмите «Сохранить и подключить».",
+      "token_label": "Введите токен бота",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Сохранить и подключить",
+      "preview_intro": "Я могу помочь вам создавать ботов Telegram и управлять ими. Что бы вы хотели сделать?",
+      "preview_newbot": "создать нового бота",
+      "preview_mybots": "редактировать своих ботов",
+      "preview_name_prompt": "Ура, новый бот. Как мы будем это называть? Пожалуйста, выберите имя для своего бота.",
+      "preview_message_input": "Сообщение"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

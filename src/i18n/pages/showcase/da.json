@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "OpenClaw-implementeringseksempler fra EasyClaw-brugere",
+    "description": "Se, hvordan teams lancerer OpenClaw-assistenter til support, drift og interne arbejdsgange.",
+    "items": [
+      {
+        "title": "Lancering af kundesupportassistent",
+        "description": "Implementerede en Telegram-understøttelsesbot med modeltilbagegang på få minutter",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Salgsopfølgningsautomatisering",
+        "description": "Konfigurer OpenClaw for at kvalificere kundeemner og udarbejde udkast til opfølgende svar",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Intern driftsanmelder",
+        "description": "Forbundet OpenClaw for at advare teams om operationsbegivenheder og hændelser",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Multi-channel community assistent",
+        "description": "Udrullede den samme assistent på tværs af Telegram, Discord og WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Ugentlig rapportering arbejdsgang",
+        "description": "Automatiserede oversigtsrapporter til ledere hver fredag",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Onboarding copilot",
+        "description": "Leveret første uges vejledning og svar til nyansatte",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Lead kvalifikation bot",
+        "description": "Fangede indgående spørgsmål og dirigerede kundeemner med høj hensigt til salg",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Samler af produktfeedback",
+        "description": "Klassificeret brugerfeedback og genererede handlingspunkter til produktteams",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

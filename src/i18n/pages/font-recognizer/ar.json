@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "صورة الزعنفة",
+    "description": "قم بتحميل صورة لعكس الألوان وتحسينها بشكل احترافي",
+    "disabled": false,
+    "upload": {
+      "title": "قم بسحب وإسقاط الصورة",
+      "description": "يدعم PNG، JPG، JPEG، WebP حتى 10 ميجابايت",
+      "buttonText": "اختر ملفًا",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "صورة نظيفة",
+      "textListTitle": "مناطق النص المكتشفة",
+      "fontRecommendationTitle": "اقتراحات الإزالة",
+      "detectedFontLabel": "المنطقة المختارة",
+      "similarFontsLabel": "الحشوات البديلة",
+      "selectTextPrompt": "حدد كتلة نصية لإزالتها"
+    },
+    "actions": {
+      "reuploadText": "إعادة التحميل"
+    },
+    "messages": {
+      "uploadSuccess": "تم تحميل الصورة بنجاح",
+      "uploadError": "فشل تحميل الصورة",
+      "recognitionSuccess": "اكتمل الكشف",
+      "recognitionError": "فشل الكشف",
+      "fontRecognitionSuccess": "اكتملت عملية إزالة النص",
+      "fontRecognitionError": "فشلت إزالة النص",
+      "processing": "جارٍ المعالجة..."
+    }
+  }
+}

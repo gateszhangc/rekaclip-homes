@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Funksjoner",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Prissetting",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blogg",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw logo"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Lag kunst av høy kvalitet",
+    "description": "Last opp et portrett, velg en stil og få en ren karikatur for avatarer, gaver eller innhold.",
+    "features": [
+      "Høykvalitetsdetaljer og rene linjer",
+      "Rimelig pris for daglig bruk",
+      "Klar for profiler, gaver og utskrifter"
+    ],
+    "buttons": [
+      {
+        "title": "Lag min karikatur",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Karikatureksempel"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Karikatureksempel 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Karikatureksempel 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Karikatureksempel 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Drevet av avansert teknologi",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "sant",
+    "name": "introduce",
+    "title": "Hvordan lage en karikatur",
+    "label": "Enkel prosess",
+    "description": "Lag fantastiske karikaturer i tre enkle trinn. Ingen kunstneriske ferdigheter kreves.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Last opp bilde",
+        "description": "Last opp et tydelig portrettbilde. Vi støtter JPG, PNG og WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Velg Stil",
+        "description": "Velg mellom morsomme, overdrevne, anime- eller 3D-tegneseriestiler.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Last ned",
+        "description": "Få din høykvalitets karikatur umiddelbart uten vannmerker.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "sant",
+    "name": "benefit",
+    "title": "Hvorfor bruke OpenClaw?",
+    "label": "Fordeler",
+    "description": "Det perfekte verktøyet for gaver, profilbilder og innhold på sosiale medier.",
+    "items": [
+      {
+        "title": "Instant AI Magic",
+        "description": "Avansert AI analyserer ansiktstrekk for å lage perfekt overdrevne karikaturer på sekunder.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Ulike kunststiler",
+        "description": "Fra klassisk håndtegnet utseende til moderne 3D-animerte avatarer. Vi har alt.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Høy oppløsning",
+        "description": "Last ned skarpe bilder av høy kvalitet som egner seg for utskrift på krus, t-skjorter og plakater.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galleri",
+    "title": "Fantastiske transformasjoner",
+    "description": "Se hvordan vanlige bilder blir ekstraordinære karikaturer.",
+    "items": [
+      {
+        "title": "Sosiale avatarer",
+        "highlight": "Skille seg ut på nettet",
+        "description": "Lag et unikt profilbilde som fanger personligheten din.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Originalfoto",
+        "afterAlt": "Karikaturresultat",
+        "reverse": false
+      },
+      {
+        "title": "Personlige gaver",
+        "highlight": "Minneverdige gaver",
+        "description": "Overrask venner og familie med et tilpasset morsomt portrett.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Originalfoto",
+        "afterAlt": "Karikaturresultat",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 trinn for å distribuere OpenClaw",
+    "description": "Velg din modell, koble til en kanal og start.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "venstre",
+    "text_align": "sentrum",
+    "items": [
+      {
+        "title": "Velg en modell",
+        "description": "Claude, GPT, Gemini — velg den beste modellen for hver oppgave. Kreativt arbeid med Claude, analyse med GPT. Bytt når som helst.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Velg AI-modell - Claude, GPT eller Gemini"
+        }
+      },
+      {
+        "title": "Koble til en kanal",
+        "description": "Telegram, Discord, WhatsApp — ett dashbord for alle kanaler. Administrer alle samtaler fra ett sted, ikke mer å bytte apper.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Koble til meldingskanaler"
+        }
+      },
+      {
+        "title": "Distribuer og start",
+        "description": "AI-assistenten din er online på 60 sekunder. Send din første melding og begynn å automatisere.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Distribuer og start assistenten din"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Lag din karikatur",
+    "description": "Last opp et bilde, velg en stil og generer."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Karikaturstudio",
+    "description": "Last opp et bilde, velg en stil og generer en karikatur av høy kvalitet.",
+    "disabled": false,
+    "upload": {
+      "title": "Last opp bildet ditt",
+      "description": "Dra og slipp eller klikk for å laste opp (JPG, PNG, WebP opptil 10 MB)",
+      "buttonText": "Velg Bilde",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Din karikatur",
+      "textListTitle": "Stilinnstillinger",
+      "fontRecommendationTitle": "Anbefalte stiler",
+      "detectedFontLabel": "Nåværende valg",
+      "similarFontsLabel": "Prøv disse også",
+      "selectTextPrompt": "Velg en stil du vil bruke"
+    },
+    "actions": {
+      "reuploadText": "Prøv et annet bilde"
+    },
+    "messages": {
+      "uploadSuccess": "Bildet er lastet opp!",
+      "uploadError": "Beklager, opplastingen mislyktes. Vennligst prøv igjen.",
+      "recognitionSuccess": "Karikaturen din er klar!",
+      "recognitionError": "Generasjon mislyktes. Vennligst prøv igjen.",
+      "fontRecognitionSuccess": "Stil brukt!",
+      "fontRecognitionError": "Kunne ikke bruke stil.",
+      "processing": "Skaper karikaturen din..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Si farvel til bryet",
+    "description": "Se hva som endres når du bytter til EasyClaw",
+    "before_label": "Tradisjonelt oppsett",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Lei servere, konfigurer miljøer",
+        "after": "Ett-klikks distribusjon, ingen servere nødvendig"
+      },
+      {
+        "before": "Våkn opp for å fikse 03.00-varsler",
+        "after": "24/7 automatisk drift"
+      },
+      {
+        "before": "Oppdater OpenClaw-versjoner manuelt",
+        "after": "Automatiske oppdateringer til siste versjon"
+      },
+      {
+        "before": "Lær Docker, Linux-kommandoer",
+        "after": "Null tekniske ferdigheter kreves"
+      },
+      {
+        "before": "30+ minutter per distribusjon",
+        "after": "Distribuer på under 60 sekunder"
+      }
+    ],
+    "footer": "Tid spart: ~29 minutter per distribusjon"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Hvorfor lag velger EasyClaw",
+    "description": "Produksjonsklar distribusjon uten DevOps-overhead. Null vedlikehold, maksimal fokus.",
+    "items": [
+      {
+        "title": "Utplassert på 60 sekunder",
+        "description": "Fra null til å løpe på under ett minutt. Ingen Docker, ingen Linux-kommandoer, ingen serveroppsett.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Null vedlikehold",
+        "description": "Vi håndterer oppdateringer, overvåking og gjenoppretting. Du fokuserer bare på å bruke AI-assistenten din.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Modellfleksibilitet",
+        "description": "Bytt mellom Claude, GPT og Gemini når som helst. Bruk den beste modellen for hver oppgave.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Samlede kanaler",
+        "description": "Administrer Telegram, Discord og WhatsApp fra ett dashbord. Ingen flere bytter apper.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Alltid oppdatert",
+        "description": "Automatiske OpenClaw-oppdateringer. Bruk alltid de nyeste funksjonene uten å løfte en finger.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Skala med selvtillit",
+        "description": "Start alene, og øk deretter bruken på tvers av team og bruksområder. Fra 1 til 100 distribusjoner.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Distribuer OpenClaw for enhver arbeidsflyt",
+    "description": "En assistent, mange brukssaker. Start én gang, automatiser overalt.",
+    "items": [
+      {
+        "title": "Daglige orienteringer",
+        "description": "Gjør meldinger og oppdateringer til en kortfattet morgenbrief for teamet ditt.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Daglige orienteringer automatisering arbeidsflyt"
+        },
+        "buttons": [
+          {
+            "title": "Lær mer ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Kundestøtteassistent",
+        "description": "Send spørsmål, utkast til svar og hold støttekanalene responsive.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Arbeidsflyt for automatisering av kundestøtte"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Begynn å distribuere ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Team Ops Automation",
+        "description": "Automatiser påminnelser, statusrapporter og rutinemessige oppfølginger på tvers av kanaler.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Arbeidsflyt for automatisering av teamdrift"
+        },
+        "buttons": [
+          {
+            "title": "Se priser ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "falsk",
+    "name": "stats",
+    "label": "Høydepunkter",
+    "title": "Bygget for raske lanseringer",
+    "description": "Alt som trengs for å kjøre OpenClaw pålitelig.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Tid for første utplassering",
+        "label": "< 1 min",
+        "description": "Fra oppsett til løpeassistent"
+      },
+      {
+        "title": "Støttede kanaler",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Implementeringssynlighet",
+        "label": "Sanntid",
+        "description": "Spor løping og mislykkede tilstander"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Anmeldelser",
+    "title": "Hva brukerne sier",
+    "description": "Se hvorfor alle snakker om OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Manager for sosiale medier",
+        "description": "Jeg har laget et morsomt lagbilde for Om oss-siden vår. Alle elsket det!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Frilanser",
+        "description": "Brukte dette til å lage en unik avatar for frilansprofilen min. Det skiller seg ut!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "Student",
+        "description": "Laget karikaturer av alle vennene mine til et bursdagskort. Beste gaven noensinne.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "Innholdsskaper",
+        "description": "De forskjellige stilene er fantastiske. Jeg bruker 3D-stilen for miniatyrbildene mine.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wong",
+        "label": "Markedsføringsleder",
+        "description": "Raskt, enkelt, og resultatene er faktisk morsomme, ikke bare rare.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "Utvikler",
+        "description": "Superenkel API og flotte resultater for kjæledyrprosjektet mitt.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Vanlige spørsmål",
+    "description": "Alt du trenger før du distribuerer OpenClaw med EasyClaw.",
+    "items": [
+      {
+        "title": "Hvor mye koster EasyClaw?",
+        "description": "Planer starter på $10/måned. Avbryt når som helst fra kontoen din."
+      },
+      {
+        "title": "Trenger jeg å administrere servere?",
+        "description": "Nei. EasyClaw effektiviserer distribusjonsarbeidsflyten slik at du kan starte OpenClaw uten servere eller DevOps."
+      },
+      {
+        "title": "Hvilke modeller støttes?",
+        "description": "Claude, GPT og Gemini."
+      },
+      {
+        "title": "Kan jeg distribuere til flere kanaler?",
+        "description": "Ja. Telegram, Discord og WhatsApp støttes."
+      },
+      {
+        "title": "Hvor lang tid tar det å distribuere?",
+        "description": "Vanligvis under 1 minutt. Førstegangsoppsett kan ta litt lengre tid."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Klar til å lansere OpenClaw?",
+    "description": "Distribuer din første assistent på under ett minutt. Ingen servere, ingen vedlikehold, ingen læringskurve.",
+    "note": "Avbryt når som helst. Ingen langtidskontrakt.",
+    "buttons": [
+      {
+        "title": "Distribuer OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "Den enkleste måten å distribuere OpenClaw AI-assistent.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Alle rettigheter forbeholdt.",
+    "nav": {
+      "items": [
+        {
+          "title": "Om",
+          "children": [
+            {
+              "title": "Funksjoner",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Prissetting",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blogg",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "E-poststøtte",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw er et uavhengig produkt og er ikke tilknyttet noen tredjeparts modellleverandører eller varemerkeeiere.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Personvernerklæring",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Vilkår for bruk",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Refusjonspolicy",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Prissetting",
+    "title": "Prissetting",
+    "description": "Velg en plan basert på hvor mange OpenClaw-distribusjoner du trenger. Avbryt når som helst fra kontoen din.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Månedlig",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Årlig",
+        "is_featured": true,
+        "label": "Spar 50 %"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pro",
+        "label": "Populært",
+        "features_title": "Kjernedistribusjonsfunksjoner",
+        "features": [
+          "Opptil 5 aktive OpenClaw-distribusjoner",
+          "Ett klikk distribuer, start på nytt og omdistribuer",
+          "Forhåndsinnstillinger for modell og kanalkonfigurasjon",
+          "Oversikt over distribusjonsstatus",
+          "Grunnleggende bruksanalyse",
+          "E-poststøtte",
+          "Kommersiell bruk",
+          "Tilgang til nye distribusjonsfunksjoner"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Skaff deg Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro månedlig",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Alt i Pro, pluss",
+        "features": [
+          "Opptil 20 aktive OpenClaw-distribusjoner",
+          "Prioritert klargjøringskø",
+          "Gjenbrukbar modell og forhåndsinnstillinger for kanal",
+          "Webhook-varsler for distribusjonsstatus",
+          "Teamtilgang (opptil 3 medlemmer)",
+          "API tilgang",
+          "Prioritert støtte",
+          "Tidlig tilgang til betafunksjoner"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Få Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Premium månedlig",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populært",
+        "features_title": "Kjernedistribusjonsfunksjoner",
+        "features": [
+          "Opptil 5 aktive OpenClaw-distribusjoner",
+          "Ett klikk distribuer, start på nytt og omdistribuer",
+          "Forhåndsinnstillinger for modell og kanalkonfigurasjon",
+          "Oversikt over distribusjonsstatus",
+          "Grunnleggende bruksanalyse",
+          "E-poststøtte",
+          "Kommersiell bruk",
+          "Tilgang til nye distribusjonsfunksjoner"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Opprinnelig pris: $ 10 / mnd",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Skaff deg Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro årlig",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Alt i Pro, pluss",
+        "features": [
+          "Opptil 20 aktive OpenClaw-distribusjoner",
+          "Prioritert klargjøringskø",
+          "Gjenbrukbar modell og forhåndsinnstillinger for kanal",
+          "Webhook-varsler for distribusjonsstatus",
+          "Teamtilgang (opptil 3 medlemmer)",
+          "API tilgang",
+          "Prioritert støtte",
+          "Tidlig tilgang til betafunksjoner"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Opprinnelig pris: $20/md",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Få Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premium årlig",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

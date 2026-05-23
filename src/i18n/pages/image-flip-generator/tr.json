@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "Görüntü Çevirici",
+    "description": "Görüntüleri profesyonel kalitede yatay veya dikey olarak çevirin",
+    "disabled": false,
+    "upload": {
+      "title": "Bir resmi sürükleyip bırakın",
+      "description": "10 MB'a kadar PNG, JPG, JPEG, WebP'yi destekler",
+      "buttonText": "Dosyalara göz atın",
+      "dragDropText": "URL'yi bırakın, yapıştırın veya ekleyin",
+      "selectFileText": "Bir görüntü dosyası seçin",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "Dönmeye hazır.",
+      "replace": "Değiştir",
+      "remove": "Kaldır"
+    },
+    "controls": {
+      "horizontalFlip": "Yatay Çevir",
+      "verticalFlip": "Dikey Çevir",
+      "processing": "İşleniyor...",
+      "uploading": "Yükleniyor..."
+    },
+    "preview": {
+      "originalAlt": "Orijinal resim",
+      "flippedAlt": "Ters çevrilmiş resim",
+      "download": "İndir"
+    },
+    "credits": {
+      "label": "Kredi:",
+      "cost": "Çevirme başına maliyet:",
+      "insufficient": "Yetersiz kredi"
+    },
+    "errors": {
+      "noImage": "Resim seçilmedi",
+      "noImageSuggestion": "Lütfen önce bir resim yükleyin.",
+      "invalidFormat": "Desteklenmeyen dosya biçimi",
+      "formatSuggestion": "Lütfen aşağıdakilerden birini kullanın: {formats}",
+      "fileTooLarge": "Dosya çok büyük: {size}MB",
+      "sizeSuggestion": "Maksimum boyut {maxSize}MB'dir. Lütfen sıkıştırın veya daha küçük bir dosya seçin.",
+      "uploadFailed": "Resim yüklenemedi",
+      "uploadSuggestion": "Bağlantınızı kontrol edip tekrar deneyin.",
+      "authRequired": "Kimlik doğrulama gerekli",
+      "authSuggestion": "Resim yüklemek için lütfen oturum açın.",
+      "processingFailed": "Çevirme işlemi başarısız oldu",
+      "processingSuggestion": "Lütfen tekrar deneyin veya sorun devam ederse destek ekibiyle iletişime geçin.",
+      "networkError": "Ağ bağlantısı sorunu",
+      "networkSuggestion": "Bağlantınızı kontrol edip tekrar deneyin.",
+      "fileReadError": "Dosya okunamadı",
+      "fileReadSuggestion": "Lütfen dosyayı tekrar seçmeyi deneyin.",
+      "retry": "Yeniden dene"
+    },
+    "messages": {
+      "uploadSuccess": "Resim başarıyla yüklendi",
+      "flipSuccess": "Resim başarıyla çevrildi",
+      "downloadStarted": "İndirme başladı"
+    },
+    "legal": {
+      "terms": "Bir dosya yükleyerek Kullanım Koşullarımızı ve Gizlilik Politikamızı kabul etmiş olursunuz."
+    }
+  }
+}

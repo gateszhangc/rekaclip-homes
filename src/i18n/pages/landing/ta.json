@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "அம்சங்கள்",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "விலை நிர்ணயம்",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "வலைப்பதிவு",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw லோகோ"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "உயர்தர கலையை உருவாக்குங்கள்",
+    "description": "உருவப்படத்தைப் பதிவேற்றவும், ஒரு பாணியைத் தேர்ந்தெடுத்து, அவதாரங்கள், பரிசுகள் அல்லது உள்ளடக்கத்திற்கான சுத்தமான கேலிச்சித்திரத்தைப் பெறவும்.",
+    "features": [
+      "உயர்தர விவரங்கள் மற்றும் சுத்தமான கோடுகள்",
+      "அன்றாட பயன்பாட்டிற்கு நியாயமான விலை",
+      "சுயவிவரங்கள், பரிசுகள் மற்றும் பிரிண்டுகளுக்குத் தயார்"
+    ],
+    "buttons": [
+      {
+        "title": "எனது கேலிச்சித்திரத்தை உருவாக்கவும்",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "கேலிச்சித்திரம் உதாரணம்"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "கேலிச்சித்திர உதாரணம் 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "கேலிச்சித்திரம் உதாரணம் 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "கேலிச்சித்திரம் உதாரணம் 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "மேம்பட்ட தொழில்நுட்பத்தால் இயக்கப்படுகிறது",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "உண்மை",
+    "name": "introduce",
+    "title": "கேலிச்சித்திரம் செய்வது எப்படி",
+    "label": "எளிய செயல்முறை",
+    "description": "மூன்று எளிய படிகளில் பிரமிக்க வைக்கும் கேலிச்சித்திரங்களை உருவாக்கவும். கலை திறன்கள் தேவையில்லை.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "புகைப்படத்தைப் பதிவேற்றவும்",
+        "description": "தெளிவான உருவப்படப் புகைப்படத்தைப் பதிவேற்றவும். நாங்கள் JPG, PNG மற்றும் WebP ஆகியவற்றை ஆதரிக்கிறோம்.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "உடையை தேர்வு செய்யவும்",
+        "description": "வேடிக்கையான, மிகைப்படுத்தப்பட்ட, அனிம் அல்லது 3D கார்ட்டூன் பாணிகளிலிருந்து தேர்ந்தெடுக்கவும்.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "பதிவிறக்கவும்",
+        "description": "வாட்டர்மார்க்ஸ் இல்லாமல் உங்கள் உயர்தர கேலிச்சித்திரத்தை உடனடியாகப் பெறுங்கள்.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "உண்மை",
+    "name": "benefit",
+    "title": "OpenClaw ஏன் பயன்படுத்த வேண்டும்?",
+    "label": "நன்மைகள்",
+    "description": "பரிசுகள், சுயவிவரப் படங்கள் மற்றும் சமூக ஊடக உள்ளடக்கத்திற்கான சரியான கருவி.",
+    "items": [
+      {
+        "title": "உடனடி AI மேஜிக்",
+        "description": "மேம்பட்ட AI ஆனது, மிகைப்படுத்தப்பட்ட கேலிச்சித்திரங்களை நொடிகளில் உருவாக்க முக அம்சங்களை பகுப்பாய்வு செய்கிறது.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "மாறுபட்ட கலை பாணிகள்",
+        "description": "உன்னதமான கையால் வரையப்பட்ட தோற்றம் முதல் நவீன 3D அனிமேஷன் அவதாரங்கள் வரை. எங்களிடம் அனைத்தும் உள்ளன.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "உயர் தெளிவுத்திறன்",
+        "description": "குவளைகள், சட்டைகள் மற்றும் போஸ்டர்களில் அச்சிடுவதற்கு ஏற்ற மிருதுவான, உயர்தர படங்களைப் பதிவிறக்கவும்.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "தொகுப்பு",
+    "title": "அற்புதமான மாற்றங்கள்",
+    "description": "சாதாரண புகைப்படங்கள் எப்படி அசாதாரண கேலிச்சித்திரங்களாக மாறுகின்றன என்பதைப் பாருங்கள்.",
+    "items": [
+      {
+        "title": "சமூக அவதாரங்கள்",
+        "highlight": "ஆன்லைனில் தனித்து நிற்கவும்",
+        "description": "உங்கள் ஆளுமையைப் படம்பிடிக்கும் தனித்துவமான சுயவிவரப் படத்தை உருவாக்கவும்.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "அசல் புகைப்படம்",
+        "afterAlt": "கேலிச்சித்திர முடிவு",
+        "reverse": false
+      },
+      {
+        "title": "தனிப்பயனாக்கப்பட்ட பரிசுகள்",
+        "highlight": "மறக்கமுடியாத பரிசுகள்",
+        "description": "தனிப்பயன் வேடிக்கையான உருவப்படத்துடன் நண்பர்களையும் குடும்பத்தினரையும் ஆச்சரியப்படுத்துங்கள்.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "அசல் புகைப்படம்",
+        "afterAlt": "கேலிச்சித்திர முடிவு",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw பயன்படுத்த 3 படிகள்",
+    "description": "உங்கள் மாதிரியைத் தேர்ந்தெடுத்து, சேனலை இணைத்து, தொடங்கவும்.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "விட்டு",
+    "text_align": "மையம்",
+    "items": [
+      {
+        "title": "ஒரு மாதிரியைத் தேர்வுசெய்க",
+        "description": "Claude, GPT, Gemini — ஒவ்வொரு பணிக்கும் சிறந்த மாதிரியைத் தேர்ந்தெடுக்கவும். Claude உடன் ஆக்கப்பூர்வமான வேலை, GPT உடன் பகுப்பாய்வு. எப்போது வேண்டுமானாலும் மாறலாம்.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI மாதிரியைத் தேர்வு செய்யவும் - Claude, GPT, அல்லது Gemini"
+        }
+      },
+      {
+        "title": "சேனலை இணைக்கவும்",
+        "description": "Telegram, Discord, WhatsApp — அனைத்து சேனல்களுக்கும் ஒரு டாஷ்போர்டு. எல்லா உரையாடல்களையும் ஒரே இடத்திலிருந்து நிர்வகிக்கவும், இனி ஆப்ஸை மாற்ற முடியாது.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "செய்தி அனுப்பும் சேனல்களை இணைக்கவும்"
+        }
+      },
+      {
+        "title": "வரிசைப்படுத்தி தொடங்கவும்",
+        "description": "உங்கள் AI உதவியாளர் 60 வினாடிகளில் ஆன்லைனில் இருப்பார். உங்கள் முதல் செய்தியை அனுப்பவும் மற்றும் தானியங்கு செய்யத் தொடங்கவும்.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "உங்கள் அசிஸ்டண்ட்டைத் தொடங்கவும்"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "உங்கள் கேலிச்சித்திரத்தை உருவாக்கவும்",
+    "description": "ஒரு புகைப்படத்தைப் பதிவேற்றவும், ஒரு பாணியைத் தேர்ந்தெடுத்து, உருவாக்கவும்."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "கேலிச்சித்திர ஸ்டுடியோ",
+    "description": "ஒரு புகைப்படத்தைப் பதிவேற்றவும், ஒரு பாணியைத் தேர்ந்தெடுத்து, உயர்தர கேலிச்சித்திரத்தை உருவாக்கவும்.",
+    "disabled": false,
+    "upload": {
+      "title": "உங்கள் புகைப்படத்தை பதிவேற்றவும்",
+      "description": "பதிவேற்ற இழுக்கவும் அல்லது கிளிக் செய்யவும் (JPG, PNG, WebP 10MB வரை)",
+      "buttonText": "படத்தைத் தேர்ந்தெடுக்கவும்",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "உங்கள் கேலிச்சித்திரம்",
+      "textListTitle": "நடை அமைப்புகள்",
+      "fontRecommendationTitle": "பரிந்துரைக்கப்பட்ட பாங்குகள்",
+      "detectedFontLabel": "தற்போதைய தேர்வு",
+      "similarFontsLabel": "இவற்றையும் முயற்சிக்கவும்",
+      "selectTextPrompt": "விண்ணப்பிக்க ஒரு பாணியைத் தேர்ந்தெடுக்கவும்"
+    },
+    "actions": {
+      "reuploadText": "மற்றொரு புகைப்படத்தை முயற்சிக்கவும்"
+    },
+    "messages": {
+      "uploadSuccess": "புகைப்படம் பதிவேற்றப்பட்டது!",
+      "uploadError": "அச்சச்சோ, பதிவேற்றம் தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+      "recognitionSuccess": "உங்கள் கேலிச்சித்திரம் தயாராக உள்ளது!",
+      "recognitionError": "தலைமுறை தோல்வியடைந்தது. மீண்டும் முயற்சிக்கவும்.",
+      "fontRecognitionSuccess": "உடை பயன்படுத்தப்பட்டது!",
+      "fontRecognitionError": "பாணியைப் பயன்படுத்துவதில் தோல்வி.",
+      "processing": "உங்கள் கேலிச்சித்திரத்தை உருவாக்குகிறது..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "தொந்தரவுக்கு விடைபெறுங்கள்",
+    "description": "EasyClaw க்கு மாறும்போது என்னென்ன மாற்றங்கள் ஏற்படுகின்றன என்பதைப் பார்க்கவும்",
+    "before_label": "பாரம்பரிய அமைப்பு",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "சேவையகங்களை வாடகைக்கு விடுங்கள், சூழல்களை உள்ளமைக்கவும்",
+        "after": "ஒரு கிளிக் வரிசைப்படுத்தல், சேவையகங்கள் தேவையில்லை"
+      },
+      {
+        "before": "3 AM விழிப்பூட்டல்களை சரிசெய்ய எழுந்திருங்கள்",
+        "after": "24/7 தானியங்கி செயல்பாடு"
+      },
+      {
+        "before": "OpenClaw பதிப்புகளை கைமுறையாகப் புதுப்பிக்கவும்",
+        "after": "சமீபத்திய பதிப்பிற்கான தானியங்கி புதுப்பிப்புகள்"
+      },
+      {
+        "before": "டோக்கர், லினக்ஸ் கட்டளைகளைக் கற்றுக்கொள்ளுங்கள்",
+        "after": "பூஜ்ஜிய தொழில்நுட்ப திறன்கள் தேவை"
+      },
+      {
+        "before": "ஒரு வரிசைப்படுத்தலுக்கு 30+ நிமிடங்கள்",
+        "after": "60 வினாடிகளுக்குள் பயன்படுத்தவும்"
+      }
+    ],
+    "footer": "சேமிக்கப்பட்ட நேரம்: ~29 நிமிடங்கள் ஒரு வரிசைப்படுத்தல்"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "அணிகள் ஏன் EasyClaw ஐ தேர்வு செய்கின்றன",
+    "description": "DevOps ஓவர்ஹெட் இல்லாமல் உற்பத்திக்கு தயாராக வரிசைப்படுத்தல். பூஜ்ஜிய பராமரிப்பு, அதிகபட்ச கவனம்.",
+    "items": [
+      {
+        "title": "60 வினாடிகளில் பயன்படுத்தவும்",
+        "description": "பூஜ்ஜியத்திலிருந்து ஒரு நிமிடத்திற்குள் இயங்கும். டோக்கர் இல்லை, லினக்ஸ் கட்டளைகள் இல்லை, சர்வர் அமைப்பு இல்லை.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "பூஜ்ஜிய பராமரிப்பு",
+        "description": "புதுப்பிப்புகள், கண்காணிப்பு மற்றும் மீட்பு ஆகியவற்றை நாங்கள் கையாளுகிறோம். உங்கள் AI உதவியாளரைப் பயன்படுத்துவதில் மட்டும் கவனம் செலுத்துங்கள்.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "மாதிரி நெகிழ்வுத்தன்மை",
+        "description": "எப்போது வேண்டுமானாலும் Claude, GPT மற்றும் Gemini இடையே மாறவும். ஒவ்வொரு பணிக்கும் சிறந்த மாதிரியைப் பயன்படுத்தவும்.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "ஒருங்கிணைந்த சேனல்கள்",
+        "description": "ஒரு டாஷ்போர்டிலிருந்து Telegram, Discord மற்றும் WhatsApp ஆகியவற்றை நிர்வகிக்கவும். இனி பயன்பாடுகளை மாற்ற முடியாது.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "எப்போதும் புதுப்பித்த நிலையில் இருக்கும்",
+        "description": "தானியங்கி OpenClaw புதுப்பிப்புகள். விரலை உயர்த்தாமல் எப்போதும் சமீபத்திய அம்சங்களைப் பயன்படுத்தவும்.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "நம்பிக்கையுடன் அளவிடவும்",
+        "description": "தனித்தனியாகத் தொடங்கவும், பின்னர் குழுக்கள் மற்றும் கேஸ்களைப் பயன்படுத்தவும். 1 முதல் 100 வரிசைப்படுத்தல்கள்.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "எந்தவொரு பணிப்பாய்வுக்கும் OpenClaw ஐப் பயன்படுத்தவும்",
+    "description": "ஒரு உதவியாளர், பல பயன்பாட்டு வழக்குகள். ஒருமுறை இயக்கவும், எல்லா இடங்களிலும் தானியங்குபடுத்தவும்.",
+    "items": [
+      {
+        "title": "தினசரி சுருக்கங்கள்",
+        "description": "செய்திகளையும் புதுப்பிப்புகளையும் உங்கள் குழுவிற்கு சுருக்கமான காலை சுருக்கமாக மாற்றவும்.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "தினசரி விளக்கங்கள் ஆட்டோமேஷன் பணிப்பாய்வு"
+        },
+        "buttons": [
+          {
+            "title": "மேலும் அறிக ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "வாடிக்கையாளர் ஆதரவு உதவியாளர்",
+        "description": "வழி கேள்விகள், வரைவு பதில்கள் மற்றும் ஆதரவு சேனல்களை பதிலளிக்கக்கூடியதாக வைத்திருங்கள்.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "வாடிக்கையாளர் ஆதரவு ஆட்டோமேஷன் பணிப்பாய்வு"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "வரிசைப்படுத்தத் தொடங்கு ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "டீம் ஆப்ஸ் ஆட்டோமேஷன்",
+        "description": "சேனல்கள் முழுவதும் நினைவூட்டல்கள், நிலை அறிக்கைகள் மற்றும் வழக்கமான பின்தொடர்தல்களை தானியங்குபடுத்துங்கள்.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "குழு செயல்பாடுகள் ஆட்டோமேஷன் பணிப்பாய்வு"
+        },
+        "buttons": [
+          {
+            "title": "பார்க்க விலை ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "பொய்",
+    "name": "stats",
+    "label": "சிறப்பம்சங்கள்",
+    "title": "வேகமான ஏவுகணைகளுக்காக கட்டப்பட்டது",
+    "description": "OpenClaw ஐ நம்பகத்தன்மையுடன் இயக்க தேவையான அனைத்தும்.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "முதலில் பயன்படுத்த வேண்டிய நேரம்",
+        "label": "< 1 நிமிடம்",
+        "description": "அமைப்பிலிருந்து இயங்கும் உதவியாளர் வரை"
+      },
+      {
+        "title": "ஆதரிக்கப்படும் சேனல்கள்",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "வரிசைப்படுத்தல் தெரிவுநிலை",
+        "label": "நிகழ்நேரம்",
+        "description": "ஓட்டம் மற்றும் தோல்வியடைந்த நிலைகளைக் கண்காணிக்கவும்"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "விமர்சனங்கள்",
+    "title": "பயனர்கள் என்ன சொல்கிறார்கள்",
+    "description": "எல்லோரும் ஏன் OpenClaw பற்றி பேசுகிறார்கள் என்று பாருங்கள்.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "சாரா ஜென்கின்ஸ்",
+        "label": "சமூக ஊடக மேலாளர்",
+        "description": "எங்களின் எங்களைப் பற்றி பக்கத்திற்காக நான் ஒரு பெருங்களிப்புடைய குழு புகைப்படத்தை உருவாக்கினேன். அனைவரும் விரும்பினர்!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "மைக் ரோஸ்",
+        "label": "ஃப்ரீலான்ஸர்",
+        "description": "எனது ஃப்ரீலான்ஸ் சுயவிவரத்திற்கான தனித்துவமான அவதாரத்தை உருவாக்க இதைப் பயன்படுத்தினேன். அது தனித்து நிற்கிறது!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "எமிலி சென்",
+        "label": "மாணவர்",
+        "description": "பிறந்தநாள் அட்டைக்காக எனது நண்பர்கள் அனைவரின் கேலிச்சித்திரங்களை உருவாக்கினேன். எப்போதும் சிறந்த பரிசு.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "டேவிட் மில்லர்",
+        "label": "உள்ளடக்கத்தை உருவாக்குபவர்",
+        "description": "வெவ்வேறு பாணிகள் ஆச்சரியமாக இருக்கிறது. எனது சிறுபடங்களுக்கு 3D பாணியைப் பயன்படுத்துகிறேன்.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "ஜெசிகா வோங்",
+        "label": "மார்க்கெட்டிங் முன்னணி",
+        "description": "விரைவானது, எளிதானது மற்றும் முடிவுகள் உண்மையில் வேடிக்கையானவை, விசித்திரமானவை அல்ல.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "டாம் பேக்கர்",
+        "label": "டெவலப்பர்",
+        "description": "மிக எளிமையான API மற்றும் எனது செல்லப் பிராஜெக்ட்டுக்கான சிறந்த முடிவுகள்.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+    "title": "பொதுவான கேள்விகள்",
+    "description": "EasyClaw உடன் OpenClaw ஐப் பயன்படுத்துவதற்கு முன் உங்களுக்குத் தேவையான அனைத்தும்.",
+    "items": [
+      {
+        "title": "EasyClaw எவ்வளவு செலவாகும்?",
+        "description": "திட்டங்கள் $10/மாதம் தொடங்கும். உங்கள் கணக்கிலிருந்து எப்போது வேண்டுமானாலும் ரத்துசெய்யலாம்."
+      },
+      {
+        "title": "நான் சேவையகங்களை நிர்வகிக்க வேண்டுமா?",
+        "description": "எண். EasyClaw வரிசைப்படுத்தல் பணிப்பாய்வுகளை ஒழுங்குபடுத்துகிறது, எனவே நீங்கள் சேவையகங்கள் அல்லது DevOps இல்லாமல் OpenClaw ஐத் தொடங்கலாம்."
+      },
+      {
+        "title": "எந்த மாதிரிகள் ஆதரிக்கப்படுகின்றன?",
+        "description": "Claude, GPT மற்றும் Gemini."
+      },
+      {
+        "title": "பல சேனல்களுக்கு நான் பயன்படுத்தலாமா?",
+        "description": "ஆம். Telegram, Discord மற்றும் WhatsApp ஆகியவை ஆதரிக்கப்படுகின்றன."
+      },
+      {
+        "title": "வரிசைப்படுத்த எவ்வளவு நேரம் ஆகும்?",
+        "description": "பொதுவாக 1 நிமிடத்திற்குள். முதல் முறையாக அமைக்க சிறிது நேரம் ஆகலாம்."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw ஐ அறிமுகப்படுத்தத் தயாரா?",
+    "description": "உங்கள் முதல் உதவியாளரை ஒரு நிமிடத்திற்குள் பயன்படுத்தவும். சேவையகங்கள் இல்லை, பராமரிப்பு இல்லை, கற்றல் வளைவு இல்லை.",
+    "note": "எப்போது வேண்டுமானாலும் ரத்து செய்யலாம். நீண்ட கால ஒப்பந்தம் இல்லை.",
+    "buttons": [
+      {
+        "title": "OpenClaw பயன்படுத்தவும்",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI உதவியாளரைப் பயன்படுத்துவதற்கான எளிதான வழி.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • ஈஸிக்லா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
+    "nav": {
+      "items": [
+        {
+          "title": "பற்றி",
+          "children": [
+            {
+              "title": "அம்சங்கள்",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "விலை நிர்ணயம்",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "வலைப்பதிவு",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "மின்னஞ்சல் ஆதரவு",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw ஒரு சுயாதீன தயாரிப்பு மற்றும் எந்த மூன்றாம் தரப்பு மாதிரி வழங்குநர்கள் அல்லது வர்த்தக முத்திரை உரிமையாளர்களுடன் இணைக்கப்படவில்லை.",
+    "agreement": {
+      "items": [
+        {
+          "title": "தனியுரிமைக் கொள்கை",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "சேவை விதிமுறைகள்",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "பணத்தைத் திரும்பப்பெறுதல் கொள்கை",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "விலை நிர்ணயம்",
+    "title": "விலை நிர்ணயம்",
+    "description": "உங்களுக்கு எத்தனை OpenClaw வரிசைப்படுத்தல்கள் தேவை என்பதன் அடிப்படையில் ஒரு திட்டத்தைத் தேர்வுசெய்யவும். உங்கள் கணக்கிலிருந்து எப்போது வேண்டுமானாலும் ரத்துசெய்யலாம்.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "மாதாந்திர",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "ஆண்டுதோறும்",
+        "is_featured": true,
+        "label": "50% சேமிக்கவும்"
+      }
+    ],
+    "items": [
+      {
+        "title": "ப்ரோ",
+        "label": "பிரபலமானது",
+        "features_title": "முக்கிய வரிசைப்படுத்தல் அம்சங்கள்",
+        "features": [
+          "5 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "ஒரே கிளிக்கில் வரிசைப்படுத்தவும், மறுதொடக்கம் செய்யவும் மற்றும் மீண்டும் வரிசைப்படுத்தவும்",
+          "மாதிரி மற்றும் சேனல் உள்ளமைவு முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலை டாஷ்போர்டு",
+          "அடிப்படை பயன்பாட்டு பகுப்பாய்வு",
+          "மின்னஞ்சல் ஆதரவு",
+          "வணிக பயன்பாடு",
+          "புதிய வரிசைப்படுத்தல் அம்சங்களுக்கான அணுகல்"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ப்ரோவைப் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro மாதாந்திர",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "பிரீமியம்",
+        "features_title": "ப்ரோவில் உள்ள அனைத்தும், பிளஸ்",
+        "features": [
+          "20 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "முன்னுரிமை வழங்கல் வரிசை",
+          "மீண்டும் பயன்படுத்தக்கூடிய மாதிரி மற்றும் சேனல் முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலைக்கான Webhook விழிப்பூட்டல்கள்",
+          "குழு அணுகல் (3 உறுப்பினர்கள் வரை)",
+          "API அணுகல்",
+          "முன்னுரிமை ஆதரவு",
+          "பீட்டா அம்சங்களுக்கான ஆரம்ப அணுகல்"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "பிரீமியம் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw பிரீமியம் மாதாந்திர",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ப்ரோ",
+        "label": "பிரபலமானது",
+        "features_title": "முக்கிய வரிசைப்படுத்தல் அம்சங்கள்",
+        "features": [
+          "5 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "ஒரே கிளிக்கில் வரிசைப்படுத்தவும், மறுதொடக்கம் செய்யவும் மற்றும் மீண்டும் வரிசைப்படுத்தவும்",
+          "மாதிரி மற்றும் சேனல் உள்ளமைவு முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலை டாஷ்போர்டு",
+          "அடிப்படை பயன்பாட்டு பகுப்பாய்வு",
+          "மின்னஞ்சல் ஆதரவு",
+          "வணிக பயன்பாடு",
+          "புதிய வரிசைப்படுத்தல் அம்சங்களுக்கான அணுகல்"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "அசல் விலை: $10 /மா",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ப்ரோவைப் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro ஆண்டுதோறும்",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "பிரீமியம்",
+        "features_title": "ப்ரோவில் உள்ள அனைத்தும், பிளஸ்",
+        "features": [
+          "20 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "முன்னுரிமை வழங்கல் வரிசை",
+          "மீண்டும் பயன்படுத்தக்கூடிய மாதிரி மற்றும் சேனல் முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலைக்கான Webhook விழிப்பூட்டல்கள்",
+          "குழு அணுகல் (3 உறுப்பினர்கள் வரை)",
+          "API அணுகல்",
+          "முன்னுரிமை ஆதரவு",
+          "பீட்டா அம்சங்களுக்கான ஆரம்ப அணுகல்"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "அசல் விலை: $20 /மா",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "பிரீமியம் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw பிரீமியம் ஆண்டுதோறும்",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

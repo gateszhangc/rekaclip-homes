@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_i18n_pages_image-flip-generator_ur_json";
+exports.ids = ["_rsc_src_i18n_pages_image-flip-generator_ur_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/i18n/pages/image-flip-generator/ur.json":
+/*!*****************************************************!*\
+  !*** ./src/i18n/pages/image-flip-generator/ur.json ***!
+  \*****************************************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"image_flip_generator":{"name":"image-flip-generator","title":"امیج فلپر","description":"پیشہ ورانہ معیار کے ساتھ امیجز کو افقی یا عمودی طور پر پلٹائیں۔","disabled":false,"upload":{"title":"تصویر کو گھسیٹیں اور چھوڑیں۔","description":"PNG، JPG، JPEG، WebP کو 10MB تک سپورٹ کرتا ہے","buttonText":"فائلوں کو براؤز کریں۔","dragDropText":"یو آر ایل ڈالیں، پیسٹ کریں یا شامل کریں۔","selectFileText":"ایک تصویری فائل منتخب کریں۔","maxSize":10,"acceptedFormats":["PNG","JPG","JPEG","WebP"],"ready":"پلٹنے کے لیے تیار۔","replace":"بدل دیں۔","remove":"ہٹا دیں۔"},"controls":{"horizontalFlip":"افقی پلٹائیں۔","verticalFlip":"عمودی پلٹائیں","processing":"پروسیسنگ...","uploading":"اپ لوڈ ہو رہا ہے..."},"preview":{"originalAlt":"اصل تصویر","flippedAlt":"پلٹی ہوئی تصویر","download":"ڈاؤن لوڈ کریں۔"},"credits":{"label":"کریڈٹس:","cost":"فی فلپ لاگت:","insufficient":"ناکافی کریڈٹس"},"errors":{"noImage":"کوئی تصویر منتخب نہیں کی گئی۔","noImageSuggestion":"براہ کرم پہلے ایک تصویر اپ لوڈ کریں۔","invalidFormat":"غیر تعاون یافتہ فائل فارمیٹ","formatSuggestion":"براہ کرم ان میں سے ایک استعمال کریں: {formats}","fileTooLarge":"فائل بہت بڑی ہے: {size}MB","sizeSuggestion":"زیادہ سے زیادہ سائز {maxSize}MB ہے۔ براہ کرم کمپریس کریں یا چھوٹی فائل کا انتخاب کریں۔","uploadFailed":"تصویر اپ لوڈ کرنے میں ناکام","uploadSuggestion":"اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔","authRequired":"توثیق درکار ہے۔","authSuggestion":"براہ کرم تصاویر اپ لوڈ کرنے کے لیے سائن ان کریں۔","processingFailed":"پلٹائیں آپریشن ناکام ہوگیا۔","processingSuggestion":"براہ کرم دوبارہ کوشش کریں یا اگر مسئلہ برقرار رہتا ہے تو سپورٹ سے رابطہ کریں۔","networkError":"نیٹ ورک کنکشن کا مسئلہ","networkSuggestion":"اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔","fileReadError":"فائل پڑھنے میں ناکام","fileReadSuggestion":"براہ کرم فائل کو دوبارہ منتخب کرنے کی کوشش کریں۔","retry":"دوبارہ کوشش کریں۔"},"messages":{"uploadSuccess":"تصویر کامیابی کے ساتھ اپ لوڈ ہو گئی۔","flipSuccess":"تصویر کامیابی کے ساتھ پلٹ گئی۔","downloadStarted":"ڈاؤن لوڈ شروع ہو گیا۔"},"legal":{"terms":"فائل اپ لوڈ کر کے، آپ ہماری استعمال کی شرائط اور رازداری کی پالیسی سے اتفاق کرتے ہیں۔"}}}');
+
+/***/ })
+
+};
+;

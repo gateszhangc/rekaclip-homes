@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - Triển khai OpenClaw trong vòng chưa đầy 1 phút",
+    "description": "Triển khai OpenClaw với EasyClaw chỉ bằng một cú nhấp chuột. Kết nối Telegram, chọn một kiểu máy và phát hành nhanh chóng.",
+    "keywords": "easyclaw, triển khai openclaw, lưu trữ openclaw, triển khai bot telegram, triển khai trợ lý ai"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Tin tức, hướng dẫn và cập nhật về việc triển khai OpenClaw với EasyClaw.",
+    "read_more_text": "Đọc thêm"
+  },
+  "user": {
+    "sign_in": "Đăng nhập",
+    "sign_out": "Đăng xuất",
+    "credits": "Tín dụng",
+    "api_keys": "Phím API",
+    "my_orders": "Đơn hàng của tôi",
+    "my_invites": "Lời mời của tôi",
+    "user_center": "Trung tâm người dùng",
+    "support": "Hỗ trợ",
+    "admin_system": "Hệ thống quản trị",
+    "home": "Trang chủ",
+    "pricing": "Định giá",
+    "admin_center": "Trung tâm quản trị"
+  },
+  "sign_modal": {
+    "sign_in_title": "Đăng nhập vào EasyClaw",
+    "sign_in_description": "Truy cập tài khoản EasyClaw của bạn để triển khai và quản lý OpenClaw.",
+    "sign_up_title": "Tham gia EasyClaw",
+    "sign_up_description": "Tạo tài khoản EasyClaw của bạn",
+    "email_title": "Email",
+    "email_placeholder": "Nhập địa chỉ email của bạn",
+    "password_title": "Mật khẩu",
+    "password_placeholder": "Nhập mật khẩu của bạn",
+    "forgot_password": "Quên mật khẩu?",
+    "or": "Hoặc",
+    "continue": "Tiếp tục đến EasyClaw",
+    "no_account": "Bạn mới sử dụng EasyClaw?",
+    "email_sign_in": "Đăng nhập bằng Email",
+    "google_sign_in": "Tiếp tục với Google",
+    "github_sign_in": "Tiếp tục với GitHub",
+    "close_title": "Đóng",
+    "cancel_title": "Hủy bỏ"
+  },
+  "my_orders": {
+    "title": "Đơn hàng của tôi",
+    "no_orders": "Không tìm thấy đơn hàng nào",
+    "tip": "",
+    "support_tip": "Cần trợ giúp về việc thanh toán hoặc hủy? Gửi email tới support@easyclaw.pro.",
+    "activate_order": "Kích hoạt đơn hàng",
+    "actived": "Đã kích hoạt",
+    "join_discord": "Tham gia Discord",
+    "read_docs": "Đọc tài liệu",
+    "table": {
+      "order_no": "Số thứ tự",
+      "email": "Email",
+      "product_name": "Tên sản phẩm",
+      "amount": "Số tiền",
+      "paid_at": "thanh toán tại",
+      "github_username": "Tên người dùng GitHub",
+      "status": "Trạng thái",
+      "manage_billing": "Quản lý thanh toán",
+      "interval": "Interval",
+      "interval_month": "hàng tháng",
+      "interval_year": "Hàng năm",
+      "interval_one_time": "một lần"
+    }
+  },
+  "my_credits": {
+    "title": "Tín dụng của tôi",
+    "left_tip": "khoản tín dụng còn lại: {left_credits}",
+    "no_credits": "Không có hồ sơ tín dụng",
+    "recharge": "nạp tiền",
+    "table": {
+      "trans_no": "Chuyển Không",
+      "trans_type": "Loại chuyển đổi",
+      "credits": "Tín dụng",
+      "updated_at": "Cập nhật lúc",
+      "status": "Trạng thái",
+      "expired_at": "Hết hạn vào lúc",
+      "created_at": "Được tạo tại"
+    }
+  },
+  "api_keys": {
+    "title": "Phím API",
+    "tip": "Hãy giữ apikey của bạn an toàn để tránh rò rỉ",
+    "no_api_keys": "Không có phím API",
+    "create_api_key": "Tạo khóa API",
+    "table": {
+      "name": "Name",
+      "key": "Chìa khóa",
+      "created_at": "Được tạo tại"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Tên khóa API",
+      "submit": "Gửi"
+    }
+  },
+  "my_invites": {
+    "title": "Lời mời của tôi",
+    "description": "Xem hồ sơ lời mời của bạn",
+    "no_invites": "Không tìm thấy bản ghi lời mời nào",
+    "my_invite_link": "Liên kết mời của tôi",
+    "edit_invite_link": "Chỉnh sửa liên kết mời",
+    "copy_invite_link": "Sao chép liên kết mời",
+    "invite_code": "Mã mời",
+    "invite_tip": "Mời bạn bè tham gia EasyClaw và kiếm phần thưởng.",
+    "invite_balance": "Số dư phần thưởng mời",
+    "total_invite_count": "Tổng số lời mời",
+    "total_paid_count": "Tổng số tiền đã thanh toán",
+    "total_award_amount": "Tổng số tiền thưởng",
+    "update_invite_code": "Đặt mã mời",
+    "update_invite_code_tip": "Nhập mã mời tùy chỉnh của bạn",
+    "update_invite_button": "Lưu",
+    "no_orders": "Bạn cần có gói trả phí trước khi mời người khác",
+    "no_affiliates": "Bạn không được phép mời người khác, vui lòng liên hệ với chúng tôi để xin phép.",
+    "table": {
+      "invite_time": "Thời gian mời",
+      "invite_user": "Mời người dùng",
+      "status": "Trạng thái",
+      "reward_percent": "Phần trăm thưởng",
+      "reward_amount": "Số tiền thưởng",
+      "pending": "Đang chờ xử lý",
+      "completed": "Đã hoàn thành"
+    }
+  },
+  "feedback": {
+    "title": "Phản hồi",
+    "description": "Chúng tôi muốn biết điều gì đã diễn ra tốt đẹp hoặc cách chúng tôi có thể cải thiện trải nghiệm sản phẩm.",
+    "submit": "Gửi",
+    "loading": "Đang gửi...",
+    "contact_tip": "Những cách khác để liên hệ với chúng tôi",
+    "rating_tip": "Bạn cảm thấy thế nào về EasyClaw?",
+    "placeholder": "Hãy để lại lời nói của bạn ở đây..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Tạo tranh biếm họa AI ngay lập tức",
+    "description": "Tải ảnh lên để tạo ra những bức tranh biếm họa thú vị và nghệ thuật bằng các công cụ hỗ trợ AI.",
+    "upload_label": "Tải hình ảnh của bạn lên",
+    "upload_placeholder": "Nhấp hoặc kéo để tải lên (JPG, PNG, GIF, WebP)",
+    "upload_required": "Bắt buộc",
+    "prompt_label": "Mô tả việc mở rộng (tùy chọn)",
+    "prompt_placeholder": "Ví dụ: 'mở rộng nền sang trái và phải', 'vẽ bầu trời', 'mở rộng khung vẽ cho biểu ngữ', 'thêm khoảng trống xung quanh chủ thể'...",
+    "prompt_required": "Ghi chú tùy chọn",
+    "character_count": "{count}/500",
+    "generate_button": "Mở rộng hình ảnh",
+    "generating_button": "Đang mở rộng...",
+    "credits_label": "Tín dụng của bạn",
+    "cost_label": "Chi phí: Tín dụng {cost} cho mỗi lần mở rộng",
+    "insufficient_credits": "Tín dụng không đủ. Hãy nạp tiền để tiếp tục mở rộng hình ảnh.",
+    "errors": {
+      "no_image": "Vui lòng tải lên một hình ảnh để mở rộng",
+      "no_prompt": "Vui lòng mô tả cách bạn muốn mở rộng hình ảnh",
+      "invalid_format": "Chỉ hỗ trợ các định dạng JPG, PNG, GIF, WebP",
+      "file_too_large": "Kích thước hình ảnh không được vượt quá 5MB",
+      "generation_failed": "Mở rộng hình ảnh không thành công, vui lòng thử lại",
+      "download_failed": "Tải xuống không thành công, vui lòng thử lại"
+    },
+    "success": {
+      "generated": "Hình ảnh mở rộng của bạn đã sẵn sàng!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Xem những hình ảnh mới nhất được mở rộng bởi công cụ của chúng tôi. Xem trước trước/sau và xuất kết quả.",
+    "download_hint": "Bấm vào để tải hình ảnh mở rộng",
+    "no_outfits": "Chưa có bản mở rộng nào. Tải lên một hình ảnh để bắt đầu mở rộng!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - Trình tạo tranh biếm họa AI",
+    "description": "Tạo tranh biếm họa chất lượng cao bằng mô hình AI OpenClaw với các chế độ chuyển văn bản thành hình ảnh và hình ảnh thành hình ảnh",
+    "hero": {
+      "badge": "OpenClaw mới",
+      "title": "Tạo những bức tranh biếm họa tuyệt vời",
+      "subtitle": "Biến những bức ảnh thành những bức tranh biếm họa tuyệt đẹp với mô hình AI tiên tiến của OpenClaw. Hỗ trợ cả chế độ tạo văn bản thành hình ảnh và hình ảnh thành hình ảnh.",
+      "features": {
+        "text_to_image": "văn bản thành hình ảnh",
+        "image_to_image": "Hình ảnh thành hình ảnh",
+        "high_quality": "Đầu ra chất lượng cao"
+      },
+      "buttons": {
+        "start_creating": "Bắt đầu tạo",
+        "view_gallery": "Xem thư viện"
+      },
+      "stats": {
+        "daily_images": "Hình ảnh được tạo hàng ngày",
+        "satisfaction": "Sự hài lòng của người dùng",
+        "generation_time": "Thời gian thế hệ trung bình"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Hình ảnh thành hình ảnh",
+        "text_to_image": "văn bản thành hình ảnh"
+      },
+      "model": "người mẫu",
+      "reference_images": "Hình ảnh tham khảo",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Kéo và thả hình ảnh vào đây",
+        "or_click": "hoặc bấm vào để duyệt",
+        "supported_formats": "Hỗ trợ: JPEG, PNG, WebP (tối đa 10MB)",
+        "add_more": "Thêm nhiều hơn nữa"
+      },
+      "prompt": "Lời nhắc",
+      "prompt_placeholder_image": "Mô tả cách chuyển đổi hình ảnh...",
+      "prompt_placeholder_text": "Mô tả hình ảnh bạn muốn tạo...",
+      "aspect_ratio": "Tỷ lệ khung hình",
+      "resolution": "Độ phân giải",
+      "output_count": "Số lượng đầu ra",
+      "output_count_range": "{min} tối thiểu, {max} tối thiểu",
+      "output_format": "Định dạng đầu ra",
+      "generate_button": "Tạo ngay bây giờ",
+      "generating": "Đang tạo...",
+      "clear_images": "Xóa tất cả hình ảnh",
+      "output_gallery": "Hình ảnh được tạo của bạn",
+      "view_all": "Xem tất cả",
+      "generating_message": "Tạo ra kiệt tác của bạn...",
+      "generating_submessage": "Mô hình OpenClaw của chúng tôi đang phát huy tác dụng kỳ diệu của nó. Việc này thường mất vài giây.",
+      "example": "Ví dụ"
+    },
+    "my_creations": {
+      "title": "Sáng tạo của tôi",
+      "description": "Xem và quản lý hình ảnh do AI tạo của bạn - xem trước và tải xuống chỉ bằng một cú nhấp chuột",
+      "search_placeholder": "Tìm kiếm tác phẩm...",
+      "view_all": "Xem tất cả ({count})",
+      "no_results": "Không tìm thấy tác phẩm phù hợp",
+      "no_results_message": "Hãy thử sử dụng các từ khóa khác hoặc xóa tìm kiếm để xem tất cả các tác phẩm.",
+      "clear_search": "Xóa tìm kiếm",
+      "empty_state": "Chưa có tác phẩm sáng tạo nào",
+      "empty_message": "Bắt đầu sử dụng OpenClaw để tạo hình ảnh do AI tạo đầu tiên của bạn!",
+      "start_creating": "Bắt đầu tạo",
+      "download": "Tải xuống",
+      "delete": "Xóa",
+      "total_count": "Tổng số sáng tạo {count}",
+      "search_results": "(Tìm kiếm: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "văn bản thành hình ảnh",
+        "IMAGE_TO_IMAGE": "Hình ảnh thành hình ảnh"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Vui lòng nhập lời nhắc",
+      "upload_reference": "Chế độ chuyển đổi hình ảnh thành hình ảnh yêu cầu tải lên hình ảnh tham chiếu",
+      "generation_failed": "Tạo không thành công, vui lòng thử lại",
+      "upload_success": "Hình ảnh được tải lên thành công",
+      "upload_failed": "Tải lên không thành công",
+      "delete_success": "Đã xóa hình ảnh",
+      "delete_failed": "Xóa không thành công, vui lòng thử lại",
+      "download_started": "Đã bắt đầu tải xuống",
+      "file_too_large": "Kích thước tệp không thể vượt quá {size}MB",
+      "unsupported_format": "Định dạng tệp không được hỗ trợ. Các định dạng được hỗ trợ: {formats}",
+      "retry": "Thử lại",
+      "dismiss": "Loại bỏ"
+    },
+    "loading": {
+      "default": "Đang tải...",
+      "generation": "Tạo ra kiệt tác của bạn...",
+      "generation_message": "Mô hình OpenClaw của chúng tôi đang phát huy tác dụng kỳ diệu của nó. Việc này thường mất vài giây.",
+      "upload": "Đang tải hình ảnh lên...",
+      "upload_message": "Vui lòng đợi trong khi hình ảnh của bạn được tải lên đám mây."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Studio nhiều lớp",
+      "title": "Studio OpenClaw",
+      "description": "Tạo những bức tranh biếm họa nghệ thuật từ những bức ảnh của bạn.",
+      "cta": "Dùng thử miễn phí",
+      "cta_hint": "Tải lên một hình ảnh để bắt đầu",
+      "features": [
+        "2-8 lớp AI trên mỗi hình ảnh",
+        "Xuất PNG/WebP trong suốt",
+        "Phân tách theo hướng dẫn nhanh chóng"
+      ]
+    },
+    "upload": {
+      "title": "Tải lên",
+      "subtitle": "JPG, PNG hoặc WebP lên tới 10MB",
+      "action": "Tải hình ảnh lên",
+      "drop": "Thả hình ảnh của bạn ở đây",
+      "or_click": "hoặc bấm vào để duyệt",
+      "supported_formats": "Hỗ trợ: JPEG, PNG, WebP (tối đa 10MB)"
+    },
+    "prompt": {
+      "label": "Lời nhắc",
+      "placeholder": "Mô tả các lớp bạn muốn (ví dụ: chủ đề, đạo cụ, nền)"
+    },
+    "advanced": {
+      "title": "Cài đặt nâng cao",
+      "prompt_label": "Lời nhắc (Tùy chọn)",
+      "prompt_placeholder": "Vui lòng nhập lời nhắc để mô tả hình ảnh. (Không bắt buộc)",
+      "negative_prompt_label": "Lời nhắc tiêu cực (Tùy chọn)",
+      "negative_prompt_placeholder": "Mô tả những gì nên được loại trừ khỏi các lớp.",
+      "seed": "Hạt giống",
+      "randomize_seed": "Chọn ngẫu nhiên hạt giống",
+      "guidance_scale": "Thang đo hướng dẫn thực sự",
+      "inference_steps": "Số bước suy luận",
+      "cfg_normalization": "Có bật chuẩn hóa CFG hay không",
+      "auto_caption_language": "Ngôn ngữ phụ đề tự động nếu không có lời nhắc, Đúng cho EN, Sai cho ZH",
+      "layer_count": "số lớp",
+      "layer_range": "{min} tối thiểu, {max} tối thiểu",
+      "output_format": "định dạng đầu ra"
+    },
+    "actions": {
+      "decompose": "Phân hủy!",
+      "sign_in_to_decompose": "Đăng nhập để phân hủy!",
+      "generating": "Đang phân hủy..."
+    },
+    "results": {
+      "title": "Kết quả",
+      "subtitle": "Đầu ra phân lớp xuất hiện ở đây sau khi phân tách.",
+      "download_pptx": "Tải xuống PPTX",
+      "download_zip": "Tải xuống ZIP",
+      "packaging": "Bao bì...",
+      "generating_title": "Đang phân hủy hình ảnh của bạn...",
+      "generating_subtitle": "Tạo nội dung lớp. Việc này thường mất vài giây.",
+      "layer_label": "Lớp {index}",
+      "layer_description": "Tài sản được xếp lớp",
+      "empty_title": "Chưa có lớp nào",
+      "empty_subtitle": "Tải lên một hình ảnh và nhấp vào Phân tách! để tạo ra các lớp.",
+      "success": "Các lớp được tạo thành công!",
+      "download_ready": "Tải xuống đã sẵn sàng"
+    },
+    "examples": {
+      "title": "Ví dụ",
+      "subtitle": "Xem cách hình ảnh nguồn chia thành các lớp rõ ràng.",
+      "labels": {
+        "source": "Nguồn",
+        "layer": "Lớp {index}",
+        "sample": "Ví dụ {index}"
+      },
+      "rows": {
+        "primary": "Bộ ví dụ 01",
+        "secondary": "Bộ ví dụ 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Vui lòng tải lên hình ảnh tham khảo trước",
+      "generation_failed": "Tạo không thành công, vui lòng thử lại",
+      "upload_success": "Hình ảnh được tải lên thành công",
+      "upload_failed": "Tải lên không thành công",
+      "download_failed": "Tải xuống không thành công, vui lòng thử lại"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Có sẵn"
+    },
+    "errors": {
+      "no_available_account": "Không có tài khoản có sẵn trong đăng ký hiện tại của bạn. Vui lòng thử lại sau.",
+      "network_unstable": "Mạng không ổn định. Vui lòng thử lại trong thời gian ngắn.",
+      "deployment_failed_try_again": "Triển khai không thành công. Hãy thử lại.",
+      "deployment_timeout": "Hết thời gian triển khai sau phút {minutes}. Vui lòng thử lại.",
+      "enter_bot_token": "Vui lòng nhập mã thông báo bot.",
+      "select_channel_before_deploying": "Vui lòng chọn kênh trước khi triển khai.",
+      "enter_telegram_bot_token": "Vui lòng nhập mã thông báo bot Telegram của bạn.",
+      "invalid_response_missing_deployment_id": "Phản hồi không hợp lệ: thiếu triển khai_id",
+      "failed_to_start_deployment": "Không thể bắt đầu triển khai",
+      "failed_to_fetch_deployment_status": "Không thể tìm nạp trạng thái triển khai",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - Triển khai OpenClaw chỉ bằng một cú nhấp chuột",
+      "description": "Triển khai OpenClaw trong vòng chưa đầy 1 phút. Không có máy chủ hoặc DevOps. Chọn một mô hình, kết nối một kênh và khởi chạy."
+    },
+    "selectors": {
+      "model_title": "Chọn kiểu mặc định cho OpenClaw của bạn",
+      "channel_title": "Chọn nơi OpenClaw sẽ gửi tin nhắn",
+      "selected": "Đã chọn"
+    },
+    "deploy": {
+      "deploying": "Đang triển khai...",
+      "deploy_button": "Triển khai",
+      "sign_in_button": "Đăng nhập để triển khai với EasyClaw",
+      "sign_in_hint": "Đăng nhập để triển khai OpenClaw với EasyClaw và kết nối các kênh của bạn.",
+      "status_success": "Triển khai thành công! OpenClaw hiện đang chạy.",
+      "model_substitution_warning": "Đã phát hiện sự thay thế mô hình. Hãy thử triển khai lại hoặc chuyển sang khu vực/nhà cung cấp khác.",
+      "hint_prefix": "Kết nối Telegram để tiếp tục.",
+      "hint_suffix": "Bạn có thể thêm các kênh khác vào cùng một tài khoản sau.",
+      "hint_prefix_telegram": "Kết nối Telegram để tiếp tục.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Kết nối Telegram",
+      "how_to_get_token": "Làm cách nào để nhận mã thông báo bot của bạn?",
+      "step_1_prefix": "Mở Telegram và đi đến",
+      "step_2_prefix": "Bắt đầu trò chuyện và nhập",
+      "step_3_text": "Làm theo lời nhắc để đặt tên cho bot của bạn và chọn tên người dùng.",
+      "step_4_text": "BotFather sẽ gửi cho bạn một tin nhắn kèm mã thông báo bot của bạn. Sao chép toàn bộ mã thông báo (nó trông giống như một chuỗi dài các số và chữ cái).",
+      "step_5_text": "Dán mã thông báo vào trường bên dưới và nhấp vào Lưu & Kết nối.",
+      "token_label": "Nhập mã thông báo bot",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Lưu & Kết nối",
+      "preview_intro": "Tôi có thể giúp bạn tạo và quản lý bot Telegram. Bạn muốn làm gì?",
+      "preview_newbot": "tạo bot mới",
+      "preview_mybots": "chỉnh sửa bot của bạn",
+      "preview_name_prompt": "Được rồi, một bot mới. Chúng ta sẽ gọi nó như thế nào? Vui lòng chọn tên cho bot của bạn.",
+      "preview_message_input": "Tin nhắn"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "خصوصیات",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "قیمتوں کا تعین",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "بلاگ",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "اکثر پوچھے گئے سوالات",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw لوگو"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "اعلیٰ معیار کا فن تخلیق کریں۔",
+    "description": "ایک پورٹریٹ اپ لوڈ کریں، ایک سٹائل چنیں، اور اوتار، تحائف، یا مواد کے لیے صاف ستھرا کیریکچر حاصل کریں۔",
+    "features": [
+      "اعلی معیار کی تفصیل اور صاف لائنیں۔",
+      "روزمرہ کے استعمال کے لیے مناسب قیمت",
+      "پروفائلز، تحائف اور پرنٹس کے لیے تیار ہیں۔"
+    ],
+    "buttons": [
+      {
+        "title": "میرا کیریکیچر بنائیں",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "کیریکچر کی مثال"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "کیریکچر کی مثال 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "کیریکچر کی مثال 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "کیریکچر کی مثال 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "اعلی درجے کی ٹیکنالوجی کے ذریعہ تقویت یافتہ",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "سچ",
+    "name": "introduce",
+    "title": "کیریکیچر بنانے کا طریقہ",
+    "label": "سادہ عمل",
+    "description": "تین آسان مراحل میں شاندار کیریکیچر بنائیں۔ فنکارانہ مہارت کی ضرورت نہیں ہے۔",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "تصویر اپ لوڈ کریں۔",
+        "description": "واضح پورٹریٹ تصویر اپ لوڈ کریں۔ ہم JPG، PNG، اور WebP کو سپورٹ کرتے ہیں۔",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "انداز کا انتخاب کریں۔",
+        "description": "مضحکہ خیز، مبالغہ آمیز، anime، یا 3D کارٹون طرزوں میں سے منتخب کریں۔",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "ڈاؤن لوڈ کریں۔",
+        "description": "واٹر مارکس کے بغیر فوری طور پر اپنے اعلیٰ معیار کے کیریکیچر حاصل کریں۔",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "سچ",
+    "name": "benefit",
+    "title": "OpenClaw کیوں استعمال کریں؟",
+    "label": "فوائد",
+    "description": "تحائف، پروفائل پکچرز اور سوشل میڈیا مواد کے لیے بہترین ٹول۔",
+    "items": [
+      {
+        "title": "فوری AI جادو",
+        "description": "ایڈوانسڈ AI سیکنڈوں میں بالکل مبالغہ آمیز خاکے بنانے کے لیے چہرے کی خصوصیات کا تجزیہ کرتا ہے۔",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "متنوع آرٹ اسٹائل",
+        "description": "کلاسک ہاتھ سے تیار کردہ شکل سے لے کر جدید 3D اینیمیٹڈ اوتار تک۔ ہمارے پاس یہ سب ہے۔",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "ہائی ریزولوشن",
+        "description": "مگ، ٹی شرٹس اور پوسٹرز پر پرنٹ کرنے کے لیے موزوں، کرکرا، اعلیٰ معیار کی تصاویر ڈاؤن لوڈ کریں۔",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "گیلری",
+    "title": "حیرت انگیز تبدیلیاں",
+    "description": "دیکھیں کہ عام تصاویر کیسے غیر معمولی کیریکیچر بن جاتی ہیں۔",
+    "items": [
+      {
+        "title": "سماجی اوتار",
+        "highlight": "آن لائن باہر کھڑے ہو جاؤ",
+        "description": "ایک منفرد پروفائل تصویر بنائیں جو آپ کی شخصیت کو گرفت میں لے۔",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "اصل تصویر",
+        "afterAlt": "کیریکیچر کا نتیجہ",
+        "reverse": false
+      },
+      {
+        "title": "ذاتی نوعیت کے تحفے",
+        "highlight": "یادگار تحائف",
+        "description": "اپنی مرضی کے مطابق مضحکہ خیز پورٹریٹ کے ساتھ دوستوں اور اہل خانہ کو حیران کریں۔",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "اصل تصویر",
+        "afterAlt": "کیریکیچر کا نتیجہ",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw کو تعینات کرنے کے 3 اقدامات",
+    "description": "اپنا ماڈل چنیں، ایک چینل جوڑیں، اور لانچ کریں۔",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "چھوڑ دیا",
+    "text_align": "مرکز",
+    "items": [
+      {
+        "title": "ایک ماڈل منتخب کریں۔",
+        "description": "Claude, GPT, Gemini — ہر کام کے لیے بہترین ماڈل منتخب کریں۔ Claude کے ساتھ تخلیقی کام، GPT کے ساتھ تجزیہ۔ کسی بھی وقت سوئچ کریں۔",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI ماڈل کا انتخاب کریں - Claude، GPT، یا Gemini"
+        }
+      },
+      {
+        "title": "ایک چینل جوڑیں۔",
+        "description": "Telegram, Discord, WhatsApp — تمام چینلز کے لیے ایک ڈیش بورڈ۔ ایک ہی جگہ سے تمام بات چیت کا نظم کریں، مزید سوئچنگ ایپس نہیں۔",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "پیغام رسانی کے چینلز کو مربوط کریں۔"
+        }
+      },
+      {
+        "title": "تعینات کریں اور شروع کریں۔",
+        "description": "آپ کا AI اسسٹنٹ 60 سیکنڈ میں آن لائن ہے۔ اپنا پہلا پیغام بھیجیں اور خودکار ہونا شروع کریں۔",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "اپنے اسسٹنٹ کو تعینات کریں اور شروع کریں۔"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "اپنا کیریکیچر بنائیں",
+    "description": "ایک تصویر اپ لوڈ کریں، ایک انداز منتخب کریں، اور تخلیق کریں۔"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "کیریکیچر اسٹوڈیو",
+    "description": "ایک تصویر اپ لوڈ کریں، ایک اسٹائل چنیں، اور ایک اعلیٰ معیار کی کیریکیچر بنائیں۔",
+    "disabled": false,
+    "upload": {
+      "title": "اپنی تصویر اپ لوڈ کریں۔",
+      "description": "اپ لوڈ کرنے کے لیے گھسیٹیں اور چھوڑیں یا کلک کریں (JPG, PNG, WebP 10MB تک)",
+      "buttonText": "تصویر منتخب کریں۔",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "آپ کا کیریکیچر",
+      "textListTitle": "طرز کی ترتیبات",
+      "fontRecommendationTitle": "تجویز کردہ طرزیں۔",
+      "detectedFontLabel": "موجودہ انتخاب",
+      "similarFontsLabel": "یہ بھی آزمائیں",
+      "selectTextPrompt": "لاگو کرنے کے لیے ایک انداز منتخب کریں۔"
+    },
+    "actions": {
+      "reuploadText": "ایک اور تصویر آزمائیں۔"
+    },
+    "messages": {
+      "uploadSuccess": "تصویر کامیابی کے ساتھ اپ لوڈ ہو گئی!",
+      "uploadError": "افوہ، اپ لوڈ ناکام ہو گیا۔ براہ کرم دوبارہ کوشش کریں۔",
+      "recognitionSuccess": "آپ کا کیریکچر تیار ہے!",
+      "recognitionError": "نسل ناکام ہوگئی۔ براہ کرم دوبارہ کوشش کریں۔",
+      "fontRecognitionSuccess": "انداز لاگو!",
+      "fontRecognitionError": "انداز لاگو کرنے میں ناکام۔",
+      "processing": "آپ کا کیریکیچر بنا رہا ہے..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "پریشانی کو الوداع کہیں۔",
+    "description": "دیکھیں کہ جب آپ EasyClaw پر سوئچ کرتے ہیں تو کیا تبدیلیاں آتی ہیں۔",
+    "before_label": "روایتی سیٹ اپ",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "سرور کرایہ پر لیں، ماحول کو ترتیب دیں۔",
+        "after": "ایک کلک کی تعیناتی، کسی سرور کی ضرورت نہیں۔"
+      },
+      {
+        "before": "صبح 3 بجے کے الرٹس کو ٹھیک کرنے کے لیے اٹھیں۔",
+        "after": "24/7 خودکار آپریشن"
+      },
+      {
+        "before": "OpenClaw ورژنز کو دستی طور پر اپ ڈیٹ کریں۔",
+        "after": "تازہ ترین ورژن میں خودکار اپ ڈیٹس"
+      },
+      {
+        "before": "ڈوکر، لینکس کمانڈز سیکھیں۔",
+        "after": "صفر تکنیکی مہارت کی ضرورت ہے۔"
+      },
+      {
+        "before": "فی تعیناتی 30+ منٹ",
+        "after": "60 سیکنڈ سے کم میں تعینات کریں۔"
+      }
+    ],
+    "footer": "وقت بچایا گیا: فی تعیناتی ~29 منٹ"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "ٹیمیں EasyClaw کا انتخاب کیوں کرتی ہیں۔",
+    "description": "DevOps اوور ہیڈ کے بغیر پیداوار کے لیے تیار تعینات۔ زیرو دیکھ بھال، زیادہ سے زیادہ توجہ۔",
+    "items": [
+      {
+        "title": "60 سیکنڈ میں تعینات کریں۔",
+        "description": "صفر سے ایک منٹ کے اندر اندر دوڑنا۔ کوئی ڈوکر، کوئی لینکس کمانڈ، کوئی سرور سیٹ اپ نہیں۔",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "زیرو دیکھ بھال",
+        "description": "ہم اپ ڈیٹس، نگرانی، اور بازیابی کو سنبھالتے ہیں۔ آپ صرف اپنے AI اسسٹنٹ کو استعمال کرنے پر توجہ مرکوز کرتے ہیں۔",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "ماڈل لچک",
+        "description": "Claude، GPT، اور Gemini کے درمیان کسی بھی وقت سوئچ کریں۔ ہر کام کے لیے بہترین ماڈل استعمال کریں۔",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "متحد چینلز",
+        "description": "ایک ڈیش بورڈ سے Telegram، Discord، اور WhatsApp کا نظم کریں۔ مزید سوئچنگ ایپس نہیں ہیں۔",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "ہمیشہ اپ ٹو ڈیٹ",
+        "description": "خودکار OpenClaw اپ ڈیٹس۔ انگلی اٹھائے بغیر ہمیشہ تازہ ترین خصوصیات کا استعمال کریں۔",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "اعتماد کے ساتھ پیمانہ کریں۔",
+        "description": "سولو شروع کریں، پھر ٹیموں میں استعمال بڑھائیں اور کیسز استعمال کریں۔ 1 سے 100 تک تعیناتیاں۔",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "کسی بھی ورک فلو کے لیے OpenClaw تعینات کریں۔",
+    "description": "ایک اسسٹنٹ، بہت سے استعمال کے کیسز۔ ایک بار لانچ کریں، ہر جگہ خودکار کریں۔",
+    "items": [
+      {
+        "title": "روزانہ بریفنگ",
+        "description": "پیغامات اور اپ ڈیٹس کو اپنی ٹیم کے لیے ایک مختصر صبح کی بریف میں تبدیل کریں۔",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "روزانہ بریفنگ آٹومیشن ورک فلو"
+        },
+        "buttons": [
+          {
+            "title": "مزید جانیں ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "کسٹمر سپورٹ اسسٹنٹ",
+        "description": "سوالات کو روٹ کریں، جوابات کا مسودہ بنائیں، اور سپورٹ چینلز کو جوابدہ رکھیں۔",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "کسٹمر سپورٹ آٹومیشن ورک فلو"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "تعیناتی شروع کریں ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "ٹیم آپریشن آٹومیشن",
+        "description": "تمام چینلز پر یاد دہانیوں، اسٹیٹس رپورٹس، اور روٹین فالو اپس کو خودکار بنائیں۔",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "ٹیم آپریشنز آٹومیشن ورک فلو"
+        },
+        "buttons": [
+          {
+            "title": "قیمتوں کا تعین -> دیکھیں",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "جھوٹا",
+    "name": "stats",
+    "label": "جھلکیاں",
+    "title": "تیز رفتار لانچوں کے لیے بنایا گیا ہے۔",
+    "description": "OpenClaw کو قابل اعتماد طریقے سے چلانے کے لیے ہر چیز کی ضرورت ہے۔",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "پہلے تعیناتی کا وقت",
+        "label": "< 1 منٹ",
+        "description": "سیٹ اپ سے لے کر اسسٹنٹ چلانے تک"
+      },
+      {
+        "title": "تعاون یافتہ چینلز",
+        "label": "3+",
+        "description": "Telegram، Discord، WhatsApp"
+      },
+      {
+        "title": "تعیناتی کی مرئیت",
+        "label": "حقیقی وقت",
+        "description": "چلنے والی اور ناکام ریاستوں کو ٹریک کریں۔"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "جائزے",
+    "title": "صارفین کیا کہہ رہے ہیں۔",
+    "description": "دیکھیں کہ ہر کوئی OpenClaw کے بارے میں کیوں بات کر رہا ہے۔",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "سارہ جینکنز",
+        "label": "سوشل میڈیا منیجر",
+        "description": "میں نے ہمارے بارے میں صفحہ کے لیے ایک مزاحیہ ٹیم کی تصویر بنائی۔ سب نے اسے پسند کیا!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "مائیک راس",
+        "label": "فری لانسر",
+        "description": "میرے فری لانس پروفائل کے لیے ایک منفرد اوتار بنانے کے لیے اس کا استعمال کیا۔ یہ باہر کھڑا ہے!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "ایملی چن",
+        "label": "طالب علم",
+        "description": "سالگرہ کے کارڈ کے لیے اپنے تمام دوستوں کے کیریکیچر بنائے۔ اب تک کا بہترین تحفہ۔",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "ڈیوڈ ملر",
+        "label": "مواد تخلیق کار",
+        "description": "مختلف انداز حیرت انگیز ہیں۔ میں اپنے تھمب نیلز کے لیے 3D اسٹائل استعمال کرتا ہوں۔",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "جیسکا وونگ",
+        "label": "مارکیٹنگ لیڈ",
+        "description": "تیز، آسان، اور نتائج دراصل مضحکہ خیز ہیں، نہ صرف عجیب۔",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "ٹام بیکر",
+        "label": "ڈویلپر",
+        "description": "سپر سادہ API اور میرے پالتو جانوروں کے منصوبے کے لیے بہترین نتائج۔",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "اکثر پوچھے گئے سوالات",
+    "title": "عام سوالات",
+    "description": "OpenClaw کو EasyClaw کے ساتھ تعینات کرنے سے پہلے ہر وہ چیز جس کی آپ کو ضرورت ہے۔",
+    "items": [
+      {
+        "title": "EasyClaw کی قیمت کتنی ہے؟",
+        "description": "منصوبے $10/ماہ سے شروع ہوتے ہیں۔ اپنے اکاؤنٹ سے کسی بھی وقت منسوخ کریں۔"
+      },
+      {
+        "title": "کیا مجھے سرورز کا انتظام کرنے کی ضرورت ہے؟",
+        "description": "نہیں۔"
+      },
+      {
+        "title": "کون سے ماڈل سپورٹ ہیں؟",
+        "description": "Claude، GPT، اور Gemini۔"
+      },
+      {
+        "title": "کیا میں متعدد چینلز پر تعینات کر سکتا ہوں؟",
+        "description": "جی ہاں Telegram، Discord، اور WhatsApp تعاون یافتہ ہیں۔"
+      },
+      {
+        "title": "اسے تعینات کرنے میں کتنا وقت لگتا ہے؟",
+        "description": "عام طور پر 1 منٹ سے کم۔ پہلی بار سیٹ اپ میں تھوڑا زیادہ وقت لگ سکتا ہے۔"
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw لانچ کرنے کے لیے تیار ہیں؟",
+    "description": "ایک منٹ کے اندر اپنا پہلا اسسٹنٹ تعینات کریں۔ کوئی سرور، کوئی دیکھ بھال، کوئی سیکھنے کا وکر نہیں۔",
+    "note": "کسی بھی وقت منسوخ کریں۔ کوئی طویل مدتی معاہدہ نہیں۔",
+    "buttons": [
+      {
+        "title": "OpenClaw تعینات کریں۔",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI اسسٹنٹ کو تعینات کرنے کا آسان ترین طریقہ۔",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • ایزی کلاؤ۔ جملہ حقوق محفوظ ہیں۔",
+    "nav": {
+      "items": [
+        {
+          "title": "کے بارے میں",
+          "children": [
+            {
+              "title": "خصوصیات",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "قیمتوں کا تعین",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "بلاگ",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "اکثر پوچھے گئے سوالات",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "ای میل سپورٹ",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw ایک آزاد پروڈکٹ ہے اور کسی تیسرے فریق ماڈل فراہم کنندگان یا ٹریڈ مارک کے مالکان سے وابستہ نہیں ہے۔",
+    "agreement": {
+      "items": [
+        {
+          "title": "رازداری کی پالیسی",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "سروس کی شرائط",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "رقم کی واپسی کی پالیسی",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "قیمتوں کا تعین",
+    "title": "قیمتوں کا تعین",
+    "description": "آپ کو کتنی OpenClaw تعیناتیوں کی ضرورت ہے اس کی بنیاد پر ایک منصوبہ منتخب کریں۔ اپنے اکاؤنٹ سے کسی بھی وقت منسوخ کریں۔",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "ماہانہ",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "سالانہ",
+        "is_featured": true,
+        "label": "50% بچائیں"
+      }
+    ],
+    "items": [
+      {
+        "title": "پرو",
+        "label": "مقبول",
+        "features_title": "بنیادی تعیناتی کی خصوصیات",
+        "features": [
+          "5 فعال OpenClaw تک تعیناتیاں",
+          "ایک کلک کی تعیناتی، دوبارہ شروع، اور دوبارہ تعینات کریں۔",
+          "ماڈل اور چینل کنفیگریشن پیش سیٹ",
+          "تعیناتی کی حیثیت کا ڈیش بورڈ",
+          "بنیادی استعمال کے تجزیات",
+          "ای میل سپورٹ",
+          "تجارتی استعمال",
+          "نئی تعیناتی خصوصیات تک رسائی"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "پرو حاصل کریں۔",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw پرو ماہانہ",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "پریمیم",
+        "features_title": "پرو میں سب کچھ، پلس",
+        "features": [
+          "20 فعال OpenClaw تک تعیناتیاں",
+          "ترجیحی فراہمی کی قطار",
+          "دوبارہ قابل استعمال ماڈل اور چینل کے پیش سیٹ",
+          "تعیناتی کی حیثیت کے لیے ویب ہُک الرٹس",
+          "ٹیم تک رسائی (3 اراکین تک)",
+          "API رسائی",
+          "ترجیحی حمایت",
+          "بیٹا خصوصیات تک ابتدائی رسائی"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "پریمیم حاصل کریں۔",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw پریمیم ماہانہ",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "پرو",
+        "label": "مقبول",
+        "features_title": "بنیادی تعیناتی کی خصوصیات",
+        "features": [
+          "5 فعال OpenClaw تک تعیناتیاں",
+          "ایک کلک کی تعیناتی، دوبارہ شروع، اور دوبارہ تعینات کریں۔",
+          "ماڈل اور چینل کنفیگریشن پیش سیٹ",
+          "تعیناتی کی حیثیت کا ڈیش بورڈ",
+          "بنیادی استعمال کے تجزیات",
+          "ای میل سپورٹ",
+          "تجارتی استعمال",
+          "نئی تعیناتی خصوصیات تک رسائی"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "اصل قیمت: $10/mo",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "پرو حاصل کریں۔",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw پرو سالانہ",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "پریمیم",
+        "features_title": "پرو میں سب کچھ، پلس",
+        "features": [
+          "20 فعال OpenClaw تک تعیناتیاں",
+          "ترجیحی فراہمی کی قطار",
+          "دوبارہ قابل استعمال ماڈل اور چینل کے پیش سیٹ",
+          "تعیناتی کی حیثیت کے لیے ویب ہُک الرٹس",
+          "ٹیم تک رسائی (3 اراکین تک)",
+          "API رسائی",
+          "ترجیحی حمایت",
+          "بیٹا خصوصیات تک ابتدائی رسائی"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "اصل قیمت: $20/mo",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "پریمیم حاصل کریں۔",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw پریمیم سالانہ",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

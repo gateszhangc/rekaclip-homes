@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "画像フリッパー",
+    "description": "画像をアップロードしてプロ仕様の色反転と補正を行う",
+    "disabled": false,
+    "upload": {
+      "title": "画像をドラッグ＆ドロップする",
+      "description": "最大 10MB の PNG、JPG、JPEG、WebP をサポート",
+      "buttonText": "ファイルを選択してください",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "クリーンなイメージ",
+      "textListTitle": "検出されたテキスト領域",
+      "fontRecommendationTitle": "削除の提案",
+      "detectedFontLabel": "選択したエリア",
+      "similarFontsLabel": "代替フィル",
+      "selectTextPrompt": "削除するテキストブロックを選択してください"
+    },
+    "actions": {
+      "reuploadText": "再アップロード"
+    },
+    "messages": {
+      "uploadSuccess": "画像が正常にアップロードされました",
+      "uploadError": "画像のアップロードに失敗しました",
+      "recognitionSuccess": "検出完了",
+      "recognitionError": "検出に失敗しました",
+      "fontRecognitionSuccess": "テキストの削除が完了しました",
+      "fontRecognitionError": "テキストの削除に失敗しました",
+      "processing": "処理中..."
+    }
+  }
+}

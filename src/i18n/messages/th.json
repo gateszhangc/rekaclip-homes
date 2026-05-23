@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - ปรับใช้ OpenClaw ภายในเวลาไม่ถึง 1 นาที",
+    "description": "ปรับใช้ OpenClaw ด้วย EasyClaw ได้ในคลิกเดียว เชื่อมต่อ Telegram เลือกรุ่น และถ่ายทอดสดอย่างรวดเร็ว",
+    "keywords": "easyclaw, ปรับใช้ openclaw, โฮสติ้ง openclaw, การปรับใช้บอทโทรเลข, การปรับใช้ผู้ช่วย ai"
+  },
+  "blog": {
+    "title": "บล็อก",
+    "description": "ข่าวสาร บทช่วยสอน และอัปเดตเกี่ยวกับการปรับใช้ OpenClaw ด้วย EasyClaw",
+    "read_more_text": "อ่านเพิ่มเติม"
+  },
+  "user": {
+    "sign_in": "เข้าสู่ระบบ",
+    "sign_out": "ออกจากระบบ",
+    "credits": "เครดิต",
+    "api_keys": "กุญแจ API",
+    "my_orders": "คำสั่งซื้อของฉัน",
+    "my_invites": "คำเชิญของฉัน",
+    "user_center": "ศูนย์ผู้ใช้",
+    "support": "สนับสนุน",
+    "admin_system": "ระบบผู้ดูแลระบบ",
+    "home": "บ้าน",
+    "pricing": "ราคา",
+    "admin_center": "ศูนย์ผู้ดูแลระบบ"
+  },
+  "sign_modal": {
+    "sign_in_title": "ลงชื่อเข้าใช้ EasyClaw",
+    "sign_in_description": "เข้าถึงบัญชี EasyClaw ของคุณเพื่อปรับใช้และจัดการ OpenClaw",
+    "sign_up_title": "เข้าร่วม EasyClaw",
+    "sign_up_description": "สร้างบัญชี EasyClaw ของคุณ",
+    "email_title": "อีเมล",
+    "email_placeholder": "ป้อนที่อยู่อีเมลของคุณ",
+    "password_title": "รหัสผ่าน",
+    "password_placeholder": "ใส่รหัสผ่านของคุณ",
+    "forgot_password": "ลืมรหัสผ่าน?",
+    "or": "หรือ",
+    "continue": "ไปต่อที่ EasyClaw",
+    "no_account": "ยังใหม่กับ EasyClaw ใช่ไหม?",
+    "email_sign_in": "เข้าสู่ระบบด้วยอีเมล",
+    "google_sign_in": "ดำเนินการต่อด้วย Google",
+    "github_sign_in": "ดำเนินการต่อด้วย GitHub",
+    "close_title": "ปิด",
+    "cancel_title": "ยกเลิก"
+  },
+  "my_orders": {
+    "title": "คำสั่งซื้อของฉัน",
+    "no_orders": "ไม่พบคำสั่งซื้อ",
+    "tip": "",
+    "support_tip": "ต้องการความช่วยเหลือเกี่ยวกับการเรียกเก็บเงินหรือการยกเลิกหรือไม่? ส่งอีเมลไปที่ support@easyclaw.pro",
+    "activate_order": "เปิดใช้งานคำสั่งซื้อ",
+    "actived": "เปิดใช้งานแล้ว",
+    "join_discord": "เข้าร่วม Discord",
+    "read_docs": "อ่านเอกสาร",
+    "table": {
+      "order_no": "หมายเลขคำสั่งซื้อ",
+      "email": "อีเมล",
+      "product_name": "ชื่อสินค้า",
+      "amount": "จำนวน",
+      "paid_at": "ชำระเงินที่",
+      "github_username": "ชื่อผู้ใช้ GitHub",
+      "status": "สถานะ",
+      "manage_billing": "จัดการการเรียกเก็บเงิน",
+      "interval": "Interval",
+      "interval_month": "รายเดือน",
+      "interval_year": "เป็นประจำทุกปี",
+      "interval_one_time": "ครั้งเดียว"
+    }
+  },
+  "my_credits": {
+    "title": "เครดิตของฉัน",
+    "left_tip": "เครดิตซ้าย: {left_credits}",
+    "no_credits": "ไม่มีบันทึกเครดิต",
+    "recharge": "เติมเงิน",
+    "table": {
+      "trans_no": "หมายเลขทรานส์",
+      "trans_type": "ประเภททรานส์",
+      "credits": "เครดิต",
+      "updated_at": "อัปเดตเมื่อ",
+      "status": "สถานะ",
+      "expired_at": "หมดอายุ ณ",
+      "created_at": "สร้างเมื่อ"
+    }
+  },
+  "api_keys": {
+    "title": "กุญแจ API",
+    "tip": "โปรดรักษา apikey ของคุณให้ปลอดภัยเพื่อหลีกเลี่ยงการรั่วไหล",
+    "no_api_keys": "ไม่มีปุ่ม API",
+    "create_api_key": "สร้างคีย์ API",
+    "table": {
+      "name": "Name",
+      "key": "คีย์",
+      "created_at": "สร้างเมื่อ"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "ชื่อคีย์ API",
+      "submit": "ส่ง"
+    }
+  },
+  "my_invites": {
+    "title": "คำเชิญของฉัน",
+    "description": "ดูบันทึกคำเชิญของคุณ",
+    "no_invites": "ไม่พบบันทึกคำเชิญ",
+    "my_invite_link": "ลิงค์เชิญของฉัน",
+    "edit_invite_link": "แก้ไขลิงค์เชิญ",
+    "copy_invite_link": "คัดลอกลิงก์คำเชิญ",
+    "invite_code": "รหัสเชิญ",
+    "invite_tip": "เชิญเพื่อนมาที่ EasyClaw และรับรางวัล",
+    "invite_balance": "เชิญยอดรางวัล",
+    "total_invite_count": "จำนวนคำเชิญทั้งหมด",
+    "total_paid_count": "จำนวนการชำระเงินทั้งหมด",
+    "total_award_amount": "จำนวนเงินรางวัลทั้งหมด",
+    "update_invite_code": "ตั้งรหัสเชิญ",
+    "update_invite_code_tip": "กรอกรหัสเชิญที่คุณกำหนดเอง",
+    "update_invite_button": "บันทึก",
+    "no_orders": "คุณต้องมีแผนการชำระเงินก่อนที่จะเชิญผู้อื่น",
+    "no_affiliates": "คุณไม่ได้รับอนุญาตให้เชิญผู้อื่น โปรดติดต่อเราเพื่อขออนุญาต",
+    "table": {
+      "invite_time": "เชิญไทม์",
+      "invite_user": "เชิญผู้ใช้",
+      "status": "สถานะ",
+      "reward_percent": "เปอร์เซ็นต์รางวัล",
+      "reward_amount": "จำนวนรางวัล",
+      "pending": "รอดำเนินการ",
+      "completed": "เสร็จสิ้น"
+    }
+  },
+  "feedback": {
+    "title": "ข้อเสนอแนะ",
+    "description": "เราอยากได้ยินว่าอะไรเป็นไปด้วยดีหรือเราจะปรับปรุงประสบการณ์การใช้ผลิตภัณฑ์ได้อย่างไร",
+    "submit": "ส่ง",
+    "loading": "กำลังส่ง...",
+    "contact_tip": "ช่องทางอื่นในการติดต่อเรา",
+    "rating_tip": "คุณรู้สึกอย่างไรเกี่ยวกับ EasyClaw?",
+    "placeholder": "ฝากคำพูดไว้ที่นี่..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - สร้าง AI การ์ตูนล้อเลียนได้ทันที",
+    "description": "อัปโหลดรูปภาพเพื่อสร้างการ์ตูนล้อเลียนที่สนุกสนานและเป็นศิลปะด้วยเครื่องมือที่ขับเคลื่อนด้วย AI",
+    "upload_label": "อัปโหลดภาพของคุณ",
+    "upload_placeholder": "คลิกหรือลากเพื่ออัปโหลด (JPG, PNG, GIF, WebP)",
+    "upload_required": "จำเป็น",
+    "prompt_label": "อธิบายการขยาย (ไม่บังคับ)",
+    "prompt_placeholder": "เช่น 'ขยายพื้นหลังไปทางซ้ายและขวา', 'ทาสีท้องฟ้า', 'ขยายผืนผ้าใบสำหรับแบนเนอร์', 'เพิ่มพื้นที่รอบๆ ตัวแบบ'...",
+    "prompt_required": "หมายเหตุเพิ่มเติม",
+    "character_count": "{count}/500",
+    "generate_button": "ขยายรูปภาพ",
+    "generating_button": "กำลังขยาย...",
+    "credits_label": "เครดิตของคุณ",
+    "cost_label": "ราคา: เครดิต {cost} ต่อการขยาย",
+    "insufficient_credits": "เครดิตไม่เพียงพอ กรุณาชาร์จใหม่เพื่อขยายภาพต่อไป",
+    "errors": {
+      "no_image": "กรุณาอัพโหลดภาพเพื่อขยาย",
+      "no_prompt": "โปรดอธิบายว่าคุณต้องการขยายภาพอย่างไร",
+      "invalid_format": "รองรับเฉพาะรูปแบบ JPG, PNG, GIF, WebP",
+      "file_too_large": "ขนาดรูปภาพต้องไม่เกิน 5MB",
+      "generation_failed": "การขยายรูปภาพล้มเหลว โปรดลองอีกครั้ง",
+      "download_failed": "การดาวน์โหลดล้มเหลว โปรดลองอีกครั้ง"
+    },
+    "success": {
+      "generated": "รูปภาพที่ขยายของคุณพร้อมแล้ว!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "ดูภาพล่าสุดที่ขยายโดยเครื่องมือของเรา ดูตัวอย่างก่อน/หลังและส่งออกผลลัพธ์",
+    "download_hint": "คลิกเพื่อดาวน์โหลดภาพที่ขยาย",
+    "no_outfits": "ยังไม่มีการขยาย อัปโหลดภาพเพื่อเริ่มขยาย!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - เครื่องสร้างการ์ตูนล้อเลียน AI",
+    "description": "สร้างการ์ตูนล้อเลียนคุณภาพสูงโดยใช้โมเดล OpenClaw AI พร้อมโหมดข้อความเป็นภาพและภาพเป็นภาพ",
+    "hero": {
+      "badge": "ใหม่ OpenClaw",
+      "title": "สร้างการ์ตูนล้อเลียนที่น่าทึ่ง",
+      "subtitle": "แปลงภาพถ่ายให้เป็นการ์ตูนล้อเลียนที่น่าทึ่งด้วยโมเดล AI ขั้นสูงของ OpenClaw รองรับทั้งโหมดการสร้างข้อความเป็นรูปภาพและรูปภาพเป็นรูปภาพ",
+      "features": {
+        "text_to_image": "ข้อความเป็นรูปภาพ",
+        "image_to_image": "รูปภาพต่อรูปภาพ",
+        "high_quality": "ผลผลิตคุณภาพสูง"
+      },
+      "buttons": {
+        "start_creating": "เริ่มสร้าง",
+        "view_gallery": "ดูแกลเลอรี่"
+      },
+      "stats": {
+        "daily_images": "รูปภาพที่สร้างขึ้นทุกวัน",
+        "satisfaction": "ความพึงพอใจของผู้ใช้",
+        "generation_time": "เวลาในการสร้างเฉลี่ย"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "รูปภาพต่อรูปภาพ",
+        "text_to_image": "ข้อความเป็นรูปภาพ"
+      },
+      "model": "รุ่น",
+      "reference_images": "รูปภาพอ้างอิง",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "ลากและวางรูปภาพที่นี่",
+        "or_click": "หรือคลิกเพื่อเรียกดู",
+        "supported_formats": "รองรับ: JPEG, PNG, WebP (สูงสุด 10MB)",
+        "add_more": "เพิ่มมากขึ้น"
+      },
+      "prompt": "พรอมต์",
+      "prompt_placeholder_image": "อธิบายวิธีการแปลงภาพ...",
+      "prompt_placeholder_text": "อธิบายภาพที่คุณต้องการสร้าง...",
+      "aspect_ratio": "อัตราส่วนภาพ",
+      "resolution": "ความละเอียด",
+      "output_count": "จำนวนเอาต์พุต",
+      "output_count_range": "ต่ำสุด {min}, สูงสุด {max}",
+      "output_format": "รูปแบบเอาต์พุต",
+      "generate_button": "สร้างตอนนี้",
+      "generating": "กำลังสร้าง...",
+      "clear_images": "เคลียร์ทุกภาพ",
+      "output_gallery": "รูปภาพที่คุณสร้างขึ้น",
+      "view_all": "ดูทั้งหมด",
+      "generating_message": "สร้างสรรค์ผลงานชิ้นเอกของคุณ...",
+      "generating_submessage": "รุ่น OpenClaw ของเราทำงานได้อย่างมหัศจรรย์ โดยปกติจะใช้เวลาไม่กี่วินาที",
+      "example": "ตัวอย่าง"
+    },
+    "my_creations": {
+      "title": "ผลงานของฉัน",
+      "description": "ดูและจัดการรูปภาพที่สร้างโดย AI - ดูตัวอย่างและดาวน์โหลดได้ด้วยคลิกเดียว",
+      "search_placeholder": "ค้นหาผลงาน...",
+      "view_all": "ดูทั้งหมด ({count})",
+      "no_results": "ไม่พบผลงานที่ตรงกัน",
+      "no_results_message": "ลองใช้คำสำคัญอื่นหรือล้างการค้นหาเพื่อดูผลงานสร้างสรรค์ทั้งหมด",
+      "clear_search": "ล้างการค้นหา",
+      "empty_state": "ยังไม่มีการสร้างสรรค์",
+      "empty_message": "เริ่มใช้ OpenClaw เพื่อสร้างภาพแรกที่ AI สร้างขึ้น!",
+      "start_creating": "เริ่มสร้าง",
+      "download": "ดาวน์โหลด",
+      "delete": "ลบ",
+      "total_count": "ผลงานสร้างสรรค์ {count} ทั้งหมด",
+      "search_results": "(ค้นหา: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "ข้อความเป็นรูปภาพ",
+        "IMAGE_TO_IMAGE": "รูปภาพต่อรูปภาพ"
+      }
+    },
+    "errors": {
+      "enter_prompt": "กรุณากรอกข้อความแจ้ง",
+      "upload_reference": "โหมดภาพต่อภาพจำเป็นต้องอัปโหลดภาพอ้างอิง",
+      "generation_failed": "การสร้างล้มเหลว โปรดลองอีกครั้ง",
+      "upload_success": "อัพโหลดรูปภาพสำเร็จ",
+      "upload_failed": "การอัปโหลดล้มเหลว",
+      "delete_success": "ลบรูปภาพแล้ว",
+      "delete_failed": "ลบไม่สำเร็จ โปรดลองอีกครั้ง",
+      "download_started": "เริ่มดาวน์โหลดแล้ว",
+      "file_too_large": "ขนาดไฟล์ต้องไม่เกิน {size}MB",
+      "unsupported_format": "รูปแบบไฟล์ที่ไม่รองรับ รูปแบบที่รองรับ: {formats}",
+      "retry": "ลองอีกครั้ง",
+      "dismiss": "ยกเลิก"
+    },
+    "loading": {
+      "default": "กำลังโหลด...",
+      "generation": "สร้างสรรค์ผลงานชิ้นเอกของคุณ...",
+      "generation_message": "รุ่น OpenClaw ของเราทำงานได้อย่างมหัศจรรย์ โดยปกติจะใช้เวลาไม่กี่วินาที",
+      "upload": "กำลังอัพโหลดภาพ...",
+      "upload_message": "โปรดรอสักครู่ในขณะที่รูปภาพของคุณถูกอัพโหลดไปยังคลาวด์"
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "สตูดิโอแบบเลเยอร์",
+      "title": "OpenClaw สตูดิโอ",
+      "description": "สร้างการ์ตูนล้อเลียนเชิงศิลปะจากภาพถ่ายของคุณ",
+      "cta": "ทดลองใช้ฟรี",
+      "cta_hint": "อัปโหลดหนึ่งภาพเพื่อเริ่มต้น",
+      "features": [
+        "AI 2-8 เลเยอร์ต่อภาพ",
+        "การส่งออก PNG/WebP แบบโปร่งใส",
+        "การแยกทางโดยทันที"
+      ]
+    },
+    "upload": {
+      "title": "อัปโหลด",
+      "subtitle": "JPG, PNG หรือ WebP สูงสุด 10MB",
+      "action": "อัพโหลดรูปภาพ",
+      "drop": "วางภาพของคุณที่นี่",
+      "or_click": "หรือคลิกเพื่อเรียกดู",
+      "supported_formats": "รองรับ: JPEG, PNG, WebP (สูงสุด 10MB)"
+    },
+    "prompt": {
+      "label": "พรอมต์",
+      "placeholder": "อธิบายเลเยอร์ที่คุณต้องการ (เช่น หัวเรื่อง อุปกรณ์ประกอบฉาก พื้นหลัง)"
+    },
+    "advanced": {
+      "title": "การตั้งค่าขั้นสูง",
+      "prompt_label": "พร้อมท์ (ไม่บังคับ)",
+      "prompt_placeholder": "กรุณากรอกข้อความเพื่ออธิบายภาพ (ไม่จำเป็น)",
+      "negative_prompt_label": "พรอมต์เชิงลบ (ไม่บังคับ)",
+      "negative_prompt_placeholder": "อธิบายสิ่งที่ควรแยกออกจากเลเยอร์",
+      "seed": "เมล็ดพันธุ์",
+      "randomize_seed": "สุ่มเมล็ด",
+      "guidance_scale": "ระดับแนวทางที่แท้จริง",
+      "inference_steps": "จำนวนขั้นตอนการอนุมาน",
+      "cfg_normalization": "ไม่ว่าจะเปิดใช้งานการทำให้เป็นมาตรฐาน CFG",
+      "auto_caption_language": "ภาษาคำบรรยายอัตโนมัติหากไม่มีการแจ้ง, True สำหรับ EN, False สำหรับ ZH",
+      "layer_count": "จำนวนชั้น",
+      "layer_range": "ต่ำสุด {min}, สูงสุด {max}",
+      "output_format": "รูปแบบเอาต์พุต"
+    },
+    "actions": {
+      "decompose": "สลายตัว!",
+      "sign_in_to_decompose": "ลงชื่อเข้าใช้เพื่อสลาย!",
+      "generating": "กำลังสลายตัว..."
+    },
+    "results": {
+      "title": "ผลลัพธ์",
+      "subtitle": "ผลลัพธ์แบบเลเยอร์จะปรากฏที่นี่หลังจากการสลายตัว",
+      "download_pptx": "ดาวน์โหลด PPTX",
+      "download_zip": "ดาวน์โหลด ZIP",
+      "packaging": "บรรจุภัณฑ์...",
+      "generating_title": "กำลังสลายภาพของคุณ...",
+      "generating_subtitle": "การสร้างสินทรัพย์แบบชั้น โดยปกติจะใช้เวลาไม่กี่วินาที",
+      "layer_label": "เลเยอร์ {index}",
+      "layer_description": "เนื้อหาแบบชั้น",
+      "empty_title": "ยังไม่มีชั้น",
+      "empty_subtitle": "อัปโหลดรูปภาพแล้วคลิกสลาย! เพื่อสร้างเลเยอร์",
+      "success": "สร้างเลเยอร์สำเร็จแล้ว!",
+      "download_ready": "ดาวน์โหลดพร้อมแล้ว"
+    },
+    "examples": {
+      "title": "ตัวอย่าง",
+      "subtitle": "ดูว่าภาพต้นฉบับแบ่งออกเป็นเลเยอร์ที่สะอาดตาได้อย่างไร",
+      "labels": {
+        "source": "แหล่งที่มา",
+        "layer": "เลเยอร์ {index}",
+        "sample": "ตัวอย่าง {index}"
+      },
+      "rows": {
+        "primary": "ตัวอย่างชุดที่ 01",
+        "secondary": "ตัวอย่างชุดที่ 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "โปรดอัปโหลดภาพอ้างอิงก่อน",
+      "generation_failed": "การสร้างล้มเหลว โปรดลองอีกครั้ง",
+      "upload_success": "อัพโหลดรูปภาพสำเร็จ",
+      "upload_failed": "การอัปโหลดล้มเหลว",
+      "download_failed": "การดาวน์โหลดล้มเหลว โปรดลองอีกครั้ง"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "มีจำหน่าย"
+    },
+    "errors": {
+      "no_available_account": "ไม่มีบัญชีในการสมัครสมาชิกปัจจุบันของคุณ โปรดลองอีกครั้งในภายหลัง",
+      "network_unstable": "เครือข่ายไม่เสถียร โปรดลองอีกครั้งในอีกสักครู่",
+      "deployment_failed_try_again": "การทำให้ใช้งานได้ล้มเหลว ลองอีกครั้ง",
+      "deployment_timeout": "การหมดเวลาการปรับใช้หลังจาก {minutes} นาที โปรดลองอีกครั้ง",
+      "enter_bot_token": "โปรดป้อนโทเค็นบอท",
+      "select_channel_before_deploying": "โปรดเลือกช่องก่อนที่จะปรับใช้",
+      "enter_telegram_bot_token": "โปรดป้อนโทเค็นบอท Telegram ของคุณ",
+      "invalid_response_missing_deployment_id": "การตอบสนองไม่ถูกต้อง: ไม่มี Deployment_id",
+      "failed_to_start_deployment": "ไม่สามารถเริ่มการทำให้ใช้งานได้",
+      "failed_to_fetch_deployment_status": "ดึงข้อมูลสถานะการทำให้ใช้งานได้ไม่สำเร็จ",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - การปรับใช้ OpenClaw เพียงคลิกเดียว",
+      "description": "ปรับใช้ OpenClaw ภายในเวลาไม่ถึง 1 นาที ไม่มีเซิร์ฟเวอร์หรือ DevOps เลือกรุ่น เชื่อมต่อช่อง และเปิดตัว"
+    },
+    "selectors": {
+      "model_title": "เลือกรุ่นเริ่มต้นสำหรับ OpenClaw ของคุณ",
+      "channel_title": "เลือกว่า OpenClaw ควรส่งข้อความไปที่ใด",
+      "selected": "เลือกแล้ว"
+    },
+    "deploy": {
+      "deploying": "กำลังทำให้ใช้งานได้...",
+      "deploy_button": "ปรับใช้",
+      "sign_in_button": "ลงชื่อเข้าใช้เพื่อปรับใช้กับ EasyClaw",
+      "sign_in_hint": "ลงชื่อเข้าใช้เพื่อปรับใช้ OpenClaw กับ EasyClaw และเชื่อมต่อช่องของคุณ",
+      "status_success": "ปรับใช้สำเร็จ! OpenClaw กำลังทำงานอยู่",
+      "model_substitution_warning": "ตรวจพบการทดแทนโมเดล ลองปรับใช้ใหม่หรือเปลี่ยนไปใช้ภูมิภาค/ผู้ให้บริการอื่น",
+      "hint_prefix": "เชื่อมต่อ Telegram เพื่อดำเนินการต่อ",
+      "hint_suffix": "คุณสามารถเพิ่มช่องอื่นลงในบัญชีเดียวกันได้ในภายหลัง",
+      "hint_prefix_telegram": "เชื่อมต่อ Telegram เพื่อดำเนินการต่อ",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "เชื่อมต่อ Telegram",
+      "how_to_get_token": "วิธีรับโทเค็นบอทของคุณ?",
+      "step_1_prefix": "เปิด Telegram แล้วไปที่",
+      "step_2_prefix": "เริ่มแชทและพิมพ์",
+      "step_3_text": "ปฏิบัติตามคำแนะนำเพื่อตั้งชื่อบอทของคุณและเลือกชื่อผู้ใช้",
+      "step_4_text": "BotFather จะส่งข้อความถึงคุณพร้อมโทเค็นบอทของคุณ คัดลอกโทเค็นทั้งหมด (ดูเหมือนเป็นชุดตัวเลขและตัวอักษรยาวๆ)",
+      "step_5_text": "วางโทเค็นในช่องด้านล่างแล้วคลิกบันทึกและเชื่อมต่อ",
+      "token_label": "ป้อนโทเค็นบอท",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "บันทึกและเชื่อมต่อ",
+      "preview_intro": "ฉันสามารถช่วยคุณสร้างและจัดการบอท Telegram ได้ คุณอยากจะทำอะไร?",
+      "preview_newbot": "สร้างบอทใหม่",
+      "preview_mybots": "แก้ไขบอทของคุณ",
+      "preview_name_prompt": "เอาล่ะ บอทใหม่ เราจะเรียกมันว่าอย่างไร? โปรดเลือกชื่อสำหรับบอทของคุณ",
+      "preview_message_input": "ข้อความ"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

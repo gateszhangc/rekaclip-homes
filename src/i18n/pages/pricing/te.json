@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "ధర నిర్ణయించడం",
+    "title": "ధర నిర్ణయించడం",
+    "description": "మీకు ఎన్ని OpenClaw డిప్లాయ్‌మెంట్‌లు అవసరమో దాని ఆధారంగా ప్లాన్‌ను ఎంచుకోండి. మీ ఖాతా నుండి ఎప్పుడైనా రద్దు చేయండి.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "నెలవారీ",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "వార్షికంగా",
+        "is_featured": true,
+        "label": "50% ఆదా చేయండి"
+      }
+    ],
+    "items": [
+      {
+        "title": "స్టార్టర్",
+        "label": "ముందస్తు యాక్సెస్",
+        "description": "మీరు OpenClawని అమలు చేయడానికి కావలసినవన్నీ. మీరు చేయనిది ఏమీ లేదు.",
+        "features_title": "ఉచిత ట్రయల్ చేర్చబడింది",
+        "features": [
+          "పూర్తిగా నిర్వహించబడే OpenClaw రన్‌టైమ్",
+          "Telegram-రెడీ ఏజెంట్",
+          "జీరో సెటప్",
+          "1 OpenClaw ఏజెంట్",
+          "Claude, ChatGPT, లేదా Gemini - మేము మీ కోసం దీన్ని అమలు చేస్తాము",
+          "API కీ అవసరం లేదు",
+          "ప్రణాళిక ప్రకారం వినియోగం చేర్చబడింది. ఎప్పుడైనా రద్దు చేయండి."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "ఉచితంగా ప్రయత్నించండి. క్రెడిట్ కార్డ్ అవసరం లేదు.",
+        "button": {
+          "title": "OpenClawని తక్షణమే అమలు చేయండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw స్టార్టర్ నెలవారీ",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ప్రో",
+        "label": "జనాదరణ పొందినది",
+        "features_title": "కోర్ విస్తరణ లక్షణాలు",
+        "features": [
+          "5 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "వన్-క్లిక్ డిప్లాయ్, రీస్టార్ట్ మరియు రీడెప్లాయ్",
+          "మోడల్ మరియు ఛానెల్ కాన్ఫిగరేషన్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి డాష్‌బోర్డ్",
+          "ప్రాథమిక వినియోగ విశ్లేషణలు",
+          "ఇమెయిల్ మద్దతు",
+          "వాణిజ్య వినియోగం",
+          "కొత్త విస్తరణ ఫీచర్‌లకు యాక్సెస్"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ప్రో పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw ప్రో నెలవారీ",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "స్టార్టర్",
+        "label": "ముందస్తు యాక్సెస్",
+        "description": "మీరు OpenClawని అమలు చేయడానికి కావలసినవన్నీ. మీరు చేయనిది ఏమీ లేదు.",
+        "features_title": "ఉచిత ట్రయల్ చేర్చబడింది",
+        "features": [
+          "పూర్తిగా నిర్వహించబడే OpenClaw రన్‌టైమ్",
+          "Telegram-రెడీ ఏజెంట్",
+          "జీరో సెటప్",
+          "1 OpenClaw ఏజెంట్",
+          "Claude, ChatGPT, లేదా Gemini - మేము మీ కోసం దీన్ని అమలు చేస్తాము",
+          "API కీ అవసరం లేదు",
+          "ప్రణాళిక ప్రకారం వినియోగం చేర్చబడింది. ఎప్పుడైనా రద్దు చేయండి."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "అసలు ధర: నెలకు $10",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "ఉచితంగా ప్రయత్నించండి. క్రెడిట్ కార్డ్ అవసరం లేదు.",
+        "button": {
+          "title": "OpenClawని తక్షణమే అమలు చేయండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw స్టార్టర్ వార్షికంగా",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "ప్రో",
+        "label": "జనాదరణ పొందినది",
+        "features_title": "కోర్ విస్తరణ లక్షణాలు",
+        "features": [
+          "5 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "వన్-క్లిక్ డిప్లాయ్, రీస్టార్ట్ మరియు రీడెప్లాయ్",
+          "మోడల్ మరియు ఛానెల్ కాన్ఫిగరేషన్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి డాష్‌బోర్డ్",
+          "ప్రాథమిక వినియోగ విశ్లేషణలు",
+          "ఇమెయిల్ మద్దతు",
+          "వాణిజ్య వినియోగం",
+          "కొత్త విస్తరణ ఫీచర్‌లకు యాక్సెస్"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "అసలు ధర: నెలకు $20",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ప్రో పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw ప్రో వార్షికంగా",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

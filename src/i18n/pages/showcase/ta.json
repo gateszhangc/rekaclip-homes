@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "EasyClaw பயனர்களிடமிருந்து OpenClaw வரிசைப்படுத்தல் எடுத்துக்காட்டுகள்",
+    "description": "ஆதரவு, செயல்பாடுகள் மற்றும் உள் பணிப்பாய்வுகளுக்காக குழுக்கள் OpenClaw உதவியாளர்களை எவ்வாறு தொடங்குகின்றன என்பதைப் பார்க்கவும்.",
+    "items": [
+      {
+        "title": "வாடிக்கையாளர் ஆதரவு உதவியாளர் துவக்கம்",
+        "description": "நிமிடங்களில் மாடல் ஃபால்பேக்குடன் Telegram சப்போர்ட் பாட் பயன்படுத்தப்பட்டது",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "விற்பனை பின்தொடர் ஆட்டோமேஷன்",
+        "description": "லீட்களைத் தகுதிபெற OpenClaw ஐ அமைக்கவும் மற்றும் ஃபாலோ-அப் பதில்களை வரைவு செய்யவும்",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "உள் செயல்பாடுகள் அறிவிப்பாளர்",
+        "description": "ops நிகழ்வுகள் மற்றும் சம்பவங்கள் குறித்து குழுக்களை எச்சரிக்க OpenClaw இணைக்கப்பட்டது",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "பல சேனல் சமூக உதவியாளர்",
+        "description": "Telegram, Discord மற்றும் WhatsApp முழுவதும் ஒரே உதவியாளரை உருவாக்கியது",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "வாராந்திர பணிப்பாய்வு அறிக்கை",
+        "description": "ஒவ்வொரு வெள்ளிக்கிழமையும் மேலாளர்களுக்கான தானியங்கு சுருக்க அறிக்கைகள்",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "ஆன்போர்டிங் கோபிலட்",
+        "description": "புதிய பணியாளர்களுக்கான முதல் வார வழிகாட்டுதல் மற்றும் பதில்கள் வழங்கப்பட்டன",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "முன்னணி தகுதி போட்",
+        "description": "உள்வரும் கேள்விகள் மற்றும் வழித்தடப்பட்ட உயர் நோக்கம் விற்பனைக்கு வழிவகுக்கிறது",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "தயாரிப்பு கருத்து சேகரிப்பான்",
+        "description": "வகைப்படுத்தப்பட்ட பயனர் கருத்து மற்றும் தயாரிப்பு குழுக்களுக்கான செயல் உருப்படிகள்",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

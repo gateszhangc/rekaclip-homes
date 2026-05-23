@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - OpenClaw را در کمتر از 1 دقیقه مستقر کنید",
+    "description": "OpenClaw را با EasyClaw با یک کلیک مستقر کنید. Telegram را وصل کنید، مدلی را انتخاب کنید و به سرعت پخش کنید.",
+    "keywords": "easyclaw، deploy openclaw، میزبانی openclaw، استقرار ربات تلگرام، استقرار دستیار ai"
+  },
+  "blog": {
+    "title": "وبلاگ",
+    "description": "اخبار، آموزش‌ها و به‌روزرسانی‌ها درباره استقرار OpenClaw با EasyClaw.",
+    "read_more_text": "ادامه مطلب"
+  },
+  "user": {
+    "sign_in": "وارد شوید",
+    "sign_out": "از سیستم خارج شوید",
+    "credits": "اعتبارات",
+    "api_keys": "کلیدهای API",
+    "my_orders": "سفارشات من",
+    "my_invites": "دعوت من",
+    "user_center": "مرکز کاربر",
+    "support": "پشتیبانی کنید",
+    "admin_system": "سیستم مدیریت",
+    "home": "صفحه اصلی",
+    "pricing": "قیمت گذاری",
+    "admin_center": "مرکز مدیریت"
+  },
+  "sign_modal": {
+    "sign_in_title": "وارد EasyClaw شوید",
+    "sign_in_description": "برای استقرار و مدیریت OpenClaw به حساب EasyClaw خود دسترسی پیدا کنید.",
+    "sign_up_title": "به EasyClaw بپیوندید",
+    "sign_up_description": "حساب EasyClaw خود را ایجاد کنید",
+    "email_title": "ایمیل",
+    "email_placeholder": "آدرس ایمیل خود را وارد کنید",
+    "password_title": "رمز عبور",
+    "password_placeholder": "رمز عبور خود را وارد کنید",
+    "forgot_password": "رمز عبور را فراموش کرده اید؟",
+    "or": "یا",
+    "continue": "به EasyClaw ادامه دهید",
+    "no_account": "با EasyClaw جدید هستید؟",
+    "email_sign_in": "با ایمیل وارد شوید",
+    "google_sign_in": "با گوگل ادامه دهید",
+    "github_sign_in": "با GitHub ادامه دهید",
+    "close_title": "بستن",
+    "cancel_title": "لغو کنید"
+  },
+  "my_orders": {
+    "title": "سفارشات من",
+    "no_orders": "هیچ سفارشی یافت نشد",
+    "tip": "",
+    "support_tip": "برای صدور صورت حساب یا لغو به کمک نیاز دارید؟ ایمیل support@easyclaw.pro.",
+    "activate_order": "سفارش را فعال کنید",
+    "actived": "فعال شد",
+    "join_discord": "به Discord بپیوندید",
+    "read_docs": "اسناد را بخوانید",
+    "table": {
+      "order_no": "شماره سفارش",
+      "email": "ایمیل",
+      "product_name": "نام محصول",
+      "amount": "مقدار",
+      "paid_at": "پرداخت شده در",
+      "github_username": "نام کاربری GitHub",
+      "status": "وضعیت",
+      "manage_billing": "مدیریت صورتحساب",
+      "interval": "Interval",
+      "interval_month": "ماهانه",
+      "interval_year": "سالانه",
+      "interval_one_time": "یک بار"
+    }
+  },
+  "my_credits": {
+    "title": "اعتبارات من",
+    "left_tip": "اعتبار باقی مانده: {left_credits}",
+    "no_credits": "بدون سابقه اعتبار",
+    "recharge": "شارژ مجدد",
+    "table": {
+      "trans_no": "شماره ترانس",
+      "trans_type": "نوع ترانس",
+      "credits": "اعتبارات",
+      "updated_at": "به روز شده در",
+      "status": "وضعیت",
+      "expired_at": "منقضی شده در",
+      "created_at": "ایجاد شده در"
+    }
+  },
+  "api_keys": {
+    "title": "کلیدهای API",
+    "tip": "لطفاً apikey خود را ایمن نگه دارید تا از نشت جلوگیری شود",
+    "no_api_keys": "بدون کلید API",
+    "create_api_key": "کلید API را ایجاد کنید",
+    "table": {
+      "name": "Name",
+      "key": "کلید",
+      "created_at": "ایجاد شده در"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "نام کلید API",
+      "submit": "ارسال کنید"
+    }
+  },
+  "my_invites": {
+    "title": "دعوت من",
+    "description": "سوابق دعوت خود را مشاهده کنید",
+    "no_invites": "هیچ سابقه دعوتی یافت نشد",
+    "my_invite_link": "لینک دعوت من",
+    "edit_invite_link": "ویرایش پیوند دعوت",
+    "copy_invite_link": "پیوند دعوت را کپی کنید",
+    "invite_code": "کد دعوت",
+    "invite_tip": "دوستان را به EasyClaw دعوت کنید و جوایزی کسب کنید.",
+    "invite_balance": "موجودی پاداش دعوت کنید",
+    "total_invite_count": "تعداد کل دعوت",
+    "total_paid_count": "تعداد کل پرداخت شده",
+    "total_award_amount": "مجموع مبلغ جایزه",
+    "update_invite_code": "کد دعوت را تنظیم کنید",
+    "update_invite_code_tip": "کد دعوت سفارشی خود را وارد کنید",
+    "update_invite_button": "ذخیره کنید",
+    "no_orders": "قبل از دعوت از دیگران به یک طرح پولی نیاز دارید",
+    "no_affiliates": "شما مجاز به دعوت دیگران نیستید، لطفاً برای درخواست مجوز با ما تماس بگیرید.",
+    "table": {
+      "invite_time": "زمان دعوت",
+      "invite_user": "دعوت از کاربر",
+      "status": "وضعیت",
+      "reward_percent": "درصد پاداش",
+      "reward_amount": "مقدار پاداش",
+      "pending": "در انتظار",
+      "completed": "تکمیل شد"
+    }
+  },
+  "feedback": {
+    "title": "بازخورد",
+    "description": "ما دوست داریم بشنویم چه چیزی خوب بوده یا چگونه می توانیم تجربه محصول را بهبود بخشیم.",
+    "submit": "ارسال کنید",
+    "loading": "در حال ارسال...",
+    "contact_tip": "راه های دیگر تماس با ما",
+    "rating_tip": "نظر شما در مورد EasyClaw چیست؟",
+    "placeholder": "حرفاتو اینجا بذار..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - فوراً کاریکاتورهای هوش مصنوعی ایجاد کنید",
+    "description": "برای تولید کاریکاتورهای سرگرم‌کننده و هنری با ابزارهای مجهز به هوش مصنوعی، عکس‌ها را آپلود کنید.",
+    "upload_label": "تصویر خود را آپلود کنید",
+    "upload_placeholder": "برای آپلود کلیک کنید یا بکشید (JPG، PNG، GIF، WebP)",
+    "upload_required": "مورد نیاز",
+    "prompt_label": "گسترش را توضیح دهید (اختیاری)",
+    "prompt_placeholder": "به‌عنوان مثال، «پس‌زمینه را به چپ و راست گسترش دهید»، «آسمان را رنگ‌آمیزی کنید»، «بوم را برای یک بنر پهن کنید»، «افزودن اتاق در اطراف سوژه»...",
+    "prompt_required": "یادداشت های اختیاری",
+    "character_count": "{count}/500",
+    "generate_button": "تصویر را بزرگ کنید",
+    "generating_button": "در حال گسترش...",
+    "credits_label": "اعتبارات شما",
+    "cost_label": "هزینه: اعتبار {cost} در هر توسعه",
+    "insufficient_credits": "اعتبارات ناکافی لطفاً برای ادامه گسترش تصاویر، شارژ مجدد کنید.",
+    "errors": {
+      "no_image": "لطفاً یک تصویر برای بزرگ شدن آپلود کنید",
+      "no_prompt": "لطفاً نحوه گسترش تصویر را توضیح دهید",
+      "invalid_format": "فقط فرمت‌های JPG، PNG، GIF، WebP پشتیبانی می‌شوند",
+      "file_too_large": "اندازه تصویر نمی تواند بیش از 5 مگابایت باشد",
+      "generation_failed": "گسترش تصویر انجام نشد، لطفاً دوباره امتحان کنید",
+      "download_failed": "دانلود انجام نشد، لطفا دوباره امتحان کنید"
+    },
+    "success": {
+      "generated": "تصویر گسترش یافته شما آماده است!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "آخرین تصاویر گسترش یافته توسط ابزار ما را مشاهده کنید. پیش نمایش قبل/بعد و خروجی نتیجه.",
+    "download_hint": "برای دانلود تصویر بزرگ شده کلیک کنید",
+    "no_outfits": "هنوز هیچ توسعه ای وجود ندارد. برای شروع گسترش یک تصویر آپلود کنید!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI Caricature Generator",
+    "description": "کاریکاتورهای با کیفیت بالا با استفاده از مدل OpenClaw AI با حالت های متن به تصویر و تصویر به تصویر ایجاد کنید",
+    "hero": {
+      "badge": "OpenClaw جدید",
+      "title": "کاریکاتورهای شگفت انگیز بسازید",
+      "subtitle": "با مدل پیشرفته هوش مصنوعی OpenClaw، عکس ها را به کاریکاتورهای خیره کننده تبدیل کنید. از هر دو حالت ایجاد متن به تصویر و تصویر به تصویر پشتیبانی می کند.",
+      "features": {
+        "text_to_image": "متن به تصویر",
+        "image_to_image": "تصویر به تصویر",
+        "high_quality": "خروجی با کیفیت بالا"
+      },
+      "buttons": {
+        "start_creating": "شروع به ایجاد",
+        "view_gallery": "مشاهده گالری"
+      },
+      "stats": {
+        "daily_images": "تصاویر تولید شده روزانه",
+        "satisfaction": "رضایت کاربر",
+        "generation_time": "میانگین زمان تولید"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "تصویر به تصویر",
+        "text_to_image": "متن به تصویر"
+      },
+      "model": "مدل",
+      "reference_images": "تصاویر مرجع",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "تصاویر را در اینجا بکشید و رها کنید",
+        "or_click": "یا برای مرور کلیک کنید",
+        "supported_formats": "پشتیبانی: JPEG، PNG، WebP (حداکثر 10 مگابایت)",
+        "add_more": "بیشتر اضافه کنید"
+      },
+      "prompt": "اعلان",
+      "prompt_placeholder_image": "نحوه تبدیل تصویر را توضیح دهید...",
+      "prompt_placeholder_text": "تصویری را که می خواهید ایجاد کنید شرح دهید...",
+      "aspect_ratio": "نسبت تصویر",
+      "resolution": "قطعنامه",
+      "output_count": "تعداد خروجی",
+      "output_count_range": "حداقل {min}، حداکثر {max}",
+      "output_format": "فرمت خروجی",
+      "generate_button": "اکنون تولید کنید",
+      "generating": "در حال تولید...",
+      "clear_images": "تمام تصاویر را پاک کنید",
+      "output_gallery": "تصویر تولید شده شما",
+      "view_all": "مشاهده همه",
+      "generating_message": "خلق شاهکار شما...",
+      "generating_submessage": "مدل OpenClaw ما جادوی خود را انجام می دهد. این معمولا چند ثانیه طول می کشد.",
+      "example": "مثال"
+    },
+    "my_creations": {
+      "title": "مخلوقات من",
+      "description": "مشاهده و مدیریت تصاویر تولید شده توسط هوش مصنوعی - پیش نمایش و دانلود با یک کلیک",
+      "search_placeholder": "جستجوی آثار...",
+      "view_all": "مشاهده همه ({count})",
+      "no_results": "هیچ اثر منطبقی پیدا نشد",
+      "no_results_message": "سعی کنید از کلمات کلیدی مختلف استفاده کنید یا جستجو را پاک کنید تا همه آثار را مشاهده کنید.",
+      "clear_search": "جستجو را پاک کنید",
+      "empty_state": "هنوز هیچ خلاقیتی وجود ندارد",
+      "empty_message": "شروع به استفاده از OpenClaw برای ایجاد اولین تصویر تولید شده توسط هوش مصنوعی خود کنید!",
+      "start_creating": "شروع به ایجاد",
+      "download": "دانلود کنید",
+      "delete": "حذف کنید",
+      "total_count": "مجموع آثار {count}",
+      "search_results": "(جستجو: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "متن به تصویر",
+        "IMAGE_TO_IMAGE": "تصویر به تصویر"
+      }
+    },
+    "errors": {
+      "enter_prompt": "لطفاً یک اعلان وارد کنید",
+      "upload_reference": "حالت تصویر به تصویر نیاز به آپلود تصاویر مرجع دارد",
+      "generation_failed": "نسل ناموفق بود، لطفاً دوباره امتحان کنید",
+      "upload_success": "تصویر با موفقیت آپلود شد",
+      "upload_failed": "آپلود انجام نشد",
+      "delete_success": "تصویر حذف شد",
+      "delete_failed": "حذف انجام نشد، لطفا دوباره امتحان کنید",
+      "download_started": "دانلود شروع شد",
+      "file_too_large": "اندازه فایل نمی تواند بیشتر از {size}MB باشد",
+      "unsupported_format": "فرمت فایل پشتیبانی نشده فرمت های پشتیبانی شده: {formats}",
+      "retry": "دوباره امتحان کنید",
+      "dismiss": "رد کردن"
+    },
+    "loading": {
+      "default": "در حال بارگیری...",
+      "generation": "خلق شاهکار شما...",
+      "generation_message": "مدل OpenClaw ما جادوی خود را انجام می دهد. این معمولا چند ثانیه طول می کشد.",
+      "upload": "در حال آپلود تصویر...",
+      "upload_message": "لطفاً صبر کنید تا تصویر شما در فضای ابری آپلود شود."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "استودیو لایه ای",
+      "title": "استودیو OpenClaw",
+      "description": "از عکس های خود کاریکاتورهای هنری بسازید.",
+      "cta": "آزمایشی رایگان",
+      "cta_hint": "برای شروع یک تصویر آپلود کنید",
+      "features": [
+        "2-8 لایه هوش مصنوعی در هر تصویر",
+        "صادرات شفاف PNG/WebP",
+        "جدایی با هدایت سریع"
+      ]
+    },
+    "upload": {
+      "title": "آپلود کنید",
+      "subtitle": "JPG، PNG، یا WebP تا 10 مگابایت",
+      "action": "آپلود تصویر",
+      "drop": "تصویر خود را اینجا بگذارید",
+      "or_click": "یا برای مرور کلیک کنید",
+      "supported_formats": "پشتیبانی: JPEG، PNG، WebP (حداکثر 10 مگابایت)"
+    },
+    "prompt": {
+      "label": "اعلان",
+      "placeholder": "لایه هایی را که می خواهید توصیف کنید (به عنوان مثال، موضوع، لوازم، پس زمینه)"
+    },
+    "advanced": {
+      "title": "تنظیمات پیشرفته",
+      "prompt_label": "درخواست (اختیاری)",
+      "prompt_placeholder": "لطفاً اعلان را برای توصیف تصویر وارد کنید. (اختیاری)",
+      "negative_prompt_label": "درخواست منفی (اختیاری)",
+      "negative_prompt_placeholder": "توضیح دهید که چه چیزی باید از لایه ها حذف شود.",
+      "seed": "بذر",
+      "randomize_seed": "بذر را تصادفی کنید",
+      "guidance_scale": "مقیاس راهنمایی واقعی",
+      "inference_steps": "تعداد مراحل استنتاج",
+      "cfg_normalization": "اینکه آیا عادی سازی CFG را فعال کنید",
+      "auto_caption_language": "زبان شرح خودکار در صورت عدم ارائه درخواست، درست برای EN، نادرست برای ZH",
+      "layer_count": "تعداد لایه ها",
+      "layer_range": "حداقل {min}، حداکثر {max}",
+      "output_format": "فرمت خروجی"
+    },
+    "actions": {
+      "decompose": "تجزیه!",
+      "sign_in_to_decompose": "برای تجزیه وارد شوید!",
+      "generating": "در حال تجزیه..."
+    },
+    "results": {
+      "title": "نتایج",
+      "subtitle": "خروجی های لایه ای در اینجا پس از تجزیه ظاهر می شوند.",
+      "download_pptx": "PPTX را دانلود کنید",
+      "download_zip": "ZIP را دانلود کنید",
+      "packaging": "بسته بندی ...",
+      "generating_title": "در حال تجزیه تصویر شما ...",
+      "generating_subtitle": "ایجاد دارایی های لایه ای این معمولا چند ثانیه طول می کشد.",
+      "layer_label": "لایه {index}",
+      "layer_description": "دارایی لایه ای",
+      "empty_title": "هنوز لایه ای وجود ندارد",
+      "empty_subtitle": "یک تصویر آپلود کنید و روی Decompose کلیک کنید! برای تولید لایه ها",
+      "success": "لایه ها با موفقیت تولید شدند!",
+      "download_ready": "دانلود آماده است"
+    },
+    "examples": {
+      "title": "نمونه ها",
+      "subtitle": "ببینید چگونه یک تصویر منبع به لایه های تمیز می شکند.",
+      "labels": {
+        "source": "منبع",
+        "layer": "لایه {index}",
+        "sample": "مثال {index}"
+      },
+      "rows": {
+        "primary": "مجموعه نمونه 01",
+        "secondary": "مجموعه نمونه 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "لطفا ابتدا یک تصویر مرجع آپلود کنید",
+      "generation_failed": "نسل ناموفق بود، لطفاً دوباره امتحان کنید",
+      "upload_success": "تصویر با موفقیت آپلود شد",
+      "upload_failed": "آپلود انجام نشد",
+      "download_failed": "دانلود انجام نشد، لطفا دوباره امتحان کنید"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "موجود است"
+    },
+    "errors": {
+      "no_available_account": "هیچ حساب کاربری در اشتراک فعلی شما موجود نیست. لطفاً بعداً دوباره امتحان کنید.",
+      "network_unstable": "شبکه ناپایدار است لطفاً به زودی دوباره امتحان کنید.",
+      "deployment_failed_try_again": "استقرار ناموفق بود. دوباره امتحان کنید.",
+      "deployment_timeout": "زمان استقرار پس از {minutes} دقیقه. لطفا دوباره امتحان کنید.",
+      "enter_bot_token": "لطفا یک نشانه ربات وارد کنید.",
+      "select_channel_before_deploying": "لطفاً قبل از استقرار یک کانال انتخاب کنید.",
+      "enter_telegram_bot_token": "لطفا رمز ربات Telegram خود را وارد کنید.",
+      "invalid_response_missing_deployment_id": "پاسخ نامعتبر: deployment_id موجود نیست",
+      "failed_to_start_deployment": "شروع استقرار ناموفق بود",
+      "failed_to_fetch_deployment_status": "واکشی وضعیت استقرار ناموفق بود",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - استقرار OpenClaw با یک کلیک",
+      "description": "OpenClaw را در کمتر از 1 دقیقه مستقر کنید. بدون سرور یا DevOps. یک مدل را انتخاب کنید، یک کانال را متصل کنید و راه اندازی کنید."
+    },
+    "selectors": {
+      "model_title": "یک مدل پیش فرض برای OpenClaw خود انتخاب کنید",
+      "channel_title": "انتخاب کنید که OpenClaw باید کجا پیام ارسال کند",
+      "selected": "انتخاب شده است"
+    },
+    "deploy": {
+      "deploying": "در حال استقرار...",
+      "deploy_button": "مستقر کنید",
+      "sign_in_button": "برای استقرار با EasyClaw وارد شوید",
+      "sign_in_hint": "برای استقرار OpenClaw با EasyClaw وارد سیستم شوید و کانال های خود را متصل کنید.",
+      "status_success": "استقرار موفقیت آمیز بود! OpenClaw اکنون در حال اجرا است.",
+      "model_substitution_warning": "جایگزینی مدل شناسایی شد. استقرار مجدد را امتحان کنید یا به منطقه/ارائه دهنده دیگری تغییر دهید.",
+      "hint_prefix": "برای ادامه، Telegram را وصل کنید.",
+      "hint_suffix": "بعداً می‌توانید کانال‌های دیگری را به همان حساب اضافه کنید.",
+      "hint_prefix_telegram": "برای ادامه، Telegram را وصل کنید.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegram را وصل کنید",
+      "how_to_get_token": "چگونه توکن ربات خود را دریافت کنیم؟",
+      "step_1_prefix": "Telegram را باز کنید و به آن بروید",
+      "step_2_prefix": "یک چت را شروع کنید و تایپ کنید",
+      "step_3_text": "دستورات را دنبال کنید تا ربات خود را نامگذاری کنید و یک نام کاربری انتخاب کنید.",
+      "step_4_text": "BotFather با توکن ربات شما پیامی برای شما ارسال می کند. کل نشانه را کپی کنید (به نظر می رسد یک رشته طولانی از اعداد و حروف است).",
+      "step_5_text": "توکن را در فیلد زیر قرار دهید و روی Save & Connect کلیک کنید.",
+      "token_label": "رمز ربات را وارد کنید",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "ذخیره و اتصال",
+      "preview_intro": "من می توانم به شما در ایجاد و مدیریت ربات های Telegram کمک کنم. دوست دارید چه کار کنید؟",
+      "preview_newbot": "یک ربات جدید ایجاد کنید",
+      "preview_mybots": "ربات های خود را ویرایش کنید",
+      "preview_name_prompt": "خوب، یک ربات جدید. چگونه می خواهیم آن را صدا کنیم؟ لطفا یک نام برای ربات خود انتخاب کنید.",
+      "preview_message_input": "پیام"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

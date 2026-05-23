@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Ejemplos de implementación de OpenClaw de usuarios de EasyClaw",
+    "description": "Vea cómo los equipos lanzan asistentes OpenClaw para soporte, operaciones y flujos de trabajo internos.",
+    "items": [
+      {
+        "title": "Lanzamiento del asistente de atención al cliente",
+        "description": "Se implementó un bot de soporte Telegram con respaldo de modelo en minutos.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Automatización del seguimiento de ventas.",
+        "description": "Configure OpenClaw para calificar clientes potenciales y redactar respuestas de seguimiento.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Notificador de operaciones internas",
+        "description": "Se conectó OpenClaw para alertar a los equipos sobre eventos e incidentes de operaciones.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Asistente comunitario multicanal",
+        "description": "Se implementó el mismo asistente en Telegram, Discord y WhatsApp.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Flujo de trabajo de informes semanales",
+        "description": "Informes resumidos automatizados para gerentes todos los viernes",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Copiloto de incorporación",
+        "description": "Se brindó orientación y respuestas durante la primera semana para los nuevos empleados.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Bot de calificación de clientes potenciales",
+        "description": "Capturé preguntas entrantes y envié clientes potenciales de alta intención a ventas.",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Recopilador de comentarios sobre productos",
+        "description": "Comentarios de usuarios clasificados y elementos de acción generados para equipos de productos",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

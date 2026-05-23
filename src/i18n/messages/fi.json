@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw – Ota OpenClaw käyttöön alle minuutissa",
+    "description": "Ota OpenClaw käyttöön EasyClaw:n kanssa yhdellä napsautuksella. Yhdistä Telegram, valitse malli ja aloita livelähetys nopeasti.",
+    "keywords": "easyclaw, ota käyttöön openclaw, openclaw-isännöinti, telegram botin käyttöönotto, ai-avustajan käyttöönotto"
+  },
+  "blog": {
+    "title": "Blogi",
+    "description": "Uutisia, opetusohjelmia ja päivityksiä OpenClaw:n käyttöönotosta EasyClaw:n kanssa.",
+    "read_more_text": "Lue lisää"
+  },
+  "user": {
+    "sign_in": "Kirjaudu sisään",
+    "sign_out": "Kirjaudu ulos",
+    "credits": "Krediitit",
+    "api_keys": "API Avaimet",
+    "my_orders": "Minun tilaukseni",
+    "my_invites": "Omat kutsuni",
+    "user_center": "Käyttäjäkeskus",
+    "support": "Tuki",
+    "admin_system": "Admin System",
+    "home": "Kotiin",
+    "pricing": "Hinnoittelu",
+    "admin_center": "Hallintakeskus"
+  },
+  "sign_modal": {
+    "sign_in_title": "Kirjaudu sisään EasyClaw",
+    "sign_in_description": "Käytä EasyClaw-tiliäsi ottaaksesi käyttöön ja hallitaksesi OpenClaw:ää.",
+    "sign_up_title": "Liity joukkoon EasyClaw",
+    "sign_up_description": "Luo EasyClaw-tili",
+    "email_title": "Sähköposti",
+    "email_placeholder": "Kirjoita sähköpostiosoitteesi",
+    "password_title": "Salasana",
+    "password_placeholder": "Kirjoita salasanasi",
+    "forgot_password": "Unohditko salasanan?",
+    "or": "Tai",
+    "continue": "Jatka suuntaan EasyClaw",
+    "no_account": "Uusi EasyClaw?",
+    "email_sign_in": "Kirjaudu sisään sähköpostilla",
+    "google_sign_in": "Jatka Googlella",
+    "github_sign_in": "Jatka GitHubilla",
+    "close_title": "Sulje",
+    "cancel_title": "Peruuta"
+  },
+  "my_orders": {
+    "title": "Minun tilaukseni",
+    "no_orders": "Tilauksia ei löytynyt",
+    "tip": "",
+    "support_tip": "Tarvitsetko apua laskutuksessa tai peruutuksessa? Sähköposti support@easyclaw.pro.",
+    "activate_order": "Aktivoi Tilaus",
+    "actived": "Aktivoitu",
+    "join_discord": "Liity joukkoon Discord",
+    "read_docs": "Lue asiakirjoja",
+    "table": {
+      "order_no": "Tilausnro",
+      "email": "Sähköposti",
+      "product_name": "Tuotteen nimi",
+      "amount": "Summa",
+      "paid_at": "Maksettu klo",
+      "github_username": "GitHub-käyttäjänimi",
+      "status": "Tila",
+      "manage_billing": "Hallinnoi laskutusta",
+      "interval": "Interval",
+      "interval_month": "Kuukausittain",
+      "interval_year": "Vuosittain",
+      "interval_one_time": "Kertaluonteinen"
+    }
+  },
+  "my_credits": {
+    "title": "Minun luottotiedot",
+    "left_tip": "jäljellä olevat krediitit: {left_credits}",
+    "no_credits": "Ei luottotietoja",
+    "recharge": "Lataa",
+    "table": {
+      "trans_no": "Trans nro",
+      "trans_type": "Trans tyyppi",
+      "credits": "Krediitit",
+      "updated_at": "Päivitetty klo",
+      "status": "Tila",
+      "expired_at": "Vanhentunut klo",
+      "created_at": "Luotu klo"
+    }
+  },
+  "api_keys": {
+    "title": "API Avaimet",
+    "tip": "Pidä apikeysi turvassa vuotojen välttämiseksi",
+    "no_api_keys": "Ei API avaimia",
+    "create_api_key": "Luo API-avain",
+    "table": {
+      "name": "Name",
+      "key": "Avain",
+      "created_at": "Luotu klo"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Avaimen nimi",
+      "submit": "Lähetä"
+    }
+  },
+  "my_invites": {
+    "title": "Omat kutsuni",
+    "description": "Tarkastele kutsutietueitasi",
+    "no_invites": "Kutsutietueita ei löytynyt",
+    "my_invite_link": "Oma kutsulinkki",
+    "edit_invite_link": "Muokkaa kutsulinkkiä",
+    "copy_invite_link": "Kopioi kutsulinkki",
+    "invite_code": "Kutsukoodi",
+    "invite_tip": "Kutsu ystäviä EasyClaw:ään ja ansaitse palkintoja.",
+    "invite_balance": "Kutsu Reward Balance",
+    "total_invite_count": "Kutsujen kokonaismäärä",
+    "total_paid_count": "Maksettu kokonaismäärä",
+    "total_award_amount": "Palkinnon kokonaissumma",
+    "update_invite_code": "Aseta kutsukoodi",
+    "update_invite_code_tip": "Syötä mukautettu kutsukoodisi",
+    "update_invite_button": "Tallenna",
+    "no_orders": "Tarvitset maksullisen suunnitelman ennen muiden kutsumista",
+    "no_affiliates": "Et saa kutsua muita, ota meihin yhteyttä saadaksesi lupa.",
+    "table": {
+      "invite_time": "Kutsu aika",
+      "invite_user": "Kutsu käyttäjä",
+      "status": "Tila",
+      "reward_percent": "Palkintoprosentti",
+      "reward_amount": "Palkintosumma",
+      "pending": "Odottaa",
+      "completed": "Valmis"
+    }
+  },
+  "feedback": {
+    "title": "Palaute",
+    "description": "Haluaisimme kuulla, mikä meni hyvin tai miten voimme parantaa tuotekokemusta.",
+    "submit": "Lähetä",
+    "loading": "Lähetetään...",
+    "contact_tip": "Muita tapoja ottaa meihin yhteyttä",
+    "rating_tip": "Mitä mieltä olet EasyClaw:stä?",
+    "placeholder": "Jätä sanasi tähän..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Luo tekoälykarikatyyrejä välittömästi",
+    "description": "Lataa kuvia luodaksesi hauskoja ja taiteellisia karikatyyrejä tekoälytyökaluilla.",
+    "upload_label": "Lataa kuvasi",
+    "upload_placeholder": "Lataa napsauttamalla tai vetämällä (JPG, PNG, GIF, WebP)",
+    "upload_required": "Pakollinen",
+    "prompt_label": "Kuvaile laajennusta (valinnainen)",
+    "prompt_placeholder": "Esim. \"laajenna taustaa vasemmalle ja oikealle\", \"maalaa taivas\", \"laajenna kangasta bannerille\", \"lisää tilaa kohteen ympärille\"...",
+    "prompt_required": "Valinnaiset muistiinpanot",
+    "character_count": "{count}/500",
+    "generate_button": "Laajenna kuva",
+    "generating_button": "Laajennetaan...",
+    "credits_label": "Sinun krediittejäsi",
+    "cost_label": "Hinta: {cost} krediittiä laajennusta kohti",
+    "insufficient_credits": "Riittämättömät luottotiedot. Lataa uudelleen jatkaaksesi kuvien laajentamista.",
+    "errors": {
+      "no_image": "Lataa kuva laajennettavaksi",
+      "no_prompt": "Kerro, kuinka haluat laajentaa kuvaa",
+      "invalid_format": "Vain muotoja JPG, PNG, GIF, WebP tuetaan",
+      "file_too_large": "Kuvan koko ei saa ylittää 5 Mt",
+      "generation_failed": "Kuvan laajennus epäonnistui, yritä uudelleen",
+      "download_failed": "Lataus epäonnistui, yritä uudelleen"
+    },
+    "success": {
+      "generated": "Laajennettu kuvasi on valmis!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Katso uusimmat kuvat työkalumme avulla. Esikatsele ennen/jälkeen ja vie tulos.",
+    "download_hint": "Lataa laajennettu kuva napsauttamalla",
+    "no_outfits": "Ei vielä laajennuksia. Lataa kuva aloittaaksesi laajentamisen!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI-karikatyyrigeneraattori",
+    "description": "Luo korkealaatuisia karikatyyrejä käyttämällä OpenClaw AI -mallia tekstistä kuvaksi ja kuvasta kuvaksi -tiloilla",
+    "hero": {
+      "badge": "Uusi OpenClaw",
+      "title": "Luo upeita karikatyyrejä",
+      "subtitle": "Muunna valokuvat upeiksi karikatyyreiksi OpenClaw:n edistyneellä tekoälymallilla. Tukee sekä tekstistä kuvaksi että kuvasta kuvaksi luontitiloja.",
+      "features": {
+        "text_to_image": "Tekstistä kuvaksi",
+        "image_to_image": "Kuvasta kuvaksi",
+        "high_quality": "Korkealaatuinen lähtö"
+      },
+      "buttons": {
+        "start_creating": "Aloita luominen",
+        "view_gallery": "Näytä galleria"
+      },
+      "stats": {
+        "daily_images": "Päivittäin luodut kuvat",
+        "satisfaction": "Käyttäjätyytyväisyys",
+        "generation_time": "Keskimääräinen sukupolven aika"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Kuvasta kuvaksi",
+        "text_to_image": "Tekstistä kuvaksi"
+      },
+      "model": "Malli",
+      "reference_images": "Viitekuvat",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Vedä ja pudota kuvat tähän",
+        "or_click": "tai selaa napsauttamalla",
+        "supported_formats": "Tukee: JPEG, PNG, WebP (max 10MB)",
+        "add_more": "Lisää lisää"
+      },
+      "prompt": "Kehote",
+      "prompt_placeholder_image": "Kuvaile, kuinka kuva muutetaan...",
+      "prompt_placeholder_text": "Kuvaile kuva, jonka haluat luoda...",
+      "aspect_ratio": "Kuvasuhde",
+      "resolution": "Resoluutio",
+      "output_count": "Tuotosten määrä",
+      "output_count_range": "Minimi {min}, Max {max}",
+      "output_format": "Tulostusmuoto",
+      "generate_button": "Luo nyt",
+      "generating": "Luodaan...",
+      "clear_images": "Tyhjennä kaikki kuvat",
+      "output_gallery": "Luotu kuvasi",
+      "view_all": "Näytä kaikki",
+      "generating_message": "Luodaan mestariteostasi...",
+      "generating_submessage": "OpenClaw-mallimme tekee taikuuttaan. Tämä kestää yleensä muutaman sekunnin.",
+      "example": "Esimerkki"
+    },
+    "my_creations": {
+      "title": "Minun luomukseni",
+      "description": "Tarkastele ja hallinnoi tekoälyn luomia kuviasi - esikatsele ja lataa yhdellä napsautuksella",
+      "search_placeholder": "Hae luomuksia...",
+      "view_all": "Näytä kaikki ({count})",
+      "no_results": "Vastaavia luomuksia ei löytynyt",
+      "no_results_message": "Kokeile eri avainsanoja tai tyhjennä haku nähdäksesi kaikki luomukset.",
+      "clear_search": "Tyhjennä haku",
+      "empty_state": "Ei vielä luomuksia",
+      "empty_message": "Aloita OpenClaw:n käyttäminen ensimmäisen tekoälyn luoman kuvan luomiseen!",
+      "start_creating": "Aloita luominen",
+      "download": "Lataa",
+      "delete": "Poista",
+      "total_count": "{count}-luomuksia yhteensä",
+      "search_results": "(Haku: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Tekstistä kuvaksi",
+        "IMAGE_TO_IMAGE": "Kuvasta kuvaksi"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Anna kehote",
+      "upload_reference": "Kuvasta kuvaksi -tila vaatii viitekuvien lähettämisen",
+      "generation_failed": "Luominen epäonnistui, yritä uudelleen",
+      "upload_success": "Kuva lähetetty onnistuneesti",
+      "upload_failed": "Lataus epäonnistui",
+      "delete_success": "Kuva poistettu",
+      "delete_failed": "Poistaminen epäonnistui, yritä uudelleen",
+      "download_started": "Lataus aloitettu",
+      "file_too_large": "Tiedoston koko ei voi ylittää {size}MB",
+      "unsupported_format": "Tiedostomuotoa ei tueta. Tuetut muodot: {formats}",
+      "retry": "Yritä uudelleen",
+      "dismiss": "Hylkää"
+    },
+    "loading": {
+      "default": "Ladataan...",
+      "generation": "Luodaan mestariteostasi...",
+      "generation_message": "OpenClaw-mallimme tekee taikuuttaan. Tämä kestää yleensä muutaman sekunnin.",
+      "upload": "Ladataan kuvaa...",
+      "upload_message": "Odota, kun kuvasi ladataan pilveen."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Kerroksellinen studio",
+      "title": "OpenClaw Studio",
+      "description": "Luo taiteellisia karikatyyrejä valokuvistasi.",
+      "cta": "Ilmainen kokeilu",
+      "cta_hint": "Aloita lataamalla yksi kuva",
+      "features": [
+        "2-8 AI-kerrosta per kuva",
+        "Läpinäkyvä PNG/WebP vienti",
+        "Nopeasti ohjattu erottelu"
+      ]
+    },
+    "upload": {
+      "title": "Lataa",
+      "subtitle": "JPG, PNG tai WebP jopa 10 Mt",
+      "action": "Lataa kuva",
+      "drop": "Pudota kuvasi tähän",
+      "or_click": "tai selaa napsauttamalla",
+      "supported_formats": "Tukee: JPEG, PNG, WebP (max 10MB)"
+    },
+    "prompt": {
+      "label": "Kehote",
+      "placeholder": "Kuvaile haluamasi tasot (esim. aihe, rekvisiitta, tausta)"
+    },
+    "advanced": {
+      "title": "Lisäasetukset",
+      "prompt_label": "Kehote (valinnainen)",
+      "prompt_placeholder": "Kirjoita kehote kuvaamaan kuvaa. (Valinnainen)",
+      "negative_prompt_label": "Negatiivinen kehote (valinnainen)",
+      "negative_prompt_placeholder": "Kuvaile, mitä kerroksista tulisi jättää pois.",
+      "seed": "Siemen",
+      "randomize_seed": "Satunnaista siemenet",
+      "guidance_scale": "Todellinen ohjausasteikko",
+      "inference_steps": "Päättelyvaiheiden lukumäärä",
+      "cfg_normalization": "Otetaanko CFG-normalisointi käyttöön",
+      "auto_caption_language": "Automaattinen tekstityskieli, jos kehotetta ei anneta, True (EN) ja False (ZH).",
+      "layer_count": "Kerrosten määrä",
+      "layer_range": "Minimi {min}, Max {max}",
+      "output_format": "Tulostusmuoto"
+    },
+    "actions": {
+      "decompose": "Hajoaa!",
+      "sign_in_to_decompose": "Kirjaudu sisään Decompose!",
+      "generating": "Hajoaa..."
+    },
+    "results": {
+      "title": "Tulokset",
+      "subtitle": "Kerrostetut tulosteet näkyvät täällä hajotuksen jälkeen.",
+      "download_pptx": "Lataa PPTX",
+      "download_zip": "Lataa ZIP",
+      "packaging": "Pakkaus...",
+      "generating_title": "Puretaan kuvaasi...",
+      "generating_subtitle": "Luodaan kerrostettuja resursseja. Tämä kestää yleensä muutaman sekunnin.",
+      "layer_label": "Kerros {index}",
+      "layer_description": "Kerroksellinen omaisuus",
+      "empty_title": "Ei vielä kerroksia",
+      "empty_subtitle": "Lataa kuva ja napsauta Pura! kerrosten luomiseen.",
+      "success": "Tasojen luominen onnistui!",
+      "download_ready": "Lataus valmis"
+    },
+    "examples": {
+      "title": "Esimerkkejä",
+      "subtitle": "Katso, kuinka lähdekuva jakautuu puhtaiksi tasoiksi.",
+      "labels": {
+        "source": "lähde",
+        "layer": "Kerros {index}",
+        "sample": "Esimerkki {index}"
+      },
+      "rows": {
+        "primary": "Esimerkkijoukko 01",
+        "secondary": "Esimerkkijoukko 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Lataa ensin viitekuva",
+      "generation_failed": "Luominen epäonnistui, yritä uudelleen",
+      "upload_success": "Kuva lähetetty onnistuneesti",
+      "upload_failed": "Lataus epäonnistui",
+      "download_failed": "Lataus epäonnistui, yritä uudelleen"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Saatavilla"
+    },
+    "errors": {
+      "no_available_account": "Nykyisessä tilauksessasi ei ole käytettävissä tiliä. Yritä myöhemmin uudelleen.",
+      "network_unstable": "Verkko on epävakaa. Yritä hetken kuluttua uudelleen.",
+      "deployment_failed_try_again": "Käyttöönotto epäonnistui. Yritä uudelleen.",
+      "deployment_timeout": "Käyttöönoton aikakatkaisu {minutes} minuutin jälkeen. Yritä uudelleen.",
+      "enter_bot_token": "Anna botin tunnus.",
+      "select_channel_before_deploying": "Valitse kanava ennen käyttöönottoa.",
+      "enter_telegram_bot_token": "Anna Telegram-bottitunnuksesi.",
+      "invalid_response_missing_deployment_id": "Virheellinen vastaus: puuttuu deployment_id",
+      "failed_to_start_deployment": "Käyttöönoton aloittaminen epäonnistui",
+      "failed_to_fetch_deployment_status": "Käyttöönoton tilan nouto epäonnistui",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw – Yhden napsautuksen OpenClaw käyttöönotto",
+      "description": "Ota OpenClaw käyttöön alle minuutissa. Ei palvelimia tai DevOpsia. Valitse malli, yhdistä kanava ja käynnistä."
+    },
+    "selectors": {
+      "model_title": "Valitse oletusmalli OpenClaw-laitteellesi",
+      "channel_title": "Valitse, mihin OpenClaw lähettää viestejä",
+      "selected": "Valittu"
+    },
+    "deploy": {
+      "deploying": "Otetaan käyttöön...",
+      "deploy_button": "Ota käyttöön",
+      "sign_in_button": "Kirjaudu sisään ottaaksesi käyttöön EasyClaw:n avulla",
+      "sign_in_hint": "Kirjaudu sisään ottaaksesi OpenClaw käyttöön EasyClaw:n kanssa ja yhdistä kanavasi.",
+      "status_success": "Käyttöönotto onnistui! OpenClaw on nyt käynnissä.",
+      "model_substitution_warning": "Mallin korvaaminen havaittu. Yritä asentaa uudelleen tai vaihtaa toiseen alueeseen/palveluntarjoajaan.",
+      "hint_prefix": "Liitä Telegram jatkaaksesi.",
+      "hint_suffix": "Voit lisätä muita kanavia samalle tilille myöhemmin.",
+      "hint_prefix_telegram": "Liitä Telegram jatkaaksesi.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Yhdistä Telegram",
+      "how_to_get_token": "Kuinka saada bot-tunnus?",
+      "step_1_prefix": "Avaa Telegram ja siirry kohtaan",
+      "step_2_prefix": "Aloita chat ja kirjoita",
+      "step_3_text": "Nimeä bottisi ohjeiden mukaan ja valitse käyttäjänimi.",
+      "step_4_text": "BotFather lähettää sinulle viestin bottitunnuksellasi. Kopioi koko tunnus (se näyttää pitkältä numero- ja kirjainjonolta).",
+      "step_5_text": "Liitä tunnus alla olevaan kenttään ja napsauta Tallenna ja yhdistä.",
+      "token_label": "Anna bot-tunnus",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Tallenna ja yhdistä",
+      "preview_intro": "Voin auttaa sinua luomaan ja hallitsemaan Telegram-botteja. Mitä haluaisit tehdä?",
+      "preview_newbot": "luo uusi botti",
+      "preview_mybots": "muokkaa bottejasi",
+      "preview_name_prompt": "Selvä, uusi botti. Kuinka kutsumme sitä? Valitse bottillesi nimi.",
+      "preview_message_input": "Viesti"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

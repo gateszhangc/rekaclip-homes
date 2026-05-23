@@ -1,0 +1,19 @@
+{
+  "dimensionFilterGroups": [
+    {
+      "groupType": "and",
+      "filters": [
+        {
+          "dimension": "page",
+          "operator": "contains",
+          "expression": "/blog/"
+        },
+        {
+          "dimension": "query",
+          "operator": "contains",
+          "expression": "caricature"
+        }
+      ]
+    }
+  ]
+}

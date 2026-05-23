@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "ЗЗГЛ0ЗЗ",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "ЗЗГЛ0ЗЗ"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Особенности",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Цены",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Блог",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "Часто задаваемые вопросы",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "ЗЗГЛ0ЗЗ",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "Логотип EasyClaw"
+    },
+    "highlight_text": "ЗЗГЛ0ЗЗ",
+    "subtitle": "Создавайте высококачественные произведения искусства",
+    "description": "Загрузите портрет, выберите стиль и получите чистую карикатуру для аватарки, подарков или контента.",
+    "features": [
+      "Высококачественная детализация и чистые линии.",
+      "Демократичная цена для повседневного использования.",
+      "Готовы к профилям, подаркам и распечаткам"
+    ],
+    "buttons": [
+      {
+        "title": "Создать мою карикатуру",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Пример карикатуры"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Пример карикатуры 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Пример карикатуры 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Пример карикатуры 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "На основе передовых технологий",
+    "items": [
+      {
+        "title": "ЗЗГЛ10ЗЗ",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "ЗЗГЛ10ЗЗ"
+        }
+      },
+      {
+        "title": "ЗЗГЛ11ЗЗ",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "ЗЗГЛ11ЗЗ"
+        }
+      },
+      {
+        "title": "ЗЗГЛ12ЗЗ",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "ЗЗГЛ12ЗЗ"
+        }
+      },
+      {
+        "title": "ЗЗГЛ13ЗЗ",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "ЗЗГЛ13ЗЗ"
+        }
+      },
+      {
+        "title": "ЗЗГЛ14ЗЗ",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "ЗЗГЛ14ЗЗ"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "правда",
+    "name": "introduce",
+    "title": "Как сделать карикатуру",
+    "label": "Простой процесс",
+    "description": "Создавайте потрясающие карикатуры за три простых шага. Никаких художественных навыков не требуется.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Загрузить фото",
+        "description": "Загрузите четкую портретную фотографию. Мы поддерживаем JPG, PNG и WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Выберите стиль",
+        "description": "Выбирайте из смешного, преувеличенного, аниме или 3D-мультяшного стиля.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Скачать",
+        "description": "Получите высококачественную карикатуру мгновенно без водяных знаков.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "правда",
+    "name": "benefit",
+    "title": "Зачем использовать OpenClaw?",
+    "label": "Преимущества",
+    "description": "Идеальный инструмент для подарков, фотографий профиля и контента в социальных сетях.",
+    "items": [
+      {
+        "title": "Мгновенная магия искусственного интеллекта",
+        "description": "Усовершенствованный искусственный интеллект анализирует черты лица и за считанные секунды создает идеально преувеличенные карикатуры.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Разнообразные художественные стили",
+        "description": "От классических рисованных образов до современных анимированных 3D-аватаров. У нас есть все это.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Высокое разрешение",
+        "description": "Загрузите четкие высококачественные изображения, подходящие для печати на кружках, футболках и плакатах.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Галерея",
+    "title": "Удивительные трансформации",
+    "description": "Посмотрите, как обычные фотографии превращаются в необычные карикатуры.",
+    "items": [
+      {
+        "title": "Социальные аватары",
+        "highlight": "Выделитесь в Интернете",
+        "description": "Создайте уникальное изображение профиля, которое отражает вашу индивидуальность.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Исходное фото",
+        "afterAlt": "Карикатурный результат",
+        "reverse": false
+      },
+      {
+        "title": "Персонализированные подарки",
+        "highlight": "Памятные подарки",
+        "description": "Удивите друзей и семью оригинальным забавным портретом.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Исходное фото",
+        "afterAlt": "Карикатурный результат",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 шага для развертывания OpenClaw",
+    "description": "Выберите свою модель, подключите канал и запустите.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "ушел",
+    "text_align": "центр",
+    "items": [
+      {
+        "title": "Выберите модель",
+        "description": "Claude, GPT, Gemini — подберите лучшую модель для каждой задачи. Творческая работа с Claude, анализ с GPT. Переключайтесь в любое время.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Выберите модель AI — Claude, GPT или Gemini."
+        }
+      },
+      {
+        "title": "Подключить канал",
+        "description": "Telegram, Discord, WhatsApp — один дашборд для всех каналов. Управляйте всеми разговорами из одного места, больше не нужно переключаться между приложениями.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Подключите каналы обмена сообщениями"
+        }
+      },
+      {
+        "title": "Развертывание и запуск",
+        "description": "Ваш AI-помощник будет онлайн через 60 секунд. Отправьте свое первое сообщение и начните автоматизировать.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Разверните и запустите своего помощника"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Создайте свою карикатуру",
+    "description": "Загрузите фотографию, выберите стиль и создавайте."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Студия карикатуры",
+    "description": "Загрузите фотографию, выберите стиль и создайте качественную карикатуру.",
+    "disabled": false,
+    "upload": {
+      "title": "Загрузите свою фотографию",
+      "description": "Перетащите или щелкните, чтобы загрузить (JPG, PNG, WebP до 10 МБ)",
+      "buttonText": "Выберите изображение",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "ЗЗГЛ15ЗЗ",
+        "ЗЗГЛ17ЗЗ",
+        "ЗЗГЛ18ЗЗ",
+        "ЗЗГЛ16ЗЗ"
+      ]
+    },
+    "results": {
+      "imageTitle": "Ваша карикатура",
+      "textListTitle": "Настройки стиля",
+      "fontRecommendationTitle": "Рекомендуемые стили",
+      "detectedFontLabel": "Текущий выбор",
+      "similarFontsLabel": "Попробуйте это тоже",
+      "selectTextPrompt": "Выберите стиль для применения"
+    },
+    "actions": {
+      "reuploadText": "Попробуйте другое фото"
+    },
+    "messages": {
+      "uploadSuccess": "Фотография успешно загружена!",
+      "uploadError": "К сожалению, загрузка не удалась. Пожалуйста, попробуйте еще раз.",
+      "recognitionSuccess": "Ваша карикатура готова!",
+      "recognitionError": "Генерация не удалась. Пожалуйста, попробуйте еще раз.",
+      "fontRecognitionSuccess": "Стиль применен!",
+      "fontRecognitionError": "Не удалось применить стиль.",
+      "processing": "Создавая свою карикатуру..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Попрощайтесь с хлопотами",
+    "description": "Посмотрите, что изменится при переходе на EasyClaw",
+    "before_label": "Традиционная установка",
+    "after_label": "ЗЗГЛ0ЗЗ",
+    "items": [
+      {
+        "before": "Аренда серверов, настройка окружения",
+        "after": "Развертывание в один клик, серверы не нужны"
+      },
+      {
+        "before": "Просыпайтесь, чтобы исправить оповещения в 3 часа ночи",
+        "after": "Автоматическая работа 24/7"
+      },
+      {
+        "before": "Обновите версии OpenClaw вручную.",
+        "after": "Автоматические обновления до последней версии"
+      },
+      {
+        "before": "Изучите команды Docker, Linux",
+        "after": "Нулевые технические навыки не требуются"
+      },
+      {
+        "before": "30+ минут на одно развертывание",
+        "after": "Развертывание менее чем за 60 секунд"
+      }
+    ],
+    "footer": "Экономия времени: ~29 минут на одно развертывание."
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Почему команды выбирают EasyClaw",
+    "description": "Готовое к использованию развертывание без затрат на DevOps. Нулевое обслуживание, максимальная концентрация.",
+    "items": [
+      {
+        "title": "Развертывание за 60 секунд",
+        "description": "От нуля до бега менее чем за минуту. Никакого Docker, никаких команд Linux, никакой настройки сервера.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Нулевое обслуживание",
+        "description": "Мы занимаемся обновлениями, мониторингом и восстановлением. Вы просто сосредотачиваетесь на использовании своего ИИ-помощника.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Гибкость модели",
+        "description": "Переключайтесь между Claude, GPT и Gemini в любое время. Используйте лучшую модель для каждой задачи.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Единые каналы",
+        "description": "Управляйте Telegram, Discord и WhatsApp с одной панели управления. Больше не нужно переключать приложения.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Всегда в курсе",
+        "description": "Автоматические обновления OpenClaw. Всегда используйте новейшие функции, не пошевелив и пальцем.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Масштабируйте с уверенностью",
+        "description": "Начните в одиночку, а затем расширяйте использование в командах и вариантах использования. От 1 до 100 развертываний.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Разверните OpenClaw для любого рабочего процесса",
+    "description": "Один помощник, множество вариантов использования. Запустите один раз, автоматизируйте везде.",
+    "items": [
+      {
+        "title": "Ежедневные брифинги",
+        "description": "Превратите сообщения и обновления в краткий утренний обзор для своей команды.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Автоматизация ежедневного брифинга"
+        },
+        "buttons": [
+          {
+            "title": "Узнать больше ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Ассистент службы поддержки клиентов",
+        "description": "Направляйте вопросы, готовьте ответы и обеспечивайте оперативность каналов поддержки.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Автоматизация рабочего процесса поддержки клиентов"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Начать развертывание ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Автоматизация командных операций",
+        "description": "Автоматизируйте напоминания, отчеты о состоянии и регулярные последующие действия по всем каналам.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Автоматизация командных операций"
+        },
+        "buttons": [
+          {
+            "title": "Посмотреть цены ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "ложный",
+    "name": "stats",
+    "label": "Основные моменты",
+    "title": "Создан для быстрых запусков",
+    "description": "Все необходимое для надежной работы OpenClaw.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Время первого развертывания",
+        "label": "< 1 мин.",
+        "description": "От настройки до запуска помощника"
+      },
+      {
+        "title": "Поддерживаемые каналы",
+        "label": "3+",
+        "description": "ЗЗГЛ5ЗЗ, ЗЗГЛ6ЗЗ, ЗЗГЛ7ЗЗ"
+      },
+      {
+        "title": "Видимость развертывания",
+        "label": "В режиме реального времени",
+        "description": "Отслеживание состояний работы и сбоев"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Отзывы",
+    "title": "Что говорят пользователи",
+    "description": "Узнайте, почему все говорят о OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Сара Дженкинс",
+        "label": "Менеджер социальных сетей",
+        "description": "Я сделал забавное командное фото для нашей страницы «О нас». Всем понравилось!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Майк Росс",
+        "label": "Фрилансер",
+        "description": "Использовал это, чтобы создать уникальный аватар для своего профиля фрилансера. Это выделяется!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Эмили Чен",
+        "label": "Студент",
+        "description": "Сделал карикатуры на всех своих друзей для поздравительной открытки. Лучший подарок на свете.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Дэвид Миллер",
+        "label": "Создатель контента",
+        "description": "Различные стили удивительны. Для своих миниатюр я использую 3D-стиль.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Джессика Вонг",
+        "label": "Руководитель отдела маркетинга",
+        "description": "Быстро, легко, а результаты действительно забавные, а не просто странные.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Том Бейкер",
+        "label": "Разработчик",
+        "description": "Супер простой API и отличные результаты для моего любимого проекта.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "Часто задаваемые вопросы",
+    "title": "Общие вопросы",
+    "description": "Все, что вам нужно перед развертыванием OpenClaw с помощью EasyClaw.",
+    "items": [
+      {
+        "title": "Сколько стоит EasyClaw?",
+        "description": "Планы начинаются от 10 долларов в месяц. Отмените в любое время со своего аккаунта."
+      },
+      {
+        "title": "Нужно ли мне управлять серверами?",
+        "description": "Нет. EasyClaw упрощает рабочий процесс развертывания, поэтому вы можете запускать OpenClaw без серверов и DevOps."
+      },
+      {
+        "title": "Какие модели поддерживаются?",
+        "description": "Claude, GPT и Gemini."
+      },
+      {
+        "title": "Могу ли я выполнить развертывание на нескольких каналах?",
+        "description": "Да. Поддерживаются Telegram, Discord и WhatsApp."
+      },
+      {
+        "title": "Сколько времени занимает развертывание?",
+        "description": "Обычно менее 1 минуты. Первоначальная настройка может занять немного больше времени."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Готовы запустить OpenClaw?",
+    "description": "Разверните своего первого помощника менее чем за минуту. Никаких серверов, никакого обслуживания, никакого обучения.",
+    "note": "Отменить в любое время. Никакого долгосрочного контракта.",
+    "buttons": [
+      {
+        "title": "Развертывание OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "ЗЗГЛ0ЗЗ",
+      "description": "Самый простой способ развернуть AI-помощника OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "ЗЗГЛ0ЗЗ"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • EasyClaw. Все права защищены.",
+    "nav": {
+      "items": [
+        {
+          "title": "О",
+          "children": [
+            {
+              "title": "Особенности",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Цены",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Блог",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "Часто задаваемые вопросы",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Поддержка по электронной почте",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw является независимым продуктом и не связан со сторонними поставщиками моделей или владельцами товарных знаков.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Политика конфиденциальности",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Условия использования",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Политика возврата",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Цены",
+    "title": "Цены",
+    "description": "Выберите план в зависимости от того, сколько развертываний OpenClaw вам нужно. Отмените в любое время со своего аккаунта.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Ежемесячно",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Ежегодно",
+        "is_featured": true,
+        "label": "Сэкономьте 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Про",
+        "label": "Популярный",
+        "features_title": "Основные функции развертывания",
+        "features": [
+          "До 5 активных развертываний OpenClaw",
+          "Развертывание, перезапуск и повторное развертывание одним щелчком мыши",
+          "Предварительные настройки конфигурации модели и канала",
+          "Панель мониторинга состояния развертывания",
+          "Базовая аналитика использования",
+          "Поддержка по электронной почте",
+          "Коммерческое использование",
+          "Доступ к новым функциям развертывания"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 долларов",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Стань профессионалом",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro ежемесячно",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Премиум",
+        "features_title": "Все в Pro плюс",
+        "features": [
+          "До 20 активных развертываний OpenClaw",
+          "Очередь приоритетной подготовки",
+          "Многоразовые настройки модели и канала",
+          "Оповещения веб-перехватчика о состоянии развертывания",
+          "Доступ к команде (до 3 участников)",
+          "API доступ",
+          "Приоритетная поддержка",
+          "Ранний доступ к бета-функциям"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 долларов",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Получить Премиум",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Премиум ежемесячно",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Про",
+        "label": "Популярный",
+        "features_title": "Основные функции развертывания",
+        "features": [
+          "До 5 активных развертываний OpenClaw",
+          "Развертывание, перезапуск и повторное развертывание одним щелчком мыши",
+          "Предварительные настройки конфигурации модели и канала",
+          "Панель мониторинга состояния развертывания",
+          "Базовая аналитика использования",
+          "Поддержка по электронной почте",
+          "Коммерческое использование",
+          "Доступ к новым функциям развертывания"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 долларов",
+        "original_price": "Первоначальная цена: 10 долларов США в месяц.",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Стань профессионалом",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Ежегодно",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Премиум",
+        "features_title": "Все в Pro плюс",
+        "features": [
+          "До 20 активных развертываний OpenClaw",
+          "Очередь приоритетной подготовки",
+          "Многоразовые настройки модели и канала",
+          "Оповещения веб-перехватчика о состоянии развертывания",
+          "Доступ к команде (до 3 участников)",
+          "API доступ",
+          "Приоритетная поддержка",
+          "Ранний доступ к бета-функциям"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 долларов",
+        "original_price": "Первоначальная цена: 20 долларов США в месяц.",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Получить Премиум",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Премиум ежегодно",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

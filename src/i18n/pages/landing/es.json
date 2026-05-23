@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Características",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Precios",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blog",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "Preguntas frecuentes",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "Logotipo EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Crea arte de alta calidad",
+    "description": "Sube un retrato, elige un estilo y obtén una caricatura limpia para avatares, regalos o contenido.",
+    "features": [
+      "Detalles de alta calidad y líneas limpias.",
+      "Precio justo para el uso diario",
+      "Listo para perfiles, regalos e impresiones."
+    ],
+    "buttons": [
+      {
+        "title": "crear mi caricatura",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Ejemplo de caricatura"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Ejemplo de caricatura 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Ejemplo de caricatura 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Ejemplo de caricatura 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Desarrollado por tecnología avanzada",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "cierto",
+    "name": "introduce",
+    "title": "Cómo hacer una caricatura",
+    "label": "Proceso sencillo",
+    "description": "Crea impresionantes caricaturas en tres sencillos pasos. No se requieren habilidades artísticas.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Subir foto",
+        "description": "Sube una foto de retrato clara. Admitimos JPG, PNG y WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Elige estilo",
+        "description": "Seleccione entre estilos divertidos, exagerados, anime o dibujos animados en 3D.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Descargar",
+        "description": "Obtenga su caricatura de alta calidad al instante sin marcas de agua.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "cierto",
+    "name": "benefit",
+    "title": "¿Por qué utilizar OpenClaw?",
+    "label": "Beneficios",
+    "description": "La herramienta perfecta para regalos, imágenes de perfil y contenido de redes sociales.",
+    "items": [
+      {
+        "title": "Magia instantánea de IA",
+        "description": "La IA avanzada analiza los rasgos faciales para crear caricaturas perfectamente exageradas en segundos.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Diversos estilos de arte",
+        "description": "Desde estilos clásicos dibujados a mano hasta modernos avatares animados en 3D. Lo tenemos todo.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Alta resolución",
+        "description": "Descargue imágenes nítidas y de alta calidad adecuadas para imprimir en tazas, camisetas y carteles.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galería",
+    "title": "Transformaciones asombrosas",
+    "description": "Vea cómo fotografías ordinarias se convierten en caricaturas extraordinarias.",
+    "items": [
+      {
+        "title": "Avatares sociales",
+        "highlight": "Destaca en línea",
+        "description": "Crea una imagen de perfil única que capture tu personalidad.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Foto original",
+        "afterAlt": "Resultado de caricatura",
+        "reverse": false
+      },
+      {
+        "title": "Regalos personalizados",
+        "highlight": "Regalos memorables",
+        "description": "Sorprenda a amigos y familiares con un retrato divertido personalizado.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Foto original",
+        "afterAlt": "Resultado de caricatura",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "Tres pasos para implementar OpenClaw",
+    "description": "Elija su modelo, conecte un canal y ejecútelo.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "izquierda",
+    "text_align": "centro",
+    "items": [
+      {
+        "title": "Elige un modelo",
+        "description": "Claude, GPT, Gemini: elija el mejor modelo para cada tarea. Trabajo creativo con Claude, análisis con GPT. Cambie en cualquier momento.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Elija el modelo de IA: Claude, GPT o Gemini"
+        }
+      },
+      {
+        "title": "Conectar un canal",
+        "description": "Telegram, Discord, WhatsApp: un panel para todos los canales. Administre todas las conversaciones desde un solo lugar, no más cambiar de aplicación.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Conectar canales de mensajería"
+        }
+      },
+      {
+        "title": "Implementar y comenzar",
+        "description": "Tu asistente de IA está en línea en 60 segundos. Envía tu primer mensaje y comienza a automatizar.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Implementa e inicia tu asistente"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Crea tu caricatura",
+    "description": "Sube una foto, elige un estilo y genera."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Estudio de caricatura",
+    "description": "Sube una foto, elige un estilo y genera una caricatura de alta calidad.",
+    "disabled": false,
+    "upload": {
+      "title": "Sube tu foto",
+      "description": "Arrastre y suelte o haga clic para cargar (JPG, PNG, WebP hasta 10 MB)",
+      "buttonText": "Seleccionar imagen",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "tu caricatura",
+      "textListTitle": "Configuración de estilo",
+      "fontRecommendationTitle": "Estilos recomendados",
+      "detectedFontLabel": "Elección actual",
+      "similarFontsLabel": "Pruebe estos también",
+      "selectTextPrompt": "Seleccione un estilo para aplicar"
+    },
+    "actions": {
+      "reuploadText": "Prueba con otra foto"
+    },
+    "messages": {
+      "uploadSuccess": "¡Foto cargada exitosamente!",
+      "uploadError": "Vaya, la carga falló. Por favor inténtalo de nuevo.",
+      "recognitionSuccess": "¡Tu caricatura está lista!",
+      "recognitionError": "La generación fracasó. Por favor inténtalo de nuevo.",
+      "fontRecognitionSuccess": "¡Estilo aplicado!",
+      "fontRecognitionError": "No se pudo aplicar el estilo.",
+      "processing": "Creando tu caricatura..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Di adiós a las molestias",
+    "description": "Vea qué cambia cuando cambia a EasyClaw",
+    "before_label": "Configuración tradicional",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Alquilar servidores, configurar entornos",
+        "after": "Implementación con un solo clic, no se necesitan servidores"
+      },
+      {
+        "before": "Despiértate para arreglar las alertas de las 3 a.m.",
+        "after": "Operación automática 24 horas al día, 7 días a la semana"
+      },
+      {
+        "before": "Actualizar manualmente las versiones de OpenClaw",
+        "after": "Actualizaciones automáticas a la última versión."
+      },
+      {
+        "before": "Aprenda los comandos de Docker y Linux",
+        "after": "No se requieren habilidades técnicas"
+      },
+      {
+        "before": "Más de 30 minutos por implementación",
+        "after": "Implemente en menos de 60 segundos"
+      }
+    ],
+    "footer": "Tiempo ahorrado: ~29 minutos por implementación"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Por qué los equipos eligen EasyClaw",
+    "description": "Implementación lista para producción sin gastos generales de DevOps. Cero mantenimiento, máximo enfoque.",
+    "items": [
+      {
+        "title": "Implementar en 60 segundos",
+        "description": "De cero a funcionar en menos de un minuto. Sin Docker, sin comandos de Linux, sin configuración de servidor.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Mantenimiento cero",
+        "description": "Nos encargamos de las actualizaciones, el seguimiento y la recuperación. Solo te concentras en usar tu asistente de IA.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Flexibilidad del modelo",
+        "description": "Cambie entre Claude, GPT y Gemini en cualquier momento. Utilice el mejor modelo para cada tarea.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Canales unificados",
+        "description": "Administre Telegram, Discord y WhatsApp desde un solo panel. No más cambiar de aplicación.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Siempre actualizado",
+        "description": "Actualizaciones automáticas de OpenClaw. Utilice siempre las últimas funciones sin mover un dedo.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Escale con confianza",
+        "description": "Comience solo y luego aumente el uso en todos los equipos y casos de uso. De 1 a 100 despliegues.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Implemente OpenClaw para cualquier flujo de trabajo",
+    "description": "Un asistente, muchos casos de uso. Inicie una vez, automatice en todas partes.",
+    "items": [
+      {
+        "title": "Sesiones informativas diarias",
+        "description": "Convierta los mensajes y las actualizaciones en un resumen matutino conciso para su equipo.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Flujo de trabajo de automatización de sesiones informativas diarias"
+        },
+        "buttons": [
+          {
+            "title": "Más información ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Asistente de atención al cliente",
+        "description": "Enrute preguntas, redacte respuestas y mantenga los canales de soporte receptivos.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Flujo de trabajo de automatización de atención al cliente"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Comience a implementar ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Automatización de operaciones de equipo",
+        "description": "Automatice recordatorios, informes de estado y seguimientos de rutina en todos los canales.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Flujo de trabajo de automatización de operaciones de equipo"
+        },
+        "buttons": [
+          {
+            "title": "Ver precios ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "falso",
+    "name": "stats",
+    "label": "Lo más destacado",
+    "title": "Diseñado para lanzamientos rápidos",
+    "description": "Todo lo necesario para ejecutar OpenClaw de manera confiable.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Hora de implementar por primera vez",
+        "label": "< 1 minuto",
+        "description": "De la configuración al asistente de ejecución"
+      },
+      {
+        "title": "Canales soportados",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Visibilidad de la implementación",
+        "label": "en tiempo real",
+        "description": "Seguimiento de estados en ejecución y fallidos"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Reseñas",
+    "title": "Lo que dicen los usuarios",
+    "description": "Vea por qué todo el mundo habla de OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sara Jenkins",
+        "label": "Gerente de redes sociales",
+        "description": "Hice una divertida foto de equipo para nuestra página Acerca de nosotros. ¡A todos les encantó!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "mike ross",
+        "label": "autónomo",
+        "description": "Usé esto para crear un avatar único para mi perfil independiente. ¡Se destaca!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "estudiante",
+        "description": "Hice caricaturas de todos mis amigos para una tarjeta de cumpleaños. El mejor regalo de todos los tiempos.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "Creador de contenido",
+        "description": "Los diferentes estilos son increíbles. Utilizo el estilo 3D para mis miniaturas.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wang",
+        "label": "Líder de marketing",
+        "description": "Rápido, fácil y los resultados son realmente divertidos, no sólo extraños.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "Desarrollador",
+        "description": "API súper simple y excelentes resultados para mi proyecto favorito.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "Preguntas frecuentes",
+    "title": "Preguntas comunes",
+    "description": "Todo lo que necesitas antes de implementar OpenClaw con EasyClaw.",
+    "items": [
+      {
+        "title": "¿Cuánto cuesta EasyClaw?",
+        "description": "Los planes comienzan en $10/mes. Cancela en cualquier momento desde tu cuenta."
+      },
+      {
+        "title": "¿Necesito administrar servidores?",
+        "description": "No. EasyClaw agiliza el flujo de trabajo de implementación para que pueda iniciar OpenClaw sin servidores ni DevOps."
+      },
+      {
+        "title": "¿Qué modelos son compatibles?",
+        "description": "Claude, GPT y Gemini."
+      },
+      {
+        "title": "¿Puedo implementar en múltiples canales?",
+        "description": "Sí. Se admiten Telegram, Discord y WhatsApp."
+      },
+      {
+        "title": "¿Cuánto tiempo lleva implementarlo?",
+        "description": "Normalmente menos de 1 minuto. La configuración por primera vez puede tardar un poco más."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "¿Listo para lanzar OpenClaw?",
+    "description": "Implemente su primer asistente en menos de un minuto. Sin servidores, sin mantenimiento, sin curva de aprendizaje.",
+    "note": "Cancele en cualquier momento. Sin contrato a largo plazo.",
+    "buttons": [
+      {
+        "title": "Implementar OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "La forma más sencilla de implementar el asistente AI OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Reservados todos los derechos.",
+    "nav": {
+      "items": [
+        {
+          "title": "Acerca de",
+          "children": [
+            {
+              "title": "Características",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Precios",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "Preguntas frecuentes",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Soporte por correo electrónico",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw es un producto independiente y no está afiliado a ningún proveedor de modelos externo ni propietario de marcas comerciales.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Política de privacidad",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Términos de servicio",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Política de reembolso",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Precios",
+    "title": "Precios",
+    "description": "Elija un plan según la cantidad de implementaciones de OpenClaw que necesite. Cancela en cualquier momento desde tu cuenta.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Mensual",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Anualmente",
+        "is_featured": true,
+        "label": "Ahorra 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "profesional",
+        "label": "populares",
+        "features_title": "Funciones de implementación principales",
+        "features": [
+          "Hasta 5 implementaciones OpenClaw activas",
+          "Implementar, reiniciar y volver a implementar con un solo clic",
+          "Preajustes de configuración de modelo y canal",
+          "Panel de estado de implementación",
+          "Análisis de uso básico",
+          "Soporte por correo electrónico",
+          "Uso comercial",
+          "Acceso a nuevas funciones de implementación"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Conviértete en profesional",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Mensual",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "prima",
+        "features_title": "Todo en Pro, más",
+        "features": [
+          "Hasta 20 implementaciones activas de OpenClaw",
+          "Cola de aprovisionamiento prioritario",
+          "Modelos reutilizables y ajustes preestablecidos de canales.",
+          "Alertas de webhook para el estado de implementación",
+          "Acceso al equipo (hasta 3 miembros)",
+          "Acceso API",
+          "Apoyo prioritario",
+          "Acceso temprano a funciones beta"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Obtener prima",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Prima Mensual",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "profesional",
+        "label": "populares",
+        "features_title": "Funciones de implementación principales",
+        "features": [
+          "Hasta 5 implementaciones OpenClaw activas",
+          "Implementar, reiniciar y volver a implementar con un solo clic",
+          "Preajustes de configuración de modelo y canal",
+          "Panel de estado de implementación",
+          "Análisis de uso básico",
+          "Soporte por correo electrónico",
+          "Uso comercial",
+          "Acceso a nuevas funciones de implementación"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Precio original: $10/mes",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Conviértete en profesional",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Anualmente",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "prima",
+        "features_title": "Todo en Pro, más",
+        "features": [
+          "Hasta 20 implementaciones activas de OpenClaw",
+          "Cola de aprovisionamiento prioritario",
+          "Modelos reutilizables y ajustes preestablecidos de canales.",
+          "Alertas de webhook para el estado de implementación",
+          "Acceso al equipo (hasta 3 miembros)",
+          "Acceso API",
+          "Apoyo prioritario",
+          "Acceso temprano a funciones beta"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Precio original: $20/mes",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Obtener prima",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Prima Anual",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "EasyClaw 用户的 OpenClaw 部署示例",
+    "description": "了解团队如何启动 OpenClaw 助手来提供支持、运营和内部工作流程。",
+    "items": [
+      {
+        "title": "客户支持助理推出",
+        "description": "在几分钟内部署了具有模型回退功能的 Telegram 支持机器人",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "销售跟进自动化",
+        "description": "设置 OpenClaw 来限定潜在客户并起草后续回复",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "内部操作通知程序",
+        "description": "连接 OpenClaw 以向团队发出有关运营事件和事故的警报",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "多渠道社区助理",
+        "description": "在 Telegram、Discord 和 WhatsApp 上推出相同的助手",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "每周报告工作流程",
+        "description": "每周五为经理提供自动摘要报告",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "入职副驾驶",
+        "description": "为新员工提供第一周指导和答案",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "领先资格机器人",
+        "description": "捕获入站问题并将高意图的潜在客户引导至销售",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "产品反馈收集器",
+        "description": "对用户反馈进行分类并为产品团队生成行动项目",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

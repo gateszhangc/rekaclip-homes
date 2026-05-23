@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "ইমেজ ফ্লিপার",
+    "description": "পেশাদার মানের সাথে অনুভূমিকভাবে বা উল্লম্বভাবে ছবিগুলি ফ্লিপ করুন",
+    "disabled": false,
+    "upload": {
+      "title": "একটি ছবি টেনে আনুন এবং ফেলে দিন",
+      "description": "PNG, JPG, JPEG, WebP 10MB পর্যন্ত সমর্থন করে",
+      "buttonText": "ফাইল ব্রাউজ করুন",
+      "dragDropText": "ড্রপ, পেস্ট বা একটি URL যোগ করুন",
+      "selectFileText": "একটি ইমেজ ফাইল নির্বাচন করুন",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "উল্টাতে প্রস্তুত।",
+      "replace": "প্রতিস্থাপন করুন",
+      "remove": "সরান"
+    },
+    "controls": {
+      "horizontalFlip": "ফ্লিপ অনুভূমিক",
+      "verticalFlip": "উল্টানো উল্লম্ব",
+      "processing": "প্রক্রিয়া করা হচ্ছে...",
+      "uploading": "আপলোড হচ্ছে..."
+    },
+    "preview": {
+      "originalAlt": "আসল ছবি",
+      "flippedAlt": "ফ্লিপ করা ছবি",
+      "download": "ডাউনলোড করুন"
+    },
+    "credits": {
+      "label": "ক্রেডিট:",
+      "cost": "প্রতি ফ্লিপ খরচ:",
+      "insufficient": "অপর্যাপ্ত ক্রেডিট"
+    },
+    "errors": {
+      "noImage": "কোনো ছবি নির্বাচন করা হয়নি",
+      "noImageSuggestion": "প্রথমে একটি ছবি আপলোড করুন.",
+      "invalidFormat": "অসমর্থিত ফাইল বিন্যাস",
+      "formatSuggestion": "অনুগ্রহ করে এর মধ্যে একটি ব্যবহার করুন: {formats}",
+      "fileTooLarge": "ফাইলটি খুব বড়: {size}MB৷",
+      "sizeSuggestion": "সর্বাধিক আকার {maxSize}MB। অনুগ্রহ করে সংকুচিত করুন বা একটি ছোট ফাইল চয়ন করুন৷",
+      "uploadFailed": "ছবি আপলোড করতে ব্যর্থ হয়েছে৷",
+      "uploadSuggestion": "আপনার সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন.",
+      "authRequired": "প্রমাণীকরণ প্রয়োজন",
+      "authSuggestion": "ছবি আপলোড করতে সাইন ইন করুন.",
+      "processingFailed": "ফ্লিপ অপারেশন ব্যর্থ হয়েছে৷",
+      "processingSuggestion": "অনুগ্রহ করে আবার চেষ্টা করুন বা সমস্যা থেকে গেলে সহায়তার সাথে যোগাযোগ করুন।",
+      "networkError": "নেটওয়ার্ক সংযোগ সমস্যা",
+      "networkSuggestion": "আপনার সংযোগ পরীক্ষা করুন এবং আবার চেষ্টা করুন.",
+      "fileReadError": "ফাইল পড়তে ব্যর্থ হয়েছে",
+      "fileReadSuggestion": "অনুগ্রহ করে ফাইলটি আবার নির্বাচন করার চেষ্টা করুন।",
+      "retry": "আবার চেষ্টা করুন"
+    },
+    "messages": {
+      "uploadSuccess": "ছবি সফলভাবে আপলোড করা হয়েছে৷",
+      "flipSuccess": "ছবি সফলভাবে উল্টানো হয়েছে৷",
+      "downloadStarted": "ডাউনলোড শুরু হয়েছে"
+    },
+    "legal": {
+      "terms": "একটি ফাইল আপলোড করে, আপনি আমাদের ব্যবহারের শর্তাবলী এবং গোপনীয়তা নীতিতে সম্মত হন৷"
+    }
+  }
+}

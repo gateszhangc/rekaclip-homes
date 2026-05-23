@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: easyclaw-staging
+  namespace: easyclaw-staging
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: staging.easyclaw.pro
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: easyclaw
+                port:
+                  number: 80
+  tls:
+    - secretName: easyclaw-staging-tls
+      hosts:
+        - staging.easyclaw.pro

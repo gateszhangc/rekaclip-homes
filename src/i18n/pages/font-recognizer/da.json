@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Billedflipper",
+    "description": "Upload et billede til professionel farveinversion og forbedring",
+    "disabled": false,
+    "upload": {
+      "title": "Træk og slip et billede",
+      "description": "Understøtter PNG, JPG, JPEG, WebP op til 10MB",
+      "buttonText": "Vælg en fil",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Rent billede",
+      "textListTitle": "Registrerede tekstområder",
+      "fontRecommendationTitle": "Forslag til fjernelse",
+      "detectedFontLabel": "Valgt område",
+      "similarFontsLabel": "Alternative fyld",
+      "selectTextPrompt": "Vælg en tekstblok, der skal fjernes"
+    },
+    "actions": {
+      "reuploadText": "Gen-upload"
+    },
+    "messages": {
+      "uploadSuccess": "Billedet blev uploadet",
+      "uploadError": "Kunne ikke uploade billede",
+      "recognitionSuccess": "Detektion afsluttet",
+      "recognitionError": "Registrering mislykkedes",
+      "fontRecognitionSuccess": "Fjernelse af tekst fuldført",
+      "fontRecognitionError": "Tekstfjernelse mislykkedes",
+      "processing": "Behandler..."
+    }
+  }
+}

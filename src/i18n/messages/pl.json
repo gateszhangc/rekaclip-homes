@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw – Rozmieść OpenClaw w mniej niż 1 minutę",
+    "description": "Wdróż OpenClaw z EasyClaw jednym kliknięciem. Podłącz Telegram, wybierz model i szybko rozpocznij transmisję.",
+    "keywords": "easyclaw, wdrożenie openclaw, hosting openclaw, wdrożenie bota telegramowego, wdrożenie asystenta AI"
+  },
+  "blog": {
+    "title": "Bloga",
+    "description": "Wiadomości, samouczki i aktualizacje dotyczące wdrażania OpenClaw za pomocą EasyClaw.",
+    "read_more_text": "Przeczytaj więcej"
+  },
+  "user": {
+    "sign_in": "Zaloguj się",
+    "sign_out": "Wyloguj się",
+    "credits": "Kredyty",
+    "api_keys": "Klucze API",
+    "my_orders": "Moje zamówienia",
+    "my_invites": "Moje zaproszenia",
+    "user_center": "Centrum użytkownika",
+    "support": "Wsparcie",
+    "admin_system": "System administracyjny",
+    "home": "Dom",
+    "pricing": "Ceny",
+    "admin_center": "Centrum administracyjne"
+  },
+  "sign_modal": {
+    "sign_in_title": "Zaloguj się do EasyClaw",
+    "sign_in_description": "Uzyskaj dostęp do swojego konta EasyClaw, aby wdrożyć i zarządzać OpenClaw.",
+    "sign_up_title": "Dołącz do EasyClaw",
+    "sign_up_description": "Utwórz swoje konto EasyClaw",
+    "email_title": "E-mail",
+    "email_placeholder": "Wpisz swój adres e-mail",
+    "password_title": "Hasło",
+    "password_placeholder": "Wpisz swoje hasło",
+    "forgot_password": "Zapomniałeś hasła?",
+    "or": "Lub",
+    "continue": "Kontynuuj do EasyClaw",
+    "no_account": "Nowy w EasyClaw?",
+    "email_sign_in": "Zaloguj się za pomocą poczty e-mail",
+    "google_sign_in": "Kontynuuj z Google",
+    "github_sign_in": "Kontynuuj korzystanie z GitHuba",
+    "close_title": "Zamknij",
+    "cancel_title": "Anuluj"
+  },
+  "my_orders": {
+    "title": "Moje zamówienia",
+    "no_orders": "Nie znaleziono żadnych zamówień",
+    "tip": "",
+    "support_tip": "Potrzebujesz pomocy w zakresie rozliczeń lub anulowania rezerwacji? Wyślij e-mail na adres support@easyclaw.pro.",
+    "activate_order": "Aktywuj zamówienie",
+    "actived": "Aktywowano",
+    "join_discord": "Dołącz do Discord",
+    "read_docs": "Przeczytaj Dokumenty",
+    "table": {
+      "order_no": "Nr zamówienia",
+      "email": "E-mail",
+      "product_name": "Nazwa produktu",
+      "amount": "Kwota",
+      "paid_at": "Płatne o godz",
+      "github_username": "Nazwa użytkownika GitHuba",
+      "status": "Stan",
+      "manage_billing": "Zarządzaj rozliczeniami",
+      "interval": "Interval",
+      "interval_month": "Miesięcznie",
+      "interval_year": "Rocznie",
+      "interval_one_time": "Jednorazowy"
+    }
+  },
+  "my_credits": {
+    "title": "Moje kredyty",
+    "left_tip": "lewe napisy: {left_credits}",
+    "no_credits": "Brak zapisów kredytowych",
+    "recharge": "Naładuj",
+    "table": {
+      "trans_no": "Nr trans",
+      "trans_type": "Typ trans",
+      "credits": "Kredyty",
+      "updated_at": "Zaktualizowano o godz",
+      "status": "Stan",
+      "expired_at": "Wygasł o godz",
+      "created_at": "Utworzono o godz"
+    }
+  },
+  "api_keys": {
+    "title": "Klucze API",
+    "tip": "Trzymaj swój apikey w bezpiecznym miejscu, aby uniknąć wycieków",
+    "no_api_keys": "Brak kluczy API",
+    "create_api_key": "Utwórz klucz API",
+    "table": {
+      "name": "Name",
+      "key": "Klucz",
+      "created_at": "Utworzono o godz"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Nazwa klucza",
+      "submit": "Prześlij"
+    }
+  },
+  "my_invites": {
+    "title": "Moje zaproszenia",
+    "description": "Wyświetl swoje zapisy zaproszeń",
+    "no_invites": "Nie znaleziono żadnych rekordów zaproszeń",
+    "my_invite_link": "Mój link z zaproszeniem",
+    "edit_invite_link": "Edytuj link zaproszenia",
+    "copy_invite_link": "Skopiuj link z zaproszeniem",
+    "invite_code": "Kod zaproszenia",
+    "invite_tip": "Zaproś znajomych do EasyClaw i zdobywaj nagrody.",
+    "invite_balance": "Zaproś saldo nagród",
+    "total_invite_count": "Całkowita liczba zaproszeń",
+    "total_paid_count": "Całkowita liczba zapłaconych",
+    "total_award_amount": "Łączna kwota nagrody",
+    "update_invite_code": "Ustaw kod zaproszenia",
+    "update_invite_code_tip": "Wprowadź swój niestandardowy kod zaproszenia",
+    "update_invite_button": "Zapisz",
+    "no_orders": "Zanim zaprosisz innych, potrzebujesz płatnego planu",
+    "no_affiliates": "Nie możesz zapraszać innych osób. Skontaktuj się z nami, aby poprosić o pozwolenie.",
+    "table": {
+      "invite_time": "Zaproś czas",
+      "invite_user": "Zaproś użytkownika",
+      "status": "Stan",
+      "reward_percent": "Procent nagrody",
+      "reward_amount": "Kwota nagrody",
+      "pending": "Oczekujące",
+      "completed": "Ukończono"
+    }
+  },
+  "feedback": {
+    "title": "Informacje zwrotne",
+    "description": "Chętnie dowiemy się, co poszło dobrze i jak możemy ulepszyć obsługę produktu.",
+    "submit": "Prześlij",
+    "loading": "Przesyłanie...",
+    "contact_tip": "Inne sposoby skontaktowania się z nami",
+    "rating_tip": "Co sądzisz o EasyClaw?",
+    "placeholder": "Zostaw tu swoje słowa..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Błyskawicznie twórz karykatury AI",
+    "description": "Przesyłaj zdjęcia, aby tworzyć zabawne i artystyczne karykatury za pomocą narzędzi opartych na sztucznej inteligencji.",
+    "upload_label": "Prześlij swój obraz",
+    "upload_placeholder": "Kliknij lub przeciągnij, aby przesłać (JPG, PNG, GIF, WebP)",
+    "upload_required": "Wymagane",
+    "prompt_label": "Opisz rozszerzenie (opcjonalnie)",
+    "prompt_placeholder": "Np. „rozciągnij tło w lewo i w prawo”, „zamaluj niebo”, „poszerz płótno dla banera”, „dodaj przestrzeń wokół obiektu”...",
+    "prompt_required": "Opcjonalne notatki",
+    "character_count": "{count}/500",
+    "generate_button": "Rozwiń obraz",
+    "generating_button": "Rozwijanie...",
+    "credits_label": "Twoje kredyty",
+    "cost_label": "Koszt: {cost} kredytów na rozszerzenie",
+    "insufficient_credits": "Niewystarczające kredyty. Naładuj baterię, aby kontynuować powiększanie obrazów.",
+    "errors": {
+      "no_image": "Prześlij obraz, aby go rozwinąć",
+      "no_prompt": "Opisz, jak chcesz powiększyć obraz",
+      "invalid_format": "Obsługiwane są tylko formaty JPG, PNG, GIF, WebP",
+      "file_too_large": "Rozmiar obrazu nie może przekraczać 5 MB",
+      "generation_failed": "Rozszerzenie obrazu nie powiodło się. Spróbuj ponownie",
+      "download_failed": "Pobieranie nie powiodło się. Spróbuj ponownie"
+    },
+    "success": {
+      "generated": "Twój rozwinięty obraz jest gotowy!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Zobacz najnowsze obrazy rozwinięte za pomocą naszego narzędzia. Podgląd przed/po i eksportowanie wyniku.",
+    "download_hint": "Kliknij, aby pobrać rozszerzony obraz",
+    "no_outfits": "Nie ma jeszcze żadnych rozszerzeń. Prześlij obraz, aby rozpocząć rozwijanie!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw – generator karykatur AI",
+    "description": "Twórz wysokiej jakości karykatury za pomocą modelu OpenClaw AI z trybami zamiany tekstu na obraz i obrazu na obraz",
+    "hero": {
+      "badge": "Nowy OpenClaw",
+      "title": "Twórz niesamowite karykatury",
+      "subtitle": "Przekształcaj zdjęcia w oszałamiające karykatury dzięki zaawansowanemu modelowi AI OpenClaw. Obsługuje tryby tworzenia tekstu na obraz i obrazu na obraz.",
+      "features": {
+        "text_to_image": "Tekst do obrazu",
+        "image_to_image": "Obraz do obrazu",
+        "high_quality": "Wysoka jakość wydruku"
+      },
+      "buttons": {
+        "start_creating": "Zacznij tworzyć",
+        "view_gallery": "Zobacz galerię"
+      },
+      "stats": {
+        "daily_images": "Codziennie generowane obrazy",
+        "satisfaction": "Zadowolenie użytkownika",
+        "generation_time": "Średni czas generacji"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Obraz do obrazu",
+        "text_to_image": "Tekst do obrazu"
+      },
+      "model": "Modelka",
+      "reference_images": "Obrazy referencyjne",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Przeciągnij i upuść obrazy tutaj",
+        "or_click": "lub kliknij, aby przeglądać",
+        "supported_formats": "Obsługuje: JPEG, PNG, WebP (maks. 10MB)",
+        "add_more": "Dodaj więcej"
+      },
+      "prompt": "Podpowiedź",
+      "prompt_placeholder_image": "Opisz sposób transformacji obrazu...",
+      "prompt_placeholder_text": "Opisz obraz, który chcesz wygenerować...",
+      "aspect_ratio": "Współczynnik proporcji",
+      "resolution": "Rozdzielczość",
+      "output_count": "Liczba wyjść",
+      "output_count_range": "Min. {min}, Maks. {max}",
+      "output_format": "Format wyjściowy",
+      "generate_button": "Wygeneruj teraz",
+      "generating": "Generowanie...",
+      "clear_images": "Wyczyść wszystkie obrazy",
+      "output_gallery": "Twój wygenerowany obraz",
+      "view_all": "Zobacz wszystko",
+      "generating_message": "Tworzenie swojego arcydzieła...",
+      "generating_submessage": "Nasz model OpenClaw działa jak magia. Zwykle zajmuje to kilka sekund.",
+      "example": "Przykład"
+    },
+    "my_creations": {
+      "title": "Moje dzieła",
+      "description": "Przeglądaj i zarządzaj obrazami wygenerowanymi przez sztuczną inteligencję – przeglądaj i pobieraj jednym kliknięciem",
+      "search_placeholder": "Szukaj kreacji...",
+      "view_all": "Zobacz wszystko ({count})",
+      "no_results": "Nie znaleziono pasujących dzieł",
+      "no_results_message": "Spróbuj użyć innych słów kluczowych lub wyczyść wyszukiwanie, aby wyświetlić wszystkie dzieła.",
+      "clear_search": "Wyczyść wyszukiwanie",
+      "empty_state": "Nie ma jeszcze żadnych dzieł",
+      "empty_message": "Zacznij używać OpenClaw, aby stworzyć swój pierwszy obraz wygenerowany przez sztuczną inteligencję!",
+      "start_creating": "Zacznij tworzyć",
+      "download": "Pobierz",
+      "delete": "Usuń",
+      "total_count": "Łączna liczba kreacji {count}",
+      "search_results": "(Szukaj: „{term}”)",
+      "modes": {
+        "TEXT_TO_IMAGE": "Tekst do obrazu",
+        "IMAGE_TO_IMAGE": "Obraz do obrazu"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Proszę wprowadzić monit",
+      "upload_reference": "Tryb obrazu do obrazu wymaga przesłania obrazów referencyjnych",
+      "generation_failed": "Generowanie nie powiodło się. Spróbuj ponownie",
+      "upload_success": "Obraz został przesłany pomyślnie",
+      "upload_failed": "Przesyłanie nie powiodło się",
+      "delete_success": "Obraz usunięty",
+      "delete_failed": "Usunięcie nie powiodło się. Spróbuj ponownie",
+      "download_started": "Pobieranie rozpoczęte",
+      "file_too_large": "Rozmiar pliku nie może przekraczać {size}MB",
+      "unsupported_format": "Nieobsługiwany format pliku. Obsługiwane formaty: {formats}",
+      "retry": "Spróbuj ponownie",
+      "dismiss": "Odrzuć"
+    },
+    "loading": {
+      "default": "Ładowanie...",
+      "generation": "Tworzenie swojego arcydzieła...",
+      "generation_message": "Nasz model OpenClaw działa jak magia. Zwykle zajmuje to kilka sekund.",
+      "upload": "Przesyłanie obrazu...",
+      "upload_message": "Poczekaj, aż obraz zostanie przesłany do chmury."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Studio warstwowe",
+      "title": "Studio OpenClaw",
+      "description": "Twórz artystyczne karykatury ze swoich zdjęć.",
+      "cta": "Bezpłatny okres próbny",
+      "cta_hint": "Aby rozpocząć, prześlij jeden obraz",
+      "features": [
+        "2–8 warstw AI na obraz",
+        "Przezroczysty eksport PNG/WebP",
+        "Separacja sterowana natychmiastowo"
+      ]
+    },
+    "upload": {
+      "title": "Prześlij",
+      "subtitle": "JPG, PNG lub WebP do 10MB",
+      "action": "Prześlij obraz",
+      "drop": "Upuść tutaj swój obraz",
+      "or_click": "lub kliknij, aby przeglądać",
+      "supported_formats": "Obsługuje: JPEG, PNG, WebP (maks. 10MB)"
+    },
+    "prompt": {
+      "label": "Podpowiedź",
+      "placeholder": "Opisz żądane warstwy (np. temat, rekwizyty, tło)"
+    },
+    "advanced": {
+      "title": "Ustawienia zaawansowane",
+      "prompt_label": "Podpowiedź (opcjonalnie)",
+      "prompt_placeholder": "Wpisz monit, aby opisać obraz. (Fakultatywny)",
+      "negative_prompt_label": "Monit negatywny (opcjonalnie)",
+      "negative_prompt_placeholder": "Opisz, co należy wykluczyć z warstw.",
+      "seed": "Nasiona",
+      "randomize_seed": "Losuj nasiona",
+      "guidance_scale": "Prawdziwa skala wskazówek",
+      "inference_steps": "Liczba kroków wnioskowania",
+      "cfg_normalization": "Określa, czy włączyć normalizację CFG",
+      "auto_caption_language": "Automatyczny język napisów, jeśli nie zostanie wyświetlony monit, Prawda dla EN, Fałsz dla ZH",
+      "layer_count": "Liczba warstw",
+      "layer_range": "Min. {min}, Maks. {max}",
+      "output_format": "Format wyjściowy"
+    },
+    "actions": {
+      "decompose": "Rozłóż się!",
+      "sign_in_to_decompose": "Zaloguj się, aby się rozłożyć!",
+      "generating": "Rozkład..."
+    },
+    "results": {
+      "title": "Wyniki",
+      "subtitle": "Warstwowe wyniki pojawiają się tutaj po dekompozycji.",
+      "download_pptx": "Pobierz PPTX",
+      "download_zip": "Pobierz ZIP-a",
+      "packaging": "Opakowanie...",
+      "generating_title": "Dekompozycja Twojego wizerunku...",
+      "generating_subtitle": "Tworzenie zasobów warstwowych. Zwykle zajmuje to kilka sekund.",
+      "layer_label": "Warstwa {index}",
+      "layer_description": "Zasób warstwowy",
+      "empty_title": "Nie ma jeszcze warstw",
+      "empty_subtitle": "Prześlij obraz i kliknij Rozłóż! do generowania warstw.",
+      "success": "Warstwy wygenerowano pomyślnie!",
+      "download_ready": "Pobierz gotowy"
+    },
+    "examples": {
+      "title": "Przykłady",
+      "subtitle": "Zobacz, jak obraz źródłowy dzieli się na czyste warstwy.",
+      "labels": {
+        "source": "Źródło",
+        "layer": "Warstwa {index}",
+        "sample": "Przykład {index}"
+      },
+      "rows": {
+        "primary": "Przykładowy zestaw 01",
+        "secondary": "Przykładowy zestaw 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Najpierw prześlij obraz referencyjny",
+      "generation_failed": "Generowanie nie powiodło się. Spróbuj ponownie",
+      "upload_success": "Obraz został przesłany pomyślnie",
+      "upload_failed": "Przesyłanie nie powiodło się",
+      "download_failed": "Pobieranie nie powiodło się. Spróbuj ponownie"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Dostępne"
+    },
+    "errors": {
+      "no_available_account": "Brak dostępnego konta w Twojej bieżącej subskrypcji. Spróbuj ponownie później.",
+      "network_unstable": "Sieć jest niestabilna. Spróbuj ponownie wkrótce.",
+      "deployment_failed_try_again": "Wdrożenie nie powiodło się. Spróbuj ponownie.",
+      "deployment_timeout": "Limit czasu wdrożenia po minutach {minutes}. Spróbuj ponownie.",
+      "enter_bot_token": "Proszę wprowadzić token bota.",
+      "select_channel_before_deploying": "Przed wdrożeniem wybierz kanał.",
+      "enter_telegram_bot_token": "Proszę podać swój token bota Telegram.",
+      "invalid_response_missing_deployment_id": "Nieprawidłowa odpowiedź: brak identyfikatora wdrożenia",
+      "failed_to_start_deployment": "Nie udało się rozpocząć wdrażania",
+      "failed_to_fetch_deployment_status": "Nie udało się pobrać stanu wdrożenia",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw — instalacja OpenClaw jednym kliknięciem",
+      "description": "Wdróż OpenClaw w mniej niż 1 minutę. Żadnych serwerów ani DevOps. Wybierz model, podłącz kanał i uruchom."
+    },
+    "selectors": {
+      "model_title": "Wybierz domyślny model swojego OpenClaw",
+      "channel_title": "Wybierz, dokąd OpenClaw ma wysyłać wiadomości",
+      "selected": "Wybrane"
+    },
+    "deploy": {
+      "deploying": "Wdrażam...",
+      "deploy_button": "Wdróż",
+      "sign_in_button": "Zaloguj się, aby wdrożyć za pomocą EasyClaw",
+      "sign_in_hint": "Zaloguj się, aby wdrożyć OpenClaw za pomocą EasyClaw i połączyć swoje kanały.",
+      "status_success": "Wdrożenie powiodło się! OpenClaw jest teraz uruchomiony.",
+      "model_substitution_warning": "Wykryto podstawienie modelu. Spróbuj ponownie wdrożyć lub zmień region/dostawcę.",
+      "hint_prefix": "Aby kontynuować, podłącz Telegram.",
+      "hint_suffix": "Możesz później dodać inne kanały do tego samego konta.",
+      "hint_prefix_telegram": "Aby kontynuować, podłącz Telegram.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Podłącz Telegram",
+      "how_to_get_token": "Jak zdobyć token bota?",
+      "step_1_prefix": "Otwórz Telegram i przejdź do",
+      "step_2_prefix": "Rozpocznij czat i pisz",
+      "step_3_text": "Postępuj zgodnie z instrukcjami, aby nazwać swojego bota i wybrać nazwę użytkownika.",
+      "step_4_text": "BotFather wyśle Ci wiadomość z tokenem bota. Skopiuj cały token (wygląda jak długi ciąg cyfr i liter).",
+      "step_5_text": "Wklej token w polu poniżej i kliknij Zapisz i połącz.",
+      "token_label": "Wpisz token bota",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Zapisz i połącz",
+      "preview_intro": "Mogę pomóc Ci stworzyć i zarządzać botami Telegram. Co chciałbyś zrobić?",
+      "preview_newbot": "utwórz nowego bota",
+      "preview_mybots": "edytuj swoje boty",
+      "preview_name_prompt": "Dobra, nowy bot. Jak to nazwiemy? Wybierz nazwę dla swojego bota.",
+      "preview_message_input": "Wiadomość"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

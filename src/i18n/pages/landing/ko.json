@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "특징",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "가격",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "블로그",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw 로고"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "고품질 예술 작품 만들기",
+    "description": "초상화를 업로드하고, 스타일을 선택하고, 아바타, 선물 또는 콘텐츠에 대한 깔끔한 캐리커처를 받으세요.",
+    "features": [
+      "고품질의 디테일과 깔끔한 라인",
+      "일상적인 사용에 적합한 가격",
+      "프로필, 선물, 인쇄물 준비 완료"
+    ],
+    "buttons": [
+      {
+        "title": "내 캐리커처 만들기",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "캐리커처 예"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "캐리커처 예 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "캐리커처 예 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "캐리커처 예 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "첨단 기술로 구동",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "사실",
+    "name": "introduce",
+    "title": "캐리커처를 만드는 방법",
+    "label": "간단한 프로세스",
+    "description": "간단한 세 단계로 멋진 캐리커처를 만들어 보세요. 예술적 기술이 필요하지 않습니다.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "사진 업로드",
+        "description": "선명한 인물 사진을 업로드하세요. JPG, PNG 및 WebP를 지원합니다.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "스타일 선택",
+        "description": "재미있는 스타일, 과장된 애니메이션, 3D 만화 스타일 중에서 선택하세요.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "다운로드",
+        "description": "워터마크 없이 즉시 고품질 캐리커처를 얻으세요.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "사실",
+    "name": "benefit",
+    "title": "OpenClaw를 사용하는 이유는 무엇입니까?",
+    "label": "혜택",
+    "description": "선물, 프로필 사진, 소셜 미디어 콘텐츠를 위한 완벽한 도구입니다.",
+    "items": [
+      {
+        "title": "인스턴트 AI 매직",
+        "description": "고급 AI는 얼굴 특징을 분석하여 몇 초 만에 완벽하게 과장된 캐리커처를 만듭니다.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "다양한 예술 스타일",
+        "description": "클래식한 손으로 그린 룩부터 현대적인 3D 애니메이션 아바타까지. 우리는 모든 것을 갖추고 있습니다.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "고해상도",
+        "description": "머그컵, 티셔츠, 포스터 인쇄에 적합한 선명한 고품질 이미지를 다운로드하세요.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "갤러리",
+    "title": "놀라운 변화",
+    "description": "평범한 사진이 어떻게 특별한 캐리커처로 변하는지 알아보세요.",
+    "items": [
+      {
+        "title": "소셜 아바타",
+        "highlight": "온라인에서 돋보이세요",
+        "description": "당신의 개성을 담은 독특한 프로필 사진을 만들어보세요.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "원본 사진",
+        "afterAlt": "캐리커처 결과",
+        "reverse": false
+      },
+      {
+        "title": "맞춤 선물",
+        "highlight": "기억에 남는 선물",
+        "description": "맞춤 제작된 재미있는 초상화로 친구와 가족을 놀라게 해보세요.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "원본 사진",
+        "afterAlt": "캐리커처 결과",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw 배포 3단계",
+    "description": "모델을 선택하고 채널을 연결한 후 실행하세요.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "왼쪽",
+    "text_align": "센터",
+    "items": [
+      {
+        "title": "모델을 선택하세요",
+        "description": "Claude, GPT, Gemini — 각 작업에 가장 적합한 모델을 선택하세요. Claude를 사용한 창의적인 작업, GPT를 사용한 분석. 언제든지 전환하세요.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI 모델 선택 - Claude, GPT 또는 Gemini"
+        }
+      },
+      {
+        "title": "채널 연결",
+        "description": "Telegram, Discord, WhatsApp — 모든 채널을 위한 하나의 대시보드. 더 이상 앱을 전환할 필요 없이 한 곳에서 모든 대화를 관리하세요.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "메시징 채널 연결"
+        }
+      },
+      {
+        "title": "배포 및 시작",
+        "description": "AI 비서가 60초 안에 온라인 상태가 됩니다. 첫 번째 메시지를 보내고 자동화를 시작하세요.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "어시스턴트 배포 및 시작"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "나만의 캐리커처 만들기",
+    "description": "사진을 업로드하고 스타일을 선택한 후 생성하세요."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "캐리커처 스튜디오",
+    "description": "사진을 업로드하고, 스타일을 선택하고, 고품질 캐리커처를 생성하세요.",
+    "disabled": false,
+    "upload": {
+      "title": "사진 업로드",
+      "description": "드래그 앤 드롭하거나 클릭하여 업로드하세요(JPG, PNG, WebP 최대 10MB)",
+      "buttonText": "이미지 선택",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "당신의 캐리커쳐",
+      "textListTitle": "스타일 설정",
+      "fontRecommendationTitle": "추천 스타일",
+      "detectedFontLabel": "현재 선택",
+      "similarFontsLabel": "이것도 시도해 보세요",
+      "selectTextPrompt": "적용할 스타일을 선택하세요."
+    },
+    "actions": {
+      "reuploadText": "다른 사진을 찍어 보세요"
+    },
+    "messages": {
+      "uploadSuccess": "사진이 성공적으로 업로드되었습니다!",
+      "uploadError": "이런, 업로드에 실패했습니다. 다시 시도해 주세요.",
+      "recognitionSuccess": "캐리커처가 준비되었습니다!",
+      "recognitionError": "생성에 실패했습니다. 다시 시도해 주세요.",
+      "fontRecognitionSuccess": "스타일이 적용되었습니다!",
+      "fontRecognitionError": "스타일을 적용하지 못했습니다.",
+      "processing": "캐리커처를 만드는 중..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "번거로움에 작별 인사",
+    "description": "EasyClaw로 전환하면 어떤 변화가 있는지 확인하세요",
+    "before_label": "기존 설정",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "서버 임대, 환경 구성",
+        "after": "원클릭 배포, 서버 필요 없음"
+      },
+      {
+        "before": "오전 3시 알림을 수정하기 위해 일어나세요",
+        "after": "24시간 자동운전"
+      },
+      {
+        "before": "OpenClaw 버전을 수동으로 업데이트",
+        "after": "최신 버전으로 자동 업데이트"
+      },
+      {
+        "before": "Docker, Linux 명령 알아보기",
+        "after": "기술이 필요하지 않습니다."
+      },
+      {
+        "before": "배포당 30분 이상",
+        "after": "60초 이내에 배포"
+      }
+    ],
+    "footer": "절약된 시간: 배포당 ~29분"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "팀이 EasyClaw를 선택하는 이유",
+    "description": "DevOps 오버헤드 없이 프로덕션에 즉시 배포할 수 있습니다. 유지 관리가 필요 없고 집중력이 극대화됩니다.",
+    "items": [
+      {
+        "title": "60초 안에 배포",
+        "description": "0에서 1분 이내에 실행됩니다. Docker도 없고, Linux 명령도 없고, 서버 설정도 없습니다.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "유지보수 제로",
+        "description": "우리는 업데이트, 모니터링, 복구를 처리합니다. AI 비서를 사용하는 데만 집중하면 됩니다.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "모델 유연성",
+        "description": "언제든지 Claude, GPT 및 Gemini 간에 전환할 수 있습니다. 각 작업에 가장 적합한 모델을 사용하십시오.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "통합 채널",
+        "description": "하나의 대시보드에서 Telegram, Discord 및 WhatsApp를 관리하세요. 더 이상 앱을 전환할 필요가 없습니다.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "항상 최신 상태",
+        "description": "자동 OpenClaw 업데이트. 항상 손가락 하나 까딱하지 않고 최신 기능을 사용하세요.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "자신 있게 확장하세요",
+        "description": "솔로로 시작한 다음 팀 전체와 사용 사례에 걸쳐 사용량을 늘리세요. 1~100개의 배포.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "모든 워크플로에 OpenClaw 배포",
+    "description": "하나의 어시스턴트, 다양한 사용 사례. 한 번 실행하면 어디에서나 자동화됩니다.",
+    "items": [
+      {
+        "title": "일일 브리핑",
+        "description": "메시지와 업데이트를 팀을 위한 간결한 아침 브리핑으로 바꿔보세요.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "일일 브리핑 자동화 워크플로우"
+        },
+        "buttons": [
+          {
+            "title": "자세히 알아보기 ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "고객 지원 도우미",
+        "description": "질문을 전달하고 답변 초안을 작성하고 지원 채널의 응답성을 유지하세요.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "고객 지원 자동화 워크플로우"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "배포 시작 ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "팀 운영 자동화",
+        "description": "채널 전반에 걸쳐 미리 알림, 상태 보고서 및 정기적인 후속 조치를 자동화합니다.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "팀 운영 자동화 워크플로우"
+        },
+        "buttons": [
+          {
+            "title": "가격 보기 ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "거짓",
+    "name": "stats",
+    "label": "하이라이트",
+    "title": "빠른 출시를 위해 제작됨",
+    "description": "OpenClaw를 안정적으로 실행하는 데 필요한 모든 것.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "첫 배포 시간",
+        "label": "< 1분",
+        "description": "설정부터 실행 어시스턴트까지"
+      },
+      {
+        "title": "지원되는 채널",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "배포 가시성",
+        "label": "실시간",
+        "description": "실행 중 및 실패 상태 추적"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "리뷰",
+    "title": "사용자의 의견",
+    "description": "모두가 OpenClaw에 대해 이야기하는 이유를 알아보세요.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "사라 젠킨스",
+        "label": "소셜 미디어 관리자",
+        "description": "회사 소개 페이지를 위한 재미있는 팀 사진을 만들었습니다. 모두가 그것을 좋아했습니다!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "마이크 로스",
+        "label": "프리랜서",
+        "description": "이를 사용하여 내 프리랜서 프로필에 대한 고유한 아바타를 만들었습니다. 눈에 띕니다!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "에밀리 첸",
+        "label": "학생",
+        "description": "생일 카드로 친구들의 캐리커처를 모두 만들었습니다. 최고의 선물.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "데이비드 밀러",
+        "label": "콘텐츠 크리에이터",
+        "description": "다양한 스타일이 놀랍습니다. 저는 썸네일에 3D 스타일을 사용합니다.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "제시카 웡",
+        "label": "마케팅 리드",
+        "description": "빠르고 쉬우며 결과는 단지 이상할 뿐만 아니라 실제로 재미있습니다.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "톰 베이커",
+        "label": "개발자",
+        "description": "매우 간단한 API와 내 애완동물 프로젝트에 대한 훌륭한 결과입니다.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "FAQ",
+    "title": "일반적인 질문",
+    "description": "EasyClaw와 함께 OpenClaw를 배포하기 전에 필요한 모든 것입니다.",
+    "items": [
+      {
+        "title": "EasyClaw의 비용은 얼마입니까?",
+        "description": "요금제는 월 $10부터 시작됩니다. 귀하의 계정에서 언제든지 취소하실 수 있습니다."
+      },
+      {
+        "title": "서버를 관리해야 하나요?",
+        "description": "아니요. EasyClaw는 배포 워크플로를 간소화하므로 서버나 DevOps 없이 OpenClaw를 시작할 수 있습니다."
+      },
+      {
+        "title": "어떤 모델이 지원되나요?",
+        "description": "Claude, GPT 및 Gemini."
+      },
+      {
+        "title": "여러 채널에 배포할 수 있나요?",
+        "description": "그렇습니다. Telegram, Discord 및 WhatsApp가 지원됩니다."
+      },
+      {
+        "title": "배포하는 데 시간이 얼마나 걸리나요?",
+        "description": "일반적으로 1분 미만입니다. 처음 설정하는 경우 시간이 조금 더 걸릴 수 있습니다."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw를 시작할 준비가 되셨나요?",
+    "description": "1분 안에 첫 번째 어시스턴트를 배포하세요. 서버도, 유지 관리도, 학습 곡선도 없습니다.",
+    "note": "언제든지 취소하세요. 장기 계약은 없습니다.",
+    "buttons": [
+      {
+        "title": "OpenClaw 배포",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI 도우미를 배포하는 가장 쉬운 방법입니다.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • 이지클로. 모든 권리 보유.",
+    "nav": {
+      "items": [
+        {
+          "title": "소개",
+          "children": [
+            {
+              "title": "특징",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "가격",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "블로그",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "이메일 지원",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw는 독립적인 제품이며 제3자 모델 제공업체 또는 상표 소유자와 제휴하지 않습니다.",
+    "agreement": {
+      "items": [
+        {
+          "title": "개인 정보 보호 정책",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "서비스 약관",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "환불 정책",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "가격",
+    "title": "가격",
+    "description": "필요한 OpenClaw 배포 수에 따라 계획을 선택하세요. 귀하의 계정에서 언제든지 취소하실 수 있습니다.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "월간",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "매년",
+        "is_featured": true,
+        "label": "50% 할인"
+      }
+    ],
+    "items": [
+      {
+        "title": "프로",
+        "label": "인기",
+        "features_title": "핵심 배포 기능",
+        "features": [
+          "최대 5개의 활성 OpenClaw 배포",
+          "원클릭 배포, 재시작, 재배포",
+          "모델 및 채널 구성 사전 설정",
+          "배포 상태 대시보드",
+          "기본 사용량 분석",
+          "이메일 지원",
+          "상업적인 용도",
+          "새로운 배포 기능에 대한 액세스"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "프로 가입",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw 프로 월간",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "프리미엄",
+        "features_title": "Pro의 모든 기능에 더해",
+        "features": [
+          "최대 20개의 활성 OpenClaw 배포",
+          "우선순위 프로비저닝 대기열",
+          "재사용 가능한 모델 및 채널 사전 설정",
+          "배포 상태에 대한 웹훅 경고",
+          "팀 액세스(최대 3명)",
+          "API 액세스",
+          "우선 지원",
+          "베타 기능에 대한 조기 액세스"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "프리미엄 받기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw 프리미엄 월간",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "프로",
+        "label": "인기",
+        "features_title": "핵심 배포 기능",
+        "features": [
+          "최대 5개의 활성 OpenClaw 배포",
+          "원클릭 배포, 재시작, 재배포",
+          "모델 및 채널 구성 사전 설정",
+          "배포 상태 대시보드",
+          "기본 사용량 분석",
+          "이메일 지원",
+          "상업적인 용도",
+          "새로운 배포 기능에 대한 액세스"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "원래 가격: $10 /월",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "프로 가입",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro 매년",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "프리미엄",
+        "features_title": "Pro의 모든 기능에 더해",
+        "features": [
+          "최대 20개의 활성 OpenClaw 배포",
+          "우선순위 프로비저닝 대기열",
+          "재사용 가능한 모델 및 채널 사전 설정",
+          "배포 상태에 대한 웹훅 경고",
+          "팀 액세스(최대 3명)",
+          "API 액세스",
+          "우선 지원",
+          "베타 기능에 대한 조기 액세스"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "원래 가격: $20 /월",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "프리미엄 받기",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw 프리미엄 연간",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

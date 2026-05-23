@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "EasyClaw 使用者的 OpenClaw 部署範例",
+    "description": "了解團隊如何啟動 OpenClaw 助理來提供支援、營運和內部工作流程。",
+    "items": [
+      {
+        "title": "客戶支援助理推出",
+        "description": "在幾分鐘內部署了具有模型回退功能的 Telegram 支援機器人",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "銷售跟進自動化",
+        "description": "設定 OpenClaw 來限定潛在客戶並起草後續回复",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "內部操作通知程序",
+        "description": "連接 OpenClaw 以向團隊發出有關營運事件和事故的警報",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "多通路社區助理",
+        "description": "在 Telegram、Discord 和 WhatsApp 上推出相同的助手",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "每週報告工作流程",
+        "description": "每週五為經理提供自動摘要報告",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "入職副駕駛",
+        "description": "為新進員工提供第一週指導和答案",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "領先資格機器人",
+        "description": "捕獲入站問題並將高意圖的潛在客戶引導至銷售",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "產品回饋收集器",
+        "description": "對使用者回饋進行分類並為產品團隊產生行動項目",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

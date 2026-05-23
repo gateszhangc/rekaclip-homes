@@ -1,0 +1,9 @@
+module.exports = {
+
+"[project]/src/i18n/pages/font-recognizer/th.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"อิมเมจฟลิปเปอร์\",\"description\":\"อัปโหลดภาพเพื่อการกลับสีและการปรับปรุงสีอย่างมืออาชีพ\",\"disabled\":false,\"upload\":{\"title\":\"ลากและวางรูปภาพ\",\"description\":\"รองรับ PNG, JPG, JPEG, WebP สูงสุด 10MB\",\"buttonText\":\"เลือกไฟล์\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"ภาพที่สะอาด\",\"textListTitle\":\"พื้นที่ข้อความที่ตรวจพบ\",\"fontRecommendationTitle\":\"คำแนะนำในการกำจัด\",\"detectedFontLabel\":\"พื้นที่ที่เลือก\",\"similarFontsLabel\":\"เติมสำรอง\",\"selectTextPrompt\":\"เลือกบล็อกข้อความที่จะลบ\"},\"actions\":{\"reuploadText\":\"อัปโหลดอีกครั้ง\"},\"messages\":{\"uploadSuccess\":\"อัพโหลดรูปภาพสำเร็จ\",\"uploadError\":\"ล้มเหลวในการอัปโหลดภาพ\",\"recognitionSuccess\":\"การตรวจจับเสร็จสมบูรณ์\",\"recognitionError\":\"การตรวจหาล้มเหลว\",\"fontRecognitionSuccess\":\"ลบข้อความเรียบร้อยแล้ว\",\"fontRecognitionError\":\"การนำข้อความออกล้มเหลว\",\"processing\":\"กำลังประมวลผล...\"}}}"));}}),
+
+};

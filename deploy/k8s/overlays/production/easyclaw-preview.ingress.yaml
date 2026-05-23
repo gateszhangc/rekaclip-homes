@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: easyclaw-preview
+  namespace: easyclaw
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: 144.91.77.245.easyclaw.sslip.io
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: easyclaw
+                port:
+                  number: 80
+  tls:
+    - secretName: easyclaw-preview-tls
+      hosts:
+        - 144.91.77.245.easyclaw.sslip.io

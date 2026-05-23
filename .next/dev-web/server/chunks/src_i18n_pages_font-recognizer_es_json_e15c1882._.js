@@ -1,0 +1,9 @@
+module.exports = {
+
+"[project]/src/i18n/pages/font-recognizer/es.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Aleta de imagen\",\"description\":\"Cargue una imagen para invertir y mejorar el color de forma profesional\",\"disabled\":false,\"upload\":{\"title\":\"Arrastra y suelta una imagen\",\"description\":\"Soporta PNG, JPG, JPEG, WebP hasta 10MB\",\"buttonText\":\"Elige un archivo\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Imagen limpia\",\"textListTitle\":\"Áreas de texto detectadas\",\"fontRecommendationTitle\":\"Sugerencias de eliminación\",\"detectedFontLabel\":\"Área seleccionada\",\"similarFontsLabel\":\"Rellenos alternativos\",\"selectTextPrompt\":\"Seleccione un bloque de texto para eliminar\"},\"actions\":{\"reuploadText\":\"Volver a subir\"},\"messages\":{\"uploadSuccess\":\"Imagen cargada exitosamente\",\"uploadError\":\"No se pudo cargar la imagen\",\"recognitionSuccess\":\"Detección completada\",\"recognitionError\":\"Error de detección\",\"fontRecognitionSuccess\":\"Eliminación de texto completada\",\"fontRecognitionError\":\"Error al eliminar el texto\",\"processing\":\"Procesando...\"}}}"));}}),
+
+};

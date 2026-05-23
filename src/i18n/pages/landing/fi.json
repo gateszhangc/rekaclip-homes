@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Ominaisuudet",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Hinnoittelu",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blogi",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw logo"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Luo korkealaatuista taidetta",
+    "description": "Lataa muotokuva, valitse tyyli ja hanki puhdas karikatyyri avatarille, lahjoille tai sisällölle.",
+    "features": [
+      "Laadukkaat yksityiskohdat ja selkeät linjat",
+      "Kohtuullinen hinta jokapäiväiseen käyttöön",
+      "Valmiina profiileihin, lahjoihin ja tulosteisiin"
+    ],
+    "buttons": [
+      {
+        "title": "Luo karikatyyri",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Karikatyyri esimerkki"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Karikatyyri esimerkki 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Karikatyyri esimerkki 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Karikatyyri esimerkki 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Edistyksellisen teknologian avulla",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "totta",
+    "name": "introduce",
+    "title": "Kuinka tehdä karikatyyri",
+    "label": "Yksinkertainen prosessi",
+    "description": "Luo upeita karikatyyrejä kolmessa yksinkertaisessa vaiheessa. Ei vaadi taiteellisia taitoja.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Lataa valokuva",
+        "description": "Lataa selkeä muotokuva. Tuemme JPG, PNG ja WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Valitse Tyyli",
+        "description": "Valitse hauskoja, liioiteltuja, anime- tai 3D-sarjakuvatyylejä.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Lataa",
+        "description": "Hanki laadukas karikatyyrisi heti ilman vesileimoja.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "totta",
+    "name": "benefit",
+    "title": "Miksi käyttää OpenClaw?",
+    "label": "Edut",
+    "description": "Täydellinen työkalu lahjoihin, profiilikuviin ja sosiaalisen median sisältöön.",
+    "items": [
+      {
+        "title": "Instant AI Magic",
+        "description": "Kehittynyt tekoäly analysoi kasvojen piirteitä luodakseen täydellisesti liioiteltuja karikatyyrejä sekunneissa.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Monipuoliset taidetyylit",
+        "description": "Klassisista käsin piirretyistä lookeista moderneihin 3D-animoituihin avatareihin. Meillä on kaikki.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Korkea resoluutio",
+        "description": "Lataa teräviä, korkealaatuisia kuvia, jotka soveltuvat tulostettavaksi mukeihin, t-paitoihin ja julisteisiin.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galleria",
+    "title": "Ihmeellisiä muodonmuutoksia",
+    "description": "Katso, kuinka tavallisista kuvista tulee poikkeuksellisia karikatyyrejä.",
+    "items": [
+      {
+        "title": "Sosiaaliset avatarit",
+        "highlight": "Erotu joukosta verkossa",
+        "description": "Luo ainutlaatuinen profiilikuva, joka vangitsee persoonallisuutesi.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Alkuperäinen valokuva",
+        "afterAlt": "Karikatyyri tulos",
+        "reverse": false
+      },
+      {
+        "title": "Henkilökohtaiset lahjat",
+        "highlight": "Ikimuistoisia lahjoja",
+        "description": "Yllätä ystävät ja perheenjäsenet mukautetulla hauskalla muotokuvalla.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Alkuperäinen valokuva",
+        "afterAlt": "Karikatyyri tulos",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 vaihetta OpenClaw:n käyttöönottoon",
+    "description": "Valitse mallisi, yhdistä kanava ja käynnistä.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "vasemmalle",
+    "text_align": "keskus",
+    "items": [
+      {
+        "title": "Valitse malli",
+        "description": "Claude, GPT, Gemini — valitse jokaiseen tehtävään paras malli. Luova työskentely Claude:lla, analyysi GPT:llä. Vaihda milloin tahansa.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Valitse AI-malli - Claude, GPT tai Gemini"
+        }
+      },
+      {
+        "title": "Yhdistä kanava",
+        "description": "Telegram, Discord, WhatsApp — yksi kojelauta kaikille kanaville. Hallitse kaikkia keskusteluja yhdestä paikasta, ei enää sovellusten vaihtamista.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Yhdistä viestikanavat"
+        }
+      },
+      {
+        "title": "Ota käyttöön ja aloita",
+        "description": "Tekoälyavustajasi on verkossa 60 sekunnissa. Lähetä ensimmäinen viestisi ja aloita automatisointi.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Ota käyttöön ja käynnistä avustajasi"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Luo oma karikatyyrisi",
+    "description": "Lataa valokuva, valitse tyyli ja luo."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Karikatyyri-studio",
+    "description": "Lataa valokuva, valitse tyyli ja luo korkealaatuinen karikatyyri.",
+    "disabled": false,
+    "upload": {
+      "title": "Lataa valokuvasi",
+      "description": "Lataa vetämällä ja pudottamalla tai napsauttamalla (JPG, PNG, WebP enintään 10 Mt)",
+      "buttonText": "Valitse Kuva",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Sinun karikatyyrisi",
+      "textListTitle": "Tyyliasetukset",
+      "fontRecommendationTitle": "Suositellut tyylit",
+      "detectedFontLabel": "Nykyinen valinta",
+      "similarFontsLabel": "Kokeile myös näitä",
+      "selectTextPrompt": "Valitse käytettävä tyyli"
+    },
+    "actions": {
+      "reuploadText": "Kokeile toista valokuvaa"
+    },
+    "messages": {
+      "uploadSuccess": "Kuva ladattu onnistuneesti!",
+      "uploadError": "Hups, lataus epäonnistui. Yritä uudelleen.",
+      "recognitionSuccess": "Karikatyyrisi on valmis!",
+      "recognitionError": "Sukupolvi epäonnistui. Yritä uudelleen.",
+      "fontRecognitionSuccess": "Tyyli sovellettu!",
+      "fontRecognitionError": "Tyylin käyttäminen epäonnistui.",
+      "processing": "Luodaan karikatyyriäsi..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Sano hyvästit vaivalle",
+    "description": "Katso, mikä muuttuu, kun vaihdat tilaan EasyClaw",
+    "before_label": "Perinteinen asennus",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Vuokraa palvelimia, määritä ympäristöjä",
+        "after": "Käyttöönotto yhdellä napsautuksella, palvelimia ei tarvita"
+      },
+      {
+        "before": "Herää korjataksesi kello 3:n hälytykset",
+        "after": "24/7 automaattinen toiminta"
+      },
+      {
+        "before": "Päivitä OpenClaw-versiot manuaalisesti",
+        "after": "Automaattiset päivitykset uusimpaan versioon"
+      },
+      {
+        "before": "Opi Dockerin, Linuxin komennot",
+        "after": "Teknisiä taitoja ei vaadita"
+      },
+      {
+        "before": "30+ minuuttia per käyttöönotto",
+        "after": "Käyttöönotto alle 60 sekunnissa"
+      }
+    ],
+    "footer": "Säästynyt aika: ~29 minuuttia käyttöönottoa kohden"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Miksi joukkueet valitsevat EasyClaw",
+    "description": "Tuotantovalmis käyttöönotto ilman DevOps-ylikustannuksia. Ei huoltoa, maksimaalinen tarkennus.",
+    "items": [
+      {
+        "title": "Käyttöönotto 60 sekunnissa",
+        "description": "Nollasta juoksuun alle minuutissa. Ei Dockeria, ei Linux-komentoja, ei palvelimen asennusta.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Nolla huoltoa",
+        "description": "Hoidamme päivitykset, valvonnan ja palautuksen. Keskityt vain tekoälyavustajan käyttöön.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Mallin joustavuus",
+        "description": "Vaihda Claude:n, GPT:n ja Gemini:n välillä milloin tahansa. Käytä jokaisessa tehtävässä parasta mallia.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Yhdistetyt kanavat",
+        "description": "Hallitse Telegram-, Discord- ja WhatsApp-tiedostoja yhdestä kojelaudasta. Ei enää sovellusten vaihtoa.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Aina ajan tasalla",
+        "description": "Automaattiset OpenClaw-päivitykset. Käytä aina uusimpia ominaisuuksia nostamatta sormea.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Skaalaa luottavaisesti",
+        "description": "Aloita yksin ja kasvata sitten käyttöä eri tiimeissä ja käyttötapauksissa. 1-100 käyttöönottoa.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Ota OpenClaw käyttöön missä tahansa työnkulussa",
+    "description": "Yksi avustaja, monta käyttötapausta. Käynnistä kerran, automatisoi kaikkialla.",
+    "items": [
+      {
+        "title": "Päivittäiset tiedotukset",
+        "description": "Muuta viestit ja päivitykset tiiviiksi aamun tiedotteeksi tiimillesi.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Päivittäiset tiedotustilaisuudet automatisoinnin työnkulku"
+        },
+        "buttons": [
+          {
+            "title": "Lue lisää ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Asiakastukiassistentti",
+        "description": "Ohjaa kysymykset, luonnostele vastauksia ja pidä tukikanavat reagoivina.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Asiakastuen automatisoinnin työnkulku"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Aloita käyttöönotto ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Team Ops Automation",
+        "description": "Automatisoi muistutukset, tilaraportit ja rutiininomaiset seurannat eri kanavissa.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Ryhmätoimintojen automatisoinnin työnkulku"
+        },
+        "buttons": [
+          {
+            "title": "Katso hinnat ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "väärä",
+    "name": "stats",
+    "label": "Kohokohdat",
+    "title": "Rakennettu nopeita käynnistyksiä varten",
+    "description": "Kaikki mitä tarvitaan OpenClaw:n luotettavaan toimintaan.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Aika ottaa käyttöön",
+        "label": "< 1 min",
+        "description": "Asetuksista juoksuassistenttiin"
+      },
+      {
+        "title": "Tuetut kanavat",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Käyttöönoton näkyvyys",
+        "label": "Reaaliaikainen",
+        "description": "Seuraa juoksua ja epäonnistuneita tiloja"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Arvostelut",
+    "title": "Mitä käyttäjät sanovat",
+    "description": "Katso, miksi kaikki puhuvat OpenClaw:stä.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Sosiaalisen median johtaja",
+        "description": "Tein hauskan tiimikuvan Tietoja meistä -sivullemme. Kaikki pitivät siitä!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Freelancer",
+        "description": "Käytin tätä luodakseni ainutlaatuisen avatarin freelance-profiililleni. Se erottuu!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "Opiskelija",
+        "description": "Tein karikatyyrejä kaikista ystävistäni syntymäpäiväkorttia varten. Paras lahja ikinä.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "Sisällöntekijä",
+        "description": "Eri tyylit ovat hämmästyttäviä. Käytän pikkukuvissani 3D-tyyliä.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wong",
+        "label": "Markkinointijohtaja",
+        "description": "Nopeaa, helppoa, ja tulokset ovat todella hauskoja, eivät vain outoja.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "Kehittäjä",
+        "description": "Super yksinkertainen API ja upeat tulokset lemmikkiprojektilleni.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Yleisiä kysymyksiä",
+    "description": "Kaikki mitä tarvitset ennen OpenClaw:n käyttöönottoa EasyClaw:n kanssa.",
+    "items": [
+      {
+        "title": "Kuinka paljon EasyClaw maksaa?",
+        "description": "Suunnitelmat alkavat $10/kk. Peruuta milloin tahansa tililtäsi."
+      },
+      {
+        "title": "Pitääkö minun hallita palvelimia?",
+        "description": "Ei. EasyClaw virtaviivaistaa käyttöönoton työnkulkua, jotta voit käynnistää OpenClaw:n ilman palvelimia tai DevOpsia."
+      },
+      {
+        "title": "Mitä malleja tuetaan?",
+        "description": "Claude, GPT ja Gemini."
+      },
+      {
+        "title": "Voinko ottaa käyttöön useille kanaville?",
+        "description": "Kyllä. Telegram, Discord ja WhatsApp ovat tuettuja."
+      },
+      {
+        "title": "Kuinka kauan käyttöönotto kestää?",
+        "description": "Tyypillisesti alle 1 minuutti. Ensiasennus voi kestää hieman kauemmin."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Oletko valmis käynnistämään OpenClaw:n?",
+    "description": "Ota ensimmäinen avustajasi käyttöön alle minuutissa. Ei palvelimia, ei ylläpitoa, ei oppimiskäyrää.",
+    "note": "Peru milloin tahansa. Ei pitkäaikaista sopimusta.",
+    "buttons": [
+      {
+        "title": "Ota käyttöön OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "Helpoin tapa ottaa käyttöön OpenClaw AI Assistant.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Kaikki oikeudet pidätetään.",
+    "nav": {
+      "items": [
+        {
+          "title": "Tietoja",
+          "children": [
+            {
+              "title": "Ominaisuudet",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Hinnoittelu",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blogi",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Sähköpostituki",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw on itsenäinen tuote, eikä se ole sidoksissa kolmannen osapuolen mallintarjoajiin tai tavaramerkkien omistajiin.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Tietosuojakäytäntö",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Palveluehdot",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Hyvityskäytäntö",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Hinnoittelu",
+    "title": "Hinnoittelu",
+    "description": "Valitse suunnitelma sen mukaan, kuinka monta OpenClaw-käyttöönottoa tarvitset. Peruuta milloin tahansa tililtäsi.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Kuukausittain",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Vuosittain",
+        "is_featured": true,
+        "label": "säästä 50 %"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pro",
+        "label": "Suosittu",
+        "features_title": "Käyttöönoton ydinominaisuudet",
+        "features": [
+          "Jopa 5 aktiivista OpenClaw-käyttöönottoa",
+          "Ota käyttöön, käynnistä uudelleen ja asenna uudelleen yhdellä napsautuksella",
+          "Mallin ja kanavan esiasetukset",
+          "Käyttöönoton tilan hallintapaneeli",
+          "Peruskäyttöanalytiikka",
+          "Sähköpostituki",
+          "Kaupallinen käyttö",
+          "Pääsy uusiin käyttöönottoominaisuuksiin"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 dollaria",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Hanki Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro kuukausittain",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Kaikki Prossa, plus",
+        "features": [
+          "Jopa 20 aktiivista OpenClaw-käyttöönottoa",
+          "Ensisijainen hallintajono",
+          "Uudelleenkäytettävät mallin ja kanavan esiasetukset",
+          "Webhook-hälytykset käyttöönoton tilasta",
+          "Tiimin käyttöoikeus (enintään 3 jäsentä)",
+          "API pääsy",
+          "Ensisijainen tuki",
+          "Varhainen pääsy beta-ominaisuuksiin"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 dollaria",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Hanki Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Premium kuukausittain",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Suosittu",
+        "features_title": "Käyttöönoton ydinominaisuudet",
+        "features": [
+          "Jopa 5 aktiivista OpenClaw-käyttöönottoa",
+          "Ota käyttöön, käynnistä uudelleen ja asenna uudelleen yhdellä napsautuksella",
+          "Mallin ja kanavan esiasetukset",
+          "Käyttöönoton tilan hallintapaneeli",
+          "Peruskäyttöanalytiikka",
+          "Sähköpostituki",
+          "Kaupallinen käyttö",
+          "Pääsy uusiin käyttöönottoominaisuuksiin"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 dollaria",
+        "original_price": "Alkuperäinen hinta: 10 €/kk",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Hanki Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro vuosittain",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Kaikki Prossa, plus",
+        "features": [
+          "Jopa 20 aktiivista OpenClaw-käyttöönottoa",
+          "Ensisijainen hallintajono",
+          "Uudelleenkäytettävät mallin ja kanavan esiasetukset",
+          "Webhook-hälytykset käyttöönoton tilasta",
+          "Tiimin käyttöoikeus (enintään 3 jäsentä)",
+          "API pääsy",
+          "Ensisijainen tuki",
+          "Varhainen pääsy beta-ominaisuuksiin"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 dollaria",
+        "original_price": "Alkuperäinen hinta: 20 €/kk",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Hanki Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premium vuosittain",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

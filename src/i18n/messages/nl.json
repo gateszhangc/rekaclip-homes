@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - Implementeer OpenClaw in minder dan 1 minuut",
+    "description": "Implementeer OpenClaw met EasyClaw in één klik. Sluit Telegram aan, kies een model en ga snel live.",
+    "keywords": "easyclaw, openclaw implementeren, openclaw-hosting, telegrambot-implementatie, ai-assistent-implementatie"
+  },
+  "blog": {
+    "title": "Bloggen",
+    "description": "Nieuws, tutorials en updates over het implementeren van OpenClaw met EasyClaw.",
+    "read_more_text": "Lees meer"
+  },
+  "user": {
+    "sign_in": "Inloggen",
+    "sign_out": "Uitloggen",
+    "credits": "Kredieten",
+    "api_keys": "API-toetsen",
+    "my_orders": "Mijn bestellingen",
+    "my_invites": "Mijn uitnodigingen",
+    "user_center": "Gebruikerscentrum",
+    "support": "Ondersteuning",
+    "admin_system": "Beheersysteem",
+    "home": "Thuis",
+    "pricing": "Prijzen",
+    "admin_center": "Beheercentrum"
+  },
+  "sign_modal": {
+    "sign_in_title": "Meld u aan bij EasyClaw",
+    "sign_in_description": "Krijg toegang tot uw EasyClaw-account om OpenClaw te implementeren en te beheren.",
+    "sign_up_title": "Sluit je aan bij EasyClaw",
+    "sign_up_description": "Maak uw EasyClaw-account aan",
+    "email_title": "E-mail",
+    "email_placeholder": "Voer uw e-mailadres in",
+    "password_title": "Wachtwoord",
+    "password_placeholder": "Voer uw wachtwoord in",
+    "forgot_password": "Wachtwoord vergeten?",
+    "or": "Of",
+    "continue": "Ga verder naar EasyClaw",
+    "no_account": "Nieuw bij EasyClaw?",
+    "email_sign_in": "Meld u aan met e-mail",
+    "google_sign_in": "Ga verder met Google",
+    "github_sign_in": "Ga verder met GitHub",
+    "close_title": "Sluiten",
+    "cancel_title": "Annuleer"
+  },
+  "my_orders": {
+    "title": "Mijn bestellingen",
+    "no_orders": "Geen bestellingen gevonden",
+    "tip": "",
+    "support_tip": "Hulp nodig bij facturering of annulering? E-mail support@easyclaw.pro.",
+    "activate_order": "Activeer Bestelling",
+    "actived": "Geactiveerd",
+    "join_discord": "Sluit je aan bij Discord",
+    "read_docs": "Lees Documenten",
+    "table": {
+      "order_no": "Bestelnr",
+      "email": "E-mail",
+      "product_name": "Productnaam",
+      "amount": "Bedrag",
+      "paid_at": "Betaald op",
+      "github_username": "GitHub-gebruikersnaam",
+      "status": "Status",
+      "manage_billing": "Beheer facturering",
+      "interval": "Interval",
+      "interval_month": "Maandelijks",
+      "interval_year": "Jaarlijks",
+      "interval_one_time": "Eenmalig"
+    }
+  },
+  "my_credits": {
+    "title": "Mijn tegoeden",
+    "left_tip": "linker aftiteling: {left_credits}",
+    "no_credits": "Geen creditrecords",
+    "recharge": "Opladen",
+    "table": {
+      "trans_no": "Transnr",
+      "trans_type": "Transtype",
+      "credits": "Kredieten",
+      "updated_at": "Bijgewerkt op",
+      "status": "Status",
+      "expired_at": "Verlopen op",
+      "created_at": "Gemaakt op"
+    }
+  },
+  "api_keys": {
+    "title": "API-toetsen",
+    "tip": "Bewaar uw apikey veilig om lekken te voorkomen",
+    "no_api_keys": "Geen API-sleutels",
+    "create_api_key": "Maak een API-sleutel",
+    "table": {
+      "name": "Name",
+      "key": "Sleutel",
+      "created_at": "Gemaakt op"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Sleutelnaam",
+      "submit": "Verzenden"
+    }
+  },
+  "my_invites": {
+    "title": "Mijn uitnodigingen",
+    "description": "Bekijk uw uitnodigingsgegevens",
+    "no_invites": "Geen uitnodigingsrecords gevonden",
+    "my_invite_link": "Mijn uitnodigingslink",
+    "edit_invite_link": "Uitnodigingslink bewerken",
+    "copy_invite_link": "Kopieer de uitnodigingslink",
+    "invite_code": "Uitnodigingscode",
+    "invite_tip": "Nodig vrienden uit voor EasyClaw en verdien beloningen.",
+    "invite_balance": "Nodig beloningssaldo uit",
+    "total_invite_count": "Totaal aantal uitnodigingen",
+    "total_paid_count": "Totaal betaald aantal",
+    "total_award_amount": "Totaal beloningsbedrag",
+    "update_invite_code": "Stel de uitnodigingscode in",
+    "update_invite_code_tip": "Voer uw aangepaste uitnodigingscode in",
+    "update_invite_button": "Opslaan",
+    "no_orders": "U heeft een betaald abonnement nodig voordat u anderen uitnodigt",
+    "no_affiliates": "Het is niet toegestaan anderen uit te nodigen. Neem contact met ons op om toestemming aan te vragen.",
+    "table": {
+      "invite_time": "Tijd uitnodigen",
+      "invite_user": "Gebruiker uitnodigen",
+      "status": "Status",
+      "reward_percent": "Beloningspercentage",
+      "reward_amount": "Beloningsbedrag",
+      "pending": "In behandeling",
+      "completed": "Voltooid"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "We horen graag wat er goed ging of hoe we de productervaring kunnen verbeteren.",
+    "submit": "Verzenden",
+    "loading": "Verzenden...",
+    "contact_tip": "Andere manieren om contact met ons op te nemen",
+    "rating_tip": "Wat vind jij van EasyClaw?",
+    "placeholder": "Laat hier uw woorden achter..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Maak direct AI-karikaturen",
+    "description": "Upload foto's om leuke en artistieke karikaturen te genereren met AI-aangedreven tools.",
+    "upload_label": "Upload uw afbeelding",
+    "upload_placeholder": "Klik of sleep om te uploaden (JPG, PNG, GIF, WebP)",
+    "upload_required": "Vereist",
+    "prompt_label": "Beschrijf de uitbreiding (optioneel)",
+    "prompt_placeholder": "Bijvoorbeeld 'achtergrond links en rechts uitbreiden', 'lucht uitverven', 'canvas verbreden voor een spandoek', 'ruimte toevoegen rond het onderwerp'...",
+    "prompt_required": "Optionele opmerkingen",
+    "character_count": "{count}/500",
+    "generate_button": "Vouw afbeelding uit",
+    "generating_button": "Uitbreiden...",
+    "credits_label": "Uw tegoeden",
+    "cost_label": "Kosten: {cost} credits per uitbreiding",
+    "insufficient_credits": "Onvoldoende kredieten. Laad de batterij op om door te gaan met het uitbreiden van afbeeldingen.",
+    "errors": {
+      "no_image": "Upload een afbeelding om uit te vouwen",
+      "no_prompt": "Beschrijf hoe u de afbeelding wilt uitbreiden",
+      "invalid_format": "Alleen de formaten JPG, PNG, GIF, WebP worden ondersteund",
+      "file_too_large": "De afbeeldingsgrootte mag niet groter zijn dan 5 MB",
+      "generation_failed": "Uitbreiding van afbeelding mislukt. Probeer het opnieuw",
+      "download_failed": "Downloaden mislukt. Probeer het opnieuw"
+    },
+    "success": {
+      "generated": "Je uitgevouwen afbeelding is klaar!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Bekijk de nieuwste afbeeldingen uitgebreid door onze tool. Bekijk een voorbeeld voor/na en exporteer het resultaat.",
+    "download_hint": "Klik om de uitgevouwen afbeelding te downloaden",
+    "no_outfits": "Nog geen uitbreidingen. Upload een afbeelding om te beginnen met uitbreiden!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI-karikatuurgenerator",
+    "description": "Genereer karikaturen van hoge kwaliteit met behulp van het OpenClaw AI-model met tekst-naar-afbeelding- en afbeelding-naar-afbeelding-modi",
+    "hero": {
+      "badge": "Nieuwe OpenClaw",
+      "title": "Maak geweldige karikaturen",
+      "subtitle": "Transformeer foto's in verbluffende karikaturen met het geavanceerde AI-model van OpenClaw. Ondersteunt zowel de creatiemodus van tekst naar afbeelding als van afbeelding naar afbeelding.",
+      "features": {
+        "text_to_image": "Tekst naar afbeelding",
+        "image_to_image": "Afbeelding naar afbeelding",
+        "high_quality": "Uitvoer van hoge kwaliteit"
+      },
+      "buttons": {
+        "start_creating": "Begin met creëren",
+        "view_gallery": "Galerij bekijken"
+      },
+      "stats": {
+        "daily_images": "Dagelijks gegenereerde afbeeldingen",
+        "satisfaction": "Gebruikerstevredenheid",
+        "generation_time": "Gemiddelde generatietijd"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Afbeelding naar afbeelding",
+        "text_to_image": "Tekst naar afbeelding"
+      },
+      "model": "Model",
+      "reference_images": "Referentieafbeeldingen",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Sleep afbeeldingen hierheen",
+        "or_click": "of klik om te bladeren",
+        "supported_formats": "Ondersteunt: JPEG, PNG, WebP (max. 10 MB)",
+        "add_more": "Voeg meer toe"
+      },
+      "prompt": "Prompt",
+      "prompt_placeholder_image": "Beschrijf hoe je het beeld transformeert...",
+      "prompt_placeholder_text": "Beschrijf de afbeelding die u wilt genereren...",
+      "aspect_ratio": "Beeldverhouding",
+      "resolution": "Resolutie",
+      "output_count": "Uitvoertelling",
+      "output_count_range": "Min. {min}, Max. {max}",
+      "output_format": "Uitvoerformaat",
+      "generate_button": "Genereer nu",
+      "generating": "Genereren...",
+      "clear_images": "Wis alle afbeeldingen",
+      "output_gallery": "Uw gegenereerde afbeelding",
+      "view_all": "Bekijk alles",
+      "generating_message": "Creëer je meesterwerk...",
+      "generating_submessage": "Ons OpenClaw-model doet zijn magie. Dit duurt meestal enkele seconden.",
+      "example": "Voorbeeld"
+    },
+    "my_creations": {
+      "title": "Mijn creaties",
+      "description": "Bekijk en beheer uw door AI gegenereerde afbeeldingen - bekijk en download met één klik",
+      "search_placeholder": "Creaties zoeken...",
+      "view_all": "Alles bekijken ({count})",
+      "no_results": "Geen overeenkomende creaties gevonden",
+      "no_results_message": "Probeer verschillende trefwoorden te gebruiken of wis de zoekopdracht om alle creaties te bekijken.",
+      "clear_search": "Zoekopdracht wissen",
+      "empty_state": "Nog geen creaties",
+      "empty_message": "Begin met het gebruik van OpenClaw om uw eerste door AI gegenereerde afbeelding te maken!",
+      "start_creating": "Begin met creëren",
+      "download": "Downloaden",
+      "delete": "Verwijderen",
+      "total_count": "Totaal aantal {count}-creaties",
+      "search_results": "(Zoeken: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Tekst naar afbeelding",
+        "IMAGE_TO_IMAGE": "Afbeelding naar afbeelding"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Voer een prompt in",
+      "upload_reference": "Afbeelding-naar-afbeelding-modus vereist het uploaden van referentieafbeeldingen",
+      "generation_failed": "Genereren is mislukt. Probeer het opnieuw",
+      "upload_success": "Afbeelding succesvol geüpload",
+      "upload_failed": "Uploaden mislukt",
+      "delete_success": "Afbeelding verwijderd",
+      "delete_failed": "Verwijderen mislukt. Probeer het opnieuw",
+      "download_started": "Het downloaden is gestart",
+      "file_too_large": "De bestandsgrootte mag niet groter zijn dan {size}MB",
+      "unsupported_format": "Niet-ondersteunde bestandsindeling. Ondersteunde formaten: {formats}",
+      "retry": "Opnieuw proberen",
+      "dismiss": "Negeren"
+    },
+    "loading": {
+      "default": "Laden...",
+      "generation": "Creëer je meesterwerk...",
+      "generation_message": "Ons OpenClaw-model doet zijn magie. Dit duurt meestal enkele seconden.",
+      "upload": "Afbeelding uploaden...",
+      "upload_message": "Een ogenblik geduld terwijl uw afbeelding naar de cloud wordt geüpload."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Gelaagde studio",
+      "title": "OpenClaw Studio",
+      "description": "Maak artistieke karikaturen van uw foto's.",
+      "cta": "Gratis proefperiode",
+      "cta_hint": "Upload één afbeelding om te beginnen",
+      "features": [
+        "2-8 AI-lagen per afbeelding",
+        "Transparante PNG/WebP-export",
+        "Snel begeleide scheiding"
+      ]
+    },
+    "upload": {
+      "title": "Uploaden",
+      "subtitle": "JPG, PNG of WebP tot 10 MB",
+      "action": "Afbeelding uploaden",
+      "drop": "Zet je afbeelding hier neer",
+      "or_click": "of klik om te bladeren",
+      "supported_formats": "Ondersteunt: JPEG, PNG, WebP (max. 10 MB)"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "placeholder": "Beschrijf de gewenste lagen (bijvoorbeeld onderwerp, rekwisieten, achtergrond)"
+    },
+    "advanced": {
+      "title": "Geavanceerde instellingen",
+      "prompt_label": "Prompt (optioneel)",
+      "prompt_placeholder": "Voer de prompt in om de afbeelding te beschrijven. (Optioneel)",
+      "negative_prompt_label": "Negatieve prompt (optioneel)",
+      "negative_prompt_placeholder": "Beschrijf wat moet worden uitgesloten van de lagen.",
+      "seed": "Zaad",
+      "randomize_seed": "Willekeurig zaad",
+      "guidance_scale": "Echte begeleidingsschaal",
+      "inference_steps": "Aantal gevolgtrekkingsstappen",
+      "cfg_normalization": "Of CFG-normalisatie is ingeschakeld",
+      "auto_caption_language": "Automatische ondertitelingstaal als er geen prompt wordt gegeven, True voor EN, False voor ZH",
+      "layer_count": "Aantal lagen",
+      "layer_range": "Min. {min}, Max. {max}",
+      "output_format": "Uitvoerformaat"
+    },
+    "actions": {
+      "decompose": "Ontleden!",
+      "sign_in_to_decompose": "Log in om te ontleden!",
+      "generating": "Ontbinden..."
+    },
+    "results": {
+      "title": "Resultaten",
+      "subtitle": "Gelaagde uitvoer verschijnt hier na ontbinding.",
+      "download_pptx": "PPTX downloaden",
+      "download_zip": "ZIP downloaden",
+      "packaging": "Verpakking...",
+      "generating_title": "Uw afbeelding ontleden...",
+      "generating_subtitle": "Gelaagde assets creëren. Dit duurt meestal enkele seconden.",
+      "layer_label": "Laag {index}",
+      "layer_description": "Gelaagde troef",
+      "empty_title": "Nog geen lagen",
+      "empty_subtitle": "Upload een afbeelding en klik op Ontleden! lagen te genereren.",
+      "success": "Lagen zijn succesvol gegenereerd!",
+      "download_ready": "Klaar om te downloaden"
+    },
+    "examples": {
+      "title": "Voorbeelden",
+      "subtitle": "Bekijk hoe een bronafbeelding in schone lagen wordt opgedeeld.",
+      "labels": {
+        "source": "Bron",
+        "layer": "Laag {index}",
+        "sample": "Voorbeeld {index}"
+      },
+      "rows": {
+        "primary": "Voorbeeldset 01",
+        "secondary": "Voorbeeldset 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Upload eerst een referentieafbeelding",
+      "generation_failed": "Genereren is mislukt. Probeer het opnieuw",
+      "upload_success": "Afbeelding succesvol geüpload",
+      "upload_failed": "Uploaden mislukt",
+      "download_failed": "Downloaden mislukt. Probeer het opnieuw"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Beschikbaar"
+    },
+    "errors": {
+      "no_available_account": "Geen beschikbaar account in uw huidige abonnement. Probeer het later opnieuw.",
+      "network_unstable": "Netwerk is instabiel. Probeer het binnenkort opnieuw.",
+      "deployment_failed_try_again": "Implementatie is mislukt. Probeer het opnieuw.",
+      "deployment_timeout": "Time-out voor implementatie na {minutes} minuten. Probeer het opnieuw.",
+      "enter_bot_token": "Voer een bottoken in.",
+      "select_channel_before_deploying": "Selecteer een kanaal voordat u het implementeert.",
+      "enter_telegram_bot_token": "Voer uw Telegram-bottoken in.",
+      "invalid_response_missing_deployment_id": "Ongeldig antwoord: ontbrekende deployment_id",
+      "failed_to_start_deployment": "Kan de implementatie niet starten",
+      "failed_to_fetch_deployment_status": "Kan de implementatiestatus niet ophalen",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - OpenClaw-implementatie met één klik",
+      "description": "Implementeer OpenClaw in minder dan 1 minuut. Geen servers of DevOps. Kies een model, sluit een kanaal aan en start."
+    },
+    "selectors": {
+      "model_title": "Kies een standaardmodel voor uw OpenClaw",
+      "channel_title": "Kies waar OpenClaw berichten naartoe moet sturen",
+      "selected": "Geselecteerd"
+    },
+    "deploy": {
+      "deploying": "Implementeren...",
+      "deploy_button": "Implementeren",
+      "sign_in_button": "Meld u aan om te implementeren met EasyClaw",
+      "sign_in_hint": "Meld u aan om OpenClaw te implementeren met EasyClaw en verbind uw kanalen.",
+      "status_success": "Implementatie succesvol! OpenClaw draait nu.",
+      "model_substitution_warning": "Modelvervanging gedetecteerd. Probeer opnieuw te implementeren of schakel over naar een andere regio/provider.",
+      "hint_prefix": "Sluit Telegram aan om door te gaan.",
+      "hint_suffix": "Je kunt later andere kanalen aan hetzelfde account toevoegen.",
+      "hint_prefix_telegram": "Sluit Telegram aan om door te gaan.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Sluit Telegram aan",
+      "how_to_get_token": "Hoe kunt u uw bottoken verkrijgen?",
+      "step_1_prefix": "Open Telegram en ga naar",
+      "step_2_prefix": "Start een chat en typ",
+      "step_3_text": "Volg de aanwijzingen om uw bot een naam te geven en een gebruikersnaam te kiezen.",
+      "step_4_text": "BotFather stuurt u een bericht met uw bottoken. Kopieer het volledige token (het lijkt op een lange reeks cijfers en letters).",
+      "step_5_text": "Plak het token in het onderstaande veld en klik op Opslaan en verbinden.",
+      "token_label": "Voer een bottoken in",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Opslaan en verbinden",
+      "preview_intro": "Ik kan u helpen bij het maken en beheren van Telegram-bots. Wat zou je graag willen doen?",
+      "preview_newbot": "maak een nieuwe bot",
+      "preview_mybots": "bewerk uw bots",
+      "preview_name_prompt": "Oké, een nieuwe bot. Hoe gaan we het noemen? Kies een naam voor uw bot.",
+      "preview_message_input": "Bericht"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

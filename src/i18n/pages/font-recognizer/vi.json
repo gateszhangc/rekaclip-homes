@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "lật hình ảnh",
+    "description": "Tải lên hình ảnh để đảo ngược và nâng cao màu sắc chuyên nghiệp",
+    "disabled": false,
+    "upload": {
+      "title": "Kéo và thả hình ảnh",
+      "description": "Hỗ trợ PNG, JPG, JPEG, WebP lên tới 10MB",
+      "buttonText": "Chọn một tập tin",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Hình ảnh sạch",
+      "textListTitle": "Vùng văn bản được phát hiện",
+      "fontRecommendationTitle": "Đề xuất xóa",
+      "detectedFontLabel": "Khu vực đã chọn",
+      "similarFontsLabel": "Điền thay thế",
+      "selectTextPrompt": "Chọn khối văn bản cần xóa"
+    },
+    "actions": {
+      "reuploadText": "Tải lên lại"
+    },
+    "messages": {
+      "uploadSuccess": "Hình ảnh được tải lên thành công",
+      "uploadError": "Không thể tải hình ảnh lên",
+      "recognitionSuccess": "Đã phát hiện xong",
+      "recognitionError": "Phát hiện không thành công",
+      "fontRecognitionSuccess": "Xóa văn bản đã hoàn tất",
+      "fontRecognitionError": "Xóa văn bản không thành công",
+      "processing": "Đang xử lý..."
+    }
+  }
+}

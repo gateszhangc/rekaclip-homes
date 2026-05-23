@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Özellikler",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Fiyatlandırma",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blog",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "SSS",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw logosu"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Yüksek Kaliteli Sanat Yaratın",
+    "description": "Bir portre yükleyin, bir stil seçin ve avatarlar, hediyeler veya içerik için temiz bir karikatür elde edin.",
+    "features": [
+      "Yüksek kaliteli detaylar ve temiz çizgiler",
+      "Günlük kullanım için uygun fiyatlandırma",
+      "Profiller, hediyeler ve baskılar için hazır"
+    ],
+    "buttons": [
+      {
+        "title": "Karikatürümü Oluştur",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Karikatür örneği"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Karikatür örneği 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Karikatür örneği 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Karikatür örneği 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Gelişmiş Teknolojiyle Güçlendirilmiştir",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "doğru",
+    "name": "introduce",
+    "title": "Karikatür Nasıl Yapılır",
+    "label": "Basit Süreç",
+    "description": "Üç basit adımda çarpıcı karikatürler oluşturun. Hiçbir sanatsal beceri gerekmez.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Fotoğraf Yükle",
+        "description": "Net bir portre fotoğrafı yükleyin. JPG, PNG ve WebP'yi destekliyoruz.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Stil Seç",
+        "description": "Komik, abartılı, anime veya 3D çizgi film stilleri arasından seçim yapın.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "İndir",
+        "description": "Yüksek kaliteli karikatürünüzü filigran olmadan anında alın.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "doğru",
+    "name": "benefit",
+    "title": "Neden OpenClaw Kullanılmalı?",
+    "label": "Faydaları",
+    "description": "Hediyeler, profil resimleri ve sosyal medya içerikleri için mükemmel bir araç.",
+    "items": [
+      {
+        "title": "Anında Yapay Zeka Büyüsü",
+        "description": "Gelişmiş yapay zeka, saniyeler içinde mükemmel şekilde abartılı karikatürler oluşturmak için yüz özelliklerini analiz eder.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Çeşitli Sanat Stilleri",
+        "description": "Klasik elle çizilmiş görünümlerden modern 3D animasyonlu avatarlara kadar. Her şeye sahibiz.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Yüksek Çözünürlük",
+        "description": "Kupalara, tişörtlere ve posterlere baskıya uygun, net, yüksek kaliteli görseller indirin.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galeri",
+    "title": "İnanılmaz Dönüşümler",
+    "description": "Sıradan fotoğrafların nasıl olağanüstü karikatürlere dönüştüğünü görün.",
+    "items": [
+      {
+        "title": "Sosyal Avatarlar",
+        "highlight": "Çevrimiçi ortamda öne çıkın",
+        "description": "Kişiliğinizi yansıtan benzersiz bir profil resmi oluşturun.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Orijinal Fotoğraf",
+        "afterAlt": "Karikatür Sonucu",
+        "reverse": false
+      },
+      {
+        "title": "Kişiselleştirilmiş Hediyeler",
+        "highlight": "Unutulmaz hediyeler",
+        "description": "Özel, komik bir portreyle arkadaşlarınızı ve ailenizi şaşırtın.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Orijinal Fotoğraf",
+        "afterAlt": "Karikatür Sonucu",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw'yi Dağıtmanın 3 Adımı",
+    "description": "Modelinizi seçin, bir kanal bağlayın ve başlatın.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "sol",
+    "text_align": "merkez",
+    "items": [
+      {
+        "title": "Bir model seçin",
+        "description": "Claude, GPT, Gemini — her görev için en iyi modeli seçin. Claude ile yaratıcı çalışma, GPT ile analiz. İstediğiniz zaman geçiş yapın.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI modelini seçin - Claude, GPT veya Gemini"
+        }
+      },
+      {
+        "title": "Bir kanal bağlayın",
+        "description": "Telegram, Discord, WhatsApp — tüm kanallar için tek bir kontrol paneli. Artık uygulama değiştirmeye gerek kalmadan tüm konuşmaları tek bir yerden yönetin.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Mesajlaşma kanallarını bağlayın"
+        }
+      },
+      {
+        "title": "Dağıtın ve başlatın",
+        "description": "Yapay zeka asistanınız 60 saniye içinde çevrimiçi olacak. İlk mesajınızı gönderin ve otomatikleştirmeye başlayın.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Asistanınızı dağıtın ve başlatın"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Karikatürünüzü Yaratın",
+    "description": "Bir fotoğraf yükleyin, bir stil seçin ve oluşturun."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Karikatür Stüdyosu",
+    "description": "Bir fotoğraf yükleyin, bir stil seçin ve yüksek kaliteli bir karikatür oluşturun.",
+    "disabled": false,
+    "upload": {
+      "title": "Fotoğrafınızı yükleyin",
+      "description": "Yüklemek için sürükleyip bırakın veya tıklayın (JPG, PNG, WebP 10 MB'a kadar)",
+      "buttonText": "Resim Seç",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Karikatürünüz",
+      "textListTitle": "Stil Ayarları",
+      "fontRecommendationTitle": "Önerilen Stiller",
+      "detectedFontLabel": "Mevcut Seçim",
+      "similarFontsLabel": "Bunları da Deneyin",
+      "selectTextPrompt": "Uygulanacak stili seçin"
+    },
+    "actions": {
+      "reuploadText": "Başka Bir Fotoğraf Deneyin"
+    },
+    "messages": {
+      "uploadSuccess": "Fotoğraf başarıyla yüklendi!",
+      "uploadError": "Hata! Yükleme başarısız oldu. Lütfen tekrar deneyin.",
+      "recognitionSuccess": "Karikatürünüz hazır!",
+      "recognitionError": "Nesil başarısız oldu. Lütfen tekrar deneyin.",
+      "fontRecognitionSuccess": "Stil uygulandı!",
+      "fontRecognitionError": "Stil uygulanamadı.",
+      "processing": "Karikatürünüzü oluşturuyoruz..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Zorluklara elveda deyin",
+    "description": "EasyClaw'ye geçtiğinizde nelerin değiştiğini görün",
+    "before_label": "Geleneksel Kurulum",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Sunucuları kiralayın, ortamları yapılandırın",
+        "after": "Tek tıklamayla dağıtım, sunucuya gerek yok"
+      },
+      {
+        "before": "Sabah 3'teki uyarıları düzeltmek için uyanın",
+        "after": "7/24 otomatik çalışma"
+      },
+      {
+        "before": "OpenClaw sürümlerini manuel olarak güncelleme",
+        "after": "En son sürüme otomatik güncellemeler"
+      },
+      {
+        "before": "Docker, Linux komutlarını öğrenin",
+        "after": "Sıfır teknik beceri gerekli"
+      },
+      {
+        "before": "Dağıtım başına 30+ dakika",
+        "after": "60 saniyeden kısa sürede devreye alın"
+      }
+    ],
+    "footer": "Kazanılan zaman: Dağıtım başına ~29 dakika"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Ekipler neden EasyClaw'yi seçiyor?",
+    "description": "DevOps ek yükü olmadan üretime hazır dağıtım. Sıfır bakım, maksimum odaklanma.",
+    "items": [
+      {
+        "title": "60 saniyede konuşlandırın",
+        "description": "Sıfırdan koşmaya bir dakikadan kısa sürede. Docker yok, Linux komutu yok, sunucu kurulumu yok.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Sıfır bakım",
+        "description": "Güncellemeleri, izlemeyi ve kurtarmayı biz hallederiz. Siz sadece yapay zeka asistanınızı kullanmaya odaklanın.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Model esnekliği",
+        "description": "İstediğiniz zaman Claude, GPT ve Gemini arasında geçiş yapın. Her görev için en iyi modeli kullanın.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Birleşik kanallar",
+        "description": "Telegram, Discord ve WhatsApp'yi tek bir kontrol panelinden yönetin. Artık uygulama değiştirmeye gerek yok.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Her zaman güncel",
+        "description": "Otomatik OpenClaw güncellemeleri. Her zaman en yeni özellikleri parmağınızı bile kaldırmadan kullanın.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Güvenle ölçeklendirin",
+        "description": "Tek başınıza başlayın, ardından ekipler ve kullanım senaryoları genelinde kullanımı artırın. 1'den 100'e kadar dağıtım.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Herhangi bir iş akışı için OpenClaw'yi dağıtın",
+    "description": "Bir asistan, birçok kullanım örneği. Bir kez başlatın, her yeri otomatikleştirin.",
+    "items": [
+      {
+        "title": "Günlük Brifingler",
+        "description": "Mesajları ve güncellemeleri ekibiniz için kısa bir sabah özetine dönüştürün.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Günlük brifing otomasyonu iş akışı"
+        },
+        "buttons": [
+          {
+            "title": "Daha fazla bilgi edinin ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Müşteri Destek Asistanı",
+        "description": "Soruları yönlendirin, yanıt taslaklarını oluşturun ve destek kanallarının yanıt vermesini sağlayın.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Müşteri desteği otomasyonu iş akışı"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Dağıtımı başlat ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Ekip Operasyonları Otomasyonu",
+        "description": "Kanallar arasında hatırlatıcıları, durum raporlarını ve rutin takipleri otomatikleştirin.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Ekip operasyonları otomasyonu iş akışı"
+        },
+        "buttons": [
+          {
+            "title": "Fiyatlandırmaya bakın ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "yanlış",
+    "name": "stats",
+    "label": "Öne Çıkanlar",
+    "title": "Hızlı başlatmalar için tasarlandı",
+    "description": "OpenClaw'yi güvenilir bir şekilde çalıştırmak için gereken her şey.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "İlk dağıtım zamanı",
+        "label": "< 1 dakika",
+        "description": "Kurulumdan koşu asistanına"
+      },
+      {
+        "title": "Desteklenen kanallar",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Dağıtım görünürlüğü",
+        "label": "Gerçek zamanlı",
+        "description": "Çalıştırma ve başarısız durumları izleme"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Yorumlar",
+    "title": "Kullanıcılar Ne Diyor?",
+    "description": "Neden herkesin OpenClaw hakkında konuştuğunu görün.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Sosyal Medya Yöneticisi",
+        "description": "Hakkımızda sayfamız için komik bir takım fotoğrafı hazırladım. Herkes onu sevdi!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Serbest çalışan",
+        "description": "Bunu serbest çalışan profilim için benzersiz bir avatar oluşturmak için kullandım. Göze çarpıyor!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "Öğrenci",
+        "description": "Doğum günü kartı için tüm arkadaşlarımın karikatürlerini yaptım. Şimdiye kadarki en iyi hediye.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "İçerik Oluşturucu",
+        "description": "Farklı tarzlar muhteşem. Küçük resimlerim için 3D stilini kullanıyorum.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wong",
+        "label": "Pazarlama Lideri",
+        "description": "Hızlı, kolay ve sonuçlar aslında sadece tuhaf değil, aynı zamanda komik.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "Geliştirici",
+        "description": "Süper basit API ve evcil hayvan projem için harika sonuçlar.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "SSS",
+    "title": "Sık Sorulan Sorular",
+    "description": "OpenClaw'yi EasyClaw ile dağıtmadan önce ihtiyacınız olan her şey.",
+    "items": [
+      {
+        "title": "EasyClaw'nin maliyeti ne kadar?",
+        "description": "Planlar ayda 10 dolardan başlıyor. Hesabınızdan istediğiniz zaman iptal edin."
+      },
+      {
+        "title": "Sunucuları yönetmem gerekiyor mu?",
+        "description": "Hayır. EasyClaw, dağıtım iş akışını kolaylaştırır, böylece OpenClaw'yi sunucular veya DevOps olmadan başlatabilirsiniz."
+      },
+      {
+        "title": "Hangi modeller destekleniyor?",
+        "description": "Claude, GPT ve Gemini."
+      },
+      {
+        "title": "Birden fazla kanala dağıtım yapabilir miyim?",
+        "description": "Evet. Telegram, Discord ve WhatsApp desteklenir."
+      },
+      {
+        "title": "Dağıtım ne kadar sürer?",
+        "description": "Genellikle 1 dakikanın altındadır. İlk kurulum biraz daha uzun sürebilir."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw'yi başlatmaya hazır mısınız?",
+    "description": "İlk yardımcınızı bir dakikadan kısa sürede konuşlandırın. Sunucu yok, bakım yok, öğrenme eğrisi yok.",
+    "note": "İstediğiniz zaman iptal edin. Uzun vadeli sözleşme yok.",
+    "buttons": [
+      {
+        "title": "OpenClaw'yi dağıtın",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI asistanını dağıtmanın en kolay yolu.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Her hakkı saklıdır.",
+    "nav": {
+      "items": [
+        {
+          "title": "Hakkında",
+          "children": [
+            {
+              "title": "Özellikler",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Fiyatlandırma",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "SSS",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "E-posta Desteği",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw bağımsız bir üründür ve herhangi bir üçüncü taraf model sağlayıcıya veya ticari marka sahibine bağlı değildir.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Gizlilik Politikası",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Hizmet Şartları",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Geri Ödeme Politikası",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Fiyatlandırma",
+    "title": "Fiyatlandırma",
+    "description": "İhtiyacınız olan OpenClaw dağıtımının sayısına göre bir plan seçin. Hesabınızdan istediğiniz zaman iptal edin.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Aylık",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Yıllık",
+        "is_featured": true,
+        "label": "%50 tasarruf edin"
+      }
+    ],
+    "items": [
+      {
+        "title": "Profesyonel",
+        "label": "Popüler",
+        "features_title": "Çekirdek dağıtım özellikleri",
+        "features": [
+          "5 adede kadar aktif OpenClaw dağıtımı",
+          "Tek tıklamayla dağıtın, yeniden başlatın ve yeniden konuşlandırın",
+          "Model ve kanal yapılandırması ön ayarları",
+          "Dağıtım durumu kontrol paneli",
+          "Temel kullanım analitiği",
+          "E-posta desteği",
+          "Ticari kullanım",
+          "Yeni dağıtım özelliklerine erişim"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10$",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Pro'yu edinin",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Aylık",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "prim",
+        "features_title": "Pro'daki her şeye ek olarak",
+        "features": [
+          "20'ye kadar aktif OpenClaw dağıtımı",
+          "Öncelikli sağlama kuyruğu",
+          "Yeniden kullanılabilir model ve kanal ön ayarları",
+          "Dağıtım durumu için web kancası uyarıları",
+          "Ekip erişimi (3 üyeye kadar)",
+          "API erişimi",
+          "Öncelikli destek",
+          "Beta özelliklerine erken erişim"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20$",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Premium'u Alın",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Premium Aylık",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Profesyonel",
+        "label": "Popüler",
+        "features_title": "Çekirdek dağıtım özellikleri",
+        "features": [
+          "5 adede kadar aktif OpenClaw dağıtımı",
+          "Tek tıklamayla dağıtın, yeniden başlatın ve yeniden konuşlandırın",
+          "Model ve kanal yapılandırması ön ayarları",
+          "Dağıtım durumu kontrol paneli",
+          "Temel kullanım analitiği",
+          "E-posta desteği",
+          "Ticari kullanım",
+          "Yeni dağıtım özelliklerine erişim"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5$",
+        "original_price": "Orijinal Fiyat: 10$ /ay",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Pro'yu edinin",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Yıllık",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "prim",
+        "features_title": "Pro'daki her şeye ek olarak",
+        "features": [
+          "20'ye kadar aktif OpenClaw dağıtımı",
+          "Öncelikli sağlama kuyruğu",
+          "Yeniden kullanılabilir model ve kanal ön ayarları",
+          "Dağıtım durumu için web kancası uyarıları",
+          "Ekip erişimi (3 üyeye kadar)",
+          "API erişimi",
+          "Öncelikli destek",
+          "Beta özelliklerine erken erişim"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10$",
+        "original_price": "Orijinal Fiyat: 20$ /ay",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Premium'u Alın",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premium Yıllık",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

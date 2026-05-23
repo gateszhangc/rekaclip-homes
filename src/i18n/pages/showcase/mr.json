@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "OpenClaw वापरकर्त्यांकडून OpenClaw उपयोजन उदाहरणे",
+    "description": "समर्थन, ऑपरेशन्स आणि अंतर्गत कार्यप्रवाहांसाठी कार्यसंघ OpenClaw सहाय्यक कसे लाँच करतात ते पहा.",
+    "items": [
+      {
+        "title": "ग्राहक समर्थन सहाय्यक लाँच",
+        "description": "काही मिनिटांत मॉडेल फॉलबॅकसह Telegram सपोर्ट बॉट तैनात केला",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "विक्री फॉलो-अप ऑटोमेशन",
+        "description": "पात्रता मिळवण्यासाठी OpenClaw सेट करा आणि फॉलो-अप उत्तरे तयार करा",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "अंतर्गत ऑपरेशन्स नोटिफायर",
+        "description": "ऑप्स इव्हेंट्स आणि घटनांबद्दल संघांना सतर्क करण्यासाठी OpenClaw कनेक्ट केले",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "मल्टी-चॅनेल समुदाय सहाय्यक",
+        "description": "Telegram, Discord आणि WhatsApp वर समान सहाय्यक आणले",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "साप्ताहिक अहवाल वर्कफ्लो",
+        "description": "दर शुक्रवारी व्यवस्थापकांसाठी स्वयंचलित सारांश अहवाल",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "ऑनबोर्डिंग सहपायलट",
+        "description": "नवीन नियुक्तीसाठी पहिल्या आठवड्याचे मार्गदर्शन आणि उत्तरे वितरित केली",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "लीड पात्रता बॉट",
+        "description": "कॅप्चर केलेले इनबाउंड प्रश्न आणि उच्च हेतूने विक्रीकडे नेले",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "उत्पादन अभिप्राय कलेक्टर",
+        "description": "वर्गीकृत वापरकर्ता फीडबॅक आणि उत्पादन कार्यसंघांसाठी व्युत्पन्न केलेल्या क्रिया आयटम",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

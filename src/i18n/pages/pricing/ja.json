@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "価格設定",
+    "title": "価格設定",
+    "description": "必要な OpenClaw 展開の数に基づいてプランを選択してください。アカウントからいつでもキャンセルできます。",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "毎月",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "毎年",
+        "is_featured": true,
+        "label": "50% 節約"
+      }
+    ],
+    "items": [
+      {
+        "title": "スターター",
+        "label": "早期アクセス",
+        "description": "OpenClaw を実行するために必要なものすべて。あなたがやらないことは何もありません。",
+        "features_title": "無料トライアルが含まれています",
+        "features": [
+          "フルマネージド OpenClaw ランタイム",
+          "Telegram 対応エージェント",
+          "ゼロセットアップ",
+          "1 OpenClaw エージェント",
+          "Claude、ChatGPT、または Gemini - 私たちがあなたのためにそれを実行します",
+          "API キーは必要ありません",
+          "プランごとに使用量が含まれます。いつでもキャンセルできます。"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10ドル",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "無料でお試しください。クレジットカードは必要ありません。",
+        "button": {
+          "title": "OpenClaw を即座に実行する",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw スターターマンスリー",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "プロ",
+        "label": "人気のある",
+        "features_title": "コア展開機能",
+        "features": [
+          "最大 5 つのアクティブな OpenClaw 導入",
+          "ワンクリックでデプロイ、再起動、再デプロイ",
+          "モデルとチャンネル構成のプリセット",
+          "導入ステータスダッシュボード",
+          "基本的な使用状況分析",
+          "電子メールサポート",
+          "商用利用",
+          "新しい導入機能へのアクセス"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20ドル",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "プロになる",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw プロ マンスリー",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "スターター",
+        "label": "早期アクセス",
+        "description": "OpenClaw を実行するために必要なものすべて。あなたがやらないことは何もありません。",
+        "features_title": "無料トライアルが含まれています",
+        "features": [
+          "フルマネージド OpenClaw ランタイム",
+          "Telegram 対応エージェント",
+          "ゼロセットアップ",
+          "1 OpenClaw エージェント",
+          "Claude、ChatGPT、または Gemini - 私たちがあなたのためにそれを実行します",
+          "API キーは必要ありません",
+          "プランごとに使用量が含まれます。いつでもキャンセルできます。"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5ドル",
+        "original_price": "元の価格: $10 /月",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "無料でお試しください。クレジットカードは必要ありません。",
+        "button": {
+          "title": "OpenClaw を即座に実行する",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw スターター (毎年)",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "プロ",
+        "label": "人気のある",
+        "features_title": "コア展開機能",
+        "features": [
+          "最大 5 つのアクティブな OpenClaw 導入",
+          "ワンクリックでデプロイ、再起動、再デプロイ",
+          "モデルとチャンネル構成のプリセット",
+          "導入ステータスダッシュボード",
+          "基本的な使用状況分析",
+          "電子メールサポート",
+          "商用利用",
+          "新しい導入機能へのアクセス"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10ドル",
+        "original_price": "元の価格: $20 /月",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "プロになる",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro 毎年",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Retourneur d'images",
+    "description": "Téléchargez une image pour une inversion et une amélioration professionnelles des couleurs",
+    "disabled": false,
+    "upload": {
+      "title": "Glissez-déposez une image",
+      "description": "Prend en charge PNG, JPG, JPEG, WebP jusqu'à 10 Mo",
+      "buttonText": "Choisissez un fichier",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Image nette",
+      "textListTitle": "Zones de texte détectées",
+      "fontRecommendationTitle": "Suggestions de suppression",
+      "detectedFontLabel": "Zone sélectionnée",
+      "similarFontsLabel": "Remplissages alternatifs",
+      "selectTextPrompt": "Sélectionnez un bloc de texte à supprimer"
+    },
+    "actions": {
+      "reuploadText": "Re-télécharger"
+    },
+    "messages": {
+      "uploadSuccess": "Image téléchargée avec succès",
+      "uploadError": "Échec du téléchargement de l'image",
+      "recognitionSuccess": "Détection terminée",
+      "recognitionError": "Échec de la détection",
+      "fontRecognitionSuccess": "Suppression du texte terminée",
+      "fontRecognitionError": "Échec de la suppression du texte",
+      "processing": "Traitement..."
+    }
+  }
+}

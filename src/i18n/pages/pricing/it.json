@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Prezzi",
+    "title": "Prezzi",
+    "description": "Scegli un piano in base al numero di implementazioni OpenClaw di cui hai bisogno. Annulla in qualsiasi momento dal tuo account.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Mensile",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Ogni anno",
+        "is_featured": true,
+        "label": "Risparmia il 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Antipasto",
+        "label": "ACCESSO ANTICIPATO",
+        "description": "Tutto ciò di cui hai bisogno per eseguire OpenClaw. Niente che non lo fai.",
+        "features_title": "Prova gratuita inclusa",
+        "features": [
+          "Runtime OpenClaw completamente gestito",
+          "Agente pronto per Telegram",
+          "Configurazione zero",
+          "1 agente OpenClaw",
+          "Claude, ChatGPT o Gemini: lo eseguiamo per te",
+          "Non è richiesta la chiave API",
+          "Utilizzo incluso per piano. Annulla in qualsiasi momento."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$ 10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Prova gratuitamente. Nessuna carta di credito richiesta.",
+        "button": {
+          "title": "Esegui OpenClaw immediatamente",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Mensile iniziale",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Popolare",
+        "features_title": "Funzionalità di distribuzione principali",
+        "features": [
+          "Fino a 5 distribuzioni OpenClaw attive",
+          "Distribuisci, riavvia e ridistribuisci con un clic",
+          "Preimpostazioni di configurazione del modello e del canale",
+          "Dashboard sullo stato della distribuzione",
+          "Analisi di utilizzo di base",
+          "Supporto via e-mail",
+          "Utilizzo commerciale",
+          "Accesso a nuove funzionalità di distribuzione"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$ 20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Ottieni professionista",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro mensile",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Antipasto",
+        "label": "ACCESSO ANTICIPATO",
+        "description": "Tutto ciò di cui hai bisogno per eseguire OpenClaw. Niente che non lo fai.",
+        "features_title": "Prova gratuita inclusa",
+        "features": [
+          "Runtime OpenClaw completamente gestito",
+          "Agente pronto per Telegram",
+          "Configurazione zero",
+          "1 agente OpenClaw",
+          "Claude, ChatGPT o Gemini: lo eseguiamo per te",
+          "Non è richiesta la chiave API",
+          "Utilizzo incluso per piano. Annulla in qualsiasi momento."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$ 5",
+        "original_price": "Prezzo originale: $ 10 / mese",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Prova gratuitamente. Nessuna carta di credito richiesta.",
+        "button": {
+          "title": "Esegui OpenClaw immediatamente",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Avviatore annuale",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Popolare",
+        "features_title": "Funzionalità di distribuzione principali",
+        "features": [
+          "Fino a 5 distribuzioni OpenClaw attive",
+          "Distribuisci, riavvia e ridistribuisci con un clic",
+          "Preimpostazioni di configurazione del modello e del canale",
+          "Dashboard sullo stato della distribuzione",
+          "Analisi di utilizzo di base",
+          "Supporto via e-mail",
+          "Utilizzo commerciale",
+          "Accesso a nuove funzionalità di distribuzione"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$ 10",
+        "original_price": "Prezzo originale: $ 20 / mese",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Ottieni professionista",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Annualmente",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

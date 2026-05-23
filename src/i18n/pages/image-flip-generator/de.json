@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "Bildflipper",
+    "description": "Drehen Sie Bilder in professioneller Qualität horizontal oder vertikal",
+    "disabled": false,
+    "upload": {
+      "title": "Ziehen Sie ein Bild per Drag & Drop",
+      "description": "Unterstützt PNG, JPG, JPEG, WebP bis zu 10 MB",
+      "buttonText": "Durchsuchen Sie Dateien",
+      "dragDropText": "Löschen, einfügen oder fügen Sie eine URL hinzu",
+      "selectFileText": "Wählen Sie eine Bilddatei aus",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "Bereit zum Umdrehen.",
+      "replace": "Ersetzen",
+      "remove": "Entfernen"
+    },
+    "controls": {
+      "horizontalFlip": "Horizontal spiegeln",
+      "verticalFlip": "Vertikal spiegeln",
+      "processing": "Wird bearbeitet...",
+      "uploading": "Hochladen..."
+    },
+    "preview": {
+      "originalAlt": "Originalbild",
+      "flippedAlt": "Bild umgedreht",
+      "download": "Herunterladen"
+    },
+    "credits": {
+      "label": "Credits:",
+      "cost": "Kosten pro Flip:",
+      "insufficient": "Unzureichende Credits"
+    },
+    "errors": {
+      "noImage": "Kein Bild ausgewählt",
+      "noImageSuggestion": "Bitte laden Sie zuerst ein Bild hoch.",
+      "invalidFormat": "Nicht unterstütztes Dateiformat",
+      "formatSuggestion": "Bitte verwenden Sie eines von: {formats}",
+      "fileTooLarge": "Datei zu groß: {size}MB",
+      "sizeSuggestion": "Die maximale Größe beträgt {maxSize}MB. Bitte komprimieren Sie oder wählen Sie eine kleinere Datei.",
+      "uploadFailed": "Bild konnte nicht hochgeladen werden",
+      "uploadSuggestion": "Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "authRequired": "Authentifizierung erforderlich",
+      "authSuggestion": "Bitte melden Sie sich an, um Bilder hochzuladen.",
+      "processingFailed": "Der Flip-Vorgang ist fehlgeschlagen",
+      "processingSuggestion": "Bitte versuchen Sie es erneut oder wenden Sie sich an den Support, wenn das Problem weiterhin besteht.",
+      "networkError": "Problem mit der Netzwerkverbindung",
+      "networkSuggestion": "Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+      "fileReadError": "Datei konnte nicht gelesen werden",
+      "fileReadSuggestion": "Bitte versuchen Sie erneut, die Datei auszuwählen.",
+      "retry": "Versuchen Sie es noch einmal"
+    },
+    "messages": {
+      "uploadSuccess": "Bild erfolgreich hochgeladen",
+      "flipSuccess": "Das Bild wurde erfolgreich gespiegelt",
+      "downloadStarted": "Download gestartet"
+    },
+    "legal": {
+      "terms": "Durch das Hochladen einer Datei stimmen Sie unseren Nutzungsbedingungen und Datenschutzrichtlinien zu."
+    }
+  }
+}

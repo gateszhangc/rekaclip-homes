@@ -1,0 +1,6 @@
+workerOnly:
+  requiredHostnames:
+    - vmi3202158
+    - vmi3202159
+    - vmi3202160
+  preferOperator: vmi3202159

@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "ราคา",
+    "title": "ราคา",
+    "description": "เลือกแผนตามจำนวนการใช้งาน OpenClaw ที่คุณต้องการ ยกเลิกได้ตลอดเวลาจากบัญชีของคุณ",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "รายเดือน",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "เป็นประจำทุกปี",
+        "is_featured": true,
+        "label": "ประหยัด 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "สตาร์ทเตอร์",
+        "label": "การเข้าถึงก่อน",
+        "description": "ทุกสิ่งที่คุณต้องการเพื่อรัน OpenClaw ไม่มีอะไรที่คุณทำไม่ได้",
+        "features_title": "รวมการทดลองใช้ฟรี",
+        "features": [
+          "รันไทม์ OpenClaw ที่มีการจัดการเต็มรูปแบบ",
+          "ตัวแทนพร้อม Telegram",
+          "การตั้งค่าเป็นศูนย์",
+          "ตัวแทน OpenClaw 1 ราย",
+          "Claude, ChatGPT หรือ Gemini - เราดำเนินการเพื่อคุณ",
+          "ไม่จำเป็นต้องมีคีย์ API",
+          "รวมการใช้งานต่อแผน ยกเลิกได้ตลอดเวลา"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "ลองฟรี ไม่ต้องใช้บัตรเครดิต",
+        "button": {
+          "title": "เรียกใช้ OpenClaw ทันที",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw เริ่มต้นรายเดือน",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "โปร",
+        "label": "เป็นที่นิยม",
+        "features_title": "คุณสมบัติการใช้งานหลัก",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานได้สูงสุด 5 รายการ",
+          "ปรับใช้ รีสตาร์ท และปรับใช้ใหม่ได้ในคลิกเดียว",
+          "การตั้งค่ารูปแบบและการกำหนดค่าช่องสัญญาณล่วงหน้า",
+          "แดชบอร์ดสถานะการใช้งาน",
+          "การวิเคราะห์การใช้งานขั้นพื้นฐาน",
+          "การสนับสนุนทางอีเมล",
+          "การใช้งานเชิงพาณิชย์",
+          "เข้าถึงคุณลักษณะการปรับใช้ใหม่"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 ดอลลาร์",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "รับโปร",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw โปรรายเดือน",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "สตาร์ทเตอร์",
+        "label": "การเข้าถึงก่อน",
+        "description": "ทุกสิ่งที่คุณต้องการเพื่อรัน OpenClaw ไม่มีอะไรที่คุณทำไม่ได้",
+        "features_title": "รวมการทดลองใช้ฟรี",
+        "features": [
+          "รันไทม์ OpenClaw ที่มีการจัดการเต็มรูปแบบ",
+          "ตัวแทนพร้อม Telegram",
+          "การตั้งค่าเป็นศูนย์",
+          "ตัวแทน OpenClaw 1 ราย",
+          "Claude, ChatGPT หรือ Gemini - เราดำเนินการเพื่อคุณ",
+          "ไม่จำเป็นต้องมีคีย์ API",
+          "รวมการใช้งานต่อแผน ยกเลิกได้ตลอดเวลา"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "ราคาเดิม: $10 /เดือน",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "ลองฟรี ไม่ต้องใช้บัตรเครดิต",
+        "button": {
+          "title": "เรียกใช้ OpenClaw ทันที",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw เริ่มต้นทุกปี",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "โปร",
+        "label": "เป็นที่นิยม",
+        "features_title": "คุณสมบัติการใช้งานหลัก",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานได้สูงสุด 5 รายการ",
+          "ปรับใช้ รีสตาร์ท และปรับใช้ใหม่ได้ในคลิกเดียว",
+          "การตั้งค่ารูปแบบและการกำหนดค่าช่องสัญญาณล่วงหน้า",
+          "แดชบอร์ดสถานะการใช้งาน",
+          "การวิเคราะห์การใช้งานขั้นพื้นฐาน",
+          "การสนับสนุนทางอีเมล",
+          "การใช้งานเชิงพาณิชย์",
+          "เข้าถึงคุณลักษณะการปรับใช้ใหม่"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "ราคาเดิม: $20 /เดือน",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "รับโปร",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro เป็นประจำทุกปี",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

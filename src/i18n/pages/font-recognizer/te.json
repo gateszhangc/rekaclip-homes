@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "చిత్రం ఫ్లిప్పర్",
+    "description": "వృత్తిపరమైన రంగు విలోమం మరియు మెరుగుదల కోసం చిత్రాన్ని అప్‌లోడ్ చేయండి",
+    "disabled": false,
+    "upload": {
+      "title": "చిత్రాన్ని లాగండి & వదలండి",
+      "description": "PNG, JPG, JPEG, WebP 10MB వరకు మద్దతు ఇస్తుంది",
+      "buttonText": "ఫైల్‌ను ఎంచుకోండి",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "క్లీన్ ఇమేజ్",
+      "textListTitle": "టెక్స్ట్ ప్రాంతాలు గుర్తించబడ్డాయి",
+      "fontRecommendationTitle": "తొలగింపు సూచనలు",
+      "detectedFontLabel": "ఎంచుకున్న ప్రాంతం",
+      "similarFontsLabel": "ప్రత్యామ్నాయ పూరకాలు",
+      "selectTextPrompt": "తీసివేయడానికి టెక్స్ట్ బ్లాక్‌ని ఎంచుకోండి"
+    },
+    "actions": {
+      "reuploadText": "మళ్లీ అప్‌లోడ్ చేయండి"
+    },
+    "messages": {
+      "uploadSuccess": "చిత్రం విజయవంతంగా అప్‌లోడ్ చేయబడింది",
+      "uploadError": "చిత్రాన్ని అప్‌లోడ్ చేయడంలో విఫలమైంది",
+      "recognitionSuccess": "గుర్తింపు పూర్తయింది",
+      "recognitionError": "గుర్తింపు విఫలమైంది",
+      "fontRecognitionSuccess": "వచన తొలగింపు పూర్తయింది",
+      "fontRecognitionError": "వచనాన్ని తీసివేయడం విఫలమైంది",
+      "processing": "ప్రాసెస్ చేస్తోంది..."
+    }
+  }
+}

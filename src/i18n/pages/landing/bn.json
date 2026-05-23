@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "বৈশিষ্ট্য",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "মূল্য নির্ধারণ",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "ব্লগ",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "FAQ",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw লোগো"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "উচ্চ-মানের শিল্প তৈরি করুন",
+    "description": "একটি প্রতিকৃতি আপলোড করুন, একটি শৈলী চয়ন করুন এবং অবতার, উপহার বা সামগ্রীর জন্য একটি পরিষ্কার ক্যারিকেচার পান৷",
+    "features": [
+      "উচ্চ মানের বিশদ এবং পরিষ্কার লাইন",
+      "দৈনন্দিন ব্যবহারের জন্য ন্যায্য মূল্য",
+      "প্রোফাইল, উপহার, এবং প্রিন্ট জন্য প্রস্তুত"
+    ],
+    "buttons": [
+      {
+        "title": "আমার ক্যারিকেচার তৈরি করুন",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "ক্যারিকেচার উদাহরণ"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "ক্যারিকেচার উদাহরণ ১"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "ব্যঙ্গচিত্র উদাহরণ 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "ব্যঙ্গচিত্র উদাহরণ 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "উন্নত প্রযুক্তি দ্বারা চালিত",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "সত্য",
+    "name": "introduce",
+    "title": "কিভাবে একটি ব্যঙ্গচিত্র করা",
+    "label": "সহজ প্রক্রিয়া",
+    "description": "তিনটি সহজ ধাপে অত্যাশ্চর্য ক্যারিকেচার তৈরি করুন। কোন শৈল্পিক দক্ষতা প্রয়োজন.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "ছবি আপলোড করুন",
+        "description": "একটি পরিষ্কার প্রতিকৃতি ছবি আপলোড করুন. আমরা JPG, PNG, এবং WebP সমর্থন করি।",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "শৈলী চয়ন করুন",
+        "description": "মজার, অতিরঞ্জিত, এনিমে বা 3D কার্টুন শৈলী থেকে নির্বাচন করুন।",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "ডাউনলোড করুন",
+        "description": "জলছাপ ছাড়াই অবিলম্বে আপনার উচ্চ-মানের ক্যারিকেচার পান।",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "সত্য",
+    "name": "benefit",
+    "title": "কেন OpenClaw ব্যবহার করবেন?",
+    "label": "সুবিধা",
+    "description": "উপহার, প্রোফাইল ছবি এবং সোশ্যাল মিডিয়া কন্টেন্টের জন্য নিখুঁত টুল।",
+    "items": [
+      {
+        "title": "ইনস্ট্যান্ট এআই ম্যাজিক",
+        "description": "অ্যাডভান্সড এআই সেকেন্ডের মধ্যে নিখুঁতভাবে অতিরঞ্জিত ক্যারিকেচার তৈরি করতে মুখের বৈশিষ্ট্যগুলি বিশ্লেষণ করে।",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "বিভিন্ন শিল্প শৈলী",
+        "description": "ক্লাসিক হাতে আঁকা চেহারা থেকে আধুনিক 3D অ্যানিমেটেড অবতার পর্যন্ত। আমরা এটা সব আছে.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "উচ্চ রেজোলিউশন",
+        "description": "মগ, টি-শার্ট এবং পোস্টারে মুদ্রণের জন্য উপযুক্ত খাস্তা, উচ্চ-মানের ছবি ডাউনলোড করুন।",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "গ্যালারি",
+    "title": "আশ্চর্যজনক রূপান্তর",
+    "description": "দেখুন কিভাবে সাধারণ ছবি অসাধারণ ব্যঙ্গচিত্র হয়ে ওঠে।",
+    "items": [
+      {
+        "title": "সামাজিক অবতার",
+        "highlight": "অনলাইনে দাঁড়ানো",
+        "description": "একটি অনন্য প্রোফাইল ছবি তৈরি করুন যা আপনার ব্যক্তিত্বকে ক্যাপচার করে।",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "আসল ছবি",
+        "afterAlt": "ক্যারিকেচার ফলাফল",
+        "reverse": false
+      },
+      {
+        "title": "ব্যক্তিগতকৃত উপহার",
+        "highlight": "স্মরণীয় উপহার",
+        "description": "একটি কাস্টম মজার প্রতিকৃতি দিয়ে বন্ধু এবং পরিবারকে চমকে দিন।",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "আসল ছবি",
+        "afterAlt": "ক্যারিকেচার ফলাফল",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw স্থাপনের 3টি ধাপ",
+    "description": "আপনার মডেল বাছুন, একটি চ্যানেল সংযোগ করুন এবং লঞ্চ করুন।",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "বাম",
+    "text_align": "কেন্দ্র",
+    "items": [
+      {
+        "title": "একটি মডেল চয়ন করুন",
+        "description": "Claude, GPT, Gemini — প্রতিটি কাজের জন্য সেরা মডেল বেছে নিন। Claude এর সাথে সৃজনশীল কাজ, GPT এর সাথে বিশ্লেষণ। যে কোনো সময় পরিবর্তন করুন।",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI মডেল বেছে নিন - Claude, GPT, বা Gemini"
+        }
+      },
+      {
+        "title": "একটি চ্যানেল সংযুক্ত করুন",
+        "description": "Telegram, Discord, WhatsApp — সমস্ত চ্যানেলের জন্য একটি ড্যাশবোর্ড। এক জায়গা থেকে সমস্ত কথোপকথন পরিচালনা করুন, আর কোনো অ্যাপ পাল্টানো যাবে না।",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "মেসেজিং চ্যানেল সংযুক্ত করুন"
+        }
+      },
+      {
+        "title": "স্থাপন এবং শুরু",
+        "description": "আপনার AI সহকারী 60 সেকেন্ডের মধ্যে অনলাইন। আপনার প্রথম বার্তা পাঠান এবং স্বয়ংক্রিয় শুরু করুন.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "আপনার সহকারী স্থাপন করুন এবং শুরু করুন"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "আপনার ক্যারিকেচার তৈরি করুন",
+    "description": "একটি ফটো আপলোড করুন, একটি শৈলী চয়ন করুন এবং তৈরি করুন৷"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "ক্যারিকেচার স্টুডিও",
+    "description": "একটি ফটো আপলোড করুন, একটি শৈলী চয়ন করুন এবং একটি উচ্চ-মানের ক্যারিকেচার তৈরি করুন৷",
+    "disabled": false,
+    "upload": {
+      "title": "আপনার ছবি আপলোড করুন",
+      "description": "টেনে আনুন এবং আপলোড করতে ক্লিক করুন (JPG, PNG, WebP 10MB পর্যন্ত)",
+      "buttonText": "ছবি নির্বাচন করুন",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "আপনার ব্যঙ্গচিত্র",
+      "textListTitle": "শৈলী সেটিংস",
+      "fontRecommendationTitle": "প্রস্তাবিত শৈলী",
+      "detectedFontLabel": "বর্তমান পছন্দ",
+      "similarFontsLabel": "এইগুলিও চেষ্টা করুন",
+      "selectTextPrompt": "প্রয়োগ করার জন্য একটি শৈলী নির্বাচন করুন"
+    },
+    "actions": {
+      "reuploadText": "অন্য ফটো চেষ্টা করুন"
+    },
+    "messages": {
+      "uploadSuccess": "ফটো সফলভাবে আপলোড করা হয়েছে!",
+      "uploadError": "ওহো, আপলোড ব্যর্থ হয়েছে৷ আবার চেষ্টা করুন.",
+      "recognitionSuccess": "আপনার ব্যঙ্গচিত্র প্রস্তুত!",
+      "recognitionError": "জেনারেশন ব্যর্থ হয়েছে। আবার চেষ্টা করুন.",
+      "fontRecognitionSuccess": "শৈলী প্রয়োগ!",
+      "fontRecognitionError": "শৈলী প্রয়োগ করতে ব্যর্থ হয়েছে৷",
+      "processing": "আপনার ব্যঙ্গচিত্র তৈরি করা হচ্ছে..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "ঝামেলাকে বিদায় জানান",
+    "description": "আপনি EasyClaw এ স্যুইচ করলে কী পরিবর্তন হয় তা দেখুন",
+    "before_label": "ঐতিহ্যগত সেটআপ",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "সার্ভার ভাড়া করুন, পরিবেশ কনফিগার করুন",
+        "after": "এক-ক্লিক স্থাপনা, কোনো সার্ভারের প্রয়োজন নেই"
+      },
+      {
+        "before": "3 AM সতর্কতা ঠিক করতে ঘুম থেকে উঠুন",
+        "after": "24/7 স্বয়ংক্রিয় অপারেশন"
+      },
+      {
+        "before": "ম্যানুয়ালি OpenClaw সংস্করণ আপডেট করুন",
+        "after": "সর্বশেষ সংস্করণে স্বয়ংক্রিয় আপডেট"
+      },
+      {
+        "before": "ডকার, লিনাক্স কমান্ড শিখুন",
+        "after": "শূন্য প্রযুক্তিগত দক্ষতা প্রয়োজন"
+      },
+      {
+        "before": "প্রতি স্থাপনার জন্য 30+ মিনিট",
+        "after": "60 সেকেন্ডের মধ্যে স্থাপন করুন"
+      }
+    ],
+    "footer": "সময় সংরক্ষিত: প্রতি স্থাপনার জন্য ~29 মিনিট"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "কেন দল EasyClaw বেছে নেয়",
+    "description": "DevOps ওভারহেড ছাড়াই উৎপাদন-প্রস্তুত স্থাপনা। শূন্য রক্ষণাবেক্ষণ, সর্বোচ্চ ফোকাস।",
+    "items": [
+      {
+        "title": "60 সেকেন্ডের মধ্যে স্থাপন করুন",
+        "description": "শূন্য থেকে এক মিনিটের নিচে দৌড়ানো। কোনও ডকার নেই, কোনও লিনাক্স কমান্ড নেই, কোনও সার্ভার সেটআপ নেই।",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "জিরো রক্ষণাবেক্ষণ",
+        "description": "আমরা আপডেট, পর্যবেক্ষণ এবং পুনরুদ্ধার পরিচালনা করি। আপনি শুধু আপনার এআই সহকারী ব্যবহার করার উপর ফোকাস করুন।",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "মডেল নমনীয়তা",
+        "description": "Claude, GPT, এবং Gemini যেকোন সময় পাল্টান। প্রতিটি কাজের জন্য সেরা মডেল ব্যবহার করুন.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "ইউনিফাইড চ্যানেল",
+        "description": "একটি ড্যাশবোর্ড থেকে Telegram, Discord, এবং WhatsApp পরিচালনা করুন। আর কোন স্যুইচিং অ্যাপ নেই।",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "সবসময় আপ টু ডেট",
+        "description": "স্বয়ংক্রিয় OpenClaw আপডেট। আঙুল না তুলে সর্বদা লেটেস্ট ফিচার ব্যবহার করুন।",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "আত্মবিশ্বাসের সাথে স্কেল করুন",
+        "description": "একাকী শুরু করুন, তারপরে দল জুড়ে ব্যবহার বাড়ান এবং কেস ব্যবহার করুন। 1 থেকে 100 স্থাপনা থেকে।",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "যেকোন কর্মপ্রবাহের জন্য OpenClaw স্থাপন করুন",
+    "description": "একজন সহকারী, অনেক ব্যবহার ক্ষেত্রে। একবার চালু করুন, সর্বত্র স্বয়ংক্রিয় করুন।",
+    "items": [
+      {
+        "title": "দৈনিক ব্রিফিং",
+        "description": "আপনার দলের জন্য একটি সংক্ষিপ্ত সকালের সংক্ষিপ্ত বার্তা এবং আপডেট পরিণত করুন.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "দৈনিক ব্রিফিং অটোমেশন ওয়ার্কফ্লো"
+        },
+        "buttons": [
+          {
+            "title": "আরও জানুন ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "গ্রাহক সহায়তা সহকারী",
+        "description": "রুট প্রশ্ন, খসড়া উত্তর, এবং সমর্থন চ্যানেল প্রতিক্রিয়াশীল রাখা.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "গ্রাহক সমর্থন অটোমেশন কর্মপ্রবাহ"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "স্থাপন করা শুরু করুন ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "টিম অপস অটোমেশন",
+        "description": "চ্যানেল জুড়ে স্বয়ংক্রিয় অনুস্মারক, স্থিতি প্রতিবেদন এবং রুটিন ফলো-আপ।",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "টিম অপারেশন অটোমেশন ওয়ার্কফ্লো"
+        },
+        "buttons": [
+          {
+            "title": "মূল্য দেখুন ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "মিথ্যা",
+    "name": "stats",
+    "label": "হাইলাইট",
+    "title": "দ্রুত লঞ্চের জন্য নির্মিত",
+    "description": "OpenClaw নির্ভরযোগ্যভাবে চালানোর জন্য প্রয়োজনীয় সবকিছু।",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "প্রথম স্থাপন করার সময়",
+        "label": "< 1 মিনিট",
+        "description": "সেটআপ থেকে চলমান সহকারী পর্যন্ত"
+      },
+      {
+        "title": "সমর্থিত চ্যানেল",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "স্থাপনার দৃশ্যমানতা",
+        "label": "রিয়েল-টাইম",
+        "description": "ট্র্যাক চলমান এবং ব্যর্থ রাষ্ট্র"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "রিভিউ",
+    "title": "ব্যবহারকারীরা কি বলছে",
+    "description": "দেখুন কেন সবাই OpenClaw নিয়ে কথা বলছে।",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "সারা জেনকিন্স",
+        "label": "সোশ্যাল মিডিয়া ম্যানেজার",
+        "description": "আমি আমাদের সম্পর্কে পৃষ্ঠার জন্য একটি হাসিখুশি দলের ছবি তৈরি করেছি। সবাই এটা পছন্দ করেছে!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "মাইক রস",
+        "label": "ফ্রিল্যান্সার",
+        "description": "আমার ফ্রিল্যান্স প্রোফাইলের জন্য একটি অনন্য অবতার তৈরি করতে এটি ব্যবহার করেছি। এটা দাঁড়িয়েছে আউট!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "এমিলি চেন",
+        "label": "ছাত্র",
+        "description": "জন্মদিনের কার্ডের জন্য আমার সমস্ত বন্ধুদের ব্যঙ্গচিত্র তৈরি করেছি। সর্বকালের সেরা উপহার।",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "ডেভিড মিলার",
+        "label": "বিষয়বস্তু নির্মাতা",
+        "description": "বিভিন্ন শৈলী আশ্চর্যজনক. আমি আমার থাম্বনেইলের জন্য 3D শৈলী ব্যবহার করি।",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "জেসিকা ওং",
+        "label": "মার্কেটিং লিড",
+        "description": "দ্রুত, সহজ, এবং ফলাফল আসলে মজার, শুধু অদ্ভুত নয়।",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "টম বেকার",
+        "label": "বিকাশকারী",
+        "description": "সুপার সহজ API এবং আমার পোষা প্রকল্পের জন্য দুর্দান্ত ফলাফল।",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "FAQ",
+    "title": "সাধারণ প্রশ্ন",
+    "description": "EasyClaw এর সাথে OpenClaw মোতায়েন করার আগে আপনার যা কিছু দরকার।",
+    "items": [
+      {
+        "title": "EasyClaw খরচ কত?",
+        "description": "পরিকল্পনা $10/মাস থেকে শুরু হয়। আপনার অ্যাকাউন্ট থেকে যেকোনো সময় বাতিল করুন।"
+      },
+      {
+        "title": "আমার কি সার্ভার পরিচালনা করতে হবে?",
+        "description": "না। EasyClaw ডিপ্লয়মেন্ট ওয়ার্কফ্লোকে স্ট্রীমলাইন করে যাতে আপনি সার্ভার বা DevOps ছাড়াই OpenClaw চালু করতে পারেন।"
+      },
+      {
+        "title": "কোন মডেল সমর্থিত?",
+        "description": "Claude, GPT, এবং Gemini।"
+      },
+      {
+        "title": "আমি কি একাধিক চ্যানেলে স্থাপন করতে পারি?",
+        "description": "হ্যাঁ। Telegram, Discord, এবং WhatsApp সমর্থিত।"
+      },
+      {
+        "title": "এটি স্থাপন করতে কতক্ষণ সময় লাগে?",
+        "description": "সাধারণত 1 মিনিটের নিচে। প্রথমবার সেটআপ করতে একটু বেশি সময় লাগতে পারে।"
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw চালু করতে প্রস্তুত?",
+    "description": "এক মিনিটের মধ্যে আপনার প্রথম সহকারীকে মোতায়েন করুন। কোন সার্ভার নেই, কোন রক্ষণাবেক্ষণ নেই, কোন শেখার বক্ররেখা নেই।",
+    "note": "যেকোনো সময় বাতিল করুন। দীর্ঘমেয়াদী চুক্তি নেই।",
+    "buttons": [
+      {
+        "title": "OpenClaw স্থাপন করুন",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI সহকারী স্থাপন করার সবচেয়ে সহজ উপায়।",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. সর্বস্বত্ব সংরক্ষিত",
+    "nav": {
+      "items": [
+        {
+          "title": "সম্পর্কে",
+          "children": [
+            {
+              "title": "বৈশিষ্ট্য",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "মূল্য নির্ধারণ",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "ব্লগ",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "ইমেল সমর্থন",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw একটি স্বাধীন পণ্য এবং এটি কোনো তৃতীয় পক্ষের মডেল প্রদানকারী বা ট্রেডমার্ক মালিকদের সাথে অনুমোদিত নয়।",
+    "agreement": {
+      "items": [
+        {
+          "title": "গোপনীয়তা নীতি",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "পরিষেবার শর্তাবলী",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "ফেরত নীতি",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "মূল্য নির্ধারণ",
+    "title": "মূল্য নির্ধারণ",
+    "description": "আপনার কতগুলি OpenClaw স্থাপনার প্রয়োজন তার উপর ভিত্তি করে একটি পরিকল্পনা চয়ন করুন৷ আপনার অ্যাকাউন্ট থেকে যেকোনো সময় বাতিল করুন।",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "মাসিক",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "বার্ষিক",
+        "is_featured": true,
+        "label": "50% সংরক্ষণ করুন"
+      }
+    ],
+    "items": [
+      {
+        "title": "প্রো",
+        "label": "জনপ্রিয়",
+        "features_title": "মূল স্থাপনার বৈশিষ্ট্য",
+        "features": [
+          "5টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "এক-ক্লিক ডিপ্লয়, রিস্টার্ট এবং রিডিপ্লয়",
+          "মডেল এবং চ্যানেল কনফিগারেশন প্রিসেট",
+          "স্থাপনার স্থিতি ড্যাশবোর্ড",
+          "মৌলিক ব্যবহার বিশ্লেষণ",
+          "ইমেল সমর্থন",
+          "বাণিজ্যিক ব্যবহার",
+          "নতুন স্থাপনার বৈশিষ্ট্যগুলিতে অ্যাক্সেস"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "প্রো পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro মাসিক",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "প্রিমিয়াম",
+        "features_title": "প্রো, প্লাস সবকিছু",
+        "features": [
+          "20টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "অগ্রাধিকার বিধান সারি",
+          "পুনরায় ব্যবহারযোগ্য মডেল এবং চ্যানেল প্রিসেট",
+          "স্থাপনার স্থিতির জন্য ওয়েবহুক সতর্কতা",
+          "টিম অ্যাক্সেস (3 সদস্য পর্যন্ত)",
+          "API অ্যাক্সেস",
+          "অগ্রাধিকার সমর্থন",
+          "বিটা বৈশিষ্ট্যের প্রাথমিক অ্যাক্সেস"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "প্রিমিয়াম পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw প্রিমিয়াম মাসিক",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "প্রো",
+        "label": "জনপ্রিয়",
+        "features_title": "মূল স্থাপনার বৈশিষ্ট্য",
+        "features": [
+          "5টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "এক-ক্লিক ডিপ্লয়, রিস্টার্ট এবং রিডিপ্লয়",
+          "মডেল এবং চ্যানেল কনফিগারেশন প্রিসেট",
+          "স্থাপনার স্থিতি ড্যাশবোর্ড",
+          "মৌলিক ব্যবহার বিশ্লেষণ",
+          "ইমেল সমর্থন",
+          "বাণিজ্যিক ব্যবহার",
+          "নতুন স্থাপনার বৈশিষ্ট্যগুলিতে অ্যাক্সেস"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "আসল মূল্য: $10/মাস",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "প্রো পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro বার্ষিক",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "প্রিমিয়াম",
+        "features_title": "প্রো, প্লাস সবকিছু",
+        "features": [
+          "20টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "অগ্রাধিকার বিধান সারি",
+          "পুনরায় ব্যবহারযোগ্য মডেল এবং চ্যানেল প্রিসেট",
+          "স্থাপনার স্থিতির জন্য ওয়েবহুক সতর্কতা",
+          "টিম অ্যাক্সেস (3 সদস্য পর্যন্ত)",
+          "API অ্যাক্সেস",
+          "অগ্রাধিকার সমর্থন",
+          "বিটা বৈশিষ্ট্যের প্রাথমিক অ্যাক্সেস"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "আসল মূল্য: $20/মাস",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "প্রিমিয়াম পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw প্রিমিয়াম বার্ষিক",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

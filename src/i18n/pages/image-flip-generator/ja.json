@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "画像フリッパー",
+    "description": "プロの品質で画像を水平または垂直に反転します",
+    "disabled": false,
+    "upload": {
+      "title": "画像をドラッグ＆ドロップする",
+      "description": "最大 10MB の PNG、JPG、JPEG、WebP をサポート",
+      "buttonText": "ファイルを参照する",
+      "dragDropText": "URL をドロップ、ペースト、または追加します",
+      "selectFileText": "画像ファイルを選択してください",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "反転する準備ができました。",
+      "replace": "交換する",
+      "remove": "削除"
+    },
+    "controls": {
+      "horizontalFlip": "水平方向に反転",
+      "verticalFlip": "垂直方向に反転",
+      "processing": "処理中...",
+      "uploading": "アップロード中..."
+    },
+    "preview": {
+      "originalAlt": "元の画像",
+      "flippedAlt": "反転した画像",
+      "download": "ダウンロード"
+    },
+    "credits": {
+      "label": "クレジット:",
+      "cost": "フリップあたりのコスト:",
+      "insufficient": "クレジットが不十分です"
+    },
+    "errors": {
+      "noImage": "画像が選択されていません",
+      "noImageSuggestion": "まずは画像をアップロードしてください。",
+      "invalidFormat": "サポートされていないファイル形式です",
+      "formatSuggestion": "次のいずれかを使用してください: {formats}",
+      "fileTooLarge": "ファイルが大きすぎます: {size}MB",
+      "sizeSuggestion": "最大サイズは{maxSize}MBです。圧縮するか、より小さいファイルを選択してください。",
+      "uploadFailed": "画像のアップロードに失敗しました",
+      "uploadSuggestion": "接続を確認して、もう一度試してください。",
+      "authRequired": "認証が必要です",
+      "authSuggestion": "画像をアップロードするにはサインインしてください。",
+      "processingFailed": "反転操作が失敗しました",
+      "processingSuggestion": "問題が解決しない場合は、もう一度試すか、サポートにお問い合わせください。",
+      "networkError": "ネットワーク接続の問題",
+      "networkSuggestion": "接続を確認して、もう一度試してください。",
+      "fileReadError": "ファイルの読み取りに失敗しました",
+      "fileReadSuggestion": "もう一度ファイルを選択してください。",
+      "retry": "再試行"
+    },
+    "messages": {
+      "uploadSuccess": "画像が正常にアップロードされました",
+      "flipSuccess": "画像が正常に反転されました",
+      "downloadStarted": "ダウンロードが開始されました"
+    },
+    "legal": {
+      "terms": "ファイルをアップロードすると、利用規約とプライバシー ポリシーに同意したことになります。"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "ตัวอย่างการใช้งาน OpenClaw จากผู้ใช้ EasyClaw",
+    "description": "ดูวิธีที่ทีมเปิดตัวผู้ช่วย OpenClaw สำหรับการสนับสนุน การปฏิบัติงาน และเวิร์กโฟลว์ภายใน",
+    "items": [
+      {
+        "title": "เปิดตัวผู้ช่วยสนับสนุนลูกค้า",
+        "description": "ปรับใช้บอทสนับสนุน Telegram พร้อมโมเดลสำรองในไม่กี่นาที",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "ระบบอัตโนมัติติดตามการขาย",
+        "description": "ตั้งค่า OpenClaw เพื่อคัดเลือกลูกค้าเป้าหมายและร่างการตอบกลับเพื่อติดตามผล",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "การแจ้งเตือนการดำเนินงานภายใน",
+        "description": "เชื่อมต่อ OpenClaw เพื่อแจ้งเตือนทีมเกี่ยวกับเหตุการณ์ปฏิบัติการและเหตุการณ์ต่างๆ",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "ผู้ช่วยชุมชนหลายช่องทาง",
+        "description": "เปิดตัวผู้ช่วยเดียวกันใน Telegram, Discord และ WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "ขั้นตอนการทำงานการรายงานรายสัปดาห์",
+        "description": "รายงานสรุปอัตโนมัติสำหรับผู้จัดการทุกวันศุกร์",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "กำลังเริ่มต้นใช้งานนักบินอวกาศ",
+        "description": "ส่งมอบคำแนะนำและคำตอบในสัปดาห์แรกสำหรับผู้จ้างใหม่",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "บอทคุณสมบัตินำ",
+        "description": "บันทึกคำถามขาเข้าและกำหนดเส้นทางโอกาสในการขายที่มีความตั้งใจสูงไปสู่การขาย",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "ผู้รวบรวมคำติชมผลิตภัณฑ์",
+        "description": "จำแนกความคิดเห็นของผู้ใช้และสร้างรายการดำเนินการสำหรับทีมผลิตภัณฑ์",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Цены",
+    "title": "Цены",
+    "description": "Выберите план в зависимости от того, сколько развертываний OpenClaw вам нужно. Отмените в любое время со своего аккаунта.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Ежемесячно",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Ежегодно",
+        "is_featured": true,
+        "label": "Сэкономьте 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Стартер",
+        "label": "РАННИЙ ДОСТУП",
+        "description": "Все, что вам нужно для запуска OpenClaw. Ничего такого, чего бы ты не делал.",
+        "features_title": "Бесплатная пробная версия включена",
+        "features": [
+          "Полностью управляемая среда выполнения OpenClaw.",
+          "Агент, готовый к использованию Telegram",
+          "Нулевая настройка",
+          "1 агент OpenClaw",
+          "Claude, ChatGPT или Gemini — мы запустим его для вас",
+          "Ключ API не требуется.",
+          "Использование включено в план. Отменить в любое время."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 долларов",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Попробуйте бесплатно. Кредитная карта не требуется.",
+        "button": {
+          "title": "Запустите OpenClaw мгновенно",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Стартовый ежемесячно",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Про",
+        "label": "Популярный",
+        "features_title": "Основные функции развертывания",
+        "features": [
+          "До 5 активных развертываний OpenClaw",
+          "Развертывание, перезапуск и повторное развертывание одним щелчком мыши",
+          "Предварительные настройки конфигурации модели и канала",
+          "Панель мониторинга состояния развертывания",
+          "Базовая аналитика использования",
+          "Поддержка по электронной почте",
+          "Коммерческое использование",
+          "Доступ к новым функциям развертывания"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 долларов",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Стань профессионалом",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro ежемесячно",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Стартер",
+        "label": "РАННИЙ ДОСТУП",
+        "description": "Все, что вам нужно для запуска OpenClaw. Ничего такого, чего бы ты не делал.",
+        "features_title": "Бесплатная пробная версия включена",
+        "features": [
+          "Полностью управляемая среда выполнения OpenClaw.",
+          "Агент, готовый к использованию Telegram",
+          "Нулевая настройка",
+          "1 агент OpenClaw",
+          "Claude, ChatGPT или Gemini — мы запустим его для вас",
+          "Ключ API не требуется.",
+          "Использование включено в план. Отменить в любое время."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 долларов",
+        "original_price": "Первоначальная цена: 10 долларов США в месяц.",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Попробуйте бесплатно. Кредитная карта не требуется.",
+        "button": {
+          "title": "Запустите OpenClaw мгновенно",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Стартер Ежегодно",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Про",
+        "label": "Популярный",
+        "features_title": "Основные функции развертывания",
+        "features": [
+          "До 5 активных развертываний OpenClaw",
+          "Развертывание, перезапуск и повторное развертывание одним щелчком мыши",
+          "Предварительные настройки конфигурации модели и канала",
+          "Панель мониторинга состояния развертывания",
+          "Базовая аналитика использования",
+          "Поддержка по электронной почте",
+          "Коммерческое использование",
+          "Доступ к новым функциям развертывания"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 долларов",
+        "original_price": "Первоначальная цена: 20 долларов США в месяц.",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Стань профессионалом",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Ежегодно",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

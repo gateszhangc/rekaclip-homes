@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Hinnoittelu",
+    "title": "Hinnoittelu",
+    "description": "Valitse suunnitelma sen mukaan, kuinka monta OpenClaw-käyttöönottoa tarvitset. Peruuta milloin tahansa tililtäsi.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Kuukausittain",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Vuosittain",
+        "is_featured": true,
+        "label": "säästä 50 %"
+      }
+    ],
+    "items": [
+      {
+        "title": "Aloittaja",
+        "label": "VARHAINEN PÄÄSY",
+        "description": "Kaikki mitä tarvitset OpenClaw:n käyttämiseen. Ei mitään, mitä et.",
+        "features_title": "Ilmainen kokeilu sisältyy hintaan",
+        "features": [
+          "Täysin hallittu OpenClaw-ajoaika",
+          "Telegram-valmis agentti",
+          "Nolla-asetus",
+          "1 OpenClaw agentti",
+          "Claude, ChatGPT tai Gemini – me hoidamme sen puolestasi",
+          "Avainta API ei tarvita",
+          "Käyttö sisältyy suunnitelmaan. Peru milloin tahansa."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 dollaria",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Kokeile ilmaiseksi. Luottokorttia ei vaadita.",
+        "button": {
+          "title": "Suorita OpenClaw välittömästi",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Starter kuukausittain",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Suosittu",
+        "features_title": "Käyttöönoton ydinominaisuudet",
+        "features": [
+          "Jopa 5 aktiivista OpenClaw-käyttöönottoa",
+          "Ota käyttöön, käynnistä uudelleen ja asenna uudelleen yhdellä napsautuksella",
+          "Mallin ja kanavan esiasetukset",
+          "Käyttöönoton tilan hallintapaneeli",
+          "Peruskäyttöanalytiikka",
+          "Sähköpostituki",
+          "Kaupallinen käyttö",
+          "Pääsy uusiin käyttöönottoominaisuuksiin"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 dollaria",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Hanki Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro kuukausittain",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Aloittaja",
+        "label": "VARHAINEN PÄÄSY",
+        "description": "Kaikki mitä tarvitset OpenClaw:n käyttämiseen. Ei mitään, mitä et.",
+        "features_title": "Ilmainen kokeilu sisältyy hintaan",
+        "features": [
+          "Täysin hallittu OpenClaw-ajoaika",
+          "Telegram-valmis agentti",
+          "Nolla-asetus",
+          "1 OpenClaw agentti",
+          "Claude, ChatGPT tai Gemini – me hoidamme sen puolestasi",
+          "Avainta API ei tarvita",
+          "Käyttö sisältyy suunnitelmaan. Peru milloin tahansa."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 dollaria",
+        "original_price": "Alkuperäinen hinta: 10 €/kk",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Kokeile ilmaiseksi. Luottokorttia ei vaadita.",
+        "button": {
+          "title": "Suorita OpenClaw välittömästi",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Starter vuosittain",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Suosittu",
+        "features_title": "Käyttöönoton ydinominaisuudet",
+        "features": [
+          "Jopa 5 aktiivista OpenClaw-käyttöönottoa",
+          "Ota käyttöön, käynnistä uudelleen ja asenna uudelleen yhdellä napsautuksella",
+          "Mallin ja kanavan esiasetukset",
+          "Käyttöönoton tilan hallintapaneeli",
+          "Peruskäyttöanalytiikka",
+          "Sähköpostituki",
+          "Kaupallinen käyttö",
+          "Pääsy uusiin käyttöönottoominaisuuksiin"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 dollaria",
+        "original_price": "Alkuperäinen hinta: 20 €/kk",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Hanki Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro vuosittain",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

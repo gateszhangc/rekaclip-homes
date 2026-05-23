@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: easyclaw
+  labels:
+    app.kubernetes.io/name: easyclaw
+    app.kubernetes.io/part-of: easyclaw
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: easyclaw
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: easyclaw
+        app.kubernetes.io/part-of: easyclaw
+    spec:
+      imagePullSecrets:
+        - name: dokploy-fleet-ghcr
+      containers:
+        - name: easyclaw
+          image: registry.144.91.77.245.sslip.io/easyclaw-web:latest
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: easyclaw-web-env
+          ports:
+            - name: http
+              containerPort: 3000
+          readinessProbe:
+            tcpSocket:
+              port: http
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            tcpSocket:
+              port: http
+            initialDelaySeconds: 20
+            periodSeconds: 20
+          startupProbe:
+            tcpSocket:
+              port: http
+            periodSeconds: 5
+            failureThreshold: 30
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi

@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Beeldflipper",
+    "description": "Upload een afbeelding voor professionele kleuromkering en -verbetering",
+    "disabled": false,
+    "upload": {
+      "title": "Sleep een afbeelding en zet deze neer",
+      "description": "Ondersteunt PNG, JPG, JPEG, WebP tot 10 MB",
+      "buttonText": "Kies een bestand",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Schoon beeld",
+      "textListTitle": "Gedetecteerde tekstgebieden",
+      "fontRecommendationTitle": "Suggesties voor verwijdering",
+      "detectedFontLabel": "Geselecteerd gebied",
+      "similarFontsLabel": "Alternatieve vullingen",
+      "selectTextPrompt": "Selecteer een tekstblok dat u wilt verwijderen"
+    },
+    "actions": {
+      "reuploadText": "Opnieuw uploaden"
+    },
+    "messages": {
+      "uploadSuccess": "Afbeelding succesvol geüpload",
+      "uploadError": "Kan afbeelding niet uploaden",
+      "recognitionSuccess": "Detectie voltooid",
+      "recognitionError": "Detectie is mislukt",
+      "fontRecognitionSuccess": "Tekstverwijdering voltooid",
+      "fontRecognitionError": "Het verwijderen van tekst is mislukt",
+      "processing": "Verwerken..."
+    }
+  }
+}

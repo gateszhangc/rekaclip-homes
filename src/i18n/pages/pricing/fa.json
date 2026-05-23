@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "قیمت گذاری",
+    "title": "قیمت گذاری",
+    "description": "بر اساس تعداد استقرار OpenClaw که نیاز دارید، طرحی را انتخاب کنید. هر زمان خواستید از حساب خود لغو کنید.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "ماهانه",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "سالانه",
+        "is_featured": true,
+        "label": "صرفه جویی 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "استارتر",
+        "label": "دسترسی زودهنگام",
+        "description": "هر آنچه برای اجرای OpenClaw نیاز دارید. هیچ چیز شما نمی کنید.",
+        "features_title": "آزمایشی رایگان گنجانده شده است",
+        "features": [
+          "زمان اجرای کامل OpenClaw مدیریت شده است",
+          "عامل آماده Telegram",
+          "تنظیم صفر",
+          "1 عامل OpenClaw",
+          "Claude، ChatGPT، یا Gemini - ما آن را برای شما اجرا می کنیم",
+          "کلید API مورد نیاز نیست",
+          "استفاده در هر طرح گنجانده شده است. هر زمان خواستید لغو کنید."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 دلار",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "به صورت رایگان امتحان کنید. بدون نیاز به کارت اعتباری",
+        "button": {
+          "title": "OpenClaw را فوراً اجرا کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "ماهنامه شروع EasyClaw",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "حرفه ای",
+        "label": "محبوب",
+        "features_title": "ویژگی های استقرار هسته ای",
+        "features": [
+          "حداکثر 5 استقرار فعال OpenClaw",
+          "با یک کلیک روی استقرار، راه اندازی مجدد، و مجدداً نصب کنید",
+          "از پیش تنظیم مدل و پیکربندی کانال",
+          "داشبورد وضعیت استقرار",
+          "تجزیه و تحلیل استفاده پایه",
+          "پشتیبانی ایمیل",
+          "استفاده تجاری",
+          "دسترسی به ویژگی های استقرار جدید"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 دلار",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "حرفه ای را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "ماهنامه EasyClaw Pro",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "استارتر",
+        "label": "دسترسی زودهنگام",
+        "description": "هر آنچه برای اجرای OpenClaw نیاز دارید. هیچ چیز شما نمی کنید.",
+        "features_title": "آزمایشی رایگان گنجانده شده است",
+        "features": [
+          "زمان اجرای کامل OpenClaw مدیریت شده است",
+          "عامل آماده Telegram",
+          "تنظیم صفر",
+          "1 عامل OpenClaw",
+          "Claude، ChatGPT، یا Gemini - ما آن را برای شما اجرا می کنیم",
+          "کلید API مورد نیاز نیست",
+          "استفاده در هر طرح گنجانده شده است. هر زمان خواستید لغو کنید."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 دلار",
+        "original_price": "قیمت اصلی: 10 دلار در ماه",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "به صورت رایگان امتحان کنید. بدون نیاز به کارت اعتباری",
+        "button": {
+          "title": "OpenClaw را فوراً اجرا کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw شروع کننده سالانه",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "حرفه ای",
+        "label": "محبوب",
+        "features_title": "ویژگی های استقرار هسته ای",
+        "features": [
+          "حداکثر 5 استقرار فعال OpenClaw",
+          "با یک کلیک روی استقرار، راه اندازی مجدد، و مجدداً نصب کنید",
+          "از پیش تنظیم مدل و پیکربندی کانال",
+          "داشبورد وضعیت استقرار",
+          "تجزیه و تحلیل استفاده پایه",
+          "پشتیبانی ایمیل",
+          "استفاده تجاری",
+          "دسترسی به ویژگی های استقرار جدید"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 دلار",
+        "original_price": "قیمت اصلی: 20 دلار در ماه",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "حرفه ای را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro سالانه",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

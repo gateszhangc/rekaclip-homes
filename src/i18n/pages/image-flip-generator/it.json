@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "Flipper di immagini",
+    "description": "Capovolgi le immagini orizzontalmente o verticalmente con qualità professionale",
+    "disabled": false,
+    "upload": {
+      "title": "Trascina e rilascia un'immagine",
+      "description": "Supporta PNG, JPG, JPEG, WebP fino a 10 MB",
+      "buttonText": "Sfoglia i file",
+      "dragDropText": "Rilascia, incolla o aggiungi un URL",
+      "selectFileText": "Seleziona un file immagine",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "Pronto a girare.",
+      "replace": "Sostituisci",
+      "remove": "Rimuovi"
+    },
+    "controls": {
+      "horizontalFlip": "Capovolgi orizzontalmente",
+      "verticalFlip": "Capovolgi verticale",
+      "processing": "Elaborazione...",
+      "uploading": "Caricamento..."
+    },
+    "preview": {
+      "originalAlt": "Immagine originale",
+      "flippedAlt": "Immagine capovolta",
+      "download": "Scarica"
+    },
+    "credits": {
+      "label": "Crediti:",
+      "cost": "Costo per lancio:",
+      "insufficient": "Crediti insufficienti"
+    },
+    "errors": {
+      "noImage": "Nessuna immagine selezionata",
+      "noImageSuggestion": "Per favore carica prima un'immagine.",
+      "invalidFormat": "Formato file non supportato",
+      "formatSuggestion": "Si prega di utilizzare uno di: {formats}",
+      "fileTooLarge": "File troppo grande: {size}MB",
+      "sizeSuggestion": "La dimensione massima è {maxSize}MB. Si prega di comprimere o scegliere un file più piccolo.",
+      "uploadFailed": "Impossibile caricare l'immagine",
+      "uploadSuggestion": "Controlla la connessione e riprova.",
+      "authRequired": "Autenticazione richiesta",
+      "authSuggestion": "Accedi per caricare le immagini.",
+      "processingFailed": "L'operazione di capovolgimento non è riuscita",
+      "processingSuggestion": "Riprova o contatta l'assistenza se il problema persiste.",
+      "networkError": "Problema di connessione di rete",
+      "networkSuggestion": "Controlla la connessione e riprova.",
+      "fileReadError": "Impossibile leggere il file",
+      "fileReadSuggestion": "Prova a selezionare nuovamente il file.",
+      "retry": "Riprova"
+    },
+    "messages": {
+      "uploadSuccess": "Immagine caricata correttamente",
+      "flipSuccess": "L'immagine è stata capovolta correttamente",
+      "downloadStarted": "Download avviato"
+    },
+    "legal": {
+      "terms": "Caricando un file, accetti i nostri Termini di utilizzo e l'Informativa sulla privacy."
+    }
+  }
+}

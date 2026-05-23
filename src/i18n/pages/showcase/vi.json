@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Ví dụ triển khai OpenClaw từ người dùng EasyClaw",
+    "description": "Xem cách các nhóm khởi chạy trợ lý OpenClaw để được hỗ trợ, vận hành và quy trình công việc nội bộ.",
+    "items": [
+      {
+        "title": "Ra mắt trợ lý hỗ trợ khách hàng",
+        "description": "Đã triển khai bot hỗ trợ Telegram với mô hình dự phòng trong vài phút",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Tự động hóa theo dõi bán hàng",
+        "description": "Thiết lập OpenClaw để đánh giá khách hàng tiềm năng và soạn thảo các câu trả lời tiếp theo",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Trình thông báo hoạt động nội bộ",
+        "description": "Đã kết nối OpenClaw để cảnh báo các nhóm về các sự kiện và sự cố hoạt động",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Trợ lý cộng đồng đa kênh",
+        "description": "Triển khai cùng một trợ lý trên Telegram, Discord và WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Quy trình báo cáo hàng tuần",
+        "description": "Báo cáo tóm tắt tự động cho người quản lý vào thứ Sáu hàng tuần",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Phi công phụ trên máy bay",
+        "description": "Cung cấp hướng dẫn và câu trả lời trong tuần đầu tiên cho nhân viên mới",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Bot đánh giá khách hàng tiềm năng",
+        "description": "Ghi lại các câu hỏi gửi đến và định tuyến các khách hàng tiềm năng có ý định cao để bán hàng",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Người thu thập phản hồi sản phẩm",
+        "description": "Phản hồi của người dùng đã được phân loại và các mục hành động được tạo cho nhóm sản phẩm",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

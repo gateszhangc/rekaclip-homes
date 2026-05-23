@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+  - app
+  - app-namespace.yaml
+  - runtime-namespace.yaml
+  - runtime-rbac.yaml
+  - registry-pull.sealedsecret.yaml
+  - web-env.sealedsecret.yaml
+  - backend-env.sealedsecret.yaml
+  - easyclaw-staging.certificate.yaml
+  - easyclaw-staging.ingress.yaml

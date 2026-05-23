@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "பட ஃபிளிப்பர்",
+    "description": "தொழில்முறை வண்ணத்தை மாற்றுவதற்கும் மேம்படுத்துவதற்கும் படத்தைப் பதிவேற்றவும்",
+    "disabled": false,
+    "upload": {
+      "title": "ஒரு படத்தை இழுத்து விடுங்கள்",
+      "description": "PNG, JPG, JPEG, WebP 10MB வரை ஆதரிக்கிறது",
+      "buttonText": "ஒரு கோப்பைத் தேர்ந்தெடுக்கவும்",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "சுத்தமான படம்",
+      "textListTitle": "கண்டறியப்பட்ட உரை பகுதிகள்",
+      "fontRecommendationTitle": "அகற்றுவதற்கான பரிந்துரைகள்",
+      "detectedFontLabel": "தேர்ந்தெடுக்கப்பட்ட பகுதி",
+      "similarFontsLabel": "மாற்று நிரப்புதல்கள்",
+      "selectTextPrompt": "அகற்ற உரைத் தொகுதியைத் தேர்ந்தெடுக்கவும்"
+    },
+    "actions": {
+      "reuploadText": "மீண்டும் பதிவேற்றவும்"
+    },
+    "messages": {
+      "uploadSuccess": "படம் வெற்றிகரமாக பதிவேற்றப்பட்டது",
+      "uploadError": "படத்தை பதிவேற்ற முடியவில்லை",
+      "recognitionSuccess": "கண்டறிதல் முடிந்தது",
+      "recognitionError": "கண்டறிதல் தோல்வியடைந்தது",
+      "fontRecognitionSuccess": "உரை நீக்கம் முடிந்தது",
+      "fontRecognitionError": "உரையை அகற்ற முடியவில்லை",
+      "processing": "செயலாக்குகிறது..."
+    }
+  }
+}

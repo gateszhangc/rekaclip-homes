@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "نمونه های استقرار OpenClaw از کاربران EasyClaw",
+    "description": "ببینید تیم‌ها چگونه دستیارهای OpenClaw را برای پشتیبانی، عملیات و گردش‌های کاری داخلی راه‌اندازی می‌کنند.",
+    "items": [
+      {
+        "title": "راه اندازی دستیار پشتیبانی مشتری",
+        "description": "یک ربات پشتیبانی Telegram با مدل برگشتی در عرض چند دقیقه مستقر شد",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "اتوماسیون پیگیری فروش",
+        "description": "برای واجد شرایط بودن سرنخ ها و پیش نویس پاسخ های بعدی، OpenClaw را راه اندازی کنید",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "اعلام کننده عملیات داخلی",
+        "description": "OpenClaw را برای هشدار به تیم ها در مورد رویدادها و حوادث عملیاتی متصل کرد",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "دستیار جامعه چند کانالی",
+        "description": "همان دستیار را در میان Telegram، Discord، و WhatsApp عرضه کرد",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "گردش کار گزارش هفتگی",
+        "description": "گزارش خلاصه خودکار برای مدیران هر جمعه",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "کمک خلبان سوار شدن",
+        "description": "در هفته اول راهنمایی و پاسخ برای استخدام های جدید ارائه شد",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "ربات صلاحیت سرب",
+        "description": "پرسش‌های ورودی گرفته شده و با هدف بالا هدایت می‌شوند، منجر به فروش می‌شوند",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "جمع آوری بازخورد محصول",
+        "description": "بازخورد کاربر طبقه بندی شده و موارد اقدام تولید شده برای تیم های محصول",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "فلیپر تصویر",
+    "description": "یک تصویر برای وارونگی و بهبود حرفه ای رنگ آپلود کنید",
+    "disabled": false,
+    "upload": {
+      "title": "یک تصویر را بکشید و رها کنید",
+      "description": "پشتیبانی از PNG، JPG، JPEG، WebP تا 10 مگابایت",
+      "buttonText": "یک فایل را انتخاب کنید",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "تصویر تمیز",
+      "textListTitle": "مناطق متنی شناسایی شده",
+      "fontRecommendationTitle": "پیشنهادات حذف",
+      "detectedFontLabel": "منطقه انتخاب شده",
+      "similarFontsLabel": "پرهای جایگزین",
+      "selectTextPrompt": "یک بلوک متنی را برای حذف انتخاب کنید"
+    },
+    "actions": {
+      "reuploadText": "بارگذاری مجدد"
+    },
+    "messages": {
+      "uploadSuccess": "تصویر با موفقیت آپلود شد",
+      "uploadError": "تصویر آپلود نشد",
+      "recognitionSuccess": "تشخیص تکمیل شد",
+      "recognitionError": "تشخیص ناموفق بود",
+      "fontRecognitionSuccess": "حذف متن کامل شد",
+      "fontRecognitionError": "حذف متن انجام نشد",
+      "processing": "در حال پردازش..."
+    }
+  }
+}

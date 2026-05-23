@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "ویژگی ها",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "قیمت گذاری",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "وبلاگ",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "سوالات متداول",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "آرم EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "ایجاد هنر با کیفیت بالا",
+    "description": "یک پرتره آپلود کنید، یک سبک انتخاب کنید و یک کاریکاتور تمیز برای آواتارها، هدایا یا محتوا دریافت کنید.",
+    "features": [
+      "جزئیات با کیفیت بالا و خطوط تمیز",
+      "قیمت منصفانه برای استفاده روزمره",
+      "آماده برای پروفایل، هدایا، و چاپ"
+    ],
+    "buttons": [
+      {
+        "title": "کاریکاتور من را بساز",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "نمونه کاریکاتور"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "نمونه کاریکاتور 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "نمونه کاریکاتور 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "نمونه کاریکاتور 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "پشتیبانی شده توسط فناوری پیشرفته",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "درست است",
+    "name": "introduce",
+    "title": "چگونه یک کاریکاتور بسازیم",
+    "label": "فرآیند ساده",
+    "description": "در سه مرحله ساده کاریکاتورهای خیره کننده بسازید. بدون نیاز به مهارت های هنری",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "آپلود عکس",
+        "description": "یک عکس پرتره واضح آپلود کنید. ما از JPG، PNG، و WebP پشتیبانی می کنیم.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "سبک را انتخاب کنید",
+        "description": "از میان سبک های کارتونی خنده دار، اغراق آمیز، انیمیشن یا سه بعدی انتخاب کنید.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "دانلود کنید",
+        "description": "کاریکاتور با کیفیت خود را فوراً بدون واترمارک دریافت کنید.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "درست است",
+    "name": "benefit",
+    "title": "چرا از OpenClaw استفاده کنیم؟",
+    "label": "مزایا",
+    "description": "ابزار عالی برای هدایا، تصاویر نمایه و محتوای رسانه های اجتماعی.",
+    "items": [
+      {
+        "title": "سحر و جادو هوش مصنوعی فوری",
+        "description": "هوش مصنوعی پیشرفته ویژگی های صورت را تجزیه و تحلیل می کند تا کاریکاتورهای کاملا اغراق آمیز را در چند ثانیه ایجاد کند.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "سبک های هنری متنوع",
+        "description": "از ظاهر کلاسیک با دست تا آواتارهای متحرک سه بعدی مدرن. ما همه چیز را داریم.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "وضوح بالا",
+        "description": "دانلود تصاویر واضح و با کیفیت مناسب برای چاپ روی لیوان، تی شرت و پوستر.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "گالری",
+    "title": "تحولات شگفت انگیز",
+    "description": "ببینید چگونه عکس های معمولی به کاریکاتورهای خارق العاده تبدیل می شوند.",
+    "items": [
+      {
+        "title": "آواتارهای اجتماعی",
+        "highlight": "به صورت آنلاین متمایز شوید",
+        "description": "یک عکس پروفایل منحصر به فرد ایجاد کنید که شخصیت شما را به تصویر بکشد.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "عکس اصلی",
+        "afterAlt": "نتیجه کاریکاتور",
+        "reverse": false
+      },
+      {
+        "title": "هدایای شخصی",
+        "highlight": "هدیه های خاطره انگیز",
+        "description": "دوستان و خانواده را با یک پرتره خنده دار سفارشی غافلگیر کنید.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "عکس اصلی",
+        "afterAlt": "نتیجه کاریکاتور",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 مرحله برای استقرار OpenClaw",
+    "description": "مدل خود را انتخاب کنید، یک کانال را متصل کنید و راه اندازی کنید.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "سمت چپ",
+    "text_align": "مرکز",
+    "items": [
+      {
+        "title": "یک مدل انتخاب کنید",
+        "description": "Claude، GPT، Gemini - بهترین مدل را برای هر کار انتخاب کنید. کار خلاقانه با Claude، تجزیه و تحلیل با GPT. در هر زمان تغییر دهید.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "مدل هوش مصنوعی را انتخاب کنید - Claude، GPT، یا Gemini"
+        }
+      },
+      {
+        "title": "یک کانال را وصل کنید",
+        "description": "Telegram، Discord، WhatsApp - یک داشبورد برای همه کانال ها. همه مکالمات را از یک مکان مدیریت کنید، بدون تغییر برنامه دیگر.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "کانال های پیام رسانی را وصل کنید"
+        }
+      },
+      {
+        "title": "مستقر و شروع کنید",
+        "description": "دستیار هوش مصنوعی شما در 60 ثانیه آنلاین می شود. اولین پیام خود را ارسال کنید و شروع به خودکارسازی کنید.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "دستیار خود را مستقر کرده و راه اندازی کنید"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "کاریکاتور خود را بسازید",
+    "description": "یک عکس آپلود کنید، یک سبک انتخاب کنید و ایجاد کنید."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "استودیو کاریکاتور",
+    "description": "یک عکس آپلود کنید، یک سبک انتخاب کنید و یک کاریکاتور با کیفیت بالا ایجاد کنید.",
+    "disabled": false,
+    "upload": {
+      "title": "عکس خود را آپلود کنید",
+      "description": "بکشید و رها کنید یا برای آپلود کلیک کنید (JPG، PNG، WebP تا 10 مگابایت)",
+      "buttonText": "Image را انتخاب کنید",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "کاریکاتور شما",
+      "textListTitle": "تنظیمات سبک",
+      "fontRecommendationTitle": "سبک های توصیه شده",
+      "detectedFontLabel": "انتخاب فعلی",
+      "similarFontsLabel": "اینها را هم امتحان کنید",
+      "selectTextPrompt": "یک سبک را برای اعمال انتخاب کنید"
+    },
+    "actions": {
+      "reuploadText": "عکس دیگری را امتحان کنید"
+    },
+    "messages": {
+      "uploadSuccess": "عکس با موفقیت آپلود شد!",
+      "uploadError": "اوه، آپلود انجام نشد. لطفا دوباره امتحان کنید.",
+      "recognitionSuccess": "کاریکاتور شما آماده است!",
+      "recognitionError": "نسل شکست خورد. لطفا دوباره امتحان کنید.",
+      "fontRecognitionSuccess": "سبک اعمال شد!",
+      "fontRecognitionError": "اعمال سبک انجام نشد.",
+      "processing": "ساخت کاریکاتور شما..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "با دردسر خداحافظی کنید",
+    "description": "ببینید با تغییر به EasyClaw چه تغییری می کند",
+    "before_label": "راه اندازی سنتی",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "سرورها را اجاره کنید، محیط ها را پیکربندی کنید",
+        "after": "استقرار با یک کلیک، بدون نیاز به سرور"
+      },
+      {
+        "before": "برای رفع هشدارهای 3 صبح از خواب بیدار شوید",
+        "after": "کارکرد اتوماتیک 24/7"
+      },
+      {
+        "before": "نسخه های OpenClaw را به صورت دستی به روز کنید",
+        "after": "به روز رسانی خودکار به آخرین نسخه"
+      },
+      {
+        "before": "دستورات Docker، Linux را یاد بگیرید",
+        "after": "مهارت های فنی صفر مورد نیاز است"
+      },
+      {
+        "before": "30+ دقیقه در هر استقرار",
+        "after": "در کمتر از 60 ثانیه مستقر شود"
+      }
+    ],
+    "footer": "زمان ذخیره شده: ~ 29 دقیقه در هر استقرار"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "چرا تیم ها EasyClaw را انتخاب می کنند",
+    "description": "استقرار آماده تولید بدون سربار DevOps. تعمیر و نگهداری صفر، حداکثر تمرکز.",
+    "items": [
+      {
+        "title": "در 60 ثانیه مستقر شود",
+        "description": "از صفر تا دویدن در کمتر از یک دقیقه. بدون Docker، بدون دستورات لینوکس، بدون راه اندازی سرور.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "تعمیر و نگهداری صفر",
+        "description": "ما به روز رسانی، نظارت و بازیابی را مدیریت می کنیم. شما فقط روی استفاده از دستیار هوش مصنوعی خود تمرکز کنید.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "انعطاف پذیری مدل",
+        "description": "هرزمان خواستید بین Claude، GPT و Gemini جابجا شوید. برای هر کار از بهترین مدل استفاده کنید.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "کانال های یکپارچه",
+        "description": "Telegram، Discord، و WhatsApp را از یک داشبورد مدیریت کنید. دیگر خبری از تعویض برنامه نیست.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "همیشه به روز",
+        "description": "به روز رسانی خودکار OpenClaw. همیشه بدون بلند کردن انگشت از آخرین ویژگی ها استفاده کنید.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "با اعتماد به نفس مقیاس کنید",
+        "description": "به صورت انفرادی شروع کنید، سپس استفاده را در تیم ها و موارد استفاده را افزایش دهید. از 1 تا 100 استقرار.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "OpenClaw را برای هر گردش کار مستقر کنید",
+    "description": "یک دستیار، موارد استفاده زیادی. یک بار راه اندازی کنید، همه جا خودکار کنید.",
+    "items": [
+      {
+        "title": "جلسات توجیهی روزانه",
+        "description": "پیام ها و به روز رسانی ها را به یک خلاصه صبحگاهی مختصر برای تیم خود تبدیل کنید.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "گردش کار اتوماسیون جلسات توجیهی روزانه"
+        },
+        "buttons": [
+          {
+            "title": "بیشتر بدانید ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "دستیار پشتیبانی مشتری",
+        "description": "مسیریابی سوالات، پیش نویس پاسخ ها، و پاسخگو نگه داشتن کانال های پشتیبانی.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "گردش کار اتوماسیون پشتیبانی مشتری"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "شروع به استقرار -> کنید",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "اتوماسیون عملیات تیم",
+        "description": "یادآوری‌ها، گزارش‌های وضعیت و پیگیری‌های معمول در کانال‌ها را خودکار کنید.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "گردش کار اتوماسیون عملیات تیم"
+        },
+        "buttons": [
+          {
+            "title": "مشاهده قیمت ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "نادرست",
+    "name": "stats",
+    "label": "نکات برجسته",
+    "title": "برای راه اندازی سریع ساخته شده است",
+    "description": "همه چیز برای اجرای مطمئن OpenClaw لازم است.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "زمان برای اولین استقرار",
+        "label": "< 1 دقیقه",
+        "description": "از راه اندازی تا دستیار در حال اجرا"
+      },
+      {
+        "title": "کانال های پشتیبانی شده",
+        "label": "3+",
+        "description": "Telegram، Discord، WhatsApp"
+      },
+      {
+        "title": "قابلیت مشاهده استقرار",
+        "label": "زمان واقعی",
+        "description": "وضعیت های در حال اجرا و شکست خورده را پیگیری کنید"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "بررسی ها",
+    "title": "آنچه کاربران می گویند",
+    "description": "ببینید چرا همه در مورد OpenClaw صحبت می کنند.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "سارا جنکینز",
+        "label": "مدیر رسانه های اجتماعی",
+        "description": "من یک عکس تیمی خنده دار برای صفحه درباره ما ساختم. همه آن را دوست داشتند!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "مایک راس",
+        "label": "فریلنسر",
+        "description": "از این برای ایجاد یک آواتار منحصر به فرد برای نمایه فریلنسرم استفاده کردم. برجسته است!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "امیلی چن",
+        "label": "دانشجو",
+        "description": "کاریکاتور همه دوستانم برای کارت تولد. بهترین هدیه همیشه",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "دیوید میلر",
+        "label": "سازنده محتوا",
+        "description": "سبک های مختلف شگفت انگیز هستند. من از سبک سه بعدی برای تصاویر کوچک خود استفاده می کنم.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "جسیکا ونگ",
+        "label": "رهبر بازاریابی",
+        "description": "سریع، آسان، و نتایج در واقع خنده دار هستند، نه فقط عجیب و غریب.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "تام بیکر",
+        "label": "توسعه دهنده",
+        "description": "API فوق العاده ساده و نتایج عالی برای پروژه حیوان خانگی من.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "سوالات متداول",
+    "title": "سوالات متداول",
+    "description": "همه چیزهایی که قبل از استقرار OpenClaw با EasyClaw نیاز دارید.",
+    "items": [
+      {
+        "title": "هزینه EasyClaw چقدر است؟",
+        "description": "برنامه ها از 10 دلار در ماه شروع می شوند. هر زمان خواستید از حساب خود لغو کنید."
+      },
+      {
+        "title": "آیا باید سرورها را مدیریت کنم؟",
+        "description": "خیر. EasyClaw گردش کار استقرار را ساده می کند تا بتوانید OpenClaw را بدون سرور یا DevOps راه اندازی کنید."
+      },
+      {
+        "title": "کدام مدل ها پشتیبانی می شوند؟",
+        "description": "Claude، GPT، و Gemini."
+      },
+      {
+        "title": "آیا می توانم در چندین کانال مستقر شوم؟",
+        "description": "بله. Telegram، Discord، و WhatsApp پشتیبانی می شوند."
+      },
+      {
+        "title": "چقدر طول می کشد تا مستقر شود؟",
+        "description": "معمولا کمتر از 1 دقیقه راه اندازی برای اولین بار ممکن است کمی بیشتر طول بکشد."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "آماده راه اندازی OpenClaw هستید؟",
+    "description": "اولین دستیار خود را در کمتر از یک دقیقه مستقر کنید. بدون سرور، بدون تعمیر و نگهداری، بدون منحنی یادگیری.",
+    "note": "هر زمان خواستید لغو کنید. بدون قرارداد بلند مدت",
+    "buttons": [
+      {
+        "title": "OpenClaw را مستقر کنید",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "ساده ترین راه برای استقرار دستیار هوش مصنوعی OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. تمامی حقوق محفوظ است.",
+    "nav": {
+      "items": [
+        {
+          "title": "درباره",
+          "children": [
+            {
+              "title": "ویژگی ها",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "قیمت گذاری",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "وبلاگ",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "سوالات متداول",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "پشتیبانی ایمیل",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw یک محصول مستقل است و به هیچ ارائه دهنده مدل شخص ثالث یا صاحبان علامت تجاری وابسته نیست.",
+    "agreement": {
+      "items": [
+        {
+          "title": "سیاست حفظ حریم خصوصی",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "شرایط خدمات",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "سیاست بازپرداخت",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "قیمت گذاری",
+    "title": "قیمت گذاری",
+    "description": "بر اساس تعداد استقرار OpenClaw که نیاز دارید، طرحی را انتخاب کنید. هر زمان خواستید از حساب خود لغو کنید.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "ماهانه",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "سالانه",
+        "is_featured": true,
+        "label": "صرفه جویی 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "حرفه ای",
+        "label": "محبوب",
+        "features_title": "ویژگی های استقرار هسته ای",
+        "features": [
+          "حداکثر 5 استقرار فعال OpenClaw",
+          "با یک کلیک روی استقرار، راه اندازی مجدد، و مجدداً نصب کنید",
+          "از پیش تنظیم مدل و پیکربندی کانال",
+          "داشبورد وضعیت استقرار",
+          "تجزیه و تحلیل استفاده پایه",
+          "پشتیبانی ایمیل",
+          "استفاده تجاری",
+          "دسترسی به ویژگی های استقرار جدید"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 دلار",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "حرفه ای را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "ماهنامه EasyClaw Pro",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "حق بیمه",
+        "features_title": "همه چیز در Pro، به علاوه",
+        "features": [
+          "حداکثر 20 استقرار فعال OpenClaw",
+          "صف تامین اولویت",
+          "مدل و کانال قابل استفاده مجدد",
+          "هشدارهای Webhook برای وضعیت استقرار",
+          "دسترسی به تیم (حداکثر 3 عضو)",
+          "دسترسی API",
+          "پشتیبانی اولویت دار",
+          "دسترسی زودهنگام به ویژگی های بتا"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 دلار",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "حق بیمه را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "ماهنامه حق بیمه EasyClaw",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "حرفه ای",
+        "label": "محبوب",
+        "features_title": "ویژگی های استقرار هسته ای",
+        "features": [
+          "حداکثر 5 استقرار فعال OpenClaw",
+          "با یک کلیک روی استقرار، راه اندازی مجدد، و مجدداً نصب کنید",
+          "از پیش تنظیم مدل و پیکربندی کانال",
+          "داشبورد وضعیت استقرار",
+          "تجزیه و تحلیل استفاده پایه",
+          "پشتیبانی ایمیل",
+          "استفاده تجاری",
+          "دسترسی به ویژگی های استقرار جدید"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 دلار",
+        "original_price": "قیمت اصلی: 10 دلار در ماه",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "حرفه ای را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro سالانه",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "حق بیمه",
+        "features_title": "همه چیز در Pro، به علاوه",
+        "features": [
+          "حداکثر 20 استقرار فعال OpenClaw",
+          "صف تامین اولویت",
+          "مدل و کانال قابل استفاده مجدد",
+          "هشدارهای Webhook برای وضعیت استقرار",
+          "دسترسی به تیم (حداکثر 3 عضو)",
+          "دسترسی API",
+          "پشتیبانی اولویت دار",
+          "دسترسی زودهنگام به ویژگی های بتا"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 دلار",
+        "original_price": "قیمت اصلی: 20 دلار در ماه",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "حق بیمه را دریافت کنید",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw حق بیمه سالانه",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

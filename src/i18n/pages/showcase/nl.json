@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "OpenClaw-implementatievoorbeelden van EasyClaw-gebruikers",
+    "description": "Bekijk hoe teams OpenClaw-assistenten lanceren voor ondersteuning, operaties en interne workflows.",
+    "items": [
+      {
+        "title": "Lancering van klantondersteuningsassistent",
+        "description": "Binnen enkele minuten een Telegram-ondersteuningsbot geïmplementeerd met modelterugval",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Automatisering van verkoopopvolging",
+        "description": "Stel OpenClaw in om leads te kwalificeren en vervolgantwoorden op te stellen",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Melder van interne activiteiten",
+        "description": "Verbonden OpenClaw om teams te waarschuwen voor operationele gebeurtenissen en incidenten",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Community-assistent met meerdere kanalen",
+        "description": "Dezelfde assistent uitgerold voor Telegram, Discord en WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Wekelijkse rapportageworkflow",
+        "description": "Elke vrijdag automatische samenvattende rapporten voor managers",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Copiloot aan boord",
+        "description": "Begeleiding en antwoorden voor de eerste week voor nieuwe medewerkers",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Leadkwalificatiebot",
+        "description": "Ik heb inkomende vragen vastgelegd en leads met een hoge intentie doorgestuurd naar de verkoop",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Verzamelaar van productfeedback",
+        "description": "Geclassificeerde gebruikersfeedback en gegenereerde actiepunten voor productteams",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

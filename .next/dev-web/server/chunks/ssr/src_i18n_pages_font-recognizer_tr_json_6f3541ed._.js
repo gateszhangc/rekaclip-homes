@@ -1,0 +1,9 @@
+module.exports = {
+
+"[project]/src/i18n/pages/font-recognizer/tr.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Görüntü Çevirici\",\"description\":\"Profesyonel renk dönüşümü ve iyileştirme için bir resim yükleyin\",\"disabled\":false,\"upload\":{\"title\":\"Bir resmi sürükleyip bırakın\",\"description\":\"10 MB'a kadar PNG, JPG, JPEG, WebP'yi destekler\",\"buttonText\":\"Bir dosya seçin\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Görüntüyü Temizle\",\"textListTitle\":\"Algılanan Metin Alanları\",\"fontRecommendationTitle\":\"Kaldırma Önerileri\",\"detectedFontLabel\":\"Seçilen Alan\",\"similarFontsLabel\":\"Alternatif Dolgular\",\"selectTextPrompt\":\"Kaldırılacak bir metin bloğu seçin\"},\"actions\":{\"reuploadText\":\"Yeniden yükle\"},\"messages\":{\"uploadSuccess\":\"Resim başarıyla yüklendi\",\"uploadError\":\"Resim yüklenemedi\",\"recognitionSuccess\":\"Algılama tamamlandı\",\"recognitionError\":\"Algılama başarısız oldu\",\"fontRecognitionSuccess\":\"Metin kaldırma işlemi tamamlandı\",\"fontRecognitionError\":\"Metin kaldırma işlemi başarısız oldu\",\"processing\":\"İşleniyor...\"}}}"));}}),
+
+};

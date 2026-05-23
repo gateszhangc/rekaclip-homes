@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "תכונות",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "תמחור",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "בלוג",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "שאלות נפוצות",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "לוגו EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "צור אמנות באיכות גבוהה",
+    "description": "העלה דיוקן, בחר סגנון וקבל קריקטורה נקייה עבור אווטרים, מתנות או תוכן.",
+    "features": [
+      "פירוט איכותי וקווים נקיים",
+      "תמחור הוגן לשימוש יומיומי",
+      "מוכן לפרופילים, מתנות והדפסים"
+    ],
+    "buttons": [
+      {
+        "title": "צור את הקריקטורה שלי",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "דוגמא לקריקטורה"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "דוגמה קריקטורה 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "דוגמה קריקטורה 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "דוגמה קריקטורה 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "מופעל על ידי טכנולוגיה מתקדמת",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "נכון",
+    "name": "introduce",
+    "title": "איך לעשות קריקטורה",
+    "label": "תהליך פשוט",
+    "description": "צור קריקטורות מדהימות בשלושה שלבים פשוטים. אין צורך בכישורים אומנותיים.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "העלה תמונה",
+        "description": "העלה תמונת פורטרט ברורה. אנו תומכים ב-JPG, PNG ו-WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "בחר סגנון",
+        "description": "בחר מתוך סגנונות מצחיקים, מוגזמים, אנימה או 3D קריקטורה.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "הורד",
+        "description": "קבל את הקריקטורה האיכותית שלך באופן מיידי ללא סימני מים.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "נכון",
+    "name": "benefit",
+    "title": "למה להשתמש ב-OpenClaw?",
+    "label": "הטבות",
+    "description": "הכלי המושלם למתנות, תמונות פרופיל ותוכן מדיה חברתית.",
+    "items": [
+      {
+        "title": "קסם של AI מיידי",
+        "description": "AI מתקדם מנתח תווי פנים כדי ליצור קריקטורות מוגזמות לחלוטין תוך שניות.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "סגנונות אמנות מגוונים",
+        "description": "ממראה קלאסי מצוייר ביד ועד לאוואטרים מודרניים עם אנימציה תלת מימדית. יש לנו הכל.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "רזולוציה גבוהה",
+        "description": "הורד תמונות חדות ואיכותיות המתאימות להדפסה על ספלים, חולצות ופוסטרים.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "גלריה",
+    "title": "תמורות מדהימות",
+    "description": "ראה כיצד תמונות רגילות הופכות לקריקטורות יוצאות דופן.",
+    "items": [
+      {
+        "title": "אווטרים חברתיים",
+        "highlight": "להתבלט באינטרנט",
+        "description": "צור תמונת פרופיל ייחודית שתופסת את האישיות שלך.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "תמונה מקורית",
+        "afterAlt": "תוצאה קריקטורה",
+        "reverse": false
+      },
+      {
+        "title": "מתנות מותאמות אישית",
+        "highlight": "מתנות בלתי נשכחות",
+        "description": "הפתיע חברים ובני משפחה עם דיוקן מצחיק מותאם אישית.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "תמונה מקורית",
+        "afterAlt": "תוצאה קריקטורה",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 שלבים לפריסת OpenClaw",
+    "description": "בחר את הדגם שלך, חבר ערוץ והפעל.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "שמאל",
+    "text_align": "מרכז",
+    "items": [
+      {
+        "title": "בחר דגם",
+        "description": "Claude, GPT, Gemini - בחרו את הדגם הטוב ביותר עבור כל משימה. עבודה יצירתית עם Claude, ניתוח עם GPT. החלף בכל עת.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "בחר דגם AI - Claude, GPT, או Gemini"
+        }
+      },
+      {
+        "title": "חבר ערוץ",
+        "description": "Telegram, Discord, WhatsApp - לוח מחוונים אחד לכל הערוצים. נהל את כל השיחות ממקום אחד, לא עוד מעבר בין אפליקציות.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "חבר ערוצי הודעות"
+        }
+      },
+      {
+        "title": "פרוס והתחל",
+        "description": "עוזר הבינה המלאכותית שלך מחובר תוך 60 שניות. שלח את ההודעה הראשונה שלך והתחל לבצע אוטומציה.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "פרוס והפעל את העוזר שלך"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "צור את הקריקטורה שלך",
+    "description": "העלה תמונה, בחר סגנון והפק."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "סטודיו לקריקטורה",
+    "description": "העלה תמונה, בחר סגנון והפק קריקטורה באיכות גבוהה.",
+    "disabled": false,
+    "upload": {
+      "title": "העלה את התמונה שלך",
+      "description": "גרור ושחרר או לחץ כדי להעלות (JPG, PNG, WebP עד 10MB)",
+      "buttonText": "בחר תמונה",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "הקריקטורה שלך",
+      "textListTitle": "הגדרות סגנון",
+      "fontRecommendationTitle": "סגנונות מומלצים",
+      "detectedFontLabel": "בחירה נוכחית",
+      "similarFontsLabel": "נסה גם את אלה",
+      "selectTextPrompt": "בחר סגנון ליישום"
+    },
+    "actions": {
+      "reuploadText": "נסה תמונה אחרת"
+    },
+    "messages": {
+      "uploadSuccess": "התמונה הועלתה בהצלחה!",
+      "uploadError": "אופס, ההעלאה נכשלה. אנא נסה שוב.",
+      "recognitionSuccess": "הקריקטורה שלך מוכנה!",
+      "recognitionError": "הדור נכשל. אנא נסה שוב.",
+      "fontRecognitionSuccess": "סגנון הוחל!",
+      "fontRecognitionError": "החלת הסגנון נכשלה.",
+      "processing": "יוצר את הקריקטורה שלך..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "להיפרד מהטרחה",
+    "description": "ראה מה משתנה כשאתה עובר ל-EasyClaw",
+    "before_label": "התקנה מסורתית",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "השכרת שרתים, הגדר סביבות",
+        "after": "פריסה בלחיצה אחת, אין צורך בשרתים"
+      },
+      {
+        "before": "התעורר כדי לתקן התראות 3 לפנות בוקר",
+        "after": "פעולה אוטומטית 24/7"
+      },
+      {
+        "before": "עדכן ידנית גרסאות OpenClaw",
+        "after": "עדכונים אוטומטיים לגרסה האחרונה"
+      },
+      {
+        "before": "למד פקודות Docker, Linux",
+        "after": "אפס כישורים טכניים נדרשים"
+      },
+      {
+        "before": "30+ דקות לכל פריסה",
+        "after": "פרוס תוך פחות מ-60 שניות"
+      }
+    ],
+    "footer": "זמן חסך: ~29 דקות לכל פריסה"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "מדוע צוותים בוחרים ב-EasyClaw",
+    "description": "פריסה מוכנה לייצור ללא תקורה של DevOps. אפס תחזוקה, מיקוד מירבי.",
+    "items": [
+      {
+        "title": "פרוס תוך 60 שניות",
+        "description": "מאפס לריצה תוך פחות מדקה. ללא Docker, ללא פקודות לינוקס, ללא הגדרת שרת.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "אפס תחזוקה",
+        "description": "אנו מטפלים בעדכונים, ניטור ושחזור. אתה פשוט מתמקד בשימוש בעוזרת הבינה המלאכותית שלך.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "גמישות דגם",
+        "description": "עבור בין Claude, GPT ו-Gemini בכל עת. השתמש במודל הטוב ביותר עבור כל משימה.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "ערוצים מאוחדים",
+        "description": "נהל את Telegram, Discord ו-WhatsApp מלוח מחוונים אחד. לא עוד להחליף אפליקציות.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "תמיד מעודכן",
+        "description": "עדכוני OpenClaw אוטומטיים. השתמש תמיד בתכונות העדכניות ביותר מבלי להרים אצבע.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "קנה מידה עם ביטחון",
+        "description": "התחל לבד, ולאחר מכן הגדל את השימוש בין צוותים ומקרי שימוש. מ-1 עד 100 פריסות.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "פרוס OpenClaw עבור כל זרימת עבודה",
+    "description": "עוזר אחד, מקרי שימוש רבים. הפעל פעם אחת, הפוך לאוטומטי בכל מקום.",
+    "items": [
+      {
+        "title": "תדריכים יומיים",
+        "description": "הפוך הודעות ועדכונים לבריף בוקר תמציתי עבור הצוות שלך.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "זרימת עבודה של אוטומציה של תדריכים יומיים"
+        },
+        "buttons": [
+          {
+            "title": "למידע נוסף ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "עוזר תמיכת לקוחות",
+        "description": "נתב שאלות, טיוטת תשובות ושמור על תגובת ערוצי התמיכה.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "זרימת עבודה של אוטומציה לתמיכת לקוחות"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "התחל לפרוס ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "אוטומציה של Team Ops",
+        "description": "אוטומציה של תזכורות, דוחות סטטוס ומעקבים שגרתיים בין הערוצים.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "זרימת עבודה של אוטומציה של תפעול צוות"
+        },
+        "buttons": [
+          {
+            "title": "ראה תמחור ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "שקר",
+    "name": "stats",
+    "label": "הבהרה",
+    "title": "נבנה עבור השקות מהירות",
+    "description": "כל מה שצריך כדי להפעיל את OpenClaw בצורה אמינה.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "הגיע הזמן לפריסה ראשונה",
+        "label": "< דקה אחת",
+        "description": "מההגדרה ועד עוזר ריצה"
+      },
+      {
+        "title": "ערוצים נתמכים",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "נראות פריסה",
+        "label": "בזמן אמת",
+        "description": "עקוב אחר מצבי ריצה וכשלים"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "ביקורות",
+    "title": "מה משתמשים אומרים",
+    "description": "ראה למה כולם מדברים על OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "שרה ג'נקינס",
+        "label": "מנהל מדיה חברתית",
+        "description": "הכנתי תמונת צוות מצחיקה עבור דף אודותינו. כולם אהבו את זה!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "מייק רוס",
+        "label": "פרילנסר",
+        "description": "השתמשתי בזה כדי ליצור אווטאר ייחודי לפרופיל העצמאי שלי. זה בולט!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "אמילי חן",
+        "label": "תלמיד",
+        "description": "הכנתי קריקטורות של כל החברים שלי לכרטיס יום הולדת. המתנה הכי טובה אי פעם.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "דיוויד מילר",
+        "label": "יוצר תוכן",
+        "description": "הסגנונות השונים מדהימים. אני משתמש בסגנון התלת מימד עבור התמונות הממוזערות שלי.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "ג'סיקה וונג",
+        "label": "מוביל שיווק",
+        "description": "מהיר, קל, והתוצאות למעשה מצחיקות, לא רק מוזרות.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "טום בייקר",
+        "label": "מפתח",
+        "description": "סופר פשוט API ותוצאות נהדרות עבור פרויקט חיית המחמד שלי.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "שאלות נפוצות",
+    "title": "שאלות נפוצות",
+    "description": "כל מה שאתה צריך לפני פריסת OpenClaw עם EasyClaw.",
+    "items": [
+      {
+        "title": "כמה עולה EasyClaw?",
+        "description": "התוכניות מתחילות ב-$10 לחודש. בטל בכל עת מהחשבון שלך."
+      },
+      {
+        "title": "האם אני צריך לנהל שרתים?",
+        "description": "לא. EasyClaw מייעל את זרימת העבודה של הפריסה כך שתוכל להפעיל את OpenClaw ללא שרתים או DevOps."
+      },
+      {
+        "title": "אילו דגמים נתמכים?",
+        "description": "Claude, GPT ו-Gemini."
+      },
+      {
+        "title": "האם אני יכול לפרוס למספר ערוצים?",
+        "description": "כן. Telegram, Discord ו-WhatsApp נתמכים."
+      },
+      {
+        "title": "כמה זמן לוקח לפרוס?",
+        "description": "בדרך כלל פחות מדקה אחת. התקנה בפעם הראשונה יכולה לקחת קצת יותר זמן."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "מוכן להשיק את OpenClaw?",
+    "description": "פרוס את העוזר הראשון שלך תוך פחות מדקה. ללא שרתים, ללא תחזוקה, ללא עקומת למידה.",
+    "note": "בטל בכל עת. אין חוזה ארוך טווח.",
+    "buttons": [
+      {
+        "title": "פרוס OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "הדרך הקלה ביותר לפרוס את עוזר AI OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. כֹּל הַזְכוּיוֹת שְׁמוּרוֹת.",
+    "nav": {
+      "items": [
+        {
+          "title": "בערך",
+          "children": [
+            {
+              "title": "תכונות",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "תמחור",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "בלוג",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "שאלות נפוצות",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "תמיכה בדוא\"ל",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw הוא מוצר עצמאי ואינו מזוהה עם ספקי דגמי צד שלישי או בעלי סימנים מסחריים.",
+    "agreement": {
+      "items": [
+        {
+          "title": "מדיניות פרטיות",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "תנאים והגבלות",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "מדיניות החזר כספי",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "תמחור",
+    "title": "תמחור",
+    "description": "בחר תוכנית על סמך כמה פריסות OpenClaw אתה צריך. בטל בכל עת מהחשבון שלך.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "חודשי",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "מדי שנה",
+        "is_featured": true,
+        "label": "חסוך 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "פרו",
+        "label": "פופולרי",
+        "features_title": "תכונות ליבה של פריסה",
+        "features": [
+          "עד 5 פריסות OpenClaw פעילות",
+          "בלחיצה אחת לפרוס, הפעל מחדש ופריסה מחדש",
+          "קביעות מוגדרות מראש של דגם ותצורת ערוצים",
+          "לוח המחוונים של סטטוס הפריסה",
+          "ניתוח שימוש בסיסי",
+          "תמיכה בדוא\"ל",
+          "שימוש מסחרי",
+          "גישה לתכונות פריסה חדשות"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "קבל את Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro חודשי",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "פרימיום",
+        "features_title": "הכל ב-Pro, פלוס",
+        "features": [
+          "עד 20 פריסות OpenClaw פעילות",
+          "תור הקצאת עדיפות",
+          "מודלים וערוץ קבועים לשימוש חוזר",
+          "התראות Webhook עבור סטטוס הפריסה",
+          "גישה לצוות (עד 3 חברים)",
+          "גישה ל-API",
+          "תמיכה בעדיפות",
+          "גישה מוקדמת לתכונות בטא"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "קבל פרימיום",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw פרימיום חודשי",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "פרו",
+        "label": "פופולרי",
+        "features_title": "תכונות ליבה של פריסה",
+        "features": [
+          "עד 5 פריסות OpenClaw פעילות",
+          "בלחיצה אחת לפרוס, הפעל מחדש ופריסה מחדש",
+          "קביעות מוגדרות מראש של דגם ותצורת ערוצים",
+          "לוח המחוונים של סטטוס הפריסה",
+          "ניתוח שימוש בסיסי",
+          "תמיכה בדוא\"ל",
+          "שימוש מסחרי",
+          "גישה לתכונות פריסה חדשות"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "מחיר מקורי: $10 לחודש",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "קבל את Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro מדי שנה",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "פרימיום",
+        "features_title": "הכל ב-Pro, פלוס",
+        "features": [
+          "עד 20 פריסות OpenClaw פעילות",
+          "תור הקצאת עדיפות",
+          "מודלים וערוץ קבועים לשימוש חוזר",
+          "התראות Webhook עבור סטטוס הפריסה",
+          "גישה לצוות (עד 3 חברים)",
+          "גישה ל-API",
+          "תמיכה בעדיפות",
+          "גישה מוקדמת לתכונות בטא"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "מחיר מקורי: $20 לחודש",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "קבל פרימיום",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw פרימיום מדי שנה",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

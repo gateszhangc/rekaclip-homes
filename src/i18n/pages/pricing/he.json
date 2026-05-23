@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "תמחור",
+    "title": "תמחור",
+    "description": "בחר תוכנית על סמך כמה פריסות OpenClaw אתה צריך. בטל בכל עת מהחשבון שלך.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "חודשי",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "מדי שנה",
+        "is_featured": true,
+        "label": "חסוך 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "מתנע",
+        "label": "גישה מוקדמת",
+        "description": "כל מה שאתה צריך כדי להפעיל את OpenClaw. שום דבר שאתה לא עושה.",
+        "features_title": "ניסיון חינם כלולה",
+        "features": [
+          "זמן ריצה OpenClaw מנוהל במלואו",
+          "סוכן מוכן Telegram",
+          "אפס הגדרה",
+          "סוכן OpenClaw אחד",
+          "Claude, ChatGPT או Gemini - אנחנו מפעילים את זה בשבילך",
+          "אין צורך במפתח API",
+          "השימוש כלול לכל תוכנית. בטל בכל עת."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "נסה בחינם. אין צורך בכרטיס אשראי.",
+        "button": {
+          "title": "הפעל את OpenClaw באופן מיידי",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Starter Monthly",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "פרו",
+        "label": "פופולרי",
+        "features_title": "תכונות ליבה של פריסה",
+        "features": [
+          "עד 5 פריסות OpenClaw פעילות",
+          "בלחיצה אחת לפרוס, הפעל מחדש ופריסה מחדש",
+          "קביעות מוגדרות מראש של דגם ותצורת ערוצים",
+          "לוח המחוונים של סטטוס הפריסה",
+          "ניתוח שימוש בסיסי",
+          "תמיכה בדוא\"ל",
+          "שימוש מסחרי",
+          "גישה לתכונות פריסה חדשות"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "קבל את Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro חודשי",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "מתנע",
+        "label": "גישה מוקדמת",
+        "description": "כל מה שאתה צריך כדי להפעיל את OpenClaw. שום דבר שאתה לא עושה.",
+        "features_title": "ניסיון חינם כלולה",
+        "features": [
+          "זמן ריצה OpenClaw מנוהל במלואו",
+          "סוכן מוכן Telegram",
+          "אפס הגדרה",
+          "סוכן OpenClaw אחד",
+          "Claude, ChatGPT או Gemini - אנחנו מפעילים את זה בשבילך",
+          "אין צורך במפתח API",
+          "השימוש כלול לכל תוכנית. בטל בכל עת."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "מחיר מקורי: $10 לחודש",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "נסה בחינם. אין צורך בכרטיס אשראי.",
+        "button": {
+          "title": "הפעל את OpenClaw באופן מיידי",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Starter מדי שנה",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "פרו",
+        "label": "פופולרי",
+        "features_title": "תכונות ליבה של פריסה",
+        "features": [
+          "עד 5 פריסות OpenClaw פעילות",
+          "בלחיצה אחת לפרוס, הפעל מחדש ופריסה מחדש",
+          "קביעות מוגדרות מראש של דגם ותצורת ערוצים",
+          "לוח המחוונים של סטטוס הפריסה",
+          "ניתוח שימוש בסיסי",
+          "תמיכה בדוא\"ל",
+          "שימוש מסחרי",
+          "גישה לתכונות פריסה חדשות"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "מחיר מקורי: $20 לחודש",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "קבל את Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro מדי שנה",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

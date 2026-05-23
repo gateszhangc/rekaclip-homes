@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - Sebarkan OpenClaw dalam masa kurang dari 1 minit",
+    "description": "Gunakan OpenClaw dengan EasyClaw dalam satu klik. Sambungkan Telegram, pilih model dan buat siaran langsung dengan pantas.",
+    "keywords": "easyclaw, gunakan openclaw, hosting openclaw, penempatan bot telegram, penempatan pembantu ai"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Berita, tutorial dan kemas kini tentang menggunakan OpenClaw dengan EasyClaw.",
+    "read_more_text": "Baca Lagi"
+  },
+  "user": {
+    "sign_in": "Log Masuk",
+    "sign_out": "Log Keluar",
+    "credits": "Kredit",
+    "api_keys": "Kekunci API",
+    "my_orders": "Pesanan Saya",
+    "my_invites": "Jemputan Saya",
+    "user_center": "Pusat Pengguna",
+    "support": "Sokongan",
+    "admin_system": "Sistem Pentadbiran",
+    "home": "Rumah",
+    "pricing": "penetapan harga",
+    "admin_center": "Pusat Pentadbiran"
+  },
+  "sign_modal": {
+    "sign_in_title": "Log masuk ke EasyClaw",
+    "sign_in_description": "Akses akaun EasyClaw anda untuk menggunakan dan mengurus OpenClaw.",
+    "sign_up_title": "Sertai EasyClaw",
+    "sign_up_description": "Buat akaun EasyClaw anda",
+    "email_title": "E-mel",
+    "email_placeholder": "Masukkan alamat e-mel anda",
+    "password_title": "Kata laluan",
+    "password_placeholder": "Masukkan kata laluan anda",
+    "forgot_password": "Lupa kata laluan?",
+    "or": "Ataupun",
+    "continue": "Teruskan ke EasyClaw",
+    "no_account": "Baru menggunakan EasyClaw?",
+    "email_sign_in": "Log masuk dengan E-mel",
+    "google_sign_in": "Teruskan dengan Google",
+    "github_sign_in": "Teruskan dengan GitHub",
+    "close_title": "tutup",
+    "cancel_title": "Batal"
+  },
+  "my_orders": {
+    "title": "Pesanan Saya",
+    "no_orders": "Tiada pesanan ditemui",
+    "tip": "",
+    "support_tip": "Perlukan bantuan dengan pengebilan atau pembatalan? E-mel support@easyclaw.pro.",
+    "activate_order": "Aktifkan Pesanan",
+    "actived": "Diaktifkan",
+    "join_discord": "Sertai Discord",
+    "read_docs": "Baca Dokumen",
+    "table": {
+      "order_no": "Pesanan No",
+      "email": "E-mel",
+      "product_name": "Nama Produk",
+      "amount": "Jumlah",
+      "paid_at": "Dibayar Pada",
+      "github_username": "Nama Pengguna GitHub",
+      "status": "Status",
+      "manage_billing": "Urus Pengebilan",
+      "interval": "Interval",
+      "interval_month": "Bulanan",
+      "interval_year": "setiap tahun",
+      "interval_one_time": "Sekali"
+    }
+  },
+  "my_credits": {
+    "title": "Kredit Saya",
+    "left_tip": "kredit kiri: {left_credits}",
+    "no_credits": "Tiada rekod kredit",
+    "recharge": "Isi semula",
+    "table": {
+      "trans_no": "Trans No",
+      "trans_type": "Jenis Trans",
+      "credits": "Kredit",
+      "updated_at": "Dikemaskini Pada",
+      "status": "Status",
+      "expired_at": "Tamat tempoh Pada",
+      "created_at": "Dicipta Pada"
+    }
+  },
+  "api_keys": {
+    "title": "Kekunci API",
+    "tip": "Sila pastikan apikey anda selamat untuk mengelakkan kebocoran",
+    "no_api_keys": "Tiada Kunci API",
+    "create_api_key": "Cipta Kunci API",
+    "table": {
+      "name": "Name",
+      "key": "kunci",
+      "created_at": "Dicipta Pada"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Nama Utama API",
+      "submit": "Hantar"
+    }
+  },
+  "my_invites": {
+    "title": "Jemputan Saya",
+    "description": "Lihat rekod jemputan anda",
+    "no_invites": "Tiada rekod jemputan ditemui",
+    "my_invite_link": "Pautan Jemputan Saya",
+    "edit_invite_link": "Edit Pautan Jemputan",
+    "copy_invite_link": "Salin Pautan Jemputan",
+    "invite_code": "Kod Jemputan",
+    "invite_tip": "Jemput rakan ke EasyClaw dan dapatkan ganjaran.",
+    "invite_balance": "Jemput Baki Ganjaran",
+    "total_invite_count": "Jumlah Kiraan Jemputan",
+    "total_paid_count": "Jumlah Kiraan Berbayar",
+    "total_award_amount": "Jumlah Jumlah Anugerah",
+    "update_invite_code": "Tetapkan Kod Jemputan",
+    "update_invite_code_tip": "Masukkan kod jemputan tersuai anda",
+    "update_invite_button": "Jimat",
+    "no_orders": "Anda memerlukan pelan berbayar sebelum menjemput orang lain",
+    "no_affiliates": "Anda tidak dibenarkan menjemput orang lain, sila hubungi kami untuk memohon kebenaran.",
+    "table": {
+      "invite_time": "Masa Jemputan",
+      "invite_user": "Jemput Pengguna",
+      "status": "Status",
+      "reward_percent": "Peratus Ganjaran",
+      "reward_amount": "Jumlah Ganjaran",
+      "pending": "Belum selesai",
+      "completed": "Selesai"
+    }
+  },
+  "feedback": {
+    "title": "Maklum balas",
+    "description": "Kami ingin mendengar perkara yang berjalan lancar atau cara kami boleh meningkatkan pengalaman produk.",
+    "submit": "Hantar",
+    "loading": "Menyerahkan...",
+    "contact_tip": "Cara lain untuk menghubungi kami",
+    "rating_tip": "Apakah perasaan anda tentang EasyClaw?",
+    "placeholder": "Tinggalkan kata-kata anda di sini..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Cipta Karikatur AI serta-merta",
+    "description": "Muat naik foto untuk menjana karikatur yang menyeronokkan dan artistik dengan alatan berkuasa AI.",
+    "upload_label": "Muat Naik Imej Anda",
+    "upload_placeholder": "Klik atau seret untuk memuat naik (JPG, PNG, GIF, WebP)",
+    "upload_required": "Diperlukan",
+    "prompt_label": "Terangkan pengembangan (pilihan)",
+    "prompt_placeholder": "Cth., 'panjangkan latar belakang ke kiri dan kanan', 'lukiskan langit', 'luaskan kanvas untuk sepanduk', 'tambah ruang di sekeliling subjek'...",
+    "prompt_required": "Nota pilihan",
+    "character_count": "{count}/500",
+    "generate_button": "Kembangkan Imej",
+    "generating_button": "Mengembangkan...",
+    "credits_label": "Kredit Anda",
+    "cost_label": "Kos: {cost} kredit setiap pengembangan",
+    "insufficient_credits": "Kredit tidak mencukupi. Sila cas semula untuk terus mengembangkan imej.",
+    "errors": {
+      "no_image": "Sila muat naik imej untuk dikembangkan",
+      "no_prompt": "Sila terangkan cara anda ingin mengembangkan imej",
+      "invalid_format": "Hanya format JPG, PNG, GIF, WebP disokong",
+      "file_too_large": "Saiz imej tidak boleh melebihi 5MB",
+      "generation_failed": "Peluasan imej gagal, sila cuba lagi",
+      "download_failed": "Muat turun gagal, sila cuba lagi"
+    },
+    "success": {
+      "generated": "Imej dikembangkan anda sudah sedia!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Lihat imej terkini yang dikembangkan oleh alat kami. Pratonton sebelum/selepas dan eksport hasilnya.",
+    "download_hint": "Klik untuk memuat turun imej yang dikembangkan",
+    "no_outfits": "Tiada pengembangan lagi. Muat naik imej untuk mula berkembang!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - Penjana Karikatur AI",
+    "description": "Hasilkan karikatur berkualiti tinggi menggunakan model AI OpenClaw dengan mod teks ke imej dan imej ke imej",
+    "hero": {
+      "badge": "OpenClaw baharu",
+      "title": "Cipta Karikatur Menakjubkan",
+      "subtitle": "Ubah foto menjadi karikatur yang menakjubkan dengan model AI termaju OpenClaw. Menyokong kedua-dua mod penciptaan teks-ke-imej dan imej-ke-imej.",
+      "features": {
+        "text_to_image": "Teks kepada Imej",
+        "image_to_image": "Imej kepada Imej",
+        "high_quality": "Output Berkualiti Tinggi"
+      },
+      "buttons": {
+        "start_creating": "Mula Mencipta",
+        "view_gallery": "Lihat Galeri"
+      },
+      "stats": {
+        "daily_images": "Imej Dijana Harian",
+        "satisfaction": "Kepuasan Pengguna",
+        "generation_time": "Masa Penjanaan Purata"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Imej kepada Imej",
+        "text_to_image": "Teks kepada Imej"
+      },
+      "model": "Model",
+      "reference_images": "Gambar Rujukan",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Seret dan lepaskan imej di sini",
+        "or_click": "atau klik untuk menyemak imbas",
+        "supported_formats": "Menyokong: JPEG, PNG, WebP (maks 10MB)",
+        "add_more": "Tambah lagi"
+      },
+      "prompt": "Prompt",
+      "prompt_placeholder_image": "Terangkan cara mengubah imej...",
+      "prompt_placeholder_text": "Terangkan imej yang anda ingin hasilkan...",
+      "aspect_ratio": "Nisbah Aspek",
+      "resolution": "Resolusi",
+      "output_count": "Kiraan Keluaran",
+      "output_count_range": "Min {min}, Maks {max}",
+      "output_format": "Format Output",
+      "generate_button": "Jana Sekarang",
+      "generating": "Menjana...",
+      "clear_images": "Kosongkan semua imej",
+      "output_gallery": "Imej Dijana Anda",
+      "view_all": "Lihat Semua",
+      "generating_message": "Mencipta karya agung anda...",
+      "generating_submessage": "Model OpenClaw kami menjalankan keajaibannya. Ini biasanya mengambil masa beberapa saat.",
+      "example": "Contoh"
+    },
+    "my_creations": {
+      "title": "Ciptaan Saya",
+      "description": "Lihat dan urus imej yang dijana AI anda - pratonton dan muat turun dengan satu klik",
+      "search_placeholder": "Cari ciptaan...",
+      "view_all": "Lihat Semua ({count})",
+      "no_results": "Tiada ciptaan sepadan ditemui",
+      "no_results_message": "Cuba gunakan kata kunci yang berbeza atau kosongkan carian untuk melihat semua ciptaan.",
+      "clear_search": "Kosongkan Carian",
+      "empty_state": "Belum ada ciptaan",
+      "empty_message": "Mula menggunakan OpenClaw untuk mencipta imej pertama yang dijana AI anda!",
+      "start_creating": "Mula Mencipta",
+      "download": "Muat turun",
+      "delete": "Padam",
+      "total_count": "Jumlah ciptaan {count}",
+      "search_results": "(Cari: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Teks kepada Imej",
+        "IMAGE_TO_IMAGE": "Imej kepada Imej"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Sila masukkan gesaan",
+      "upload_reference": "Mod imej-ke-imej memerlukan memuat naik imej rujukan",
+      "generation_failed": "Penjanaan gagal, sila cuba lagi",
+      "upload_success": "Imej berjaya dimuat naik",
+      "upload_failed": "Muat naik gagal",
+      "delete_success": "Imej dipadamkan",
+      "delete_failed": "Padam gagal, sila cuba lagi",
+      "download_started": "Muat turun bermula",
+      "file_too_large": "Saiz fail tidak boleh melebihi {size}MB",
+      "unsupported_format": "Format fail tidak disokong. Format yang disokong: {formats}",
+      "retry": "Cuba semula",
+      "dismiss": "Tolak"
+    },
+    "loading": {
+      "default": "Memuatkan...",
+      "generation": "Mencipta karya agung anda...",
+      "generation_message": "Model OpenClaw kami menjalankan keajaibannya. Ini biasanya mengambil masa beberapa saat.",
+      "upload": "Memuat naik imej...",
+      "upload_message": "Sila tunggu sementara imej anda dimuat naik ke awan."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Studio Berlapis",
+      "title": "Studio OpenClaw",
+      "description": "Cipta karikatur artistik daripada foto anda.",
+      "cta": "Percubaan percuma",
+      "cta_hint": "Muat naik satu imej untuk bermula",
+      "features": [
+        "2-8 lapisan AI bagi setiap imej",
+        "Eksport PNG/WebP telus",
+        "Pemisahan berpandukan segera"
+      ]
+    },
+    "upload": {
+      "title": "Muat naik",
+      "subtitle": "JPG, PNG atau WebP sehingga 10MB",
+      "action": "Muat naik imej",
+      "drop": "Letakkan imej anda di sini",
+      "or_click": "atau klik untuk menyemak imbas",
+      "supported_formats": "Menyokong: JPEG, PNG, WebP (maks 10MB)"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "placeholder": "Terangkan lapisan yang anda mahu (cth., subjek, prop, latar belakang)"
+    },
+    "advanced": {
+      "title": "Tetapan Lanjutan",
+      "prompt_label": "Prompt (Pilihan)",
+      "prompt_placeholder": "Sila masukkan gesaan untuk menerangkan imej. (Pilihan)",
+      "negative_prompt_label": "Gesaan Negatif (Pilihan)",
+      "negative_prompt_placeholder": "Terangkan perkara yang harus dikecualikan daripada lapisan.",
+      "seed": "Benih",
+      "randomize_seed": "Randomkan benih",
+      "guidance_scale": "Skala bimbingan sebenar",
+      "inference_steps": "Bilangan langkah inferens",
+      "cfg_normalization": "Sama ada mendayakan normalisasi CFG",
+      "auto_caption_language": "Bahasa kapsyen automatik jika tiada gesaan disediakan, Benar untuk EN, Salah untuk ZH",
+      "layer_count": "Kiraan lapisan",
+      "layer_range": "Min {min}, Maks {max}",
+      "output_format": "Format output"
+    },
+    "actions": {
+      "decompose": "reput!",
+      "sign_in_to_decompose": "Log Masuk untuk Mengurai!",
+      "generating": "mereput..."
+    },
+    "results": {
+      "title": "Keputusan",
+      "subtitle": "Output berlapis muncul di sini selepas penguraian.",
+      "download_pptx": "Muat turun PPTX",
+      "download_zip": "Muat turun ZIP",
+      "packaging": "Pembungkusan...",
+      "generating_title": "Mengurai imej anda...",
+      "generating_subtitle": "Mencipta aset berlapis. Ini biasanya mengambil masa beberapa saat.",
+      "layer_label": "Lapisan {index}",
+      "layer_description": "Aset berlapis",
+      "empty_title": "Tiada lapisan lagi",
+      "empty_subtitle": "Muat naik imej dan klik Decompose! untuk menghasilkan lapisan.",
+      "success": "Lapisan berjaya dijana!",
+      "download_ready": "Muat turun sedia"
+    },
+    "examples": {
+      "title": "Contoh",
+      "subtitle": "Lihat bagaimana imej sumber pecah menjadi lapisan bersih.",
+      "labels": {
+        "source": "Sumber",
+        "layer": "Lapisan {index}",
+        "sample": "Contoh {index}"
+      },
+      "rows": {
+        "primary": "Set Contoh 01",
+        "secondary": "Set Contoh 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Sila muat naik imej rujukan dahulu",
+      "generation_failed": "Penjanaan gagal, sila cuba lagi",
+      "upload_success": "Imej berjaya dimuat naik",
+      "upload_failed": "Muat naik gagal",
+      "download_failed": "Muat turun gagal, sila cuba lagi"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Tersedia"
+    },
+    "errors": {
+      "no_available_account": "Tiada akaun tersedia dalam langganan semasa anda. Sila cuba lagi kemudian.",
+      "network_unstable": "Rangkaian tidak stabil. Sila cuba sebentar lagi.",
+      "deployment_failed_try_again": "Pengerahan gagal. Cuba lagi.",
+      "deployment_timeout": "Tamat masa penggunaan selepas {minutes} minit. Sila cuba lagi.",
+      "enter_bot_token": "Sila masukkan token bot.",
+      "select_channel_before_deploying": "Sila pilih saluran sebelum digunakan.",
+      "enter_telegram_bot_token": "Sila masukkan token bot Telegram anda.",
+      "invalid_response_missing_deployment_id": "Respons tidak sah: deployment_id tiada",
+      "failed_to_start_deployment": "Gagal memulakan penggunaan",
+      "failed_to_fetch_deployment_status": "Gagal mengambil status penempatan",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - Satu klik OpenClaw Deployment",
+      "description": "Gunakan OpenClaw dalam masa kurang dari 1 minit. Tiada pelayan atau DevOps. Pilih model, sambungkan saluran dan lancarkan."
+    },
+    "selectors": {
+      "model_title": "Pilih model lalai untuk OpenClaw anda",
+      "channel_title": "Pilih tempat OpenClaw harus menghantar mesej",
+      "selected": "Dipilih"
+    },
+    "deploy": {
+      "deploying": "Mengerahkan...",
+      "deploy_button": "Sebarkan",
+      "sign_in_button": "Log masuk untuk menggunakan EasyClaw",
+      "sign_in_hint": "Log masuk untuk menggunakan OpenClaw dengan EasyClaw dan sambungkan saluran anda.",
+      "status_success": "Pengerahan berjaya! OpenClaw kini berjalan.",
+      "model_substitution_warning": "Penggantian model dikesan. Cuba atur semula atau tukar ke rantau/penyedia lain.",
+      "hint_prefix": "Sambungkan Telegram untuk meneruskan.",
+      "hint_suffix": "Anda boleh menambah saluran lain pada akaun yang sama kemudian.",
+      "hint_prefix_telegram": "Sambungkan Telegram untuk meneruskan.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Sambungkan Telegram",
+      "how_to_get_token": "Bagaimana untuk mendapatkan token bot anda?",
+      "step_1_prefix": "Buka Telegram dan pergi ke",
+      "step_2_prefix": "Mulakan sembang dan taip",
+      "step_3_text": "Ikut gesaan untuk menamakan bot anda dan pilih nama pengguna.",
+      "step_4_text": "BotFather akan menghantar mesej kepada anda dengan token bot anda. Salin keseluruhan token (ia kelihatan seperti rentetan nombor dan huruf yang panjang).",
+      "step_5_text": "Tampalkan token dalam medan di bawah dan klik Simpan & Sambung.",
+      "token_label": "Masukkan token bot",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Simpan & Sambung",
+      "preview_intro": "Saya boleh membantu anda mencipta dan mengurus bot Telegram. Apa yang anda ingin lakukan?",
+      "preview_newbot": "buat bot baharu",
+      "preview_mybots": "edit bot anda",
+      "preview_name_prompt": "Baiklah, bot baharu. Bagaimana kita hendak memanggilnya? Sila pilih nama untuk bot anda.",
+      "preview_message_input": "Mesej"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

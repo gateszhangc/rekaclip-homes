@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "ఫీచర్లు",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "ధర నిర్ణయించడం",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "బ్లాగు",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "తరచుగా అడిగే ప్రశ్నలు",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw లోగో"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "అధిక-నాణ్యత కళను సృష్టించండి",
+    "description": "పోర్ట్రెయిట్‌ను అప్‌లోడ్ చేయండి, శైలిని ఎంచుకోండి మరియు అవతార్‌లు, బహుమతులు లేదా కంటెంట్ కోసం క్లీన్ క్యారికేచర్‌ను పొందండి.",
+    "features": [
+      "అధిక-నాణ్యత వివరాలు మరియు క్లీన్ లైన్‌లు",
+      "రోజువారీ ఉపయోగం కోసం సరసమైన ధర",
+      "ప్రొఫైల్‌లు, బహుమతులు మరియు ప్రింట్‌ల కోసం సిద్ధంగా ఉంది"
+    ],
+    "buttons": [
+      {
+        "title": "నా వ్యంగ్య చిత్రాన్ని సృష్టించండి",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "వ్యంగ్య ఉదాహరణ"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "వ్యంగ్య చిత్రం ఉదాహరణ 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "వ్యంగ్య చిత్రం ఉదాహరణ 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "వ్యంగ్య చిత్రం ఉదాహరణ 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "అధునాతన సాంకేతికత ద్వారా ఆధారితం",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "నిజం",
+    "name": "introduce",
+    "title": "క్యారికేచర్ ఎలా తయారు చేయాలి",
+    "label": "సాధారణ ప్రక్రియ",
+    "description": "మూడు సాధారణ దశల్లో అద్భుతమైన వ్యంగ్య చిత్రాలను రూపొందించండి. కళాత్మక నైపుణ్యాలు అవసరం లేదు.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "ఫోటోను అప్‌లోడ్ చేయండి",
+        "description": "స్పష్టమైన పోర్ట్రెయిట్ ఫోటోను అప్‌లోడ్ చేయండి. మేము JPG, PNG మరియు WebPకి మద్దతిస్తాము.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "శైలిని ఎంచుకోండి",
+        "description": "ఫన్నీ, అతిశయోక్తి, అనిమే లేదా 3D కార్టూన్ శైలుల నుండి ఎంచుకోండి.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "డౌన్‌లోడ్ చేయండి",
+        "description": "వాటర్‌మార్క్‌లు లేకుండా మీ అధిక-నాణ్యత వ్యంగ్య చిత్రాన్ని తక్షణమే పొందండి.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "నిజం",
+    "name": "benefit",
+    "title": "OpenClaw ఎందుకు ఉపయోగించాలి?",
+    "label": "ప్రయోజనాలు",
+    "description": "బహుమతులు, ప్రొఫైల్ చిత్రాలు మరియు సోషల్ మీడియా కంటెంట్ కోసం సరైన సాధనం.",
+    "items": [
+      {
+        "title": "తక్షణ AI మ్యాజిక్",
+        "description": "అధునాతన AI సెకన్లలో అతిశయోక్తితో కూడిన వ్యంగ్య చిత్రాలను రూపొందించడానికి ముఖ లక్షణాలను విశ్లేషిస్తుంది.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "విభిన్న కళా శైలులు",
+        "description": "క్లాసిక్ చేతితో గీసిన రూపాల నుండి ఆధునిక 3D యానిమేటెడ్ అవతార్‌ల వరకు. మా దగ్గర అన్నీ ఉన్నాయి.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "అధిక రిజల్యూషన్",
+        "description": "మగ్‌లు, టీ-షర్టులు మరియు పోస్టర్‌లపై ముద్రించడానికి అనువైన స్ఫుటమైన, అధిక-నాణ్యత చిత్రాలను డౌన్‌లోడ్ చేయండి.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "గ్యాలరీ",
+    "title": "అద్భుతమైన పరివర్తనలు",
+    "description": "సాధారణ ఫోటోలు అసాధారణ వ్యంగ్య చిత్రాలుగా ఎలా మారతాయో చూడండి.",
+    "items": [
+      {
+        "title": "సామాజిక అవతారాలు",
+        "highlight": "ఆన్‌లైన్‌లో ప్రత్యేకంగా నిలబడండి",
+        "description": "మీ వ్యక్తిత్వాన్ని సంగ్రహించే ప్రత్యేకమైన ప్రొఫైల్ చిత్రాన్ని సృష్టించండి.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "అసలు ఫోటో",
+        "afterAlt": "వ్యంగ్య చిత్రం ఫలితం",
+        "reverse": false
+      },
+      {
+        "title": "వ్యక్తిగతీకరించిన బహుమతులు",
+        "highlight": "చిరస్మరణీయ బహుమతులు",
+        "description": "అనుకూల ఫన్నీ పోర్ట్రెయిట్‌తో స్నేహితులు మరియు కుటుంబ సభ్యులను ఆశ్చర్యపరచండి.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "అసలు ఫోటో",
+        "afterAlt": "వ్యంగ్య చిత్రం ఫలితం",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClawని అమలు చేయడానికి 3 దశలు",
+    "description": "మీ మోడల్‌ని ఎంచుకోండి, ఛానెల్‌ని కనెక్ట్ చేయండి మరియు ప్రారంభించండి.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "వదిలేశారు",
+    "text_align": "కేంద్రం",
+    "items": [
+      {
+        "title": "మోడల్‌ను ఎంచుకోండి",
+        "description": "Claude, GPT, Gemini — ప్రతి పనికి ఉత్తమమైన మోడల్‌ను ఎంచుకోండి. Claudeతో సృజనాత్మక పని, GPTతో విశ్లేషణ. ఎప్పుడైనా మారండి.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI మోడల్‌ని ఎంచుకోండి - Claude, GPT, లేదా Gemini"
+        }
+      },
+      {
+        "title": "ఛానెల్‌ని కనెక్ట్ చేయండి",
+        "description": "Telegram, Discord, WhatsApp — అన్ని ఛానెల్‌ల కోసం ఒక డాష్‌బోర్డ్. అన్ని సంభాషణలను ఒకే స్థలం నుండి నిర్వహించండి, ఇకపై యాప్‌లను మార్చడం లేదు.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "సందేశ ఛానెల్‌లను కనెక్ట్ చేయండి"
+        }
+      },
+      {
+        "title": "అమలు చేసి ప్రారంభించండి",
+        "description": "మీ AI అసిస్టెంట్ 60 సెకన్లలో ఆన్‌లైన్‌లో ఉన్నారు. మీ మొదటి సందేశాన్ని పంపండి మరియు ఆటోమేట్ చేయడం ప్రారంభించండి.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "మీ సహాయకుడిని అమలు చేసి ప్రారంభించండి"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "మీ వ్యంగ్య చిత్రాన్ని సృష్టించండి",
+    "description": "ఫోటోను అప్‌లోడ్ చేయండి, శైలిని ఎంచుకోండి మరియు రూపొందించండి."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "క్యారికేచర్ స్టూడియో",
+    "description": "ఫోటోను అప్‌లోడ్ చేయండి, శైలిని ఎంచుకోండి మరియు అధిక-నాణ్యత వ్యంగ్య చిత్రాన్ని రూపొందించండి.",
+    "disabled": false,
+    "upload": {
+      "title": "మీ ఫోటోను అప్‌లోడ్ చేయండి",
+      "description": "అప్‌లోడ్ చేయడానికి లాగండి మరియు వదలండి లేదా క్లిక్ చేయండి (JPG, PNG, WebP 10MB వరకు)",
+      "buttonText": "చిత్రాన్ని ఎంచుకోండి",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "మీ వ్యంగ్య చిత్రం",
+      "textListTitle": "శైలి సెట్టింగ్‌లు",
+      "fontRecommendationTitle": "సిఫార్సు చేసిన శైలులు",
+      "detectedFontLabel": "ప్రస్తుత ఎంపిక",
+      "similarFontsLabel": "వీటిని కూడా ప్రయత్నించండి",
+      "selectTextPrompt": "దరఖాస్తు చేయడానికి శైలిని ఎంచుకోండి"
+    },
+    "actions": {
+      "reuploadText": "మరొక ఫోటో ప్రయత్నించండి"
+    },
+    "messages": {
+      "uploadSuccess": "ఫోటో విజయవంతంగా అప్‌లోడ్ చేయబడింది!",
+      "uploadError": "అయ్యో, అప్‌లోడ్ విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+      "recognitionSuccess": "మీ వ్యంగ్య చిత్రం సిద్ధంగా ఉంది!",
+      "recognitionError": "తరం విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+      "fontRecognitionSuccess": "శైలి వర్తించబడింది!",
+      "fontRecognitionError": "శైలిని వర్తింపజేయడంలో విఫలమైంది.",
+      "processing": "మీ వ్యంగ్య చిత్రాన్ని సృష్టిస్తోంది..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "అవాంతరాలకు వీడ్కోలు చెప్పండి",
+    "description": "మీరు EasyClawకి మారినప్పుడు ఏమి మారుతుందో చూడండి",
+    "before_label": "సాంప్రదాయ సెటప్",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "సర్వర్‌లను అద్దెకు తీసుకోండి, పరిసరాలను కాన్ఫిగర్ చేయండి",
+        "after": "ఒక-క్లిక్ విస్తరణ, సర్వర్లు అవసరం లేదు"
+      },
+      {
+        "before": "3 AM హెచ్చరికలను పరిష్కరించడానికి మేల్కొలపండి",
+        "after": "24/7 ఆటోమేటిక్ ఆపరేషన్"
+      },
+      {
+        "before": "OpenClaw సంస్కరణలను మాన్యువల్‌గా నవీకరించండి",
+        "after": "తాజా సంస్కరణకు స్వయంచాలక నవీకరణలు"
+      },
+      {
+        "before": "డాకర్, లైనక్స్ ఆదేశాలను నేర్చుకోండి",
+        "after": "సున్నా సాంకేతిక నైపుణ్యాలు అవసరం"
+      },
+      {
+        "before": "ప్రతి విస్తరణకు 30+ నిమిషాలు",
+        "after": "60 సెకన్లలోపు అమలు చేయండి"
+      }
+    ],
+    "footer": "సమయం ఆదా చేయబడింది: ప్రతి విస్తరణకు ~29 నిమిషాలు"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "జట్లు EasyClawని ఎందుకు ఎంచుకుంటాయి",
+    "description": "DevOps ఓవర్‌హెడ్ లేకుండా ఉత్పత్తికి సిద్ధంగా ఉన్న విస్తరణ. సున్నా నిర్వహణ, గరిష్ట దృష్టి.",
+    "items": [
+      {
+        "title": "60 సెకన్లలో అమర్చండి",
+        "description": "సున్నా నుండి ఒక నిమిషంలోపు పరుగు. డాకర్ లేదు, Linux ఆదేశాలు లేవు, సర్వర్ సెటప్ లేదు.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "సున్నా నిర్వహణ",
+        "description": "మేము నవీకరణలు, పర్యవేక్షణ మరియు పునరుద్ధరణను నిర్వహిస్తాము. మీరు మీ AI అసిస్టెంట్‌ని ఉపయోగించడంపై దృష్టి పెట్టండి.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "మోడల్ వశ్యత",
+        "description": "ఎప్పుడైనా Claude, GPT మరియు Gemini మధ్య మారండి. ప్రతి పని కోసం ఉత్తమ నమూనాను ఉపయోగించండి.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "ఏకీకృత ఛానెల్‌లు",
+        "description": "ఒక డాష్‌బోర్డ్ నుండి Telegram, Discord మరియు WhatsAppని నిర్వహించండి. ఇకపై యాప్‌లను మార్చడం లేదు.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "ఎల్లప్పుడూ తాజాగా ఉంటుంది",
+        "description": "స్వయంచాలక OpenClaw నవీకరణలు. వేలు ఎత్తకుండా ఎల్లప్పుడూ తాజా ఫీచర్‌లను ఉపయోగించండి.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "విశ్వాసంతో స్కేల్ చేయండి",
+        "description": "ఒంటరిగా ప్రారంభించండి, ఆపై జట్లలో వినియోగాన్ని పెంచండి మరియు కేసులను ఉపయోగించండి. 1 నుండి 100 విస్తరణలు.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "ఏదైనా వర్క్‌ఫ్లో కోసం OpenClawని అమలు చేయండి",
+    "description": "ఒక సహాయకుడు, అనేక వినియోగ కేసులు. ఒకసారి ప్రారంభించండి, ప్రతిచోటా ఆటోమేట్ చేయండి.",
+    "items": [
+      {
+        "title": "రోజువారీ బ్రీఫింగ్‌లు",
+        "description": "మీ బృందం కోసం సందేశాలు మరియు అప్‌డేట్‌లను సంక్షిప్త ఉదయం క్లుప్తంగా మార్చండి.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "రోజువారీ బ్రీఫింగ్‌లు ఆటోమేషన్ వర్క్‌ఫ్లో"
+        },
+        "buttons": [
+          {
+            "title": "మరింత తెలుసుకోండి ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "కస్టమర్ సపోర్ట్ అసిస్టెంట్",
+        "description": "రూట్ ప్రశ్నలు, డ్రాఫ్ట్ ప్రత్యుత్తరాలు మరియు మద్దతు ఛానెల్‌లను ప్రతిస్పందించేలా ఉంచండి.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "కస్టమర్ సపోర్ట్ ఆటోమేషన్ వర్క్‌ఫ్లో"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "అమలు చేయడాన్ని ప్రారంభించండి ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "టీమ్ ఆప్స్ ఆటోమేషన్",
+        "description": "ఛానెల్‌లలో రిమైండర్‌లు, స్థితి నివేదికలు మరియు సాధారణ ఫాలో-అప్‌లను ఆటోమేట్ చేయండి.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "టీమ్ ఆపరేషన్స్ ఆటోమేషన్ వర్క్‌ఫ్లో"
+        },
+        "buttons": [
+          {
+            "title": "ధర చూడండి ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "తప్పుడు",
+    "name": "stats",
+    "label": "ముఖ్యాంశాలు",
+    "title": "వేగవంతమైన ప్రయోగాల కోసం నిర్మించబడింది",
+    "description": "OpenClawని విశ్వసనీయంగా అమలు చేయడానికి అవసరమైన ప్రతిదీ.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "మొదటి విస్తరణ సమయం",
+        "label": "< 1 నిమి",
+        "description": "సెటప్ నుండి రన్నింగ్ అసిస్టెంట్ వరకు"
+      },
+      {
+        "title": "మద్దతు ఉన్న ఛానెల్‌లు",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "విస్తరణ దృశ్యమానత",
+        "label": "రియల్ టైమ్",
+        "description": "రన్నింగ్ మరియు విఫలమైన స్థితులను ట్రాక్ చేయండి"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "సమీక్షలు",
+    "title": "వినియోగదారులు ఏమి చెప్తున్నారు",
+    "description": "అందరూ OpenClaw గురించి ఎందుకు మాట్లాడుతున్నారో చూడండి.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "సారా జెంకిన్స్",
+        "label": "సోషల్ మీడియా మేనేజర్",
+        "description": "నేను మా గురించి మా పేజీ కోసం ఉల్లాసంగా టీమ్ ఫోటోను తయారు చేసాను. అందరూ దీన్ని ఇష్టపడ్డారు!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "మైక్ రాస్",
+        "label": "ఫ్రీలాన్సర్",
+        "description": "నా ఫ్రీలాన్స్ ప్రొఫైల్ కోసం ప్రత్యేకమైన అవతార్‌ను రూపొందించడానికి దీన్ని ఉపయోగించాను. ఇది నిలుస్తుంది!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "ఎమిలీ చెన్",
+        "label": "విద్యార్థి",
+        "description": "పుట్టినరోజు కార్డు కోసం నా స్నేహితులందరి వ్యంగ్య చిత్రాలను రూపొందించాను. అత్యుత్తమ బహుమతి.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "డేవిడ్ మిల్లర్",
+        "label": "కంటెంట్ సృష్టికర్త",
+        "description": "విభిన్న శైలులు అద్భుతమైనవి. నేను నా సూక్ష్మచిత్రాల కోసం 3D శైలిని ఉపయోగిస్తాను.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "జెస్సికా వాంగ్",
+        "label": "మార్కెటింగ్ లీడ్",
+        "description": "వేగవంతమైనది, సులభమైనది మరియు ఫలితాలు అసహజంగా మాత్రమే కాకుండా నిజానికి ఫన్నీగా ఉంటాయి.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "టామ్ బేకర్",
+        "label": "డెవలపర్",
+        "description": "సూపర్ సింపుల్ API మరియు నా పెంపుడు ప్రాజెక్ట్ కోసం గొప్ప ఫలితాలు.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "తరచుగా అడిగే ప్రశ్నలు",
+    "title": "సాధారణ ప్రశ్నలు",
+    "description": "EasyClawతో OpenClawని అమలు చేయడానికి ముందు మీకు కావలసినవన్నీ.",
+    "items": [
+      {
+        "title": "EasyClaw ధర ఎంత?",
+        "description": "ప్లాన్‌లు నెలకు $10 నుండి ప్రారంభమవుతాయి. మీ ఖాతా నుండి ఎప్పుడైనా రద్దు చేయండి."
+      },
+      {
+        "title": "నేను సర్వర్‌లను నిర్వహించాలా?",
+        "description": "సంఖ్య. EasyClaw విస్తరణ వర్క్‌ఫ్లోను క్రమబద్ధీకరిస్తుంది కాబట్టి మీరు సర్వర్లు లేదా DevOps లేకుండా OpenClawని ప్రారంభించవచ్చు."
+      },
+      {
+        "title": "ఏ మోడల్‌లకు మద్దతు ఉంది?",
+        "description": "Claude, GPT మరియు Gemini."
+      },
+      {
+        "title": "నేను బహుళ ఛానెల్‌లకు అమలు చేయవచ్చా?",
+        "description": "అవును. Telegram, Discord మరియు WhatsAppకి మద్దతు ఉంది."
+      },
+      {
+        "title": "అమలు చేయడానికి ఎంత సమయం పడుతుంది?",
+        "description": "సాధారణంగా 1 నిమిషం లోపు. మొదటిసారి సెటప్ చేయడానికి కొంచెం ఎక్కువ సమయం పట్టవచ్చు."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClawని ప్రారంభించేందుకు సిద్ధంగా ఉన్నారా?",
+    "description": "ఒక నిమిషంలోపు మీ మొదటి అసిస్టెంట్‌ని అమలు చేయండి. సర్వర్లు లేవు, నిర్వహణ లేదు, లెర్నింగ్ కర్వ్ లేదు.",
+    "note": "ఎప్పుడైనా రద్దు చేయండి. దీర్ఘకాలిక ఒప్పందం లేదు.",
+    "buttons": [
+      {
+        "title": "OpenClawని అమలు చేయండి",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI అసిస్టెంట్‌ని అమలు చేయడానికి సులభమైన మార్గం.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • ఈజీ క్లా. అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.",
+    "nav": {
+      "items": [
+        {
+          "title": "గురించి",
+          "children": [
+            {
+              "title": "ఫీచర్లు",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "ధర నిర్ణయించడం",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "బ్లాగు",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "తరచుగా అడిగే ప్రశ్నలు",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "ఇమెయిల్ మద్దతు",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw ఒక స్వతంత్ర ఉత్పత్తి మరియు ఏ మూడవ-పక్షం మోడల్ ప్రొవైడర్‌లు లేదా ట్రేడ్‌మార్క్ యజమానులతో అనుబంధించబడలేదు.",
+    "agreement": {
+      "items": [
+        {
+          "title": "గోప్యతా విధానం",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "సేవా నిబంధనలు",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "వాపసు విధానం",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "ధర నిర్ణయించడం",
+    "title": "ధర నిర్ణయించడం",
+    "description": "మీకు ఎన్ని OpenClaw డిప్లాయ్‌మెంట్‌లు అవసరమో దాని ఆధారంగా ప్లాన్‌ను ఎంచుకోండి. మీ ఖాతా నుండి ఎప్పుడైనా రద్దు చేయండి.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "నెలవారీ",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "వార్షికంగా",
+        "is_featured": true,
+        "label": "50% ఆదా చేయండి"
+      }
+    ],
+    "items": [
+      {
+        "title": "ప్రో",
+        "label": "జనాదరణ పొందినది",
+        "features_title": "కోర్ విస్తరణ లక్షణాలు",
+        "features": [
+          "5 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "వన్-క్లిక్ డిప్లాయ్, రీస్టార్ట్ మరియు రీడెప్లాయ్",
+          "మోడల్ మరియు ఛానెల్ కాన్ఫిగరేషన్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి డాష్‌బోర్డ్",
+          "ప్రాథమిక వినియోగ విశ్లేషణలు",
+          "ఇమెయిల్ మద్దతు",
+          "వాణిజ్య వినియోగం",
+          "కొత్త విస్తరణ ఫీచర్‌లకు యాక్సెస్"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ప్రో పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw ప్రో నెలవారీ",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ప్రీమియం",
+        "features_title": "ప్రోలో ప్రతిదీ, ప్లస్",
+        "features": [
+          "20 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "ప్రాధాన్యత కేటాయింపు క్యూ",
+          "పునర్వినియోగ మోడల్ మరియు ఛానెల్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి కోసం Webhook హెచ్చరికలు",
+          "బృంద యాక్సెస్ (గరిష్టంగా 3 మంది సభ్యులు)",
+          "API యాక్సెస్",
+          "ప్రాధాన్యత మద్దతు",
+          "బీటా ఫీచర్‌లకు ముందస్తు యాక్సెస్"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "ప్రీమియం పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw ప్రీమియం నెలవారీ",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ప్రో",
+        "label": "జనాదరణ పొందినది",
+        "features_title": "కోర్ విస్తరణ లక్షణాలు",
+        "features": [
+          "5 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "వన్-క్లిక్ డిప్లాయ్, రీస్టార్ట్ మరియు రీడెప్లాయ్",
+          "మోడల్ మరియు ఛానెల్ కాన్ఫిగరేషన్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి డాష్‌బోర్డ్",
+          "ప్రాథమిక వినియోగ విశ్లేషణలు",
+          "ఇమెయిల్ మద్దతు",
+          "వాణిజ్య వినియోగం",
+          "కొత్త విస్తరణ ఫీచర్‌లకు యాక్సెస్"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "అసలు ధర: నెలకు $10",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ప్రో పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw ప్రో వార్షికంగా",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "ప్రీమియం",
+        "features_title": "ప్రోలో ప్రతిదీ, ప్లస్",
+        "features": [
+          "20 వరకు సక్రియ OpenClaw విస్తరణలు",
+          "ప్రాధాన్యత కేటాయింపు క్యూ",
+          "పునర్వినియోగ మోడల్ మరియు ఛానెల్ ప్రీసెట్లు",
+          "విస్తరణ స్థితి కోసం Webhook హెచ్చరికలు",
+          "బృంద యాక్సెస్ (గరిష్టంగా 3 మంది సభ్యులు)",
+          "API యాక్సెస్",
+          "ప్రాధాన్యత మద్దతు",
+          "బీటా ఫీచర్‌లకు ముందస్తు యాక్సెస్"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "అసలు ధర: నెలకు $20",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "ప్రీమియం పొందండి",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw ప్రీమియం వార్షికంగా",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "छवि फ्लिपर",
+    "description": "व्यावसायिक रंग उल्टो र वृद्धिको लागि छवि अपलोड गर्नुहोस्",
+    "disabled": false,
+    "upload": {
+      "title": "छवि तान्नुहोस् र छोड्नुहोस्",
+      "description": "PNG, JPG, JPEG, WebP 10MB सम्म समर्थन गर्दछ",
+      "buttonText": "एउटा फाइल छान्नुहोस्",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "सफा छवि",
+      "textListTitle": "पत्ता लगाइएका पाठ क्षेत्रहरू",
+      "fontRecommendationTitle": "हटाउने सुझावहरू",
+      "detectedFontLabel": "चयन गरिएको क्षेत्र",
+      "similarFontsLabel": "वैकल्पिक फिलहरू",
+      "selectTextPrompt": "हटाउनको लागि पाठ ब्लक चयन गर्नुहोस्"
+    },
+    "actions": {
+      "reuploadText": "पुन: अपलोड गर्नुहोस्"
+    },
+    "messages": {
+      "uploadSuccess": "छवि सफलतापूर्वक अपलोड गरियो",
+      "uploadError": "छवि अपलोड गर्न असफल भयो",
+      "recognitionSuccess": "पत्ता लगाउन सकियो",
+      "recognitionError": "पत्ता लगाउन असफल भयो",
+      "fontRecognitionSuccess": "पाठ हटाउने कार्य सम्पन्न भयो",
+      "fontRecognitionError": "पाठ हटाउन असफल भयो",
+      "processing": "प्रशोधन गर्दै..."
+    }
+  }
+}

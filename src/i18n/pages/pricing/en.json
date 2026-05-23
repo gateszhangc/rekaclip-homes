@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Pricing",
+    "description": "Choose a plan based on how many OpenClaw deployments you need. Cancel anytime from your account.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Monthly",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Annually",
+        "is_featured": true,
+        "label": "Save 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "label": "EARLY ACCESS",
+        "description": "Everything you need to run OpenClaw. Nothing you don't.",
+        "features_title": "Free trial included",
+        "features": [
+          "Fully managed OpenClaw runtime",
+          "Telegram-ready agent",
+          "Zero setup",
+          "1 OpenClaw agent",
+          "Claude, ChatGPT, or Gemini - we run it for you",
+          "No API key required",
+          "Usage included per plan. Cancel anytime."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Try for free. No credit card required.",
+        "button": {
+          "title": "Run OpenClaw instantly",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Starter Monthly",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Popular",
+        "features_title": "Core deployment features",
+        "features": [
+          "Up to 5 active OpenClaw deployments",
+          "One-click deploy, restart, and redeploy",
+          "Model and channel configuration presets",
+          "Deployment status dashboard",
+          "Basic usage analytics",
+          "Email support",
+          "Commercial usage",
+          "Access to new deployment features"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Get Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Monthly",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Starter",
+        "label": "EARLY ACCESS",
+        "description": "Everything you need to run OpenClaw. Nothing you don't.",
+        "features_title": "Free trial included",
+        "features": [
+          "Fully managed OpenClaw runtime",
+          "Telegram-ready agent",
+          "Zero setup",
+          "1 OpenClaw agent",
+          "Claude, ChatGPT, or Gemini - we run it for you",
+          "No API key required",
+          "Usage included per plan. Cancel anytime."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Original Price: $10 /mo",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Try for free. No credit card required.",
+        "button": {
+          "title": "Run OpenClaw instantly",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Starter Annually",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Popular",
+        "features_title": "Core deployment features",
+        "features": [
+          "Up to 5 active OpenClaw deployments",
+          "One-click deploy, restart, and redeploy",
+          "Model and channel configuration presets",
+          "Deployment status dashboard",
+          "Basic usage analytics",
+          "Email support",
+          "Commercial usage",
+          "Access to new deployment features"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Original Price: $20 /mo",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Get Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Annually",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - Implementera OpenClaw på under 1 minut",
+    "description": "Distribuera OpenClaw med EasyClaw med ett klick. Anslut Telegram, välj en modell och gå live snabbt.",
+    "keywords": "easyclaw, distribuera openclaw, openclaw hosting, telegram bot-distribution, ai assistant-distribution"
+  },
+  "blog": {
+    "title": "Blogg",
+    "description": "Nyheter, handledningar och uppdateringar om att distribuera OpenClaw med EasyClaw.",
+    "read_more_text": "Läs mer"
+  },
+  "user": {
+    "sign_in": "Logga in",
+    "sign_out": "Logga ut",
+    "credits": "Krediter",
+    "api_keys": "API-nycklar",
+    "my_orders": "Mina beställningar",
+    "my_invites": "Mina inbjudningar",
+    "user_center": "Användarcenter",
+    "support": "Support",
+    "admin_system": "Admin System",
+    "home": "Hem",
+    "pricing": "Prissättning",
+    "admin_center": "Admin Center"
+  },
+  "sign_modal": {
+    "sign_in_title": "Logga in på EasyClaw",
+    "sign_in_description": "Få åtkomst till ditt EasyClaw-konto för att distribuera och hantera OpenClaw.",
+    "sign_up_title": "Gå med i EasyClaw",
+    "sign_up_description": "Skapa ditt EasyClaw-konto",
+    "email_title": "E-post",
+    "email_placeholder": "Ange din e-postadress",
+    "password_title": "Lösenord",
+    "password_placeholder": "Ange ditt lösenord",
+    "forgot_password": "Glömt lösenordet?",
+    "or": "Eller",
+    "continue": "Fortsätt till EasyClaw",
+    "no_account": "Ny på EasyClaw?",
+    "email_sign_in": "Logga in med e-post",
+    "google_sign_in": "Fortsätt med Google",
+    "github_sign_in": "Fortsätt med GitHub",
+    "close_title": "Stäng",
+    "cancel_title": "Avbryt"
+  },
+  "my_orders": {
+    "title": "Mina beställningar",
+    "no_orders": "Inga beställningar hittades",
+    "tip": "",
+    "support_tip": "Behöver du hjälp med fakturering eller avbokning? Skicka e-post till support@easyclaw.pro.",
+    "activate_order": "Aktivera beställning",
+    "actived": "Aktiverad",
+    "join_discord": "Gå med i Discord",
+    "read_docs": "Läs Dokument",
+    "table": {
+      "order_no": "Beställningsnr",
+      "email": "E-post",
+      "product_name": "Produktnamn",
+      "amount": "Belopp",
+      "paid_at": "Betalas kl",
+      "github_username": "GitHub användarnamn",
+      "status": "Status",
+      "manage_billing": "Hantera fakturering",
+      "interval": "Interval",
+      "interval_month": "Månadsvis",
+      "interval_year": "Årligen",
+      "interval_one_time": "Engång"
+    }
+  },
+  "my_credits": {
+    "title": "Mina krediter",
+    "left_tip": "vänster poäng: {left_credits}",
+    "no_credits": "Inga krediter",
+    "recharge": "Ladda",
+    "table": {
+      "trans_no": "Trans nr",
+      "trans_type": "Trans typ",
+      "credits": "Krediter",
+      "updated_at": "Uppdaterad kl",
+      "status": "Status",
+      "expired_at": "Gick ut kl",
+      "created_at": "Skapad på"
+    }
+  },
+  "api_keys": {
+    "title": "API-nycklar",
+    "tip": "Förvara din apikey säker för att undvika läckor",
+    "no_api_keys": "Inga API-nycklar",
+    "create_api_key": "Skapa API-nyckel",
+    "table": {
+      "name": "Name",
+      "key": "Nyckel",
+      "created_at": "Skapad på"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Nyckelnamn",
+      "submit": "Skicka in"
+    }
+  },
+  "my_invites": {
+    "title": "Mina inbjudningar",
+    "description": "Visa dina inbjudningsuppgifter",
+    "no_invites": "Inga inbjudningsposter hittades",
+    "my_invite_link": "Min inbjudningslänk",
+    "edit_invite_link": "Redigera inbjudningslänk",
+    "copy_invite_link": "Kopiera inbjudningslänk",
+    "invite_code": "Inbjudningskod",
+    "invite_tip": "Bjud in vänner till EasyClaw och tjäna belöningar.",
+    "invite_balance": "Bjud in belöningssaldo",
+    "total_invite_count": "Totalt antal inbjudningar",
+    "total_paid_count": "Totalt antal betalda",
+    "total_award_amount": "Totalt prisbelopp",
+    "update_invite_code": "Ställ in inbjudningskod",
+    "update_invite_code_tip": "Ange din anpassade inbjudningskod",
+    "update_invite_button": "Spara",
+    "no_orders": "Du behöver en betald plan innan du bjuder in andra",
+    "no_affiliates": "Du får inte bjuda in andra, kontakta oss för att ansöka om tillstånd.",
+    "table": {
+      "invite_time": "Bjud in tid",
+      "invite_user": "Bjud in användare",
+      "status": "Status",
+      "reward_percent": "Belöningsprocent",
+      "reward_amount": "Belöningsbelopp",
+      "pending": "Väntar",
+      "completed": "Avslutad"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "Vi vill gärna höra vad som gick bra eller hur vi kan förbättra produktupplevelsen.",
+    "submit": "Skicka in",
+    "loading": "Skickar...",
+    "contact_tip": "Andra sätt att kontakta oss",
+    "rating_tip": "Vad tycker du om EasyClaw?",
+    "placeholder": "Lämna dina ord här..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Skapa AI-karikatyrer direkt",
+    "description": "Ladda upp foton för att skapa roliga och konstnärliga karikatyrer med AI-drivna verktyg.",
+    "upload_label": "Ladda upp din bild",
+    "upload_placeholder": "Klicka eller dra för att ladda upp (JPG, PNG, GIF, WebP)",
+    "upload_required": "Obligatoriskt",
+    "prompt_label": "Beskriv expansionen (valfritt)",
+    "prompt_placeholder": "Till exempel 'förläng bakgrund åt vänster och höger', 'utmåla himlen', 'vidga duk för en banderoll', 'lägg till rum runt motivet'...",
+    "prompt_required": "Valfria anteckningar",
+    "character_count": "{count}/500",
+    "generate_button": "Expandera bild",
+    "generating_button": "Expanderar...",
+    "credits_label": "Dina krediter",
+    "cost_label": "Kostnad: {cost} krediter per expansion",
+    "insufficient_credits": "Otillräckliga poäng. Ladda om för att fortsätta expandera bilder.",
+    "errors": {
+      "no_image": "Ladda upp en bild för att expandera",
+      "no_prompt": "Beskriv gärna hur du vill utöka bilden",
+      "invalid_format": "Endast formaten JPG, PNG, GIF, WebP stöds",
+      "file_too_large": "Bildstorleken får inte överstiga 5 MB",
+      "generation_failed": "Bildexpansion misslyckades, försök igen",
+      "download_failed": "Nedladdningen misslyckades, försök igen"
+    },
+    "success": {
+      "generated": "Din utökade bild är klar!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Se de senaste bilderna utökade med vårt verktyg. Förhandsgranska före/efter och exportera resultatet.",
+    "download_hint": "Klicka för att ladda ner den utökade bilden",
+    "no_outfits": "Inga expansioner ännu. Ladda upp en bild för att börja expandera!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI karikatyrgenerator",
+    "description": "Generera högkvalitativa karikatyrer med OpenClaw AI-modell med text-till-bild och bild-till-bild-lägen",
+    "hero": {
+      "badge": "Ny OpenClaw",
+      "title": "Skapa fantastiska karikatyrer",
+      "subtitle": "Förvandla foton till fantastiska karikatyrer med OpenClaws avancerade AI-modell. Stöder både text-till-bild och bild-till-bild skapande lägen.",
+      "features": {
+        "text_to_image": "Text till bild",
+        "image_to_image": "Bild till bild",
+        "high_quality": "Hög kvalitet"
+      },
+      "buttons": {
+        "start_creating": "Börja skapa",
+        "view_gallery": "Visa Galleri"
+      },
+      "stats": {
+        "daily_images": "Dagligt genererade bilder",
+        "satisfaction": "Användarnöjdhet",
+        "generation_time": "Genomsnittlig generationstid"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Bild till bild",
+        "text_to_image": "Text till bild"
+      },
+      "model": "Modell",
+      "reference_images": "Referensbilder",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Dra och släpp bilder här",
+        "or_click": "eller klicka för att bläddra",
+        "supported_formats": "Stöder: JPEG, PNG, WebP (max 10MB)",
+        "add_more": "Lägg till fler"
+      },
+      "prompt": "Fråga",
+      "prompt_placeholder_image": "Beskriv hur man förvandlar bilden...",
+      "prompt_placeholder_text": "Beskriv bilden du vill skapa...",
+      "aspect_ratio": "Bildförhållande",
+      "resolution": "Upplösning",
+      "output_count": "Utgångsräkning",
+      "output_count_range": "Min {min}, Max {max}",
+      "output_format": "Utdataformat",
+      "generate_button": "Generera nu",
+      "generating": "Genererar...",
+      "clear_images": "Rensa alla bilder",
+      "output_gallery": "Din skapade bild",
+      "view_all": "Visa alla",
+      "generating_message": "Skapar ditt mästerverk...",
+      "generating_submessage": "Vår OpenClaw-modell gör sin magi. Detta tar vanligtvis några sekunder.",
+      "example": "Exempel"
+    },
+    "my_creations": {
+      "title": "Mina skapelser",
+      "description": "Visa och hantera dina AI-genererade bilder - förhandsgranska och ladda ner med ett klick",
+      "search_placeholder": "Sök skapelser...",
+      "view_all": "Visa alla ({count})",
+      "no_results": "Inga matchande skapelser hittades",
+      "no_results_message": "Prova att använda andra nyckelord eller rensa sökningen för att se alla skapelser.",
+      "clear_search": "Rensa sökning",
+      "empty_state": "Inga skapelser ännu",
+      "empty_message": "Börja använda OpenClaw för att skapa din första AI-genererade bild!",
+      "start_creating": "Börja skapa",
+      "download": "Ladda ner",
+      "delete": "Ta bort",
+      "total_count": "Totalt {count} skapelser",
+      "search_results": "(Sök: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Text till bild",
+        "IMAGE_TO_IMAGE": "Bild till bild"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Vänligen ange en uppmaning",
+      "upload_reference": "Bild-till-bild-läge kräver uppladdning av referensbilder",
+      "generation_failed": "Genereringen misslyckades, försök igen",
+      "upload_success": "Bilden har laddats upp",
+      "upload_failed": "Uppladdningen misslyckades",
+      "delete_success": "Bilden raderad",
+      "delete_failed": "Det gick inte att ta bort, försök igen",
+      "download_started": "Nedladdningen startade",
+      "file_too_large": "Filstorleken får inte överstiga {size}MB",
+      "unsupported_format": "Filformat som inte stöds. Format som stöds: {formats}",
+      "retry": "Försök igen",
+      "dismiss": "Avvisa"
+    },
+    "loading": {
+      "default": "Laddar...",
+      "generation": "Skapar ditt mästerverk...",
+      "generation_message": "Vår OpenClaw-modell gör sin magi. Detta tar vanligtvis några sekunder.",
+      "upload": "Laddar upp bild...",
+      "upload_message": "Vänta medan din bild laddas upp till molnet."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Studio i lager",
+      "title": "OpenClaw Studio",
+      "description": "Skapa konstnärliga karikatyrer från dina foton.",
+      "cta": "Gratis provperiod",
+      "cta_hint": "Ladda upp en bild för att börja",
+      "features": [
+        "2-8 AI-lager per bild",
+        "Transparent PNG/WebP export",
+        "Snabbvägledd separation"
+      ]
+    },
+    "upload": {
+      "title": "Ladda upp",
+      "subtitle": "JPG, PNG eller WebP upp till 10MB",
+      "action": "Ladda upp bild",
+      "drop": "Släpp din bild här",
+      "or_click": "eller klicka för att bläddra",
+      "supported_formats": "Stöder: JPEG, PNG, WebP (max 10MB)"
+    },
+    "prompt": {
+      "label": "Fråga",
+      "placeholder": "Beskriv de lager du vill ha (t.ex. ämne, rekvisita, bakgrund)"
+    },
+    "advanced": {
+      "title": "Avancerade inställningar",
+      "prompt_label": "Fråga (valfritt)",
+      "prompt_placeholder": "Vänligen ange uppmaningen för att beskriva bilden. (Frivillig)",
+      "negative_prompt_label": "Negativ uppmaning (valfritt)",
+      "negative_prompt_placeholder": "Beskriv vad som bör uteslutas från lagren.",
+      "seed": "Frö",
+      "randomize_seed": "Randomisera frö",
+      "guidance_scale": "Sann vägledningsskala",
+      "inference_steps": "Antal slutledningssteg",
+      "cfg_normalization": "Om aktivera CFG-normalisering",
+      "auto_caption_language": "Automatiskt textningsspråk om ingen uppmaning tillhandahålls, Sant för EN, Falskt för ZH",
+      "layer_count": "Antal lager",
+      "layer_range": "Min {min}, Max {max}",
+      "output_format": "Utdataformat"
+    },
+    "actions": {
+      "decompose": "Bryt ner!",
+      "sign_in_to_decompose": "Logga in för att Decompose!",
+      "generating": "Nedbryts..."
+    },
+    "results": {
+      "title": "Resultat",
+      "subtitle": "Skiktade utgångar visas här efter sönderdelning.",
+      "download_pptx": "Ladda ner PPTX",
+      "download_zip": "Ladda ner ZIP",
+      "packaging": "Förpackning...",
+      "generating_title": "Bryter ner din bild...",
+      "generating_subtitle": "Skapa lagertillgångar. Detta tar vanligtvis några sekunder.",
+      "layer_label": "Lager {index}",
+      "layer_description": "Skiktad tillgång",
+      "empty_title": "Inga lager ännu",
+      "empty_subtitle": "Ladda upp en bild och klicka på Decompose! att generera lager.",
+      "success": "Lager genererade framgångsrikt!",
+      "download_ready": "Nedladdningen är klar"
+    },
+    "examples": {
+      "title": "Exempel",
+      "subtitle": "Se hur en källbild delas upp i rena lager.",
+      "labels": {
+        "source": "Källa",
+        "layer": "Lager {index}",
+        "sample": "Exempel {index}"
+      },
+      "rows": {
+        "primary": "Exempeluppsättning 01",
+        "secondary": "Exempeluppsättning 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Ladda upp en referensbild först",
+      "generation_failed": "Genereringen misslyckades, försök igen",
+      "upload_success": "Bilden har laddats upp",
+      "upload_failed": "Uppladdningen misslyckades",
+      "download_failed": "Nedladdningen misslyckades, försök igen"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Tillgänglig"
+    },
+    "errors": {
+      "no_available_account": "Inget tillgängligt konto i din nuvarande prenumeration. Försök igen senare.",
+      "network_unstable": "Nätverket är instabilt. Försök snart igen.",
+      "deployment_failed_try_again": "Implementeringen misslyckades. Försök igen.",
+      "deployment_timeout": "Tidsgräns för implementering efter {minutes} minuter. Försök igen.",
+      "enter_bot_token": "Vänligen ange en bot-token.",
+      "select_channel_before_deploying": "Välj en kanal innan du distribuerar.",
+      "enter_telegram_bot_token": "Vänligen ange din Telegram bot-token.",
+      "invalid_response_missing_deployment_id": "Ogiltigt svar: deployment_id saknas",
+      "failed_to_start_deployment": "Det gick inte att starta implementeringen",
+      "failed_to_fetch_deployment_status": "Det gick inte att hämta distributionsstatus",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - OpenClaw-distribution med ett klick",
+      "description": "Distribuera OpenClaw på under 1 minut. Inga servrar eller DevOps. Välj en modell, anslut en kanal och starta."
+    },
+    "selectors": {
+      "model_title": "Välj en standardmodell för din OpenClaw",
+      "channel_title": "Välj vart OpenClaw ska skicka meddelanden",
+      "selected": "Vald"
+    },
+    "deploy": {
+      "deploying": "Distribuerar...",
+      "deploy_button": "Distribuera",
+      "sign_in_button": "Logga in för att distribuera med EasyClaw",
+      "sign_in_hint": "Logga in för att distribuera OpenClaw med EasyClaw och anslut dina kanaler.",
+      "status_success": "Implementeringen lyckades! OpenClaw körs nu.",
+      "model_substitution_warning": "Modellsubstitution upptäckt. Försök att distribuera om eller byt till en annan region/leverantör.",
+      "hint_prefix": "Anslut Telegram för att fortsätta.",
+      "hint_suffix": "Du kan lägga till andra kanaler till samma konto senare.",
+      "hint_prefix_telegram": "Anslut Telegram för att fortsätta.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Anslut Telegram",
+      "how_to_get_token": "Hur får man sin bot-token?",
+      "step_1_prefix": "Öppna Telegram och gå till",
+      "step_2_prefix": "Starta en chatt och skriv",
+      "step_3_text": "Följ anvisningarna för att namnge din bot och välj ett användarnamn.",
+      "step_4_text": "BotFather kommer att skicka ett meddelande till dig med din bot-token. Kopiera hela token (det ser ut som en lång rad med siffror och bokstäver).",
+      "step_5_text": "Klistra in token i fältet nedan och klicka på Spara och anslut.",
+      "token_label": "Ange bot-token",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Spara och anslut",
+      "preview_intro": "Jag kan hjälpa dig att skapa och hantera Telegram bots. Vad skulle du vilja göra?",
+      "preview_newbot": "skapa en ny bot",
+      "preview_mybots": "redigera dina bots",
+      "preview_name_prompt": "Okej, en ny bot. Hur ska vi kalla det? Välj ett namn för din bot.",
+      "preview_message_input": "Meddelande"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

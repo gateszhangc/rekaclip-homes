@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Prissetting",
+    "title": "Prissetting",
+    "description": "Velg en plan basert på hvor mange OpenClaw-distribusjoner du trenger. Avbryt når som helst fra kontoen din.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Månedlig",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Årlig",
+        "is_featured": true,
+        "label": "Spar 50 %"
+      }
+    ],
+    "items": [
+      {
+        "title": "Starter",
+        "label": "TIDLIG TILGANG",
+        "description": "Alt du trenger for å kjøre OpenClaw. Ingenting du ikke gjør.",
+        "features_title": "Gratis prøveversjon inkludert",
+        "features": [
+          "Fullt administrert OpenClaw kjøretid",
+          "Telegram-klar agent",
+          "Null oppsett",
+          "1 OpenClaw agent",
+          "Claude, ChatGPT eller Gemini - vi kjører det for deg",
+          "Ingen API nøkkel kreves",
+          "Bruk inkludert per plan. Avbryt når som helst."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Prøv gratis. Krever ikke kredittkort.",
+        "button": {
+          "title": "Kjør OpenClaw umiddelbart",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Starter månedlig",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populært",
+        "features_title": "Kjernedistribusjonsfunksjoner",
+        "features": [
+          "Opptil 5 aktive OpenClaw-distribusjoner",
+          "Ett klikk distribuer, start på nytt og omdistribuer",
+          "Forhåndsinnstillinger for modell og kanalkonfigurasjon",
+          "Oversikt over distribusjonsstatus",
+          "Grunnleggende bruksanalyse",
+          "E-poststøtte",
+          "Kommersiell bruk",
+          "Tilgang til nye distribusjonsfunksjoner"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Skaff deg Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro månedlig",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Starter",
+        "label": "TIDLIG TILGANG",
+        "description": "Alt du trenger for å kjøre OpenClaw. Ingenting du ikke gjør.",
+        "features_title": "Gratis prøveversjon inkludert",
+        "features": [
+          "Fullt administrert OpenClaw kjøretid",
+          "Telegram-klar agent",
+          "Null oppsett",
+          "1 OpenClaw agent",
+          "Claude, ChatGPT eller Gemini - vi kjører det for deg",
+          "Ingen API nøkkel kreves",
+          "Bruk inkludert per plan. Avbryt når som helst."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Opprinnelig pris: $ 10 / mnd",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Prøv gratis. Krever ikke kredittkort.",
+        "button": {
+          "title": "Kjør OpenClaw umiddelbart",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Starter årlig",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populært",
+        "features_title": "Kjernedistribusjonsfunksjoner",
+        "features": [
+          "Opptil 5 aktive OpenClaw-distribusjoner",
+          "Ett klikk distribuer, start på nytt og omdistribuer",
+          "Forhåndsinnstillinger for modell og kanalkonfigurasjon",
+          "Oversikt over distribusjonsstatus",
+          "Grunnleggende bruksanalyse",
+          "E-poststøtte",
+          "Kommersiell bruk",
+          "Tilgang til nye distribusjonsfunksjoner"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Opprinnelig pris: $20/md",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Skaff deg Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro årlig",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

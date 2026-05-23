@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Penyelidik Imej",
+    "description": "Muat naik imej untuk penyongsangan dan peningkatan warna profesional",
+    "disabled": false,
+    "upload": {
+      "title": "Seret & lepas imej",
+      "description": "Menyokong PNG, JPG, JPEG, WebP sehingga 10MB",
+      "buttonText": "Pilih fail",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Imej Bersih",
+      "textListTitle": "Kawasan Teks Dikesan",
+      "fontRecommendationTitle": "Cadangan Penyingkiran",
+      "detectedFontLabel": "Kawasan Terpilih",
+      "similarFontsLabel": "Pengisian Ganti",
+      "selectTextPrompt": "Pilih blok teks untuk dialih keluar"
+    },
+    "actions": {
+      "reuploadText": "Muat naik semula"
+    },
+    "messages": {
+      "uploadSuccess": "Imej berjaya dimuat naik",
+      "uploadError": "Gagal memuat naik imej",
+      "recognitionSuccess": "Pengesanan selesai",
+      "recognitionError": "Pengesanan gagal",
+      "fontRecognitionSuccess": "Pembuangan teks selesai",
+      "fontRecognitionError": "Pembuangan teks gagal",
+      "processing": "Memproses..."
+    }
+  }
+}

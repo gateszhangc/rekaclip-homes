@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: openclaw-image-prepull
+  namespace: easyclaw-openclaw
+  labels:
+    app.kubernetes.io/name: openclaw-image-prepull
+    app.kubernetes.io/component: image-prepull
+    app.kubernetes.io/managed-by: easyclaw-ops
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: openclaw-image-prepull
+  updateStrategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: openclaw-image-prepull
+        app.kubernetes.io/component: image-prepull
+        app.kubernetes.io/managed-by: easyclaw-ops
+    spec:
+      nodeSelector:
+        easyclaw-role: openclaw-worker
+      terminationGracePeriodSeconds: 0
+      initContainers:
+        - name: prepull-openclaw
+          image: fourplayers/openclaw:2026.3.23-2
+          imagePullPolicy: IfNotPresent
+          command:
+            - /bin/sh
+            - -lc
+            - echo "OpenClaw image warmed on $(hostname)"
+      containers:
+        - name: pause
+          image: registry.k8s.io/pause:3.9
+          imagePullPolicy: IfNotPresent

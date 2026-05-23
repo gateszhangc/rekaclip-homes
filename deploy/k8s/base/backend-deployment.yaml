@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: easyclaw-backend
+  labels:
+    app.kubernetes.io/name: easyclaw-backend
+    app.kubernetes.io/part-of: easyclaw
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: easyclaw-backend
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: easyclaw-backend
+        app.kubernetes.io/part-of: easyclaw
+    spec:
+      serviceAccountName: easyclaw-backend
+      imagePullSecrets:
+        - name: dokploy-fleet-ghcr
+      containers:
+        - name: backend
+          image: registry.144.91.77.245.sslip.io/easyclaw-backend:latest
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: easyclaw-backend-env
+          ports:
+            - name: http
+              containerPort: 5001
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 20
+          startupProbe:
+            httpGet:
+              path: /health
+              port: http
+            periodSeconds: 5
+            failureThreshold: 30
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+          volumeMounts:
+            - name: runtime-state
+              mountPath: /app/state
+      volumes:
+        - name: runtime-state
+          emptyDir: {}

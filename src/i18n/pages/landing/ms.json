@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Ciri-ciri",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "penetapan harga",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blog",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "Soalan Lazim",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "Logo EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Cipta Seni Berkualiti Tinggi",
+    "description": "Muat naik potret, pilih gaya dan dapatkan karikatur yang bersih untuk avatar, hadiah atau kandungan.",
+    "features": [
+      "Perincian berkualiti tinggi dan garisan bersih",
+      "Harga berpatutan untuk kegunaan harian",
+      "Sedia untuk profil, hadiah dan cetakan"
+    ],
+    "buttons": [
+      {
+        "title": "Cipta Karikatur Saya",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Contoh karikatur"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Contoh karikatur 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Contoh karikatur 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Contoh karikatur 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Dikuasakan oleh Teknologi Termaju",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "benar",
+    "name": "introduce",
+    "title": "Cara Membuat Karikatur",
+    "label": "Proses Mudah",
+    "description": "Cipta karikatur yang menakjubkan dalam tiga langkah mudah. Tiada kemahiran artistik diperlukan.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Muat Naik Foto",
+        "description": "Muat naik foto potret yang jelas. Kami menyokong JPG, PNG dan WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Pilih Gaya",
+        "description": "Pilih daripada gaya kartun lucu, dibesar-besarkan, anime atau 3D.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Muat turun",
+        "description": "Dapatkan karikatur berkualiti tinggi anda serta-merta tanpa tera air.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "benar",
+    "name": "benefit",
+    "title": "Mengapa Menggunakan OpenClaw?",
+    "label": "Faedah",
+    "description": "Alat yang sesuai untuk hadiah, gambar profil dan kandungan media sosial.",
+    "items": [
+      {
+        "title": "Sihir AI Segera",
+        "description": "AI lanjutan menganalisis ciri muka untuk mencipta karikatur yang dibesar-besarkan dengan sempurna dalam beberapa saat.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Gaya Seni Pelbagai",
+        "description": "Daripada rupa lukisan tangan klasik kepada avatar animasi 3D moden. Kami ada semuanya.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Resolusi Tinggi",
+        "description": "Muat turun imej yang tajam dan berkualiti tinggi yang sesuai untuk dicetak pada cawan, kemeja-T dan poster.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galeri",
+    "title": "Transformasi Menakjubkan",
+    "description": "Lihat bagaimana foto biasa menjadi karikatur yang luar biasa.",
+    "items": [
+      {
+        "title": "Avatar Sosial",
+        "highlight": "Terserlah dalam talian",
+        "description": "Cipta gambar profil unik yang merakamkan personaliti anda.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Foto Asal",
+        "afterAlt": "Hasil Karikatur",
+        "reverse": false
+      },
+      {
+        "title": "Hadiah Diperibadikan",
+        "highlight": "Hadiah yang tidak dapat dilupakan",
+        "description": "Kejutkan rakan dan keluarga dengan potret lucu tersuai.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Foto Asal",
+        "afterAlt": "Hasil Karikatur",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 Langkah untuk Menggunakan OpenClaw",
+    "description": "Pilih model anda, sambungkan saluran dan lancarkan.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "kiri",
+    "text_align": "pusat",
+    "items": [
+      {
+        "title": "Pilih model",
+        "description": "Claude, GPT, Gemini — pilih model terbaik untuk setiap tugas. Kerja kreatif dengan Claude, analisis dengan GPT. Tukar bila-bila masa.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Pilih model AI - Claude, GPT atau Gemini"
+        }
+      },
+      {
+        "title": "Sambungkan saluran",
+        "description": "Telegram, Discord, WhatsApp — satu papan pemuka untuk semua saluran. Urus semua perbualan dari satu tempat, tiada lagi menukar apl.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Sambungkan saluran pemesejan"
+        }
+      },
+      {
+        "title": "Sebarkan dan mulakan",
+        "description": "Pembantu AI anda berada dalam talian dalam masa 60 saat. Hantar mesej pertama anda dan mula mengautomasikan.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Pasang dan mulakan pembantu anda"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Cipta Karikatur Anda",
+    "description": "Muat naik foto, pilih gaya dan jana."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Studio Karikatur",
+    "description": "Muat naik foto, pilih gaya dan hasilkan karikatur berkualiti tinggi.",
+    "disabled": false,
+    "upload": {
+      "title": "Muat naik foto anda",
+      "description": "Seret dan lepas atau klik untuk memuat naik (JPG, PNG, WebP sehingga 10MB)",
+      "buttonText": "Pilih Imej",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Karikatur Anda",
+      "textListTitle": "Tetapan Gaya",
+      "fontRecommendationTitle": "Gaya yang Disyorkan",
+      "detectedFontLabel": "Pilihan Semasa",
+      "similarFontsLabel": "Cuba Ini Juga",
+      "selectTextPrompt": "Pilih gaya untuk digunakan"
+    },
+    "actions": {
+      "reuploadText": "Cuba Foto Lain"
+    },
+    "messages": {
+      "uploadSuccess": "Foto berjaya dimuat naik!",
+      "uploadError": "Op, muat naik gagal. Sila cuba lagi.",
+      "recognitionSuccess": "Karikatur anda sudah siap!",
+      "recognitionError": "Generasi gagal. Sila cuba lagi.",
+      "fontRecognitionSuccess": "Gaya digunakan!",
+      "fontRecognitionError": "Gagal menggunakan gaya.",
+      "processing": "Mencipta karikatur anda..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Katakan selamat tinggal pada kerumitan",
+    "description": "Lihat apa yang berubah apabila anda bertukar kepada EasyClaw",
+    "before_label": "Persediaan Tradisional",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Sewa pelayan, konfigurasikan persekitaran",
+        "after": "Penggunaan satu klik, tiada pelayan diperlukan"
+      },
+      {
+        "before": "Bangun untuk membetulkan makluman 3 PG",
+        "after": "Operasi automatik 24/7"
+      },
+      {
+        "before": "Kemas kini versi OpenClaw secara manual",
+        "after": "Kemas kini automatik kepada versi terkini"
+      },
+      {
+        "before": "Pelajari arahan Docker, Linux",
+        "after": "Kemahiran teknikal sifar diperlukan"
+      },
+      {
+        "before": "30+ minit setiap penempatan",
+        "after": "Sebarkan dalam masa kurang dari 60 saat"
+      }
+    ],
+    "footer": "Masa dijimatkan: ~29 minit setiap penempatan"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Mengapa pasukan memilih EasyClaw",
+    "description": "Penggunaan sedia pengeluaran tanpa overhed DevOps. Penyelenggaraan sifar, fokus maksimum.",
+    "items": [
+      {
+        "title": "Sebarkan dalam 60 saat",
+        "description": "Dari sifar kepada berjalan dalam masa kurang satu minit. Tiada Docker, tiada arahan Linux, tiada persediaan pelayan.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Sifar penyelenggaraan",
+        "description": "Kami mengendalikan kemas kini, pemantauan dan pemulihan. Anda hanya fokus menggunakan pembantu AI anda.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Fleksibiliti model",
+        "description": "Tukar antara Claude, GPT dan Gemini pada bila-bila masa. Gunakan model terbaik untuk setiap tugas.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Saluran bersatu",
+        "description": "Urus Telegram, Discord dan WhatsApp dari satu papan pemuka. Tiada lagi menukar apl.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Sentiasa terkini",
+        "description": "Kemas kini OpenClaw automatik. Sentiasa gunakan ciri terkini tanpa mengangkat jari.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Skala dengan yakin",
+        "description": "Mulakan secara solo, kemudian kembangkan penggunaan merentas pasukan dan kes penggunaan. Dari 1 hingga 100 penempatan.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Gunakan OpenClaw untuk sebarang aliran kerja",
+    "description": "Seorang pembantu, banyak kes guna. Lancarkan sekali, automasi di mana-mana.",
+    "items": [
+      {
+        "title": "Taklimat Harian",
+        "description": "Tukar mesej dan kemas kini menjadi ringkasan pagi yang ringkas untuk pasukan anda.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Taklimat harian aliran kerja automasi"
+        },
+        "buttons": [
+          {
+            "title": "Ketahui lebih lanjut ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Pembantu Sokongan Pelanggan",
+        "description": "Jalankan soalan, draf balasan dan pastikan saluran sokongan responsif.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Aliran kerja automasi sokongan pelanggan"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Mula menggunakan ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Automasi Ops Pasukan",
+        "description": "Automatikkan peringatan, laporan status dan susulan rutin merentas saluran.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Aliran kerja automasi operasi pasukan"
+        },
+        "buttons": [
+          {
+            "title": "Lihat harga ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "palsu",
+    "name": "stats",
+    "label": "Sorotan",
+    "title": "Dibina untuk pelancaran pantas",
+    "description": "Semua yang diperlukan untuk menjalankan OpenClaw dengan pasti.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Masa untuk mula-mula digunakan",
+        "label": "< 1 min",
+        "description": "Dari persediaan kepada pembantu yang sedang berjalan"
+      },
+      {
+        "title": "Saluran yang disokong",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Keterlihatan penempatan",
+        "label": "Masa nyata",
+        "description": "Jejaki keadaan berjalan dan gagal"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Ulasan",
+    "title": "Apa Yang Dikatakan Pengguna",
+    "description": "Lihat sebab semua orang bercakap tentang OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Pengurus Media Sosial",
+        "description": "Saya membuat gambar pasukan yang lucu untuk halaman Mengenai Kami kami. Semua orang menyukainya!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Pekerja bebas",
+        "description": "Menggunakan ini untuk mencipta avatar unik untuk profil bebas saya. Ia menyerlah!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "Pelajar",
+        "description": "Membuat karikatur semua kawan saya untuk kad hari jadi. Hadiah terbaik yang pernah ada.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "Pencipta Kandungan",
+        "description": "Gaya yang berbeza adalah menakjubkan. Saya menggunakan gaya 3D untuk lakaran kenit saya.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wong",
+        "label": "Ketua Pemasaran",
+        "description": "Cepat, mudah, dan hasilnya sebenarnya lucu, bukan hanya pelik.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "pemaju",
+        "description": "API yang sangat ringkas dan hasil yang hebat untuk projek haiwan kesayangan saya.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "Soalan Lazim",
+    "title": "Soalan Lazim",
+    "description": "Semua yang anda perlukan sebelum menggunakan OpenClaw dengan EasyClaw.",
+    "items": [
+      {
+        "title": "Berapakah kos EasyClaw?",
+        "description": "Pelan bermula pada $10/bulan. Batalkan pada bila-bila masa daripada akaun anda."
+      },
+      {
+        "title": "Adakah saya perlu menguruskan pelayan?",
+        "description": "Tidak. EasyClaw memperkemas aliran kerja penggunaan supaya anda boleh melancarkan OpenClaw tanpa pelayan atau DevOps."
+      },
+      {
+        "title": "Model mana yang disokong?",
+        "description": "Claude, GPT dan Gemini."
+      },
+      {
+        "title": "Bolehkah saya menggunakan berbilang saluran?",
+        "description": "ya. Telegram, Discord dan WhatsApp disokong."
+      },
+      {
+        "title": "Berapa lama masa yang diambil untuk digunakan?",
+        "description": "Biasanya di bawah 1 minit. Persediaan kali pertama boleh mengambil masa yang agak lama."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Bersedia untuk melancarkan OpenClaw?",
+    "description": "Gunakan pembantu pertama anda dalam masa kurang seminit. Tiada pelayan, tiada penyelenggaraan, tiada keluk pembelajaran.",
+    "note": "Batalkan bila-bila masa. Tiada kontrak jangka panjang.",
+    "buttons": [
+      {
+        "title": "Sebarkan OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "Cara paling mudah untuk menggunakan pembantu AI OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Semua hak terpelihara.",
+    "nav": {
+      "items": [
+        {
+          "title": "Tentang",
+          "children": [
+            {
+              "title": "Ciri-ciri",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "penetapan harga",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "Soalan Lazim",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Sokongan E-mel",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw ialah produk bebas dan tidak bergabung dengan mana-mana pembekal model pihak ketiga atau pemilik tanda dagangan.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Dasar Privasi",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Syarat Perkhidmatan",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Polisi Bayaran Balik",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "penetapan harga",
+    "title": "penetapan harga",
+    "description": "Pilih pelan berdasarkan jumlah penggunaan OpenClaw yang anda perlukan. Batalkan pada bila-bila masa daripada akaun anda.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Bulanan",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "setiap tahun",
+        "is_featured": true,
+        "label": "Jimat 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pro",
+        "label": "Popular",
+        "features_title": "Ciri penyebaran teras",
+        "features": [
+          "Sehingga 5 penggunaan OpenClaw aktif",
+          "Gunakan satu klik, mulakan semula dan gunakan semula",
+          "Pratetap konfigurasi model dan saluran",
+          "Papan pemuka status penggunaan",
+          "Analisis penggunaan asas",
+          "Sokongan e-mel",
+          "Penggunaan komersial",
+          "Akses kepada ciri penempatan baharu"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Bulanan",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Segala-galanya dalam Pro, ditambah",
+        "features": [
+          "Sehingga 20 penggunaan OpenClaw aktif",
+          "Gilir peruntukan keutamaan",
+          "Pratetap model dan saluran boleh guna semula",
+          "Makluman Webhook untuk status penggunaan",
+          "Akses pasukan (sehingga 3 ahli)",
+          "Akses API",
+          "Sokongan keutamaan",
+          "Akses awal kepada ciri beta"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Premium Bulanan",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Popular",
+        "features_title": "Ciri penyebaran teras",
+        "features": [
+          "Sehingga 5 penggunaan OpenClaw aktif",
+          "Gunakan satu klik, mulakan semula dan gunakan semula",
+          "Pratetap konfigurasi model dan saluran",
+          "Papan pemuka status penggunaan",
+          "Analisis penggunaan asas",
+          "Sokongan e-mel",
+          "Penggunaan komersial",
+          "Akses kepada ciri penempatan baharu"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Harga Asal: $10 /bln",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Setiap Tahun",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Premium",
+        "features_title": "Segala-galanya dalam Pro, ditambah",
+        "features": [
+          "Sehingga 20 penggunaan OpenClaw aktif",
+          "Gilir peruntukan keutamaan",
+          "Pratetap model dan saluran boleh guna semula",
+          "Makluman Webhook untuk status penggunaan",
+          "Akses pasukan (sehingga 3 ahli)",
+          "Akses API",
+          "Sokongan keutamaan",
+          "Akses awal kepada ciri beta"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Harga Asal: $20 /bln",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premium Setiap Tahun",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

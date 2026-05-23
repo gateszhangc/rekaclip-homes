@@ -1,0 +1,7 @@
+{
+  "/[locale]/(default)/page": "app/[locale]/(default)/page.js",
+  "/[locale]/(default)/pricing/page": "app/[locale]/(default)/pricing/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/checkout/route": "app/api/checkout/route.js",
+  "/api/get-user-info/route": "app/api/get-user-info/route.js"
+}

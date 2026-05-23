@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "விலை நிர்ணயம்",
+    "title": "விலை நிர்ணயம்",
+    "description": "உங்களுக்கு எத்தனை OpenClaw வரிசைப்படுத்தல்கள் தேவை என்பதன் அடிப்படையில் ஒரு திட்டத்தைத் தேர்வுசெய்யவும். உங்கள் கணக்கிலிருந்து எப்போது வேண்டுமானாலும் ரத்துசெய்யலாம்.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "மாதாந்திர",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "ஆண்டுதோறும்",
+        "is_featured": true,
+        "label": "50% சேமிக்கவும்"
+      }
+    ],
+    "items": [
+      {
+        "title": "ஸ்டார்டர்",
+        "label": "ஆரம்ப அணுகல்",
+        "description": "நீங்கள் OpenClaw ஐ இயக்க வேண்டிய அனைத்தும். நீங்கள் செய்யாதது எதுவுமில்லை.",
+        "features_title": "இலவச சோதனை சேர்க்கப்பட்டுள்ளது",
+        "features": [
+          "முழுமையாக நிர்வகிக்கப்படும் OpenClaw இயக்க நேரம்",
+          "Telegram-தயார் முகவர்",
+          "பூஜ்ஜிய அமைப்பு",
+          "1 OpenClaw முகவர்",
+          "Claude, ChatGPT, அல்லது Gemini - உங்களுக்காக இதை இயக்குகிறோம்",
+          "API விசை தேவையில்லை",
+          "ஒரு திட்டத்தின் பயன்பாடு சேர்க்கப்பட்டுள்ளது. எப்போது வேண்டுமானாலும் ரத்து செய்யலாம்."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "இலவசமாக முயற்சிக்கவும். கடன் அட்டை தேவையில்லை.",
+        "button": {
+          "title": "OpenClaw ஐ உடனடியாக இயக்கவும்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw ஸ்டார்டர் மாதாந்திர",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ப்ரோ",
+        "label": "பிரபலமானது",
+        "features_title": "முக்கிய வரிசைப்படுத்தல் அம்சங்கள்",
+        "features": [
+          "5 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "ஒரே கிளிக்கில் வரிசைப்படுத்தவும், மறுதொடக்கம் செய்யவும் மற்றும் மீண்டும் வரிசைப்படுத்தவும்",
+          "மாதிரி மற்றும் சேனல் உள்ளமைவு முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலை டாஷ்போர்டு",
+          "அடிப்படை பயன்பாட்டு பகுப்பாய்வு",
+          "மின்னஞ்சல் ஆதரவு",
+          "வணிக பயன்பாடு",
+          "புதிய வரிசைப்படுத்தல் அம்சங்களுக்கான அணுகல்"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ப்ரோவைப் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro மாதாந்திர",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "ஸ்டார்டர்",
+        "label": "ஆரம்ப அணுகல்",
+        "description": "நீங்கள் OpenClaw ஐ இயக்க வேண்டிய அனைத்தும். நீங்கள் செய்யாதது எதுவுமில்லை.",
+        "features_title": "இலவச சோதனை சேர்க்கப்பட்டுள்ளது",
+        "features": [
+          "முழுமையாக நிர்வகிக்கப்படும் OpenClaw இயக்க நேரம்",
+          "Telegram-தயார் முகவர்",
+          "பூஜ்ஜிய அமைப்பு",
+          "1 OpenClaw முகவர்",
+          "Claude, ChatGPT, அல்லது Gemini - உங்களுக்காக இதை இயக்குகிறோம்",
+          "API விசை தேவையில்லை",
+          "ஒரு திட்டத்தின் பயன்பாடு சேர்க்கப்பட்டுள்ளது. எப்போது வேண்டுமானாலும் ரத்து செய்யலாம்."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "அசல் விலை: $10 /மா",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "இலவசமாக முயற்சிக்கவும். கடன் அட்டை தேவையில்லை.",
+        "button": {
+          "title": "OpenClaw ஐ உடனடியாக இயக்கவும்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw ஸ்டார்டர் ஆண்டுதோறும்",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "ப்ரோ",
+        "label": "பிரபலமானது",
+        "features_title": "முக்கிய வரிசைப்படுத்தல் அம்சங்கள்",
+        "features": [
+          "5 வரை செயலில் உள்ள OpenClaw வரிசைப்படுத்தல்கள்",
+          "ஒரே கிளிக்கில் வரிசைப்படுத்தவும், மறுதொடக்கம் செய்யவும் மற்றும் மீண்டும் வரிசைப்படுத்தவும்",
+          "மாதிரி மற்றும் சேனல் உள்ளமைவு முன்னமைவுகள்",
+          "வரிசைப்படுத்தல் நிலை டாஷ்போர்டு",
+          "அடிப்படை பயன்பாட்டு பகுப்பாய்வு",
+          "மின்னஞ்சல் ஆதரவு",
+          "வணிக பயன்பாடு",
+          "புதிய வரிசைப்படுத்தல் அம்சங்களுக்கான அணுகல்"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "அசல் விலை: $20 /மா",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "ப்ரோவைப் பெறுங்கள்",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro ஆண்டுதோறும்",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

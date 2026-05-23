@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Kenmerken",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Prijzen",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Bloggen",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "Veelgestelde vragen",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw-logo"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Creëer kunst van hoge kwaliteit",
+    "description": "Upload een portret, kies een stijl en ontvang een duidelijke karikatuur voor avatars, cadeaus of inhoud.",
+    "features": [
+      "Hoogwaardige details en strakke lijnen",
+      "Eerlijke prijzen voor dagelijks gebruik",
+      "Klaar voor profielen, cadeaus en afdrukken"
+    ],
+    "buttons": [
+      {
+        "title": "Maak mijn karikatuur",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Karikatuur voorbeeld"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Karikatuurvoorbeeld 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Karikatuurvoorbeeld 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Karikatuurvoorbeeld 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Aangedreven door geavanceerde technologie",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "waar",
+    "name": "introduce",
+    "title": "Hoe je een karikatuur maakt",
+    "label": "Eenvoudig proces",
+    "description": "Maak verbluffende karikaturen in drie eenvoudige stappen. Geen artistieke vaardigheden vereist.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Foto uploaden",
+        "description": "Upload een duidelijke portretfoto. Wij ondersteunen JPG, PNG en WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "Kies Stijl",
+        "description": "Kies uit grappige, overdreven, anime- of 3D-cartoonstijlen.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Downloaden",
+        "description": "Ontvang direct uw hoogwaardige karikatuur zonder watermerken.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "waar",
+    "name": "benefit",
+    "title": "Waarom OpenClaw gebruiken?",
+    "label": "Voordelen",
+    "description": "De perfecte tool voor cadeaus, profielfoto's en sociale media-inhoud.",
+    "items": [
+      {
+        "title": "Instant AI-magie",
+        "description": "Geavanceerde AI analyseert gelaatstrekken om binnen enkele seconden perfect overdreven karikaturen te creëren.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Diverse kunststijlen",
+        "description": "Van klassieke, handgetekende looks tot moderne 3D-geanimeerde avatars. Wij hebben het allemaal.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Hoge resolutie",
+        "description": "Download scherpe afbeeldingen van hoge kwaliteit die geschikt zijn voor afdrukken op mokken, t-shirts en posters.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Galerij",
+    "title": "Verbazingwekkende transformaties",
+    "description": "Zie hoe gewone foto's buitengewone karikaturen worden.",
+    "items": [
+      {
+        "title": "Sociale avatars",
+        "highlight": "Val op op internet",
+        "description": "Creëer een unieke profielfoto die jouw persoonlijkheid vastlegt.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Originele foto",
+        "afterAlt": "Karikatuur resultaat",
+        "reverse": false
+      },
+      {
+        "title": "Gepersonaliseerde geschenken",
+        "highlight": "Memorabele cadeaus",
+        "description": "Verras vrienden en familie met een grappig portret op maat.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Originele foto",
+        "afterAlt": "Karikatuur resultaat",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 stappen om OpenClaw te implementeren",
+    "description": "Kies uw model, sluit een kanaal aan en start.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "links",
+    "text_align": "centrum",
+    "items": [
+      {
+        "title": "Kies een model",
+        "description": "Claude, GPT, Gemini — kies het beste model voor elke taak. Creatief werken met Claude, analyseren met GPT. Schakel op elk gewenst moment.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Kies AI-model - Claude, GPT of Gemini"
+        }
+      },
+      {
+        "title": "Sluit een kanaal aan",
+        "description": "Telegram, Discord, WhatsApp — één dashboard voor alle kanalen. Beheer alle gesprekken vanaf één plek, u hoeft niet meer van app te wisselen.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Verbind berichtenkanalen"
+        }
+      },
+      {
+        "title": "Implementeren en starten",
+        "description": "Jouw AI-assistent is binnen 60 seconden online. Verstuur uw eerste bericht en begin met automatiseren.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Implementeer en start uw assistent"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Creëer uw karikatuur",
+    "description": "Upload een foto, kies een stijl en genereer."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Karikatuurstudio",
+    "description": "Upload een foto, kies een stijl en genereer een karikatuur van hoge kwaliteit.",
+    "disabled": false,
+    "upload": {
+      "title": "Upload uw foto",
+      "description": "Slepen en neerzetten of klik om te uploaden (JPG, PNG, WebP tot 10MB)",
+      "buttonText": "Selecteer Afbeelding",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Jouw karikatuur",
+      "textListTitle": "Stijlinstellingen",
+      "fontRecommendationTitle": "Aanbevolen stijlen",
+      "detectedFontLabel": "Huidige keuze",
+      "similarFontsLabel": "Probeer deze ook",
+      "selectTextPrompt": "Selecteer een stijl die u wilt toepassen"
+    },
+    "actions": {
+      "reuploadText": "Probeer een andere foto"
+    },
+    "messages": {
+      "uploadSuccess": "Foto succesvol geüpload!",
+      "uploadError": "Oeps, uploaden is mislukt. Probeer het opnieuw.",
+      "recognitionSuccess": "Je karikatuur is klaar!",
+      "recognitionError": "Generatie mislukt. Probeer het opnieuw.",
+      "fontRecognitionSuccess": "Stijl toegepast!",
+      "fontRecognitionError": "Kan stijl niet toepassen.",
+      "processing": "Je karikatuur maken..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Zeg vaarwel tegen het gedoe",
+    "description": "Bekijk wat er verandert als je overstapt naar EasyClaw",
+    "before_label": "Traditionele opstelling",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Servers huren, omgevingen configureren",
+        "after": "Implementatie met één klik, geen servers nodig"
+      },
+      {
+        "before": "Word wakker om waarschuwingen om 3 uur 's ochtends op te lossen",
+        "after": "24/7 automatische werking"
+      },
+      {
+        "before": "Update OpenClaw-versies handmatig",
+        "after": "Automatische updates naar de nieuwste versie"
+      },
+      {
+        "before": "Leer Docker, Linux-opdrachten",
+        "after": "Geen technische vaardigheden vereist"
+      },
+      {
+        "before": "30+ minuten per implementatie",
+        "after": "Implementeer in minder dan 60 seconden"
+      }
+    ],
+    "footer": "Tijdsbesparing: ~29 minuten per implementatie"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Waarom teams kiezen voor EasyClaw",
+    "description": "Productieklare implementatie zonder DevOps-overhead. Geen onderhoud, maximale focus.",
+    "items": [
+      {
+        "title": "Implementeer in 60 seconden",
+        "description": "Van nul naar hardlopen in minder dan een minuut. Geen Docker, geen Linux-opdrachten, geen serverconfiguratie.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Geen onderhoud",
+        "description": "Wij zorgen voor updates, monitoring en herstel. U concentreert zich gewoon op het gebruik van uw AI-assistent.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Flexibiliteit van modellen",
+        "description": "Schakel op elk gewenst moment tussen Claude, GPT en Gemini. Gebruik voor elke taak het beste model.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Uniforme kanalen",
+        "description": "Beheer Telegram, Discord en WhatsApp vanuit één dashboard. Nooit meer van app wisselen.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Altijd actueel",
+        "description": "Automatische OpenClaw-updates. Gebruik altijd de nieuwste functies zonder een vinger uit te steken.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Schaal met vertrouwen",
+        "description": "Begin solo en vergroot vervolgens het gebruik binnen teams en gebruiksscenario's. Van 1 tot 100 implementaties.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Implementeer OpenClaw voor elke workflow",
+    "description": "Eén assistent, veel gebruiksscenario's. Eén keer lanceren, overal automatiseren.",
+    "items": [
+      {
+        "title": "Dagelijkse briefings",
+        "description": "Zet berichten en updates om in een beknopte ochtendbriefing voor uw team.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Automatiseringsworkflow voor dagelijkse briefings"
+        },
+        "buttons": [
+          {
+            "title": "Meer informatie ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Assistent klantondersteuning",
+        "description": "Stuur vragen door, stel antwoorden op en zorg ervoor dat ondersteuningskanalen responsief blijven.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Automatiseringsworkflow voor klantondersteuning"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Begin met implementeren ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "TeamOps-automatisering",
+        "description": "Automatiseer herinneringen, statusrapporten en routinematige follow-ups via verschillende kanalen.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Automatiseringswerkstroom voor teamoperaties"
+        },
+        "buttons": [
+          {
+            "title": "Zie prijzen ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "vals",
+    "name": "stats",
+    "label": "Hoogtepunten",
+    "title": "Gebouwd voor snelle lanceringen",
+    "description": "Alles wat nodig is om OpenClaw betrouwbaar te laten draaien.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Tijd om voor het eerst te implementeren",
+        "label": "< 1 min",
+        "description": "Van setup tot hardloopassistent"
+      },
+      {
+        "title": "Ondersteunde kanalen",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Zichtbaarheid van implementatie",
+        "label": "Realtime",
+        "description": "Volg lopende en mislukte toestanden"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Recensies",
+    "title": "Wat gebruikers zeggen",
+    "description": "Ontdek waarom iedereen het over OpenClaw heeft.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Socialmedia-manager",
+        "description": "Voor onze Over Ons pagina heb ik een hilarische teamfoto gemaakt. Iedereen vond het geweldig!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Freelancer",
+        "description": "Ik heb dit gebruikt om een unieke avatar voor mijn freelanceprofiel te maken. Het valt op!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "Student",
+        "description": "Karikaturen gemaakt van al mijn vrienden voor een verjaardagskaart. Beste cadeau ooit.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Molenaar",
+        "label": "Inhoud Schepper",
+        "description": "De verschillende stijlen zijn geweldig. Ik gebruik de 3D-stijl voor mijn thumbnails.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Wong",
+        "label": "Marketingleider",
+        "description": "Snel, gemakkelijk en de resultaten zijn eigenlijk grappig, niet alleen raar.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Bakker",
+        "label": "Ontwikkelaar",
+        "description": "Supereenvoudige API en geweldige resultaten voor mijn huisdierenproject.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "Veelgestelde vragen",
+    "title": "Veelgestelde vragen",
+    "description": "Alles wat u nodig heeft voordat u OpenClaw inzet met EasyClaw.",
+    "items": [
+      {
+        "title": "Hoeveel kost EasyClaw?",
+        "description": "Abonnementen beginnen bij $ 10 per maand. Annuleer op elk gewenst moment via uw account."
+      },
+      {
+        "title": "Moet ik servers beheren?",
+        "description": "Nee. EasyClaw stroomlijnt de implementatieworkflow, zodat u OpenClaw kunt starten zonder servers of DevOps."
+      },
+      {
+        "title": "Welke modellen worden ondersteund?",
+        "description": "Claude, GPT en Gemini."
+      },
+      {
+        "title": "Kan ik op meerdere kanalen implementeren?",
+        "description": "Ja. Telegram, Discord en WhatsApp worden ondersteund."
+      },
+      {
+        "title": "Hoe lang duurt het om te implementeren?",
+        "description": "Meestal minder dan 1 minuut. De eerste installatie kan iets langer duren."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Klaar om OpenClaw te lanceren?",
+    "description": "Implementeer uw eerste assistent in minder dan een minuut. Geen servers, geen onderhoud, geen leercurve.",
+    "note": "Annuleer op elk gewenst moment. Geen langdurig contract.",
+    "buttons": [
+      {
+        "title": "OpenClaw implementeren",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "De eenvoudigste manier om de OpenClaw AI-assistent in te zetten.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • gemakkelijke klauw. Alle rechten voorbehouden.",
+    "nav": {
+      "items": [
+        {
+          "title": "Over",
+          "children": [
+            {
+              "title": "Kenmerken",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Prijzen",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Bloggen",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "Veelgestelde vragen",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "E-mailondersteuning",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw is een onafhankelijk product en is niet gelieerd aan externe modelaanbieders of handelsmerkeigenaren.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacybeleid",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Servicevoorwaarden",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Terugbetalingsbeleid",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Prijzen",
+    "title": "Prijzen",
+    "description": "Kies een plan op basis van het aantal OpenClaw-implementaties dat u nodig heeft. Annuleer op elk gewenst moment via uw account.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Maandelijks",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Jaarlijks",
+        "is_featured": true,
+        "label": "Bespaar 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pro",
+        "label": "Populair",
+        "features_title": "Kernimplementatiefuncties",
+        "features": [
+          "Maximaal 5 actieve OpenClaw-implementaties",
+          "Met één klik implementeren, opnieuw opstarten en opnieuw implementeren",
+          "Voorinstellingen voor model- en kanaalconfiguratie",
+          "Dashboard voor implementatiestatus",
+          "Basisgebruiksanalyses",
+          "E-mailondersteuning",
+          "Commercieel gebruik",
+          "Toegang tot nieuwe implementatiefuncties"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$ 10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Koop Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Maandelijks",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Premie",
+        "features_title": "Alles in Pro, plus",
+        "features": [
+          "Maximaal 20 actieve OpenClaw-implementaties",
+          "Prioriteitsinrichtingswachtrij",
+          "Herbruikbare model- en kanaalvoorinstellingen",
+          "Webhook-waarschuwingen voor de implementatiestatus",
+          "Teamtoegang (maximaal 3 leden)",
+          "API-toegang",
+          "Prioritaire ondersteuning",
+          "Vroege toegang tot bètafuncties"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$ 20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Ontvang Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw Premium maandelijks",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populair",
+        "features_title": "Kernimplementatiefuncties",
+        "features": [
+          "Maximaal 5 actieve OpenClaw-implementaties",
+          "Met één klik implementeren, opnieuw opstarten en opnieuw implementeren",
+          "Voorinstellingen voor model- en kanaalconfiguratie",
+          "Dashboard voor implementatiestatus",
+          "Basisgebruiksanalyses",
+          "E-mailondersteuning",
+          "Commercieel gebruik",
+          "Toegang tot nieuwe implementatiefuncties"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$ 5",
+        "original_price": "Oorspronkelijke prijs: $ 10 / maand",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Koop Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Jaarlijks",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Premie",
+        "features_title": "Alles in Pro, plus",
+        "features": [
+          "Maximaal 20 actieve OpenClaw-implementaties",
+          "Prioriteitsinrichtingswachtrij",
+          "Herbruikbare model- en kanaalvoorinstellingen",
+          "Webhook-waarschuwingen voor de implementatiestatus",
+          "Teamtoegang (maximaal 3 leden)",
+          "API-toegang",
+          "Prioritaire ondersteuning",
+          "Vroege toegang tot bètafuncties"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$ 10",
+        "original_price": "Oorspronkelijke prijs: $ 20 / maand",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Ontvang Premium",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premie jaarlijks",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

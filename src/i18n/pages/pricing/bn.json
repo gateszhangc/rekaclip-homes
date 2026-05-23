@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "মূল্য নির্ধারণ",
+    "title": "মূল্য নির্ধারণ",
+    "description": "আপনার কতগুলি OpenClaw স্থাপনার প্রয়োজন তার উপর ভিত্তি করে একটি পরিকল্পনা চয়ন করুন৷ আপনার অ্যাকাউন্ট থেকে যেকোনো সময় বাতিল করুন।",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "মাসিক",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "বার্ষিক",
+        "is_featured": true,
+        "label": "50% সংরক্ষণ করুন"
+      }
+    ],
+    "items": [
+      {
+        "title": "স্টার্টার",
+        "label": "প্রারম্ভিক অ্যাক্সেস",
+        "description": "OpenClaw চালানোর জন্য আপনার যা দরকার। কিছুই আপনি না.",
+        "features_title": "বিনামূল্যে ট্রায়াল অন্তর্ভুক্ত",
+        "features": [
+          "সম্পূর্ণরূপে পরিচালিত OpenClaw রানটাইম",
+          "Telegram- প্রস্তুত এজেন্ট",
+          "জিরো সেটআপ",
+          "1 OpenClaw এজেন্ট",
+          "Claude, ChatGPT, বা Gemini - আমরা এটি আপনার জন্য চালাই",
+          "কোন API কী প্রয়োজন নেই",
+          "প্ল্যান অনুযায়ী ব্যবহার অন্তর্ভুক্ত। যেকোনো সময় বাতিল করুন।"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "বিনামূল্যে চেষ্টা করুন. কোনো ক্রেডিট কার্ডের প্রয়োজন নেই।",
+        "button": {
+          "title": "OpenClaw অবিলম্বে চালান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw স্টার্টার মাসিক",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "প্রো",
+        "label": "জনপ্রিয়",
+        "features_title": "মূল স্থাপনার বৈশিষ্ট্য",
+        "features": [
+          "5টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "এক-ক্লিক ডিপ্লয়, রিস্টার্ট এবং রিডিপ্লয়",
+          "মডেল এবং চ্যানেল কনফিগারেশন প্রিসেট",
+          "স্থাপনার স্থিতি ড্যাশবোর্ড",
+          "মৌলিক ব্যবহার বিশ্লেষণ",
+          "ইমেল সমর্থন",
+          "বাণিজ্যিক ব্যবহার",
+          "নতুন স্থাপনার বৈশিষ্ট্যগুলিতে অ্যাক্সেস"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "প্রো পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro মাসিক",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "স্টার্টার",
+        "label": "প্রারম্ভিক অ্যাক্সেস",
+        "description": "OpenClaw চালানোর জন্য আপনার যা দরকার। কিছুই আপনি না.",
+        "features_title": "বিনামূল্যে ট্রায়াল অন্তর্ভুক্ত",
+        "features": [
+          "সম্পূর্ণরূপে পরিচালিত OpenClaw রানটাইম",
+          "Telegram- প্রস্তুত এজেন্ট",
+          "জিরো সেটআপ",
+          "1 OpenClaw এজেন্ট",
+          "Claude, ChatGPT, বা Gemini - আমরা এটি আপনার জন্য চালাই",
+          "কোন API কী প্রয়োজন নেই",
+          "প্ল্যান অনুযায়ী ব্যবহার অন্তর্ভুক্ত। যেকোনো সময় বাতিল করুন।"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "আসল মূল্য: $10/মাস",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "বিনামূল্যে চেষ্টা করুন. কোনো ক্রেডিট কার্ডের প্রয়োজন নেই।",
+        "button": {
+          "title": "OpenClaw অবিলম্বে চালান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw স্টার্টার বার্ষিক",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "প্রো",
+        "label": "জনপ্রিয়",
+        "features_title": "মূল স্থাপনার বৈশিষ্ট্য",
+        "features": [
+          "5টি পর্যন্ত সক্রিয় OpenClaw স্থাপনা",
+          "এক-ক্লিক ডিপ্লয়, রিস্টার্ট এবং রিডিপ্লয়",
+          "মডেল এবং চ্যানেল কনফিগারেশন প্রিসেট",
+          "স্থাপনার স্থিতি ড্যাশবোর্ড",
+          "মৌলিক ব্যবহার বিশ্লেষণ",
+          "ইমেল সমর্থন",
+          "বাণিজ্যিক ব্যবহার",
+          "নতুন স্থাপনার বৈশিষ্ট্যগুলিতে অ্যাক্সেস"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "আসল মূল্য: $20/মাস",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "প্রো পান",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro বার্ষিক",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

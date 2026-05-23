@@ -1,0 +1,50 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: supabase-db-restore-test
+---
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: supabase-pg-restore-test
+  namespace: supabase-db-restore-test
+spec:
+  imageName: supabase/postgres:17.6.1.056
+  instances: 1
+  enableSuperuserAccess: true
+  resources:
+    requests:
+      cpu: "1"
+      memory: 2Gi
+    limits:
+      cpu: "2"
+      memory: 4Gi
+  affinity:
+    enablePodAntiAffinity: true
+    topologyKey: kubernetes.io/hostname
+    podAntiAffinityType: required
+    nodeSelector:
+      kubernetes.io/hostname: vmi3202160
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: node-role.kubernetes.io/control-plane
+                operator: DoesNotExist
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                  - vmi3202160
+  storage:
+    storageClass: local-path
+    size: 50Gi
+  bootstrap:
+    recovery:
+      source: backup-source
+  externalClusters:
+    - name: backup-source
+      plugin:
+        name: barman-cloud.cloudnative-pg.io
+        parameters:
+          barmanObjectName: supabase-pg-backup
+          serverName: supabase-pg

@@ -1,0 +1,9 @@
+module.exports = {
+
+"[project]/src/i18n/pages/font-recognizer/en.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Image Flipper\",\"description\":\"Upload an image for professional color inversion and enhancement\",\"disabled\":false,\"upload\":{\"title\":\"Drag & drop an image\",\"description\":\"Supports PNG, JPG, JPEG, WebP up to 10MB\",\"buttonText\":\"Choose a file\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Clean Image\",\"textListTitle\":\"Detected Text Areas\",\"fontRecommendationTitle\":\"Removal Suggestions\",\"detectedFontLabel\":\"Selected Area\",\"similarFontsLabel\":\"Alternate Fills\",\"selectTextPrompt\":\"Select a text block to remove\"},\"actions\":{\"reuploadText\":\"Re-upload\"},\"messages\":{\"uploadSuccess\":\"Image uploaded successfully\",\"uploadError\":\"Failed to upload image\",\"recognitionSuccess\":\"Detection completed\",\"recognitionError\":\"Detection failed\",\"fontRecognitionSuccess\":\"Text removal completed\",\"fontRecognitionError\":\"Text removal failed\",\"processing\":\"Processing...\"}}}"));}}),
+
+};

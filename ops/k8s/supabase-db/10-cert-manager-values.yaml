@@ -1,0 +1,8 @@
+workerOnly:
+  requiredHostnames:
+    - vmi3202158
+    - vmi3202159
+    - vmi3202160
+  preferController: vmi3202159
+  preferWebhook: vmi3202160
+  preferCainjector: vmi3202160

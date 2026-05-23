@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Esempi di distribuzione OpenClaw da parte degli utenti EasyClaw",
+    "description": "Scopri come i team lanciano gli assistenti OpenClaw per supporto, operazioni e flussi di lavoro interni.",
+    "items": [
+      {
+        "title": "Lancio dell'assistente di assistenza clienti",
+        "description": "Distribuito in pochi minuti un bot di supporto Telegram con modello fallback",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Automazione del follow-up delle vendite",
+        "description": "Configura OpenClaw per qualificare i lead e redigere le risposte di follow-up",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Notificatore delle operazioni interne",
+        "description": "Connesso OpenClaw per avvisare le squadre di eventi e incidenti operativi",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Assistente di community multicanale",
+        "description": "Implementato lo stesso assistente su Telegram, Discord e WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Flusso di lavoro di reporting settimanale",
+        "description": "Report di riepilogo automatizzati per i manager ogni venerdì",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Copilota di onboarding",
+        "description": "Fornite indicazioni e risposte nella prima settimana per i nuovi assunti",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Bot di qualificazione leader",
+        "description": "Domande in entrata acquisite e lead con intenzioni elevate instradati verso le vendite",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Raccoglitore di feedback sul prodotto",
+        "description": "Feedback degli utenti classificati e azioni generate per i team di prodotto",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

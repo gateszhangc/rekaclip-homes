@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - OpenClaw کو 1 منٹ سے کم میں تعینات کریں۔",
+    "description": "ایک کلک میں OpenClaw EasyClaw کے ساتھ تعینات کریں۔ Telegram جڑیں، ایک ماڈل منتخب کریں، اور تیزی سے لائیو جائیں۔",
+    "keywords": "ایزی کلاؤ، اوپن کلاؤ تعینات کریں، اوپن کلاؤ ہوسٹنگ، ٹیلیگرام بوٹ کی تعیناتی، اے آئی اسسٹنٹ تعیناتی"
+  },
+  "blog": {
+    "title": "بلاگ",
+    "description": "OpenClaw کو EasyClaw کے ساتھ تعینات کرنے کے بارے میں خبریں، سبق، اور اپ ڈیٹس۔",
+    "read_more_text": "مزید پڑھیں"
+  },
+  "user": {
+    "sign_in": "سائن ان کریں۔",
+    "sign_out": "سائن آؤٹ کریں۔",
+    "credits": "کریڈٹس",
+    "api_keys": "API کیز",
+    "my_orders": "میرے احکامات",
+    "my_invites": "میری دعوتیں",
+    "user_center": "یوزر سینٹر",
+    "support": "حمایت",
+    "admin_system": "ایڈمن سسٹم",
+    "home": "گھر",
+    "pricing": "قیمتوں کا تعین",
+    "admin_center": "ایڈمن سینٹر"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClaw میں سائن ان کریں۔",
+    "sign_in_description": "OpenClaw کو تعینات کرنے اور اس کا نظم کرنے کے لیے اپنے EasyClaw اکاؤنٹ تک رسائی حاصل کریں۔",
+    "sign_up_title": "EasyClaw میں شامل ہوں۔",
+    "sign_up_description": "اپنا EasyClaw اکاؤنٹ بنائیں",
+    "email_title": "ای میل",
+    "email_placeholder": "اپنا ای میل ایڈریس درج کریں۔",
+    "password_title": "پاس ورڈ",
+    "password_placeholder": "اپنا پاس ورڈ درج کریں۔",
+    "forgot_password": "پاس ورڈ بھول گئے؟",
+    "or": "یا",
+    "continue": "EasyClaw پر جاری رکھیں",
+    "no_account": "EasyClaw میں نئے ہیں؟",
+    "email_sign_in": "ای میل کے ساتھ سائن ان کریں۔",
+    "google_sign_in": "گوگل کے ساتھ جاری رکھیں",
+    "github_sign_in": "GitHub کے ساتھ جاری رکھیں",
+    "close_title": "بند",
+    "cancel_title": "منسوخ کریں۔"
+  },
+  "my_orders": {
+    "title": "میرے احکامات",
+    "no_orders": "کوئی آرڈر نہیں ملا",
+    "tip": "",
+    "support_tip": "بلنگ یا منسوخی میں مدد کی ضرورت ہے؟ support@easyclaw.pro پر ای میل کریں۔",
+    "activate_order": "آرڈر کو چالو کریں۔",
+    "actived": "چالو",
+    "join_discord": "Discord میں شامل ہوں۔",
+    "read_docs": "دستاویزات پڑھیں",
+    "table": {
+      "order_no": "آرڈر نمبر",
+      "email": "ای میل",
+      "product_name": "پروڈکٹ کا نام",
+      "amount": "رقم",
+      "paid_at": "پر ادا کیا",
+      "github_username": "GitHub صارف نام",
+      "status": "حیثیت",
+      "manage_billing": "بلنگ کا نظم کریں۔",
+      "interval": "Interval",
+      "interval_month": "ماہانہ",
+      "interval_year": "سالانہ",
+      "interval_one_time": "ایک بار"
+    }
+  },
+  "my_credits": {
+    "title": "میرے کریڈٹس",
+    "left_tip": "بائیں کریڈٹ: {left_credits}",
+    "no_credits": "کوئی کریڈٹ ریکارڈ نہیں ہے۔",
+    "recharge": "ریچارج کریں۔",
+    "table": {
+      "trans_no": "ٹرانس نمبر",
+      "trans_type": "ٹرانس کی قسم",
+      "credits": "کریڈٹس",
+      "updated_at": "پر اپ ڈیٹ کیا گیا۔",
+      "status": "حیثیت",
+      "expired_at": "میعاد ختم",
+      "created_at": "پر تخلیق کیا گیا۔"
+    }
+  },
+  "api_keys": {
+    "title": "API کیز",
+    "tip": "براہ کرم لیک ہونے سے بچنے کے لیے اپنی ایپی کی کو محفوظ رکھیں",
+    "no_api_keys": "API کیز نہیں ہیں۔",
+    "create_api_key": "API کلید بنائیں",
+    "table": {
+      "name": "Name",
+      "key": "چابی",
+      "created_at": "پر تخلیق کیا گیا۔"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API کلیدی نام",
+      "submit": "جمع کروائیں۔"
+    }
+  },
+  "my_invites": {
+    "title": "میری دعوتیں",
+    "description": "اپنے دعوت نامے کا ریکارڈ دیکھیں",
+    "no_invites": "کوئی دعوتی ریکارڈ نہیں ملا",
+    "my_invite_link": "میری دعوت کا لنک",
+    "edit_invite_link": "دعوتی لنک میں ترمیم کریں۔",
+    "copy_invite_link": "انوائٹ لنک کاپی کریں۔",
+    "invite_code": "کوڈ کو مدعو کریں۔",
+    "invite_tip": "دوستوں کو EasyClaw میں مدعو کریں اور انعامات حاصل کریں۔",
+    "invite_balance": "انعامی بیلنس کو مدعو کریں۔",
+    "total_invite_count": "دعوت کی کل تعداد",
+    "total_paid_count": "کل ادا شدہ شمار",
+    "total_award_amount": "کل ایوارڈ کی رقم",
+    "update_invite_code": "انوائٹ کوڈ سیٹ کریں۔",
+    "update_invite_code_tip": "اپنا حسب ضرورت دعوتی کوڈ درج کریں۔",
+    "update_invite_button": "محفوظ کریں۔",
+    "no_orders": "دوسروں کو مدعو کرنے سے پہلے آپ کو ایک بامعاوضہ پلان کی ضرورت ہے۔",
+    "no_affiliates": "آپ کو دوسروں کو مدعو کرنے کی اجازت نہیں ہے، براہ کرم اجازت کے لیے درخواست دینے کے لیے ہم سے رابطہ کریں۔",
+    "table": {
+      "invite_time": "وقت کو دعوت دیں۔",
+      "invite_user": "صارف کو مدعو کریں۔",
+      "status": "حیثیت",
+      "reward_percent": "انعام کا فیصد",
+      "reward_amount": "انعام کی رقم",
+      "pending": "زیر التواء",
+      "completed": "مکمل"
+    }
+  },
+  "feedback": {
+    "title": "تاثرات",
+    "description": "ہم یہ سننا پسند کریں گے کہ کیا اچھا رہا یا ہم پروڈکٹ کے تجربے کو کیسے بہتر بنا سکتے ہیں۔",
+    "submit": "جمع کروائیں۔",
+    "loading": "جمع کر رہا ہے...",
+    "contact_tip": "ہم سے رابطہ کرنے کے دوسرے طریقے",
+    "rating_tip": "آپ EasyClaw کے بارے میں کیسا محسوس کرتے ہیں؟",
+    "placeholder": "اپنی بات یہیں چھوڑ دو..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - فوری طور پر AI کیریکیچرز بنائیں",
+    "description": "AI سے چلنے والے ٹولز کے ساتھ تفریحی اور فنکارانہ خاکے بنانے کے لیے تصاویر اپ لوڈ کریں۔",
+    "upload_label": "اپنی تصویر اپ لوڈ کریں۔",
+    "upload_placeholder": "اپ لوڈ کرنے کے لیے کلک کریں یا ڈریگ کریں (JPG, PNG, GIF, WebP)",
+    "upload_required": "درکار ہے۔",
+    "prompt_label": "توسیع کی وضاحت کریں (اختیاری)",
+    "prompt_placeholder": "مثال کے طور پر، 'پس منظر کو بائیں اور دائیں پھیلائیں'، 'آؤٹ پینٹ اسکائی'، 'بینر کے لیے وسیع کینوس'، 'موضوع کے ارد گرد کمرہ شامل کریں'...",
+    "prompt_required": "اختیاری نوٹ",
+    "character_count": "{count}/500",
+    "generate_button": "تصویر کو پھیلائیں۔",
+    "generating_button": "پھیل رہا ہے...",
+    "credits_label": "آپ کے کریڈٹس",
+    "cost_label": "لاگت: فی توسیع {cost} کریڈٹس",
+    "insufficient_credits": "ناکافی کریڈٹس۔ تصاویر کو بڑھانا جاری رکھنے کے لیے براہ کرم ری چارج کریں۔",
+    "errors": {
+      "no_image": "براہ کرم توسیع کے لیے ایک تصویر اپ لوڈ کریں۔",
+      "no_prompt": "براہ کرم بیان کریں کہ آپ تصویر کو کیسے پھیلانا چاہتے ہیں۔",
+      "invalid_format": "صرف JPG, PNG, GIF, WebP فارمیٹس تعاون یافتہ ہیں",
+      "file_too_large": "تصویر کا سائز 5MB سے زیادہ نہیں ہو سکتا",
+      "generation_failed": "تصویر کی توسیع ناکام ہوگئی، براہ کرم دوبارہ کوشش کریں۔",
+      "download_failed": "ڈاؤن لوڈ ناکام ہوگیا، براہ کرم دوبارہ کوشش کریں۔"
+    },
+    "success": {
+      "generated": "آپ کی توسیع شدہ تصویر تیار ہے!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "ہمارے ٹول کے ذریعے پھیلائی گئی تازہ ترین تصاویر دیکھیں۔ پہلے/بعد کا جائزہ لیں اور نتیجہ برآمد کریں۔",
+    "download_hint": "توسیع شدہ تصویر کو ڈاؤن لوڈ کرنے کے لیے کلک کریں۔",
+    "no_outfits": "ابھی تک کوئی توسیع نہیں ہے۔ توسیع شروع کرنے کے لیے ایک تصویر اپ لوڈ کریں!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI کیریکیچر جنریٹر",
+    "description": "ٹیکسٹ ٹو امیج اور امیج ٹو امیج موڈز کے ساتھ OpenClaw AI ماڈل کا استعمال کرتے ہوئے اعلیٰ معیار کے کیریکیچر تیار کریں۔",
+    "hero": {
+      "badge": "نیا OpenClaw",
+      "title": "حیرت انگیز کیریکیچرز بنائیں",
+      "subtitle": "OpenClaw کے جدید ترین AI ماڈل کے ساتھ تصاویر کو شاندار کیریکیچرز میں تبدیل کریں۔ متن سے تصویر اور تصویر سے تصویر بنانے کے طریقوں دونوں کی حمایت کرتا ہے۔",
+      "features": {
+        "text_to_image": "تصویر سے متن",
+        "image_to_image": "تصویر سے تصویر",
+        "high_quality": "اعلی معیار کی پیداوار"
+      },
+      "buttons": {
+        "start_creating": "تخلیق کرنا شروع کریں۔",
+        "view_gallery": "گیلری دیکھیں"
+      },
+      "stats": {
+        "daily_images": "روزانہ تیار کردہ تصاویر",
+        "satisfaction": "صارف کا اطمینان",
+        "generation_time": "اوسط جنریشن ٹائم"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "تصویر سے تصویر",
+        "text_to_image": "تصویر سے متن"
+      },
+      "model": "ماڈل",
+      "reference_images": "حوالہ جات کی تصاویر",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "تصاویر کو یہاں گھسیٹیں اور چھوڑیں۔",
+        "or_click": "یا براؤز کرنے کے لیے کلک کریں۔",
+        "supported_formats": "سپورٹ کرتا ہے: JPEG، PNG، WebP (زیادہ سے زیادہ 10MB)",
+        "add_more": "مزید شامل کریں۔"
+      },
+      "prompt": "پرامپٹ",
+      "prompt_placeholder_image": "تصویر کو تبدیل کرنے کا طریقہ بیان کریں...",
+      "prompt_placeholder_text": "جس تصویر کو آپ بنانا چاہتے ہیں اس کی وضاحت کریں...",
+      "aspect_ratio": "پہلو کا تناسب",
+      "resolution": "قرارداد",
+      "output_count": "آؤٹ پٹ کاؤنٹ",
+      "output_count_range": "کم از کم {min}، زیادہ سے زیادہ {max}",
+      "output_format": "آؤٹ پٹ فارمیٹ",
+      "generate_button": "ابھی پیدا کریں۔",
+      "generating": "پیدا ہو رہا ہے...",
+      "clear_images": "تمام تصاویر صاف کریں۔",
+      "output_gallery": "آپ کی تیار کردہ تصویر",
+      "view_all": "سبھی دیکھیں",
+      "generating_message": "آپ کا شاہکار تخلیق ہو رہا ہے...",
+      "generating_submessage": "ہمارا OpenClaw ماڈل اپنا جادو چلا رہا ہے۔ اس میں عام طور پر چند سیکنڈ لگتے ہیں۔",
+      "example": "مثال"
+    },
+    "my_creations": {
+      "title": "میری تخلیقات",
+      "description": "اپنی AI سے تیار کردہ تصاویر دیکھیں اور ان کا نظم کریں - ایک کلک کے ساتھ پیش نظارہ اور ڈاؤن لوڈ کریں۔",
+      "search_placeholder": "تخلیقات تلاش کریں...",
+      "view_all": "تمام دیکھیں ({count})",
+      "no_results": "کوئی مماثل تخلیق نہیں ملی",
+      "no_results_message": "مختلف مطلوبہ الفاظ استعمال کرنے کی کوشش کریں یا تمام تخلیقات کو دیکھنے کے لیے تلاش کو صاف کریں۔",
+      "clear_search": "تلاش صاف کریں۔",
+      "empty_state": "ابھی تک کوئی تخلیق نہیں۔",
+      "empty_message": "اپنی پہلی AI سے تیار کردہ تصویر بنانے کے لیے OpenClaw استعمال کرنا شروع کریں!",
+      "start_creating": "تخلیق کرنا شروع کریں۔",
+      "download": "ڈاؤن لوڈ کریں۔",
+      "delete": "حذف کریں۔",
+      "total_count": "کل {count} تخلیقات",
+      "search_results": "(تلاش: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "تصویر سے متن",
+        "IMAGE_TO_IMAGE": "تصویر سے تصویر"
+      }
+    },
+    "errors": {
+      "enter_prompt": "براہ کرم ایک پرامپٹ درج کریں۔",
+      "upload_reference": "تصویر سے تصویری موڈ میں حوالہ جاتی تصاویر اپ لوڈ کرنے کی ضرورت ہوتی ہے۔",
+      "generation_failed": "جنریشن ناکام ہو گئی، براہ کرم دوبارہ کوشش کریں۔",
+      "upload_success": "تصویر کامیابی کے ساتھ اپ لوڈ ہو گئی۔",
+      "upload_failed": "اپ لوڈ ناکام ہو گیا۔",
+      "delete_success": "تصویر حذف کر دی گئی۔",
+      "delete_failed": "حذف کرنے میں ناکام، براہ کرم دوبارہ کوشش کریں۔",
+      "download_started": "ڈاؤن لوڈ شروع ہو گیا۔",
+      "file_too_large": "فائل کا سائز {size}MB سے زیادہ نہیں ہو سکتا",
+      "unsupported_format": "غیر تعاون یافتہ فائل فارمیٹ۔ تعاون یافتہ فارمیٹس: {formats}",
+      "retry": "دوبارہ کوشش کریں۔",
+      "dismiss": "برطرف کرنا"
+    },
+    "loading": {
+      "default": "لوڈ ہو رہا ہے...",
+      "generation": "آپ کا شاہکار تخلیق ہو رہا ہے...",
+      "generation_message": "ہمارا OpenClaw ماڈل اپنا جادو چلا رہا ہے۔ اس میں عام طور پر چند سیکنڈ لگتے ہیں۔",
+      "upload": "تصویر اپ لوڈ ہو رہی ہے...",
+      "upload_message": "براہ کرم انتظار کریں جب تک کہ آپ کی تصویر کلاؤڈ پر اپ لوڈ ہو جائے۔"
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "پرتوں والا اسٹوڈیو",
+      "title": "OpenClaw اسٹوڈیو",
+      "description": "اپنی تصاویر سے فنکارانہ خاکے بنائیں۔",
+      "cta": "مفت آزمائش",
+      "cta_hint": "شروع کرنے کے لیے ایک تصویر اپ لوڈ کریں۔",
+      "features": [
+        "فی تصویر 2-8 AI پرتیں۔",
+        "شفاف PNG/WebP برآمد",
+        "فوری رہنمائی علیحدگی"
+      ]
+    },
+    "upload": {
+      "title": "اپ لوڈ کریں۔",
+      "subtitle": "JPG، PNG، یا WebP 10MB تک",
+      "action": "تصویر اپ لوڈ کریں۔",
+      "drop": "اپنی تصویر یہاں ڈراپ کریں۔",
+      "or_click": "یا براؤز کرنے کے لیے کلک کریں۔",
+      "supported_formats": "سپورٹ کرتا ہے: JPEG، PNG، WebP (زیادہ سے زیادہ 10MB)"
+    },
+    "prompt": {
+      "label": "پرامپٹ",
+      "placeholder": "اپنی مطلوبہ پرتوں کی وضاحت کریں (مثال کے طور پر، موضوع، سہارے، پس منظر)"
+    },
+    "advanced": {
+      "title": "اعلی درجے کی ترتیبات",
+      "prompt_label": "فوری (اختیاری)",
+      "prompt_placeholder": "تصویر کو بیان کرنے کے لیے براہ کرم پرامپٹ درج کریں۔ (اختیاری)",
+      "negative_prompt_label": "منفی پرامپٹ (اختیاری)",
+      "negative_prompt_placeholder": "بیان کریں کہ تہوں سے کن چیزوں کو خارج کیا جانا چاہیے۔",
+      "seed": "بیج",
+      "randomize_seed": "بے ترتیب بیج",
+      "guidance_scale": "صحیح رہنمائی کا پیمانہ",
+      "inference_steps": "تخمینہ کے مراحل کی تعداد",
+      "cfg_normalization": "آیا CFG نارملائزیشن کو فعال کریں۔",
+      "auto_caption_language": "خودکار کیپشن کی زبان اگر کوئی پرامپٹ فراہم نہ کیا گیا ہو، EN کے لیے درست، ZH کے لیے غلط",
+      "layer_count": "پرتوں کی گنتی",
+      "layer_range": "کم از کم {min}، زیادہ سے زیادہ {max}",
+      "output_format": "آؤٹ پٹ فارمیٹ"
+    },
+    "actions": {
+      "decompose": "گلنا!",
+      "sign_in_to_decompose": "سڑنے کے لیے سائن ان کریں!",
+      "generating": "گلنا..."
+    },
+    "results": {
+      "title": "نتائج",
+      "subtitle": "پرتوں والے آؤٹ پٹ سڑنے کے بعد یہاں ظاہر ہوتے ہیں۔",
+      "download_pptx": "PPTX ڈاؤن لوڈ کریں۔",
+      "download_zip": "زپ ڈاؤن لوڈ کریں۔",
+      "packaging": "پیکجنگ...",
+      "generating_title": "آپ کی تصویر کو سڑ رہا ہے...",
+      "generating_subtitle": "پرتوں والے اثاثے بنانا۔ اس میں عام طور پر چند سیکنڈ لگتے ہیں۔",
+      "layer_label": "پرت {index}",
+      "layer_description": "پرتوں والا اثاثہ",
+      "empty_title": "ابھی تک کوئی تہہ نہیں۔",
+      "empty_subtitle": "ایک تصویر اپ لوڈ کریں اور ڈیکمپوز پر کلک کریں! تہوں کو پیدا کرنے کے لئے.",
+      "success": "پرتیں کامیابی کے ساتھ تیار ہوئیں!",
+      "download_ready": "ڈاؤن لوڈ تیار ہے۔"
+    },
+    "examples": {
+      "title": "مثالیں",
+      "subtitle": "دیکھیں کہ ماخذ کی تصویر کس طرح صاف تہوں میں ٹوٹتی ہے۔",
+      "labels": {
+        "source": "ماخذ",
+        "layer": "پرت {index}",
+        "sample": "مثال {index}"
+      },
+      "rows": {
+        "primary": "مثال سیٹ 01",
+        "secondary": "مثال سیٹ 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "براہ کرم پہلے ایک حوالہ تصویر اپ لوڈ کریں۔",
+      "generation_failed": "جنریشن ناکام ہو گئی، براہ کرم دوبارہ کوشش کریں۔",
+      "upload_success": "تصویر کامیابی کے ساتھ اپ لوڈ ہو گئی۔",
+      "upload_failed": "اپ لوڈ ناکام ہو گیا۔",
+      "download_failed": "ڈاؤن لوڈ ناکام ہوگیا، براہ کرم دوبارہ کوشش کریں۔"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "دستیاب ہے۔"
+    },
+    "errors": {
+      "no_available_account": "آپ کی موجودہ رکنیت میں کوئی اکاؤنٹ دستیاب نہیں ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔",
+      "network_unstable": "نیٹ ورک غیر مستحکم ہے۔ براہ کرم جلد ہی دوبارہ کوشش کریں۔",
+      "deployment_failed_try_again": "تعیناتی ناکام ہو گئی۔ دوبارہ کوشش کریں۔",
+      "deployment_timeout": "{minutes} منٹ کے بعد تعیناتی کا ٹائم آؤٹ۔ براہ کرم دوبارہ کوشش کریں۔",
+      "enter_bot_token": "براہ کرم ایک بوٹ ٹوکن درج کریں۔",
+      "select_channel_before_deploying": "براہ کرم تعینات کرنے سے پہلے ایک چینل منتخب کریں۔",
+      "enter_telegram_bot_token": "براہ کرم اپنا Telegram بوٹ ٹوکن درج کریں۔",
+      "invalid_response_missing_deployment_id": "غلط جواب: deployment_id غائب ہے۔",
+      "failed_to_start_deployment": "تعیناتی شروع کرنے میں ناکام",
+      "failed_to_fetch_deployment_status": "تعیناتی کی حیثیت حاصل کرنے میں ناکام",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - ایک کلک OpenClaw تعیناتی۔",
+      "description": "OpenClaw کو 1 منٹ سے کم میں تعینات کریں۔ کوئی سرور یا DevOps نہیں۔ ایک ماڈل منتخب کریں، ایک چینل جوڑیں، اور لانچ کریں۔"
+    },
+    "selectors": {
+      "model_title": "اپنے OpenClaw کے لیے ڈیفالٹ ماڈل منتخب کریں۔",
+      "channel_title": "منتخب کریں کہ OpenClaw کہاں پیغامات بھیجے۔",
+      "selected": "منتخب"
+    },
+    "deploy": {
+      "deploying": "تعینات کیا جا رہا ہے...",
+      "deploy_button": "تعینات کریں۔",
+      "sign_in_button": "EasyClaw کے ساتھ تعینات کرنے کے لیے سائن ان کریں۔",
+      "sign_in_hint": "OpenClaw کو EasyClaw کے ساتھ تعینات کرنے کے لیے سائن ان کریں اور اپنے چینلز کو جوڑیں۔",
+      "status_success": "تعیناتی کامیاب! OpenClaw اب چل رہا ہے۔",
+      "model_substitution_warning": "ماڈل کے متبادل کا پتہ چلا۔ دوبارہ تعینات کرنے کی کوشش کریں یا کسی دوسرے علاقے/فراہم کنندہ پر جائیں۔",
+      "hint_prefix": "جاری رکھنے کے لیے Telegram کو مربوط کریں۔",
+      "hint_suffix": "آپ بعد میں اسی اکاؤنٹ میں دوسرے چینلز شامل کر سکتے ہیں۔",
+      "hint_prefix_telegram": "جاری رکھنے کے لیے Telegram کو مربوط کریں۔",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegram مربوط کریں۔",
+      "how_to_get_token": "اپنا بوٹ ٹوکن کیسے حاصل کریں؟",
+      "step_1_prefix": "Telegram کھولیں اور پر جائیں۔",
+      "step_2_prefix": "چیٹ شروع کریں اور ٹائپ کریں۔",
+      "step_3_text": "اپنے بوٹ کو نام دینے اور صارف نام منتخب کرنے کے لیے اشارے پر عمل کریں۔",
+      "step_4_text": "BotFather آپ کو آپ کے بوٹ ٹوکن کے ساتھ ایک پیغام بھیجے گا۔ پورے ٹوکن کو کاپی کریں (یہ اعداد اور حروف کی ایک لمبی تار کی طرح لگتا ہے)۔",
+      "step_5_text": "نیچے دیے گئے فیلڈ میں ٹوکن چسپاں کریں اور Save & Connect پر کلک کریں۔",
+      "token_label": "بوٹ ٹوکن درج کریں۔",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "محفوظ کریں اور جڑیں۔",
+      "preview_intro": "میں Telegram بوٹس بنانے اور ان کا نظم کرنے میں آپ کی مدد کر سکتا ہوں۔ آپ کیا کرنا چاہیں گے؟",
+      "preview_newbot": "ایک نیا بوٹ بنائیں",
+      "preview_mybots": "اپنے بوٹس میں ترمیم کریں۔",
+      "preview_name_prompt": "ٹھیک ہے، ایک نیا بوٹ۔ ہم اسے کیسے کال کریں گے؟ براہ کرم اپنے بوٹ کے لیے ایک نام منتخب کریں۔",
+      "preview_message_input": "پیغام"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

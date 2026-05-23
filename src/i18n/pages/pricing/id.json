@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Harga",
+    "title": "Harga",
+    "description": "Pilih paket berdasarkan berapa banyak penerapan OpenClaw yang Anda perlukan. Batalkan kapan saja dari akun Anda.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Bulanan",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Setiap tahun",
+        "is_featured": true,
+        "label": "Hemat 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Pemula",
+        "label": "AKSES AWAL",
+        "description": "Semua yang Anda perlukan untuk menjalankan OpenClaw. Tidak ada yang tidak Anda lakukan.",
+        "features_title": "Termasuk uji coba gratis",
+        "features": [
+          "Waktu proses OpenClaw yang dikelola sepenuhnya",
+          "Agen siap Telegram",
+          "Pengaturan nol",
+          "1 agen OpenClaw",
+          "Claude, ChatGPT, atau Gemini - kami menjalankannya untuk Anda",
+          "Tidak diperlukan kunci API",
+          "Penggunaan termasuk per paket. Batalkan kapan saja."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Cobalah secara gratis. Tidak diperlukan kartu kredit.",
+        "button": {
+          "title": "Jalankan OpenClaw secara instan",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Pemula Bulanan",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populer",
+        "features_title": "Fitur penerapan inti",
+        "features": [
+          "Hingga 5 penerapan OpenClaw aktif",
+          "Terapkan, mulai ulang, dan terapkan ulang dengan sekali klik",
+          "Preset konfigurasi model dan saluran",
+          "Dasbor status penerapan",
+          "Analisis penggunaan dasar",
+          "Dukungan email",
+          "Penggunaan komersial",
+          "Akses ke fitur penerapan baru"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Bulanan",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pemula",
+        "label": "AKSES AWAL",
+        "description": "Semua yang Anda perlukan untuk menjalankan OpenClaw. Tidak ada yang tidak Anda lakukan.",
+        "features_title": "Termasuk uji coba gratis",
+        "features": [
+          "Waktu proses OpenClaw yang dikelola sepenuhnya",
+          "Agen siap Telegram",
+          "Pengaturan nol",
+          "1 agen OpenClaw",
+          "Claude, ChatGPT, atau Gemini - kami menjalankannya untuk Anda",
+          "Tidak diperlukan kunci API",
+          "Penggunaan termasuk per paket. Batalkan kapan saja."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Harga Asli: $10 /bln",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Cobalah secara gratis. Tidak diperlukan kartu kredit.",
+        "button": {
+          "title": "Jalankan OpenClaw secara instan",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Pemula Setiap Tahun",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populer",
+        "features_title": "Fitur penerapan inti",
+        "features": [
+          "Hingga 5 penerapan OpenClaw aktif",
+          "Terapkan, mulai ulang, dan terapkan ulang dengan sekali klik",
+          "Preset konfigurasi model dan saluran",
+          "Dasbor status penerapan",
+          "Analisis penggunaan dasar",
+          "Dukungan email",
+          "Penggunaan komersial",
+          "Akses ke fitur penerapan baru"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Harga Asli: $20 /bln",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Dapatkan Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Setiap Tahun",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

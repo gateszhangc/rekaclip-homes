@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: easyclaw
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/gateszhangc/easyclaw-v3.git
+    targetRevision: main
+    path: deploy/k8s/overlays/production
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: easyclaw
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

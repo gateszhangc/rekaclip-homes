@@ -1,0 +1,15 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: easyclaw-live-tls
+  namespace: easyclaw
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  secretName: easyclaw-live-tls
+  dnsNames:
+    - www.easyclaw.pro
+    - easyclaw.pro
+  issuerRef:
+    kind: ClusterIssuer
+    name: letsencrypt-prod

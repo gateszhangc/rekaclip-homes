@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "คุณสมบัติ",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "ราคา",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "บล็อก",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "คำถามที่พบบ่อย",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "โลโก้ EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "สร้างสรรค์ผลงานศิลปะคุณภาพสูง",
+    "description": "อัปโหลดภาพบุคคล เลือกสไตล์ และรับภาพล้อเลียนที่สะอาดตาสำหรับอวตาร ของขวัญ หรือเนื้อหา",
+    "features": [
+      "รายละเอียดคุณภาพสูงและเส้นสายที่สะอาดตา",
+      "ราคายุติธรรมสำหรับการใช้งานในชีวิตประจำวัน",
+      "พร้อมสำหรับโปรไฟล์ ของขวัญ และงานพิมพ์"
+    ],
+    "buttons": [
+      {
+        "title": "สร้างการ์ตูนล้อเลียนของฉัน",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "ตัวอย่างการ์ตูนล้อเลียน"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "ตัวอย่างการ์ตูนล้อเลียน 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "ตัวอย่างการ์ตูนล้อเลียน 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "ตัวอย่างการ์ตูนล้อเลียน 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "ขับเคลื่อนด้วยเทคโนโลยีขั้นสูง",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "จริง",
+    "name": "introduce",
+    "title": "วิธีทำการ์ตูนล้อเลียน",
+    "label": "กระบวนการง่ายๆ",
+    "description": "สร้างการ์ตูนล้อเลียนที่น่าทึ่งในสามขั้นตอนง่ายๆ ไม่จำเป็นต้องมีทักษะทางศิลปะ",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "อัพโหลดรูปภาพ",
+        "description": "อัปโหลดภาพพอร์ตเทรตที่ชัดเจน เรารองรับ JPG, PNG และ WebP",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "เลือกสไตล์",
+        "description": "เลือกจากสไตล์ตลก เกินจริง อนิเมะ หรือการ์ตูน 3 มิติ",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "ดาวน์โหลด",
+        "description": "รับภาพล้อเลียนคุณภาพสูงของคุณทันทีโดยไม่มีลายน้ำ",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "จริง",
+    "name": "benefit",
+    "title": "ทำไมต้องใช้ OpenClaw?",
+    "label": "สิทธิประโยชน์",
+    "description": "เครื่องมือที่สมบูรณ์แบบสำหรับของขวัญ รูปโปรไฟล์ และเนื้อหาโซเชียลมีเดีย",
+    "items": [
+      {
+        "title": "AI เมจิกทันที",
+        "description": "AI ขั้นสูงวิเคราะห์คุณลักษณะใบหน้าเพื่อสร้างภาพล้อเลียนที่เกินจริงได้อย่างสมบูรณ์แบบภายในไม่กี่วินาที",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "รูปแบบศิลปะที่หลากหลาย",
+        "description": "ตั้งแต่รูปลักษณ์ที่วาดด้วยมือคลาสสิกไปจนถึงอวตารแอนิเมชั่น 3 มิติที่ทันสมัย เรามีทุกอย่าง",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "ความละเอียดสูง",
+        "description": "ดาวน์โหลดภาพที่คมชัดและมีคุณภาพสูงซึ่งเหมาะสำหรับการพิมพ์บนแก้ว เสื้อยืด และโปสเตอร์",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "แกลเลอรี่",
+    "title": "การเปลี่ยนแปลงที่น่าทึ่ง",
+    "description": "ดูว่าภาพถ่ายธรรมดาๆ กลายเป็นการ์ตูนล้อเลียนที่ไม่ธรรมดาได้อย่างไร",
+    "items": [
+      {
+        "title": "อวตารทางสังคม",
+        "highlight": "โดดเด่นในโลกออนไลน์",
+        "description": "สร้างภาพโปรไฟล์ที่ไม่ซ้ำใครที่สะท้อนบุคลิกของคุณ",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "ภาพถ่ายต้นฉบับ",
+        "afterAlt": "ผลการ์ตูนล้อเลียน",
+        "reverse": false
+      },
+      {
+        "title": "ของขวัญส่วนบุคคล",
+        "highlight": "ของขวัญที่น่าจดจำ",
+        "description": "เซอร์ไพรส์เพื่อนและครอบครัวด้วยภาพบุคคลตลกๆ แบบกำหนดเอง",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "ภาพถ่ายต้นฉบับ",
+        "afterAlt": "ผลการ์ตูนล้อเลียน",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 ขั้นตอนในการปรับใช้ OpenClaw",
+    "description": "เลือกรุ่นของคุณ เชื่อมต่อช่องทาง และเปิดใช้งาน",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "ซ้าย",
+    "text_align": "ศูนย์",
+    "items": [
+      {
+        "title": "เลือกรุ่น",
+        "description": "Claude, GPT, Gemini — เลือกรุ่นที่ดีที่สุดสำหรับแต่ละงาน งานสร้างสรรค์กับ Claude วิเคราะห์ด้วย GPT สลับได้ตลอดเวลา",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "เลือกโมเดล AI - Claude, GPT หรือ Gemini"
+        }
+      },
+      {
+        "title": "เชื่อมต่อช่อง",
+        "description": "Telegram, Discord, WhatsApp — แดชบอร์ดเดียวสำหรับทุกช่อง จัดการการสนทนาทั้งหมดได้จากที่เดียว ไม่ต้องสลับแอปอีกต่อไป",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "เชื่อมต่อช่องทางการส่งข้อความ"
+        }
+      },
+      {
+        "title": "ปรับใช้และเริ่มต้น",
+        "description": "ผู้ช่วย AI ของคุณออนไลน์ใน 60 วินาที ส่งข้อความแรกของคุณและเริ่มดำเนินการอัตโนมัติ",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "ปรับใช้และเริ่มผู้ช่วยของคุณ"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "สร้างการ์ตูนล้อเลียนของคุณ",
+    "description": "อัปโหลดรูปภาพ เลือกสไตล์ และสร้าง"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "สตูดิโอการ์ตูนล้อเลียน",
+    "description": "อัปโหลดรูปภาพ เลือกสไตล์ และสร้างภาพล้อเลียนคุณภาพสูง",
+    "disabled": false,
+    "upload": {
+      "title": "อัพโหลดรูปภาพของคุณ",
+      "description": "ลากและวางหรือคลิกเพื่ออัปโหลด (JPG, PNG, WebP สูงสุด 10MB)",
+      "buttonText": "เลือกรูปภาพ",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "การ์ตูนล้อเลียนของคุณ",
+      "textListTitle": "การตั้งค่าสไตล์",
+      "fontRecommendationTitle": "สไตล์ที่แนะนำ",
+      "detectedFontLabel": "ทางเลือกปัจจุบัน",
+      "similarFontsLabel": "ลองสิ่งเหล่านี้ด้วย",
+      "selectTextPrompt": "เลือกสไตล์ที่จะใช้"
+    },
+    "actions": {
+      "reuploadText": "ลองรูปภาพอื่น"
+    },
+    "messages": {
+      "uploadSuccess": "อัปโหลดรูปภาพสำเร็จแล้ว!",
+      "uploadError": "อ๊ะ การอัปโหลดล้มเหลว โปรดลองอีกครั้ง",
+      "recognitionSuccess": "การ์ตูนล้อเลียนของคุณพร้อมแล้ว!",
+      "recognitionError": "การสร้างล้มเหลว โปรดลองอีกครั้ง",
+      "fontRecognitionSuccess": "ใช้สไตล์แล้ว!",
+      "fontRecognitionError": "ล้มเหลวในการใช้สไตล์",
+      "processing": "การสร้างการ์ตูนล้อเลียนของคุณ..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "บอกลาความยุ่งยากได้เลย",
+    "description": "ดูว่ามีอะไรเปลี่ยนแปลงเมื่อคุณเปลี่ยนไปใช้ EasyClaw",
+    "before_label": "การตั้งค่าแบบดั้งเดิม",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "เช่าเซิร์ฟเวอร์ กำหนดค่าสภาพแวดล้อม",
+        "after": "ปรับใช้เพียงคลิกเดียว ไม่จำเป็นต้องใช้เซิร์ฟเวอร์"
+      },
+      {
+        "before": "ตื่นมาเพื่อแก้ไขการแจ้งเตือนตี 3",
+        "after": "การทำงานอัตโนมัติทุกวันตลอด 24 ชั่วโมง"
+      },
+      {
+        "before": "อัปเดตเวอร์ชัน OpenClaw ด้วยตนเอง",
+        "after": "อัปเดตอัตโนมัติเป็นเวอร์ชันล่าสุด"
+      },
+      {
+        "before": "เรียนรู้คำสั่ง Docker, Linux",
+        "after": "ไม่จำเป็นต้องมีทักษะด้านเทคนิค"
+      },
+      {
+        "before": "30+ นาทีต่อการปรับใช้แต่ละครั้ง",
+        "after": "ปรับใช้ภายในเวลาไม่ถึง 60 วินาที"
+      }
+    ],
+    "footer": "ประหยัดเวลา: ~29 นาทีต่อการปรับใช้แต่ละครั้ง"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "เหตุใดทีมจึงเลือก EasyClaw",
+    "description": "การปรับใช้พร้อมการผลิตโดยไม่มีค่าใช้จ่าย DevOps ไม่ต้องบำรุงรักษา มีสมาธิสูงสุด",
+    "items": [
+      {
+        "title": "ปรับใช้ใน 60 วินาที",
+        "description": "จากศูนย์ไปสู่การทำงานภายในไม่ถึงหนึ่งนาที ไม่มีนักเทียบท่า ไม่มีคำสั่ง Linux ไม่มีการตั้งค่าเซิร์ฟเวอร์",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "การบำรุงรักษาเป็นศูนย์",
+        "description": "เราจัดการการอัปเดต การตรวจสอบ และการกู้คืน คุณเพียงแค่มุ่งเน้นไปที่การใช้ผู้ช่วย AI ของคุณ",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "ความยืดหยุ่นของโมเดล",
+        "description": "สลับระหว่าง Claude, GPT และ Gemini ได้ตลอดเวลา ใช้แบบจำลองที่ดีที่สุดสำหรับแต่ละงาน",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "ช่องทางแบบครบวงจร",
+        "description": "จัดการ Telegram, Discord และ WhatsApp จากแดชบอร์ดเดียว ไม่มีการสลับแอปอีกต่อไป",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "ทันสมัยอยู่เสมอ",
+        "description": "อัพเดต OpenClaw อัตโนมัติ ใช้คุณสมบัติใหม่ล่าสุดเสมอโดยไม่ต้องยกนิ้ว",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "ปรับขนาดด้วยความมั่นใจ",
+        "description": "เริ่มต้นใช้งานเดี่ยว จากนั้นขยายการใช้งานข้ามทีมและกรณีการใช้งาน ตั้งแต่ 1 ถึง 100 การใช้งาน",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "ปรับใช้ OpenClaw สำหรับเวิร์กโฟลว์ใดๆ",
+    "description": "ผู้ช่วยคนหนึ่ง กรณีการใช้งานมากมาย เปิดตัวครั้งเดียว อัตโนมัติทุกที่",
+    "items": [
+      {
+        "title": "การบรรยายสรุปรายวัน",
+        "description": "เปลี่ยนข้อความและการอัปเดตให้เป็นสรุปช่วงเช้าที่กระชับสำหรับทีมของคุณ",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "เวิร์กโฟลว์อัตโนมัติของการบรรยายสรุปรายวัน"
+        },
+        "buttons": [
+          {
+            "title": "เรียนรู้เพิ่มเติม ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "ผู้ช่วยฝ่ายสนับสนุนลูกค้า",
+        "description": "กำหนดเส้นทางคำถาม ร่างคำตอบ และตอบสนองช่องทางการสนับสนุน",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "เวิร์กโฟลว์อัตโนมัติของการสนับสนุนลูกค้า"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "เริ่มปรับใช้ ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "ทีมปฏิบัติการอัตโนมัติ",
+        "description": "การแจ้งเตือน รายงานสถานะ และการติดตามผลเป็นประจำผ่านช่องทางต่างๆ โดยอัตโนมัติ",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "เวิร์กโฟลว์การทำงานอัตโนมัติของทีม"
+        },
+        "buttons": [
+          {
+            "title": "ดูราคา ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "เท็จ",
+    "name": "stats",
+    "label": "ไฮไลท์",
+    "title": "สร้างขึ้นเพื่อการเปิดตัวที่รวดเร็ว",
+    "description": "ทุกสิ่งที่จำเป็นในการรัน OpenClaw ได้อย่างน่าเชื่อถือ",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "ถึงเวลาปรับใช้ครั้งแรก",
+        "label": "< 1 นาที",
+        "description": "จากการตั้งค่าไปจนถึงผู้ช่วยการวิ่ง"
+      },
+      {
+        "title": "ช่องทางที่รองรับ",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "การมองเห็นการปรับใช้",
+        "label": "เรียลไทม์",
+        "description": "ติดตามสถานะการทำงานและสถานะล้มเหลว"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "รีวิว",
+    "title": "สิ่งที่ผู้ใช้พูด",
+    "description": "ดูว่าทำไมทุกคนถึงพูดถึง OpenClaw",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "ซาราห์ เจนกินส์",
+        "label": "ผู้จัดการโซเชียลมีเดีย",
+        "description": "ฉันถ่ายรูปทีมสุดฮาสำหรับหน้าเกี่ยวกับเรา ทุกคนรักมัน!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "ไมค์ รอสส์",
+        "label": "ฟรีแลนซ์",
+        "description": "ใช้สิ่งนี้เพื่อสร้างอวตารที่ไม่ซ้ำใครสำหรับโปรไฟล์อิสระของฉัน มันโดดเด่น!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "เอมิลี่ เฉิน",
+        "label": "นักศึกษา",
+        "description": "ทำการ์ตูนล้อเลียนเพื่อนๆ ทุกคนเป็นการ์ดวันเกิด ของขวัญที่ดีที่สุดเลยทีเดียว",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "เดวิด มิลเลอร์",
+        "label": "ผู้สร้างเนื้อหา",
+        "description": "สไตล์ที่แตกต่างน่าทึ่งมาก ฉันใช้รูปแบบ 3 มิติสำหรับภาพขนาดย่อของฉัน",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "เจสสิก้า หว่อง",
+        "label": "หัวหน้าฝ่ายการตลาด",
+        "description": "รวดเร็ว ง่ายดาย และผลลัพธ์ที่ได้ก็ตลกจริงๆ ไม่ใช่แค่แปลกเท่านั้น",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "ทอม เบเกอร์",
+        "label": "นักพัฒนา",
+        "description": "API ที่เรียบง่ายสุดๆ และผลลัพธ์ที่ยอดเยี่ยมสำหรับโปรเจ็กต์สัตว์เลี้ยงของฉัน",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "คำถามที่พบบ่อย",
+    "title": "คำถามทั่วไป",
+    "description": "ทุกสิ่งที่คุณต้องการก่อนที่จะปรับใช้ OpenClaw กับ EasyClaw",
+    "items": [
+      {
+        "title": "EasyClaw ราคาเท่าไหร่?",
+        "description": "แผนเริ่มต้นที่ $10/เดือน ยกเลิกได้ตลอดเวลาจากบัญชีของคุณ"
+      },
+      {
+        "title": "ฉันจำเป็นต้องจัดการเซิร์ฟเวอร์หรือไม่?",
+        "description": "ไม่ EasyClaw ปรับปรุงเวิร์กโฟลว์การปรับใช้ให้มีประสิทธิภาพ เพื่อให้คุณสามารถเปิดใช้ OpenClaw โดยไม่ต้องใช้เซิร์ฟเวอร์หรือ DevOps"
+      },
+      {
+        "title": "รองรับรุ่นใดบ้าง?",
+        "description": "Claude, GPT และ Gemini"
+      },
+      {
+        "title": "ฉันสามารถปรับใช้กับหลายช่องทางได้หรือไม่?",
+        "description": "ใช่ รองรับ Telegram, Discord และ WhatsApp"
+      },
+      {
+        "title": "ใช้เวลานานแค่ไหนในการปรับใช้?",
+        "description": "โดยปกติจะใช้เวลาไม่เกิน 1 นาที การตั้งค่าครั้งแรกอาจใช้เวลานานกว่านี้เล็กน้อย"
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "พร้อมเปิดตัว OpenClaw แล้วหรือยัง?",
+    "description": "ปรับใช้ผู้ช่วยคนแรกของคุณภายในไม่กี่นาที ไม่มีเซิร์ฟเวอร์ ไม่มีการบำรุงรักษา ไม่มีการเรียนรู้",
+    "note": "ยกเลิกได้ตลอดเวลา ไม่มีสัญญาระยะยาว",
+    "buttons": [
+      {
+        "title": "ปรับใช้ OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "วิธีที่ง่ายที่สุดในการปรับใช้ผู้ช่วย AI OpenClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • อีซี่คลอว์ สงวนลิขสิทธิ์.",
+    "nav": {
+      "items": [
+        {
+          "title": "เกี่ยวกับ",
+          "children": [
+            {
+              "title": "คุณสมบัติ",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "ราคา",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "บล็อก",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "คำถามที่พบบ่อย",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "การสนับสนุนทางอีเมล",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw เป็นผลิตภัณฑ์อิสระและไม่มีส่วนเกี่ยวข้องกับผู้ให้บริการโมเดลบุคคลที่สามหรือเจ้าของเครื่องหมายการค้า",
+    "agreement": {
+      "items": [
+        {
+          "title": "นโยบายความเป็นส่วนตัว",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "ข้อกำหนดในการให้บริการ",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "นโยบายการคืนเงิน",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "ราคา",
+    "title": "ราคา",
+    "description": "เลือกแผนตามจำนวนการใช้งาน OpenClaw ที่คุณต้องการ ยกเลิกได้ตลอดเวลาจากบัญชีของคุณ",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "รายเดือน",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "เป็นประจำทุกปี",
+        "is_featured": true,
+        "label": "ประหยัด 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "โปร",
+        "label": "เป็นที่นิยม",
+        "features_title": "คุณสมบัติการใช้งานหลัก",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานได้สูงสุด 5 รายการ",
+          "ปรับใช้ รีสตาร์ท และปรับใช้ใหม่ได้ในคลิกเดียว",
+          "การตั้งค่ารูปแบบและการกำหนดค่าช่องสัญญาณล่วงหน้า",
+          "แดชบอร์ดสถานะการใช้งาน",
+          "การวิเคราะห์การใช้งานขั้นพื้นฐาน",
+          "การสนับสนุนทางอีเมล",
+          "การใช้งานเชิงพาณิชย์",
+          "เข้าถึงคุณลักษณะการปรับใช้ใหม่"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "รับโปร",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw โปรรายเดือน",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "พรีเมี่ยม",
+        "features_title": "ทุกอย่างใน Pro บวกด้วย",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานอยู่สูงสุด 20 รายการ",
+          "คิวการจัดเตรียมลำดับความสำคัญ",
+          "รูปแบบที่ใช้ซ้ำได้และการตั้งค่าช่องล่วงหน้า",
+          "การแจ้งเตือน Webhook สำหรับสถานะการทำให้ใช้งานได้",
+          "การเข้าถึงทีม (สูงสุด 3 สมาชิก)",
+          "การเข้าถึง API",
+          "การสนับสนุนลำดับความสำคัญ",
+          "การเข้าถึงคุณลักษณะเบต้าก่อนใคร"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 ดอลลาร์",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "รับพรีเมี่ยม",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw พรีเมี่ยมรายเดือน",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "โปร",
+        "label": "เป็นที่นิยม",
+        "features_title": "คุณสมบัติการใช้งานหลัก",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานได้สูงสุด 5 รายการ",
+          "ปรับใช้ รีสตาร์ท และปรับใช้ใหม่ได้ในคลิกเดียว",
+          "การตั้งค่ารูปแบบและการกำหนดค่าช่องสัญญาณล่วงหน้า",
+          "แดชบอร์ดสถานะการใช้งาน",
+          "การวิเคราะห์การใช้งานขั้นพื้นฐาน",
+          "การสนับสนุนทางอีเมล",
+          "การใช้งานเชิงพาณิชย์",
+          "เข้าถึงคุณลักษณะการปรับใช้ใหม่"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "ราคาเดิม: $10 /เดือน",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "รับโปร",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro เป็นประจำทุกปี",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "พรีเมี่ยม",
+        "features_title": "ทุกอย่างใน Pro บวกด้วย",
+        "features": [
+          "การใช้งาน OpenClaw ที่ใช้งานอยู่สูงสุด 20 รายการ",
+          "คิวการจัดเตรียมลำดับความสำคัญ",
+          "รูปแบบที่ใช้ซ้ำได้และการตั้งค่าช่องล่วงหน้า",
+          "การแจ้งเตือน Webhook สำหรับสถานะการทำให้ใช้งานได้",
+          "การเข้าถึงทีม (สูงสุด 3 สมาชิก)",
+          "การเข้าถึง API",
+          "การสนับสนุนลำดับความสำคัญ",
+          "การเข้าถึงคุณลักษณะเบต้าก่อนใคร"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "ราคาเดิม: $20 /เดือน",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "รับพรีเมี่ยม",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw พรีเมี่ยมทุกปี",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

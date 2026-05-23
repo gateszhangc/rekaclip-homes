@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - 1 నిమిషంలోపు OpenClawని అమలు చేయండి",
+    "description": "ఒకే క్లిక్‌తో EasyClawతో OpenClawని అమలు చేయండి. Telegramని కనెక్ట్ చేయండి, మోడల్‌ని ఎంచుకోండి మరియు వేగంగా ప్రత్యక్ష ప్రసారం చేయండి.",
+    "keywords": "ఈజీక్లా, డిప్లాయ్ ఓపెన్‌క్లా, ఓపెన్‌క్లా హోస్టింగ్, టెలిగ్రామ్ బాట్ డిప్లాయ్‌మెంట్, ఏఐ అసిస్టెంట్ డిప్లాయ్‌మెంట్"
+  },
+  "blog": {
+    "title": "బ్లాగు",
+    "description": "OpenClawని EasyClawతో అమలు చేయడం గురించి వార్తలు, ట్యుటోరియల్‌లు మరియు నవీకరణలు.",
+    "read_more_text": "మరింత చదవండి"
+  },
+  "user": {
+    "sign_in": "సైన్ ఇన్ చేయండి",
+    "sign_out": "సైన్ అవుట్ చేయండి",
+    "credits": "క్రెడిట్స్",
+    "api_keys": "API కీలు",
+    "my_orders": "నా ఆర్డర్లు",
+    "my_invites": "నా ఆహ్వానాలు",
+    "user_center": "వినియోగదారు కేంద్రం",
+    "support": "మద్దతు",
+    "admin_system": "నిర్వాహక వ్యవస్థ",
+    "home": "హోమ్",
+    "pricing": "ధర నిర్ణయించడం",
+    "admin_center": "నిర్వాహక కేంద్రం"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClawకి సైన్ ఇన్ చేయండి",
+    "sign_in_description": "OpenClawని అమలు చేయడానికి మరియు నిర్వహించడానికి మీ EasyClaw ఖాతాను యాక్సెస్ చేయండి.",
+    "sign_up_title": "EasyClawలో చేరండి",
+    "sign_up_description": "మీ EasyClaw ఖాతాను సృష్టించండి",
+    "email_title": "ఇమెయిల్",
+    "email_placeholder": "మీ ఇమెయిల్ చిరునామాను నమోదు చేయండి",
+    "password_title": "పాస్వర్డ్",
+    "password_placeholder": "మీ పాస్‌వర్డ్‌ని నమోదు చేయండి",
+    "forgot_password": "పాస్‌వర్డ్ మర్చిపోయారా?",
+    "or": "లేదా",
+    "continue": "EasyClawకి కొనసాగండి",
+    "no_account": "EasyClawకి కొత్తవా?",
+    "email_sign_in": "ఇమెయిల్‌తో సైన్ ఇన్ చేయండి",
+    "google_sign_in": "Googleతో కొనసాగించండి",
+    "github_sign_in": "GitHubతో కొనసాగించండి",
+    "close_title": "మూసివేయి",
+    "cancel_title": "రద్దు చేయి"
+  },
+  "my_orders": {
+    "title": "నా ఆర్డర్లు",
+    "no_orders": "ఆర్డర్‌లు ఏవీ కనుగొనబడలేదు",
+    "tip": "",
+    "support_tip": "బిల్లింగ్ లేదా రద్దు విషయంలో సహాయం కావాలా? ఇమెయిల్ support@easyclaw.pro.",
+    "activate_order": "ఆర్డర్‌ని యాక్టివేట్ చేయండి",
+    "actived": "యాక్టివేట్ చేయబడింది",
+    "join_discord": "Discordలో చేరండి",
+    "read_docs": "డాక్స్ చదవండి",
+    "table": {
+      "order_no": "ఆర్డర్ నం",
+      "email": "ఇమెయిల్",
+      "product_name": "ఉత్పత్తి పేరు",
+      "amount": "మొత్తం",
+      "paid_at": "వద్ద చెల్లించారు",
+      "github_username": "GitHub వినియోగదారు పేరు",
+      "status": "స్థితి",
+      "manage_billing": "బిల్లింగ్ నిర్వహించండి",
+      "interval": "Interval",
+      "interval_month": "నెలవారీ",
+      "interval_year": "వార్షికంగా",
+      "interval_one_time": "వన్-టైమ్"
+    }
+  },
+  "my_credits": {
+    "title": "నా క్రెడిట్స్",
+    "left_tip": "ఎడమ క్రెడిట్‌లు: {left_credits}",
+    "no_credits": "క్రెడిట్స్ రికార్డులు లేవు",
+    "recharge": "రీఛార్జ్ చేయండి",
+    "table": {
+      "trans_no": "ట్రాన్స్ నం",
+      "trans_type": "ట్రాన్స్ రకం",
+      "credits": "క్రెడిట్స్",
+      "updated_at": "వద్ద నవీకరించబడింది",
+      "status": "స్థితి",
+      "expired_at": "వద్ద గడువు ముగిసింది",
+      "created_at": "వద్ద సృష్టించబడింది"
+    }
+  },
+  "api_keys": {
+    "title": "API కీలు",
+    "tip": "లీక్‌లను నివారించడానికి దయచేసి మీ అపికేని సురక్షితంగా ఉంచండి",
+    "no_api_keys": "API కీలు లేవు",
+    "create_api_key": "API కీని సృష్టించండి",
+    "table": {
+      "name": "Name",
+      "key": "కీ",
+      "created_at": "వద్ద సృష్టించబడింది"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API కీ పేరు",
+      "submit": "సమర్పించండి"
+    }
+  },
+  "my_invites": {
+    "title": "నా ఆహ్వానాలు",
+    "description": "మీ ఆహ్వాన రికార్డులను వీక్షించండి",
+    "no_invites": "ఆహ్వాన రికార్డులు ఏవీ కనుగొనబడలేదు",
+    "my_invite_link": "నా ఆహ్వాన లింక్",
+    "edit_invite_link": "ఆహ్వాన లింక్‌ని సవరించండి",
+    "copy_invite_link": "ఆహ్వాన లింక్‌ని కాపీ చేయండి",
+    "invite_code": "ఆహ్వాన కోడ్",
+    "invite_tip": "EasyClawకి స్నేహితులను ఆహ్వానించండి మరియు రివార్డ్‌లను పొందండి.",
+    "invite_balance": "రివార్డ్ బ్యాలెన్స్‌ని ఆహ్వానించండి",
+    "total_invite_count": "మొత్తం ఆహ్వానాల సంఖ్య",
+    "total_paid_count": "మొత్తం చెల్లించిన గణన",
+    "total_award_amount": "మొత్తం అవార్డు మొత్తం",
+    "update_invite_code": "ఆహ్వాన కోడ్‌ని సెట్ చేయండి",
+    "update_invite_code_tip": "మీ అనుకూల ఆహ్వాన కోడ్‌ని ఇన్‌పుట్ చేయండి",
+    "update_invite_button": "సేవ్ చేయండి",
+    "no_orders": "ఇతరులను ఆహ్వానించే ముందు మీకు చెల్లింపు ప్రణాళిక అవసరం",
+    "no_affiliates": "ఇతరులను ఆహ్వానించడానికి మీకు అనుమతి లేదు, దయచేసి అనుమతి కోసం దరఖాస్తు చేయడానికి మమ్మల్ని సంప్రదించండి.",
+    "table": {
+      "invite_time": "ఆహ్వాన సమయం",
+      "invite_user": "వినియోగదారుని ఆహ్వానించండి",
+      "status": "స్థితి",
+      "reward_percent": "రివార్డ్ శాతం",
+      "reward_amount": "రివార్డ్ మొత్తం",
+      "pending": "పెండింగ్‌లో ఉంది",
+      "completed": "పూర్తయింది"
+    }
+  },
+  "feedback": {
+    "title": "అభిప్రాయం",
+    "description": "ఏది బాగా జరిగిందో లేదా మేము ఉత్పత్తి అనుభవాన్ని ఎలా మెరుగుపరచవచ్చో వినడానికి మేము ఇష్టపడతాము.",
+    "submit": "సమర్పించండి",
+    "loading": "సమర్పిస్తోంది...",
+    "contact_tip": "మమ్మల్ని సంప్రదించడానికి ఇతర మార్గాలు",
+    "rating_tip": "EasyClaw గురించి మీకు ఎలా అనిపిస్తుంది?",
+    "placeholder": "మీ మాటలు ఇక్కడ వదిలేయండి..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - తక్షణమే AI వ్యంగ్య చిత్రాలను సృష్టించండి",
+    "description": "AI-ఆధారిత సాధనాలతో వినోదభరితమైన మరియు కళాత్మకమైన వ్యంగ్య చిత్రాలను రూపొందించడానికి ఫోటోలను అప్‌లోడ్ చేయండి.",
+    "upload_label": "మీ చిత్రాన్ని అప్‌లోడ్ చేయండి",
+    "upload_placeholder": "అప్‌లోడ్ చేయడానికి క్లిక్ చేయండి లేదా లాగండి (JPG, PNG, GIF, WebP)",
+    "upload_required": "అవసరం",
+    "prompt_label": "విస్తరణను వివరించండి (ఐచ్ఛికం)",
+    "prompt_placeholder": "ఉదా., 'నేపథ్యాన్ని ఎడమ మరియు కుడికి పొడిగించండి', 'అవుట్‌పేయింట్ స్కై', 'బ్యానర్ కోసం కాన్వాస్‌ను విస్తరించండి', 'విషయం చుట్టూ గదిని జోడించండి'...",
+    "prompt_required": "ఐచ్ఛిక గమనికలు",
+    "character_count": "{count}/500",
+    "generate_button": "చిత్రాన్ని విస్తరించండి",
+    "generating_button": "విస్తరిస్తోంది...",
+    "credits_label": "మీ క్రెడిట్‌లు",
+    "cost_label": "ధర: ప్రతి విస్తరణకు {cost} క్రెడిట్‌లు",
+    "insufficient_credits": "తగినంత క్రెడిట్‌లు లేవు. చిత్రాలను విస్తరించడం కొనసాగించడానికి దయచేసి రీఛార్జ్ చేయండి.",
+    "errors": {
+      "no_image": "దయచేసి విస్తరించడానికి చిత్రాన్ని అప్‌లోడ్ చేయండి",
+      "no_prompt": "దయచేసి మీరు చిత్రాన్ని ఎలా విస్తరించాలనుకుంటున్నారో వివరించండి",
+      "invalid_format": "JPG, PNG, GIF, WebP ఫార్మాట్‌లకు మాత్రమే మద్దతు ఉంది",
+      "file_too_large": "చిత్రం పరిమాణం 5MB మించకూడదు",
+      "generation_failed": "చిత్రం విస్తరణ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి",
+      "download_failed": "డౌన్‌లోడ్ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి"
+    },
+    "success": {
+      "generated": "మీ విస్తరించిన చిత్రం సిద్ధంగా ఉంది!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "మా సాధనం ద్వారా విస్తరించిన తాజా చిత్రాలను చూడండి. ముందు/తర్వాత ప్రివ్యూ చేసి, ఫలితాన్ని ఎగుమతి చేయండి.",
+    "download_hint": "విస్తరించిన చిత్రాన్ని డౌన్‌లోడ్ చేయడానికి క్లిక్ చేయండి",
+    "no_outfits": "ఇంకా విస్తరణలు లేవు. విస్తరించడం ప్రారంభించడానికి చిత్రాన్ని అప్‌లోడ్ చేయండి!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI క్యారికేచర్ జనరేటర్",
+    "description": "టెక్స్ట్-టు-ఇమేజ్ మరియు ఇమేజ్-టు-ఇమేజ్ మోడ్‌లతో OpenClaw AI మోడల్‌ని ఉపయోగించి అధిక-నాణ్యత వ్యంగ్య చిత్రాలను రూపొందించండి",
+    "hero": {
+      "badge": "కొత్త OpenClaw",
+      "title": "అద్భుతమైన వ్యంగ్య చిత్రాలను రూపొందించండి",
+      "subtitle": "OpenClaw యొక్క అధునాతన AI మోడల్‌తో ఫోటోలను అద్భుతమైన క్యారికేచర్‌లుగా మార్చండి. టెక్స్ట్-టు-ఇమేజ్ మరియు ఇమేజ్-టు-ఇమేజ్ క్రియేషన్ మోడ్‌లు రెండింటికి మద్దతు ఇస్తుంది.",
+      "features": {
+        "text_to_image": "చిత్రానికి వచనం పంపండి",
+        "image_to_image": "చిత్రం నుండి చిత్రం",
+        "high_quality": "అధిక నాణ్యత అవుట్‌పుట్"
+      },
+      "buttons": {
+        "start_creating": "సృష్టించడం ప్రారంభించండి",
+        "view_gallery": "గ్యాలరీని వీక్షించండి"
+      },
+      "stats": {
+        "daily_images": "రోజువారీ రూపొందించిన చిత్రాలు",
+        "satisfaction": "వినియోగదారు సంతృప్తి",
+        "generation_time": "సగటు జనరేషన్ సమయం"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "చిత్రం నుండి చిత్రం",
+        "text_to_image": "చిత్రానికి వచనం పంపండి"
+      },
+      "model": "మోడల్",
+      "reference_images": "సూచన చిత్రాలు",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "చిత్రాలను ఇక్కడకు లాగి వదలండి",
+        "or_click": "లేదా బ్రౌజ్ చేయడానికి క్లిక్ చేయండి",
+        "supported_formats": "మద్దతు: JPEG, PNG, WebP (గరిష్టంగా 10MB)",
+        "add_more": "మరిన్ని జోడించండి"
+      },
+      "prompt": "ప్రాంప్ట్",
+      "prompt_placeholder_image": "చిత్రాన్ని ఎలా మార్చాలో వివరించండి...",
+      "prompt_placeholder_text": "మీరు రూపొందించాలనుకుంటున్న చిత్రాన్ని వివరించండి...",
+      "aspect_ratio": "కారక నిష్పత్తి",
+      "resolution": "రిజల్యూషన్",
+      "output_count": "అవుట్‌పుట్ కౌంట్",
+      "output_count_range": "కనిష్ట {min}, గరిష్టంగా {max}",
+      "output_format": "అవుట్‌పుట్ ఫార్మాట్",
+      "generate_button": "ఇప్పుడే రూపొందించండి",
+      "generating": "ఉత్పత్తి చేస్తోంది...",
+      "clear_images": "అన్ని చిత్రాలను క్లియర్ చేయండి",
+      "output_gallery": "మీరు రూపొందించిన చిత్రం",
+      "view_all": "అన్నీ వీక్షించండి",
+      "generating_message": "మీ కళాఖండాన్ని సృష్టిస్తోంది...",
+      "generating_submessage": "మా OpenClaw మోడల్ మాయాజాలం చేస్తోంది. ఇది సాధారణంగా కొన్ని సెకన్లు పడుతుంది.",
+      "example": "ఉదాహరణ"
+    },
+    "my_creations": {
+      "title": "నా క్రియేషన్స్",
+      "description": "మీ AI- రూపొందించిన చిత్రాలను వీక్షించండి మరియు నిర్వహించండి - ఒక్క క్లిక్‌తో ప్రివ్యూ మరియు డౌన్‌లోడ్ చేసుకోండి",
+      "search_placeholder": "శోధన సృష్టి...",
+      "view_all": "అన్నింటినీ వీక్షించండి ({count})",
+      "no_results": "సరిపోలే క్రియేషన్‌లు ఏవీ కనుగొనబడలేదు",
+      "no_results_message": "విభిన్న కీలకపదాలను ఉపయోగించి ప్రయత్నించండి లేదా అన్ని సృష్టిలను వీక్షించడానికి శోధనను క్లియర్ చేయండి.",
+      "clear_search": "శోధనను క్లియర్ చేయండి",
+      "empty_state": "ఇంకా క్రియేషన్‌లు లేవు",
+      "empty_message": "మీ మొదటి AI రూపొందించిన చిత్రాన్ని రూపొందించడానికి OpenClawని ఉపయోగించడం ప్రారంభించండి!",
+      "start_creating": "సృష్టించడం ప్రారంభించండి",
+      "download": "డౌన్‌లోడ్ చేయండి",
+      "delete": "తొలగించు",
+      "total_count": "మొత్తం {count} క్రియేషన్‌లు",
+      "search_results": "(శోధన: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "చిత్రానికి వచనం పంపండి",
+        "IMAGE_TO_IMAGE": "చిత్రం నుండి చిత్రం"
+      }
+    },
+    "errors": {
+      "enter_prompt": "దయచేసి ప్రాంప్ట్‌ను నమోదు చేయండి",
+      "upload_reference": "ఇమేజ్-టు-ఇమేజ్ మోడ్‌కు సూచన చిత్రాలను అప్‌లోడ్ చేయడం అవసరం",
+      "generation_failed": "జనరేషన్ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి",
+      "upload_success": "చిత్రం విజయవంతంగా అప్‌లోడ్ చేయబడింది",
+      "upload_failed": "అప్‌లోడ్ విఫలమైంది",
+      "delete_success": "చిత్రం తొలగించబడింది",
+      "delete_failed": "తొలగించడం విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి",
+      "download_started": "డౌన్‌లోడ్ ప్రారంభించబడింది",
+      "file_too_large": "ఫైల్ పరిమాణం {size}MBని మించకూడదు",
+      "unsupported_format": "మద్దతు లేని ఫైల్ ఫార్మాట్. మద్దతు ఉన్న ఫార్మాట్‌లు: {formats}",
+      "retry": "మళ్లీ ప్రయత్నించండి",
+      "dismiss": "తొలగించు"
+    },
+    "loading": {
+      "default": "లోడ్ అవుతోంది...",
+      "generation": "మీ కళాఖండాన్ని సృష్టిస్తోంది...",
+      "generation_message": "మా OpenClaw మోడల్ మాయాజాలం చేస్తోంది. ఇది సాధారణంగా కొన్ని సెకన్లు పడుతుంది.",
+      "upload": "చిత్రాన్ని అప్‌లోడ్ చేస్తోంది...",
+      "upload_message": "దయచేసి మీ చిత్రం క్లౌడ్‌కి అప్‌లోడ్ అయ్యే వరకు వేచి ఉండండి."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "లేయర్డ్ స్టూడియో",
+      "title": "OpenClaw స్టూడియో",
+      "description": "మీ ఫోటోల నుండి కళాత్మక వ్యంగ్య చిత్రాలను సృష్టించండి.",
+      "cta": "ఉచిత ట్రయల్",
+      "cta_hint": "ప్రారంభించడానికి ఒక చిత్రాన్ని అప్‌లోడ్ చేయండి",
+      "features": [
+        "ప్రతి చిత్రానికి 2-8 AI లేయర్‌లు",
+        "పారదర్శక PNG/WebP ఎగుమతి",
+        "ప్రాంప్ట్-గైడెడ్ వేరు"
+      ]
+    },
+    "upload": {
+      "title": "అప్‌లోడ్ చేయండి",
+      "subtitle": "JPG, PNG, లేదా WebP 10MB వరకు",
+      "action": "చిత్రాన్ని అప్‌లోడ్ చేయండి",
+      "drop": "మీ చిత్రాన్ని ఇక్కడ వదలండి",
+      "or_click": "లేదా బ్రౌజ్ చేయడానికి క్లిక్ చేయండి",
+      "supported_formats": "మద్దతు: JPEG, PNG, WebP (గరిష్టంగా 10MB)"
+    },
+    "prompt": {
+      "label": "ప్రాంప్ట్",
+      "placeholder": "మీకు కావలసిన లేయర్‌లను వివరించండి (ఉదా., విషయం, వస్తువులు, నేపథ్యం)"
+    },
+    "advanced": {
+      "title": "అధునాతన సెట్టింగ్‌లు",
+      "prompt_label": "ప్రాంప్ట్ (ఐచ్ఛికం)",
+      "prompt_placeholder": "దయచేసి చిత్రాన్ని వివరించడానికి ప్రాంప్ట్‌ను నమోదు చేయండి. (ఐచ్ఛికం)",
+      "negative_prompt_label": "ప్రతికూల ప్రాంప్ట్ (ఐచ్ఛికం)",
+      "negative_prompt_placeholder": "పొరల నుండి ఏమి మినహాయించాలో వివరించండి.",
+      "seed": "విత్తనం",
+      "randomize_seed": "విత్తనాన్ని యాదృచ్ఛికంగా మార్చండి",
+      "guidance_scale": "నిజమైన మార్గదర్శక ప్రమాణం",
+      "inference_steps": "అనుమితి దశల సంఖ్య",
+      "cfg_normalization": "CFG సాధారణీకరణను ప్రారంభించాలా",
+      "auto_caption_language": "ప్రాంప్ట్ అందించకపోతే స్వయంచాలక శీర్షిక భాష, EN కోసం ఒప్పు, ZH కోసం తప్పు",
+      "layer_count": "లేయర్ కౌంట్",
+      "layer_range": "కనిష్ట {min}, గరిష్టంగా {max}",
+      "output_format": "అవుట్‌పుట్ ఫార్మాట్"
+    },
+    "actions": {
+      "decompose": "కుళ్ళిపో!",
+      "sign_in_to_decompose": "కుళ్ళిపోవడానికి సైన్ ఇన్ చేయండి!",
+      "generating": "కుళ్ళిపోతోంది..."
+    },
+    "results": {
+      "title": "ఫలితాలు",
+      "subtitle": "కుళ్ళిన తర్వాత లేయర్డ్ అవుట్‌పుట్‌లు ఇక్కడ కనిపిస్తాయి.",
+      "download_pptx": "PPTXని డౌన్‌లోడ్ చేయండి",
+      "download_zip": "జిప్‌ని డౌన్‌లోడ్ చేయండి",
+      "packaging": "ప్యాకేజింగ్...",
+      "generating_title": "మీ చిత్రాన్ని కుళ్ళిస్తోంది...",
+      "generating_subtitle": "లేయర్డ్ ఆస్తులను సృష్టిస్తోంది. ఇది సాధారణంగా కొన్ని సెకన్లు పడుతుంది.",
+      "layer_label": "లేయర్ {index}",
+      "layer_description": "లేయర్డ్ ఆస్తి",
+      "empty_title": "ఇంకా పొరలు లేవు",
+      "empty_subtitle": "చిత్రాన్ని అప్‌లోడ్ చేసి, విడదీయండి క్లిక్ చేయండి! పొరలను రూపొందించడానికి.",
+      "success": "పొరలు విజయవంతంగా రూపొందించబడ్డాయి!",
+      "download_ready": "డౌన్‌లోడ్ సిద్ధంగా ఉంది"
+    },
+    "examples": {
+      "title": "ఉదాహరణలు",
+      "subtitle": "సోర్స్ ఇమేజ్ క్లీన్ లేయర్‌లుగా ఎలా విరిగిపోతుందో చూడండి.",
+      "labels": {
+        "source": "మూలం",
+        "layer": "లేయర్ {index}",
+        "sample": "ఉదాహరణ {index}"
+      },
+      "rows": {
+        "primary": "ఉదాహరణ సెట్ 01",
+        "secondary": "ఉదాహరణ సెట్ 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "దయచేసి ముందుగా ఒక సూచన చిత్రాన్ని అప్‌లోడ్ చేయండి",
+      "generation_failed": "జనరేషన్ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి",
+      "upload_success": "చిత్రం విజయవంతంగా అప్‌లోడ్ చేయబడింది",
+      "upload_failed": "అప్‌లోడ్ విఫలమైంది",
+      "download_failed": "డౌన్‌లోడ్ విఫలమైంది, దయచేసి మళ్లీ ప్రయత్నించండి"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "అందుబాటులో ఉంది"
+    },
+    "errors": {
+      "no_available_account": "మీ ప్రస్తుత సభ్యత్వంలో ఖాతా అందుబాటులో లేదు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.",
+      "network_unstable": "నెట్‌వర్క్ అస్థిరంగా ఉంది. దయచేసి త్వరలో మళ్లీ ప్రయత్నించండి.",
+      "deployment_failed_try_again": "విస్తరణ విఫలమైంది. మళ్లీ ప్రయత్నించండి.",
+      "deployment_timeout": "{minutes} నిమిషాల తర్వాత విస్తరణ గడువు ముగిసింది. దయచేసి మళ్లీ ప్రయత్నించండి.",
+      "enter_bot_token": "దయచేసి బాట్ టోకెన్‌ను నమోదు చేయండి.",
+      "select_channel_before_deploying": "దయచేసి అమలు చేయడానికి ముందు ఛానెల్‌ని ఎంచుకోండి.",
+      "enter_telegram_bot_token": "దయచేసి మీ Telegram బాట్ టోకెన్‌ని నమోదు చేయండి.",
+      "invalid_response_missing_deployment_id": "చెల్లని ప్రతిస్పందన: deployment_id లేదు",
+      "failed_to_start_deployment": "విస్తరణను ప్రారంభించడంలో విఫలమైంది",
+      "failed_to_fetch_deployment_status": "విస్తరణ స్థితిని పొందడంలో విఫలమైంది",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - ఒక-క్లిక్ OpenClaw విస్తరణ",
+      "description": "1 నిమిషంలోపు OpenClawని అమలు చేయండి. సర్వర్లు లేదా DevOps లేవు. మోడల్‌ని ఎంచుకోండి, ఛానెల్‌ని కనెక్ట్ చేయండి మరియు ప్రారంభించండి."
+    },
+    "selectors": {
+      "model_title": "మీ OpenClaw కోసం డిఫాల్ట్ మోడల్‌ని ఎంచుకోండి",
+      "channel_title": "OpenClaw ఎక్కడ సందేశాలను పంపాలో ఎంచుకోండి",
+      "selected": "ఎంపిక చేయబడింది"
+    },
+    "deploy": {
+      "deploying": "అమలు చేస్తోంది...",
+      "deploy_button": "మోహరించు",
+      "sign_in_button": "EasyClawతో అమలు చేయడానికి సైన్ ఇన్ చేయండి",
+      "sign_in_hint": "EasyClawతో OpenClawని అమలు చేయడానికి మరియు మీ ఛానెల్‌లను కనెక్ట్ చేయడానికి సైన్ ఇన్ చేయండి.",
+      "status_success": "విస్తరణ విజయవంతమైంది! OpenClaw ఇప్పుడు అమలవుతోంది.",
+      "model_substitution_warning": "మోడల్ ప్రత్యామ్నాయం కనుగొనబడింది. మళ్లీ అమలు చేయడానికి ప్రయత్నించండి లేదా మరొక ప్రాంతం/ప్రొవైడర్‌కు మారండి.",
+      "hint_prefix": "కొనసాగించడానికి Telegramని కనెక్ట్ చేయండి.",
+      "hint_suffix": "మీరు తర్వాత అదే ఖాతాకు ఇతర ఛానెల్‌లను జోడించవచ్చు.",
+      "hint_prefix_telegram": "కొనసాగించడానికి Telegramని కనెక్ట్ చేయండి.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegramని కనెక్ట్ చేయండి",
+      "how_to_get_token": "మీ బోట్ టోకెన్ ఎలా పొందాలి?",
+      "step_1_prefix": "Telegram తెరిచి, దీనికి వెళ్లండి",
+      "step_2_prefix": "చాట్‌ని ప్రారంభించి టైప్ చేయండి",
+      "step_3_text": "మీ బోట్‌కు పేరు పెట్టడానికి మరియు వినియోగదారు పేరును ఎంచుకోవడానికి ప్రాంప్ట్‌లను అనుసరించండి.",
+      "step_4_text": "BotFather మీ బోట్ టోకెన్‌తో మీకు సందేశాన్ని పంపుతుంది. మొత్తం టోకెన్‌ను కాపీ చేయండి (ఇది సంఖ్యలు మరియు అక్షరాల పొడవైన స్ట్రింగ్ లాగా కనిపిస్తుంది).",
+      "step_5_text": "దిగువ ఫీల్డ్‌లో టోకెన్‌ను అతికించి, సేవ్ & కనెక్ట్ క్లిక్ చేయండి.",
+      "token_label": "బోట్ టోకెన్‌ని నమోదు చేయండి",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "సేవ్ & కనెక్ట్ చేయండి",
+      "preview_intro": "Telegram బాట్‌లను రూపొందించడంలో మరియు నిర్వహించడంలో నేను మీకు సహాయం చేయగలను. మీరు ఏమి చేయాలనుకుంటున్నారు?",
+      "preview_newbot": "కొత్త బోట్‌ను సృష్టించండి",
+      "preview_mybots": "మీ బాట్లను సవరించండి",
+      "preview_name_prompt": "సరే, కొత్త బాట్. మేము దానిని ఎలా పిలుస్తాము? దయచేసి మీ బోట్ కోసం ఒక పేరును ఎంచుకోండి.",
+      "preview_message_input": "సందేశం"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

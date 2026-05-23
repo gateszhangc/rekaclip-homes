@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "EasyClaw వినియోగదారుల నుండి OpenClaw విస్తరణ ఉదాహరణలు",
+    "description": "మద్దతు, కార్యకలాపాలు మరియు అంతర్గత వర్క్‌ఫ్లోల కోసం బృందాలు OpenClaw అసిస్టెంట్‌లను ఎలా ప్రారంభించాలో చూడండి.",
+    "items": [
+      {
+        "title": "కస్టమర్ సపోర్ట్ అసిస్టెంట్ లాంచ్",
+        "description": "నిమిషాల్లో మోడల్ ఫాల్‌బ్యాక్‌తో Telegram సపోర్ట్ బాట్‌ని అమలు చేసారు",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "సేల్స్ ఫాలో-అప్ ఆటోమేషన్",
+        "description": "లీడ్స్ మరియు డ్రాఫ్ట్ ఫాలో-అప్ రిప్లైలను క్వాలిఫై చేయడానికి OpenClawని సెటప్ చేయండి",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "అంతర్గత కార్యకలాపాల నోటిఫైయర్",
+        "description": "ops ఈవెంట్‌లు మరియు సంఘటనల గురించి బృందాలను అప్రమత్తం చేయడానికి OpenClaw కనెక్ట్ చేయబడింది",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "బహుళ-ఛానల్ కమ్యూనిటీ అసిస్టెంట్",
+        "description": "Telegram, Discord మరియు WhatsApp అంతటా ఒకే సహాయకాన్ని రూపొందించారు",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "వీక్లీ రిపోర్టింగ్ వర్క్‌ఫ్లో",
+        "description": "ప్రతి శుక్రవారం మేనేజర్‌ల కోసం స్వయంచాలక సారాంశ నివేదికలు",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "ఆన్‌బోర్డింగ్ కోపైలట్",
+        "description": "కొత్త నియామకాల కోసం మొదటి వారం మార్గదర్శకత్వం మరియు సమాధానాలు అందించబడ్డాయి",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "లీడ్ క్వాలిఫికేషన్ బాట్",
+        "description": "క్యాప్చర్ చేయబడిన ఇన్‌బౌండ్ ప్రశ్నలు మరియు రూట్ చేయబడిన హై-ఇంటెంట్ విక్రయాలకు దారి తీస్తుంది",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "ఉత్పత్తి ఫీడ్‌బ్యాక్ కలెక్టర్",
+        "description": "ఉత్పత్తి బృందాల కోసం వర్గీకరించబడిన వినియోగదారు అభిప్రాయం మరియు రూపొందించబడిన చర్య అంశాలు",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

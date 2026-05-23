@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "Exemples de déploiement OpenClaw d'utilisateurs EasyClaw",
+    "description": "Découvrez comment les équipes lancent les assistants OpenClaw pour le support, les opérations et les flux de travail internes.",
+    "items": [
+      {
+        "title": "Lancement de l'assistant de support client",
+        "description": "Déploiement d'un robot de support Telegram avec repli du modèle en quelques minutes",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "Automatisation du suivi des ventes",
+        "description": "Configurez OpenClaw pour qualifier les prospects et rédiger des réponses de suivi",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "Notifiant des opérations internes",
+        "description": "OpenClaw connecté pour alerter les équipes des événements et incidents opérationnels",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "Assistant communautaire multicanal",
+        "description": "Déploiement du même assistant sur Telegram, Discord et WhatsApp",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "Flux de travail de reporting hebdomadaire",
+        "description": "Rapports de synthèse automatisés pour les managers tous les vendredis",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "Copilote d'intégration",
+        "description": "Fourni des conseils et des réponses pendant la première semaine aux nouvelles recrues",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "Bot de qualification des leads",
+        "description": "Questions entrantes capturées et routage des prospects à forte intention vers les ventes",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "Collecteur de commentaires sur les produits",
+        "description": "Commentaires des utilisateurs classifiés et éléments d'action générés pour les équipes produit",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

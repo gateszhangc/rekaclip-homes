@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "ইমেজ ফ্লিপার",
+    "description": "পেশাদার রঙের পরিবর্তন এবং বর্ধনের জন্য একটি চিত্র আপলোড করুন",
+    "disabled": false,
+    "upload": {
+      "title": "একটি ছবি টেনে আনুন এবং ফেলে দিন",
+      "description": "PNG, JPG, JPEG, WebP 10MB পর্যন্ত সমর্থন করে",
+      "buttonText": "একটি ফাইল নির্বাচন করুন",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "ক্লিন ইমেজ",
+      "textListTitle": "টেক্সট এলাকা সনাক্ত করা হয়েছে",
+      "fontRecommendationTitle": "অপসারণের পরামর্শ",
+      "detectedFontLabel": "নির্বাচিত এলাকা",
+      "similarFontsLabel": "বিকল্প ভরাট",
+      "selectTextPrompt": "অপসারণের জন্য একটি পাঠ্য ব্লক নির্বাচন করুন"
+    },
+    "actions": {
+      "reuploadText": "পুনরায় আপলোড করুন"
+    },
+    "messages": {
+      "uploadSuccess": "ছবি সফলভাবে আপলোড করা হয়েছে৷",
+      "uploadError": "ছবি আপলোড করতে ব্যর্থ হয়েছে৷",
+      "recognitionSuccess": "সনাক্তকরণ সম্পন্ন হয়েছে",
+      "recognitionError": "সনাক্তকরণ ব্যর্থ হয়েছে৷",
+      "fontRecognitionSuccess": "পাঠ্য অপসারণ সম্পন্ন হয়েছে",
+      "fontRecognitionError": "পাঠ্য অপসারণ ব্যর্থ হয়েছে৷",
+      "processing": "প্রক্রিয়া করা হচ্ছে..."
+    }
+  }
+}

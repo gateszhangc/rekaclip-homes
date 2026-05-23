@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - 在 1 分鐘內部署 OpenClaw",
+    "description": "一鍵部署 OpenClaw 和 EasyClaw。連接Telegram，選擇型號，快速上線。",
+    "keywords": "easyclaw、部署openclaw、openclaw託管、電報機器人部署、人工智慧助理部署"
+  },
+  "blog": {
+    "title": "部落格",
+    "description": "有關使用 EasyClaw 部署 OpenClaw 的新聞、教學和更新。",
+    "read_more_text": "了解更多"
+  },
+  "user": {
+    "sign_in": "登入",
+    "sign_out": "退出",
+    "credits": "製作人員",
+    "api_keys": "API 按鍵",
+    "my_orders": "我的訂單",
+    "my_invites": "我的邀請",
+    "user_center": "使用者中心",
+    "support": "支援",
+    "admin_system": "管理系統",
+    "home": "首頁",
+    "pricing": "定價",
+    "admin_center": "管理中心"
+  },
+  "sign_modal": {
+    "sign_in_title": "登入 EasyClaw",
+    "sign_in_description": "存取您的 EasyClaw 帳戶以部署和管理 OpenClaw。",
+    "sign_up_title": "加入EasyClaw",
+    "sign_up_description": "建立您的 EasyClaw 帳戶",
+    "email_title": "電子郵件",
+    "email_placeholder": "輸入您的電子郵件地址",
+    "password_title": "密碼",
+    "password_placeholder": "輸入您的密碼",
+    "forgot_password": "忘記密碼？",
+    "or": "或者",
+    "continue": "繼續EasyClaw",
+    "no_account": "EasyClaw 新手？",
+    "email_sign_in": "使用電子郵件登入",
+    "google_sign_in": "繼續使用谷歌",
+    "github_sign_in": "繼續使用 GitHub",
+    "close_title": "關閉",
+    "cancel_title": "取消"
+  },
+  "my_orders": {
+    "title": "我的訂單",
+    "no_orders": "沒有找到訂單",
+    "tip": "",
+    "support_tip": "需要計費或取消方面的協助嗎？發送電子郵件至 support@easyclaw.pro。",
+    "activate_order": "啟用訂單",
+    "actived": "已啟用",
+    "join_discord": "加入Discord",
+    "read_docs": "閱讀文件",
+    "table": {
+      "order_no": "訂單編號",
+      "email": "電子郵件",
+      "product_name": "產品名稱",
+      "amount": "金額",
+      "paid_at": "付款地點",
+      "github_username": "GitHub 使用者名稱",
+      "status": "狀態",
+      "manage_billing": "管理帳單",
+      "interval": "Interval",
+      "interval_month": "每月",
+      "interval_year": "每年",
+      "interval_one_time": "一次性"
+    }
+  },
+  "my_credits": {
+    "title": "我的積分",
+    "left_tip": "剩餘學分：{left_credits}",
+    "no_credits": "無信用記錄",
+    "recharge": "儲值",
+    "table": {
+      "trans_no": "轉號",
+      "trans_type": "反式",
+      "credits": "製作人員",
+      "updated_at": "更新於",
+      "status": "狀態",
+      "expired_at": "過期時間",
+      "created_at": "創建於"
+    }
+  },
+  "api_keys": {
+    "title": "API 按鍵",
+    "tip": "請妥善保管您的apikey，避免洩露",
+    "no_api_keys": "無 API 鑰匙",
+    "create_api_key": "建立 API 金鑰",
+    "table": {
+      "name": "Name",
+      "key": "鑰匙",
+      "created_at": "創建於"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API 按鍵名稱",
+      "submit": "提交"
+    }
+  },
+  "my_invites": {
+    "title": "我的邀請",
+    "description": "查看您的邀請記錄",
+    "no_invites": "沒有找到邀請記錄",
+    "my_invite_link": "我的邀請連結",
+    "edit_invite_link": "編輯邀請連結",
+    "copy_invite_link": "複製邀請連結",
+    "invite_code": "邀請碼",
+    "invite_tip": "邀請朋友加入 EasyClaw 並賺取獎勵。",
+    "invite_balance": "邀請獎勵餘額",
+    "total_invite_count": "邀請總數",
+    "total_paid_count": "付費總數",
+    "total_award_amount": "總獎勵金額",
+    "update_invite_code": "設定邀請碼",
+    "update_invite_code_tip": "輸入您的自訂邀請碼",
+    "update_invite_button": "儲存",
+    "no_orders": "在邀請其他人之前，您需要付費計劃",
+    "no_affiliates": "您不能邀請其他人，請聯絡我們申請許可。",
+    "table": {
+      "invite_time": "邀請時間",
+      "invite_user": "邀請用戶",
+      "status": "狀態",
+      "reward_percent": "獎勵百分比",
+      "reward_amount": "獎勵金額",
+      "pending": "待定",
+      "completed": "已完成"
+    }
+  },
+  "feedback": {
+    "title": "回饋意見",
+    "description": "我們很想知道哪些方面進展順利，或是我們如何改進產品體驗。",
+    "submit": "提交",
+    "loading": "正在提交...",
+    "contact_tip": "其他聯絡我們的方式",
+    "rating_tip": "您對 EasyClaw 感覺如何？",
+    "placeholder": "在這裡留下你的話..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - 立即創作人工智慧漫畫",
+    "description": "上傳照片，使用人工智慧工具產生有趣且藝術的漫畫。",
+    "upload_label": "上傳您的圖片",
+    "upload_placeholder": "點擊或拖曳即可上傳（JPG、PNG、GIF、WebP）",
+    "upload_required": "必填",
+    "prompt_label": "描述擴展（可選）",
+    "prompt_placeholder": "例如，「左右擴展背景」、「覆蓋天空」、「加寬橫幅畫布」、「在主題周圍增加空間」...",
+    "prompt_required": "可選註釋",
+    "character_count": "{count}/500",
+    "generate_button": "展開圖片",
+    "generating_button": "擴大...",
+    "credits_label": "您的積分",
+    "cost_label": "成本：每次擴展 {cost} 積分",
+    "insufficient_credits": "學分不足。請充值以繼續擴大圖片。",
+    "errors": {
+      "no_image": "請上傳圖片展開",
+      "no_prompt": "請描述您想要如何擴展圖像",
+      "invalid_format": "僅支援 JPG、PNG、GIF、WebP 格式",
+      "file_too_large": "圖片大小不能超過5MB",
+      "generation_failed": "圖片擴充失敗，請重試",
+      "download_failed": "下載失敗，請重試"
+    },
+    "success": {
+      "generated": "您的擴充圖像已準備就緒！"
+    }
+  },
+  "outfit_gallery": {
+    "description": "查看我們的工具擴充的最新圖像。預覽之前/之後並匯出結果。",
+    "download_hint": "點擊下載放大圖片",
+    "no_outfits": "還沒有擴充。上傳圖片以開始擴充！"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI漫畫生成器",
+    "description": "使用具有文字到圖像和圖像到圖像模式的 OpenClaw AI 模型生成高品質漫畫",
+    "hero": {
+      "badge": "新OpenClaw",
+      "title": "創作令人驚嘆的漫畫",
+      "subtitle": "利用 OpenClaw 的先進 AI 模型將照片轉變為令人驚嘆的漫畫。支援文字到圖像和圖像到圖像創建模式。",
+      "features": {
+        "text_to_image": "文字轉圖像",
+        "image_to_image": "影像到影像",
+        "high_quality": "高品質輸出"
+      },
+      "buttons": {
+        "start_creating": "開始創作",
+        "view_gallery": "查看圖庫"
+      },
+      "stats": {
+        "daily_images": "每日生成的圖像",
+        "satisfaction": "使用者滿意度",
+        "generation_time": "平均生成時間"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "影像到影像",
+        "text_to_image": "文字轉圖像"
+      },
+      "model": "型號",
+      "reference_images": "參考圖片",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "將圖像拖放到此處",
+        "or_click": "或點選瀏覽",
+        "supported_formats": "支援：JPEG、PNG、WebP（最大 10MB）",
+        "add_more": "添加更多"
+      },
+      "prompt": "提示",
+      "prompt_placeholder_image": "描述如何變換影像...",
+      "prompt_placeholder_text": "描述您要產生的圖像...",
+      "aspect_ratio": "縱橫比",
+      "resolution": "解析度",
+      "output_count": "輸出計數",
+      "output_count_range": "最小值 {min}，最大值 {max}",
+      "output_format": "輸出格式",
+      "generate_button": "立即生成",
+      "generating": "生成...",
+      "clear_images": "清除所有影像",
+      "output_gallery": "您產生的圖像",
+      "view_all": "看全部",
+      "generating_message": "創造你的傑作...",
+      "generating_submessage": "我們的 OpenClaw 模型正在發揮其魔力。這通常需要幾秒鐘。",
+      "example": "範例"
+    },
+    "my_creations": {
+      "title": "我的創作",
+      "description": "查看和管理人工智慧生成的圖像 - 一鍵預覽和下載",
+      "search_placeholder": "搜尋創作...",
+      "view_all": "看全部 ({count})",
+      "no_results": "未找到匹配的作品",
+      "no_results_message": "嘗試使用不同的關鍵字或清除搜尋以查看所有創作。",
+      "clear_search": "清除搜尋",
+      "empty_state": "還沒創作",
+      "empty_message": "開始使用 OpenClaw 創建您的第一個 AI 生成圖像！",
+      "start_creating": "開始創作",
+      "download": "下載",
+      "delete": "刪除",
+      "total_count": "創作總數 {count}",
+      "search_results": "（搜尋：“{term}”）",
+      "modes": {
+        "TEXT_TO_IMAGE": "文字轉圖像",
+        "IMAGE_TO_IMAGE": "影像到影像"
+      }
+    },
+    "errors": {
+      "enter_prompt": "請輸入提示",
+      "upload_reference": "圖像到圖像模式需要上傳參考圖像",
+      "generation_failed": "生成失敗，請重試",
+      "upload_success": "圖片上傳成功",
+      "upload_failed": "上傳失敗",
+      "delete_success": "圖片已刪除",
+      "delete_failed": "刪除失敗，請重試",
+      "download_started": "下載開始",
+      "file_too_large": "檔案大小不能超過{size}MB",
+      "unsupported_format": "不支援的文件格式。支援的格式：{formats}",
+      "retry": "重試",
+      "dismiss": "解僱"
+    },
+    "loading": {
+      "default": "正在加載...",
+      "generation": "創造你的傑作...",
+      "generation_message": "我們的 OpenClaw 模型正在發揮其魔力。這通常需要幾秒鐘。",
+      "upload": "正在上傳圖片...",
+      "upload_message": "您的圖像正在上傳到雲端，請稍候。"
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "分層工作室",
+      "title": "OpenClaw工作室",
+      "description": "從您的照片創建藝術漫畫。",
+      "cta": "免費試用",
+      "cta_hint": "上傳一張圖片開始",
+      "features": [
+        "每張圖像 2-8 個 AI 層",
+        "透明PNG/WebP出口",
+        "及時引導分離"
+      ]
+    },
+    "upload": {
+      "title": "上傳",
+      "subtitle": "JPG、PNG 或 WebP 高達 10MB",
+      "action": "上傳圖片",
+      "drop": "將您的圖片拖曳到此處",
+      "or_click": "或點選瀏覽",
+      "supported_formats": "支援：JPEG、PNG、WebP（最大 10MB）"
+    },
+    "prompt": {
+      "label": "提示",
+      "placeholder": "描述您想要的圖層（例如主題、道具、背景）"
+    },
+    "advanced": {
+      "title": "進階設定",
+      "prompt_label": "提示（可選）",
+      "prompt_placeholder": "請輸入提示來描述影像。 （選修的）",
+      "negative_prompt_label": "否定提示（可選）",
+      "negative_prompt_placeholder": "描述應從圖層中排除的內容。",
+      "seed": "種子",
+      "randomize_seed": "隨機化種子",
+      "guidance_scale": "真實指導尺度",
+      "inference_steps": "推理步驟數",
+      "cfg_normalization": "是否啟用CFG歸一化",
+      "auto_caption_language": "如果沒有提供提示，則自動顯示字幕語言，True 表示 EN，False 表示 ZH",
+      "layer_count": "層數",
+      "layer_range": "最小值 {min}，最大值 {max}",
+      "output_format": "輸出格式"
+    },
+    "actions": {
+      "decompose": "分解！",
+      "sign_in_to_decompose": "登入分解！",
+      "generating": "正在分解..."
+    },
+    "results": {
+      "title": "結果",
+      "subtitle": "分解後分層輸出出現在此。",
+      "download_pptx": "下載PPTX",
+      "download_zip": "下載壓縮包",
+      "packaging": "包裝...",
+      "generating_title": "分解你的形象...",
+      "generating_subtitle": "建立分層資產。這通常需要幾秒鐘。",
+      "layer_label": "層 {index}",
+      "layer_description": "分層資產",
+      "empty_title": "還沒有圖層",
+      "empty_subtitle": "上傳圖像並點擊分解！來產生圖層。",
+      "success": "圖層生成成功！",
+      "download_ready": "下載準備就緒"
+    },
+    "examples": {
+      "title": "範例",
+      "subtitle": "了解來源影像如何分解為乾淨的圖層。",
+      "labels": {
+        "source": "來源",
+        "layer": "層 {index}",
+        "sample": "範例 {index}"
+      },
+      "rows": {
+        "primary": "範例集 01",
+        "secondary": "範例集 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "請先上傳參考圖片",
+      "generation_failed": "生成失敗，請重試",
+      "upload_success": "圖片上傳成功",
+      "upload_failed": "上傳失敗",
+      "download_failed": "下載失敗，請重試"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "可用"
+    },
+    "errors": {
+      "no_available_account": "您目前的訂閱中沒有可用的帳戶。請稍後重試。",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "network_unstable": "網路不穩定。請稍後重試。",
+      "deployment_failed_try_again": "部署失敗。再試一次。",
+      "deployment_timeout": "{minutes} 分鐘後部署逾時。請再試一次。",
+      "enter_bot_token": "請輸入機器人令牌。",
+      "select_channel_before_deploying": "请在部署前选择频道。",
+      "enter_telegram_bot_token": "請輸入您的 Telegram 機器人令牌。",
+      "enter_discord_bot_token": "請輸入您的 Discord 機器人令牌。",
+      "invalid_response_missing_deployment_id": "無效回應：缺少deployment_id",
+      "failed_to_start_deployment": "無法啟動部署",
+      "failed_to_fetch_deployment_status": "無法取得部署狀態",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - 一鍵OpenClaw部署",
+      "description": "在 1 分鐘內部署 OpenClaw。沒有伺服器或 DevOps。選擇一個模型，連接一個頻道，然後啟動。"
+    },
+    "selectors": {
+      "model_title": "为您的 OpenClaw 选择默认型号",
+      "channel_title": "選擇 OpenClaw 應向何處發送訊息",
+      "selected": "已選擇"
+    },
+    "deploy": {
+      "deploying": "正在部署...",
+      "deploy_button": "部署",
+      "sign_in_button": "使用 EasyClaw 登录进行部署",
+      "sign_in_hint": "登入以使用 EasyClaw 部署 OpenClaw 並連接您的頻道。",
+      "status_success": "部署成功！ OpenClaw 正在運作。",
+      "model_substitution_warning": "偵測到模型替換。嘗試重新部署或切換到另一個區域/提供者。",
+      "hint_prefix": "連接 Telegram 繼續。",
+      "hint_prefix_telegram": "連接 Telegram 繼續。",
+      "hint_prefix_discord": "連接 Discord 繼續。",
+      "hint_suffix": "您可以稍後將其他頻道新增至同一帳戶。"
+    },
+    "telegram": {
+      "dialog_title": "連接Telegram",
+      "how_to_get_token": "如何取得您的機器人令牌？",
+      "step_1_prefix": "打開 Telegram 並轉到",
+      "step_2_prefix": "開始聊天並輸入",
+      "step_3_text": "按照提示命名您的機器人並選擇用戶名。",
+      "step_4_text": "BotFather 將向您發送一條包含您的機器人令牌的訊息。複製整個令牌（它看起來像一長串數字和字母）。",
+      "step_5_text": "將令牌貼到下面的欄位中，然後按一下儲存並連接。",
+      "token_label": "輸入機器人令牌",
+      "token_placeholder": "1234567890：ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "儲存並連接",
+      "preview_intro": "我可以幫助您創建和管理 Telegram 機器人。你想做什麼？",
+      "preview_newbot": "創建一個新機器人",
+      "preview_mybots": "編輯你的機器人",
+      "preview_name_prompt": "好吧，一個新機器人。我們該如何稱呼它呢？請為您的機器人選擇名稱。",
+      "preview_message_input": "留言"
+    },
+    "discord": {
+      "dialog_title": "連接 Discord",
+      "how_to_get_token": "如何取得你的機器人令牌？",
+      "step_1_prefix": "打開",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "並建立一個新的應用程式。",
+      "step_2_text": "進入 Bot 設定，點擊 Add Bot，並開啟 Message Content Intent。",
+      "step_3_text": "在 Bot 頁面複製機器人令牌。",
+      "step_4_text": "使用 OAuth URL Generator，以 bot 和 applications.commands 權限邀請機器人。",
+      "step_5_text": "把令牌貼到下面的輸入框，然後點擊儲存並連接。",
+      "token_label": "輸入機器人令牌",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "儲存並連接",
+      "preview_intro": "Discord 機器人已建立。私訊已開放，機器人隨時可以回覆。",
+      "preview_step_1": "建立應用 -> Add Bot",
+      "preview_step_2": "開啟 Message Content Intent",
+      "preview_user_message": "Hi EasyClaw，你在線嗎？",
+      "preview_ready": "在線。隨時給我發 Discord 私訊，我都會回覆。",
+      "preview_message_input": "傳訊息給 @EasyClaw Bot"
+    }
+  }
+}

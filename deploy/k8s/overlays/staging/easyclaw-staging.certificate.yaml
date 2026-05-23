@@ -1,0 +1,14 @@
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: easyclaw-staging-tls
+  namespace: easyclaw-staging
+  annotations:
+    argocd.argoproj.io/sync-wave: "2"
+spec:
+  secretName: easyclaw-staging-tls
+  dnsNames:
+    - staging.easyclaw.pro
+  issuerRef:
+    kind: ClusterIssuer
+    name: letsencrypt-prod-cloudflare

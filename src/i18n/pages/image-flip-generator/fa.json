@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "فلیپر تصویر",
+    "description": "تصاویر را به صورت افقی یا عمودی با کیفیت حرفه ای ورق بزنید",
+    "disabled": false,
+    "upload": {
+      "title": "یک تصویر را بکشید و رها کنید",
+      "description": "پشتیبانی از PNG، JPG، JPEG، WebP تا 10 مگابایت",
+      "buttonText": "فایل ها را مرور کنید",
+      "dragDropText": "یک URL را رها کنید، جای‌گذاری کنید یا اضافه کنید",
+      "selectFileText": "یک فایل تصویری را انتخاب کنید",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "آماده برای ورق زدن.",
+      "replace": "جایگزین کنید",
+      "remove": "حذف کنید"
+    },
+    "controls": {
+      "horizontalFlip": "فلیپ افقی",
+      "verticalFlip": "چرخش عمودی",
+      "processing": "در حال پردازش...",
+      "uploading": "در حال آپلود..."
+    },
+    "preview": {
+      "originalAlt": "تصویر اصلی",
+      "flippedAlt": "تصویر برعکس شده",
+      "download": "دانلود کنید"
+    },
+    "credits": {
+      "label": "اعتبارات:",
+      "cost": "هزینه هر تلنگر:",
+      "insufficient": "اعتبارات ناکافی"
+    },
+    "errors": {
+      "noImage": "هیچ تصویری انتخاب نشده است",
+      "noImageSuggestion": "لطفا ابتدا یک تصویر آپلود کنید.",
+      "invalidFormat": "فرمت فایل پشتیبانی نشده",
+      "formatSuggestion": "لطفا از یکی از: {formats} استفاده کنید",
+      "fileTooLarge": "فایل خیلی بزرگ است: {size}MB",
+      "sizeSuggestion": "حداکثر اندازه {maxSize}MB است. لطفاً فایل کوچکتری را فشرده یا انتخاب کنید.",
+      "uploadFailed": "تصویر آپلود نشد",
+      "uploadSuggestion": "اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+      "authRequired": "احراز هویت لازم است",
+      "authSuggestion": "لطفا برای آپلود تصاویر وارد شوید.",
+      "processingFailed": "عملیات چرخش ناموفق بود",
+      "processingSuggestion": "لطفاً دوباره امتحان کنید یا اگر مشکل ادامه داشت با پشتیبانی تماس بگیرید.",
+      "networkError": "مشکل اتصال شبکه",
+      "networkSuggestion": "اتصال خود را بررسی کنید و دوباره امتحان کنید.",
+      "fileReadError": "فایل خوانده نشد",
+      "fileReadSuggestion": "لطفاً دوباره سعی کنید فایل را انتخاب کنید.",
+      "retry": "دوباره امتحان کنید"
+    },
+    "messages": {
+      "uploadSuccess": "تصویر با موفقیت آپلود شد",
+      "flipSuccess": "تصویر با موفقیت برگردانده شد",
+      "downloadStarted": "دانلود شروع شد"
+    },
+    "legal": {
+      "terms": "با آپلود یک فایل، با شرایط استفاده و سیاست حفظ حریم خصوصی ما موافقت می کنید."
+    }
+  }
+}

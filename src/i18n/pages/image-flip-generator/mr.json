@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "प्रतिमा फ्लिपर",
+    "description": "व्यावसायिक गुणवत्तेसह प्रतिमा क्षैतिज किंवा अनुलंब फ्लिप करा",
+    "disabled": false,
+    "upload": {
+      "title": "प्रतिमा ड्रॅग आणि ड्रॉप करा",
+      "description": "PNG, JPG, JPEG, WebP 10MB पर्यंत सपोर्ट करते",
+      "buttonText": "फाइल्स ब्राउझ करा",
+      "dragDropText": "URL टाका, पेस्ट करा किंवा जोडा",
+      "selectFileText": "प्रतिमा फाइल निवडा",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "फ्लिप करण्यासाठी तयार.",
+      "replace": "बदला",
+      "remove": "काढा"
+    },
+    "controls": {
+      "horizontalFlip": "क्षैतिज फ्लिप",
+      "verticalFlip": "उभ्या फ्लिप करा",
+      "processing": "प्रक्रिया करत आहे...",
+      "uploading": "अपलोड करत आहे..."
+    },
+    "preview": {
+      "originalAlt": "मूळ प्रतिमा",
+      "flippedAlt": "फ्लिप केलेली प्रतिमा",
+      "download": "डाउनलोड करा"
+    },
+    "credits": {
+      "label": "श्रेय:",
+      "cost": "प्रति फ्लिप किंमत:",
+      "insufficient": "अपुरी क्रेडिट्स"
+    },
+    "errors": {
+      "noImage": "कोणतीही प्रतिमा निवडलेली नाही",
+      "noImageSuggestion": "कृपया प्रथम प्रतिमा अपलोड करा.",
+      "invalidFormat": "असमर्थित फाइल स्वरूप",
+      "formatSuggestion": "कृपया यापैकी एक वापरा: {formats}",
+      "fileTooLarge": "फाइल खूप मोठी आहे: {size}MB",
+      "sizeSuggestion": "कमाल आकार {maxSize}MB आहे. कृपया संकुचित करा किंवा छोटी फाइल निवडा.",
+      "uploadFailed": "प्रतिमा अपलोड करण्यात अयशस्वी",
+      "uploadSuggestion": "तुमचे कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+      "authRequired": "प्रमाणीकरण आवश्यक आहे",
+      "authSuggestion": "कृपया प्रतिमा अपलोड करण्यासाठी साइन इन करा.",
+      "processingFailed": "फ्लिप ऑपरेशन अयशस्वी",
+      "processingSuggestion": "कृपया पुन्हा प्रयत्न करा किंवा समस्या कायम राहिल्यास समर्थनाशी संपर्क साधा.",
+      "networkError": "नेटवर्क कनेक्शन समस्या",
+      "networkSuggestion": "तुमचे कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.",
+      "fileReadError": "फाइल वाचण्यात अयशस्वी",
+      "fileReadSuggestion": "कृपया फाइल पुन्हा निवडण्याचा प्रयत्न करा.",
+      "retry": "पुन्हा प्रयत्न करा"
+    },
+    "messages": {
+      "uploadSuccess": "इमेज यशस्वीरित्या अपलोड केली",
+      "flipSuccess": "इमेज यशस्वीरित्या फ्लिप केली",
+      "downloadStarted": "डाउनलोड सुरू झाले"
+    },
+    "legal": {
+      "terms": "फाइल अपलोड करून, तुम्ही आमच्या वापर अटी आणि गोपनीयता धोरणाला सहमती देता."
+    }
+  }
+}

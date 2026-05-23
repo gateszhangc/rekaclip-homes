@@ -1,0 +1,9 @@
+module.exports = {
+
+"[project]/src/i18n/pages/font-recognizer/pl.json (json)": ((__turbopack_context__) => {
+
+var { g: global, __dirname } = __turbopack_context__;
+{
+__turbopack_context__.v(JSON.parse("{\"fontRecognizer\":{\"name\":\"font-recognizer\",\"title\":\"Przerzucanie obrazu\",\"description\":\"Prześlij obraz, aby uzyskać profesjonalne odwrócenie i uwydatnienie kolorów\",\"disabled\":false,\"upload\":{\"title\":\"Przeciągnij i upuść obraz\",\"description\":\"Obsługuje PNG, JPG, JPEG, WebP do 10MB\",\"buttonText\":\"Wybierz plik\",\"maxSize\":10,\"acceptedFormats\":[\"PNG\",\"JPG\",\"JPEG\",\"WebP\"]},\"results\":{\"imageTitle\":\"Czysty obraz\",\"textListTitle\":\"Wykryte obszary tekstowe\",\"fontRecommendationTitle\":\"Sugestie dotyczące usunięcia\",\"detectedFontLabel\":\"Wybrany obszar\",\"similarFontsLabel\":\"Alternatywne wypełnienia\",\"selectTextPrompt\":\"Wybierz blok tekstu do usunięcia\"},\"actions\":{\"reuploadText\":\"Prześlij ponownie\"},\"messages\":{\"uploadSuccess\":\"Obraz został przesłany pomyślnie\",\"uploadError\":\"Nie udało się przesłać obrazu\",\"recognitionSuccess\":\"Wykrywanie zakończone\",\"recognitionError\":\"Wykrycie nie powiodło się\",\"fontRecognitionSuccess\":\"Usuwanie tekstu zostało zakończone\",\"fontRecognitionError\":\"Nie udało się usunąć tekstu\",\"processing\":\"Przetwarzanie...\"}}}"));}}),
+
+};

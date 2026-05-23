@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "Bild Flipper",
+    "description": "Vänd bilder horisontellt eller vertikalt med professionell kvalitet",
+    "disabled": false,
+    "upload": {
+      "title": "Dra och släpp en bild",
+      "description": "Stöder PNG, JPG, JPEG, WebP upp till 10MB",
+      "buttonText": "Bläddra bland filer",
+      "dragDropText": "Släpp, klistra in eller lägg till en URL",
+      "selectFileText": "Välj en bildfil",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "Redo att vända.",
+      "replace": "Byt ut",
+      "remove": "Ta bort"
+    },
+    "controls": {
+      "horizontalFlip": "Vänd horisontellt",
+      "verticalFlip": "Vänd vertikalt",
+      "processing": "Bearbetar...",
+      "uploading": "Laddar upp..."
+    },
+    "preview": {
+      "originalAlt": "Originalbild",
+      "flippedAlt": "Vänd bild",
+      "download": "Ladda ner"
+    },
+    "credits": {
+      "label": "Krediter:",
+      "cost": "Kostnad per flip:",
+      "insufficient": "Otillräckliga poäng"
+    },
+    "errors": {
+      "noImage": "Ingen bild har valts",
+      "noImageSuggestion": "Ladda upp en bild först.",
+      "invalidFormat": "Filformat som inte stöds",
+      "formatSuggestion": "Använd en av: {formats}",
+      "fileTooLarge": "Filen är för stor: {size}MB",
+      "sizeSuggestion": "Maximal storlek är {maxSize}MB. Komprimera eller välj en mindre fil.",
+      "uploadFailed": "Det gick inte att ladda upp bilden",
+      "uploadSuggestion": "Kontrollera din anslutning och försök igen.",
+      "authRequired": "Autentisering krävs",
+      "authSuggestion": "Logga in för att ladda upp bilder.",
+      "processingFailed": "Vändning misslyckades",
+      "processingSuggestion": "Försök igen eller kontakta supporten om problemet kvarstår.",
+      "networkError": "Nätverksanslutningsproblem",
+      "networkSuggestion": "Kontrollera din anslutning och försök igen.",
+      "fileReadError": "Det gick inte att läsa filen",
+      "fileReadSuggestion": "Försök att välja filen igen.",
+      "retry": "Försök igen"
+    },
+    "messages": {
+      "uploadSuccess": "Bilden har laddats upp",
+      "flipSuccess": "Bilden har vänts",
+      "downloadStarted": "Nedladdningen startade"
+    },
+    "legal": {
+      "terms": "Genom att ladda upp en fil godkänner du våra användarvillkor och sekretesspolicy."
+    }
+  }
+}

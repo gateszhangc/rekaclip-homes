@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "الميزات",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "التسعير",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "مدونة",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "الأسئلة الشائعة",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "شعار EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "إنشاء أعمال فنية عالية الجودة",
+    "description": "قم بتحميل صورة، واختر نمطًا، واحصل على صورة كاريكاتورية نظيفة للصور الرمزية أو الهدايا أو المحتوى.",
+    "features": [
+      "تفاصيل عالية الجودة وخطوط نظيفة",
+      "أسعار عادلة للاستخدام اليومي",
+      "جاهز للملفات الشخصية والهدايا والمطبوعات"
+    ],
+    "buttons": [
+      {
+        "title": "إنشاء الكاريكاتير الخاص بي",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "مثال كاريكاتير"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "مثال كاريكاتير 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "مثال كاريكاتير 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "مثال كاريكاتير 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "مدعوم من التكنولوجيا المتقدمة",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "صحيح",
+    "name": "introduce",
+    "title": "كيفية عمل كاريكاتير",
+    "label": "عملية بسيطة",
+    "description": "قم بإنشاء رسوم كاريكاتورية مذهلة في ثلاث خطوات بسيطة. لا المهارات الفنية المطلوبة.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "تحميل الصورة",
+        "description": "قم بتحميل صورة شخصية واضحة. نحن ندعم JPG وPNG وWebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "اختر النمط",
+        "description": "اختر من بين أنماط الرسوم المتحركة المضحكة أو المبالغ فيها أو الأنيمي أو ثلاثية الأبعاد.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "تحميل",
+        "description": "احصل على رسم كاريكاتوري عالي الجودة على الفور بدون علامات مائية.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "صحيح",
+    "name": "benefit",
+    "title": "لماذا استخدام OpenClaw؟",
+    "label": "الفوائد",
+    "description": "الأداة المثالية للهدايا وصور الملف الشخصي ومحتوى الوسائط الاجتماعية.",
+    "items": [
+      {
+        "title": "سحر الذكاء الاصطناعي الفوري",
+        "description": "يقوم الذكاء الاصطناعي المتقدم بتحليل ملامح الوجه لإنشاء رسوم كاريكاتورية مبالغ فيها تمامًا في ثوانٍ.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "أنماط فنية متنوعة",
+        "description": "بدءًا من الأشكال الكلاسيكية المرسومة يدويًا وحتى الصور الرمزية المتحركة ثلاثية الأبعاد الحديثة. لدينا كل شيء.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "دقة عالية",
+        "description": "قم بتنزيل صور واضحة وعالية الجودة مناسبة للطباعة على الأكواب والتيشيرتات والملصقات.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "معرض",
+    "title": "تحولات مذهلة",
+    "description": "شاهد كيف تتحول الصور العادية إلى رسوم كاريكاتورية غير عادية.",
+    "items": [
+      {
+        "title": "الصور الرمزية الاجتماعية",
+        "highlight": "تميز على الإنترنت",
+        "description": "قم بإنشاء صورة ملف شخصي فريدة تجسد شخصيتك.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "الصورة الأصلية",
+        "afterAlt": "نتيجة الكاريكاتير",
+        "reverse": false
+      },
+      {
+        "title": "هدايا شخصية",
+        "highlight": "هدايا لا تنسى",
+        "description": "فاجئ الأصدقاء والعائلة بصورة مضحكة مخصصة.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "الصورة الأصلية",
+        "afterAlt": "نتيجة الكاريكاتير",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 خطوات لنشر OpenClaw",
+    "description": "اختر النموذج الخاص بك، وقم بتوصيل القناة، ثم ابدأ التشغيل.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "اليسار",
+    "text_align": "مركز",
+    "items": [
+      {
+        "title": "اختر نموذجًا",
+        "description": "Claude، GPT، Gemini - اختر النموذج الأفضل لكل مهمة. العمل الإبداعي مع Claude والتحليل مع GPT. التبديل في أي وقت.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "اختر طراز الذكاء الاصطناعي - Claude، أو GPT، أو Gemini"
+        }
+      },
+      {
+        "title": "قم بتوصيل قناة",
+        "description": "Telegram، Discord، WhatsApp — لوحة تحكم واحدة لجميع القنوات. إدارة جميع المحادثات من مكان واحد، لا مزيد من التبديل بين التطبيقات.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "ربط قنوات المراسلة"
+        }
+      },
+      {
+        "title": "نشر والبدء",
+        "description": "مساعد الذكاء الاصطناعي الخاص بك سيكون متصلاً بالإنترنت خلال 60 ثانية. أرسل رسالتك الأولى وابدأ التشغيل الآلي.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "نشر وبدء مساعدك"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "إنشاء الكاريكاتير الخاص بك",
+    "description": "قم بتحميل صورة، واختر نمطًا، وقم بإنشائها."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "استوديو الكاريكاتير",
+    "description": "قم بتحميل صورة، واختر نمطًا، وقم بإنشاء صورة كاريكاتورية عالية الجودة.",
+    "disabled": false,
+    "upload": {
+      "title": "قم بتحميل صورتك",
+      "description": "قم بالسحب والإسقاط أو النقر للتحميل (JPG، PNG، WebP حتى 10 ميجابايت)",
+      "buttonText": "حدد الصورة",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "الكاريكاتير الخاص بك",
+      "textListTitle": "إعدادات النمط",
+      "fontRecommendationTitle": "الأنماط الموصى بها",
+      "detectedFontLabel": "الاختيار الحالي",
+      "similarFontsLabel": "جرب هذه أيضًا",
+      "selectTextPrompt": "حدد نمطًا لتطبيقه"
+    },
+    "actions": {
+      "reuploadText": "حاول صورة أخرى"
+    },
+    "messages": {
+      "uploadSuccess": "تم تحميل الصورة بنجاح!",
+      "uploadError": "عفوًا، فشل التحميل. يرجى المحاولة مرة أخرى.",
+      "recognitionSuccess": "الكاريكاتير الخاص بك جاهز!",
+      "recognitionError": "فشل الجيل. يرجى المحاولة مرة أخرى.",
+      "fontRecognitionSuccess": "تم تطبيق النمط!",
+      "fontRecognitionError": "فشل في تطبيق النمط.",
+      "processing": "إنشاء الكاريكاتير الخاص بك ..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "قل وداعا للمتاعب",
+    "description": "تعرف على التغييرات عند التبديل إلى EasyClaw",
+    "before_label": "الإعداد التقليدي",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "استئجار الخوادم، وتكوين البيئات",
+        "after": "النشر بنقرة واحدة، دون الحاجة إلى خوادم"
+      },
+      {
+        "before": "استيقظ لإصلاح تنبيهات الساعة 3 صباحًا",
+        "after": "التشغيل التلقائي 24/7"
+      },
+      {
+        "before": "قم بتحديث إصدارات OpenClaw يدويًا",
+        "after": "التحديثات التلقائية لأحدث إصدار"
+      },
+      {
+        "before": "تعلم أوامر Docker وLinux",
+        "after": "المهارات التقنية المطلوبة صفر"
+      },
+      {
+        "before": "أكثر من 30 دقيقة لكل عملية نشر",
+        "after": "النشر في أقل من 60 ثانية"
+      }
+    ],
+    "footer": "الوقت الموفر: ~29 دقيقة لكل عملية نشر"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "لماذا تختار الفرق EasyClaw",
+    "description": "نشر جاهز للإنتاج بدون تحميل DevOps. صيانة صفر، أقصى قدر من التركيز.",
+    "items": [
+      {
+        "title": "نشر في 60 ثانية",
+        "description": "من الصفر إلى الركض في أقل من دقيقة. لا يوجد Docker ولا أوامر Linux ولا إعداد الخادم.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "صيانة صفر",
+        "description": "نحن نتعامل مع التحديثات والمراقبة والاسترداد. كل ما عليك هو التركيز على استخدام مساعد الذكاء الاصطناعي الخاص بك.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "مرونة النموذج",
+        "description": "قم بالتبديل بين Claude وGPT وGemini في أي وقت. استخدم النموذج الأفضل لكل مهمة.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "القنوات الموحدة",
+        "description": "إدارة Telegram وDiscord وWhatsApp من لوحة تحكم واحدة. لا مزيد من تبديل التطبيقات.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "دائما حتى الآن",
+        "description": "تحديثات OpenClaw التلقائية. استخدم دائمًا أحدث الميزات دون رفع إصبعك.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "مقياس بثقة",
+        "description": "ابدأ بمفردك، ثم قم بزيادة الاستخدام عبر الفرق وحالات الاستخدام. من 1 إلى 100 عملية نشر.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "انشر OpenClaw لأي سير عمل",
+    "description": "مساعد واحد، العديد من حالات الاستخدام. إطلاق مرة واحدة، وأتمتة في كل مكان.",
+    "items": [
+      {
+        "title": "الإحاطات اليومية",
+        "description": "قم بتحويل الرسائل والتحديثات إلى ملخص صباحي موجز لفريقك.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "سير عمل أتمتة الإحاطات اليومية"
+        },
+        "buttons": [
+          {
+            "title": "اعرف المزيد ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "مساعد دعم العملاء",
+        "description": "قم بتوجيه الأسئلة، وصياغة الردود، والحفاظ على استجابة قنوات الدعم.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "سير عمل أتمتة دعم العملاء"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "ابدأ النشر ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "أتمتة فريق العمليات",
+        "description": "أتمتة التذكيرات وتقارير الحالة والمتابعة الروتينية عبر القنوات.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "سير عمل أتمتة عمليات الفريق"
+        },
+        "buttons": [
+          {
+            "title": "انظر التسعير ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "كاذبة",
+    "name": "stats",
+    "label": "أبرز",
+    "title": "مصممة للإطلاق السريع",
+    "description": "كل ما يلزم لتشغيل OpenClaw بشكل موثوق.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "حان الوقت للنشر لأول مرة",
+        "label": "< 1 دقيقة",
+        "description": "من الإعداد إلى تشغيل المساعد"
+      },
+      {
+        "title": "القنوات المدعومة",
+        "label": "3+",
+        "description": "Telegram، Discord، WhatsApp"
+      },
+      {
+        "title": "رؤية النشر",
+        "label": "في الوقت الحقيقي",
+        "description": "تتبع حالات التشغيل والفشل"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "التعليقات",
+    "title": "ما يقوله المستخدمون",
+    "description": "تعرف على سبب حديث الجميع عن OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "سارة جنكينز",
+        "label": "مدير وسائل التواصل الاجتماعي",
+        "description": "لقد قمت بعمل صورة جماعية مرحة لصفحة \"نبذة عنا\" الخاصة بنا. الجميع أحب ذلك!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "مايك روس",
+        "label": "مستقل",
+        "description": "استخدم هذا لإنشاء صورة رمزية فريدة لملفي الشخصي المستقل. انها تبرز!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "إميلي تشين",
+        "label": "طالب",
+        "description": "قمت بعمل رسوم كاريكاتورية لجميع أصدقائي للحصول على بطاقة عيد ميلاد. أفضل هدية على الإطلاق.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "ديفيد ميلر",
+        "label": "منشئ المحتوى",
+        "description": "الأنماط المختلفة مذهلة. أستخدم النمط ثلاثي الأبعاد للصور المصغرة الخاصة بي.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "جيسيكا وونغ",
+        "label": "قائد التسويق",
+        "description": "سريع وسهل، والنتائج مضحكة بالفعل، وليست غريبة فقط.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "توم بيكر",
+        "label": "المطور",
+        "description": "API بسيط جدًا ونتائج رائعة لمشروعي المفضل.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "الأسئلة الشائعة",
+    "title": "الأسئلة الشائعة",
+    "description": "كل ما تحتاجه قبل نشر OpenClaw مع EasyClaw.",
+    "items": [
+      {
+        "title": "كم تكلفة EasyClaw؟",
+        "description": "تبدأ الخطط بسعر 10 دولارات شهريًا. قم بالإلغاء في أي وقت من حسابك."
+      },
+      {
+        "title": "هل أحتاج إلى إدارة الخوادم؟",
+        "description": "لا، يعمل EasyClaw على تبسيط سير عمل النشر حتى تتمكن من تشغيل OpenClaw بدون خوادم أو DevOps."
+      },
+      {
+        "title": "ما هي النماذج المدعومة؟",
+        "description": "Claude، GPT، وGemini."
+      },
+      {
+        "title": "هل يمكنني النشر على قنوات متعددة؟",
+        "description": "نعم. ويدعم Telegram، Discord، وWhatsApp."
+      },
+      {
+        "title": "كم من الوقت يستغرق النشر؟",
+        "description": "عادة أقل من 1 دقيقة. يمكن أن يستغرق الإعداد لأول مرة وقتًا أطول قليلاً."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "هل أنت مستعد لإطلاق OpenClaw؟",
+    "description": "قم بنشر مساعدك الأول في أقل من دقيقة. لا توجد خوادم ولا صيانة ولا منحنى التعلم.",
+    "note": "إلغاء في أي وقت. لا يوجد عقد طويل الأجل.",
+    "buttons": [
+      {
+        "title": "نشر OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "أسهل طريقة لنشر مساعد OpenClaw AI.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • إيزيكلاو. جميع الحقوق محفوظة.",
+    "nav": {
+      "items": [
+        {
+          "title": "حول",
+          "children": [
+            {
+              "title": "الميزات",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "التسعير",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "مدونة",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "الأسئلة الشائعة",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "دعم البريد الإلكتروني",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw هو منتج مستقل ولا ينتمي إلى أي من موفري النماذج أو أصحاب العلامات التجارية التابعين لجهات خارجية.",
+    "agreement": {
+      "items": [
+        {
+          "title": "سياسة الخصوصية",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "شروط الخدمة",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "سياسة استرداد الأموال",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "التسعير",
+    "title": "التسعير",
+    "description": "اختر خطة بناءً على عدد عمليات نشر OpenClaw التي تحتاجها. قم بالإلغاء في أي وقت من حسابك.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "شهريا",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "سنويا",
+        "is_featured": true,
+        "label": "وفر 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "برو",
+        "label": "شعبية",
+        "features_title": "ميزات النشر الأساسية",
+        "features": [
+          "ما يصل إلى 5 عمليات نشر نشطة لـ OpenClaw",
+          "النشر بنقرة واحدة، وإعادة التشغيل، وإعادة النشر",
+          "الإعدادات المسبقة لتكوين النموذج والقناة",
+          "لوحة معلومات حالة النشر",
+          "تحليلات الاستخدام الأساسية",
+          "دعم البريد الإلكتروني",
+          "الاستخدام التجاري",
+          "الوصول إلى ميزات النشر الجديدة"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 دولارات",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "احصل على برو",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw برو الشهرية",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "قسط",
+        "features_title": "كل شيء في Pro، بالإضافة إلى",
+        "features": [
+          "ما يصل إلى 20 عملية نشر نشطة لـ OpenClaw",
+          "قائمة انتظار توفير الأولوية",
+          "نموذج قابل لإعادة الاستخدام وإعدادات القناة المسبقة",
+          "تنبيهات Webhook لحالة النشر",
+          "وصول الفريق (ما يصل إلى 3 أعضاء)",
+          "الوصول إلى API",
+          "دعم الأولوية",
+          "الوصول المبكر إلى ميزات بيتا"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 دولارًا",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "احصل على قسط",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw قسط شهري",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "برو",
+        "label": "شعبية",
+        "features_title": "ميزات النشر الأساسية",
+        "features": [
+          "ما يصل إلى 5 عمليات نشر نشطة لـ OpenClaw",
+          "النشر بنقرة واحدة، وإعادة التشغيل، وإعادة النشر",
+          "الإعدادات المسبقة لتكوين النموذج والقناة",
+          "لوحة معلومات حالة النشر",
+          "تحليلات الاستخدام الأساسية",
+          "دعم البريد الإلكتروني",
+          "الاستخدام التجاري",
+          "الوصول إلى ميزات النشر الجديدة"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 دولارات",
+        "original_price": "السعر الأصلي: 10 دولارات شهريًا",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "احصل على برو",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro سنويًا",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "قسط",
+        "features_title": "كل شيء في Pro، بالإضافة إلى",
+        "features": [
+          "ما يصل إلى 20 عملية نشر نشطة لـ OpenClaw",
+          "قائمة انتظار توفير الأولوية",
+          "نموذج قابل لإعادة الاستخدام وإعدادات القناة المسبقة",
+          "تنبيهات Webhook لحالة النشر",
+          "وصول الفريق (ما يصل إلى 3 أعضاء)",
+          "الوصول إلى API",
+          "دعم الأولوية",
+          "الوصول المبكر إلى ميزات بيتا"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 دولارات",
+        "original_price": "السعر الأصلي: 20 دولارًا شهريًا",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "احصل على قسط",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw بريميوم سنويًا",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

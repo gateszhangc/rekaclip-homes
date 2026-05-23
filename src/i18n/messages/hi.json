@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - 1 मिनट से कम समय में OpenClaw तैनात करें",
+    "description": "एक क्लिक में EasyClaw के साथ OpenClaw तैनात करें। Telegram कनेक्ट करें, एक मॉडल चुनें और तेजी से लाइव हो जाएं।",
+    "keywords": "easyclaw, openclaw परिनियोजन, openclaw होस्टिंग, टेलीग्राम बॉट परिनियोजन, AI सहायक परिनियोजन"
+  },
+  "blog": {
+    "title": "ब्लॉग",
+    "description": "EasyClaw के साथ OpenClaw को तैनात करने के बारे में समाचार, ट्यूटोरियल और अपडेट।",
+    "read_more_text": "और पढ़ें"
+  },
+  "user": {
+    "sign_in": "साइन इन करें",
+    "sign_out": "साइन आउट करें",
+    "credits": "श्रेय",
+    "api_keys": "API कुंजी",
+    "my_orders": "मेरे आदेश",
+    "my_invites": "मेरे निमंत्रण",
+    "user_center": "उपयोगकर्ता केंद्र",
+    "support": "समर्थन",
+    "admin_system": "प्रशासन प्रणाली",
+    "home": "घर",
+    "pricing": "मूल्य निर्धारण",
+    "admin_center": "प्रशासन केंद्र"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClaw में साइन इन करें",
+    "sign_in_description": "OpenClaw को तैनात और प्रबंधित करने के लिए अपने EasyClaw खाते तक पहुंचें।",
+    "sign_up_title": "EasyClaw से जुड़ें",
+    "sign_up_description": "अपना EasyClaw खाता बनाएं",
+    "email_title": "ईमेल",
+    "email_placeholder": "अपना ईमेल पता दर्ज करें",
+    "password_title": "पासवर्ड",
+    "password_placeholder": "अपना पासवर्ड दर्ज करें",
+    "forgot_password": "पासवर्ड भूल गए?",
+    "or": "या",
+    "continue": "EasyClaw पर जारी रखें",
+    "no_account": "EasyClaw पर नये हैं?",
+    "email_sign_in": "ईमेल से साइन इन करें",
+    "google_sign_in": "Google के साथ जारी रखें",
+    "github_sign_in": "GitHub के साथ जारी रखें",
+    "close_title": "बंद करें",
+    "cancel_title": "रद्द करें"
+  },
+  "my_orders": {
+    "title": "मेरे आदेश",
+    "no_orders": "कोई ऑर्डर नहीं मिला",
+    "tip": "",
+    "support_tip": "बिलिंग या रद्दीकरण में सहायता चाहिए? ईमेल support@easyclaw.pro.",
+    "activate_order": "ऑर्डर सक्रिय करें",
+    "actived": "सक्रिय",
+    "join_discord": "Discord से जुड़ें",
+    "read_docs": "दस्तावेज़ पढ़ें",
+    "table": {
+      "order_no": "आदेश संख्या",
+      "email": "ईमेल",
+      "product_name": "उत्पाद का नाम",
+      "amount": "रकम",
+      "paid_at": "पर भुगतान किया गया",
+      "github_username": "GitHub उपयोगकर्ता नाम",
+      "status": "स्थिति",
+      "manage_billing": "बिलिंग प्रबंधित करें",
+      "interval": "Interval",
+      "interval_month": "मासिक",
+      "interval_year": "वार्षिक रूप से",
+      "interval_one_time": "एक बार"
+    }
+  },
+  "my_credits": {
+    "title": "मेरा श्रेय",
+    "left_tip": "बायां क्रेडिट: {left_credits}",
+    "no_credits": "कोई क्रेडिट रिकॉर्ड नहीं",
+    "recharge": "रिचार्ज",
+    "table": {
+      "trans_no": "ट्रांस नं",
+      "trans_type": "ट्रांस प्रकार",
+      "credits": "श्रेय",
+      "updated_at": "पर अद्यतन किया गया",
+      "status": "स्थिति",
+      "expired_at": "पर समाप्त हो गया",
+      "created_at": "पर बनाया गया"
+    }
+  },
+  "api_keys": {
+    "title": "API कुंजी",
+    "tip": "लीक से बचने के लिए कृपया अपनी एपीकी को सुरक्षित रखें",
+    "no_api_keys": "कोई API कुंजी नहीं",
+    "create_api_key": "API कुंजी बनाएं",
+    "table": {
+      "name": "Name",
+      "key": "कुंजी",
+      "created_at": "पर बनाया गया"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API कुंजी नाम",
+      "submit": "सबमिट करें"
+    }
+  },
+  "my_invites": {
+    "title": "मेरे निमंत्रण",
+    "description": "अपने आमंत्रण रिकॉर्ड देखें",
+    "no_invites": "कोई आमंत्रण रिकॉर्ड नहीं मिला",
+    "my_invite_link": "मेरा आमंत्रण लिंक",
+    "edit_invite_link": "आमंत्रण लिंक संपादित करें",
+    "copy_invite_link": "आमंत्रण लिंक कॉपी करें",
+    "invite_code": "कोड आमंत्रित करें",
+    "invite_tip": "दोस्तों को EasyClaw पर आमंत्रित करें और पुरस्कार अर्जित करें।",
+    "invite_balance": "पुरस्कार शेष को आमंत्रित करें",
+    "total_invite_count": "कुल आमंत्रण संख्या",
+    "total_paid_count": "कुल भुगतान संख्या",
+    "total_award_amount": "कुल पुरस्कार राशि",
+    "update_invite_code": "आमंत्रण कोड सेट करें",
+    "update_invite_code_tip": "अपना कस्टम आमंत्रण कोड इनपुट करें",
+    "update_invite_button": "सहेजें",
+    "no_orders": "दूसरों को आमंत्रित करने से पहले आपको एक सशुल्क योजना की आवश्यकता होगी",
+    "no_affiliates": "आपको दूसरों को आमंत्रित करने की अनुमति नहीं है, कृपया अनुमति के लिए आवेदन करने के लिए हमसे संपर्क करें।",
+    "table": {
+      "invite_time": "आमंत्रण का समय",
+      "invite_user": "उपयोगकर्ता को आमंत्रित करें",
+      "status": "स्थिति",
+      "reward_percent": "इनाम प्रतिशत",
+      "reward_amount": "इनाम की रकम",
+      "pending": "लंबित",
+      "completed": "पूरा हुआ"
+    }
+  },
+  "feedback": {
+    "title": "प्रतिक्रिया",
+    "description": "हमें यह सुनना अच्छा लगेगा कि क्या अच्छा हुआ या हम उत्पाद अनुभव को कैसे बेहतर बना सकते हैं।",
+    "submit": "सबमिट करें",
+    "loading": "सबमिट किया जा रहा है...",
+    "contact_tip": "हमसे संपर्क करने के अन्य तरीके",
+    "rating_tip": "आप EasyClaw के बारे में कैसा महसूस करते हैं?",
+    "placeholder": "अपने शब्द यहीं छोड़ें..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - तुरंत AI कैरिकेचर बनाएं",
+    "description": "एआई-संचालित टूल के साथ मज़ेदार और कलात्मक कैरिकेचर बनाने के लिए फ़ोटो अपलोड करें।",
+    "upload_label": "अपनी छवि अपलोड करें",
+    "upload_placeholder": "अपलोड करने के लिए क्लिक करें या खींचें (JPG, PNG, GIF, WebP)",
+    "upload_required": "आवश्यक",
+    "prompt_label": "विस्तार का वर्णन करें (वैकल्पिक)",
+    "prompt_placeholder": "उदाहरण के लिए, 'पृष्ठभूमि को बाएँ और दाएँ बढ़ाएँ', 'आसमान को बढ़ाएँ', 'बैनर के लिए कैनवास को चौड़ा करें', 'विषय के चारों ओर जगह जोड़ें'...",
+    "prompt_required": "वैकल्पिक नोट्स",
+    "character_count": "{count}/500",
+    "generate_button": "छवि का विस्तार करें",
+    "generating_button": "विस्तार...",
+    "credits_label": "आपका श्रेय",
+    "cost_label": "लागत: प्रति विस्तार {cost} क्रेडिट",
+    "insufficient_credits": "अपर्याप्त क्रेडिट. छवियों का विस्तार जारी रखने के लिए कृपया रिचार्ज करें।",
+    "errors": {
+      "no_image": "कृपया विस्तार करने के लिए एक छवि अपलोड करें",
+      "no_prompt": "कृपया वर्णन करें कि आप छवि का विस्तार कैसे करना चाहते हैं",
+      "invalid_format": "केवल JPG, PNG, GIF, WebP प्रारूप समर्थित हैं",
+      "file_too_large": "छवि का आकार 5एमबी से अधिक नहीं हो सकता",
+      "generation_failed": "छवि विस्तार विफल, कृपया पुनः प्रयास करें",
+      "download_failed": "डाउनलोड विफल, कृपया पुनः प्रयास करें"
+    },
+    "success": {
+      "generated": "आपकी विस्तारित छवि तैयार है!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "हमारे टूल द्वारा विस्तारित नवीनतम छवियां देखें। पहले/बाद में पूर्वावलोकन करें और परिणाम निर्यात करें।",
+    "download_hint": "विस्तारित छवि डाउनलोड करने के लिए क्लिक करें",
+    "no_outfits": "अभी तक कोई विस्तार नहीं. विस्तार शुरू करने के लिए एक छवि अपलोड करें!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - एआई कैरिकेचर जेनरेटर",
+    "description": "टेक्स्ट-टू-इमेज और इमेज-टू-इमेज मोड के साथ OpenClaw AI मॉडल का उपयोग करके उच्च गुणवत्ता वाले कैरिकेचर बनाएं",
+    "hero": {
+      "badge": "नया OpenClaw",
+      "title": "अद्भुत कैरिकेचर बनाएं",
+      "subtitle": "OpenClaw के उन्नत AI मॉडल के साथ तस्वीरों को शानदार कैरिकेचर में बदलें। टेक्स्ट-टू-इमेज और इमेज-टू-इमेज निर्माण मोड दोनों का समर्थन करता है।",
+      "features": {
+        "text_to_image": "छवि पर पाठ",
+        "image_to_image": "छवि से छवि",
+        "high_quality": "उच्च गुणवत्ता आउटपुट"
+      },
+      "buttons": {
+        "start_creating": "बनाना प्रारंभ करें",
+        "view_gallery": "गैलरी देखें"
+      },
+      "stats": {
+        "daily_images": "दैनिक निर्मित छवियाँ",
+        "satisfaction": "उपयोगकर्ता संतुष्टि",
+        "generation_time": "औसत पीढ़ी समय"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "छवि से छवि",
+        "text_to_image": "छवि पर पाठ"
+      },
+      "model": "मॉडल",
+      "reference_images": "संदर्भ छवियाँ",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "छवियों को यहां खींचें और छोड़ें",
+        "or_click": "या ब्राउज़ करने के लिए क्लिक करें",
+        "supported_formats": "समर्थन: JPEG, PNG, WebP (अधिकतम 10MB)",
+        "add_more": "और जोड़ें"
+      },
+      "prompt": "शीघ्र",
+      "prompt_placeholder_image": "छवि को बदलने का तरीका बताएं...",
+      "prompt_placeholder_text": "उस छवि का वर्णन करें जिसे आप उत्पन्न करना चाहते हैं...",
+      "aspect_ratio": "पहलू अनुपात",
+      "resolution": "संकल्प",
+      "output_count": "आउटपुट गणना",
+      "output_count_range": "न्यूनतम {min}, अधिकतम {max}",
+      "output_format": "आउटपुट स्वरूप",
+      "generate_button": "अभी उत्पन्न करें",
+      "generating": "उत्पन्न हो रहा है...",
+      "clear_images": "सभी छवियाँ साफ़ करें",
+      "output_gallery": "आपकी बनाई गई छवि",
+      "view_all": "सभी देखें",
+      "generating_message": "अपनी उत्कृष्ट कृति का निर्माण...",
+      "generating_submessage": "हमारा OpenClaw मॉडल अपना जादू चला रहा है। इसमें आमतौर पर कुछ सेकंड लगते हैं.",
+      "example": "उदाहरण"
+    },
+    "my_creations": {
+      "title": "मेरी रचनाएँ",
+      "description": "अपनी AI-जनरेटेड छवियां देखें और प्रबंधित करें - एक क्लिक से पूर्वावलोकन करें और डाउनलोड करें",
+      "search_placeholder": "रचनाएँ खोजें...",
+      "view_all": "सभी देखें ({count})",
+      "no_results": "कोई मेल खाती रचना नहीं मिली",
+      "no_results_message": "सभी रचनाएँ देखने के लिए विभिन्न कीवर्ड का उपयोग करने का प्रयास करें या खोज साफ़ करें।",
+      "clear_search": "स्पष्ट खोज",
+      "empty_state": "अभी तक कोई रचना नहीं",
+      "empty_message": "अपनी पहली AI-जनरेटेड छवि बनाने के लिए OpenClaw का उपयोग शुरू करें!",
+      "start_creating": "बनाना प्रारंभ करें",
+      "download": "डाउनलोड करें",
+      "delete": "हटाएँ",
+      "total_count": "कुल {count} रचनाएँ",
+      "search_results": "(खोजें: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "छवि पर पाठ",
+        "IMAGE_TO_IMAGE": "छवि से छवि"
+      }
+    },
+    "errors": {
+      "enter_prompt": "कृपया एक संकेत दर्ज करें",
+      "upload_reference": "इमेज-टू-इमेज मोड के लिए संदर्भ छवियां अपलोड करने की आवश्यकता होती है",
+      "generation_failed": "जनरेशन विफल, कृपया पुनः प्रयास करें",
+      "upload_success": "छवि सफलतापूर्वक अपलोड हो गई",
+      "upload_failed": "अपलोड विफल रहा",
+      "delete_success": "छवि हटा दी गई",
+      "delete_failed": "हटाना विफल रहा, कृपया पुनः प्रयास करें",
+      "download_started": "डाउनलोड प्रारंभ हुआ",
+      "file_too_large": "फ़ाइल का आकार {size}MB से अधिक नहीं हो सकता",
+      "unsupported_format": "असमर्थित फ़ाइल स्वरूप. समर्थित प्रारूप: {formats}",
+      "retry": "पुनः प्रयास करें",
+      "dismiss": "ख़ारिज करें"
+    },
+    "loading": {
+      "default": "लोड हो रहा है...",
+      "generation": "अपनी उत्कृष्ट कृति का निर्माण...",
+      "generation_message": "हमारा OpenClaw मॉडल अपना जादू चला रहा है। इसमें आमतौर पर कुछ सेकंड लगते हैं.",
+      "upload": "छवि अपलोड हो रही है...",
+      "upload_message": "कृपया तब तक प्रतीक्षा करें जब तक आपकी छवि क्लाउड पर अपलोड न हो जाए।"
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "स्तरित स्टूडियो",
+      "title": "OpenClaw स्टूडियो",
+      "description": "अपनी तस्वीरों से कलात्मक कैरिकेचर बनाएं।",
+      "cta": "निःशुल्क परीक्षण",
+      "cta_hint": "आरंभ करने के लिए एक छवि अपलोड करें",
+      "features": [
+        "प्रति छवि 2-8 AI परतें",
+        "पारदर्शी PNG/WebP निर्यात",
+        "शीघ्र-निर्देशित पृथक्करण"
+      ]
+    },
+    "upload": {
+      "title": "अपलोड करें",
+      "subtitle": "JPG, PNG, या WebP 10MB तक",
+      "action": "छवि अपलोड करें",
+      "drop": "अपनी छवि यहां छोड़ें",
+      "or_click": "या ब्राउज़ करने के लिए क्लिक करें",
+      "supported_formats": "समर्थन: JPEG, PNG, WebP (अधिकतम 10MB)"
+    },
+    "prompt": {
+      "label": "शीघ्र",
+      "placeholder": "अपनी इच्छित परतों का वर्णन करें (जैसे, विषय, प्रॉप्स, पृष्ठभूमि)"
+    },
+    "advanced": {
+      "title": "उन्नत सेटिंग्स",
+      "prompt_label": "संकेत (वैकल्पिक)",
+      "prompt_placeholder": "कृपया छवि का वर्णन करने के लिए संकेत दर्ज करें। (वैकल्पिक)",
+      "negative_prompt_label": "नकारात्मक संकेत (वैकल्पिक)",
+      "negative_prompt_placeholder": "वर्णन करें कि परतों से क्या बाहर रखा जाना चाहिए।",
+      "seed": "बीज",
+      "randomize_seed": "बीज को यादृच्छिक बनाएं",
+      "guidance_scale": "सच्चा मार्गदर्शन पैमाना",
+      "inference_steps": "अनुमान चरणों की संख्या",
+      "cfg_normalization": "क्या सीएफजी सामान्यीकरण सक्षम है",
+      "auto_caption_language": "यदि कोई संकेत नहीं दिया गया है तो स्वचालित कैप्शन भाषा, EN के लिए सही, ZH के लिए गलत",
+      "layer_count": "परत गिनती",
+      "layer_range": "न्यूनतम {min}, अधिकतम {max}",
+      "output_format": "आउटपुट स्वरूप"
+    },
+    "actions": {
+      "decompose": "विघटित!",
+      "sign_in_to_decompose": "विघटित करने के लिए साइन इन करें!",
+      "generating": "विघटित हो रहा है..."
+    },
+    "results": {
+      "title": "परिणाम",
+      "subtitle": "अपघटन के बाद स्तरित आउटपुट यहां दिखाई देते हैं।",
+      "download_pptx": "पीपीटीएक्स डाउनलोड करें",
+      "download_zip": "ज़िप डाउनलोड करें",
+      "packaging": "पैकेजिंग...",
+      "generating_title": "आपकी छवि विघटित हो रही है...",
+      "generating_subtitle": "स्तरित संपत्ति बनाना. इसमें आमतौर पर कुछ सेकंड लगते हैं.",
+      "layer_label": "परत {index}",
+      "layer_description": "स्तरित संपत्ति",
+      "empty_title": "अभी तक कोई परत नहीं",
+      "empty_subtitle": "एक छवि अपलोड करें और डीकंपोज़ पर क्लिक करें! परतें उत्पन्न करने के लिए.",
+      "success": "परतें सफलतापूर्वक उत्पन्न हुईं!",
+      "download_ready": "डाउनलोड तैयार है"
+    },
+    "examples": {
+      "title": "उदाहरण",
+      "subtitle": "देखें कि कैसे एक स्रोत छवि साफ परतों में टूट जाती है।",
+      "labels": {
+        "source": "स्रोत",
+        "layer": "परत {index}",
+        "sample": "उदाहरण {index}"
+      },
+      "rows": {
+        "primary": "उदाहरण सेट 01",
+        "secondary": "उदाहरण सेट 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "कृपया पहले एक संदर्भ छवि अपलोड करें",
+      "generation_failed": "जनरेशन विफल, कृपया पुनः प्रयास करें",
+      "upload_success": "छवि सफलतापूर्वक अपलोड हो गई",
+      "upload_failed": "अपलोड विफल रहा",
+      "download_failed": "डाउनलोड विफल, कृपया पुनः प्रयास करें"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "उपलब्ध"
+    },
+    "errors": {
+      "no_available_account": "आपकी वर्तमान सदस्यता में कोई खाता उपलब्ध नहीं है. कृपया बाद में पुन: प्रयास करें।",
+      "network_unstable": "नेटवर्क अस्थिर है. कृपया शीघ्र ही पुनः प्रयास करें.",
+      "deployment_failed_try_again": "परिनियोजन विफल रहा. पुनः प्रयास करें।",
+      "deployment_timeout": "{minutes} मिनट के बाद परिनियोजन समयबाह्य। कृपया पुन: प्रयास करें।",
+      "enter_bot_token": "कृपया एक बॉट टोकन दर्ज करें।",
+      "select_channel_before_deploying": "कृपया परिनियोजन से पहले एक चैनल चुनें.",
+      "enter_telegram_bot_token": "कृपया अपना Telegram बॉट टोकन दर्ज करें।",
+      "invalid_response_missing_deployment_id": "अमान्य प्रतिक्रिया: अनुपलब्ध परिनियोजन_आईडी",
+      "failed_to_start_deployment": "परिनियोजन प्रारंभ करने में विफल",
+      "failed_to_fetch_deployment_status": "परिनियोजन स्थिति प्राप्त करने में विफल",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - एक-क्लिक OpenClaw परिनियोजन",
+      "description": "1 मिनट से कम समय में OpenClaw तैनात करें। कोई सर्वर या DevOps नहीं. एक मॉडल चुनें, एक चैनल कनेक्ट करें और लॉन्च करें।"
+    },
+    "selectors": {
+      "model_title": "अपने OpenClaw के लिए एक डिफ़ॉल्ट मॉडल चुनें",
+      "channel_title": "चुनें कि OpenClaw को संदेश कहाँ भेजना चाहिए",
+      "selected": "चयनित"
+    },
+    "deploy": {
+      "deploying": "तैनाती...",
+      "deploy_button": "तैनाती",
+      "sign_in_button": "EasyClaw के साथ तैनात करने के लिए साइन इन करें",
+      "sign_in_hint": "EasyClaw के साथ OpenClaw को तैनात करने के लिए साइन इन करें और अपने चैनल कनेक्ट करें।",
+      "status_success": "परिनियोजन सफल! OpenClaw अब चल रहा है।",
+      "model_substitution_warning": "मॉडल प्रतिस्थापन का पता चला. पुन: तैनाती का प्रयास करें या किसी अन्य क्षेत्र/प्रदाता पर स्विच करें।",
+      "hint_prefix": "जारी रखने के लिए Telegram कनेक्ट करें।",
+      "hint_suffix": "आप बाद में उसी खाते में अन्य चैनल जोड़ सकते हैं।",
+      "hint_prefix_telegram": "जारी रखने के लिए Telegram कनेक्ट करें।",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegram कनेक्ट करें",
+      "how_to_get_token": "अपना बॉट टोकन कैसे प्राप्त करें?",
+      "step_1_prefix": "Telegram खोलें और पर जाएँ",
+      "step_2_prefix": "चैट प्रारंभ करें और टाइप करें",
+      "step_3_text": "अपने बॉट को नाम देने और उपयोगकर्ता नाम चुनने के लिए संकेतों का पालन करें।",
+      "step_4_text": "बॉटफ़ादर आपको आपके बॉट टोकन के साथ एक संदेश भेजेगा। पूरे टोकन की प्रतिलिपि बनाएँ (यह संख्याओं और अक्षरों की एक लंबी श्रृंखला जैसा दिखता है)।",
+      "step_5_text": "नीचे दिए गए फ़ील्ड में टोकन चिपकाएँ और सहेजें और कनेक्ट करें पर क्लिक करें।",
+      "token_label": "बॉट टोकन दर्ज करें",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "सहेजें और कनेक्ट करें",
+      "preview_intro": "मैं Telegram बॉट बनाने और प्रबंधित करने में आपकी सहायता कर सकता हूं। आप क्या करना चाहेंगे?",
+      "preview_newbot": "एक नया बॉट बनाएं",
+      "preview_mybots": "अपने बॉट संपादित करें",
+      "preview_name_prompt": "ठीक है, एक नया बॉट। हम इसे कैसे कहेंगे? कृपया अपने बॉट के लिए एक नाम चुनें.",
+      "preview_message_input": "संदेश"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

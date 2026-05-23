@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "特点",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "定价",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "博客",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "常见问题解答",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClaw 标志"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "创造高品质艺术",
+    "description": "上传肖像，选择风格，然后获取干净的头像、礼物或内容漫画。",
+    "features": [
+      "高品质的细节和简洁的线条",
+      "日常使用的公平定价",
+      "准备好简介、礼物和印刷品"
+    ],
+    "buttons": [
+      {
+        "title": "创建我的漫画",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "漫画例子"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "漫画示例1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "漫画示例2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "漫画示例3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "由先进技术提供支持",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "真实",
+    "name": "introduce",
+    "title": "如何制作漫画",
+    "label": "流程简单",
+    "description": "只需三个简单步骤即可创建令人惊叹的漫画。无需任何艺术技能。",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "上传照片",
+        "description": "上传一张清晰的人像照片。我们支持 JPG、PNG 和 WebP。",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "选择款式",
+        "description": "滑稽、夸张、动漫或 3D 卡通风格可供选择。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "下载",
+        "description": "立即获得无水印的高品质漫画。",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "真实",
+    "name": "benefit",
+    "title": "为什么使用OpenClaw？",
+    "label": "好处",
+    "description": "赠送礼物、个人资料图片和社交媒体内容的完美工具。",
+    "items": [
+      {
+        "title": "即时人工智能魔法",
+        "description": "先进的人工智能分析面部特征，在几秒钟内创建完美夸张的漫画。",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "多样的艺术风格",
+        "description": "从经典的手绘外观到现代 3D 动画头像。我们拥有一切。",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "高分辨率",
+        "description": "下载适合打印在杯子、T 恤和海报上的清晰、高质量图像。",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "画廊",
+    "title": "惊人的转变",
+    "description": "看看普通的照片如何变成非凡的漫画。",
+    "items": [
+      {
+        "title": "社交头像",
+        "highlight": "在线脱颖而出",
+        "description": "创建一张独特的个人资料图片来体现您的个性。",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "原始照片",
+        "afterAlt": "漫画结果",
+        "reverse": false
+      },
+      {
+        "title": "个性化礼物",
+        "highlight": "难忘的礼物",
+        "description": "用定制的有趣肖像给朋友和家人带来惊喜。",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "原始照片",
+        "afterAlt": "漫画结果",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "部署 OpenClaw 的 3 个步骤",
+    "description": "选择您的型号，连接通道，然后启动。",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "左",
+    "text_align": "中心",
+    "items": [
+      {
+        "title": "选择型号",
+        "description": "Claude、GPT、Gemini — 为每个任务选择最佳模型。使用 Claude 进行创意工作，使用 GPT 进行分析。随时切换。",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "选择 AI 模型 - Claude、GPT 或 Gemini"
+        }
+      },
+      {
+        "title": "连接通道",
+        "description": "Telegram、Discord、WhatsApp — 所有渠道的一个仪表板。从一处管理所有对话，无需再切换应用程序。",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "连接消息传递渠道"
+        }
+      },
+      {
+        "title": "部署并启动",
+        "description": "60秒后你的AI助手上线。发送您的第一条消息并开始自动化。",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "部署并启动您的助手"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "创建你的漫画",
+    "description": "上传照片，选择样式，然后生成。"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "漫画工作室",
+    "description": "上传照片，选择风格，然后生成高质量的漫画。",
+    "disabled": false,
+    "upload": {
+      "title": "上传您的照片",
+      "description": "拖放或点击上传（JPG、PNG、WebP 最多 10MB）",
+      "buttonText": "选择图像",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "你的漫画",
+      "textListTitle": "风格设置",
+      "fontRecommendationTitle": "推荐款式",
+      "detectedFontLabel": "目前的选择",
+      "similarFontsLabel": "也试试这些",
+      "selectTextPrompt": "选择要应用的样式"
+    },
+    "actions": {
+      "reuploadText": "尝试另一张照片"
+    },
+    "messages": {
+      "uploadSuccess": "照片上传成功！",
+      "uploadError": "糟糕，上传失败。请再试一次。",
+      "recognitionSuccess": "你的漫画已经准备好了！",
+      "recognitionError": "一代失败。请再试一次。",
+      "fontRecognitionSuccess": "风格已应用！",
+      "fontRecognitionError": "未能应用样式。",
+      "processing": "创建你的漫画..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "与烦恼说再见",
+    "description": "查看切换到 EasyClaw 后有何变化",
+    "before_label": "传统设置",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "租用服务器，配置环境",
+        "after": "一键部署，无需服务器"
+      },
+      {
+        "before": "起床修复凌晨 3 点警报",
+        "after": "24/7自动运行"
+      },
+      {
+        "before": "手动更新OpenClaw版本",
+        "after": "自动更新到最新版本"
+      },
+      {
+        "before": "学习 Docker、Linux 命令",
+        "after": "零技术技能要求"
+      },
+      {
+        "before": "每次部署超过 30 分钟",
+        "after": "60 秒内完成部署"
+      }
+    ],
+    "footer": "节省时间：每次部署约 29 分钟"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "为什么团队选择EasyClaw",
+    "description": "生产就绪部署，无需 DevOps 开销。零维护，最大程度的专注。",
+    "items": [
+      {
+        "title": "60 秒内部署",
+        "description": "从零到运行只需不到一分钟。没有 Docker、没有 Linux 命令、没有服务器设置。",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "零维护",
+        "description": "我们负责更新、监控和恢复。您只需专注于使用您的人工智能助手即可。",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "模型灵活性",
+        "description": "随时在 Claude、GPT 和 Gemini 之间切换。对每项任务使用最佳模型。",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "统一渠道",
+        "description": "从一个仪表板管理 Telegram、Discord 和 WhatsApp。不再需要切换应用程序。",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "始终保持最新状态",
+        "description": "自动 OpenClaw 更新。始终无需费力即可使用最新功能。",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "充满信心地扩展规模",
+        "description": "从单独开始，然后在团队和用例中增加使用量。从 1 到 100 次部署。",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "为任何工作流程部署 OpenClaw",
+    "description": "一名助手，多种用例。启动一次，到处自动化。",
+    "items": [
+      {
+        "title": "每日简报",
+        "description": "将消息和更新变成为您的团队提供的简洁的晨间简报。",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "每日简报自动化工作流程"
+        },
+        "buttons": [
+          {
+            "title": "了解更多->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "客户支持助理",
+        "description": "传递问题、草拟回复并保持支持渠道的响应。",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "客户支持自动化工作流程"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "开始部署->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "团队运营自动化",
+        "description": "跨渠道自动执行提醒、状态报告和例行跟进。",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "团队运营自动化工作流程"
+        },
+        "buttons": [
+          {
+            "title": "查看定价 ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "假的",
+    "name": "stats",
+    "label": "亮点",
+    "title": "专为快速启动而打造",
+    "description": "可靠运行 OpenClaw 所需的一切。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "首次部署时间",
+        "label": "< 1 分钟",
+        "description": "从设置到运行助手"
+      },
+      {
+        "title": "支持的频道",
+        "label": "3+",
+        "description": "Telegram、Discord、WhatsApp"
+      },
+      {
+        "title": "部署可见性",
+        "label": "实时",
+        "description": "跟踪运行和失败状态"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "评论",
+    "title": "用户评价",
+    "description": "看看为什么每个人都在谈论 OpenClaw。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "萨拉·詹金斯",
+        "label": "社交媒体经理",
+        "description": "我为我们的“关于我们”页面制作了一张搞笑的团队照片。每个人都喜欢它！",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "迈克·罗斯",
+        "label": "自由职业者",
+        "description": "用它来为我的自由职业者档案创建一个独特的头像。它脱颖而出！",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "陈艾米莉",
+        "label": "学生",
+        "description": "为我所有朋友制作了漫画作为生日贺卡。有史以来最好的礼物。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "大卫·米勒",
+        "label": "内容创作者",
+        "description": "不同的风格令人惊叹。我的缩略图使用 3D 样式。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "黄洁西卡",
+        "label": "营销主管",
+        "description": "快速、简单，而且结果实际上很有趣，而不仅仅是奇怪。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "汤姆·贝克",
+        "label": "开发商",
+        "description": "超级简单的 API 和我的宠物项目的出色成果。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "常见问题解答",
+    "title": "常见问题",
+    "description": "使用 EasyClaw 部署 OpenClaw 之前所需的一切。",
+    "items": [
+      {
+        "title": "EasyClaw 多少钱？",
+        "description": "计划起价为 10 美元/月。随时从您的帐户取消。"
+      },
+      {
+        "title": "我需要管理服务器吗？",
+        "description": "不会。EasyClaw 简化了部署工作流程，因此您无需服务器或 DevOps 即可启动 OpenClaw。"
+      },
+      {
+        "title": "支持哪些型号？",
+        "description": "Claude、GPT 和 Gemini。"
+      },
+      {
+        "title": "我可以部署到多个渠道吗？",
+        "description": "是的。支持 Telegram、Discord 和 WhatsApp。"
+      },
+      {
+        "title": "部署需要多长时间？",
+        "description": "通常不到 1 分钟。首次设置可能需要更长的时间。"
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "准备好推出 OpenClaw 了吗？",
+    "description": "不到一分钟即可部署您的第一个助手。无需服务器，无需维护，没有学习曲线。",
+    "note": "随时取消。没有长期合同。",
+    "buttons": [
+      {
+        "title": "部署OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "部署OpenClaw AI助手的最简单方法。",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • Easyclaw。版权所有。",
+    "nav": {
+      "items": [
+        {
+          "title": "关于",
+          "children": [
+            {
+              "title": "特点",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "定价",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "博客",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "常见问题解答",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "电子邮件支持",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw是一个独立的产品，不隶属于任何第三方模型提供商或商标所有者。",
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "退款政策",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "定价",
+    "title": "定价",
+    "description": "根据您需要的 OpenClaw 部署数量选择计划。随时从您的帐户取消。",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "每月",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "每年",
+        "is_featured": true,
+        "label": "节省 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "专业版",
+        "label": "热门",
+        "features_title": "核心部署功能",
+        "features": [
+          "最多 5 个活动 OpenClaw 部署",
+          "一键部署、重启、重新部署",
+          "型号和通道配置预设",
+          "部署状态仪表板",
+          "基本使用分析",
+          "电子邮件支持",
+          "商业用途",
+          "访问新的部署功能"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 美元",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "获取专业版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw 专业月刊",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "高级版",
+        "features_title": "Pro 中的所有内容，以及",
+        "features": [
+          "最多 20 个活动 OpenClaw 部署",
+          "优先级配置队列",
+          "可重复使用的模型和通道预设",
+          "部署状态的 Webhook 警报",
+          "团队访问（最多 3 名成员）",
+          "API接入",
+          "优先支持",
+          "抢先体验测试版功能"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 美元",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "获得高级版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw 每月高级版",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "专业版",
+        "label": "热门",
+        "features_title": "核心部署功能",
+        "features": [
+          "最多 5 个活动 OpenClaw 部署",
+          "一键部署、重启、重新部署",
+          "型号和通道配置预设",
+          "部署状态仪表板",
+          "基本使用分析",
+          "电子邮件支持",
+          "商业用途",
+          "访问新的部署功能"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 美元",
+        "original_price": "原价：$10/月",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "获取专业版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro 每年",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "高级版",
+        "features_title": "Pro 中的所有内容，以及",
+        "features": [
+          "最多 20 个活动 OpenClaw 部署",
+          "优先级配置队列",
+          "可重复使用的模型和通道预设",
+          "部署状态的 Webhook 警报",
+          "团队访问（最多 3 名成员）",
+          "API接入",
+          "优先支持",
+          "抢先体验测试版功能"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 美元",
+        "original_price": "原价：$20/月",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "获得高级版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw 每年保费",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

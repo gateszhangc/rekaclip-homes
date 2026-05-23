@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "อิมเมจฟลิปเปอร์",
+    "description": "พลิกภาพในแนวนอนหรือแนวตั้งด้วยคุณภาพระดับมืออาชีพ",
+    "disabled": false,
+    "upload": {
+      "title": "ลากและวางรูปภาพ",
+      "description": "รองรับ PNG, JPG, JPEG, WebP สูงสุด 10MB",
+      "buttonText": "เรียกดูไฟล์",
+      "dragDropText": "วาง วาง หรือเพิ่ม URL",
+      "selectFileText": "เลือกไฟล์รูปภาพ",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "พร้อมที่จะพลิก",
+      "replace": "แทนที่",
+      "remove": "ลบ"
+    },
+    "controls": {
+      "horizontalFlip": "พลิกแนวนอน",
+      "verticalFlip": "พลิกแนวตั้ง",
+      "processing": "กำลังประมวลผล...",
+      "uploading": "กำลังอัปโหลด..."
+    },
+    "preview": {
+      "originalAlt": "ภาพต้นฉบับ",
+      "flippedAlt": "ภาพที่พลิก",
+      "download": "ดาวน์โหลด"
+    },
+    "credits": {
+      "label": "เครดิต:",
+      "cost": "ราคาต่อการพลิก:",
+      "insufficient": "เครดิตไม่เพียงพอ"
+    },
+    "errors": {
+      "noImage": "ไม่ได้เลือกรูปภาพ",
+      "noImageSuggestion": "กรุณาอัพโหลดภาพก่อน",
+      "invalidFormat": "รูปแบบไฟล์ที่ไม่รองรับ",
+      "formatSuggestion": "โปรดใช้หนึ่งใน: {formats}",
+      "fileTooLarge": "ไฟล์ใหญ่เกินไป: {size}MB",
+      "sizeSuggestion": "ขนาดสูงสุดคือ {maxSize}MB โปรดบีบอัดหรือเลือกไฟล์ที่เล็กลง",
+      "uploadFailed": "ล้มเหลวในการอัปโหลดภาพ",
+      "uploadSuggestion": "ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+      "authRequired": "จำเป็นต้องมีการตรวจสอบสิทธิ์",
+      "authSuggestion": "กรุณาเข้าสู่ระบบเพื่ออัพโหลดภาพ",
+      "processingFailed": "การดำเนินการพลิกล้มเหลว",
+      "processingSuggestion": "โปรดลองอีกครั้งหรือติดต่อฝ่ายสนับสนุนหากปัญหายังคงอยู่",
+      "networkError": "ปัญหาการเชื่อมต่อเครือข่าย",
+      "networkSuggestion": "ตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+      "fileReadError": "ไม่สามารถอ่านไฟล์ได้",
+      "fileReadSuggestion": "โปรดลองเลือกไฟล์อีกครั้ง",
+      "retry": "ลองอีกครั้ง"
+    },
+    "messages": {
+      "uploadSuccess": "อัพโหลดรูปภาพสำเร็จ",
+      "flipSuccess": "พลิกภาพสำเร็จ",
+      "downloadStarted": "เริ่มดาวน์โหลดแล้ว"
+    },
+    "legal": {
+      "terms": "การอัปโหลดไฟล์แสดงว่าคุณยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวของเรา"
+    }
+  }
+}

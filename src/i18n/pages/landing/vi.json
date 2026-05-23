@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Tính năng",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Định giá",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Blog",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "Câu hỏi thường gặp",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "Logo EasyClaw"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "Tạo nghệ thuật chất lượng cao",
+    "description": "Tải ảnh chân dung lên, chọn kiểu và có được bức tranh biếm họa rõ ràng cho hình đại diện, quà tặng hoặc nội dung.",
+    "features": [
+      "Chi tiết chất lượng cao và đường nét rõ ràng",
+      "Giá cả hợp lý để sử dụng hàng ngày",
+      "Sẵn sàng cho hồ sơ, quà tặng và bản in"
+    ],
+    "buttons": [
+      {
+        "title": "Tạo bức tranh biếm họa của tôi",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "Ví dụ biếm họa"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "Ví dụ biếm họa 1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "Ví dụ biếm họa 2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "Ví dụ biếm họa 3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "Được hỗ trợ bởi công nghệ tiên tiến",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "đúng",
+    "name": "introduce",
+    "title": "Cách tạo một bức tranh biếm họa",
+    "label": "Quy trình đơn giản",
+    "description": "Tạo những bức tranh biếm họa tuyệt đẹp trong ba bước đơn giản. Không cần có kỹ năng nghệ thuật.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "Tải ảnh lên",
+        "description": "Tải lên một bức ảnh chân dung rõ ràng. Chúng tôi hỗ trợ JPG, PNG và WebP.",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "chọn kiểu",
+        "description": "Chọn từ các phong cách hài hước, cường điệu, anime hoặc hoạt hình 3D.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Tải xuống",
+        "description": "Nhận bức tranh biếm họa chất lượng cao của bạn ngay lập tức mà không có hình mờ.",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "đúng",
+    "name": "benefit",
+    "title": "Tại sao nên sử dụng OpenClaw?",
+    "label": "Lợi ích",
+    "description": "Công cụ hoàn hảo để tặng quà, ảnh hồ sơ và nội dung mạng xã hội.",
+    "items": [
+      {
+        "title": "Phép thuật AI tức thì",
+        "description": "AI tiên tiến phân tích các đặc điểm trên khuôn mặt để tạo ra những bức tranh biếm họa phóng đại hoàn hảo chỉ trong vài giây.",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Phong cách nghệ thuật đa dạng",
+        "description": "Từ hình vẽ tay cổ điển đến hình đại diện hoạt hình 3D hiện đại. Chúng tôi có tất cả.",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Độ phân giải cao",
+        "description": "Tải xuống hình ảnh sắc nét, chất lượng cao, phù hợp để in trên cốc, áo phông và áp phích.",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "Thư viện ảnh",
+    "title": "Sự biến đổi đáng kinh ngạc",
+    "description": "Xem những bức ảnh bình thường trở thành những bức tranh biếm họa đặc biệt như thế nào.",
+    "items": [
+      {
+        "title": "Hình đại diện xã hội",
+        "highlight": "Nổi bật trực tuyến",
+        "description": "Tạo một hình ảnh hồ sơ độc đáo thể hiện cá tính của bạn.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "Ảnh gốc",
+        "afterAlt": "Kết quả biếm họa",
+        "reverse": false
+      },
+      {
+        "title": "Quà tặng cá nhân",
+        "highlight": "Những món quà đáng nhớ",
+        "description": "Gây ngạc nhiên cho bạn bè và gia đình bằng một bức chân dung hài hước tùy chỉnh.",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "Ảnh gốc",
+        "afterAlt": "Kết quả biếm họa",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "3 bước để triển khai OpenClaw",
+    "description": "Chọn mô hình của bạn, kết nối một kênh và khởi chạy.",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "trái",
+    "text_align": "trung tâm",
+    "items": [
+      {
+        "title": "Chọn một mô hình",
+        "description": "Claude, GPT, Gemini - chọn mô hình tốt nhất cho từng nhiệm vụ. Làm việc sáng tạo với Claude, phân tích với GPT. Chuyển đổi bất cứ lúc nào.",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "Chọn mô hình AI - Claude, GPT hoặc Gemini"
+        }
+      },
+      {
+        "title": "Kết nối một kênh",
+        "description": "Telegram, Discord, WhatsApp — một trang tổng quan cho tất cả các kênh. Quản lý tất cả các cuộc hội thoại từ một nơi, không cần chuyển đổi ứng dụng nữa.",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "Kết nối các kênh nhắn tin"
+        }
+      },
+      {
+        "title": "Triển khai và bắt đầu",
+        "description": "Trợ lý AI của bạn sẽ trực tuyến sau 60 giây. Gửi tin nhắn đầu tiên của bạn và bắt đầu tự động hóa.",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "Triển khai và khởi động trợ lý của bạn"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "Tạo bức tranh biếm họa của bạn",
+    "description": "Tải ảnh lên, chọn kiểu và tạo."
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "Xưởng tranh biếm họa",
+    "description": "Tải ảnh lên, chọn kiểu và tạo tranh biếm họa chất lượng cao.",
+    "disabled": false,
+    "upload": {
+      "title": "Tải ảnh của bạn lên",
+      "description": "Kéo và thả hoặc nhấp để tải lên (JPG, PNG, WebP tối đa 10MB)",
+      "buttonText": "Chọn hình ảnh",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Biếm họa của bạn",
+      "textListTitle": "Cài đặt kiểu",
+      "fontRecommendationTitle": "Kiểu được đề xuất",
+      "detectedFontLabel": "Lựa chọn hiện tại",
+      "similarFontsLabel": "Hãy thử những thứ này quá",
+      "selectTextPrompt": "Chọn một kiểu để áp dụng"
+    },
+    "actions": {
+      "reuploadText": "Thử ảnh khác"
+    },
+    "messages": {
+      "uploadSuccess": "Đã tải ảnh lên thành công!",
+      "uploadError": "Rất tiếc, tải lên không thành công. Vui lòng thử lại.",
+      "recognitionSuccess": "Bức tranh biếm họa của bạn đã sẵn sàng!",
+      "recognitionError": "Thế hệ thất bại. Vui lòng thử lại.",
+      "fontRecognitionSuccess": "Phong cách được áp dụng!",
+      "fontRecognitionError": "Không áp dụng được kiểu.",
+      "processing": "Tạo bức tranh biếm họa của bạn..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "Nói lời tạm biệt với những rắc rối",
+    "description": "Xem những thay đổi khi bạn chuyển sang EasyClaw",
+    "before_label": "Thiết lập truyền thống",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "Thuê máy chủ, cấu hình môi trường",
+        "after": "Triển khai bằng một cú nhấp chuột, không cần máy chủ"
+      },
+      {
+        "before": "Thức dậy để sửa thông báo 3 giờ sáng",
+        "after": "Hoạt động tự động 24/7"
+      },
+      {
+        "before": "Cập nhật thủ công các phiên bản OpenClaw",
+        "after": "Tự động cập nhật lên phiên bản mới nhất"
+      },
+      {
+        "before": "Tìm hiểu các lệnh Docker, Linux",
+        "after": "Không yêu cầu kỹ năng kỹ thuật"
+      },
+      {
+        "before": "Hơn 30 phút cho mỗi lần triển khai",
+        "after": "Triển khai trong vòng chưa đầy 60 giây"
+      }
+    ],
+    "footer": "Thời gian tiết kiệm: ~29 phút cho mỗi lần triển khai"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "Tại sao các đội chọn EasyClaw",
+    "description": "Triển khai sẵn sàng sản xuất mà không cần chi phí DevOps. Không cần bảo trì, tập trung tối đa.",
+    "items": [
+      {
+        "title": "Triển khai trong 60 giây",
+        "description": "Từ số 0 đến chạy trong chưa đầy một phút. Không có Docker, không có lệnh Linux, không cần thiết lập máy chủ.",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "Không cần bảo trì",
+        "description": "Chúng tôi xử lý các bản cập nhật, giám sát và phục hồi. Bạn chỉ cần tập trung vào việc sử dụng trợ lý AI của mình.",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "Tính linh hoạt của mô hình",
+        "description": "Chuyển đổi giữa Claude, GPT và Gemini bất cứ lúc nào. Sử dụng mô hình tốt nhất cho mỗi nhiệm vụ.",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "Kênh hợp nhất",
+        "description": "Quản lý Telegram, Discord và WhatsApp từ một trang tổng quan. Không còn chuyển đổi ứng dụng nữa.",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "Luôn cập nhật",
+        "description": "Cập nhật OpenClaw tự động. Luôn sử dụng các tính năng mới nhất mà không cần nhấc ngón tay.",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "Tự tin mở rộng quy mô",
+        "description": "Bắt đầu một mình, sau đó tăng mức sử dụng giữa các nhóm và các trường hợp sử dụng. Từ 1 đến 100 lần triển khai.",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "Triển khai OpenClaw cho mọi quy trình công việc",
+    "description": "Một trợ lý, nhiều trường hợp sử dụng. Khởi chạy một lần, tự động hóa ở mọi nơi.",
+    "items": [
+      {
+        "title": "Tóm tắt hàng ngày",
+        "description": "Biến tin nhắn và cập nhật thành bản tóm tắt buổi sáng ngắn gọn cho nhóm của bạn.",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "Quy trình tự động hóa cuộc họp giao ban hàng ngày"
+        },
+        "buttons": [
+          {
+            "title": "Tìm hiểu thêm ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "Trợ lý hỗ trợ khách hàng",
+        "description": "Định tuyến các câu hỏi, trả lời nháp và giữ cho các kênh hỗ trợ luôn phản hồi.",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "Quy trình tự động hóa hỗ trợ khách hàng"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "Bắt đầu triển khai ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "Tự động hóa hoạt động nhóm",
+        "description": "Tự động hóa lời nhắc, báo cáo trạng thái và theo dõi định kỳ trên các kênh.",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "Quy trình tự động hóa hoạt động nhóm"
+        },
+        "buttons": [
+          {
+            "title": "Xem giá ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "sai",
+    "name": "stats",
+    "label": "Điểm nổi bật",
+    "title": "Được xây dựng để khởi chạy nhanh",
+    "description": "Mọi thứ cần thiết để chạy OpenClaw một cách đáng tin cậy.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Thời gian triển khai lần đầu",
+        "label": "< 1 phút",
+        "description": "Từ thiết lập đến trợ lý chạy"
+      },
+      {
+        "title": "Các kênh được hỗ trợ",
+        "label": "3+",
+        "description": "Telegram, Discord, WhatsApp"
+      },
+      {
+        "title": "Khả năng hiển thị triển khai",
+        "label": "thời gian thực",
+        "description": "Theo dõi trạng thái đang chạy và thất bại"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "Đánh giá",
+    "title": "Người dùng đang nói gì",
+    "description": "Hãy xem tại sao mọi người lại nói về OpenClaw.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Jenkins",
+        "label": "Người quản lý phương tiện truyền thông xã hội",
+        "description": "Tôi đã tạo một bức ảnh nhóm vui nhộn cho trang Giới thiệu của chúng tôi. Mọi người đều yêu thích nó!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Mike Ross",
+        "label": "Người làm nghề tự do",
+        "description": "Đã sử dụng tính năng này để tạo một hình đại diện độc đáo cho hồ sơ làm việc tự do của tôi. Nó nổi bật!",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emily Chen",
+        "label": "sinh viên",
+        "description": "Làm những bức tranh biếm họa về tất cả bạn bè của tôi để làm thiệp sinh nhật. Món quà tốt nhất bao giờ hết.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Miller",
+        "label": "Người sáng tạo nội dung",
+        "description": "Các phong cách khác nhau là tuyệt vời. Tôi sử dụng kiểu 3D cho hình thu nhỏ của mình.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Jessica Vương",
+        "label": "Trưởng nhóm tiếp thị",
+        "description": "Nhanh chóng, dễ dàng và kết quả thực sự rất buồn cười chứ không chỉ kỳ lạ.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Tom Baker",
+        "label": "Nhà phát triển",
+        "description": "API siêu đơn giản và kết quả tuyệt vời cho dự án thú cưng của tôi.",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "Câu hỏi thường gặp",
+    "title": "Câu hỏi thường gặp",
+    "description": "Mọi thứ bạn cần trước khi triển khai OpenClaw với EasyClaw.",
+    "items": [
+      {
+        "title": "EasyClaw giá bao nhiêu?",
+        "description": "Các kế hoạch bắt đầu ở mức $10/tháng. Hủy bất cứ lúc nào từ tài khoản của bạn."
+      },
+      {
+        "title": "Tôi có cần quản lý máy chủ không?",
+        "description": "Không. EasyClaw hợp lý hóa quy trình triển khai để bạn có thể khởi chạy OpenClaw mà không cần máy chủ hoặc DevOps."
+      },
+      {
+        "title": "Những mô hình nào được hỗ trợ?",
+        "description": "Claude, GPT và Gemini."
+      },
+      {
+        "title": "Tôi có thể triển khai lên nhiều kênh không?",
+        "description": "Vâng. Telegram, Discord và WhatsApp được hỗ trợ."
+      },
+      {
+        "title": "Triển khai mất bao lâu?",
+        "description": "Thông thường dưới 1 phút. Thiết lập lần đầu có thể mất nhiều thời gian hơn."
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "Sẵn sàng ra mắt OpenClaw?",
+    "description": "Triển khai trợ lý đầu tiên của bạn trong vòng chưa đầy một phút. Không có máy chủ, không cần bảo trì, không có đường cong học tập.",
+    "note": "Hủy bỏ bất cứ lúc nào. Không có hợp đồng dài hạn.",
+    "buttons": [
+      {
+        "title": "Triển khai OpenClaw",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "Cách dễ nhất để triển khai trợ lý AI OpenClaw.",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • easyclaw. Mọi quyền được bảo lưu.",
+    "nav": {
+      "items": [
+        {
+          "title": "Giới thiệu",
+          "children": [
+            {
+              "title": "Tính năng",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Định giá",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "Blog",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "Câu hỏi thường gặp",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "Hỗ trợ qua email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw là một sản phẩm độc lập và không liên kết với bất kỳ nhà cung cấp mô hình bên thứ ba hoặc chủ sở hữu nhãn hiệu nào.",
+    "agreement": {
+      "items": [
+        {
+          "title": "Chính sách bảo mật",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Điều khoản dịch vụ",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Chính sách hoàn tiền",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "Định giá",
+    "title": "Định giá",
+    "description": "Chọn gói dựa trên số lượng triển khai OpenClaw bạn cần. Hủy bất cứ lúc nào từ tài khoản của bạn.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "hàng tháng",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Hàng năm",
+        "is_featured": true,
+        "label": "Tiết kiệm 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "chuyên nghiệp",
+        "label": "phổ biến",
+        "features_title": "Các tính năng triển khai cốt lõi",
+        "features": [
+          "Tối đa 5 lần triển khai OpenClaw đang hoạt động",
+          "Triển khai, khởi động lại và triển khai lại bằng một cú nhấp chuột",
+          "Cài đặt trước cấu hình mô hình và kênh",
+          "Bảng thông tin trạng thái triển khai",
+          "Phân tích sử dụng cơ bản",
+          "Hỗ trợ qua email",
+          "sử dụng thương mại",
+          "Truy cập vào các tính năng triển khai mới"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Nhận chuyên nghiệp",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro hàng tháng",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Cao cấp",
+        "features_title": "Mọi thứ trong Pro, cộng thêm",
+        "features": [
+          "Lên đến 20 triển khai OpenClaw đang hoạt động",
+          "Hàng đợi cung cấp ưu tiên",
+          "Mô hình có thể tái sử dụng và cài đặt trước kênh",
+          "Cảnh báo Webhook về trạng thái triển khai",
+          "Quyền truy cập nhóm (tối đa 3 thành viên)",
+          "Truy cập API",
+          "Hỗ trợ ưu tiên",
+          "Quyền truy cập sớm vào các tính năng beta"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Nhận phí bảo hiểm",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw trả phí hàng tháng",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "chuyên nghiệp",
+        "label": "phổ biến",
+        "features_title": "Các tính năng triển khai cốt lõi",
+        "features": [
+          "Tối đa 5 lần triển khai OpenClaw đang hoạt động",
+          "Triển khai, khởi động lại và triển khai lại bằng một cú nhấp chuột",
+          "Cài đặt trước cấu hình mô hình và kênh",
+          "Bảng thông tin trạng thái triển khai",
+          "Phân tích sử dụng cơ bản",
+          "Hỗ trợ qua email",
+          "sử dụng thương mại",
+          "Truy cập vào các tính năng triển khai mới"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$5",
+        "original_price": "Giá gốc: 10$/tháng",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Nhận chuyên nghiệp",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro hàng năm",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Cao cấp",
+        "features_title": "Mọi thứ trong Pro, cộng thêm",
+        "features": [
+          "Lên đến 20 triển khai OpenClaw đang hoạt động",
+          "Hàng đợi cung cấp ưu tiên",
+          "Mô hình có thể tái sử dụng và cài đặt trước kênh",
+          "Cảnh báo Webhook về trạng thái triển khai",
+          "Quyền truy cập nhóm (tối đa 3 thành viên)",
+          "Truy cập API",
+          "Hỗ trợ ưu tiên",
+          "Quyền truy cập sớm vào các tính năng beta"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$10",
+        "original_price": "Giá gốc: 20$/tháng",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "Nhận phí bảo hiểm",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw Premium hàng năm",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

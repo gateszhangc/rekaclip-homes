@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Preços",
+    "title": "Preços",
+    "description": "Escolha um plano com base em quantas implantações OpenClaw você precisa. Cancele a qualquer momento da sua conta.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Mensalmente",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Anualmente",
+        "is_featured": true,
+        "label": "Economize 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "Iniciante",
+        "label": "ACESSO ANTECIPADO",
+        "description": "Tudo que você precisa para executar o OpenClaw. Nada que você não faça.",
+        "features_title": "Avaliação gratuita incluída",
+        "features": [
+          "Tempo de execução OpenClaw totalmente gerenciado",
+          "Agente pronto para Telegram",
+          "Configuração zero",
+          "1 agente OpenClaw",
+          "Claude, ChatGPT ou Gemini - nós administramos para você",
+          "Nenhuma chave API necessária",
+          "Uso incluído por plano. Cancele a qualquer momento."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "US$ 10",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Experimente gratuitamente. Não é necessário cartão de crédito.",
+        "button": {
+          "title": "Execute OpenClaw instantaneamente",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Inicial Mensal",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pró",
+        "label": "Populares",
+        "features_title": "Recursos principais de implantação",
+        "features": [
+          "Até 5 implantações OpenClaw ativas",
+          "Implantar, reiniciar e reimplantar com um clique",
+          "Predefinições de configuração de modelo e canal",
+          "Painel de status de implantação",
+          "Análise básica de uso",
+          "Suporte por e-mail",
+          "Uso comercial",
+          "Acesso a novos recursos de implantação"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "US$ 20",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Torne-se profissional",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Mensal",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Iniciante",
+        "label": "ACESSO ANTECIPADO",
+        "description": "Tudo que você precisa para executar o OpenClaw. Nada que você não faça.",
+        "features_title": "Avaliação gratuita incluída",
+        "features": [
+          "Tempo de execução OpenClaw totalmente gerenciado",
+          "Agente pronto para Telegram",
+          "Configuração zero",
+          "1 agente OpenClaw",
+          "Claude, ChatGPT ou Gemini - nós administramos para você",
+          "Nenhuma chave API necessária",
+          "Uso incluído por plano. Cancele a qualquer momento."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "US$ 5",
+        "original_price": "Preço original: $ 10 /mês",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Experimente gratuitamente. Não é necessário cartão de crédito.",
+        "button": {
+          "title": "Execute OpenClaw instantaneamente",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Starter Anualmente",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pró",
+        "label": "Populares",
+        "features_title": "Recursos principais de implantação",
+        "features": [
+          "Até 5 implantações OpenClaw ativas",
+          "Implantar, reiniciar e reimplantar com um clique",
+          "Predefinições de configuração de modelo e canal",
+          "Painel de status de implantação",
+          "Análise básica de uso",
+          "Suporte por e-mail",
+          "Uso comercial",
+          "Acesso a novos recursos de implantação"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "US$ 10",
+        "original_price": "Preço original: $ 20 /mês",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Torne-se profissional",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Anualmente",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

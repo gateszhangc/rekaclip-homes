@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "التسعير",
+    "title": "التسعير",
+    "description": "اختر خطة بناءً على عدد عمليات نشر OpenClaw التي تحتاجها. قم بالإلغاء في أي وقت من حسابك.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "شهريا",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "سنويا",
+        "is_featured": true,
+        "label": "وفر 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "كاتب",
+        "label": "الوصول المبكر",
+        "description": "كل ما تحتاجه لتشغيل OpenClaw. لا شيء لا تفعله.",
+        "features_title": "وشملت التجربة المجانية",
+        "features": [
+          "وقت تشغيل OpenClaw مُدار بالكامل",
+          "وكيل Telegram جاهز",
+          "الإعداد صفر",
+          "1 وكيل OpenClaw",
+          "Claude أو ChatGPT أو Gemini - نقوم بتشغيله من أجلك",
+          "لا يوجد مفتاح API مطلوب",
+          "الاستخدام متضمن لكل خطة. إلغاء في أي وقت."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 دولارات",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "حاول مجانا. لا حاجة لبطاقة الائتمان.",
+        "button": {
+          "title": "قم بتشغيل OpenClaw على الفور",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw كاتب شهري",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "برو",
+        "label": "شعبية",
+        "features_title": "ميزات النشر الأساسية",
+        "features": [
+          "ما يصل إلى 5 عمليات نشر نشطة لـ OpenClaw",
+          "النشر بنقرة واحدة، وإعادة التشغيل، وإعادة النشر",
+          "الإعدادات المسبقة لتكوين النموذج والقناة",
+          "لوحة معلومات حالة النشر",
+          "تحليلات الاستخدام الأساسية",
+          "دعم البريد الإلكتروني",
+          "الاستخدام التجاري",
+          "الوصول إلى ميزات النشر الجديدة"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 دولارًا",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "احصل على برو",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw برو الشهرية",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "كاتب",
+        "label": "الوصول المبكر",
+        "description": "كل ما تحتاجه لتشغيل OpenClaw. لا شيء لا تفعله.",
+        "features_title": "وشملت التجربة المجانية",
+        "features": [
+          "وقت تشغيل OpenClaw مُدار بالكامل",
+          "وكيل Telegram جاهز",
+          "الإعداد صفر",
+          "1 وكيل OpenClaw",
+          "Claude أو ChatGPT أو Gemini - نقوم بتشغيله من أجلك",
+          "لا يوجد مفتاح API مطلوب",
+          "الاستخدام متضمن لكل خطة. إلغاء في أي وقت."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 دولارات",
+        "original_price": "السعر الأصلي: 10 دولارات شهريًا",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "حاول مجانا. لا حاجة لبطاقة الائتمان.",
+        "button": {
+          "title": "قم بتشغيل OpenClaw على الفور",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw كاتب سنويا",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "برو",
+        "label": "شعبية",
+        "features_title": "ميزات النشر الأساسية",
+        "features": [
+          "ما يصل إلى 5 عمليات نشر نشطة لـ OpenClaw",
+          "النشر بنقرة واحدة، وإعادة التشغيل، وإعادة النشر",
+          "الإعدادات المسبقة لتكوين النموذج والقناة",
+          "لوحة معلومات حالة النشر",
+          "تحليلات الاستخدام الأساسية",
+          "دعم البريد الإلكتروني",
+          "الاستخدام التجاري",
+          "الوصول إلى ميزات النشر الجديدة"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 دولارات",
+        "original_price": "السعر الأصلي: 20 دولارًا شهريًا",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "احصل على برو",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro سنويًا",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

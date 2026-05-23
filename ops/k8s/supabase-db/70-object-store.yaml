@@ -1,0 +1,29 @@
+apiVersion: barmancloud.cnpg.io/v1
+kind: ObjectStore
+metadata:
+  name: supabase-pg-backup
+  namespace: supabase-db
+spec:
+  configuration:
+    destinationPath: ${BACKUP_DESTINATION_PATH}
+    endpointURL: ${BACKUP_ENDPOINT_URL}
+    s3Credentials:
+      accessKeyId:
+        name: supabase-backup-secret
+        key: ACCESS_KEY_ID
+      secretAccessKey:
+        name: supabase-backup-secret
+        key: ACCESS_SECRET_KEY
+  instanceSidecarConfiguration:
+    resources:
+      requests:
+        cpu: 100m
+        memory: 128Mi
+      limits:
+        cpu: 500m
+        memory: 512Mi
+    env:
+      - name: AWS_REQUEST_CHECKSUM_CALCULATION
+        value: when_required
+      - name: AWS_RESPONSE_CHECKSUM_VALIDATION
+        value: when_required

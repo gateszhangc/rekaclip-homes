@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "תדמית פליפר",
+    "description": "העלה תמונה להיפוך ושיפור צבע מקצועי",
+    "disabled": false,
+    "upload": {
+      "title": "גרור ושחרר תמונה",
+      "description": "תומך ב-PNG, JPG, JPEG, WebP עד 10MB",
+      "buttonText": "בחר קובץ",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "תמונה נקייה",
+      "textListTitle": "אזורי טקסט שזוהו",
+      "fontRecommendationTitle": "הצעות הסרה",
+      "detectedFontLabel": "אזור נבחר",
+      "similarFontsLabel": "מילוי חלופי",
+      "selectTextPrompt": "בחר בלוק טקסט להסרה"
+    },
+    "actions": {
+      "reuploadText": "העלה מחדש"
+    },
+    "messages": {
+      "uploadSuccess": "התמונה הועלתה בהצלחה",
+      "uploadError": "העלאת התמונה נכשלה",
+      "recognitionSuccess": "הגילוי הושלם",
+      "recognitionError": "הזיהוי נכשל",
+      "fontRecognitionSuccess": "הסרת הטקסט הושלמה",
+      "fontRecognitionError": "הסרת הטקסט נכשלה",
+      "processing": "מעבד..."
+    }
+  }
+}

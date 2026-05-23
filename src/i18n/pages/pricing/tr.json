@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Fiyatlandırma",
+    "title": "Fiyatlandırma",
+    "description": "İhtiyacınız olan OpenClaw dağıtımının sayısına göre bir plan seçin. Hesabınızdan istediğiniz zaman iptal edin.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Aylık",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Yıllık",
+        "is_featured": true,
+        "label": "%50 tasarruf edin"
+      }
+    ],
+    "items": [
+      {
+        "title": "Başlangıç",
+        "label": "ERKEN ERİŞİM",
+        "description": "OpenClaw'yi çalıştırmak için ihtiyacınız olan her şey. Yapmadığın hiçbir şey yok.",
+        "features_title": "Ücretsiz deneme dahil",
+        "features": [
+          "Tümüyle yönetilen OpenClaw çalışma zamanı",
+          "Telegram'ye hazır aracı",
+          "Sıfır kurulum",
+          "1 OpenClaw aracısı",
+          "Claude, ChatGPT veya Gemini - sizin için çalıştırıyoruz",
+          "API anahtarı gerekmez",
+          "Kullanım plan başına dahildir. İstediğiniz zaman iptal edin."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10$",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Ücretsiz deneyin. Kredi kartı gerekmez.",
+        "button": {
+          "title": "OpenClaw'yi anında çalıştırın",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Başlangıç Aylık",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Profesyonel",
+        "label": "Popüler",
+        "features_title": "Çekirdek dağıtım özellikleri",
+        "features": [
+          "5 adede kadar aktif OpenClaw dağıtımı",
+          "Tek tıklamayla dağıtın, yeniden başlatın ve yeniden konuşlandırın",
+          "Model ve kanal yapılandırması ön ayarları",
+          "Dağıtım durumu kontrol paneli",
+          "Temel kullanım analitiği",
+          "E-posta desteği",
+          "Ticari kullanım",
+          "Yeni dağıtım özelliklerine erişim"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20$",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Pro'yu edinin",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Aylık",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Başlangıç",
+        "label": "ERKEN ERİŞİM",
+        "description": "OpenClaw'yi çalıştırmak için ihtiyacınız olan her şey. Yapmadığın hiçbir şey yok.",
+        "features_title": "Ücretsiz deneme dahil",
+        "features": [
+          "Tümüyle yönetilen OpenClaw çalışma zamanı",
+          "Telegram'ye hazır aracı",
+          "Sıfır kurulum",
+          "1 OpenClaw aracısı",
+          "Claude, ChatGPT veya Gemini - sizin için çalıştırıyoruz",
+          "API anahtarı gerekmez",
+          "Kullanım plan başına dahildir. İstediğiniz zaman iptal edin."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5$",
+        "original_price": "Orijinal Fiyat: 10$ /ay",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Ücretsiz deneyin. Kredi kartı gerekmez.",
+        "button": {
+          "title": "OpenClaw'yi anında çalıştırın",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Başlangıç Yıllık",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Profesyonel",
+        "label": "Popüler",
+        "features_title": "Çekirdek dağıtım özellikleri",
+        "features": [
+          "5 adede kadar aktif OpenClaw dağıtımı",
+          "Tek tıklamayla dağıtın, yeniden başlatın ve yeniden konuşlandırın",
+          "Model ve kanal yapılandırması ön ayarları",
+          "Dağıtım durumu kontrol paneli",
+          "Temel kullanım analitiği",
+          "E-posta desteği",
+          "Ticari kullanım",
+          "Yeni dağıtım özelliklerine erişim"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10$",
+        "original_price": "Orijinal Fiyat: 20$ /ay",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Pro'yu edinin",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Yıllık",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

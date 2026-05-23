@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "छवि फ़्लिपर",
+    "description": "पेशेवर रंग उलटाव और वृद्धि के लिए एक छवि अपलोड करें",
+    "disabled": false,
+    "upload": {
+      "title": "किसी छवि को खींचें और छोड़ें",
+      "description": "10MB तक PNG, JPG, JPEG, WebP को सपोर्ट करता है",
+      "buttonText": "एक फ़ाइल चुनें",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "स्वच्छ छवि",
+      "textListTitle": "पता लगाए गए पाठ क्षेत्र",
+      "fontRecommendationTitle": "हटाने के सुझाव",
+      "detectedFontLabel": "चयनित क्षेत्र",
+      "similarFontsLabel": "वैकल्पिक भरण",
+      "selectTextPrompt": "हटाने के लिए एक टेक्स्ट ब्लॉक चुनें"
+    },
+    "actions": {
+      "reuploadText": "पुनः अपलोड करें"
+    },
+    "messages": {
+      "uploadSuccess": "छवि सफलतापूर्वक अपलोड हो गई",
+      "uploadError": "छवि अपलोड करने में विफल",
+      "recognitionSuccess": "जांच पूरी हुई",
+      "recognitionError": "पता लगाना विफल रहा",
+      "fontRecognitionSuccess": "पाठ हटाना पूरा हुआ",
+      "fontRecognitionError": "पाठ हटाना विफल रहा",
+      "processing": "प्रसंस्करण..."
+    }
+  }
+}

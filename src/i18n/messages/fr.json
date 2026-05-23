@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - Déployez OpenClaw en moins d'une minute",
+    "description": "Déployez OpenClaw avec EasyClaw en un clic. Connectez Telegram, choisissez un modèle et lancez le live rapidement.",
+    "keywords": "easyclaw, déployer openclaw, hébergement openclaw, déploiement de robots télégrammes, déploiement d'assistant IA"
+  },
+  "blog": {
+    "title": "Blogue",
+    "description": "Actualités, didacticiels et mises à jour sur le déploiement de OpenClaw avec EasyClaw.",
+    "read_more_text": "Lire la suite"
+  },
+  "user": {
+    "sign_in": "Connectez-vous",
+    "sign_out": "Se déconnecter",
+    "credits": "Crédits",
+    "api_keys": "Clés API",
+    "my_orders": "Mes commandes",
+    "my_invites": "Mes invitations",
+    "user_center": "Centre utilisateur",
+    "support": "Assistance",
+    "admin_system": "Système d'administration",
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "admin_center": "Centre d'administration"
+  },
+  "sign_modal": {
+    "sign_in_title": "Connectez-vous à EasyClaw",
+    "sign_in_description": "Accédez à votre compte EasyClaw pour déployer et gérer OpenClaw.",
+    "sign_up_title": "Rejoignez EasyClaw",
+    "sign_up_description": "Créez votre compte EasyClaw",
+    "email_title": "Courriel",
+    "email_placeholder": "Entrez votre adresse e-mail",
+    "password_title": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "forgot_password": "Mot de passe oublié ?",
+    "or": "Ou",
+    "continue": "Continuer vers EasyClaw",
+    "no_account": "Nouveau sur EasyClaw ?",
+    "email_sign_in": "Connectez-vous avec e-mail",
+    "google_sign_in": "Continuer avec Google",
+    "github_sign_in": "Continuer avec GitHub",
+    "close_title": "Fermer",
+    "cancel_title": "Annuler"
+  },
+  "my_orders": {
+    "title": "Mes commandes",
+    "no_orders": "Aucune commande trouvée",
+    "tip": "",
+    "support_tip": "Besoin d'aide pour la facturation ou l'annulation ? Envoyez un e-mail à support@easyclaw.pro.",
+    "activate_order": "Activer la commande",
+    "actived": "Activé",
+    "join_discord": "Rejoignez Discord",
+    "read_docs": "Lire les documents",
+    "table": {
+      "order_no": "Numéro de commande",
+      "email": "Courriel",
+      "product_name": "Nom du produit",
+      "amount": "Montant",
+      "paid_at": "Payé à",
+      "github_username": "Nom d'utilisateur GitHub",
+      "status": "Statut",
+      "manage_billing": "Gérer la facturation",
+      "interval": "Interval",
+      "interval_month": "Mensuel",
+      "interval_year": "Annuellement",
+      "interval_one_time": "Une fois"
+    }
+  },
+  "my_credits": {
+    "title": "Mes crédits",
+    "left_tip": "crédits de gauche : {left_credits}",
+    "no_credits": "Aucun enregistrement de crédits",
+    "recharge": "Recharger",
+    "table": {
+      "trans_no": "Numéro de transmission",
+      "trans_type": "Type de transmission",
+      "credits": "Crédits",
+      "updated_at": "Mis à jour à",
+      "status": "Statut",
+      "expired_at": "Expiré à",
+      "created_at": "Créé à"
+    }
+  },
+  "api_keys": {
+    "title": "Clés API",
+    "tip": "Veuillez garder votre apikey en sécurité pour éviter les fuites",
+    "no_api_keys": "Pas de clés API",
+    "create_api_key": "Créer une clé API",
+    "table": {
+      "name": "Name",
+      "key": "Clé",
+      "created_at": "Créé à"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Nom de la clé",
+      "submit": "Soumettre"
+    }
+  },
+  "my_invites": {
+    "title": "Mes invitations",
+    "description": "Afficher vos enregistrements d'invitation",
+    "no_invites": "Aucun enregistrement d'invitation trouvé",
+    "my_invite_link": "Mon lien d'invitation",
+    "edit_invite_link": "Modifier le lien d'invitation",
+    "copy_invite_link": "Copier le lien d'invitation",
+    "invite_code": "Code d'invitation",
+    "invite_tip": "Invitez des amis sur EasyClaw et gagnez des récompenses.",
+    "invite_balance": "Solde de récompense d'invitation",
+    "total_invite_count": "Nombre total d'invitations",
+    "total_paid_count": "Nombre total de paiements payés",
+    "total_award_amount": "Montant total de la récompense",
+    "update_invite_code": "Définir le code d'invitation",
+    "update_invite_code_tip": "Saisissez votre code d'invitation personnalisé",
+    "update_invite_button": "Enregistrer",
+    "no_orders": "Vous avez besoin d'un forfait payant avant d'inviter d'autres personnes",
+    "no_affiliates": "Vous n'êtes pas autorisé à inviter d'autres personnes, veuillez nous contacter pour demander l'autorisation.",
+    "table": {
+      "invite_time": "Heure d'invitation",
+      "invite_user": "Inviter un utilisateur",
+      "status": "Statut",
+      "reward_percent": "Pourcentage de récompense",
+      "reward_amount": "Montant de la récompense",
+      "pending": "En attente",
+      "completed": "Terminé"
+    }
+  },
+  "feedback": {
+    "title": "Commentaires",
+    "description": "Nous aimerions savoir ce qui s'est bien passé ou comment nous pouvons améliorer l'expérience produit.",
+    "submit": "Soumettre",
+    "loading": "Envoi...",
+    "contact_tip": "Autres moyens de nous contacter",
+    "rating_tip": "Que pensez-vous de EasyClaw ?",
+    "placeholder": "Laissez vos mots ici..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Créez instantanément des caricatures IA",
+    "description": "Téléchargez des photos pour générer des caricatures amusantes et artistiques avec des outils basés sur l'IA.",
+    "upload_label": "Téléchargez votre image",
+    "upload_placeholder": "Cliquez ou faites glisser pour télécharger (JPG, PNG, GIF, WebP)",
+    "upload_required": "Obligatoire",
+    "prompt_label": "Décrire l'extension (facultatif)",
+    "prompt_placeholder": "Par exemple, « étendre l'arrière-plan à gauche et à droite », « peindre le ciel », « élargir la toile pour une bannière », « ajouter de l'espace autour du sujet »...",
+    "prompt_required": "Notes facultatives",
+    "character_count": "{count}/500",
+    "generate_button": "Agrandir l'image",
+    "generating_button": "En expansion...",
+    "credits_label": "Vos crédits",
+    "cost_label": "Coût : crédits {cost} par extension",
+    "insufficient_credits": "Crédits insuffisants. Veuillez recharger pour continuer à agrandir les images.",
+    "errors": {
+      "no_image": "Veuillez télécharger une image pour agrandir",
+      "no_prompt": "Veuillez décrire comment vous souhaitez agrandir l'image",
+      "invalid_format": "Seuls les formats JPG, PNG, GIF, WebP sont pris en charge",
+      "file_too_large": "La taille de l'image ne peut pas dépasser 5 Mo",
+      "generation_failed": "Échec de l'expansion de l'image, veuillez réessayer",
+      "download_failed": "Échec du téléchargement, veuillez réessayer"
+    },
+    "success": {
+      "generated": "Votre image agrandie est prête !"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Découvrez les dernières images développées par notre outil. Prévisualisez avant/après et exportez le résultat.",
+    "download_hint": "Cliquez pour télécharger l'image agrandie",
+    "no_outfits": "Aucune extension pour l'instant. Téléchargez une image pour commencer à développer !"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - Générateur de caricatures IA",
+    "description": "Générez des caricatures de haute qualité à l'aide du modèle AI OpenClaw avec les modes texte-image et image-image.",
+    "hero": {
+      "badge": "Nouveau OpenClaw",
+      "title": "Créez des caricatures étonnantes",
+      "subtitle": "Transformez des photos en caricatures époustouflantes avec le modèle d'IA avancé de OpenClaw. Prend en charge les modes de création texte-image et image-image.",
+      "features": {
+        "text_to_image": "Texte en image",
+        "image_to_image": "Image à image",
+        "high_quality": "Sortie de haute qualité"
+      },
+      "buttons": {
+        "start_creating": "Commencez à créer",
+        "view_gallery": "Voir la galerie"
+      },
+      "stats": {
+        "daily_images": "Images générées quotidiennement",
+        "satisfaction": "Satisfaction des utilisateurs",
+        "generation_time": "Temps de génération moyen"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Image à image",
+        "text_to_image": "Texte en image"
+      },
+      "model": "Modèle",
+      "reference_images": "Images de référence",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Glissez et déposez les images ici",
+        "or_click": "ou cliquez pour parcourir",
+        "supported_formats": "Prise en charge : JPEG, PNG, WebP (max 10 Mo)",
+        "add_more": "Ajouter plus"
+      },
+      "prompt": "Invite",
+      "prompt_placeholder_image": "Décrivez comment transformer l'image...",
+      "prompt_placeholder_text": "Décrivez l'image que vous souhaitez générer...",
+      "aspect_ratio": "Rapport hauteur/largeur",
+      "resolution": "Résolution",
+      "output_count": "Nombre de sorties",
+      "output_count_range": "Min {min}, Max {max}",
+      "output_format": "Format de sortie",
+      "generate_button": "Générer maintenant",
+      "generating": "Génération...",
+      "clear_images": "Effacer toutes les images",
+      "output_gallery": "Votre image générée",
+      "view_all": "Tout afficher",
+      "generating_message": "Créer votre chef-d'œuvre...",
+      "generating_submessage": "Notre modèle OpenClaw opère sa magie. Cela prend généralement quelques secondes.",
+      "example": "Exemple"
+    },
+    "my_creations": {
+      "title": "Mes créations",
+      "description": "Affichez et gérez vos images générées par l'IA - prévisualisez et téléchargez en un seul clic",
+      "search_placeholder": "Rechercher des créations...",
+      "view_all": "Tout afficher ({count})",
+      "no_results": "Aucune création correspondante trouvée",
+      "no_results_message": "Essayez d'utiliser des mots-clés différents ou effacez la recherche pour afficher toutes les créations.",
+      "clear_search": "Effacer la recherche",
+      "empty_state": "Aucune création pour l'instant",
+      "empty_message": "Commencez à utiliser OpenClaw pour créer votre première image générée par l'IA !",
+      "start_creating": "Commencez à créer",
+      "download": "Télécharger",
+      "delete": "Supprimer",
+      "total_count": "Total des créations {count}",
+      "search_results": "(Recherche : \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Texte en image",
+        "IMAGE_TO_IMAGE": "Image à image"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Veuillez entrer une invite",
+      "upload_reference": "Le mode image à image nécessite le téléchargement d'images de référence",
+      "generation_failed": "La génération a échoué, veuillez réessayer",
+      "upload_success": "Image téléchargée avec succès",
+      "upload_failed": "Échec du téléchargement",
+      "delete_success": "Image supprimée",
+      "delete_failed": "Échec de la suppression, veuillez réessayer",
+      "download_started": "Téléchargement commencé",
+      "file_too_large": "La taille du fichier ne peut pas dépasser {size}MB",
+      "unsupported_format": "Format de fichier non pris en charge. Formats pris en charge : {formats}",
+      "retry": "Réessayer",
+      "dismiss": "Rejeter"
+    },
+    "loading": {
+      "default": "Chargement...",
+      "generation": "Créer votre chef-d'œuvre...",
+      "generation_message": "Notre modèle OpenClaw opère sa magie. Cela prend généralement quelques secondes.",
+      "upload": "Téléchargement de l'image...",
+      "upload_message": "Veuillez patienter pendant que votre image est téléchargée sur le cloud."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Studio en couches",
+      "title": "OpenClaw Studio",
+      "description": "Créez des caricatures artistiques à partir de vos photos.",
+      "cta": "Essai gratuit",
+      "cta_hint": "Téléchargez une image pour commencer",
+      "features": [
+        "2 à 8 couches d'IA par image",
+        "Exportation transparente PNG/WebP",
+        "Séparation guidée rapidement"
+      ]
+    },
+    "upload": {
+      "title": "Télécharger",
+      "subtitle": "JPG, PNG ou WebP jusqu'à 10 Mo",
+      "action": "Télécharger une image",
+      "drop": "Déposez votre image ici",
+      "or_click": "ou cliquez pour parcourir",
+      "supported_formats": "Prise en charge : JPEG, PNG, WebP (max 10 Mo)"
+    },
+    "prompt": {
+      "label": "Invite",
+      "placeholder": "Décrivez les calques souhaités (par exemple, sujet, accessoires, arrière-plan)"
+    },
+    "advanced": {
+      "title": "Paramètres avancés",
+      "prompt_label": "Invite (facultatif)",
+      "prompt_placeholder": "Veuillez saisir l'invite pour décrire l'image. (Facultatif)",
+      "negative_prompt_label": "Invite négative (facultatif)",
+      "negative_prompt_placeholder": "Décrivez ce qui doit être exclu des couches.",
+      "seed": "Semence",
+      "randomize_seed": "Randomiser la graine",
+      "guidance_scale": "Véritable échelle de guidage",
+      "inference_steps": "Nombre d'étapes d'inférence",
+      "cfg_normalization": "Activer ou non la normalisation CFG",
+      "auto_caption_language": "Langue de sous-titrage automatique si aucune invite n'est fournie, True pour EN, False pour ZH",
+      "layer_count": "Nombre de couches",
+      "layer_range": "Min {min}, Max {max}",
+      "output_format": "Format de sortie"
+    },
+    "actions": {
+      "decompose": "Décomposez-vous!",
+      "sign_in_to_decompose": "Connectez-vous pour décomposer !",
+      "generating": "Décomposer..."
+    },
+    "results": {
+      "title": "Résultats",
+      "subtitle": "Les sorties en couches apparaissent ici après la décomposition.",
+      "download_pptx": "Télécharger PPTX",
+      "download_zip": "Télécharger le fichier ZIP",
+      "packaging": "Emballage...",
+      "generating_title": "Décomposer votre image...",
+      "generating_subtitle": "Création d'actifs en couches. Cela prend généralement quelques secondes.",
+      "layer_label": "Couche {index}",
+      "layer_description": "Actif en couches",
+      "empty_title": "Pas encore de calques",
+      "empty_subtitle": "Téléchargez une image et cliquez sur Décomposer ! pour générer des calques.",
+      "success": "Calques générés avec succès !",
+      "download_ready": "Téléchargement prêt"
+    },
+    "examples": {
+      "title": "Exemples",
+      "subtitle": "Découvrez comment une image source se divise en calques propres.",
+      "labels": {
+        "source": "Source",
+        "layer": "Couche {index}",
+        "sample": "Exemple {index}"
+      },
+      "rows": {
+        "primary": "Exemple d'ensemble 01",
+        "secondary": "Exemple d'ensemble 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Veuillez d'abord télécharger une image de référence",
+      "generation_failed": "La génération a échoué, veuillez réessayer",
+      "upload_success": "Image téléchargée avec succès",
+      "upload_failed": "Échec du téléchargement",
+      "download_failed": "Échec du téléchargement, veuillez réessayer"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Disponible"
+    },
+    "errors": {
+      "no_available_account": "Aucun compte disponible dans votre abonnement actuel. Veuillez réessayer plus tard.",
+      "network_unstable": "Le réseau est instable. Veuillez réessayer sous peu.",
+      "deployment_failed_try_again": "Le déploiement a échoué. Essayer à nouveau.",
+      "deployment_timeout": "Délai d'expiration du déploiement après {minutes} minutes. Veuillez réessayer.",
+      "enter_bot_token": "Veuillez saisir un jeton de bot.",
+      "select_channel_before_deploying": "Veuillez sélectionner un canal avant le déploiement.",
+      "enter_telegram_bot_token": "Veuillez saisir votre jeton de bot Telegram.",
+      "invalid_response_missing_deployment_id": "Réponse non valide : id de déploiement manquant",
+      "failed_to_start_deployment": "Échec du démarrage du déploiement",
+      "failed_to_fetch_deployment_status": "Échec de la récupération de l'état du déploiement",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - Déploiement OpenClaw en un clic",
+      "description": "Déployez OpenClaw en moins d’une minute. Pas de serveurs ni DevOps. Choisissez un modèle, connectez une chaîne et lancez-vous."
+    },
+    "selectors": {
+      "model_title": "Choisissez un modèle par défaut pour votre OpenClaw",
+      "channel_title": "Choisissez où OpenClaw doit envoyer des messages",
+      "selected": "Sélectionné"
+    },
+    "deploy": {
+      "deploying": "Déploiement...",
+      "deploy_button": "Déployer",
+      "sign_in_button": "Connectez-vous pour déployer avec EasyClaw",
+      "sign_in_hint": "Connectez-vous pour déployer OpenClaw avec EasyClaw et connectez vos chaînes.",
+      "status_success": "Déploiement réussi ! OpenClaw est maintenant en cours d'exécution.",
+      "model_substitution_warning": "Substitution de modèle détectée. Essayez de redéployer ou de passer à une autre région/fournisseur.",
+      "hint_prefix": "Connectez Telegram pour continuer.",
+      "hint_suffix": "Vous pourrez ajouter d'autres chaînes au même compte ultérieurement.",
+      "hint_prefix_telegram": "Connectez Telegram pour continuer.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Connectez Telegram",
+      "how_to_get_token": "Comment obtenir votre jeton de bot ?",
+      "step_1_prefix": "Ouvrez Telegram et accédez à",
+      "step_2_prefix": "Démarrez une discussion et tapez",
+      "step_3_text": "Suivez les invites pour nommer votre bot et choisissez un nom d'utilisateur.",
+      "step_4_text": "BotFather vous enverra un message avec votre jeton de bot. Copiez l'intégralité du jeton (il ressemble à une longue chaîne de chiffres et de lettres).",
+      "step_5_text": "Collez le jeton dans le champ ci-dessous et cliquez sur Enregistrer et connecter.",
+      "token_label": "Entrez le jeton du bot",
+      "token_placeholder": "1234567890: ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Enregistrer et se connecter",
+      "preview_intro": "Je peux vous aider à créer et gérer des robots Telegram. Qu'aimeriez-vous faire ?",
+      "preview_newbot": "créer un nouveau bot",
+      "preview_mybots": "modifiez vos robots",
+      "preview_name_prompt": "Très bien, un nouveau bot. Comment allons-nous l’appeler ? Veuillez choisir un nom pour votre bot.",
+      "preview_message_input": "Message"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

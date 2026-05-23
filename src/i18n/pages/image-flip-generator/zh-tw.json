@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "影像翻轉器",
+    "description": "以專業品質水平或垂直翻轉影像",
+    "disabled": false,
+    "upload": {
+      "title": "拖放影像",
+      "description": "支援 PNG、JPG、JPEG、WebP 高達 10MB",
+      "buttonText": "瀏覽文件",
+      "dragDropText": "刪除、貼上或新增 URL",
+      "selectFileText": "選擇圖像文件",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "準備翻轉。",
+      "replace": "更換",
+      "remove": "刪除"
+    },
+    "controls": {
+      "horizontalFlip": "水平翻轉",
+      "verticalFlip": "垂直翻轉",
+      "processing": "處理中...",
+      "uploading": "正在上傳..."
+    },
+    "preview": {
+      "originalAlt": "原圖",
+      "flippedAlt": "翻轉影像",
+      "download": "下載"
+    },
+    "credits": {
+      "label": "學分：",
+      "cost": "每次翻轉成本：",
+      "insufficient": "學分不足"
+    },
+    "errors": {
+      "noImage": "未選擇影像",
+      "noImageSuggestion": "請先上傳圖片。",
+      "invalidFormat": "不支援的文件格式",
+      "formatSuggestion": "請使用以下之一：{formats}",
+      "fileTooLarge": "文件太大：{size}MB",
+      "sizeSuggestion": "最大大小為 {maxSize}MB。請壓縮或選擇較小的檔案。",
+      "uploadFailed": "圖片上傳失敗",
+      "uploadSuggestion": "檢查您的連線並重試。",
+      "authRequired": "需要身份驗證",
+      "authSuggestion": "請登入才能上傳圖片。",
+      "processingFailed": "翻轉操作失敗",
+      "processingSuggestion": "如果問題仍然存在，請重試或聯絡支援人員。",
+      "networkError": "網路連線問題",
+      "networkSuggestion": "檢查您的連線並重試。",
+      "fileReadError": "讀取文件失敗",
+      "fileReadSuggestion": "請嘗試再次選擇該檔案。",
+      "retry": "重試"
+    },
+    "messages": {
+      "uploadSuccess": "圖片上傳成功",
+      "flipSuccess": "圖片翻轉成功",
+      "downloadStarted": "下載開始"
+    },
+    "legal": {
+      "terms": "上傳文件即表示您同意我們的使用條款和隱私權政策。"
+    }
+  }
+}

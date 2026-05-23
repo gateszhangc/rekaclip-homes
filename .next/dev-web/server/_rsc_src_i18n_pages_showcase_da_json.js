@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_i18n_pages_showcase_da_json";
+exports.ids = ["_rsc_src_i18n_pages_showcase_da_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/i18n/pages/showcase/da.json":
+/*!*****************************************!*\
+  !*** ./src/i18n/pages/showcase/da.json ***!
+  \*****************************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"showcase":{"name":"showcase","title":"OpenClaw-implementeringseksempler fra EasyClaw-brugere","description":"Se, hvordan teams lancerer OpenClaw-assistenter til support, drift og interne arbejdsgange.","items":[{"title":"Lancering af kundesupportassistent","description":"Implementerede en Telegram-understøttelsesbot med modeltilbagegang på få minutter","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"}},{"title":"Salgsopfølgningsautomatisering","description":"Konfigurer OpenClaw for at kvalificere kundeemner og udarbejde udkast til opfølgende svar","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"}},{"title":"Intern driftsanmelder","description":"Forbundet OpenClaw for at advare teams om operationsbegivenheder og hændelser","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"}},{"title":"Multi-channel community assistent","description":"Udrullede den samme assistent på tværs af Telegram, Discord og WhatsApp","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"}},{"title":"Ugentlig rapportering arbejdsgang","description":"Automatiserede oversigtsrapporter til ledere hver fredag","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"}},{"title":"Onboarding copilot","description":"Leveret første uges vejledning og svar til nyansatte","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"}},{"title":"Lead kvalifikation bot","description":"Fangede indgående spørgsmål og dirigerede kundeemner med høj hensigt til salg","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"}},{"title":"Samler af produktfeedback","description":"Klassificeret brugerfeedback og genererede handlingspunkter til produktteams","url":"/","target":"_self","image":{"src":"https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"}}]}}');
+
+/***/ })
+
+};
+;

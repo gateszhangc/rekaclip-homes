@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "Billedflipper",
+    "description": "Vend billeder vandret eller lodret med professionel kvalitet",
+    "disabled": false,
+    "upload": {
+      "title": "Træk og slip et billede",
+      "description": "Understøtter PNG, JPG, JPEG, WebP op til 10MB",
+      "buttonText": "Gennemse filer",
+      "dragDropText": "Slip, indsæt eller tilføj en URL",
+      "selectFileText": "Vælg en billedfil",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "Klar til at vende.",
+      "replace": "Udskift",
+      "remove": "Fjern"
+    },
+    "controls": {
+      "horizontalFlip": "Vend vandret",
+      "verticalFlip": "Vend lodret",
+      "processing": "Behandler...",
+      "uploading": "Uploader..."
+    },
+    "preview": {
+      "originalAlt": "Originalt billede",
+      "flippedAlt": "Omvendt billede",
+      "download": "Download"
+    },
+    "credits": {
+      "label": "Credits:",
+      "cost": "Pris pr. flip:",
+      "insufficient": "Utilstrækkelige kreditter"
+    },
+    "errors": {
+      "noImage": "Intet billede valgt",
+      "noImageSuggestion": "Upload venligst et billede først.",
+      "invalidFormat": "Ikke-understøttet filformat",
+      "formatSuggestion": "Brug venligst en af: {formats}",
+      "fileTooLarge": "Filen er for stor: {size}MB",
+      "sizeSuggestion": "Maksimal størrelse er {maxSize}MB. Komprimer eller vælg en mindre fil.",
+      "uploadFailed": "Kunne ikke uploade billede",
+      "uploadSuggestion": "Tjek din forbindelse, og prøv igen.",
+      "authRequired": "Godkendelse påkrævet",
+      "authSuggestion": "Log venligst ind for at uploade billeder.",
+      "processingFailed": "Flip-handling mislykkedes",
+      "processingSuggestion": "Prøv igen eller kontakt support, hvis problemet fortsætter.",
+      "networkError": "Netværksforbindelsesproblem",
+      "networkSuggestion": "Tjek din forbindelse, og prøv igen.",
+      "fileReadError": "Filen kunne ikke læses",
+      "fileReadSuggestion": "Prøv at vælge filen igen.",
+      "retry": "Prøv igen"
+    },
+    "messages": {
+      "uploadSuccess": "Billedet blev uploadet",
+      "flipSuccess": "Billedet blev vendt",
+      "downloadStarted": "Download startede"
+    },
+    "legal": {
+      "terms": "Ved at uploade en fil accepterer du vores vilkår for brug og privatlivspolitik."
+    }
+  }
+}

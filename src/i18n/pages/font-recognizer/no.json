@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "Bildeflipper",
+    "description": "Last opp et bilde for profesjonell fargeinversjon og forbedring",
+    "disabled": false,
+    "upload": {
+      "title": "Dra og slipp et bilde",
+      "description": "Støtter PNG, JPG, JPEG, WebP opptil 10MB",
+      "buttonText": "Velg en fil",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "Rent bilde",
+      "textListTitle": "Oppdagede tekstområder",
+      "fontRecommendationTitle": "Forslag til fjerning",
+      "detectedFontLabel": "Valgt område",
+      "similarFontsLabel": "Alternative fyllinger",
+      "selectTextPrompt": "Velg en tekstblokk du vil fjerne"
+    },
+    "actions": {
+      "reuploadText": "Last opp på nytt"
+    },
+    "messages": {
+      "uploadSuccess": "Bildet ble lastet opp",
+      "uploadError": "Kunne ikke laste opp bildet",
+      "recognitionSuccess": "Deteksjon fullført",
+      "recognitionError": "Gjenkjenning mislyktes",
+      "fontRecognitionSuccess": "Tekstfjerning fullført",
+      "fontRecognitionError": "Tekstfjerning mislyktes",
+      "processing": "Behandler..."
+    }
+  }
+}

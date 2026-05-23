@@ -1,0 +1,81 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "OpenClaw EasyClaw प्रयोगकर्ताहरूबाट परिनियोजन उदाहरणहरू",
+    "description": "टोलीहरूले समर्थन, सञ्चालन, र आन्तरिक कार्यप्रवाहहरूको लागि OpenClaw सहायकहरू कसरी सुरु गर्छन् हेर्नुहोस्।",
+    "items": [
+      {
+        "title": "ग्राहक समर्थन सहायक सुरुवात",
+        "description": "मिनेटमा मोडेल फलब्याकको साथ Telegram समर्थन बट तैनात गरियो",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "बिक्री अनुवर्ती स्वचालन",
+        "description": "OpenClaw लाई योग्य बनाउन र फलो-अप जवाफहरू ड्राफ्ट गर्न सेटअप गर्नुहोस्",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "आन्तरिक सञ्चालन सूचनाकर्ता",
+        "description": "अप्स घटनाहरू र घटनाहरूको बारेमा टोलीहरूलाई सचेत गराउन OpenClaw जडान गरियो",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "बहु-च्यानल समुदाय सहायक",
+        "description": "एउटै सहायकलाई Telegram, Discord, र WhatsApp मा रोल आउट गरियो",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "साप्ताहिक रिपोर्टिङ कार्यप्रवाह",
+        "description": "प्रत्येक शुक्रबार प्रबन्धकहरूको लागि स्वचालित सारांश रिपोर्टहरू",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "अनबोर्डिङ सहपायलट",
+        "description": "नयाँ कामदारहरूको लागि पहिलो-हप्ता मार्गदर्शन र जवाफहरू डेलिभर गरियो",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "नेतृत्व योग्यता बोट",
+        "description": "क्याप्चर गरिएको इनबाउन्ड प्रश्नहरू र उच्च-उद्देश्यले बिक्रीमा पुर्‍याउँछ",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "उत्पादन प्रतिक्रिया कलेक्टर",
+        "description": "वर्गीकृत प्रयोगकर्ता प्रतिक्रिया र उत्पादन टोलीहरूको लागि उत्पन्न कार्य वस्तुहरू",
+        "url": "/",
+        "target": "_self",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/showcases/8.png"
+        }
+      }
+    ]
+  }
+}

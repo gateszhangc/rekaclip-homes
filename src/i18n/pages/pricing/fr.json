@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Tarifs",
+    "title": "Tarifs",
+    "description": "Choisissez un plan en fonction du nombre de déploiements OpenClaw dont vous avez besoin. Annulez à tout moment depuis votre compte.",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "Mensuel",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "Annuellement",
+        "is_featured": true,
+        "label": "Économisez 50 %"
+      }
+    ],
+    "items": [
+      {
+        "title": "Démarreur",
+        "label": "ACCÈS ANTICIPÉ",
+        "description": "Tout ce dont vous avez besoin pour exécuter OpenClaw. Rien de ce que vous ne faites pas.",
+        "features_title": "Essai gratuit inclus",
+        "features": [
+          "Runtime OpenClaw entièrement géré",
+          "Agent prêt pour Telegram",
+          "Zéro configuration",
+          "1 agent OpenClaw",
+          "Claude, ChatGPT ou Gemini - nous l'exécutons pour vous",
+          "Aucune clé API requise",
+          "Utilisation incluse par plan. Annulez à tout moment."
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 $",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "Essayez gratuitement. Aucune carte de crédit requise.",
+        "button": {
+          "title": "Exécutez OpenClaw instantanément",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw Démarreur mensuel",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populaire",
+        "features_title": "Fonctionnalités de déploiement de base",
+        "features": [
+          "Jusqu'à 5 déploiements OpenClaw actifs",
+          "Déployez, redémarrez et redéployez en un clic",
+          "Préréglages de configuration de modèle et de canal",
+          "Tableau de bord de l'état du déploiement",
+          "Analyse d'utilisation de base",
+          "Assistance par e-mail",
+          "Utilisation commerciale",
+          "Accès aux nouvelles fonctionnalités de déploiement"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 $",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Devenez Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw Pro Mensuel",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "Démarreur",
+        "label": "ACCÈS ANTICIPÉ",
+        "description": "Tout ce dont vous avez besoin pour exécuter OpenClaw. Rien de ce que vous ne faites pas.",
+        "features_title": "Essai gratuit inclus",
+        "features": [
+          "Runtime OpenClaw entièrement géré",
+          "Agent prêt pour Telegram",
+          "Zéro configuration",
+          "1 agent OpenClaw",
+          "Claude, ChatGPT ou Gemini - nous l'exécutons pour vous",
+          "Aucune clé API requise",
+          "Utilisation incluse par plan. Annulez à tout moment."
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 $",
+        "original_price": "Prix d'origine : 10 $/mois",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "Essayez gratuitement. Aucune carte de crédit requise.",
+        "button": {
+          "title": "Exécutez OpenClaw instantanément",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw Démarreur Annuel",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "Pro",
+        "label": "Populaire",
+        "features_title": "Fonctionnalités de déploiement de base",
+        "features": [
+          "Jusqu'à 5 déploiements OpenClaw actifs",
+          "Déployez, redémarrez et redéployez en un clic",
+          "Préréglages de configuration de modèle et de canal",
+          "Tableau de bord de l'état du déploiement",
+          "Analyse d'utilisation de base",
+          "Assistance par e-mail",
+          "Utilisation commerciale",
+          "Accès aux nouvelles fonctionnalités de déploiement"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 $",
+        "original_price": "Prix d'origine : 20 $/mois",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "Devenez Pro",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro Annuellement",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

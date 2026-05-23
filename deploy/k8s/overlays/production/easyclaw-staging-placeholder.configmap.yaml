@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: easyclaw-staging-placeholder
+  namespace: easyclaw
+  annotations:
+    argocd.argoproj.io/sync-wave: "1"
+data:
+  dokployApplicationId: TxV4bcgnEj1YsFPgIUapA
+  dokployStatus: done
+  migrationMode: placeholder
+  note: placeholder only; do not cut traffic

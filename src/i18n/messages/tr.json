@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - OpenClaw'yi 1 dakikadan kısa sürede dağıtın",
+    "description": "Tek tıklamayla OpenClaw'yi EasyClaw ile dağıtın. Telegram'yi bağlayın, bir model seçin ve hızla canlı yayına geçin.",
+    "keywords": "easyclaw, openclaw dağıtımı, openclaw barındırma, telgraf bot dağıtımı, yapay zeka asistanı dağıtımı"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "OpenClaw'nin EasyClaw ile dağıtılmasına ilişkin haberler, eğitimler ve güncellemeler.",
+    "read_more_text": "Devamını Oku"
+  },
+  "user": {
+    "sign_in": "Oturum aç",
+    "sign_out": "Oturumu Kapat",
+    "credits": "Kredi",
+    "api_keys": "API Tuşları",
+    "my_orders": "Siparişlerim",
+    "my_invites": "Davetlerim",
+    "user_center": "Kullanıcı Merkezi",
+    "support": "Destek",
+    "admin_system": "Yönetici Sistemi",
+    "home": "Ana sayfa",
+    "pricing": "Fiyatlandırma",
+    "admin_center": "Yönetim Merkezi"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClaw'de oturum açın",
+    "sign_in_description": "OpenClaw'yi dağıtmak ve yönetmek için EasyClaw hesabınıza erişin.",
+    "sign_up_title": "EasyClaw'ye katılın",
+    "sign_up_description": "EasyClaw hesabınızı oluşturun",
+    "email_title": "E-posta",
+    "email_placeholder": "E-posta adresinizi girin",
+    "password_title": "Şifre",
+    "password_placeholder": "Şifrenizi girin",
+    "forgot_password": "Şifrenizi mi unuttunuz?",
+    "or": "veya",
+    "continue": "EasyClaw'ye devam et",
+    "no_account": "EasyClaw'de yeni misiniz?",
+    "email_sign_in": "E-posta ile oturum açın",
+    "google_sign_in": "Google ile devam et",
+    "github_sign_in": "GitHub'la devam edin",
+    "close_title": "Kapat",
+    "cancel_title": "İptal"
+  },
+  "my_orders": {
+    "title": "Siparişlerim",
+    "no_orders": "Sipariş bulunamadı",
+    "tip": "",
+    "support_tip": "Faturalandırma veya iptal konusunda yardıma mı ihtiyacınız var? support@easyclaw.pro adresine e-posta gönderin.",
+    "activate_order": "Siparişi Etkinleştir",
+    "actived": "Etkinleştirildi",
+    "join_discord": "Discord'ye katılın",
+    "read_docs": "Dokümanları Oku",
+    "table": {
+      "order_no": "Sipariş No",
+      "email": "E-posta",
+      "product_name": "Ürün Adı",
+      "amount": "Tutar",
+      "paid_at": "Ödeme Tarihi",
+      "github_username": "GitHub Kullanıcı Adı",
+      "status": "Durum",
+      "manage_billing": "Faturalandırmayı Yönet",
+      "interval": "Interval",
+      "interval_month": "Aylık",
+      "interval_year": "Yıllık",
+      "interval_one_time": "Tek seferlik"
+    }
+  },
+  "my_credits": {
+    "title": "Kredilerim",
+    "left_tip": "kalan kredi: {left_credits}",
+    "no_credits": "Kredi kaydı yok",
+    "recharge": "Yeniden şarj et",
+    "table": {
+      "trans_no": "İşlem No",
+      "trans_type": "Trans Türü",
+      "credits": "Kredi",
+      "updated_at": "Güncelleme Tarihi:",
+      "status": "Durum",
+      "expired_at": "Süresi Doldu",
+      "created_at": "Oluşturulma Tarihi"
+    }
+  },
+  "api_keys": {
+    "title": "API Tuşları",
+    "tip": "Sızıntıları önlemek için lütfen apikey'inizi güvende tutun",
+    "no_api_keys": "API Anahtarı Yok",
+    "create_api_key": "API Anahtarı Oluştur",
+    "table": {
+      "name": "Name",
+      "key": "Anahtar",
+      "created_at": "Oluşturulma Tarihi"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Anahtar Adı",
+      "submit": "Gönder"
+    }
+  },
+  "my_invites": {
+    "title": "Davetlerim",
+    "description": "Davet kayıtlarınızı görüntüleyin",
+    "no_invites": "Davet kaydı bulunamadı",
+    "my_invite_link": "Davet Bağlantım",
+    "edit_invite_link": "Davet Bağlantısını Düzenle",
+    "copy_invite_link": "Davet Bağlantısını Kopyala",
+    "invite_code": "Kodu Davet Et",
+    "invite_tip": "Arkadaşlarınızı EasyClaw'ye davet edin ve ödüller kazanın.",
+    "invite_balance": "Ödül Bakiyesini Davet Et",
+    "total_invite_count": "Toplam Davet Sayısı",
+    "total_paid_count": "Toplam Ödenen Sayı",
+    "total_award_amount": "Toplam Ödül Tutarı",
+    "update_invite_code": "Davet Kodunu Ayarla",
+    "update_invite_code_tip": "Özel davet kodunuzu girin",
+    "update_invite_button": "Kaydet",
+    "no_orders": "Başkalarını davet etmeden önce ücretli bir plana ihtiyacınız var",
+    "no_affiliates": "Başkalarını davet etmenize izin verilmiyor. İzin başvurusunda bulunmak için lütfen bizimle iletişime geçin.",
+    "table": {
+      "invite_time": "Davet Zamanı",
+      "invite_user": "Kullanıcıyı Davet Et",
+      "status": "Durum",
+      "reward_percent": "Ödül Yüzdesi",
+      "reward_amount": "Ödül Tutarı",
+      "pending": "Beklemede",
+      "completed": "Tamamlandı"
+    }
+  },
+  "feedback": {
+    "title": "Geribildirim",
+    "description": "Neyin yolunda gittiğini veya ürün deneyimini nasıl geliştirebileceğimizi duymak isteriz.",
+    "submit": "Gönder",
+    "loading": "Gönderiliyor...",
+    "contact_tip": "Bizimle iletişime geçmenin diğer yolları",
+    "rating_tip": "EasyClaw hakkında ne düşünüyorsunuz?",
+    "placeholder": "Sözlerinizi buraya bırakın..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - Anında Yapay Zeka Karikatürleri oluşturun",
+    "description": "Yapay zeka destekli araçlarla eğlenceli ve sanatsal karikatürler oluşturmak için fotoğraf yükleyin.",
+    "upload_label": "Resminizi Yükleyin",
+    "upload_placeholder": "Yüklemek için tıklayın veya sürükleyin (JPG, PNG, GIF, WebP)",
+    "upload_required": "Gerekli",
+    "prompt_label": "Genişletmeyi açıklayın (isteğe bağlı)",
+    "prompt_placeholder": "Örneğin, 'arka planı sola ve sağa genişletin', 'gökyüzünü boyayın', 'afiş için tuvali genişletin', 'konunun çevresine yer ekleyin'...",
+    "prompt_required": "İsteğe bağlı notlar",
+    "character_count": "{count}/500",
+    "generate_button": "Resmi Genişlet",
+    "generating_button": "Genişliyor...",
+    "credits_label": "Kredileriniz",
+    "cost_label": "Maliyet: Genişletme başına {cost} kredisi",
+    "insufficient_credits": "Yetersiz kredi. Resimleri genişletmeye devam etmek için lütfen şarj edin.",
+    "errors": {
+      "no_image": "Genişletmek için lütfen bir resim yükleyin",
+      "no_prompt": "Lütfen resmi nasıl genişletmek istediğinizi açıklayın",
+      "invalid_format": "Yalnızca JPG, PNG, GIF, WebP formatları desteklenir",
+      "file_too_large": "Resim boyutu 5 MB'ı aşamaz",
+      "generation_failed": "Resim genişletme başarısız oldu, lütfen tekrar deneyin",
+      "download_failed": "İndirme başarısız oldu, lütfen tekrar deneyin"
+    },
+    "success": {
+      "generated": "Genişletilmiş resminiz hazır!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "Aracımız tarafından genişletilen en son görselleri görün. Öncesini/sonrasını önizleyin ve sonucu dışa aktarın.",
+    "download_hint": "Genişletilmiş resmi indirmek için tıklayın",
+    "no_outfits": "Henüz genişleme yok. Genişlemeye başlamak için bir resim yükleyin!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - Yapay Zeka Karikatür Oluşturucu",
+    "description": "Metinden resme ve resimden resme modlarıyla OpenClaw AI modelini kullanarak yüksek kaliteli karikatürler oluşturun",
+    "hero": {
+      "badge": "Yeni OpenClaw",
+      "title": "Harika Karikatürler Yaratın",
+      "subtitle": "OpenClaw'nin gelişmiş yapay zeka modeliyle fotoğrafları çarpıcı karikatürlere dönüştürün. Hem metinden resme hem de resimden resme oluşturma modlarını destekler.",
+      "features": {
+        "text_to_image": "Metinden Görüntüye",
+        "image_to_image": "Resimden Resme",
+        "high_quality": "Yüksek Kaliteli Çıktı"
+      },
+      "buttons": {
+        "start_creating": "Oluşturmaya Başlayın",
+        "view_gallery": "Galeriyi Görüntüle"
+      },
+      "stats": {
+        "daily_images": "Günlük Oluşturulan Görseller",
+        "satisfaction": "Kullanıcı Memnuniyeti",
+        "generation_time": "Ortalama Üretim Süresi"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "Resimden Resme",
+        "text_to_image": "Metinden Görüntüye"
+      },
+      "model": "Modeli",
+      "reference_images": "Referans Görselleri",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "Resimleri buraya sürükleyip bırakın",
+        "or_click": "veya göz atmak için tıklayın",
+        "supported_formats": "Destekler: JPEG, PNG, WebP (maks. 10MB)",
+        "add_more": "Daha fazlasını ekle"
+      },
+      "prompt": "İstemi",
+      "prompt_placeholder_image": "Resmin nasıl dönüştürüleceğini açıklayın...",
+      "prompt_placeholder_text": "Oluşturmak istediğiniz görüntüyü tanımlayın...",
+      "aspect_ratio": "En Boy Oranı",
+      "resolution": "Çözünürlük",
+      "output_count": "Çıkış Sayısı",
+      "output_count_range": "Min {min}, Maks {max}",
+      "output_format": "Çıkış Formatı",
+      "generate_button": "Şimdi Oluştur",
+      "generating": "Oluşturuluyor...",
+      "clear_images": "Tüm resimleri temizle",
+      "output_gallery": "Oluşturulan Resminiz",
+      "view_all": "Tümünü Görüntüle",
+      "generating_message": "Başyapıtınızı yaratmak...",
+      "generating_submessage": "OpenClaw modelimiz büyüsünü yapıyor. Bu genellikle birkaç saniye sürer.",
+      "example": "Örnek"
+    },
+    "my_creations": {
+      "title": "Kreasyonlarım",
+      "description": "Yapay zeka tarafından oluşturulan görsellerinizi görüntüleyin ve yönetin; tek tıklamayla önizleyin ve indirin",
+      "search_placeholder": "Kreasyonları arayın...",
+      "view_all": "Tümünü Görüntüle ({count})",
+      "no_results": "Eşleşen yapım bulunamadı",
+      "no_results_message": "Farklı anahtar kelimeler kullanmayı deneyin veya tüm yapımları görüntülemek için aramayı temizleyin.",
+      "clear_search": "Aramayı Temizle",
+      "empty_state": "Henüz yapım yok",
+      "empty_message": "Yapay zeka tarafından oluşturulan ilk görüntünüzü oluşturmak için OpenClaw'yi kullanmaya başlayın!",
+      "start_creating": "Oluşturmaya Başlayın",
+      "download": "İndir",
+      "delete": "Sil",
+      "total_count": "Toplam {count} yaratımları",
+      "search_results": "(Arama: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "Metinden Görüntüye",
+        "IMAGE_TO_IMAGE": "Resimden Resme"
+      }
+    },
+    "errors": {
+      "enter_prompt": "Lütfen bir bilgi istemi girin",
+      "upload_reference": "Resimden resme modu referans resimlerin yüklenmesini gerektirir",
+      "generation_failed": "Oluşturma başarısız oldu, lütfen tekrar deneyin",
+      "upload_success": "Resim başarıyla yüklendi",
+      "upload_failed": "Yükleme başarısız oldu",
+      "delete_success": "Resim silindi",
+      "delete_failed": "Silinemedi, lütfen tekrar deneyin",
+      "download_started": "İndirme başladı",
+      "file_too_large": "Dosya boyutu {size}MB'yi aşamaz",
+      "unsupported_format": "Desteklenmeyen dosya biçimi. Desteklenen formatlar: {formats}",
+      "retry": "Yeniden dene",
+      "dismiss": "Reddet"
+    },
+    "loading": {
+      "default": "Yükleniyor...",
+      "generation": "Başyapıtınızı yaratmak...",
+      "generation_message": "OpenClaw modelimiz büyüsünü yapıyor. Bu genellikle birkaç saniye sürer.",
+      "upload": "Resim yükleniyor...",
+      "upload_message": "Resminiz buluta yüklenirken lütfen bekleyin."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "Katmanlı Stüdyo",
+      "title": "OpenClaw Stüdyo",
+      "description": "Fotoğraflarınızdan sanatsal karikatürler oluşturun.",
+      "cta": "Ücretsiz deneme",
+      "cta_hint": "Başlamak için bir resim yükleyin",
+      "features": [
+        "Görüntü başına 2-8 AI katmanı",
+        "Şeffaf PNG/WebP dışa aktarımı",
+        "Hızlı yönlendirmeli ayırma"
+      ]
+    },
+    "upload": {
+      "title": "Yükle",
+      "subtitle": "JPG, PNG veya WebP 10 MB'a kadar",
+      "action": "Resim yükle",
+      "drop": "Resminizi buraya bırakın",
+      "or_click": "veya göz atmak için tıklayın",
+      "supported_formats": "Destekler: JPEG, PNG, WebP (maks. 10MB)"
+    },
+    "prompt": {
+      "label": "İstemi",
+      "placeholder": "İstediğiniz katmanları tanımlayın (ör. konu, aksesuarlar, arka plan)"
+    },
+    "advanced": {
+      "title": "Gelişmiş Ayarlar",
+      "prompt_label": "Bilgi İstemi (İsteğe bağlı)",
+      "prompt_placeholder": "Lütfen resmi açıklamak için istemi girin. (İsteğe bağlı)",
+      "negative_prompt_label": "Olumsuz İstem (İsteğe Bağlı)",
+      "negative_prompt_placeholder": "Katmanlardan nelerin hariç tutulması gerektiğini açıklayın.",
+      "seed": "tohum",
+      "randomize_seed": "Tohumu rastgele seç",
+      "guidance_scale": "Gerçek rehberlik ölçeği",
+      "inference_steps": "Çıkarım adımlarının sayısı",
+      "cfg_normalization": "CFG normalleştirmesinin etkinleştirilip etkinleştirilmeyeceği",
+      "auto_caption_language": "İstem sağlanmadığı takdirde otomatik altyazı dili, EN için Doğru, ZH için Yanlış",
+      "layer_count": "Katman sayısı",
+      "layer_range": "Min {min}, Maks {max}",
+      "output_format": "Çıkış formatı"
+    },
+    "actions": {
+      "decompose": "Ayrış!",
+      "sign_in_to_decompose": "Ayrıştırma için Oturum Açın!",
+      "generating": "Ayrışıyor..."
+    },
+    "results": {
+      "title": "Sonuçlar",
+      "subtitle": "Katmanlı çıktılar ayrıştırmadan sonra burada görünür.",
+      "download_pptx": "PPTX'i indirin",
+      "download_zip": "ZIP'i indirin",
+      "packaging": "Ambalaj...",
+      "generating_title": "Görüntünüz ayrıştırılıyor...",
+      "generating_subtitle": "Katmanlı varlıklar oluşturma. Bu genellikle birkaç saniye sürer.",
+      "layer_label": "{index} katmanı",
+      "layer_description": "Katmanlı varlık",
+      "empty_title": "Henüz katman yok",
+      "empty_subtitle": "Bir görsel yükleyin ve Ayrıştır'a tıklayın! katmanlar oluşturmak için.",
+      "success": "Katmanlar başarıyla oluşturuldu!",
+      "download_ready": "İndirmeye hazır"
+    },
+    "examples": {
+      "title": "Örnekler",
+      "subtitle": "Kaynak görüntünün temiz katmanlara nasıl bölündüğünü görün.",
+      "labels": {
+        "source": "Kaynak",
+        "layer": "{index} katmanı",
+        "sample": "Örnek {index}"
+      },
+      "rows": {
+        "primary": "Örnek Set 01",
+        "secondary": "Örnek Set 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "Lütfen önce bir referans görseli yükleyin",
+      "generation_failed": "Oluşturma başarısız oldu, lütfen tekrar deneyin",
+      "upload_success": "Resim başarıyla yüklendi",
+      "upload_failed": "Yükleme başarısız oldu",
+      "download_failed": "İndirme başarısız oldu, lütfen tekrar deneyin"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "Mevcut"
+    },
+    "errors": {
+      "no_available_account": "Mevcut aboneliğinizde kullanılabilir hesap yok. Lütfen daha sonra tekrar deneyin.",
+      "network_unstable": "Ağ kararsız. Lütfen kısa süre sonra tekrar deneyin.",
+      "deployment_failed_try_again": "Dağıtım başarısız oldu. Tekrar deneyin.",
+      "deployment_timeout": "{minutes} dakika sonra dağıtım zaman aşımı. Lütfen tekrar deneyin.",
+      "enter_bot_token": "Lütfen bir bot jetonu girin.",
+      "select_channel_before_deploying": "Lütfen dağıtmadan önce bir kanal seçin.",
+      "enter_telegram_bot_token": "Lütfen Telegram bot jetonunuzu girin.",
+      "invalid_response_missing_deployment_id": "Geçersiz yanıt: dağıtım_kimliği eksik",
+      "failed_to_start_deployment": "Dağıtım başlatılamadı",
+      "failed_to_fetch_deployment_status": "Dağıtım durumu getirilemedi",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - Tek Tıklamayla OpenClaw Dağıtımı",
+      "description": "OpenClaw'yi 1 dakikadan kısa sürede konuşlandırın. Sunucu veya DevOps yok. Bir model seçin, bir kanal bağlayın ve başlatın."
+    },
+    "selectors": {
+      "model_title": "OpenClaw'niz için varsayılan bir model seçin",
+      "channel_title": "OpenClaw'nin nereye mesaj göndermesi gerektiğini seçin",
+      "selected": "Seçildi"
+    },
+    "deploy": {
+      "deploying": "Dağıtılıyor...",
+      "deploy_button": "Dağıt",
+      "sign_in_button": "EasyClaw ile dağıtmak için oturum açın",
+      "sign_in_hint": "OpenClaw'yi EasyClaw ile dağıtmak için oturum açın ve kanallarınızı bağlayın.",
+      "status_success": "Dağıtım başarılı! OpenClaw şimdi çalışıyor.",
+      "model_substitution_warning": "Model değişikliği algılandı. Yeniden konuşlandırmayı deneyin veya başka bir bölgeye/sağlayıcıya geçin.",
+      "hint_prefix": "Devam etmek için Telegram'yi bağlayın.",
+      "hint_suffix": "Daha sonra aynı hesaba başka kanallar da ekleyebilirsiniz.",
+      "hint_prefix_telegram": "Devam etmek için Telegram'yi bağlayın.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegram'yi bağlayın",
+      "how_to_get_token": "Bot jetonunuzu nasıl alırsınız?",
+      "step_1_prefix": "Telegram'yi açın ve şuraya gidin:",
+      "step_2_prefix": "Bir sohbet başlatın ve yazın",
+      "step_3_text": "Botunuza isim vermek ve bir kullanıcı adı seçmek için talimatları izleyin.",
+      "step_4_text": "BotFather size bot jetonunuzu içeren bir mesaj gönderecektir. Belirtecin tamamını kopyalayın (uzun bir sayı ve harf dizisine benziyor).",
+      "step_5_text": "Belirteci aşağıdaki alana yapıştırın ve Kaydet ve Bağlan'a tıklayın.",
+      "token_label": "Bot jetonunu girin",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "Kaydet ve Bağlan",
+      "preview_intro": "Telegram botları oluşturmanıza ve yönetmenize yardımcı olabilirim. Ne yapmak istersin?",
+      "preview_newbot": "yeni bir bot oluştur",
+      "preview_mybots": "botlarınızı düzenleyin",
+      "preview_name_prompt": "Tamam, yeni bir bot. Onu nasıl arayacağız? Lütfen botunuz için bir ad seçin.",
+      "preview_message_input": "Mesaj"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

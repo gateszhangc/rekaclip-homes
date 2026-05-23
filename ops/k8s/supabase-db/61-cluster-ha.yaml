@@ -1,0 +1,58 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: supabase-pg
+  namespace: supabase-db
+spec:
+  imageName: supabase/postgres:17.6.1.056
+  postgresUID: 101
+  postgresGID: 102
+  instances: 3
+  minSyncReplicas: 1
+  maxSyncReplicas: 1
+  enableSuperuserAccess: true
+  primaryUpdateStrategy: unsupervised
+  resources:
+    requests:
+      cpu: "1"
+      memory: 4Gi
+    limits:
+      cpu: "4"
+      memory: 8Gi
+  affinity:
+    enablePodAntiAffinity: true
+    topologyKey: kubernetes.io/hostname
+    podAntiAffinityType: required
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: node-role.kubernetes.io/control-plane
+                operator: DoesNotExist
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                  - vmi3202158
+                  - vmi3202159
+                  - vmi3202160
+  storage:
+    storageClass: local-path
+    size: 50Gi
+  postgresql:
+    parameters:
+      max_connections: "200"
+      shared_buffers: 1GB
+      wal_level: replica
+      archive_timeout: 300s
+      max_slot_wal_keep_size: 10GB
+  externalClusters:
+    - name: supabase-source
+      connectionParameters:
+        host: aws-1-ap-southeast-1.pooler.supabase.com
+        port: "5432"
+        user: postgres.cwvfcwpbdmolwjwhrzkw
+        dbname: postgres
+        sslmode: require
+      password:
+        name: supabase-source-secret
+        key: password

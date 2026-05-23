@@ -1,0 +1,40 @@
+{
+  "fontRecognizer": {
+    "name": "font-recognizer",
+    "title": "प्रतिमा फ्लिपर",
+    "description": "व्यावसायिक रंग उलथापालथ आणि संवर्धनासाठी प्रतिमा अपलोड करा",
+    "disabled": false,
+    "upload": {
+      "title": "प्रतिमा ड्रॅग आणि ड्रॉप करा",
+      "description": "PNG, JPG, JPEG, WebP 10MB पर्यंत सपोर्ट करते",
+      "buttonText": "एक फाइल निवडा",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "स्वच्छ प्रतिमा",
+      "textListTitle": "मजकूर क्षेत्रे आढळली",
+      "fontRecommendationTitle": "काढण्याच्या सूचना",
+      "detectedFontLabel": "निवडलेले क्षेत्र",
+      "similarFontsLabel": "पर्यायी भरणे",
+      "selectTextPrompt": "काढण्यासाठी मजकूर ब्लॉक निवडा"
+    },
+    "actions": {
+      "reuploadText": "पुन्हा अपलोड करा"
+    },
+    "messages": {
+      "uploadSuccess": "इमेज यशस्वीरित्या अपलोड केली",
+      "uploadError": "प्रतिमा अपलोड करण्यात अयशस्वी",
+      "recognitionSuccess": "तपास पूर्ण झाला",
+      "recognitionError": "शोध अयशस्वी",
+      "fontRecognitionSuccess": "मजकूर काढणे पूर्ण झाले",
+      "fontRecognitionError": "मजकूर काढणे अयशस्वी",
+      "processing": "प्रक्रिया करत आहे..."
+    }
+  }
+}

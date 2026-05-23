@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "定價",
+    "title": "定價",
+    "description": "根據您所需的 OpenClaw 部署數量選擇方案。隨時從您的帳戶取消。",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "每月",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "每年",
+        "is_featured": true,
+        "label": "節省 50%"
+      }
+    ],
+    "items": [
+      {
+        "title": "入門者",
+        "label": "搶先體驗",
+        "description": "運行 OpenClaw 所需的一切。沒有什麼是你不知道的。",
+        "features_title": "包括免費試用",
+        "features": [
+          "完全託管的 OpenClaw 運行時",
+          "Telegram-就緒代理",
+          "零設定",
+          "1 OpenClaw 代理",
+          "Claude、ChatGPT 或 Gemini - 我們為您運行",
+          "無需 API 金鑰",
+          "每個方案均包含使用量。隨時取消。"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10 美元",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "免費試用。無需信用卡。",
+        "button": {
+          "title": "立即運行 OpenClaw",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw 入門月刊",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "專業版",
+        "label": "熱門",
+        "features_title": "核心部署功能",
+        "features": [
+          "最多 5 個活動 OpenClaw 部署",
+          "一鍵部署、重新啟動、重新部署",
+          "型號和通道配置預設",
+          "部署狀態儀表板",
+          "基本上使用分析",
+          "電子郵件支援",
+          "商業用途",
+          "存取新的部署功能"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20 美元",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "取得專業版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw 專業月刊",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "入門者",
+        "label": "搶先體驗",
+        "description": "運行 OpenClaw 所需的一切。沒有什麼是你不知道的。",
+        "features_title": "包括免費試用",
+        "features": [
+          "完全託管的 OpenClaw 運行時",
+          "Telegram-就緒代理",
+          "零設定",
+          "1 OpenClaw 代理",
+          "Claude、ChatGPT 或 Gemini - 我們為您運行",
+          "無需 API 金鑰",
+          "每個方案均包含使用量。隨時取消。"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5 美元",
+        "original_price": "原價：$10/月",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "免費試用。無需信用卡。",
+        "button": {
+          "title": "立即運行 OpenClaw",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw 啟動器 每年",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "專業版",
+        "label": "熱門",
+        "features_title": "核心部署功能",
+        "features": [
+          "最多 5 個活動 OpenClaw 部署",
+          "一鍵部署、重新啟動、重新部署",
+          "型號和通道配置預設",
+          "部署狀態儀表板",
+          "基本上使用分析",
+          "電子郵件支援",
+          "商業用途",
+          "存取新的部署功能"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10 美元",
+        "original_price": "原價：$20/月",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "取得專業版",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro 每年",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

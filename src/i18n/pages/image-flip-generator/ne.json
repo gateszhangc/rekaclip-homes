@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "छवि फ्लिपर",
+    "description": "व्यावसायिक गुणस्तरको साथ तेर्सो वा ठाडो रूपमा छविहरू फ्लिप गर्नुहोस्",
+    "disabled": false,
+    "upload": {
+      "title": "छवि तान्नुहोस् र छोड्नुहोस्",
+      "description": "PNG, JPG, JPEG, WebP 10MB सम्म समर्थन गर्दछ",
+      "buttonText": "फाइलहरू ब्राउज गर्नुहोस्",
+      "dragDropText": "छोड्नुहोस्, टाँस्नुहोस् वा URL थप्नुहोस्",
+      "selectFileText": "छवि फाइल चयन गर्नुहोस्",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "फ्लिप गर्न तयार छ।",
+      "replace": "प्रतिस्थापन गर्नुहोस्",
+      "remove": "हटाउनुहोस्"
+    },
+    "controls": {
+      "horizontalFlip": "तेर्सो फ्लिप गर्नुहोस्",
+      "verticalFlip": "ठाडो फ्लिप गर्नुहोस्",
+      "processing": "प्रशोधन गर्दै...",
+      "uploading": "अपलोड गर्दै..."
+    },
+    "preview": {
+      "originalAlt": "मूल छवि",
+      "flippedAlt": "फ्लिप गरिएको छवि",
+      "download": "डाउनलोड गर्नुहोस्"
+    },
+    "credits": {
+      "label": "क्रेडिट:",
+      "cost": "प्रति फ्लिप लागत:",
+      "insufficient": "अपर्याप्त क्रेडिटहरू"
+    },
+    "errors": {
+      "noImage": "कुनै छवि चयन गरिएको छैन",
+      "noImageSuggestion": "कृपया पहिले एउटा छवि अपलोड गर्नुहोस्।",
+      "invalidFormat": "असमर्थित फाइल ढाँचा",
+      "formatSuggestion": "कृपया एक प्रयोग गर्नुहोस्: {formats}",
+      "fileTooLarge": "फाइल धेरै ठूलो: {size}MB",
+      "sizeSuggestion": "अधिकतम आकार {maxSize}MB हो। कृपया कम्प्रेस गर्नुहोस् वा सानो फाइल छान्नुहोस्।",
+      "uploadFailed": "छवि अपलोड गर्न असफल भयो",
+      "uploadSuggestion": "आफ्नो जडान जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।",
+      "authRequired": "प्रमाणीकरण आवश्यक छ",
+      "authSuggestion": "कृपया छविहरू अपलोड गर्न साइन इन गर्नुहोस्।",
+      "processingFailed": "फ्लिप सञ्चालन असफल भयो",
+      "processingSuggestion": "कृपया पुन: प्रयास गर्नुहोस् वा यदि समस्या रहिरह्यो भने समर्थनलाई सम्पर्क गर्नुहोस्।",
+      "networkError": "नेटवर्क जडान समस्या",
+      "networkSuggestion": "आफ्नो जडान जाँच गर्नुहोस् र फेरि प्रयास गर्नुहोस्।",
+      "fileReadError": "फाइल पढ्न असफल भयो",
+      "fileReadSuggestion": "कृपया फाइल फेरि चयन गर्ने प्रयास गर्नुहोस्।",
+      "retry": "पुन: प्रयास गर्नुहोस्"
+    },
+    "messages": {
+      "uploadSuccess": "छवि सफलतापूर्वक अपलोड गरियो",
+      "flipSuccess": "छवि सफलतापूर्वक फ्लिप गरियो",
+      "downloadStarted": "डाउनलोड सुरु भयो"
+    },
+    "legal": {
+      "terms": "फाइल अपलोड गरेर, तपाईं हाम्रो प्रयोगका सर्तहरू र गोपनीयता नीतिमा सहमत हुनुहुन्छ।"
+    }
+  }
+}

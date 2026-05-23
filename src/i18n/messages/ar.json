@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - انشر OpenClaw في أقل من دقيقة واحدة",
+    "description": "انشر OpenClaw مع EasyClaw بنقرة واحدة. قم بتوصيل Telegram، واختر نموذجًا، وابدأ البث المباشر بسرعة.",
+    "keywords": "Easyclaw، نشر openclaw، استضافة openclaw، نشر روبوت برقية، نشر مساعد الذكاء الاصطناعي"
+  },
+  "blog": {
+    "title": "مدونة",
+    "description": "الأخبار والبرامج التعليمية والتحديثات حول نشر OpenClaw مع EasyClaw.",
+    "read_more_text": "اقرأ المزيد"
+  },
+  "user": {
+    "sign_in": "تسجيل الدخول",
+    "sign_out": "تسجيل الخروج",
+    "credits": "الاعتمادات",
+    "api_keys": "مفاتيح API",
+    "my_orders": "طلباتي",
+    "my_invites": "دعواتي",
+    "user_center": "مركز المستخدم",
+    "support": "الدعم",
+    "admin_system": "نظام المشرف",
+    "home": "الصفحة الرئيسية",
+    "pricing": "التسعير",
+    "admin_center": "مركز الإدارة"
+  },
+  "sign_modal": {
+    "sign_in_title": "تسجيل الدخول إلى EasyClaw",
+    "sign_in_description": "قم بالوصول إلى حساب EasyClaw الخاص بك لنشر OpenClaw وإدارته.",
+    "sign_up_title": "انضم إلى EasyClaw",
+    "sign_up_description": "قم بإنشاء حساب EasyClaw الخاص بك",
+    "email_title": "البريد الإلكتروني",
+    "email_placeholder": "أدخل عنوان بريدك الإلكتروني",
+    "password_title": "كلمة المرور",
+    "password_placeholder": "أدخل كلمة المرور الخاصة بك",
+    "forgot_password": "هل نسيت كلمة المرور؟",
+    "or": "أو",
+    "continue": "المتابعة إلى EasyClaw",
+    "no_account": "هل أنت جديد على EasyClaw؟",
+    "email_sign_in": "تسجيل الدخول باستخدام البريد الإلكتروني",
+    "google_sign_in": "تواصل مع جوجل",
+    "github_sign_in": "تواصل مع جيثب",
+    "close_title": "إغلاق",
+    "cancel_title": "إلغاء"
+  },
+  "my_orders": {
+    "title": "طلباتي",
+    "no_orders": "لم يتم العثور على أي أوامر",
+    "tip": "",
+    "support_tip": "هل تحتاج إلى مساعدة بشأن الفواتير أو الإلغاء؟ البريد الإلكتروني support@easyclaw.pro.",
+    "activate_order": "تفعيل الطلب",
+    "actived": "تفعيلها",
+    "join_discord": "انضم إلى Discord",
+    "read_docs": "قراءة المستندات",
+    "table": {
+      "order_no": "رقم الطلب",
+      "email": "البريد الإلكتروني",
+      "product_name": "اسم المنتج",
+      "amount": "المبلغ",
+      "paid_at": "دفعت في",
+      "github_username": "اسم مستخدم جيثب",
+      "status": "الحالة",
+      "manage_billing": "إدارة الفواتير",
+      "interval": "Interval",
+      "interval_month": "شهريا",
+      "interval_year": "سنويا",
+      "interval_one_time": "لمرة واحدة"
+    }
+  },
+  "my_credits": {
+    "title": "الاعتمادات الخاصة بي",
+    "left_tip": "الاعتمادات اليسرى: {left_credits}",
+    "no_credits": "لا توجد سجلات الاعتمادات",
+    "recharge": "إعادة الشحن",
+    "table": {
+      "trans_no": "رقم التحويل",
+      "trans_type": "نوع ترانس",
+      "credits": "الاعتمادات",
+      "updated_at": "تم التحديث في",
+      "status": "الحالة",
+      "expired_at": "انتهت صلاحيته في",
+      "created_at": "تم الإنشاء في"
+    }
+  },
+  "api_keys": {
+    "title": "مفاتيح API",
+    "tip": "يرجى الحفاظ على apikey الخاص بك آمنًا لتجنب التسربات",
+    "no_api_keys": "لا توجد مفاتيح API",
+    "create_api_key": "إنشاء مفتاح API",
+    "table": {
+      "name": "Name",
+      "key": "مفتاح",
+      "created_at": "تم الإنشاء في"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API الاسم الرئيسي",
+      "submit": "إرسال"
+    }
+  },
+  "my_invites": {
+    "title": "دعواتي",
+    "description": "عرض سجلات الدعوة الخاصة بك",
+    "no_invites": "لم يتم العثور على سجلات الدعوة",
+    "my_invite_link": "رابط دعوتي",
+    "edit_invite_link": "تحرير رابط الدعوة",
+    "copy_invite_link": "انسخ رابط الدعوة",
+    "invite_code": "رمز الدعوة",
+    "invite_tip": "قم بدعوة الأصدقاء إلى EasyClaw واكسب المكافآت.",
+    "invite_balance": "دعوة رصيد المكافأة",
+    "total_invite_count": "إجمالي عدد الدعوات",
+    "total_paid_count": "إجمالي العدد المدفوع",
+    "total_award_amount": "إجمالي مبلغ الجائزة",
+    "update_invite_code": "تعيين رمز الدعوة",
+    "update_invite_code_tip": "أدخل رمز الدعوة المخصص الخاص بك",
+    "update_invite_button": "حفظ",
+    "no_orders": "أنت بحاجة إلى خطة مدفوعة قبل دعوة الآخرين",
+    "no_affiliates": "لا يسمح لك بدعوة الآخرين، يرجى الاتصال بنا لتقديم طلب للحصول على إذن.",
+    "table": {
+      "invite_time": "دعوة الوقت",
+      "invite_user": "دعوة المستخدم",
+      "status": "الحالة",
+      "reward_percent": "نسبة المكافأة",
+      "reward_amount": "مبلغ المكافأة",
+      "pending": "في انتظار",
+      "completed": "مكتمل"
+    }
+  },
+  "feedback": {
+    "title": "ردود الفعل",
+    "description": "نود أن نسمع ما حدث بشكل جيد أو كيف يمكننا تحسين تجربة المنتج.",
+    "submit": "إرسال",
+    "loading": "جارٍ الإرسال...",
+    "contact_tip": "طرق أخرى للاتصال بنا",
+    "rating_tip": "ما هو شعورك تجاه EasyClaw؟",
+    "placeholder": "اترك كلامك هنا..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - قم بإنشاء رسوم كاريكاتورية بالذكاء الاصطناعي على الفور",
+    "description": "قم بتحميل الصور لإنشاء رسوم كاريكاتورية ممتعة وفنية باستخدام أدوات مدعومة بالذكاء الاصطناعي.",
+    "upload_label": "قم بتحميل صورتك",
+    "upload_placeholder": "انقر أو اسحب للتحميل (JPG، PNG، GIF، WebP)",
+    "upload_required": "مطلوب",
+    "prompt_label": "وصف التوسيع (اختياري)",
+    "prompt_placeholder": "على سبيل المثال، \"توسيع الخلفية لليسار واليمين\"، و\"طلاء السماء\"، و\"توسيع لوحة الرسم للشعار\"، و\"إضافة مساحة حول الموضوع\"...",
+    "prompt_required": "ملاحظات اختيارية",
+    "character_count": "{count}/500",
+    "generate_button": "قم بتوسيع الصورة",
+    "generating_button": "جارٍ التوسيع...",
+    "credits_label": "الاعتمادات الخاصة بك",
+    "cost_label": "التكلفة: أرصدة {cost} لكل توسعة",
+    "insufficient_credits": "الاعتمادات غير كافية. يرجى إعادة الشحن لمواصلة توسيع الصور.",
+    "errors": {
+      "no_image": "يرجى تحميل صورة للتوسيع",
+      "no_prompt": "يرجى وصف كيف تريد توسيع الصورة",
+      "invalid_format": "يتم دعم تنسيقات JPG وPNG وGIF وWebP فقط",
+      "file_too_large": "لا يمكن أن يتجاوز حجم الصورة 5 ميغابايت",
+      "generation_failed": "فشل توسيع الصورة، يرجى المحاولة مرة أخرى",
+      "download_failed": "فشل التنزيل، يرجى المحاولة مرة أخرى"
+    },
+    "success": {
+      "generated": "صورتك الموسعة جاهزة!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "شاهد أحدث الصور التي تم توسيعها بواسطة أداتنا. معاينة قبل/بعد وتصدير النتيجة.",
+    "download_hint": "انقر لتنزيل الصورة الموسعة",
+    "no_outfits": "لا توجد توسعات حتى الآن. قم بتحميل صورة لبدء التوسع!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - مولد الكاريكاتير بالذكاء الاصطناعي",
+    "description": "قم بإنشاء رسوم كاريكاتورية عالية الجودة باستخدام نموذج OpenClaw AI مع أوضاع تحويل النص إلى صورة وصورة إلى صورة",
+    "hero": {
+      "badge": "جديد OpenClaw",
+      "title": "إنشاء رسوم كاريكاتورية مذهلة",
+      "subtitle": "قم بتحويل الصور إلى رسوم كاريكاتورية مذهلة باستخدام نموذج الذكاء الاصطناعي المتقدم في OpenClaw. يدعم أوضاع إنشاء النص إلى الصورة والصورة إلى الصورة.",
+      "features": {
+        "text_to_image": "النص إلى الصورة",
+        "image_to_image": "صورة لصورة",
+        "high_quality": "مخرجات عالية الجودة"
+      },
+      "buttons": {
+        "start_creating": "ابدأ في الإنشاء",
+        "view_gallery": "عرض المعرض"
+      },
+      "stats": {
+        "daily_images": "الصور المولدة يوميا",
+        "satisfaction": "رضا المستخدم",
+        "generation_time": "متوسط وقت التوليد"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "صورة لصورة",
+        "text_to_image": "النص إلى الصورة"
+      },
+      "model": "نموذج",
+      "reference_images": "الصور المرجعية",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "قم بسحب وإسقاط الصور هنا",
+        "or_click": "أو انقر للتصفح",
+        "supported_formats": "يدعم: JPEG، PNG، WebP (بحد أقصى 10 ميجابايت)",
+        "add_more": "أضف المزيد"
+      },
+      "prompt": "موجه",
+      "prompt_placeholder_image": "شرح كيفية تحويل الصورة...",
+      "prompt_placeholder_text": "قم بوصف الصورة التي تريد إنشاءها...",
+      "aspect_ratio": "نسبة الارتفاع",
+      "resolution": "القرار",
+      "output_count": "عدد المخرجات",
+      "output_count_range": "مين {min}، ماكس {max}",
+      "output_format": "تنسيق الإخراج",
+      "generate_button": "توليد الآن",
+      "generating": "جارٍ الإنشاء...",
+      "clear_images": "مسح كافة الصور",
+      "output_gallery": "صورتك المولدة",
+      "view_all": "عرض الكل",
+      "generating_message": "خلق تحفة الخاص بك...",
+      "generating_submessage": "يعمل نموذج OpenClaw الخاص بنا بسحره. يستغرق هذا عادةً بضع ثوانٍ.",
+      "example": "مثال"
+    },
+    "my_creations": {
+      "title": "إبداعاتي",
+      "description": "عرض وإدارة الصور التي تم إنشاؤها بواسطة الذكاء الاصطناعي - قم بمعاينتها وتنزيلها بنقرة واحدة",
+      "search_placeholder": "بحث عن الإبداعات...",
+      "view_all": "عرض الكل ({count})",
+      "no_results": "لم يتم العثور على إبداعات مطابقة",
+      "no_results_message": "حاول استخدام كلمات رئيسية مختلفة أو امسح البحث لعرض جميع الإبداعات.",
+      "clear_search": "مسح البحث",
+      "empty_state": "لا توجد إبداعات بعد",
+      "empty_message": "ابدأ باستخدام OpenClaw لإنشاء أول صورة تم إنشاؤها بواسطة الذكاء الاصطناعي!",
+      "start_creating": "ابدأ في الإنشاء",
+      "download": "تحميل",
+      "delete": "حذف",
+      "total_count": "إجمالي إبداعات {count}",
+      "search_results": "(بحث: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "النص إلى الصورة",
+        "IMAGE_TO_IMAGE": "صورة لصورة"
+      }
+    },
+    "errors": {
+      "enter_prompt": "الرجاء إدخال موجه",
+      "upload_reference": "يتطلب وضع صورة إلى صورة تحميل صور مرجعية",
+      "generation_failed": "فشل الإنشاء، يرجى المحاولة مرة أخرى",
+      "upload_success": "تم تحميل الصورة بنجاح",
+      "upload_failed": "فشل التحميل",
+      "delete_success": "تم حذف الصورة",
+      "delete_failed": "فشل الحذف، يرجى المحاولة مرة أخرى",
+      "download_started": "بدأ التنزيل",
+      "file_too_large": "لا يمكن أن يتجاوز حجم الملف {size}MB",
+      "unsupported_format": "تنسيق الملف غير معتمد. التنسيقات المدعومة: {formats}",
+      "retry": "أعد المحاولة",
+      "dismiss": "استبعاد"
+    },
+    "loading": {
+      "default": "جار التحميل...",
+      "generation": "خلق تحفة الخاص بك...",
+      "generation_message": "يعمل نموذج OpenClaw الخاص بنا بسحره. يستغرق هذا عادةً بضع ثوانٍ.",
+      "upload": "جارٍ تحميل الصورة...",
+      "upload_message": "يرجى الانتظار حتى يتم تحميل صورتك إلى السحابة."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "استوديو الطبقات",
+      "title": "استوديو OpenClaw",
+      "description": "قم بإنشاء رسوم كاريكاتورية فنية من صورك.",
+      "cta": "تجربة مجانية",
+      "cta_hint": "قم بتحميل صورة واحدة للبدء",
+      "features": [
+        "2-8 طبقات AI لكل صورة",
+        "تصدير PNG/WebP الشفاف",
+        "الانفصال الموجه الفوري"
+      ]
+    },
+    "upload": {
+      "title": "تحميل",
+      "subtitle": "JPG أو PNG أو WebP حتى 10 ميجابايت",
+      "action": "تحميل الصورة",
+      "drop": "أسقط صورتك هنا",
+      "or_click": "أو انقر للتصفح",
+      "supported_formats": "يدعم: JPEG، PNG، WebP (بحد أقصى 10 ميجابايت)"
+    },
+    "prompt": {
+      "label": "موجه",
+      "placeholder": "قم بوصف الطبقات التي تريدها (على سبيل المثال، الموضوع، الدعائم، الخلفية)"
+    },
+    "advanced": {
+      "title": "الإعدادات المتقدمة",
+      "prompt_label": "موجه (اختياري)",
+      "prompt_placeholder": "الرجاء إدخال الموجه لوصف الصورة. (خياري)",
+      "negative_prompt_label": "المطالبة السلبية (اختياري)",
+      "negative_prompt_placeholder": "وصف ما ينبغي استبعاده من الطبقات.",
+      "seed": "بذرة",
+      "randomize_seed": "عشوائية البذور",
+      "guidance_scale": "مقياس التوجيه الحقيقي",
+      "inference_steps": "عدد خطوات الاستدلال",
+      "cfg_normalization": "ما إذا كان تمكين تطبيع CFG",
+      "auto_caption_language": "لغة التسمية التوضيحية التلقائية في حالة عدم تقديم مطالبة، True لـ EN، وFalse لـ ZH",
+      "layer_count": "عدد الطبقات",
+      "layer_range": "مين {min}، ماكس {max}",
+      "output_format": "تنسيق الإخراج"
+    },
+    "actions": {
+      "decompose": "تتحلل!",
+      "sign_in_to_decompose": "تسجيل الدخول لتتحلل!",
+      "generating": "متحللة..."
+    },
+    "results": {
+      "title": "النتائج",
+      "subtitle": "تظهر مخرجات الطبقات هنا بعد التحلل.",
+      "download_pptx": "تحميل بي تي اكس",
+      "download_zip": "تحميل الرمز البريدي",
+      "packaging": "التغليف...",
+      "generating_title": "تحلل صورتك...",
+      "generating_subtitle": "إنشاء الأصول ذات الطبقات. يستغرق هذا عادةً بضع ثوانٍ.",
+      "layer_label": "طبقة {index}",
+      "layer_description": "الأصول الطبقات",
+      "empty_title": "لا توجد طبقات بعد",
+      "empty_subtitle": "قم بتحميل صورة وانقر فوق \"تحليل\"! لتوليد الطبقات.",
+      "success": "تم إنشاء الطبقات بنجاح!",
+      "download_ready": "تحميل جاهز"
+    },
+    "examples": {
+      "title": "أمثلة",
+      "subtitle": "شاهد كيف تنقسم الصورة المصدر إلى طبقات نظيفة.",
+      "labels": {
+        "source": "المصدر",
+        "layer": "طبقة {index}",
+        "sample": "مثال {index}"
+      },
+      "rows": {
+        "primary": "مجموعة الأمثلة 01",
+        "secondary": "مجموعة الأمثلة 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "يرجى تحميل صورة مرجعية أولا",
+      "generation_failed": "فشل الإنشاء، يرجى المحاولة مرة أخرى",
+      "upload_success": "تم تحميل الصورة بنجاح",
+      "upload_failed": "فشل التحميل",
+      "download_failed": "فشل التنزيل، يرجى المحاولة مرة أخرى"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "متاح"
+    },
+    "errors": {
+      "no_available_account": "لا يوجد حساب متاح في اشتراكك الحالي. يرجى المحاولة مرة أخرى في وقت لاحق.",
+      "network_unstable": "الشبكة غير مستقرة. يرجى المحاولة مرة أخرى قريبا.",
+      "deployment_failed_try_again": "فشل النشر. حاول ثانية.",
+      "deployment_timeout": "انتهت مهلة النشر بعد دقائق {minutes}. يرجى المحاولة مرة أخرى.",
+      "enter_bot_token": "الرجاء إدخال رمز بوت.",
+      "select_channel_before_deploying": "الرجاء تحديد قناة قبل النشر.",
+      "enter_telegram_bot_token": "الرجاء إدخال رمز بوت Telegram الخاص بك.",
+      "invalid_response_missing_deployment_id": "استجابة غير صالحة: معرف_النشر مفقود",
+      "failed_to_start_deployment": "فشل بدء النشر",
+      "failed_to_fetch_deployment_status": "فشل جلب حالة النشر",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - نشر OpenClaw بنقرة واحدة",
+      "description": "انشر OpenClaw في أقل من دقيقة واحدة. لا توجد خوادم أو DevOps. اختر نموذجًا، وقم بتوصيل القناة، ثم ابدأ التشغيل."
+    },
+    "selectors": {
+      "model_title": "اختر نموذجًا افتراضيًا لجهاز OpenClaw",
+      "channel_title": "اختر المكان الذي يجب أن يرسل فيه OpenClaw الرسائل",
+      "selected": "مختارة"
+    },
+    "deploy": {
+      "deploying": "جارٍ النشر...",
+      "deploy_button": "نشر",
+      "sign_in_button": "قم بتسجيل الدخول للنشر باستخدام EasyClaw",
+      "sign_in_hint": "قم بتسجيل الدخول لنشر OpenClaw مع EasyClaw وتوصيل قنواتك.",
+      "status_success": "تم النشر بنجاح! OpenClaw قيد التشغيل الآن.",
+      "model_substitution_warning": "تم اكتشاف استبدال النموذج. حاول إعادة النشر أو التبديل إلى منطقة/مزود آخر.",
+      "hint_prefix": "قم بتوصيل Telegram للمتابعة.",
+      "hint_suffix": "يمكنك إضافة قنوات أخرى إلى نفس الحساب لاحقًا.",
+      "hint_prefix_telegram": "قم بتوصيل Telegram للمتابعة.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "قم بتوصيل Telegram",
+      "how_to_get_token": "كيفية الحصول على رمز الروبوت الخاص بك؟",
+      "step_1_prefix": "افتح Telegram وانتقل إلى",
+      "step_2_prefix": "ابدأ محادثة واكتب",
+      "step_3_text": "اتبع المطالبات لتسمية الروبوت الخاص بك واختيار اسم المستخدم.",
+      "step_4_text": "سوف يرسل لك BotFather رسالة تحتوي على رمز الروبوت الخاص بك. انسخ الرمز المميز بالكامل (يبدو كسلسلة طويلة من الأرقام والحروف).",
+      "step_5_text": "الصق الرمز المميز في الحقل أدناه وانقر فوق \"حفظ واتصال\".",
+      "token_label": "أدخل رمز بوت",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "حفظ والاتصال",
+      "preview_intro": "يمكنني مساعدتك في إنشاء وإدارة روبوتات Telegram. ماذا تريد أن تفعل؟",
+      "preview_newbot": "إنشاء بوت جديد",
+      "preview_mybots": "تحرير الروبوتات الخاصة بك",
+      "preview_name_prompt": "حسنا، بوت جديد. كيف سنسميها؟ الرجاء اختيار اسم للبوت الخاص بك.",
+      "preview_message_input": "رسالة"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

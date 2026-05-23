@@ -1,0 +1,68 @@
+{
+  "image_flip_generator": {
+    "name": "image-flip-generator",
+    "title": "이미지 플리퍼",
+    "description": "전문적인 품질로 이미지를 수평 또는 수직으로 뒤집습니다.",
+    "disabled": false,
+    "upload": {
+      "title": "이미지 드래그 앤 드롭",
+      "description": "PNG, JPG, JPEG, WebP 최대 10MB 지원",
+      "buttonText": "파일 찾아보기",
+      "dragDropText": "URL 삭제, 붙여넣기 또는 추가",
+      "selectFileText": "이미지 파일을 선택하세요",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ],
+      "ready": "뒤집을 준비가 되었습니다.",
+      "replace": "바꾸기",
+      "remove": "제거"
+    },
+    "controls": {
+      "horizontalFlip": "수평 뒤집기",
+      "verticalFlip": "수직 뒤집기",
+      "processing": "처리 중...",
+      "uploading": "업로드 중..."
+    },
+    "preview": {
+      "originalAlt": "원본 이미지",
+      "flippedAlt": "뒤집힌 이미지",
+      "download": "다운로드"
+    },
+    "credits": {
+      "label": "크레딧:",
+      "cost": "플립당 비용:",
+      "insufficient": "크레딧이 부족합니다."
+    },
+    "errors": {
+      "noImage": "선택한 이미지가 없습니다.",
+      "noImageSuggestion": "먼저 이미지를 업로드해주세요.",
+      "invalidFormat": "지원되지 않는 파일 형식",
+      "formatSuggestion": "다음 중 하나를 사용하세요: {formats}",
+      "fileTooLarge": "파일이 너무 큼: {size}MB",
+      "sizeSuggestion": "최대 크기는 {maxSize}MB입니다. 압축하거나 더 작은 파일을 선택하세요.",
+      "uploadFailed": "이미지를 업로드하지 못했습니다.",
+      "uploadSuggestion": "연결을 확인하고 다시 시도하세요.",
+      "authRequired": "인증 필요",
+      "authSuggestion": "이미지를 업로드하려면 로그인하세요.",
+      "processingFailed": "뒤집기 작업이 실패했습니다.",
+      "processingSuggestion": "문제가 지속되면 다시 시도하거나 지원팀에 문의하세요.",
+      "networkError": "네트워크 연결 문제",
+      "networkSuggestion": "연결을 확인하고 다시 시도하세요.",
+      "fileReadError": "파일을 읽지 못했습니다.",
+      "fileReadSuggestion": "파일을 다시 선택해 보세요.",
+      "retry": "재시도"
+    },
+    "messages": {
+      "uploadSuccess": "이미지가 성공적으로 업로드되었습니다.",
+      "flipSuccess": "이미지가 성공적으로 뒤집혔습니다.",
+      "downloadStarted": "다운로드가 시작되었습니다"
+    },
+    "legal": {
+      "terms": "파일을 업로드하면 당사의 이용약관 및 개인정보 보호정책에 동의하게 됩니다."
+    }
+  }
+}

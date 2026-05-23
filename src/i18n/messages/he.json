@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - פרוס את OpenClaw תוך פחות מדקה",
+    "description": "פרוס OpenClaw עם EasyClaw בלחיצה אחת. חבר את Telegram, בחר דגם ועבור לרשת במהירות.",
+    "keywords": "easyclaw, פריסת Openclaw, Openclaw אירוח, פריסת בוט טלגרם, פריסת עוזרת ai"
+  },
+  "blog": {
+    "title": "בלוג",
+    "description": "חדשות, הדרכות ועדכונים על פריסת OpenClaw עם EasyClaw.",
+    "read_more_text": "קרא עוד"
+  },
+  "user": {
+    "sign_in": "היכנס",
+    "sign_out": "צא",
+    "credits": "קרדיטים",
+    "api_keys": "מפתחות API",
+    "my_orders": "ההזמנות שלי",
+    "my_invites": "ההזמנות שלי",
+    "user_center": "מרכז משתמשים",
+    "support": "תמיכה",
+    "admin_system": "מערכת ניהול",
+    "home": "בית",
+    "pricing": "תמחור",
+    "admin_center": "מרכז ניהול"
+  },
+  "sign_modal": {
+    "sign_in_title": "היכנס אל EasyClaw",
+    "sign_in_description": "גש לחשבון EasyClaw שלך כדי לפרוס ולנהל את OpenClaw.",
+    "sign_up_title": "הצטרף ל-EasyClaw",
+    "sign_up_description": "צור את חשבון EasyClaw שלך",
+    "email_title": "דוא\"ל",
+    "email_placeholder": "הזן את כתובת הדוא\"ל שלך",
+    "password_title": "סיסמה",
+    "password_placeholder": "הזן את הסיסמה שלך",
+    "forgot_password": "שכחת סיסמה?",
+    "or": "או",
+    "continue": "המשך אל EasyClaw",
+    "no_account": "חדש ב-EasyClaw?",
+    "email_sign_in": "היכנס באמצעות דואר אלקטרוני",
+    "google_sign_in": "המשך עם גוגל",
+    "github_sign_in": "המשך עם GitHub",
+    "close_title": "סגור",
+    "cancel_title": "בטל"
+  },
+  "my_orders": {
+    "title": "ההזמנות שלי",
+    "no_orders": "לא נמצאו הזמנות",
+    "tip": "",
+    "support_tip": "זקוק לעזרה עם חיוב או ביטול? דוא\"ל support@easyclaw.pro.",
+    "activate_order": "הפעל את ההזמנה",
+    "actived": "הופעל",
+    "join_discord": "הצטרף ל-Discord",
+    "read_docs": "קרא מסמכים",
+    "table": {
+      "order_no": "הזמנה מס'",
+      "email": "דוא\"ל",
+      "product_name": "שם המוצר",
+      "amount": "כמות",
+      "paid_at": "שולם ב",
+      "github_username": "שם משתמש GitHub",
+      "status": "סטטוס",
+      "manage_billing": "נהל חיוב",
+      "interval": "Interval",
+      "interval_month": "חודשי",
+      "interval_year": "מדי שנה",
+      "interval_one_time": "חד פעמי"
+    }
+  },
+  "my_credits": {
+    "title": "הקרדיטים שלי",
+    "left_tip": "קרדיטים שמאל: {left_credits}",
+    "no_credits": "אין רישומי קרדיט",
+    "recharge": "טען מחדש",
+    "table": {
+      "trans_no": "מס' טרנס",
+      "trans_type": "סוג טרנס",
+      "credits": "קרדיטים",
+      "updated_at": "עודכן ב-",
+      "status": "סטטוס",
+      "expired_at": "פג בשעה",
+      "created_at": "נוצר ב-At"
+    }
+  },
+  "api_keys": {
+    "title": "מפתחות API",
+    "tip": "נא לשמור על ה-apikey שלך בטוח כדי למנוע דליפות",
+    "no_api_keys": "אין מפתחות API",
+    "create_api_key": "צור מפתח API",
+    "table": {
+      "name": "Name",
+      "key": "מפתח",
+      "created_at": "נוצר ב-At"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "שם מפתח API",
+      "submit": "שלח"
+    }
+  },
+  "my_invites": {
+    "title": "ההזמנות שלי",
+    "description": "הצג את רישומי ההזמנות שלך",
+    "no_invites": "לא נמצאו רשומות הזמנות",
+    "my_invite_link": "קישור ההזמנה שלי",
+    "edit_invite_link": "ערוך קישור הזמנה",
+    "copy_invite_link": "העתק את קישור ההזמנה",
+    "invite_code": "קוד הזמנה",
+    "invite_tip": "הזמן חברים ל-EasyClaw וזכה בפרסים.",
+    "invite_balance": "יתרת תגמול הזמנה",
+    "total_invite_count": "סך כל ספירת ההזמנות",
+    "total_paid_count": "סך כל ספירת התשלום",
+    "total_award_amount": "סכום הפרס הכולל",
+    "update_invite_code": "הגדר קוד הזמנה",
+    "update_invite_code_tip": "הזן את קוד ההזמנה המותאם אישית שלך",
+    "update_invite_button": "שמור",
+    "no_orders": "אתה צריך תוכנית בתשלום לפני שאתה מזמין אחרים",
+    "no_affiliates": "אינך רשאי להזמין אחרים, אנא צור איתנו קשר כדי להגיש בקשה להרשאה.",
+    "table": {
+      "invite_time": "הזמן הזמן",
+      "invite_user": "הזמן משתמש",
+      "status": "סטטוס",
+      "reward_percent": "אחוז תגמול",
+      "reward_amount": "סכום התגמול",
+      "pending": "בהמתנה",
+      "completed": "הושלם"
+    }
+  },
+  "feedback": {
+    "title": "משוב",
+    "description": "נשמח לשמוע מה הלך טוב או איך נוכל לשפר את חווית המוצר.",
+    "submit": "שלח",
+    "loading": "שולח...",
+    "contact_tip": "דרכים נוספות ליצור איתנו קשר",
+    "rating_tip": "מה אתה מרגיש לגבי EasyClaw?",
+    "placeholder": "השאר את דבריך כאן..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - צור קריקטורות AI באופן מיידי",
+    "description": "העלה תמונות כדי ליצור קריקטורות מהנות ואומנותיות עם כלים המופעלים על ידי בינה מלאכותית.",
+    "upload_label": "העלה את התמונה שלך",
+    "upload_placeholder": "לחץ או גרור כדי להעלות (JPG, PNG, GIF, WebP)",
+    "upload_required": "חובה",
+    "prompt_label": "תאר את ההרחבה (אופציונלי)",
+    "prompt_placeholder": "למשל, 'הרחבת רקע ימינה ושמאלה', 'צייר את השמיים', 'הרחבת בד עבור באנר', 'הוסף מקום סביב הנושא'...",
+    "prompt_required": "הערות אופציונליות",
+    "character_count": "{count}/500",
+    "generate_button": "הרחב את התמונה",
+    "generating_button": "מתרחב...",
+    "credits_label": "הקרדיטים שלך",
+    "cost_label": "עלות: זיכויים {cost} לכל הרחבה",
+    "insufficient_credits": "אין מספיק קרדיטים. אנא טען מחדש כדי להמשיך להרחיב את התמונות.",
+    "errors": {
+      "no_image": "נא להעלות תמונה כדי להרחיב",
+      "no_prompt": "נא לתאר כיצד ברצונך להרחיב את התמונה",
+      "invalid_format": "רק פורמטים JPG, PNG, GIF, WebP נתמכים",
+      "file_too_large": "גודל התמונה לא יכול לעלות על 5MB",
+      "generation_failed": "הרחבת התמונה נכשלה, אנא נסה שוב",
+      "download_failed": "ההורדה נכשלה, אנא נסה שוב"
+    },
+    "success": {
+      "generated": "התמונה המורחבת שלך מוכנה!"
+    }
+  },
+  "outfit_gallery": {
+    "description": "ראה את התמונות האחרונות שהורחבו על ידי הכלי שלנו. תצוגה מקדימה לפני/אחרי וייצא את התוצאה.",
+    "download_hint": "לחץ להורדת התמונה המורחבת",
+    "no_outfits": "עדיין אין הרחבות. העלה תמונה כדי להתחיל להתרחב!"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - מחולל קריקטורות בינה מלאכותית",
+    "description": "צור קריקטורות באיכות גבוהה באמצעות מודל AI OpenClaw עם מצבי טקסט לתמונה ותמונה לתמונה",
+    "hero": {
+      "badge": "OpenClaw חדש",
+      "title": "צור קריקטורות מדהימות",
+      "subtitle": "הפוך תמונות לקריקטורות מדהימות עם דגם ה-AI המתקדם של OpenClaw. תומך הן במצבי יצירת טקסט לתמונה ותמונה לתמונה.",
+      "features": {
+        "text_to_image": "טקסט לתמונה",
+        "image_to_image": "תמונה לתמונה",
+        "high_quality": "פלט באיכות גבוהה"
+      },
+      "buttons": {
+        "start_creating": "התחל ליצור",
+        "view_gallery": "צפה בגלריה"
+      },
+      "stats": {
+        "daily_images": "תמונות שנוצרו מדי יום",
+        "satisfaction": "שביעות רצון המשתמש",
+        "generation_time": "זמן דור ממוצע"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "תמונה לתמונה",
+        "text_to_image": "טקסט לתמונה"
+      },
+      "model": "דגם",
+      "reference_images": "התייחסות לתמונות",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "גרור ושחרר תמונות כאן",
+        "or_click": "או לחץ כדי לדפדף",
+        "supported_formats": "תומך: JPEG, PNG, WebP (מקסימום 10MB)",
+        "add_more": "הוסף עוד"
+      },
+      "prompt": "הנחה",
+      "prompt_placeholder_image": "תאר כיצד לשנות את התמונה...",
+      "prompt_placeholder_text": "תאר את התמונה שברצונך ליצור...",
+      "aspect_ratio": "יחס גובה-רוחב",
+      "resolution": "רזולוציה",
+      "output_count": "ספירת פלט",
+      "output_count_range": "מינימום {min}, מקסימום {max}",
+      "output_format": "פורמט פלט",
+      "generate_button": "צור עכשיו",
+      "generating": "יוצר...",
+      "clear_images": "נקה את כל התמונות",
+      "output_gallery": "התמונה שנוצרה שלך",
+      "view_all": "הצג הכל",
+      "generating_message": "יוצר את יצירת המופת שלך...",
+      "generating_submessage": "דגם ה-OpenClaw שלנו עושה את הקסם שלו. זה בדרך כלל לוקח כמה שניות.",
+      "example": "דוגמה"
+    },
+    "my_creations": {
+      "title": "היצירות שלי",
+      "description": "הצג ונהל את התמונות שנוצרו על ידי AI - תצוגה מקדימה והורדה בלחיצה אחת",
+      "search_placeholder": "חפש יצירות...",
+      "view_all": "הצג הכל ({count})",
+      "no_results": "לא נמצאו יצירות תואמות",
+      "no_results_message": "נסה להשתמש במילות מפתח שונות או נקה את החיפוש כדי להציג את כל היצירות.",
+      "clear_search": "נקה חיפוש",
+      "empty_state": "עדיין אין יצירות",
+      "empty_message": "התחל להשתמש ב-OpenClaw כדי ליצור את התמונה הראשונה שלך שנוצרת בינה מלאכותית!",
+      "start_creating": "התחל ליצור",
+      "download": "הורד",
+      "delete": "מחק",
+      "total_count": "סה\"כ יצירות {count}",
+      "search_results": "(חיפוש: \"{term}\")",
+      "modes": {
+        "TEXT_TO_IMAGE": "טקסט לתמונה",
+        "IMAGE_TO_IMAGE": "תמונה לתמונה"
+      }
+    },
+    "errors": {
+      "enter_prompt": "נא להזין הודעה",
+      "upload_reference": "מצב תמונה לתמונה דורש העלאת תמונות עזר",
+      "generation_failed": "הדור נכשל, אנא נסה שוב",
+      "upload_success": "התמונה הועלתה בהצלחה",
+      "upload_failed": "ההעלאה נכשלה",
+      "delete_success": "התמונה נמחקה",
+      "delete_failed": "המחיקה נכשלה, אנא נסה שוב",
+      "download_started": "ההורדה החלה",
+      "file_too_large": "גודל הקובץ לא יכול לעלות על {size}MB",
+      "unsupported_format": "פורמט קובץ לא נתמך. פורמטים נתמכים: {formats}",
+      "retry": "נסה שוב",
+      "dismiss": "לבטל"
+    },
+    "loading": {
+      "default": "טוען...",
+      "generation": "יוצר את יצירת המופת שלך...",
+      "generation_message": "דגם ה-OpenClaw שלנו עושה את הקסם שלו. זה בדרך כלל לוקח כמה שניות.",
+      "upload": "מעלה תמונה...",
+      "upload_message": "המתן בזמן שהתמונה שלך תועלה לענן."
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "סטודיו שכבות",
+      "title": "סטודיו OpenClaw",
+      "description": "צור קריקטורות אמנותיות מהתמונות שלך.",
+      "cta": "ניסיון חינם",
+      "cta_hint": "העלה תמונה אחת כדי להתחיל",
+      "features": [
+        "2-8 שכבות AI לתמונה",
+        "ייצוא PNG/WebP שקוף",
+        "הפרדה מונחית מהירה"
+      ]
+    },
+    "upload": {
+      "title": "העלה",
+      "subtitle": "JPG, PNG או WebP עד 10MB",
+      "action": "העלה תמונה",
+      "drop": "שחרר את התמונה שלך כאן",
+      "or_click": "או לחץ כדי לדפדף",
+      "supported_formats": "תומך: JPEG, PNG, WebP (מקסימום 10MB)"
+    },
+    "prompt": {
+      "label": "הנחה",
+      "placeholder": "תאר את השכבות שאתה רוצה (למשל, נושא, אביזרים, רקע)"
+    },
+    "advanced": {
+      "title": "הגדרות מתקדמות",
+      "prompt_label": "בקשה (אופציונלי)",
+      "prompt_placeholder": "נא להזין את ההנחיה לתיאור התמונה. (אופציונלי)",
+      "negative_prompt_label": "הודעה שלילית (אופציונלי)",
+      "negative_prompt_placeholder": "תאר מה יש להוציא מהשכבות.",
+      "seed": "זרע",
+      "randomize_seed": "עשה זרע אקראי",
+      "guidance_scale": "סולם הנחיה אמיתי",
+      "inference_steps": "מספר שלבי הסקת מסקנות",
+      "cfg_normalization": "האם אפשר נורמליזציה של CFG",
+      "auto_caption_language": "שפת כתוביות אוטומטית אם לא מסופקת הנחיה, True עבור EN, False עבור ZH",
+      "layer_count": "ספירת שכבות",
+      "layer_range": "מינימום {min}, מקסימום {max}",
+      "output_format": "פורמט פלט"
+    },
+    "actions": {
+      "decompose": "לפרק!",
+      "sign_in_to_decompose": "היכנס כדי לפרק!",
+      "generating": "מתפרק..."
+    },
+    "results": {
+      "title": "תוצאות",
+      "subtitle": "פלטים שכבות מופיעים כאן לאחר פירוק.",
+      "download_pptx": "הורד PPTX",
+      "download_zip": "הורד את ZIP",
+      "packaging": "אריזה...",
+      "generating_title": "מפרק את התמונה שלך...",
+      "generating_subtitle": "יצירת נכסי שכבות. זה בדרך כלל לוקח כמה שניות.",
+      "layer_label": "שכבה {index}",
+      "layer_description": "נכס שכבות",
+      "empty_title": "עדיין אין שכבות",
+      "empty_subtitle": "העלה תמונה ולחץ על פירוק! ליצור שכבות.",
+      "success": "השכבות נוצרו בהצלחה!",
+      "download_ready": "ההורדה מוכנה"
+    },
+    "examples": {
+      "title": "דוגמאות",
+      "subtitle": "ראה כיצד תמונת מקור מתפרקת לשכבות נקיות.",
+      "labels": {
+        "source": "מקור",
+        "layer": "שכבה {index}",
+        "sample": "דוגמה {index}"
+      },
+      "rows": {
+        "primary": "סט דוגמה 01",
+        "secondary": "סט דוגמה 02"
+      }
+    },
+    "errors": {
+      "upload_reference": "אנא העלה תחילה תמונת עזר",
+      "generation_failed": "הדור נכשל, אנא נסה שוב",
+      "upload_success": "התמונה הועלתה בהצלחה",
+      "upload_failed": "ההעלאה נכשלה",
+      "download_failed": "ההורדה נכשלה, אנא נסה שוב"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "זמין"
+    },
+    "errors": {
+      "no_available_account": "אין חשבון זמין במנוי הנוכחי שלך. אנא נסה שוב מאוחר יותר.",
+      "network_unstable": "הרשת לא יציבה. אנא נסה שוב בקרוב.",
+      "deployment_failed_try_again": "הפריסה נכשלה. נסה שוב.",
+      "deployment_timeout": "פסק זמן לפריסה לאחר {minutes} דקות. אנא נסה שוב.",
+      "enter_bot_token": "נא להזין אסימון בוט.",
+      "select_channel_before_deploying": "אנא בחר ערוץ לפני הפריסה.",
+      "enter_telegram_bot_token": "אנא הזן את אסימון הבוט Telegram שלך.",
+      "invalid_response_missing_deployment_id": "תגובה לא חוקית: חסר deployment_id",
+      "failed_to_start_deployment": "התחלת הפריסה נכשלה",
+      "failed_to_fetch_deployment_status": "אחזור סטטוס הפריסה נכשל",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - פריסת OpenClaw בלחיצה אחת",
+      "description": "פרוס את OpenClaw תוך פחות מדקה. אין שרתים או DevOps. בחר דגם, חבר ערוץ והפעל."
+    },
+    "selectors": {
+      "model_title": "בחר דגם ברירת מחדל עבור OpenClaw שלך",
+      "channel_title": "בחר לאן OpenClaw צריך לשלוח הודעות",
+      "selected": "נבחר"
+    },
+    "deploy": {
+      "deploying": "פריסה...",
+      "deploy_button": "פרוס",
+      "sign_in_button": "היכנס לפריסה עם EasyClaw",
+      "sign_in_hint": "היכנס כדי לפרוס את OpenClaw עם EasyClaw ולחבר את הערוצים שלך.",
+      "status_success": "הפריסה הצליחה! OpenClaw פועל כעת.",
+      "model_substitution_warning": "זוהתה החלפת דגם. נסה לפרוס מחדש או לעבור לאזור/ספק אחר.",
+      "hint_prefix": "חבר את Telegram כדי להמשיך.",
+      "hint_suffix": "תוכל להוסיף ערוצים אחרים לאותו חשבון מאוחר יותר.",
+      "hint_prefix_telegram": "חבר את Telegram כדי להמשיך.",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "חבר את Telegram",
+      "how_to_get_token": "איך להשיג את אסימון הבוט שלך?",
+      "step_1_prefix": "פתח את Telegram ועבור אל",
+      "step_2_prefix": "התחל צ'אט והקלד",
+      "step_3_text": "עקוב אחר ההנחיות כדי לתת שם לבוט שלך ובחר שם משתמש.",
+      "step_4_text": "BotFather ישלח לך הודעה עם אסימון הבוט שלך. העתק את כל האסימון (זה נראה כמו מחרוזת ארוכה של מספרים ואותיות).",
+      "step_5_text": "הדבק את האסימון בשדה למטה ולחץ על שמור והתחבר.",
+      "token_label": "הזן אסימון בוט",
+      "token_placeholder": "1234567890:ABCdefGHIJklMNOpqrsTUVwxyz",
+      "save_and_connect": "שמור והתחבר",
+      "preview_intro": "אני יכול לעזור לך ליצור ולנהל בוטים של Telegram. מה היית רוצה לעשות?",
+      "preview_newbot": "ליצור בוט חדש",
+      "preview_mybots": "לערוך את הבוטים שלך",
+      "preview_name_prompt": "בסדר, בוט חדש. איך נקרא לזה? אנא בחר שם עבור הבוט שלך.",
+      "preview_message_input": "הודעה"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

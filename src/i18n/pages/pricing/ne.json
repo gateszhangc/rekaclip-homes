@@ -1,0 +1,155 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "मूल्य निर्धारण",
+    "title": "मूल्य निर्धारण",
+    "description": "तपाईंलाई कति OpenClaw डिप्लोयमेन्टहरू चाहिन्छ भन्ने आधारमा एउटा योजना छान्नुहोस्। तपाईंको खाताबाट जुनसुकै बेला रद्द गर्नुहोस्।",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "मासिक",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "वार्षिक रूपमा",
+        "is_featured": true,
+        "label": "५०% बचत गर्नुहोस्"
+      }
+    ],
+    "items": [
+      {
+        "title": "स्टार्टर",
+        "label": "प्रारम्भिक पहुँच",
+        "description": "तपाईलाई OpenClaw चलाउन आवश्यक सबै कुरा। तपाईलाई केही छैन।",
+        "features_title": "नि: शुल्क परीक्षण समावेश छ",
+        "features": [
+          "पूर्ण रूपमा व्यवस्थित OpenClaw रनटाइम",
+          "Telegram-तयार एजेन्ट",
+          "शून्य सेटअप",
+          "1 OpenClaw एजेन्ट",
+          "Claude, ChatGPT, वा Gemini - हामी यो तपाईंको लागि चलाउँछौं",
+          "कुनै API कुञ्जी आवश्यक छैन",
+          "प्रति योजना उपयोग समावेश। जुनसुकै बेला रद्द गर्नुहोस्।"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "$१०",
+        "original_price": "",
+        "unit": "/month",
+        "is_featured": false,
+        "tip": "नि:शुल्क प्रयास गर्नुहोस्। कुनै क्रेडिट कार्ड आवश्यक छैन।",
+        "button": {
+          "title": "OpenClaw तुरुन्तै चलाउनुहोस्",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-monthly",
+        "product_name": "EasyClaw स्टार्टर मासिक",
+        "credits": 1200,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "प्रो",
+        "label": "लोकप्रिय",
+        "features_title": "कोर तैनाती सुविधाहरू",
+        "features": [
+          "5 सक्रिय OpenClaw परिनियोजनहरू सम्म",
+          "एक-क्लिक डिप्लोय, रिस्टार्ट र रिडिप्लोय गर्नुहोस्",
+          "मोडेल र च्यानल कन्फिगरेसन प्रिसेटहरू",
+          "परिनियोजन स्थिति ड्यासबोर्ड",
+          "आधारभूत उपयोग विश्लेषण",
+          "ईमेल समर्थन",
+          "व्यावसायिक उपयोग",
+          "नयाँ परिनियोजन सुविधाहरूमा पहुँच"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "$२०",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "प्रो प्राप्त गर्नुहोस्",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw प्रो मासिक",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "स्टार्टर",
+        "label": "प्रारम्भिक पहुँच",
+        "description": "तपाईलाई OpenClaw चलाउन आवश्यक सबै कुरा। तपाईलाई केही छैन।",
+        "features_title": "नि: शुल्क परीक्षण समावेश छ",
+        "features": [
+          "पूर्ण रूपमा व्यवस्थित OpenClaw रनटाइम",
+          "Telegram-तयार एजेन्ट",
+          "शून्य सेटअप",
+          "1 OpenClaw एजेन्ट",
+          "Claude, ChatGPT, वा Gemini - हामी यो तपाईंको लागि चलाउँछौं",
+          "कुनै API कुञ्जी आवश्यक छैन",
+          "प्रति योजना उपयोग समावेश। जुनसुकै बेला रद्द गर्नुहोस्।"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "$५",
+        "original_price": "मूल मूल्य: $ 10 / mo",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "नि:शुल्क प्रयास गर्नुहोस्। कुनै क्रेडिट कार्ड आवश्यक छैन।",
+        "button": {
+          "title": "OpenClaw तुरुन्तै चलाउनुहोस्",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter-yearly",
+        "product_name": "EasyClaw स्टार्टर वार्षिक रूपमा",
+        "credits": 14400,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "प्रो",
+        "label": "लोकप्रिय",
+        "features_title": "कोर तैनाती सुविधाहरू",
+        "features": [
+          "5 सक्रिय OpenClaw परिनियोजनहरू सम्म",
+          "एक-क्लिक डिप्लोय, रिस्टार्ट र रिडिप्लोय गर्नुहोस्",
+          "मोडेल र च्यानल कन्फिगरेसन प्रिसेटहरू",
+          "परिनियोजन स्थिति ड्यासबोर्ड",
+          "आधारभूत उपयोग विश्लेषण",
+          "ईमेल समर्थन",
+          "व्यावसायिक उपयोग",
+          "नयाँ परिनियोजन सुविधाहरूमा पहुँच"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "$१०",
+        "original_price": "मूल मूल्य: $ 20 / mo",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "प्रो प्राप्त गर्नुहोस्",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw प्रो वार्षिक रूपमा",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

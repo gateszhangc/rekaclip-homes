@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_rsc_src_i18n_pages_pricing_ur_json";
+exports.ids = ["_rsc_src_i18n_pages_pricing_ur_json"];
+exports.modules = {
+
+/***/ "(rsc)/./src/i18n/pages/pricing/ur.json":
+/*!****************************************!*\
+  !*** ./src/i18n/pages/pricing/ur.json ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = /*#__PURE__*/JSON.parse('{"pricing":{"name":"pricing","label":"قیمتوں کا تعین","title":"قیمتوں کا تعین","description":"آپ کو کتنی OpenClaw تعیناتیوں کی ضرورت ہے اس کی بنیاد پر ایک منصوبہ منتخب کریں۔ اپنے اکاؤنٹ سے کسی بھی وقت منسوخ کریں۔","groups":[{"name":"monthly","title":"ماہانہ","is_featured":false},{"name":"yearly","title":"سالانہ","is_featured":true,"label":"50% بچائیں"}],"items":[{"title":"سٹارٹر","label":"ابتدائی رسائی","description":"ہر وہ چیز جس کی آپ کو OpenClaw چلانے کی ضرورت ہے۔ کچھ بھی نہیں جو آپ نہیں کرتے۔","features_title":"مفت ٹرائل شامل ہے۔","features":["مکمل طور پر منظم OpenClaw رن ٹائم","Telegram تیار ایجنٹ","صفر سیٹ اپ","1 OpenClaw ایجنٹ","Claude، ChatGPT، یا Gemini - ہم اسے آپ کے لیے چلاتے ہیں","API کلید کی ضرورت نہیں ہے۔","استعمال فی منصوبہ شامل ہے۔ کسی بھی وقت منسوخ کریں۔"],"interval":"month","amount":1000,"currency":"USD","price":"$10","original_price":"","unit":"/month","is_featured":false,"tip":"مفت میں آزمائیں۔ کریڈٹ کارڈ کی ضرورت نہیں ہے۔","button":{"title":"OpenClaw فوری طور پر چلائیں۔","url":"/#pricing","icon":"RiFlashlightFill"},"product_id":"starter-monthly","product_name":"EasyClaw سٹارٹر ماہانہ","credits":1200,"valid_months":1,"group":"monthly"},{"title":"پرو","label":"مقبول","features_title":"بنیادی تعیناتی کی خصوصیات","features":["5 فعال OpenClaw تک تعیناتیاں","ایک کلک کی تعیناتی، دوبارہ شروع، اور دوبارہ تعینات کریں۔","ماڈل اور چینل کنفیگریشن پیش سیٹ","تعیناتی کی حیثیت کا ڈیش بورڈ","بنیادی استعمال کے تجزیات","ای میل سپورٹ","تجارتی استعمال","نئی تعیناتی خصوصیات تک رسائی"],"interval":"month","amount":2000,"currency":"USD","price":"$20","original_price":"","unit":"/mo","is_featured":true,"tip":"","button":{"title":"پرو حاصل کریں۔","url":"/#pricing","icon":"RiFlashlightFill"},"product_id":"pro-monthly","product_name":"EasyClaw پرو ماہانہ","credits":250,"valid_months":1,"group":"monthly"},{"title":"سٹارٹر","label":"ابتدائی رسائی","description":"ہر وہ چیز جس کی آپ کو OpenClaw چلانے کی ضرورت ہے۔ کچھ بھی نہیں جو آپ نہیں کرتے۔","features_title":"مفت ٹرائل شامل ہے۔","features":["مکمل طور پر منظم OpenClaw رن ٹائم","Telegram تیار ایجنٹ","صفر سیٹ اپ","1 OpenClaw ایجنٹ","Claude، ChatGPT، یا Gemini - ہم اسے آپ کے لیے چلاتے ہیں","API کلید کی ضرورت نہیں ہے۔","استعمال فی منصوبہ شامل ہے۔ کسی بھی وقت منسوخ کریں۔"],"interval":"year","amount":6000,"currency":"USD","price":"$5","original_price":"اصل قیمت: $10/mo","unit":"/mo","is_featured":false,"tip":"مفت میں آزمائیں۔ کریڈٹ کارڈ کی ضرورت نہیں ہے۔","button":{"title":"OpenClaw فوری طور پر چلائیں۔","url":"/#pricing","icon":"RiFlashlightFill"},"product_id":"starter-yearly","product_name":"EasyClaw سٹارٹر سالانہ","credits":14400,"valid_months":12,"group":"yearly"},{"title":"پرو","label":"مقبول","features_title":"بنیادی تعیناتی کی خصوصیات","features":["5 فعال OpenClaw تک تعیناتیاں","ایک کلک کی تعیناتی، دوبارہ شروع، اور دوبارہ تعینات کریں۔","ماڈل اور چینل کنفیگریشن پیش سیٹ","تعیناتی کی حیثیت کا ڈیش بورڈ","بنیادی استعمال کے تجزیات","ای میل سپورٹ","تجارتی استعمال","نئی تعیناتی خصوصیات تک رسائی"],"interval":"year","amount":12000,"currency":"USD","price":"$10","original_price":"اصل قیمت: $20/mo","unit":"/mo","is_featured":true,"tip":"","button":{"title":"پرو حاصل کریں۔","url":"/#pricing","icon":"RiFlashlightFill"},"product_id":"pro-yearly","product_name":"EasyClaw پرو سالانہ","credits":3000,"valid_months":12,"group":"yearly"}]}}');
+
+/***/ })
+
+};
+;

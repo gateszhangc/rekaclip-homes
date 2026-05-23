@@ -1,0 +1,426 @@
+{
+  "metadata": {
+    "title": "EasyClaw - OpenClaw を 1 分以内にデプロイします",
+    "description": "ワンクリックで OpenClaw を EasyClaw とともにデプロイします。 Telegram を接続し、モデルを選択すれば、すぐに稼働できます。",
+    "keywords": "easyclaw、openclaw の展開、openclaw ホスティング、電報ボットの展開、AI アシスタントの展開"
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "EasyClaw を使用した OpenClaw の展開に関するニュース、チュートリアル、および更新情報。",
+    "read_more_text": "続きを読む"
+  },
+  "user": {
+    "sign_in": "サインイン",
+    "sign_out": "サインアウト",
+    "credits": "クレジット",
+    "api_keys": "API キー",
+    "my_orders": "私の注文",
+    "my_invites": "私の招待状",
+    "user_center": "ユーザーセンター",
+    "support": "サポート",
+    "admin_system": "管理システム",
+    "home": "ホーム",
+    "pricing": "価格設定",
+    "admin_center": "管理センター"
+  },
+  "sign_modal": {
+    "sign_in_title": "EasyClaw にサインインする",
+    "sign_in_description": "EasyClaw アカウントにアクセスして、OpenClaw を展開および管理します。",
+    "sign_up_title": "参加する",
+    "sign_up_description": "EasyClaw アカウントを作成する",
+    "email_title": "電子メール",
+    "email_placeholder": "メールアドレスを入力してください",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "forgot_password": "パスワードをお忘れですか?",
+    "or": "または",
+    "continue": "EasyClaw に進む",
+    "no_account": "EasyClaw を初めてお使いですか?",
+    "email_sign_in": "電子メールでサインインする",
+    "google_sign_in": "Google を続ける",
+    "github_sign_in": "GitHub を続ける",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル"
+  },
+  "my_orders": {
+    "title": "私の注文",
+    "no_orders": "注文が見つかりませんでした",
+    "tip": "",
+    "support_tip": "請求やキャンセルに関してサポートが必要ですか? support@easyclaw.pro に電子メールを送信してください。",
+    "activate_order": "注文をアクティブ化する",
+    "actived": "アクティブ化された",
+    "join_discord": "Discordに参加する",
+    "read_docs": "ドキュメントを読む",
+    "table": {
+      "order_no": "注文番号",
+      "email": "電子メール",
+      "product_name": "製品名",
+      "amount": "金額",
+      "paid_at": "支払い先",
+      "github_username": "GitHub ユーザー名",
+      "status": "ステータス",
+      "manage_billing": "請求の管理",
+      "interval": "Interval",
+      "interval_month": "毎月",
+      "interval_year": "毎年",
+      "interval_one_time": "ワンタイム"
+    }
+  },
+  "my_credits": {
+    "title": "私のクレジット",
+    "left_tip": "左クレジット: {left_credits}",
+    "no_credits": "クレジット記録がありません",
+    "recharge": "リチャージ",
+    "table": {
+      "trans_no": "トランス番号",
+      "trans_type": "トランスタイプ",
+      "credits": "クレジット",
+      "updated_at": "更新日",
+      "status": "ステータス",
+      "expired_at": "有効期限切れ",
+      "created_at": "作成日"
+    }
+  },
+  "api_keys": {
+    "title": "API キー",
+    "tip": "漏洩を避けるために、apikey を安全に保管してください",
+    "no_api_keys": "API キーなし",
+    "create_api_key": "API キーの作成",
+    "table": {
+      "name": "Name",
+      "key": "キー",
+      "created_at": "作成日"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API キー名",
+      "submit": "送信する"
+    }
+  },
+  "my_invites": {
+    "title": "私の招待状",
+    "description": "招待記録を表示する",
+    "no_invites": "招待レコードが見つかりませんでした",
+    "my_invite_link": "私の招待リンク",
+    "edit_invite_link": "招待リンクの編集",
+    "copy_invite_link": "招待リンクをコピー",
+    "invite_code": "招待コード",
+    "invite_tip": "友達を EasyClaw に招待して報酬を獲得しましょう。",
+    "invite_balance": "招待報酬残高",
+    "total_invite_count": "合計招待数",
+    "total_paid_count": "支払総額",
+    "total_award_amount": "賞金総額",
+    "update_invite_code": "招待コードを設定する",
+    "update_invite_code_tip": "カスタム招待コードを入力してください",
+    "update_invite_button": "保存",
+    "no_orders": "他の人を招待する前に有料プランが必要です",
+    "no_affiliates": "他の人を招待することは許可されていません。許可を申請するには、お問い合わせください。",
+    "table": {
+      "invite_time": "招待時間",
+      "invite_user": "ユーザーを招待",
+      "status": "ステータス",
+      "reward_percent": "報酬パーセント",
+      "reward_amount": "報酬額",
+      "pending": "保留中",
+      "completed": "完了しました"
+    }
+  },
+  "feedback": {
+    "title": "フィードバック",
+    "description": "何がうまくいったのか、またはどのように製品エクスペリエンスを改善できるのかを知りたいと思っています。",
+    "submit": "送信する",
+    "loading": "送信中...",
+    "contact_tip": "その他の連絡方法",
+    "rating_tip": "EasyClawについてどう思いますか？",
+    "placeholder": "ここに言葉を残してください..."
+  },
+  "outfit_generator": {
+    "title": "OpenClaw - AI似顔絵を瞬時に作成",
+    "description": "写真をアップロードして、AI 搭載ツールを使用して楽しく芸術的な似顔絵を生成します。",
+    "upload_label": "画像をアップロードする",
+    "upload_placeholder": "クリックまたはドラッグしてアップロードします (JPG、PNG、GIF、WebP)",
+    "upload_required": "必須",
+    "prompt_label": "拡張の説明 (オプション)",
+    "prompt_placeholder": "例: 「背景を左右に拡張する」、「空を塗りつぶす」、「バナーのキャンバスを広げる」、「被写体の周囲にスペースを追加する」...",
+    "prompt_required": "オプションのメモ",
+    "character_count": "{count}/500",
+    "generate_button": "画像を拡大する",
+    "generating_button": "拡大中...",
+    "credits_label": "あなたのクレジット",
+    "cost_label": "コスト: 拡張ごとに {cost} クレジット",
+    "insufficient_credits": "クレジットが不足しています。イメージをさらに拡大するには、充電してください。",
+    "errors": {
+      "no_image": "拡大するには画像をアップロードしてください",
+      "no_prompt": "画像を拡大する方法を説明してください",
+      "invalid_format": "JPG、PNG、GIF、WebP 形式のみがサポートされています",
+      "file_too_large": "画像サイズは5MBを超えることはできません",
+      "generation_failed": "画像の展開に失敗しました。もう一度お試しください。",
+      "download_failed": "ダウンロードに失敗しました。もう一度お試しください"
+    },
+    "success": {
+      "generated": "展開した画像が完成しました。"
+    }
+  },
+  "outfit_gallery": {
+    "description": "当社のツールによって展開された最新の画像をご覧ください。前後でプレビューし、結果をエクスポートします。",
+    "download_hint": "クリックして拡大画像をダウンロードします",
+    "no_outfits": "まだ拡張はありません。画像をアップロードして拡張を開始してください。"
+  },
+  "nano_banana_pro": {
+    "title": "OpenClaw - AI似顔絵ジェネレーター",
+    "description": "テキストから画像へのモードと画像から画像へのモードを備えた OpenClaw AI モデルを使用して、高品質の似顔絵を生成します",
+    "hero": {
+      "badge": "新しいOpenClaw",
+      "title": "素晴らしい似顔絵を作成する",
+      "subtitle": "OpenClaw の高度な AI モデルを使用して、写真を魅力的な似顔絵に変換します。テキストから画像への作成モードと画像から画像への作成モードの両方をサポートします。",
+      "features": {
+        "text_to_image": "テキストから画像へ",
+        "image_to_image": "画像から画像へ",
+        "high_quality": "高品質の出力"
+      },
+      "buttons": {
+        "start_creating": "作成を開始する",
+        "view_gallery": "ギャラリーを見る"
+      },
+      "stats": {
+        "daily_images": "毎日生成される画像",
+        "satisfaction": "ユーザー満足度",
+        "generation_time": "平均生成時間"
+      }
+    },
+    "generator": {
+      "modes": {
+        "image_to_image": "画像から画像へ",
+        "text_to_image": "テキストから画像へ"
+      },
+      "model": "モデル",
+      "reference_images": "参考画像",
+      "reference_images_count": "({count}/1)",
+      "upload_area": {
+        "drag_drop": "ここに画像をドラッグアンドドロップします",
+        "or_click": "またはクリックして参照します",
+        "supported_formats": "サポート: JPEG、PNG、WebP (最大 10MB)",
+        "add_more": "さらに追加"
+      },
+      "prompt": "プロンプト",
+      "prompt_placeholder_image": "画像を変換する方法を説明します...",
+      "prompt_placeholder_text": "生成したい画像を説明してください...",
+      "aspect_ratio": "アスペクト比",
+      "resolution": "解像度",
+      "output_count": "出力数",
+      "output_count_range": "最小 {min}、最大 {max}",
+      "output_format": "出力フォーマット",
+      "generate_button": "今すぐ生成",
+      "generating": "生成中...",
+      "clear_images": "すべての画像をクリア",
+      "output_gallery": "生成した画像",
+      "view_all": "すべて見る",
+      "generating_message": "あなたの傑作を作成します...",
+      "generating_submessage": "当社の OpenClaw モデルはその魔法を発揮します。通常、これには数秒かかります。",
+      "example": "例"
+    },
+    "my_creations": {
+      "title": "私の作品",
+      "description": "AI で生成された画像を表示および管理 - ワンクリックでプレビューおよびダウンロード",
+      "search_placeholder": "作品を検索...",
+      "view_all": "すべて見る ({count})",
+      "no_results": "一致する作品は見つかりませんでした",
+      "no_results_message": "別のキーワードを使用してみるか、検索をクリアしてすべての作品を表示してください。",
+      "clear_search": "検索をクリア",
+      "empty_state": "まだ作成されていません",
+      "empty_message": "OpenClaw を使用して、初めて AI 生成画像を作成してください。",
+      "start_creating": "作成を開始する",
+      "download": "ダウンロード",
+      "delete": "削除",
+      "total_count": "{count} の合計作品数",
+      "search_results": "(検索:「{term}」)",
+      "modes": {
+        "TEXT_TO_IMAGE": "テキストから画像へ",
+        "IMAGE_TO_IMAGE": "画像から画像へ"
+      }
+    },
+    "errors": {
+      "enter_prompt": "プロンプトを入力してください",
+      "upload_reference": "画像間モードでは参照画像をアップロードする必要があります",
+      "generation_failed": "生成に失敗しました。もう一度お試しください。",
+      "upload_success": "画像が正常にアップロードされました",
+      "upload_failed": "アップロードに失敗しました",
+      "delete_success": "画像が削除されました",
+      "delete_failed": "削除に失敗しました。もう一度お試しください",
+      "download_started": "ダウンロードが開始されました",
+      "file_too_large": "ファイルサイズは{size}MBを超えることはできません",
+      "unsupported_format": "サポートされていないファイル形式です。サポートされている形式: {formats}",
+      "retry": "再試行",
+      "dismiss": "解雇する"
+    },
+    "loading": {
+      "default": "読み込み中...",
+      "generation": "あなたの傑作を作成します...",
+      "generation_message": "当社の OpenClaw モデルはその魔法を発揮します。通常、これには数秒かかります。",
+      "upload": "画像をアップロードしています...",
+      "upload_message": "画像がクラウドにアップロードされるまでお待ちください。"
+    }
+  },
+  "qwen_image_layered": {
+    "intro": {
+      "kicker": "レイヤードスタジオ",
+      "title": "OpenClaw スタジオ",
+      "description": "写真から芸術的な似顔絵を作成します。",
+      "cta": "無料トライアル",
+      "cta_hint": "まずは画像を 1 枚アップロードしてください",
+      "features": [
+        "画像あたり 2 ～ 8 AI レイヤー",
+        "透明な PNG/WebP エクスポート",
+        "迅速なガイドによる分離"
+      ]
+    },
+    "upload": {
+      "title": "アップロード",
+      "subtitle": "JPG、PNG、または WebP 最大 10MB",
+      "action": "画像をアップロードする",
+      "drop": "ここに画像をドロップしてください",
+      "or_click": "またはクリックして参照します",
+      "supported_formats": "サポート: JPEG、PNG、WebP (最大 10MB)"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "placeholder": "必要なレイヤーについて説明します (例: 主題、小道具、背景)"
+    },
+    "advanced": {
+      "title": "詳細設定",
+      "prompt_label": "プロンプト (オプション)",
+      "prompt_placeholder": "画像を説明するプロンプトを入力してください。 (オプション)",
+      "negative_prompt_label": "否定的なプロンプト (オプション)",
+      "negative_prompt_placeholder": "レイヤーから除外すべきものを説明します。",
+      "seed": "種子",
+      "randomize_seed": "シードをランダム化する",
+      "guidance_scale": "真の指導スケール",
+      "inference_steps": "推論ステップ数",
+      "cfg_normalization": "CFG 正規化を有効にするかどうか",
+      "auto_caption_language": "プロンプトが提供されない場合の自動キャプション言語。EN の場合は True、ZH の場合は False",
+      "layer_count": "レイヤー数",
+      "layer_range": "最小 {min}、最大 {max}",
+      "output_format": "出力フォーマット"
+    },
+    "actions": {
+      "decompose": "分解して！",
+      "sign_in_to_decompose": "サインインして分解してください!",
+      "generating": "分解中..."
+    },
+    "results": {
+      "title": "結果",
+      "subtitle": "階層化された出力が分解後にここに表示されます。",
+      "download_pptx": "PPTXをダウンロード",
+      "download_zip": "ZIPをダウンロード",
+      "packaging": "梱包...",
+      "generating_title": "画像を分解しています...",
+      "generating_subtitle": "階層化されたアセットの作成。通常、これには数秒かかります。",
+      "layer_label": "レイヤー{index}",
+      "layer_description": "階層化されたアセット",
+      "empty_title": "まだレイヤーがありません",
+      "empty_subtitle": "画像をアップロードして「分解」をクリックします。レイヤーを生成します。",
+      "success": "レイヤーが正常に生成されました。",
+      "download_ready": "ダウンロード準備完了"
+    },
+    "examples": {
+      "title": "例",
+      "subtitle": "ソース画像がどのようにきれいなレイヤーに分割されるかを見てください。",
+      "labels": {
+        "source": "ソース",
+        "layer": "レイヤー{index}",
+        "sample": "例 {index}"
+      },
+      "rows": {
+        "primary": "サンプルセット01",
+        "secondary": "サンプルセット02"
+      }
+    },
+    "errors": {
+      "upload_reference": "まず参考画像をアップロードしてください",
+      "generation_failed": "生成に失敗しました。もう一度お試しください。",
+      "upload_success": "画像が正常にアップロードされました",
+      "upload_failed": "アップロードに失敗しました",
+      "download_failed": "ダウンロードに失敗しました。もう一度お試しください"
+    }
+  },
+  "simpleclaw_landing": {
+    "availability": {
+      "available": "利用可能"
+    },
+    "errors": {
+      "no_available_account": "現在のサブスクリプションには利用可能なアカウントがありません。後でもう一度試してください。",
+      "network_unstable": "ネットワークが不安定です。しばらくしてからもう一度お試しください。",
+      "deployment_failed_try_again": "デプロイメントに失敗しました。もう一度やり直してください。",
+      "deployment_timeout": "{minutes} 分後の展開タイムアウト。もう一度試してください。",
+      "enter_bot_token": "ボットトークンを入力してください。",
+      "select_channel_before_deploying": "導入する前にチャネルを選択してください。",
+      "enter_telegram_bot_token": "Telegram ボット トークンを入力してください。",
+      "invalid_response_missing_deployment_id": "無効な応答:deployment_id がありません",
+      "failed_to_start_deployment": "デプロイメントの開始に失敗しました",
+      "failed_to_fetch_deployment_status": "デプロイメントステータスの取得に失敗しました",
+      "enter_discord_bot_token": "Please enter your Discord bot token.",
+      "no_available_kie_account": "No Kie account is available right now. Please ask the admin to import a Kie account.",
+      "no_available_node": "No available node right now. Please try again later.",
+      "deployment_seat_unavailable": "No deployment seat available in your current subscription. Please try again later.",
+      "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
+    },
+    "hero": {
+      "title": "EasyClaw - ワンクリック OpenClaw 導入",
+      "description": "OpenClaw を 1 分以内にデプロイします。サーバーも DevOps もありません。モデルを選択し、チャンネルを接続して、起動します。"
+    },
+    "selectors": {
+      "model_title": "OpenClaw のデフォルト モデルを選択してください",
+      "channel_title": "OpenClaw がメッセージを送信する場所を選択します",
+      "selected": "選択済み"
+    },
+    "deploy": {
+      "deploying": "導入中...",
+      "deploy_button": "デプロイ",
+      "sign_in_button": "EasyClaw でサインインしてデプロイします",
+      "sign_in_hint": "サインインして EasyClaw で OpenClaw を展開し、チャネルに接続します。",
+      "status_success": "導入が成功しました! OpenClaw が実行中です。",
+      "model_substitution_warning": "モデルの置換が検出されました。再デプロイするか、別のリージョン/プロバイダーに切り替えてみてください。",
+      "hint_prefix": "続行するには、Telegram を接続します。",
+      "hint_suffix": "後で同じアカウントに他のチャネルを追加できます。",
+      "hint_prefix_telegram": "続行するには、Telegram を接続します。",
+      "hint_prefix_discord": "Connect Discord to continue."
+    },
+    "telegram": {
+      "dialog_title": "Telegramを接続",
+      "how_to_get_token": "ボットトークンを取得するにはどうすればよいですか?",
+      "step_1_prefix": "Telegram を開いて、次の場所に移動します。",
+      "step_2_prefix": "チャットを開始して入力します",
+      "step_3_text": "プロンプトに従ってボットに名前を付け、ユーザー名を選択します。",
+      "step_4_text": "BotFather はボット トークンを含むメッセージを送信します。トークン全体をコピーします (数字と文字の長い文字列のように見えます)。",
+      "step_5_text": "下のフィールドにトークンを貼り付け、「保存して接続」をクリックします。",
+      "token_label": "ボットトークンを入力してください",
+      "token_placeholder": "1234567890:ABCdefGHIjklMNOpqrsTUVwxyz",
+      "save_and_connect": "保存して接続する",
+      "preview_intro": "Telegram ボットの作成と管理をお手伝いします。何をしたいですか?",
+      "preview_newbot": "新しいボットを作成する",
+      "preview_mybots": "ボットを編集する",
+      "preview_name_prompt": "はい、新しいボットです。なんと呼ぶのでしょうか？ボットの名前を選択してください。",
+      "preview_message_input": "メッセージ"
+    },
+    "discord": {
+      "dialog_title": "Connect Discord",
+      "how_to_get_token": "How to get your bot token?",
+      "step_1_prefix": "Open the",
+      "step_1_link_label": "Discord Developer Portal",
+      "step_1_suffix": "and create a new application.",
+      "step_2_text": "Open Bot settings, click Add Bot, and enable Message Content Intent.",
+      "step_3_text": "Copy the bot token from the Bot page.",
+      "step_4_text": "Use OAuth URL Generator to invite the bot with bot and applications.commands scopes.",
+      "step_5_text": "Paste the token in the field below and click Save & Connect.",
+      "token_label": "Enter bot token",
+      "token_placeholder": "MTExMTExMTExMTExMTExMTExMQ.GhIjKl.MNopQRSTuvWXyz0123456789abc",
+      "save_and_connect": "Save & Connect",
+      "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
+      "preview_step_1": "Create app -> Add Bot",
+      "preview_step_2": "Enable Message Content Intent",
+      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
+      "preview_message_input": "Message @EasyClaw Bot"
+    }
+  }
+}

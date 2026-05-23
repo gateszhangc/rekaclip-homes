@@ -1,0 +1,762 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "EasyClaw",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "特長",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "価格設定",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "ブログ",
+          "url": "/posts",
+          "icon": "RiArticleLine"
+        },
+        {
+          "title": "よくある質問",
+          "url": "/#faq",
+          "icon": "RiQuestionLine"
+        }
+      ]
+    },
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "EasyClaw",
+    "title_logo": {
+      "src": "/imgs/logos/logo.svg",
+      "alt": "EasyClawのロゴ"
+    },
+    "highlight_text": "EasyClaw",
+    "subtitle": "高品質のアートを作成する",
+    "description": "ポートレートをアップロードし、スタイルを選択し、アバター、ギフト、またはコンテンツ用のきれいな似顔絵を取得します。",
+    "features": [
+      "高品質のディテールとすっきりとしたライン",
+      "日常使いに適した適正価格",
+      "プロフィール、ギフト、プリントの準備ができました"
+    ],
+    "buttons": [
+      {
+        "title": "私の似顔絵を作成する",
+        "url": "/#caricature-maker",
+        "target": "_self",
+        "icon": "RiSparkling2Line"
+      }
+    ],
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+      "alt": "似顔絵の例"
+    },
+    "images": [
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/1.webp",
+        "alt": "似顔絵例1"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/2.webp",
+        "alt": "似顔絵例2"
+      },
+      {
+        "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/hero/3.webp",
+        "alt": "似顔絵例3"
+      }
+    ],
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "disabled": true,
+    "title": "高度なテクノロジーを活用",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Shadcn/UI",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/shadcn.svg",
+          "alt": "Shadcn/UI"
+        }
+      },
+      {
+        "title": "Vercel",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/logos/vercel.svg",
+          "alt": "Vercel"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "disabled": "本当の",
+    "name": "introduce",
+    "title": "似顔絵の作り方",
+    "label": "シンプルなプロセス",
+    "description": "3 つの簡単なステップで素晴らしい似顔絵を作成します。芸術的なスキルは必要ありません。",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "写真をアップロードする",
+        "description": "鮮明なポートレート写真をアップロードしてください。 JPG、PNG、WebPをサポートしています。",
+        "icon": "RiUploadCloud2Line"
+      },
+      {
+        "title": "スタイルの選択",
+        "description": "面白い、誇張された、アニメ、または 3D 漫画のスタイルから選択します。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "ダウンロード",
+        "description": "ウォーターマークなしで高品質の似顔絵をすぐに入手できます。",
+        "icon": "RiDownloadCloudLine"
+      }
+    ]
+  },
+  "benefit": {
+    "disabled": "本当の",
+    "name": "benefit",
+    "title": "OpenClaw を使用する理由",
+    "label": "利点",
+    "description": "ギフト、プロフィール写真、ソーシャル メディア コンテンツに最適なツールです。",
+    "items": [
+      {
+        "title": "インスタント AI マジック",
+        "description": "高度な AI が顔の特徴を分析し、完璧に誇張された似顔絵を数秒で作成します。",
+        "icon": "RiRobot2Line",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "多様なアートスタイル",
+        "description": "古典的な手描きの外観から最新の 3D アニメーション アバターまで。私たちはすべてを持っています。",
+        "icon": "RiPaletteLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "高解像度",
+        "description": "マグカップ、T シャツ、ポスターへの印刷に適した鮮明な高品質の画像をダウンロードします。",
+        "icon": "RiImageLine",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "benefit_showcase": {
+    "disabled": true,
+    "name": "benefit_showcase",
+    "label": "ギャラリー",
+    "title": "驚くべき変化",
+    "description": "普通の写真がどのようにして特別な似顔絵になるのかを見てみましょう。",
+    "items": [
+      {
+        "title": "ソーシャルアバター",
+        "highlight": "オンラインで目立つ",
+        "description": "あなたの個性を捉えたユニークなプロフィール写真を作成してください。",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after.png",
+        "beforeAlt": "元の写真",
+        "afterAlt": "似顔絵結果",
+        "reverse": false
+      },
+      {
+        "title": "パーソナライズされたギフト",
+        "highlight": "思い出に残るプレゼント",
+        "description": "カスタムの面白いポートレートで友達や家族を驚かせましょう。",
+        "beforeSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/before2.png",
+        "afterSrc": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/after2.png",
+        "beforeAlt": "元の写真",
+        "afterAlt": "似顔絵結果",
+        "reverse": true
+      }
+    ]
+  },
+  "usage": {
+    "disabled": false,
+    "name": "usage",
+    "title": "OpenClaw を導入するための 3 ステップ",
+    "description": "モデルを選択し、チャンネルに接続して起動します。",
+    "image": {
+      "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/features/1.png"
+    },
+    "image_position": "左",
+    "text_align": "センター",
+    "items": [
+      {
+        "title": "モデルを選択してください",
+        "description": "Claude、GPT、Gemini — 各タスクに最適なモデルを選択します。 Claudeでクリエイティブ作業、GPTで分析。いつでも切り替えることができます。",
+        "image": {
+          "src": "/images/easyclaw/step-1-models.png",
+          "alt": "AI モデルを選択します - Claude、GPT、または Gemini"
+        }
+      },
+      {
+        "title": "チャンネルを接続する",
+        "description": "Telegram、Discord、WhatsApp — すべてのチャネルに 1 つのダッシュボード。すべての会話を 1 か所から管理できるため、アプリを切り替える必要はありません。",
+        "image": {
+          "src": "/images/easyclaw/step-2-channels.png",
+          "alt": "メッセージング チャネルを接続する"
+        }
+      },
+      {
+        "title": "デプロイして開始する",
+        "description": "AI アシスタントは 60 秒以内にオンラインになります。最初のメッセージを送信して自動化を開始します。",
+        "image": {
+          "src": "/images/easyclaw/step-3-deploy.png",
+          "alt": "アシスタントをデプロイして開始する"
+        }
+      }
+    ]
+  },
+  "image_translator": {
+    "disabled": false,
+    "title": "似顔絵を作成する",
+    "description": "写真をアップロードし、スタイルを選択して生成します。"
+  },
+  "font_recognizer": {
+    "name": "font-recognizer",
+    "title": "似顔絵スタジオ",
+    "description": "写真をアップロードし、スタイルを選択して、高品質の似顔絵を生成します。",
+    "disabled": false,
+    "upload": {
+      "title": "写真をアップロードする",
+      "description": "ドラッグ アンド ドロップまたはクリックしてアップロード (JPG、PNG、WebP 最大 10MB)",
+      "buttonText": "画像の選択",
+      "maxSize": 10,
+      "acceptedFormats": [
+        "PNG",
+        "JPG",
+        "JPEG",
+        "WebP"
+      ]
+    },
+    "results": {
+      "imageTitle": "あなたの似顔絵",
+      "textListTitle": "スタイル設定",
+      "fontRecommendationTitle": "おすすめのスタイル",
+      "detectedFontLabel": "現在の選択",
+      "similarFontsLabel": "これらも試してください",
+      "selectTextPrompt": "適用するスタイルを選択してください"
+    },
+    "actions": {
+      "reuploadText": "別の写真を試してください"
+    },
+    "messages": {
+      "uploadSuccess": "写真が無事アップロードされました！",
+      "uploadError": "おっと、アップロードに失敗しました。もう一度試してください。",
+      "recognitionSuccess": "あなたの似顔絵が完成しました！",
+      "recognitionError": "生成に失敗しました。もう一度試してください。",
+      "fontRecognitionSuccess": "スタイルが適用されました!",
+      "fontRecognitionError": "スタイルの適用に失敗しました。",
+      "processing": "似顔絵を作成中..."
+    }
+  },
+  "comparison": {
+    "disabled": false,
+    "name": "comparison",
+    "title": "面倒なことに別れを告げましょう",
+    "description": "EasyClaw に切り替えると何が変わるかを確認してください",
+    "before_label": "従来のセットアップ",
+    "after_label": "EasyClaw",
+    "items": [
+      {
+        "before": "サーバーをレンタルし、環境を構成する",
+        "after": "ワンクリックで導入、サーバーは不要"
+      },
+      {
+        "before": "午前 3 時のアラートを修正するために起きます",
+        "after": "24時間365日自動運転"
+      },
+      {
+        "before": "OpenClaw バージョンを手動で更新する",
+        "after": "最新バージョンへの自動アップデート"
+      },
+      {
+        "before": "Docker、Linuxコマンドを学ぶ",
+        "after": "技術的なスキルは必要ありません"
+      },
+      {
+        "before": "導入ごとに 30 分以上",
+        "after": "60 秒以内に導入"
+      }
+    ],
+    "footer": "節約された時間: 導入あたり最大 29 分"
+  },
+  "feature": {
+    "disabled": false,
+    "name": "feature",
+    "title": "チームが EasyClaw を選ぶ理由",
+    "description": "DevOps のオーバーヘッドを発生させずに本番環境に対応できるデプロイメント。メンテナンス不要で最大限の集中力。",
+    "items": [
+      {
+        "title": "60秒で展開",
+        "description": "ゼロから実行まで 1 分以内に完了します。 Docker も Linux コマンドもサーバーのセットアップもありません。",
+        "icon": "RiRocketLine"
+      },
+      {
+        "title": "メンテナンスゼロ",
+        "description": "更新、監視、回復を処理します。 AI アシスタントの使用に集中するだけです。",
+        "icon": "RiShieldCheckLine"
+      },
+      {
+        "title": "モデルの柔軟性",
+        "description": "Claude、GPT、Gemini をいつでも切り替えられます。各タスクに最適なモデルを使用します。",
+        "icon": "RiSparkling2Line"
+      },
+      {
+        "title": "統合チャネル",
+        "description": "Telegram、Discord、WhatsApp を 1 つのダッシュボードから管理します。アプリを切り替える必要はもうありません。",
+        "icon": "RiChatSmile3Line"
+      },
+      {
+        "title": "常に最新の状態",
+        "description": "OpenClaw の自動更新。手を離さずに常に最新の機能を使用できます。",
+        "icon": "RiRefreshLine"
+      },
+      {
+        "title": "自信を持ってスケールアップ",
+        "description": "単独で始めて、チームやユースケース全体で使用量を増やしてください。 1 から 100 までの導入。",
+        "icon": "RiTeamLine"
+      }
+    ]
+  },
+  "use_cases": {
+    "disabled": false,
+    "name": "use-cases",
+    "title": "OpenClaw をあらゆるワークフローに導入",
+    "description": "1 人のアシスタントで多くの使用例を実現。一度起動すれば、どこでも自動化できます。",
+    "items": [
+      {
+        "title": "毎日のブリーフィング",
+        "description": "メッセージと最新情報をチーム向けの簡潔な朝のブリーフに変えます。",
+        "image": {
+          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "alt": "毎日のブリーフィングの自動化ワークフロー"
+        },
+        "buttons": [
+          {
+            "title": "さらに詳しく ->",
+            "url": "/#faq"
+          }
+        ]
+      },
+      {
+        "title": "カスタマーサポートアシスタント",
+        "description": "質問や返信の下書きを転送し、サポート チャネルの応答性を維持します。",
+        "image": {
+          "src": "/images/easyclaw/use-case-2-support.png",
+          "alt": "カスタマーサポート自動化ワークフロー"
+        },
+        "reverse": true,
+        "buttons": [
+          {
+            "title": "デプロイを開始する ->",
+            "url": "/#pricing"
+          }
+        ]
+      },
+      {
+        "title": "チームオペレーションの自動化",
+        "description": "リマインダー、ステータスレポート、チャネル全体の日常的なフォローアップを自動化します。",
+        "image": {
+          "src": "/images/easyclaw/use-case-3-automation.png",
+          "alt": "チーム運用自動化ワークフロー"
+        },
+        "buttons": [
+          {
+            "title": "価格を参照 ->",
+            "url": "/pricing"
+          }
+        ]
+      }
+    ]
+  },
+  "stats": {
+    "disabled": "偽",
+    "name": "stats",
+    "label": "ハイライト",
+    "title": "高速起動用に構築",
+    "description": "OpenClaw を確実に実行するために必要なものがすべて揃っています。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "最初のデプロイにかかる時間",
+        "label": "1分未満",
+        "description": "セットアップからアシスタントの実行まで"
+      },
+      {
+        "title": "サポートされているチャンネル",
+        "label": "3+",
+        "description": "Telegram、Discord、WhatsApp"
+      },
+      {
+        "title": "導入の可視性",
+        "label": "リアルタイム",
+        "description": "実行中および失敗した状態を追跡する"
+      }
+    ]
+  },
+  "testimonial": {
+    "disabled": true,
+    "name": "testimonial",
+    "label": "レビュー",
+    "title": "ユーザーの声",
+    "description": "誰もが OpenClaw について話題にしている理由をご覧ください。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "サラ・ジェンキンス",
+        "label": "ソーシャルメディアマネージャー",
+        "description": "私たちの会社概要ページ用に陽気なチーム写真を作成しました。みんな気に入りました！",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "マイク・ロス",
+        "label": "フリーランサー",
+        "description": "これを使用して、私のフリーランス プロフィール用の独自のアバターを作成しました。目立つんです！",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "エミリー・チェン",
+        "label": "学生",
+        "description": "誕生日カード用に友達全員の似顔絵を作りました。史上最高の贈り物。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "デビッド・ミラー",
+        "label": "コンテンツクリエーター",
+        "description": "さまざまなスタイルが素晴らしいです。サムネイルには 3D スタイルを使用します。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "ジェシカ・ウォン",
+        "label": "マーケティングリード",
+        "description": "速くて簡単で、結果はただ奇妙なだけでなく、実際に面白いものになります。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "トム・ベイカー",
+        "label": "開発者",
+        "description": "非常にシンプルな API で、私の大好きなプロジェクトにとって素晴らしい結果が得られます。",
+        "image": {
+          "src": "https://pub-e1eb76428e24457ebfc067c635cb4fc4.r2.dev/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "disabled": false,
+    "name": "faq",
+    "label": "よくある質問",
+    "title": "よくある質問",
+    "description": "EasyClaw を使用して OpenClaw を展開する前に必要なものがすべて揃っています。",
+    "items": [
+      {
+        "title": "EasyClawの価格はいくらですか?",
+        "description": "プランは月額 10 ドルから始まります。アカウントからいつでもキャンセルできます。"
+      },
+      {
+        "title": "サーバーを管理する必要がありますか?",
+        "description": "いいえ。EasyClaw は展開ワークフローを合理化するため、サーバーや DevOps なしで OpenClaw を起動できます。"
+      },
+      {
+        "title": "どのモデルがサポートされていますか?",
+        "description": "Claude、GPT、Gemini。"
+      },
+      {
+        "title": "複数のチャネルに展開できますか?",
+        "description": "はい。 Telegram、Discord、WhatsApp がサポートされています。"
+      },
+      {
+        "title": "導入にはどのくらい時間がかかりますか?",
+        "description": "通常は 1 分未満です。初めてのセットアップには少し時間がかかる場合があります。"
+      }
+    ]
+  },
+  "cta": {
+    "disabled": false,
+    "name": "cta",
+    "title": "OpenClaw を発売する準備はできていますか?",
+    "description": "最初のアシスタントを 1 分以内に導入します。サーバーもメンテナンスも学習も必要ありません。",
+    "note": "いつでもキャンセルできます。長期契約はありません。",
+    "buttons": [
+      {
+        "title": "OpenClaw をデプロイする",
+        "url": "/#pricing",
+        "target": "_self",
+        "icon": "GoArrowUpRight"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "EasyClaw",
+      "description": "OpenClaw AI アシスタントを導入する最も簡単な方法。",
+      "logo": {
+        "src": "/imgs/logos/logo.svg",
+        "alt": "EasyClaw"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • イージークロー。無断転載を禁じます。",
+    "nav": {
+      "items": [
+        {
+          "title": "について",
+          "children": [
+            {
+              "title": "特長",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "価格設定",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "ブログ",
+              "url": "/posts",
+              "target": "_self"
+            },
+            {
+              "title": "よくある質問",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "電子メールサポート",
+          "icon": "RiMailLine",
+          "url": "mailto:support@easyclaw.pro",
+          "target": "_self"
+        }
+      ]
+    },
+    "disclaimer": "EasyClaw は独立した製品であり、サードパーティのモデルプロバイダーや商標所有者とは提携していません。",
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "返金ポリシー",
+          "url": "/refund-policy"
+        }
+      ]
+    }
+  },
+  "pricing": {
+    "name": "pricing",
+    "disabled": false,
+    "label": "価格設定",
+    "title": "価格設定",
+    "description": "必要な OpenClaw 展開の数に基づいてプランを選択してください。アカウントからいつでもキャンセルできます。",
+    "groups": [
+      {
+        "name": "monthly",
+        "title": "毎月",
+        "is_featured": false
+      },
+      {
+        "name": "yearly",
+        "title": "毎年",
+        "is_featured": true,
+        "label": "50% 節約"
+      }
+    ],
+    "items": [
+      {
+        "title": "プロ",
+        "label": "人気のある",
+        "features_title": "コア展開機能",
+        "features": [
+          "最大 5 つのアクティブな OpenClaw 導入",
+          "ワンクリックでデプロイ、再起動、再デプロイ",
+          "モデルとチャンネル構成のプリセット",
+          "導入ステータスダッシュボード",
+          "基本的な使用状況分析",
+          "電子メールサポート",
+          "商用利用",
+          "新しい導入機能へのアクセス"
+        ],
+        "interval": "month",
+        "amount": 1000,
+        "currency": "USD",
+        "price": "10ドル",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "プロになる",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-monthly",
+        "product_name": "EasyClaw プロ マンスリー",
+        "credits": 250,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "プレミアム",
+        "features_title": "Pro のすべてに加えて、",
+        "features": [
+          "最大 20 のアクティブな OpenClaw 導入",
+          "優先プロビジョニングキュー",
+          "再利用可能なモデルとチャンネルのプリセット",
+          "導入ステータスに関する Webhook アラート",
+          "チームアクセス (最大 3 メンバー)",
+          "API アクセス",
+          "優先サポート",
+          "ベータ版機能への早期アクセス"
+        ],
+        "interval": "month",
+        "amount": 2000,
+        "currency": "USD",
+        "price": "20ドル",
+        "original_price": "",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "プレミアムを入手",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-monthly",
+        "product_name": "EasyClaw プレミアムマンスリー",
+        "credits": 500,
+        "valid_months": 1,
+        "group": "monthly"
+      },
+      {
+        "title": "プロ",
+        "label": "人気のある",
+        "features_title": "コア展開機能",
+        "features": [
+          "最大 5 つのアクティブな OpenClaw 導入",
+          "ワンクリックでデプロイ、再起動、再デプロイ",
+          "モデルとチャンネル構成のプリセット",
+          "導入ステータスダッシュボード",
+          "基本的な使用状況分析",
+          "電子メールサポート",
+          "商用利用",
+          "新しい導入機能へのアクセス"
+        ],
+        "interval": "year",
+        "amount": 6000,
+        "currency": "USD",
+        "price": "5ドル",
+        "original_price": "元の価格: $10 /月",
+        "unit": "/mo",
+        "is_featured": true,
+        "tip": "",
+        "button": {
+          "title": "プロになる",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "pro-yearly",
+        "product_name": "EasyClaw Pro 毎年",
+        "credits": 3000,
+        "valid_months": 12,
+        "group": "yearly"
+      },
+      {
+        "title": "プレミアム",
+        "features_title": "Pro のすべてに加えて、",
+        "features": [
+          "最大 20 のアクティブな OpenClaw 導入",
+          "優先プロビジョニングキュー",
+          "再利用可能なモデルとチャンネルのプリセット",
+          "導入ステータスに関する Webhook アラート",
+          "チームアクセス (最大 3 メンバー)",
+          "API アクセス",
+          "優先サポート",
+          "ベータ版機能への早期アクセス"
+        ],
+        "interval": "year",
+        "amount": 12000,
+        "currency": "USD",
+        "price": "10ドル",
+        "original_price": "元の価格: $20 /月",
+        "unit": "/mo",
+        "is_featured": false,
+        "tip": "",
+        "button": {
+          "title": "プレミアムを入手",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "premium-yearly",
+        "product_name": "EasyClaw プレミアム年間",
+        "credits": 6000,
+        "valid_months": 12,
+        "group": "yearly"
+      }
+    ]
+  }
+}

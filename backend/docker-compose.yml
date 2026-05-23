@@ -1,0 +1,28 @@
+services:
+  api:
+    build: .
+    ports:
+      - "${PORT:-5000}:${PORT:-5000}"
+    environment:
+      PORT: "${PORT:-5000}"
+      OPENCLAW_MODEL: "flux-schnell"
+      OPENCLAW_READY_WAIT_MS: "600000"
+      OPENCLAW_RUNTIME_PROVIDER: "${OPENCLAW_RUNTIME_PROVIDER:-k8s}"
+      OPENCLAW_K8S_KUBECONFIG_B64: "${OPENCLAW_K8S_KUBECONFIG_B64:-}"
+      OPENCLAW_K8S_KUBECONFIG: "${OPENCLAW_K8S_KUBECONFIG:-/root/.kube/config}"
+      OPENCLAW_K8S_NAMESPACE: "${OPENCLAW_K8S_NAMESPACE:-easyclaw-openclaw}"
+      OPENCLAW_K8S_NODE_SELECTOR_JSON: "${OPENCLAW_K8S_NODE_SELECTOR_JSON:-{\"easyclaw-role\":\"openclaw-worker\"}}"
+      OPENCLAW_K8S_STORAGE_CLASS: "${OPENCLAW_K8S_STORAGE_CLASS:-local-path}"
+      OPENCLAW_K8S_PVC_SIZE: "${OPENCLAW_K8S_PVC_SIZE:-5Gi}"
+      OPENCLAW_K8S_REQUEST_CPU: "${OPENCLAW_K8S_REQUEST_CPU:-500m}"
+      OPENCLAW_K8S_REQUEST_MEMORY: "${OPENCLAW_K8S_REQUEST_MEMORY:-1Gi}"
+      OPENCLAW_K8S_LIMIT_CPU: "${OPENCLAW_K8S_LIMIT_CPU:-2}"
+      OPENCLAW_K8S_LIMIT_MEMORY: "${OPENCLAW_K8S_LIMIT_MEMORY:-2Gi}"
+      DOCKER_HOST: "unix:///var/run/docker.sock"
+    env_file:
+      - .env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./state:/app/state
+      - /root/.ssh:/root/.ssh:ro
+    restart: unless-stopped
