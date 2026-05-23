@@ -3,12 +3,34 @@ import "@/app/globals.css";
 import { Link } from "@/i18n/navigation";
 import { MdOutlineHome } from "react-icons/md";
 import React from "react";
+import RekaLegalShell from "@/components/landing/reka-legal-shell";
+import RekaSiteFooter from "@/components/landing/reka-site-footer";
+import { getLandingPage } from "@/services/page";
 
-export default function LocaleLegalLayout({
+export default async function LocaleLegalLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
+  const landing = await getLandingPage(locale);
+  const isRekaClip = (landing as { template?: string }).template === "reka-clip";
+
+  if (isRekaClip) {
+    return (
+      <RekaLegalShell>
+        <section className="reka-legal-page">
+          <div className="reka-page-container reka-legal-inner">
+            <article className="reka-legal-prose">{children}</article>
+          </div>
+        </section>
+        {landing.footer && <RekaSiteFooter footer={landing.footer} />}
+      </RekaLegalShell>
+    );
+  }
+
   return (
     <div>
       <Link
@@ -23,4 +45,3 @@ export default function LocaleLegalLayout({
     </div>
   );
 }
-

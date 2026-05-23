@@ -230,7 +230,6 @@ function BoostStepPanel({ step }: { step: BoostStep }) {
   return (
     <div className={`reka-boost-grid ${reverse ? "reka-boost-grid--reverse" : ""}`}>
       <div className="reka-boost-copy">
-        <span className="reka-boost-step-label">Step {step.number}</span>
         <BoostTitle
           title={step.title}
           title_prefix={step.title_prefix}

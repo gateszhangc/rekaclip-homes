@@ -15,9 +15,9 @@ export async function generateMetadata({
   const pathname = "/terms-of-service";
 
   return {
-    title: "Terms of Service | EasyClaw",
+    title: "Terms of Service | Reka Clip",
     description:
-      "Read EasyClaw terms, acceptable use, billing rules, and deployment responsibilities before using the service.",
+      "Read Reka Clip terms, acceptable use, billing rules, and content responsibilities before using the service.",
     alternates: {
       canonical: getAbsoluteLocalizedUrl(siteUrl, locale, pathname),
       languages: buildAlternateLanguageUrls(siteUrl, pathname),

@@ -15,9 +15,9 @@ export async function generateMetadata({
   const pathname = "/refund-policy";
 
   return {
-    title: "Refund Policy | EasyClaw",
+    title: "Refund Policy | Reka Clip",
     description:
-      "Review EasyClaw refund eligibility, cancellation terms, and support response timelines.",
+      "Review Reka Clip refund eligibility, cancellation terms, and support response timelines.",
     alternates: {
       canonical: getAbsoluteLocalizedUrl(siteUrl, locale, pathname),
       languages: buildAlternateLanguageUrls(siteUrl, pathname),

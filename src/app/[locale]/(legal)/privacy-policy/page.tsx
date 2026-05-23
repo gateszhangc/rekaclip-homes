@@ -15,9 +15,9 @@ export async function generateMetadata({
   const pathname = "/privacy-policy";
 
   return {
-    title: "Privacy Policy | EasyClaw",
+    title: "Privacy Policy | Reka Clip",
     description:
-      "Learn how EasyClaw collects, uses, and protects your data when deploying and managing OpenClaw assistants.",
+      "Learn how Reka Clip collects, uses, and protects your data when you clip, edit, and publish videos.",
     alternates: {
       canonical: getAbsoluteLocalizedUrl(siteUrl, locale, pathname),
       languages: buildAlternateLanguageUrls(siteUrl, pathname),

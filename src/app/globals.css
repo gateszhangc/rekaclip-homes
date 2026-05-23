@@ -2724,11 +2724,11 @@ pre {
   font-weight: 500;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.45);
+  color: var(--text-secondary);
 }
 
 .landing-reka .reka-boost-steps-tab--active .reka-boost-steps-tab-step {
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--text-secondary);
 }
 
 .landing-reka .reka-boost-steps-tab-label {
@@ -2829,8 +2829,7 @@ pre {
   }
 }
 
-.landing-reka .reka-boost-hero-label,
-.landing-reka .reka-boost-step-label {
+.landing-reka .reka-boost-hero-label {
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
@@ -3934,6 +3933,116 @@ pre {
   font-size: 0.8125rem;
   line-height: 1.55;
   color: var(--text-secondary);
+}
+
+/* Legal pages */
+.landing-reka .reka-legal-page {
+  padding: clamp(2.5rem, 5vh, 4rem) 0 clamp(3rem, 6vh, 4rem);
+  min-height: calc(100vh - var(--reka-header-height));
+  min-height: calc(100dvh - var(--reka-header-height));
+  box-sizing: border-box;
+}
+
+.landing-reka .reka-legal-inner {
+  width: 100%;
+  max-width: min(72rem, 100%);
+  margin: 0 auto;
+}
+
+.landing-reka .reka-legal-prose {
+  --reka-legal-text: 0.8125rem;
+  --reka-legal-leading: 1.65;
+  font-size: var(--reka-legal-text);
+  line-height: var(--reka-legal-leading);
+  padding: clamp(1.75rem, 3vw, 2.75rem) clamp(1.5rem, 4vw, 3rem);
+  border-radius: 1.5rem;
+  border: 1px solid rgba(34, 118, 255, 0.14);
+  background:
+    radial-gradient(900px 420px at 12% -8%, rgba(34, 118, 255, 0.14), transparent 58%),
+    radial-gradient(700px 360px at 88% 0%, rgba(138, 43, 226, 0.08), transparent 55%),
+    linear-gradient(180deg, rgba(34, 118, 255, 0.07) 0%, rgba(255, 255, 255, 0.035) 100%);
+  box-shadow:
+    0 26px 70px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.landing-reka .reka-legal-prose :where(h1) {
+  margin-top: 0;
+  margin-bottom: 0.875rem;
+  font-family: var(--font-display);
+  font-size: clamp(1.375rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.landing-reka .reka-legal-prose :where(h2) {
+  margin-top: 1.75rem;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--text);
+}
+
+.landing-reka .reka-legal-prose :where(h3) {
+  margin-top: 1.25rem;
+  margin-bottom: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.landing-reka .reka-legal-prose :where(p) {
+  margin: 0 0 0.875rem;
+  font-size: var(--reka-legal-text);
+  line-height: var(--reka-legal-leading);
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.landing-reka .reka-legal-prose :where(ul, ol) {
+  margin: 0 0 0.875rem;
+  padding-left: 1.125rem;
+  font-size: var(--reka-legal-text);
+  line-height: var(--reka-legal-leading);
+}
+
+.landing-reka .reka-legal-prose :where(li) {
+  margin-bottom: 0.375rem;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.landing-reka .reka-legal-prose :where(li > ul, li > ol) {
+  margin-top: 0.375rem;
+  margin-bottom: 0;
+}
+
+.landing-reka .reka-legal-prose :where(a) {
+  color: #6eb0ff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.landing-reka .reka-legal-prose :where(a:hover) {
+  color: var(--primary);
+}
+
+.landing-reka .reka-legal-prose :where(strong) {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.landing-reka .reka-legal-prose :where(code) {
+  font-size: 0.75rem;
+  background: rgba(34, 118, 255, 0.12);
+  color: #e2e8f0;
+  padding: 0.1rem 0.35rem;
+  border-radius: 0.25rem;
 }
 
 /* Pricing page */
