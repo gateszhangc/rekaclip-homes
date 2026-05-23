@@ -4,7 +4,7 @@ import Icon from "@/components/icon";
 import { Link } from "@/i18n/navigation";
 import type { Footer } from "@/types/blocks/footer";
 
-const DEFAULT_SUPPORT_EMAIL = "support@rekaclip.com";
+const DEFAULT_SUPPORT_EMAIL = "support@rekaclip.homes";
 
 function FooterHref({
   href,

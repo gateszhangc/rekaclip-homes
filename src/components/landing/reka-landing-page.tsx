@@ -14,6 +14,9 @@ import RekaFaqSection, { type RekaFaqData } from "@/components/landing/reka-faq-
 import RekaTestimonialsSection, {
   type RekaTestimonialsData,
 } from "@/components/landing/reka-testimonials-section";
+import RekaBlogSection from "@/components/landing/reka-blog-section";
+import type { Post } from "@/types/post";
+import type { RekaBlogSectionData } from "@/services/page";
 import { REKA_SECTION_IDS } from "@/components/landing/reka-top-nav";
 import { useRekaClipGate } from "@/hooks/use-reka-clip-gate";
 import { Link as LinkIcon, Upload, MonitorPlay, Lock } from "lucide-react";
@@ -44,6 +47,8 @@ export interface RekaLandingPageData extends RekaClipData {
   feature?: RekaFeatureData;
   faq?: RekaFaqData;
   testimonials?: RekaTestimonialsData;
+  blog?: RekaBlogSectionData;
+  blogPosts?: Post[];
 }
 
 function PlatformIcon({ icon }: { icon: string }) {
@@ -227,6 +232,10 @@ export default function RekaLandingPage({ data }: { data: RekaLandingPageData })
 
       {data.testimonials && !data.testimonials.disabled && (
         <RekaTestimonialsSection data={data.testimonials} />
+      )}
+
+      {data.blog && !data.blog.disabled && data.blogPosts && data.blogPosts.length > 0 && (
+        <RekaBlogSection section={data.blog} posts={data.blogPosts} />
       )}
 
       {data.faq && !data.faq.disabled && (

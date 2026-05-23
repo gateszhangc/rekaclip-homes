@@ -76,7 +76,8 @@
             { "title": "Boost", "url": "/#boost", "target": "_self" },
             { "title": "Feature", "url": "/#feature", "target": "_self" },
             { "title": "Pricing", "url": "/pricing", "target": "_self" },
-            { "title": "FAQ", "url": "/#faq", "target": "_self" }
+            { "title": "FAQ", "url": "/#faq", "target": "_self" },
+            { "title": "Blog", "url": "/blog", "target": "_self" }
           ]
         }
       ]
@@ -86,7 +87,7 @@
         {
           "title": "Email support",
           "icon": "RiMailLine",
-          "url": "mailto:support@rekaclip.com",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]

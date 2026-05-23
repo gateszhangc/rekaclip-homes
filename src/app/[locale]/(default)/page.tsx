@@ -2,12 +2,14 @@ import RekaLandingPage, {
   type RekaLandingPageData,
 } from "@/components/landing/reka-landing-page";
 import {
+  getBlogPage,
   getBoostPage,
   getFaqPage,
   getFeaturePage,
   getLandingPage,
   getTestimonialsPage,
 } from "@/services/page";
+import { getPublishedRekaBlogPosts } from "@/services/reka-blog";
 
 export async function generateMetadata() {
   return {
@@ -25,13 +27,16 @@ export default async function LandingPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const [landing, boostPage, featurePage, faqPage, testimonialsPage] = await Promise.all([
-    getLandingPage(locale),
-    getBoostPage(locale),
-    getFeaturePage(locale),
-    getFaqPage(locale),
-    getTestimonialsPage(locale),
-  ]);
+  const [landing, boostPage, featurePage, faqPage, testimonialsPage, blogPage, blogPosts] =
+    await Promise.all([
+      getLandingPage(locale),
+      getBoostPage(locale),
+      getFeaturePage(locale),
+      getFaqPage(locale),
+      getTestimonialsPage(locale),
+      getBlogPage(locale),
+      getPublishedRekaBlogPosts(locale),
+    ]);
 
   const faq = faqPage.faq;
   const faqSchema =
@@ -66,6 +71,8 @@ export default async function LandingPage({
             feature: featurePage.feature,
             faq,
             testimonials: testimonialsPage.testimonials,
+            blog: blogPage.blog,
+            blogPosts,
           } as RekaLandingPageData
         }
       />

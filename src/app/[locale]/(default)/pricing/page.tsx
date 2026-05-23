@@ -1,6 +1,7 @@
 import RekaPricingSection from "@/components/landing/reka-pricing-section";
 import RekaPricingShell from "@/components/landing/reka-pricing-shell";
-import { getPricingPage } from "@/services/page";
+import RekaSiteFooter from "@/components/landing/reka-site-footer";
+import { getLandingPage, getPricingPage } from "@/services/page";
 import { getSiteUrl } from "@/lib/site-url";
 import {
   buildAlternateLanguageUrls,
@@ -35,13 +36,17 @@ export default async function PricingPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const page = await getPricingPage(locale);
+  const [page, landing] = await Promise.all([
+    getPricingPage(locale),
+    getLandingPage(locale),
+  ]);
 
   if (!page.pricing) return null;
 
   return (
     <RekaPricingShell>
       <RekaPricingSection pricing={page.pricing} />
+      {landing.footer && <RekaSiteFooter footer={landing.footer} />}
     </RekaPricingShell>
   );
 }

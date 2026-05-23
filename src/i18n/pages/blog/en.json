@@ -1,7 +1,10 @@
 {
-    "blog": {
-        "title": "Blog",
-        "description": "News, tutorials, and updates about deploying OpenClaw with EasyClaw",
-        "read_more_text": "Read More"
-    }
+  "blog": {
+    "disabled": false,
+    "label": "Creator Notes",
+    "title": "Blog",
+    "description": "Guides on clipping, captions, Boost publishing, and growing with short-form video.",
+    "read_more_text": "Read article",
+    "view_all_text": "View all articles"
+  }
 }

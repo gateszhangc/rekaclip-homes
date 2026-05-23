@@ -10,7 +10,7 @@ export interface RekaFaqData {
 export default function RekaFaqSection({ data }: { data: RekaFaqData }) {
   if (data.disabled) return null;
 
-  const contactEmail = data.contact_email || "support@rekaclip.com";
+  const contactEmail = data.contact_email || "support@rekaclip.homes";
 
   return (
     <section className="reka-faq-page">

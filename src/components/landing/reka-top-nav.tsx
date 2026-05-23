@@ -10,6 +10,7 @@ export const REKA_NAV_ITEMS = [
   { id: "clip", label: "Clip", icon: "Scissors", href: "/#clip" },
   { id: "boost", label: "Boost", icon: "Rocket", href: "/#boost" },
   { id: "feature", label: "Feature", icon: "Sparkles", href: "/#feature" },
+  { id: "blog", label: "Blog", icon: "BookOpen", href: "/blog" },
   { id: "faq", label: "FAQ", icon: "HelpCircle", href: "/#faq" },
   { id: "pricing", label: "Pricing", icon: "DollarSign", href: "/pricing" },
 ] as const;
@@ -23,6 +24,7 @@ function NavIcon({ name }: { name: string }) {
     Sparkles: <SparklesIcon />,
     DollarSign: <DollarIcon />,
     HelpCircle: <HelpIcon />,
+    BookOpen: <BookOpenIcon />,
   };
   return <>{icons[name] || null}</>;
 }
@@ -68,6 +70,14 @@ function HelpIcon() {
     </svg>
   );
 }
+function BookOpenIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 7v14" />
+      <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" />
+    </svg>
+  );
+}
 
 export default function RekaTopNav({
   activeSection,
@@ -79,9 +89,10 @@ export default function RekaTopNav({
   const [mobileOpen, setMobileOpen] = useState(false);
   const pathname = usePathname();
   const isHome = pathname === "/";
+  const isBlogRoute = pathname === "/blog" || pathname.startsWith("/blog/");
 
   const handleNav = (id: string, e: React.MouseEvent) => {
-    if (id === "pricing") {
+    if (id === "pricing" || id === "blog") {
       setMobileOpen(false);
       return;
     }
@@ -110,17 +121,22 @@ export default function RekaTopNav({
           </Link>
 
           <nav className="reka-top-nav-links" aria-label="Main">
-            {REKA_NAV_ITEMS.map((item) => (
-              <Link
-                key={item.id}
-                href={item.href as "/"}
-                className={`reka-top-nav-item ${activeSection === item.id ? "active" : ""}`}
-                onClick={(e) => handleNav(item.id, e)}
-              >
-                <NavIcon name={item.icon} />
-                <span>{item.label}</span>
-              </Link>
-            ))}
+            {REKA_NAV_ITEMS.map((item) => {
+              const isActive =
+                activeSection === item.id || (item.id === "blog" && isBlogRoute);
+
+              return (
+                <Link
+                  key={item.id}
+                  href={item.href as "/"}
+                  className={`reka-top-nav-item ${isActive ? "active" : ""}`}
+                  onClick={(e) => handleNav(item.id, e)}
+                >
+                  <NavIcon name={item.icon} />
+                  <span>{item.label}</span>
+                </Link>
+              );
+            })}
           </nav>
 
           <div className="reka-top-nav-actions">
@@ -139,17 +155,22 @@ export default function RekaTopNav({
 
         {mobileOpen && (
           <nav className="reka-top-nav-mobile" aria-label="Main mobile">
-            {REKA_NAV_ITEMS.map((item) => (
-              <Link
-                key={item.id}
-                href={item.href as "/"}
-                className={`reka-top-nav-item ${activeSection === item.id ? "active" : ""}`}
-                onClick={(e) => handleNav(item.id, e)}
-              >
-                <NavIcon name={item.icon} />
-                <span>{item.label}</span>
-              </Link>
-            ))}
+            {REKA_NAV_ITEMS.map((item) => {
+              const isActive =
+                activeSection === item.id || (item.id === "blog" && isBlogRoute);
+
+              return (
+                <Link
+                  key={item.id}
+                  href={item.href as "/"}
+                  className={`reka-top-nav-item ${isActive ? "active" : ""}`}
+                  onClick={(e) => handleNav(item.id, e)}
+                >
+                  <NavIcon name={item.icon} />
+                  <span>{item.label}</span>
+                </Link>
+              );
+            })}
           </nav>
         )}
       </header>

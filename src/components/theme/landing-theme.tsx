@@ -18,6 +18,7 @@ type LandingThemeProps = {
 
 const LANDING_SECTIONS = new Set([
   "posts",
+  "blog",
   "feature",
   "pricing",
   "my-orders",

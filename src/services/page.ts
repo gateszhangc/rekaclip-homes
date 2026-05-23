@@ -30,6 +30,19 @@ export interface TestimonialsPageData {
   testimonials?: RekaTestimonialsData;
 }
 
+export interface RekaBlogSectionData {
+  disabled?: boolean;
+  label: string;
+  title: string;
+  description: string;
+  read_more_text: string;
+  view_all_text: string;
+}
+
+export interface BlogPageData {
+  blog?: RekaBlogSectionData;
+}
+
 export async function getLandingPage(locale: string): Promise<LandingPage> {
   // Force cache invalidation
   return (await getPage("landing", locale)) as LandingPage;
@@ -49,6 +62,10 @@ export async function getFaqPage(locale: string): Promise<FaqPageData> {
 
 export async function getTestimonialsPage(locale: string): Promise<TestimonialsPageData> {
   return (await getPage("testimonials", locale)) as TestimonialsPageData;
+}
+
+export async function getBlogPage(locale: string): Promise<BlogPageData> {
+  return (await getPage("blog", locale)) as BlogPageData;
 }
 
 export async function getPricingPage(locale: string): Promise<PricingPage> {
