@@ -14,13 +14,14 @@ export default async function DefaultLayout({
 }) {
   const { locale } = await params;
   const page = await getLandingPage(locale);
+  const isRekaClip = (page as any).template === "reka-clip";
 
   return (
     <LandingTheme>
       <BlogPrefetch locale={locale} />
-      {page.header && <Header header={page.header} />}
+      {!isRekaClip && page.header && <Header header={page.header} />}
       <main className="overflow-x-hidden">{children}</main>
-      {page.footer && <Footer footer={page.footer} />}
+      {!isRekaClip && page.footer && <Footer footer={page.footer} />}
     </LandingTheme>
   );
 }

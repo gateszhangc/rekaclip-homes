@@ -1,0 +1,125 @@
+{
+  "boost": {
+    "hero": {
+      "label": "Boost clips",
+      "title_prefix": "Get viral reach through ",
+      "title_highlight": "Reka's creator network",
+      "description": "Maximize total views by getting verified creators and clippers we partner with to post your clips on their social platforms.",
+      "cta": "Go to my Boost",
+      "image": {
+        "src": "/imgs/boost_1.png",
+        "alt": "Boost a clip through Reka's creator network"
+      }
+    },
+    "steps": [
+      {
+        "number": "01",
+        "title_prefix": "Choose a clip you want to ",
+        "title_highlight": "boost",
+        "description": "After your clip is generated, pick the one you want to boost. Any clip from YouTube, Twitch, or your own uploads can be boosted.",
+        "image": {
+          "src": "/imgs/boost_2.png",
+          "alt": "Select a generated clip to boost"
+        },
+        "reverse": false
+      },
+      {
+        "number": "02",
+        "title": "Choose a platform",
+        "description": "Distribute your clips on platforms where your audience is active.",
+        "platforms": ["TikTok", "Instagram", "YouTube"],
+        "image": {
+          "src": "/imgs/boost_3.png",
+          "alt": "Choose TikTok, Instagram, or YouTube for distribution"
+        },
+        "reverse": false
+      },
+      {
+        "number": "03",
+        "title_prefix": "Choose a ",
+        "title_highlight": "budget",
+        "description": "Our budget tiers are based on how many views you want your clip to get. Pick the plan that fits your goals.",
+        "tiers": [
+          {
+            "name": "Basic",
+            "icon": "ribbon",
+            "views": "4.88K - 24.93K",
+            "views_label": "video views",
+            "price": "$28.00",
+            "featured": false,
+            "free_label": null
+          },
+          {
+            "name": "Standard",
+            "icon": "trophy",
+            "views": "7.32K - 41.81K",
+            "views_label": "video views",
+            "price": "$46.00",
+            "featured": true,
+            "free_label": "FREE"
+          },
+          {
+            "name": "Premium",
+            "icon": "medal",
+            "views": "12.82K - 75.45K",
+            "views_label": "video views",
+            "price": "$83.00",
+            "featured": false,
+            "free_label": null
+          }
+        ],
+        "reverse": false
+      },
+      {
+        "number": "04",
+        "title_prefix": "Add tags and ",
+        "title_highlight": "hashtags",
+        "description": "Specify the accounts and hashtags you want creators and clippers to include in post copy to maximize exposure.",
+        "preview": {
+          "account": "@rekaclip",
+          "hashtag": "#bestclippingcampaign",
+          "caption_label": "Post preview",
+          "caption": "Check out this clip! 🔥",
+          "caption_tags": "@rekaclip #bestclippingcampaign #goviraltoday"
+        },
+        "reverse": true
+      },
+      {
+        "number": "05",
+        "title_prefix": "Go viral with Reka's verified ",
+        "title_highlight": "network",
+        "description": "Reka matches your clips to selected creators and clippers who publish and distribute them for maximum reach.",
+        "bullets": [
+          "Matched to creators with your target audience",
+          "Posted to accounts with millions of followers",
+          "Campaign goes live within 2–3 working days after approval"
+        ],
+        "image": {
+          "src": "/imgs/boost_4.png",
+          "alt": "Clips distributed through Reka's verified creator network"
+        },
+        "reverse": false
+      },
+      {
+        "number": "06",
+        "title_prefix": "Track every ",
+        "title_highlight": "view, like, and share",
+        "description": "See who posted your clips and how they performed—views, comments, follower counts, and detailed analytics—in your personal Discord dashboard.",
+        "image": {
+          "src": "/imgs/boost_5.png",
+          "alt": "Track views, likes, and shares in your Discord dashboard"
+        },
+        "reverse": true
+      }
+    ],
+    "cta": {
+      "label": "Ready to go viral?",
+      "title_prefix": "Boost your clip. ",
+      "title_highlight": "Reach millions.",
+      "description": "Join thousands of clippers and creators using the Reka Clip network to get real views on real platforms.",
+      "primary": "Go to my Boost",
+      "secondary": "View pricing",
+      "secondary_href": "/pricing"
+    }
+  }
+}

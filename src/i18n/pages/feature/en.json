@@ -1,0 +1,23 @@
+{
+  "feature": {
+    "title": "AI that knows what part of your video will go viral",
+    "description": "Let Reka Clip find the best moments for you or take control and tell it exactly what to clip.",
+    "image": {
+      "src": "/imgs/clip_image.webp",
+      "alt": "Reka Clip AI highlight detection and clip generation interface"
+    },
+    "items": [
+      "Smart highlight detection",
+      "Engagement prediction",
+      "Automatic hashtags and descriptions"
+    ],
+    "tracking": {
+      "title": "AI that understands every frame of your video",
+      "description": "Powered by intelligent object tracking, Reka Clip seamlessly centers your subject and reframes your video for every platform.",
+      "video": {
+        "src": "/videos/animal-video.mp4",
+        "alt": "Reka Clip intelligent object tracking on video frames"
+      }
+    }
+  }
+}

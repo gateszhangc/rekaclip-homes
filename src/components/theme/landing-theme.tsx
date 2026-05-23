@@ -18,6 +18,7 @@ type LandingThemeProps = {
 
 const LANDING_SECTIONS = new Set([
   "posts",
+  "feature",
   "pricing",
   "my-orders",
   "my-credits",
@@ -40,7 +41,7 @@ const isLandingPath = (pathname: string | null) => {
   return false;
 };
 
-const getLandingTheme = (_pathname: string | null) => "landing-shipany";
+const getLandingTheme = (_pathname: string | null) => "landing-reka";
 
 export default function LandingTheme({
   children,

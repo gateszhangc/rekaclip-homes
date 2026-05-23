@@ -1,0 +1,34 @@
+{
+  "faq": {
+    "disabled": false,
+    "label": "FAQ",
+    "title": "Common Questions",
+    "description": "Everything you need to know about Reka Clip.",
+    "items": [
+      {
+        "title": "How do credits work?",
+        "description": "Each video minute processed consumes one credit. HD clips cost an additional credit. Free tier includes 3 hours of video processing."
+      },
+      {
+        "title": "Can I cancel my subscription?",
+        "description": "Yes, you can cancel anytime from your account settings. Your access continues until the end of your billing period."
+      },
+      {
+        "title": "What if clip generation fails?",
+        "description": "If a generation fails, your credits are automatically refunded. Check the error message for details or contact support."
+      },
+      {
+        "title": "How long does processing take?",
+        "description": "A 20-minute video typically takes about 4 minutes. Longer videos may take proportionally longer."
+      },
+      {
+        "title": "Can I use it for commercial projects?",
+        "description": "Yes, all paid plans include commercial usage rights. Generated clips can be used for monetized content."
+      },
+      {
+        "title": "What languages are supported?",
+        "description": "Reka Clip supports auto-captions in 80+ languages. You can customize caption style, position, and appearance."
+      }
+    ]
+  }
+}
