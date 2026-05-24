@@ -321,4 +321,85 @@ flowchart TD
 - Drizzle 迁移：`src/db/migrations/`  
 - 环境模板：`.env.example`
 
-如有新域名或新 Creem 账号，优先改 **SealedSecret + build-env + Google/Creem 控制台**，再构建镜像，避免“前端旧 URL、后端新密钥”不一致。
+如有新域名或新 Creem 账号，优先改 **SealedSecret + build-env + Google/Creem 控制台**，再构建镜像，避免"前端旧 URL、后端新密钥"不一致。
+
+---
+
+## 14. rekaclip.homes 静态站点部署（deploy-site）
+
+`rekaclip.homes` 通过 **deploy-site skill** 以静态站点方式独立部署到同一 k8s-fleet 集群，与上述 K8s/ArgoCD Next.js 部署**互不影响**。
+
+### 14.1 部署概览
+
+```
+本地源码 → deploy-site skill → Docker build (nginx) → ghcr.io → ArgoCD → k8s-fleet
+```
+
+| 项目 | 值 |
+|------|-----|
+| 部署方式 | deploy-site skill（一键部署） |
+| 站点类型 | 静态 HTML（nginx 容器） |
+| K8s namespace | `rekaclip-homes` |
+| Ingress | `rekaclip-homes-live` |
+| 域名 | `rekaclip.homes` |
+| TLS | cert-manager (`rekaclip-homes-live-tls`) |
+| Service | `rekaclip-homes` (ClusterIP, port 80) |
+| Deployment | `rekaclip-homes` (1 replica) |
+| Docker 镜像 | `ghcr.io/gateszhangc/rekaclip-homes:1.0.0` |
+| CDN/LB | 15 个 Hetzner Load Balancer IP |
+| 管理工具 | ArgoCD (tracking-id) |
+
+### 14.2 K8s 资源
+
+```
+namespace: rekaclip-homes
+├── Deployment/rekaclip-homes
+│   ├── Image: ghcr.io/gateszhangc/rekaclip-homes:1.0.0
+│   ├── Port: 80 (nginx)
+│   └── Replicas: 1
+├── Service/rekaclip-homes (ClusterIP, :80)
+├── Ingress/rekaclip-homes-live
+│   ├── Host: rekaclip.homes
+│   ├── TLS: rekaclip-homes-live-tls
+│   └── Annotations: force-ssl-redirect, ssl-redirect
+└── Certificate/rekaclip-homes-live-tls (cert-manager)
+```
+
+### 14.3 SEO 更新部署流程
+
+修改源码 SEO 信息后，执行以下步骤重新部署：
+
+1. **确保修改已提交**到仓库
+   ```bash
+   git add -A && git commit -m "seo: update rekaclip.homes SEO metadata"
+   git push
+   ```
+
+2. **运行 deploy-site skill**（提供域名 + 仓库 URL）
+   ```
+   部署 rekaclip.homes 从 https://github.com/gateszhangc/rekaclip-homes
+   ```
+   该 skill 会自动：
+   - 修复 HTML 中的域名引用（canonical、OG、Twitter）
+   - 创建/更新 robots.txt、sitemap.xml
+   - 构建 Docker 镜像并推送到 ghcr.io
+   - 更新 K8s 清单
+
+3. **验证部署**
+   ```bash
+   # 检查 Pod 滚动更新完成
+   kubectl rollout status deployment/rekaclip-homes -n rekaclip-homes
+   # 检查 ArgoCD 同步状态
+   argocd app get rekaclip-homes
+   ```
+
+### 14.4 与 Next.js K8s 部署的区别
+
+| 方面 | rekaclip.homes (static) | easyclaw.pro (Next.js) |
+|------|------------------------|------------------------|
+| 构建产物 | 静态 HTML + nginx | Node.js standalone |
+| 镜像注册表 | ghcr.io | registry.144.91.77.245.sslip.io |
+| K8s namespace | `rekaclip-homes` | `easyclaw` |
+| 后端依赖 | 无 | PostgreSQL + backend API |
+| 配置管理 | deploy-site 自动处理 | SealedSecret + build-env |
+| 部署工具 | deploy-site skill | ArgoCD (kustomize overlays) |

@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = "https://www.easyclaw.pro";
+const DEFAULT_SITE_URL = "https://rekaclip.homes";
 
 const stripTrailingSlash = (value: string) => value.replace(/\/+$/, "");
 

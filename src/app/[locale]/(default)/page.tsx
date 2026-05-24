@@ -10,14 +10,38 @@ import {
   getTestimonialsPage,
 } from "@/services/page";
 import { getPublishedRekaBlogPosts } from "@/services/reka-blog";
+import { getSiteUrl } from "@/lib/site-url";
 
 export async function generateMetadata() {
+  const siteUrl = getSiteUrl();
+  const title = "Reka Clip — AI-Powered Video Clipping & Content Creation Platform";
+  const description =
+    "Reka Clip is an AI-powered video clipping platform for creators. Automatically extract highlights, generate captions, repurpose long-form content, and create shareable clips with multimodal AI. Built by Reka.";
+  const ogDescription =
+    "Reka Clip is an AI-powered video clipping platform for creators. Automatically extract highlights, generate captions, repurpose long-form content, and create shareable clips with multimodal AI.";
+  const ogImage = `${siteUrl}/assets/og-image.png`;
+
   return {
-    title: "Reka Clip - AI Video Clipping Platform | Turn Long Videos into Viral Shorts",
-    description:
-      "Reka Clip uses AI to turn long videos into shorts in one click. Paste a YouTube or Twitch link, or upload a video to generate viral clips with auto-captions.",
+    title,
+    description,
     keywords:
-      "reka clip, ai video clipping, viral clips, video to shorts, youtube clipper, twitch clipper, ai captions, video editing",
+      "Reka Clip, AI video clipping, video highlights, content creation, multimodal AI, video repurposing, AI captioning, clip generator, creator tools, Reka AI",
+    alternates: {
+      canonical: siteUrl,
+    },
+    openGraph: {
+      type: "website",
+      url: siteUrl,
+      title,
+      description: ogDescription,
+      images: [{ url: ogImage, width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description: ogDescription,
+      images: [ogImage],
+    },
   };
 }
 
