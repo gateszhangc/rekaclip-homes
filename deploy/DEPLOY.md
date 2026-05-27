@@ -345,18 +345,20 @@ flowchart TD
 | TLS | cert-manager (`rekaclip-homes-live-tls`)，双域名证书 |
 | Service | `rekaclip-homes` (ClusterIP, :80 → targetPort :3000) |
 | Deployment | `rekaclip-homes` (1 replica, port 3000) |
-| Docker 镜像 | `ghcr.io/gateszhangc/rekaclip-homes:1.0.2` |
+| Docker 镜像 | `ghcr.io/gateszhangc/rekaclip-homes:1.0.3` |
 | 镜像拉取密钥 | `ghcr-pull-secret` (imagePullSecrets) |
+| 运行时 Secret | `rekaclip-web-env` (CREEM_* 凭据) |
 | 管理工具 | ArgoCD → k8s-fleet repo `tenants/rekaclip-homes/` |
 
 ### 14.2 K8s 资源（在 k8s-fleet 仓库中）
 
 ```
 repo: gateszhangc/k8s-fleet (main) → tenants/rekaclip-homes/
-├── kustomization.yaml              (newTag: 1.0.2)
+├── kustomization.yaml              (newTag: 1.0.3)
 ├── 00-namespace.yaml
 ├── 20-rekaclip-homes-deployment.yaml
 │   ├── imagePullSecrets: ghcr-pull-secret
+│   ├── envFrom: rekaclip-web-env (Creem runtime secrets)
 │   ├── containerPort: 3000
 │   └── probes: HTTP on :3000
 ├── 21-rekaclip-homes-service.yaml  (targetPort: 3000)
