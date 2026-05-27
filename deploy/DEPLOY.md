@@ -1,6 +1,6 @@
 # Reka Clip 部署前配置清单
 
-本文说明从本地开发部署到 **Staging / Production（K8s + Argo CD）** 前必须核对与修改的配置。当前 `deploy/k8s` 仍沿用 **EasyClaw** 命名与域名，若独立上线 Reka Clip，需按第二节一并 rebranding。
+本文说明从本地开发部署到 **Staging / Production（K8s + Argo CD）** 前必须核对与修改的配置。当前 `deploy/k8s` 已改为 **RekaClip** 命名与域名。
 
 ---
 
@@ -9,8 +9,8 @@
 | 层级 | 文件 / 位置 | 何时生效 | 典型内容 |
 |------|-------------|----------|----------|
 | **构建时（打进前端 bundle）** | `deploy/k8s/build-env/production.env`、`staging.env` | `docker build --build-arg BUILD_ENV_FILE=...` | 所有 `NEXT_PUBLIC_*` |
-| **运行时（Pod 环境变量）** | `.env.production` → 加密为 SealedSecret | K8s `easyclaw-web-env` | `DATABASE_URL`、`AUTH_*`、`CREEM_*`、密钥类 |
-| **集群 / 路由** | `deploy/k8s/overlays/*/easyclaw-*.ingress.yaml`、Certificate | Ingress / TLS | 域名、证书 |
+| **运行时（Pod 环境变量）** | `.env.production` → 加密为 SealedSecret | K8s `rekaclip-web-env` | `DATABASE_URL`、`AUTH_*`、`CREEM_*`、密钥类 |
+| **集群 / 路由** | `deploy/k8s/overlays/*/rekaclip-*.ingress.yaml`、Certificate | Ingress / TLS | 域名、证书 |
 | **Argo CD** | `deploy/argocd/*.yaml` | GitOps 同步 | 仓库 URL、分支、overlay 路径 |
 | **镜像** | `deploy/k8s/base/*-deployment.yaml` | 拉取容器 | 镜像仓库与 tag |
 | **数据库** | 托管 PostgreSQL + `deploy/db/*` | 应用启动 / 迁移 | 连接串、表结构 |
@@ -21,15 +21,15 @@
 
 ## 2. 品牌与域名（Reka Clip 独立站必改）
 
-当前生产仍指向 `easyclaw.pro`，部署 Reka Clip 新域名时需改：
+当前生产仍指向 `rekaclip.homes`，部署 Reka Clip 新域名时需改：
 
 ### 2.1 域名与 TLS
 
 | 文件 | 修改项 |
 |------|--------|
-| `deploy/k8s/overlays/production/easyclaw-live.ingress.yaml` | `rules[].host`、`tls.hosts` → 新域名（如 `www.rekaclip.com`） |
-| `deploy/k8s/overlays/production/easyclaw-live.certificate.yaml` | `dnsNames` 与 Ingress 一致 |
-| `deploy/k8s/overlays/staging/easyclaw-staging.ingress.yaml` | Staging 子域 |
+| `deploy/k8s/overlays/production/rekaclip-live.ingress.yaml` | `rules[].host`、`tls.hosts` → 新域名（如 `www.rekaclip.com`） |
+| `deploy/k8s/overlays/production/rekaclip-live.certificate.yaml` | `dnsNames` 与 Ingress 一致 |
+| `deploy/k8s/overlays/staging/rekaclip-staging.ingress.yaml` | Staging 子域 |
 | 对应 `*.certificate.yaml` | cert-manager 签发域名 |
 
 ### 2.2 公网 URL（构建时 + 运行时都要一致）
@@ -69,7 +69,7 @@ PRODUCTION_URL=https://www.rekaclip.com \
 | `DATABASE_URL` | 生产 PostgreSQL 连接串（建议独立库/用户，SSL） |
 | `DB_WRITE_FREEZE` | 紧急只读时设为 `true`；正常为 `false` |
 
-Schema 名仍为 **`easyclaw`**（代码未改 schema 名）。
+Schema 名仍为 **`rekaclip`**（代码未改 schema 名）。
 
 ### 3.2 初始化方式（三选一）
 
@@ -175,7 +175,7 @@ Reka Clip Pricing 使用以下 **逻辑 product id**（代码内键名），映�
 
 | 变量 | 说明 |
 |------|------|
-| `BACKEND_BASE_URL` | 服务端调用 Python/Node 后端（K8s 内可用 `http://easyclaw-backend:5001`） |
+| `BACKEND_BASE_URL` | 服务端调用 Python/Node 后端（K8s 内可用 `http://rekaclip-backend:5001`） |
 | `NEXT_PUBLIC_API_URL` | 浏览器可访问的 API 根（生产应为 HTTPS 或同源代理） |
 | `NEXT_PUBLIC_DEPLOY_SUBSCRIPTION_CHECK_ENABLED` | OpenClaw 部署门禁；纯 Clip 可 `false` |
 
@@ -187,8 +187,8 @@ K8s：
 构建时 `production.env` 已写集群内服务名：
 
 ```
-BACKEND_BASE_URL=http://easyclaw-backend:5001
-NEXT_PUBLIC_API_URL=http://easyclaw-backend:5001
+BACKEND_BASE_URL=http://rekaclip-backend:5001
+NEXT_PUBLIC_API_URL=http://rekaclip-backend:5001
 ```
 
 若前端在浏览器直连公网 API，需把 `NEXT_PUBLIC_API_URL` 改为公网 HTTPS 并在后端配置 CORS。
@@ -249,7 +249,7 @@ docker build \
 
 推送后更新 `deploy/k8s/base/web-deployment.yaml` 中 `image:`。
 
-Backend 同理：`easyclaw-backend` 镜像与 `backend-deployment.yaml`。
+Backend 同理：`rekaclip-backend` 镜像与 `backend-deployment.yaml`。
 
 ### 10.2 必改清单（独立 Reka Clip 时）
 
@@ -259,17 +259,17 @@ Backend 同理：`easyclaw-backend` 镜像与 `backend-deployment.yaml`。
 | 拉取密钥 | `registry-pull.sealedsecret.yaml` |
 | Web 运行时 Secret | `web-env.sealedsecret.yaml`（整份重 seal） |
 | Backend Secret | `backend-env.sealedsecret.yaml` |
-| Ingress / Certificate 域名 | `overlays/production/easyclaw-live.*` |
-| Argo 仓库 URL | `deploy/argocd/easyclaw-production.yaml` → 指向本仓库与分支 |
-| Namespace / 应用名 | 可选：将 `easyclaw` 改为 `rekaclip`（涉及 kustomization 多处 label） |
+| Ingress / Certificate 域名 | `overlays/production/rekaclip-live.*` |
+| Argo 仓库 URL | `deploy/argocd/rekaclip-production.yaml` → 指向本仓库与分支 |
+| Namespace / 应用名 | 可选：将 `rekaclip` 改为 `rekaclip`（涉及 kustomization 多处 label） |
 
 ### 10.3 Argo CD
 
-`deploy/argocd/easyclaw-production.yaml`：
+`deploy/argocd/rekaclip-production.yaml`：
 
 - `spec.source.repoURL` — Git 仓库  
 - `spec.source.path` — `deploy/k8s/overlays/production`  
-- `spec.destination.namespace` — 默认 `easyclaw`
+- `spec.destination.namespace` — 默认 `rekaclip`
 
 修改后 `argocd app sync` 或等待自动同步。
 
@@ -325,81 +325,121 @@ flowchart TD
 
 ---
 
-## 14. rekaclip.homes 静态站点部署（deploy-site）
+## 14. rekaclip.homes 部署（Next.js 运行时）
 
-`rekaclip.homes` 通过 **deploy-site skill** 以静态站点方式独立部署到同一 k8s-fleet 集群，与上述 K8s/ArgoCD Next.js 部署**互不影响**。
+`rekaclip.homes` 通过 **k8s-fleet 租户** 部署，运行完整 Next.js 应用（10-12 节的全栈部署暂未上线时这里替代入口）。
 
 ### 14.1 部署概览
 
 ```
-本地源码 → deploy-site skill → Docker build (nginx) → ghcr.io → ArgoCD → k8s-fleet
+本地源码 → Docker build (BUILD_ENV_FILE) → ghcr.io → k8s-fleet tenant → ArgoCD auto-sync
 ```
 
 | 项目 | 值 |
 |------|-----|
-| 部署方式 | deploy-site skill（一键部署） |
-| 站点类型 | 静态 HTML（nginx 容器） |
+| 部署方式 | k8s-fleet 租户（tenants/rekaclip-homes/） |
+| 运行时 | Next.js standalone (Node.js, port 3000) |
 | K8s namespace | `rekaclip-homes` |
 | Ingress | `rekaclip-homes-live` |
-| 域名 | `rekaclip.homes` |
-| TLS | cert-manager (`rekaclip-homes-live-tls`) |
-| Service | `rekaclip-homes` (ClusterIP, port 80) |
-| Deployment | `rekaclip-homes` (1 replica) |
-| Docker 镜像 | `ghcr.io/gateszhangc/rekaclip-homes:1.0.0` |
-| CDN/LB | 15 个 Hetzner Load Balancer IP |
-| 管理工具 | ArgoCD (tracking-id) |
+| 域名 | `rekaclip.homes` + `www.rekaclip.homes`（Next.js 内部 308 重定向到 `www.rekaclip.homes`） |
+| TLS | cert-manager (`rekaclip-homes-live-tls`)，双域名证书 |
+| Service | `rekaclip-homes` (ClusterIP, :80 → targetPort :3000) |
+| Deployment | `rekaclip-homes` (1 replica, port 3000) |
+| Docker 镜像 | `ghcr.io/gateszhangc/rekaclip-homes:1.0.2` |
+| 镜像拉取密钥 | `ghcr-pull-secret` (imagePullSecrets) |
+| 管理工具 | ArgoCD → k8s-fleet repo `tenants/rekaclip-homes/` |
 
-### 14.2 K8s 资源
+### 14.2 K8s 资源（在 k8s-fleet 仓库中）
 
 ```
-namespace: rekaclip-homes
-├── Deployment/rekaclip-homes
-│   ├── Image: ghcr.io/gateszhangc/rekaclip-homes:1.0.0
-│   ├── Port: 80 (nginx)
-│   └── Replicas: 1
-├── Service/rekaclip-homes (ClusterIP, :80)
-├── Ingress/rekaclip-homes-live
-│   ├── Host: rekaclip.homes
-│   ├── TLS: rekaclip-homes-live-tls
-│   └── Annotations: force-ssl-redirect, ssl-redirect
-└── Certificate/rekaclip-homes-live-tls (cert-manager)
+repo: gateszhangc/k8s-fleet (main) → tenants/rekaclip-homes/
+├── kustomization.yaml              (newTag: 1.0.2)
+├── 00-namespace.yaml
+├── 20-rekaclip-homes-deployment.yaml
+│   ├── imagePullSecrets: ghcr-pull-secret
+│   ├── containerPort: 3000
+│   └── probes: HTTP on :3000
+├── 21-rekaclip-homes-service.yaml  (targetPort: 3000)
+├── 31-rekaclip-homes-live-certificate.yaml  (dnsNames: rekaclip.homes, www.rekaclip.homes)
+└── 32-rekaclip-homes-live-ingress.yaml       (hosts: rekaclip.homes, www.rekaclip.homes)
+
+platform: manifests/platform/40-rekaclip-homes-application.yaml
 ```
 
-### 14.3 SEO 更新部署流程
+### 14.3 DNS 与 证书
 
-修改源码 SEO 信息后，执行以下步骤重新部署：
+Cloudflare DNS（zone: `rekaclip.homes`）：
 
-1. **确保修改已提交**到仓库
-   ```bash
-   git add -A && git commit -m "seo: update rekaclip.homes SEO metadata"
-   git push
-   ```
+| 类型 | 名称 | 目标 | Proxy |
+|------|------|------|-------|
+| A | `rekaclip.homes` | `144.91.77.245` | 是 |
+| CNAME | `www.rekaclip.homes` | `rekaclip.homes` | 是 |
 
-2. **运行 deploy-site skill**（提供域名 + 仓库 URL）
-   ```
-   部署 rekaclip.homes 从 https://github.com/gateszhangc/rekaclip-homes
-   ```
-   该 skill 会自动：
-   - 修复 HTML 中的域名引用（canonical、OG、Twitter）
-   - 创建/更新 robots.txt、sitemap.xml
-   - 构建 Docker 镜像并推送到 ghcr.io
-   - 更新 K8s 清单
+证书覆盖双域名（`rekaclip.homes` + `www.rekaclip.homes`），HTTP-01 验证。
 
-3. **验证部署**
-   ```bash
-   # 检查 Pod 滚动更新完成
-   kubectl rollout status deployment/rekaclip-homes -n rekaclip-homes
-   # 检查 ArgoCD 同步状态
-   argocd app get rekaclip-homes
-   ```
+> **注意：** 如果 `www` 的 CNAME 指向 `pixie.porkbun.com`（deploy-site 初始部署留下的），会导致 HTTP-01 验证失败（525 或 530），证书永远签不下来。修复方式：删除该 CNAME，改为指向 `rekaclip.homes`。
 
-### 14.4 与 Next.js K8s 部署的区别
+### 14.4 发布新版本流程
 
-| 方面 | rekaclip.homes (static) | easyclaw.pro (Next.js) |
-|------|------------------------|------------------------|
-| 构建产物 | 静态 HTML + nginx | Node.js standalone |
-| 镜像注册表 | ghcr.io | registry.144.91.77.245.sslip.io |
-| K8s namespace | `rekaclip-homes` | `easyclaw` |
-| 后端依赖 | 无 | PostgreSQL + backend API |
-| 配置管理 | deploy-site 自动处理 | SealedSecret + build-env |
-| 部署工具 | deploy-site skill | ArgoCD (kustomize overlays) |
+```bash
+# 1. 构建镜像（注入构建时环境变量）
+docker build \
+  --build-arg BUILD_ENV_FILE=deploy/k8s/build-env/production.env \
+  -t ghcr.io/gateszhangc/rekaclip-homes:<新tag> \
+  -t ghcr.io/gateszhangc/rekaclip-homes:latest \
+  .
+
+# 2. 推送
+echo $(gh auth token) | docker login ghcr.io -u gateszhangc --password-stdin
+docker push ghcr.io/gateszhangc/rekaclip-homes:<新tag>
+docker push ghcr.io/gateszhangc/rekaclip-homes:latest
+
+# 3. 确保 imagePullSecrets 存在
+kubectl create namespace rekaclip-homes 2>/dev/null
+kubectl create secret docker-registry ghcr-pull-secret \
+  --namespace=rekaclip-homes \
+  --docker-server=ghcr.io \
+  --docker-username=gateszhangc \
+  --docker-password="$(gh auth token)" \
+  --dry-run=client -o yaml | kubectl apply -f -
+
+# 4. 更新 k8s-fleet 仓库 tenants/rekaclip-homes/kustomization.yaml 的 newTag
+#    提交推送后 ArgoCD 自动同步
+```
+
+### 14.5 证书故障排查
+
+若 `www.rekaclip.homes` 出现 525 错误：
+
+```bash
+# 1. 检查 Cloudflare DNS — www CNAME 是否指向 rekaclip.homes（而非 pixie.porkbun.com）
+curl -s "https://api.cloudflare.com/client/v4/zones/<ZONE_ID>/dns_records?type=CNAME" \
+  -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}"
+
+# 2. 检查 cert-manager 状态
+kubectl get certificate,order,challenge -n rekaclip-homes
+```
+
+### 14.6 验证
+
+```bash
+# 检查 Pod
+kubectl get pods -n rekaclip-homes
+# ArgoCD 同步状态
+kubectl get application -n argocd rekaclip-homes
+# HTTP 验证
+curl -I https://rekaclip.homes
+curl -I https://www.rekaclip.homes
+```
+
+### 14.5 与 10-12 节全栈部署的关系
+
+| 方面 | rekaclip.homes (k8s-fleet 租户) | 全栈部署 (10-12 节) |
+|------|-------------------------------|------|
+| 运行时 | Next.js standalone, Node.js:3000 | web:3000 + backend:5001 |
+| 镜像仓库 | ghcr.io | registry.144.91.77.245.sslip.io |
+| K8s namespace | `rekaclip-homes` | `rekaclip` |
+| 配置文件 | k8s-fleet 仓库 `tenants/rekaclip-homes/` | 本仓库 `deploy/k8s/overlays/` |
+| DNS/TLS | rekaclip.homes | www.rekaclip.homes |
+| Database | 无直接依赖 | PostgreSQL |
+| 状态 | **已部署** (tag 1.0.1) | 尚未上线
