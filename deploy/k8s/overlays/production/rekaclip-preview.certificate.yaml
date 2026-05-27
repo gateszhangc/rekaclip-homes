@@ -1,14 +1,14 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: easyclaw-preview-tls
-  namespace: easyclaw
+  name: rekaclip-preview-tls
+  namespace: rekaclip
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec:
-  secretName: easyclaw-preview-tls
+  secretName: rekaclip-preview-tls
   dnsNames:
-    - 144.91.77.245.easyclaw.sslip.io
+    - 144.91.77.245.rekaclip.sslip.io
   issuerRef:
     kind: ClusterIssuer
     name: letsencrypt-staging

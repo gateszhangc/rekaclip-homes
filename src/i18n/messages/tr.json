@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - OpenClaw'yi 1 dakikadan kısa sürede dağıtın",
-    "description": "Tek tıklamayla OpenClaw'yi EasyClaw ile dağıtın. Telegram'yi bağlayın, bir model seçin ve hızla canlı yayına geçin.",
-    "keywords": "easyclaw, openclaw dağıtımı, openclaw barındırma, telgraf bot dağıtımı, yapay zeka asistanı dağıtımı"
+    "title": "RekaClip - OpenClaw'yi 1 dakikadan kısa sürede dağıtın",
+    "description": "Tek tıklamayla OpenClaw'yi RekaClip ile dağıtın. Telegram'yi bağlayın, bir model seçin ve hızla canlı yayına geçin.",
+    "keywords": "rekaclip, openclaw dağıtımı, openclaw barındırma, telgraf bot dağıtımı, yapay zeka asistanı dağıtımı"
   },
   "blog": {
     "title": "Blog",
-    "description": "OpenClaw'nin EasyClaw ile dağıtılmasına ilişkin haberler, eğitimler ve güncellemeler.",
+    "description": "OpenClaw'nin RekaClip ile dağıtılmasına ilişkin haberler, eğitimler ve güncellemeler.",
     "read_more_text": "Devamını Oku"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Yönetim Merkezi"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw'de oturum açın",
-    "sign_in_description": "OpenClaw'yi dağıtmak ve yönetmek için EasyClaw hesabınıza erişin.",
-    "sign_up_title": "EasyClaw'ye katılın",
-    "sign_up_description": "EasyClaw hesabınızı oluşturun",
+    "sign_in_title": "RekaClip'de oturum açın",
+    "sign_in_description": "OpenClaw'yi dağıtmak ve yönetmek için RekaClip hesabınıza erişin.",
+    "sign_up_title": "RekaClip'ye katılın",
+    "sign_up_description": "RekaClip hesabınızı oluşturun",
     "email_title": "E-posta",
     "email_placeholder": "E-posta adresinizi girin",
     "password_title": "Şifre",
     "password_placeholder": "Şifrenizi girin",
     "forgot_password": "Şifrenizi mi unuttunuz?",
     "or": "veya",
-    "continue": "EasyClaw'ye devam et",
-    "no_account": "EasyClaw'de yeni misiniz?",
+    "continue": "RekaClip'ye devam et",
+    "no_account": "RekaClip'de yeni misiniz?",
     "email_sign_in": "E-posta ile oturum açın",
     "google_sign_in": "Google ile devam et",
     "github_sign_in": "GitHub'la devam edin",
@@ -46,7 +46,7 @@
     "title": "Siparişlerim",
     "no_orders": "Sipariş bulunamadı",
     "tip": "",
-    "support_tip": "Faturalandırma veya iptal konusunda yardıma mı ihtiyacınız var? support@easyclaw.pro adresine e-posta gönderin.",
+    "support_tip": "Faturalandırma veya iptal konusunda yardıma mı ihtiyacınız var? support@rekaclip.homes adresine e-posta gönderin.",
     "activate_order": "Siparişi Etkinleştir",
     "actived": "Etkinleştirildi",
     "join_discord": "Discord'ye katılın",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Davet Bağlantısını Düzenle",
     "copy_invite_link": "Davet Bağlantısını Kopyala",
     "invite_code": "Kodu Davet Et",
-    "invite_tip": "Arkadaşlarınızı EasyClaw'ye davet edin ve ödüller kazanın.",
+    "invite_tip": "Arkadaşlarınızı RekaClip'ye davet edin ve ödüller kazanın.",
     "invite_balance": "Ödül Bakiyesini Davet Et",
     "total_invite_count": "Toplam Davet Sayısı",
     "total_paid_count": "Toplam Ödenen Sayı",
@@ -131,7 +131,7 @@
     "submit": "Gönder",
     "loading": "Gönderiliyor...",
     "contact_tip": "Bizimle iletişime geçmenin diğer yolları",
-    "rating_tip": "EasyClaw hakkında ne düşünüyorsunuz?",
+    "rating_tip": "RekaClip hakkında ne düşünüyorsunuz?",
     "placeholder": "Sözlerinizi buraya bırakın..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - Tek Tıklamayla OpenClaw Dağıtımı",
+      "title": "RekaClip - Tek Tıklamayla OpenClaw Dağıtımı",
       "description": "OpenClaw'yi 1 dakikadan kısa sürede konuşlandırın. Sunucu veya DevOps yok. Bir model seçin, bir kanal bağlayın ve başlatın."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Dağıtılıyor...",
       "deploy_button": "Dağıt",
-      "sign_in_button": "EasyClaw ile dağıtmak için oturum açın",
-      "sign_in_hint": "OpenClaw'yi EasyClaw ile dağıtmak için oturum açın ve kanallarınızı bağlayın.",
+      "sign_in_button": "RekaClip ile dağıtmak için oturum açın",
+      "sign_in_hint": "OpenClaw'yi RekaClip ile dağıtmak için oturum açın ve kanallarınızı bağlayın.",
       "status_success": "Dağıtım başarılı! OpenClaw şimdi çalışıyor.",
       "model_substitution_warning": "Model değişikliği algılandı. Yeniden konuşlandırmayı deneyin veya başka bir bölgeye/sağlayıcıya geçin.",
       "hint_prefix": "Devam etmek için Telegram'yi bağlayın.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

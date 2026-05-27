@@ -1,7 +1,7 @@
 -- Reka Clip local database export
 -- Generated: 2026-05-23T14:21:57.707Z
 -- Source: postgresql://postgres@localhost:5432/rekaclip
--- Database: rekaclip (schema: easyclaw)
+-- Database: rekaclip (schema: rekaclip)
 --
 -- Restore example:
 --   createdb rekaclip
@@ -191,9 +191,9 @@ ALTER TABLE "deployments" ADD COLUMN IF NOT EXISTS "stop_reason" varchar(50);
 
 -- ========== 0003_add_waitlist_table.sql ==========
 -- Add waitlist table for subscription capacity overflow.
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "easyclaw"."waitlist" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."waitlist" (
   "id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
   "email" varchar(255) NOT NULL,
   "created_at" timestamp with time zone DEFAULT now() NOT NULL,
@@ -202,17 +202,17 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."waitlist" (
 );
 --> statement-breakpoint
 CREATE UNIQUE INDEX IF NOT EXISTS "waitlist_email_unique_idx"
-  ON "easyclaw"."waitlist" USING btree ("email");
+  ON "rekaclip"."waitlist" USING btree ("email");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "waitlist_status_idx"
-  ON "easyclaw"."waitlist" USING btree ("status");
+  ON "rekaclip"."waitlist" USING btree ("status");
 
 
 -- ========== 0004_add_manual_payment_requests.sql ==========
 -- Add manual payment requests table for Alipay/WeChat QR code payments.
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."manual_payment_requests" (
   "id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
   "order_no" varchar(255) NOT NULL UNIQUE,
   "created_at" timestamp with time zone DEFAULT now() NOT NULL,
@@ -234,53 +234,53 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
 );
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_user_uuid_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("user_uuid");
+  ON "rekaclip"."manual_payment_requests" USING btree ("user_uuid");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_status_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("status");
+  ON "rekaclip"."manual_payment_requests" USING btree ("status");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_product_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("product_id", "user_uuid")
+  ON "rekaclip"."manual_payment_requests" USING btree ("product_id", "user_uuid")
   WHERE "status" = 'pending';
 
 
 -- ========== 0005_add_deployment_channels.sql ==========
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-ALTER TABLE IF EXISTS "easyclaw"."deployments"
+ALTER TABLE IF EXISTS "rekaclip"."deployments"
   ADD COLUMN IF NOT EXISTS "channel_type" varchar(50) DEFAULT 'telegram';
 --> statement-breakpoint
-ALTER TABLE IF EXISTS "easyclaw"."deployments"
+ALTER TABLE IF EXISTS "rekaclip"."deployments"
   ADD COLUMN IF NOT EXISTS "channel_token_encrypted" text;
 --> statement-breakpoint
-UPDATE "easyclaw"."deployments"
+UPDATE "rekaclip"."deployments"
 SET "channel_type" = coalesce(nullif("channel_type", ''), 'telegram')
 WHERE "channel_type" IS NULL OR "channel_type" = '';
 --> statement-breakpoint
-UPDATE "easyclaw"."deployments"
+UPDATE "rekaclip"."deployments"
 SET "channel_token_encrypted" = coalesce("channel_token_encrypted", "telegram_token_encrypted")
 WHERE "channel_token_encrypted" IS NULL;
 --> statement-breakpoint
-ALTER TABLE IF EXISTS "easyclaw"."deployments"
+ALTER TABLE IF EXISTS "rekaclip"."deployments"
   ALTER COLUMN "channel_type" SET DEFAULT 'telegram';
 --> statement-breakpoint
-ALTER TABLE IF EXISTS "easyclaw"."deployments"
+ALTER TABLE IF EXISTS "rekaclip"."deployments"
   ALTER COLUMN "channel_type" SET NOT NULL;
 --> statement-breakpoint
-ALTER TABLE IF EXISTS "easyclaw"."deployments"
+ALTER TABLE IF EXISTS "rekaclip"."deployments"
   ALTER COLUMN "channel_token_encrypted" SET NOT NULL;
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "deployments_channel_type_idx"
-  ON "easyclaw"."deployments" USING btree ("channel_type");
+  ON "rekaclip"."deployments" USING btree ("channel_type");
 
 
 -- ========== 0006_add_active_deployment_seat_index.sql ==========
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-DROP INDEX IF EXISTS "easyclaw"."uniq_public_deployments_subscription_order_consumed_success";
+DROP INDEX IF EXISTS "rekaclip"."uniq_public_deployments_subscription_order_consumed_success";
 --> statement-breakpoint
 CREATE UNIQUE INDEX IF NOT EXISTS "uniq_public_deployments_subscription_order_active_seat"
-  ON "easyclaw"."deployments" USING btree ("subscription_order_no")
+  ON "rekaclip"."deployments" USING btree ("subscription_order_no")
   WHERE "subscription_order_no" IS NOT NULL
     AND "status" IN ('provisioning', 'running');
 

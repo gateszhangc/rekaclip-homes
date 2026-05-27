@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClaw 標誌"
+      "alt": "RekaClip 標誌"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "創造高品質藝術",
     "description": "上傳肖像，選擇風格，然後取得乾淨的頭像、禮物或內容漫畫。",
     "features": [
@@ -226,7 +226,7 @@
         "title": "選擇型號",
         "description": "Claude、GPT、Gemini — 為每個任務選擇最佳模型。使用 Claude 進行創意工作，使用 GPT 進行分析。隨時切換。",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "選擇 AI 模型 - Claude、GPT 或 Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "連接頻道",
         "description": "Telegram、Discord、WhatsApp — 所有頻道的一個儀表板。從一處管理所有對話，無需再切換應用程式。",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "連結訊息傳遞管道"
         }
       },
@@ -242,7 +242,7 @@
         "title": "部署並啟動",
         "description": "60秒後你的AI助理上線。發送您的第一條訊息並開始自動化。",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "部署並啟動您的助手"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "與煩惱說再見",
-    "description": "看看切換到 EasyClaw 後有何變化",
+    "description": "看看切換到 RekaClip 後有何變化",
     "before_label": "傳統設定",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "租用伺服器，配置環境",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "為什麼團隊選擇EasyClaw",
+    "title": "為什麼團隊選擇RekaClip",
     "description": "生產就緒部署，無需 DevOps 開銷。零維護，最大程度的專注。",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "每日簡報",
         "description": "將訊息和更新變成為您的團隊提供的簡潔的晨間簡報。",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "每日簡報自動化工作流程"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "客戶支援助理",
         "description": "傳遞問題、草擬回應並維持支援管道的回應。",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "客戶支援自動化工作流程"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "團隊營運自動化",
         "description": "跨管道自動執行提醒、狀態報告和例行跟進。",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "團隊營運自動化工作流程"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "常見問題解答",
     "title": "常見問題",
-    "description": "使用 EasyClaw 部署 OpenClaw 之前所需的一切。",
+    "description": "使用 RekaClip 部署 OpenClaw 之前所需的一切。",
     "items": [
       {
-        "title": "EasyClaw 多少錢？",
+        "title": "RekaClip 多少錢？",
         "description": "計劃起價為 10 美元/月。隨時從您的帳戶取消。"
       },
       {
         "title": "我需要管理伺服器嗎？",
-        "description": "不會。 EasyClaw 簡化了部署工作流程，因此您無需伺服器或 DevOps 即可啟動 OpenClaw。"
+        "description": "不會。 RekaClip 簡化了部署工作流程，因此您無需伺服器或 DevOps 即可啟動 OpenClaw。"
       },
       {
         "title": "支援哪些型號？",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "部署OpenClaw AI助理最簡單的方法。",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • Easyclaw。版權所有。",
+    "copyright": "© 2026 • RekaClip。版權所有。",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "電子郵件支援",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw是一個獨立的產品，不隸屬於任何第三方模型提供者或商標所有者。",
+    "disclaimer": "RekaClip是一個獨立的產品，不隸屬於任何第三方模型提供者或商標所有者。",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw 專業月刊",
+        "product_name": "RekaClip 專業月刊",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw 每月高級版",
+        "product_name": "RekaClip 每月高級版",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro 每年",
+        "product_name": "RekaClip Pro 每年",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw 每年保費",
+        "product_name": "RekaClip 每年保費",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

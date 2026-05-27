@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - 1 నిమిషంలోపు OpenClawని అమలు చేయండి",
-    "description": "ఒకే క్లిక్‌తో EasyClawతో OpenClawని అమలు చేయండి. Telegramని కనెక్ట్ చేయండి, మోడల్‌ని ఎంచుకోండి మరియు వేగంగా ప్రత్యక్ష ప్రసారం చేయండి.",
+    "title": "RekaClip - 1 నిమిషంలోపు OpenClawని అమలు చేయండి",
+    "description": "ఒకే క్లిక్‌తో RekaClipతో OpenClawని అమలు చేయండి. Telegramని కనెక్ట్ చేయండి, మోడల్‌ని ఎంచుకోండి మరియు వేగంగా ప్రత్యక్ష ప్రసారం చేయండి.",
     "keywords": "ఈజీక్లా, డిప్లాయ్ ఓపెన్‌క్లా, ఓపెన్‌క్లా హోస్టింగ్, టెలిగ్రామ్ బాట్ డిప్లాయ్‌మెంట్, ఏఐ అసిస్టెంట్ డిప్లాయ్‌మెంట్"
   },
   "blog": {
     "title": "బ్లాగు",
-    "description": "OpenClawని EasyClawతో అమలు చేయడం గురించి వార్తలు, ట్యుటోరియల్‌లు మరియు నవీకరణలు.",
+    "description": "OpenClawని RekaClipతో అమలు చేయడం గురించి వార్తలు, ట్యుటోరియల్‌లు మరియు నవీకరణలు.",
     "read_more_text": "మరింత చదవండి"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "నిర్వాహక కేంద్రం"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClawకి సైన్ ఇన్ చేయండి",
-    "sign_in_description": "OpenClawని అమలు చేయడానికి మరియు నిర్వహించడానికి మీ EasyClaw ఖాతాను యాక్సెస్ చేయండి.",
-    "sign_up_title": "EasyClawలో చేరండి",
-    "sign_up_description": "మీ EasyClaw ఖాతాను సృష్టించండి",
+    "sign_in_title": "RekaClipకి సైన్ ఇన్ చేయండి",
+    "sign_in_description": "OpenClawని అమలు చేయడానికి మరియు నిర్వహించడానికి మీ RekaClip ఖాతాను యాక్సెస్ చేయండి.",
+    "sign_up_title": "RekaClipలో చేరండి",
+    "sign_up_description": "మీ RekaClip ఖాతాను సృష్టించండి",
     "email_title": "ఇమెయిల్",
     "email_placeholder": "మీ ఇమెయిల్ చిరునామాను నమోదు చేయండి",
     "password_title": "పాస్వర్డ్",
     "password_placeholder": "మీ పాస్‌వర్డ్‌ని నమోదు చేయండి",
     "forgot_password": "పాస్‌వర్డ్ మర్చిపోయారా?",
     "or": "లేదా",
-    "continue": "EasyClawకి కొనసాగండి",
-    "no_account": "EasyClawకి కొత్తవా?",
+    "continue": "RekaClipకి కొనసాగండి",
+    "no_account": "RekaClipకి కొత్తవా?",
     "email_sign_in": "ఇమెయిల్‌తో సైన్ ఇన్ చేయండి",
     "google_sign_in": "Googleతో కొనసాగించండి",
     "github_sign_in": "GitHubతో కొనసాగించండి",
@@ -46,7 +46,7 @@
     "title": "నా ఆర్డర్లు",
     "no_orders": "ఆర్డర్‌లు ఏవీ కనుగొనబడలేదు",
     "tip": "",
-    "support_tip": "బిల్లింగ్ లేదా రద్దు విషయంలో సహాయం కావాలా? ఇమెయిల్ support@easyclaw.pro.",
+    "support_tip": "బిల్లింగ్ లేదా రద్దు విషయంలో సహాయం కావాలా? ఇమెయిల్ support@rekaclip.homes.",
     "activate_order": "ఆర్డర్‌ని యాక్టివేట్ చేయండి",
     "actived": "యాక్టివేట్ చేయబడింది",
     "join_discord": "Discordలో చేరండి",
@@ -105,7 +105,7 @@
     "edit_invite_link": "ఆహ్వాన లింక్‌ని సవరించండి",
     "copy_invite_link": "ఆహ్వాన లింక్‌ని కాపీ చేయండి",
     "invite_code": "ఆహ్వాన కోడ్",
-    "invite_tip": "EasyClawకి స్నేహితులను ఆహ్వానించండి మరియు రివార్డ్‌లను పొందండి.",
+    "invite_tip": "RekaClipకి స్నేహితులను ఆహ్వానించండి మరియు రివార్డ్‌లను పొందండి.",
     "invite_balance": "రివార్డ్ బ్యాలెన్స్‌ని ఆహ్వానించండి",
     "total_invite_count": "మొత్తం ఆహ్వానాల సంఖ్య",
     "total_paid_count": "మొత్తం చెల్లించిన గణన",
@@ -131,7 +131,7 @@
     "submit": "సమర్పించండి",
     "loading": "సమర్పిస్తోంది...",
     "contact_tip": "మమ్మల్ని సంప్రదించడానికి ఇతర మార్గాలు",
-    "rating_tip": "EasyClaw గురించి మీకు ఎలా అనిపిస్తుంది?",
+    "rating_tip": "RekaClip గురించి మీకు ఎలా అనిపిస్తుంది?",
     "placeholder": "మీ మాటలు ఇక్కడ వదిలేయండి..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - ఒక-క్లిక్ OpenClaw విస్తరణ",
+      "title": "RekaClip - ఒక-క్లిక్ OpenClaw విస్తరణ",
       "description": "1 నిమిషంలోపు OpenClawని అమలు చేయండి. సర్వర్లు లేదా DevOps లేవు. మోడల్‌ని ఎంచుకోండి, ఛానెల్‌ని కనెక్ట్ చేయండి మరియు ప్రారంభించండి."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "అమలు చేస్తోంది...",
       "deploy_button": "మోహరించు",
-      "sign_in_button": "EasyClawతో అమలు చేయడానికి సైన్ ఇన్ చేయండి",
-      "sign_in_hint": "EasyClawతో OpenClawని అమలు చేయడానికి మరియు మీ ఛానెల్‌లను కనెక్ట్ చేయడానికి సైన్ ఇన్ చేయండి.",
+      "sign_in_button": "RekaClipతో అమలు చేయడానికి సైన్ ఇన్ చేయండి",
+      "sign_in_hint": "RekaClipతో OpenClawని అమలు చేయడానికి మరియు మీ ఛానెల్‌లను కనెక్ట్ చేయడానికి సైన్ ఇన్ చేయండి.",
       "status_success": "విస్తరణ విజయవంతమైంది! OpenClaw ఇప్పుడు అమలవుతోంది.",
       "model_substitution_warning": "మోడల్ ప్రత్యామ్నాయం కనుగొనబడింది. మళ్లీ అమలు చేయడానికి ప్రయత్నించండి లేదా మరొక ప్రాంతం/ప్రొవైడర్‌కు మారండి.",
       "hint_prefix": "కొనసాగించడానికి Telegramని కనెక్ట్ చేయండి.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

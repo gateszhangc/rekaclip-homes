@@ -1,35 +1,35 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: easyclaw-live
-  namespace: easyclaw
+  name: rekaclip-live
+  namespace: rekaclip
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec:
   ingressClassName: nginx
   rules:
-    - host: www.easyclaw.pro
+    - host: www.rekaclip.homes
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: easyclaw
+                name: rekaclip
                 port:
                   number: 80
-    - host: easyclaw.pro
+    - host: rekaclip.homes
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: easyclaw
+                name: rekaclip
                 port:
                   number: 80
   tls:
-    - secretName: easyclaw-live-tls
+    - secretName: rekaclip-live-tls
       hosts:
-        - www.easyclaw.pro
-        - easyclaw.pro
+        - www.rekaclip.homes
+        - rekaclip.homes

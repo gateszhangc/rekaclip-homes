@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw – Ota OpenClaw käyttöön alle minuutissa",
-    "description": "Ota OpenClaw käyttöön EasyClaw:n kanssa yhdellä napsautuksella. Yhdistä Telegram, valitse malli ja aloita livelähetys nopeasti.",
-    "keywords": "easyclaw, ota käyttöön openclaw, openclaw-isännöinti, telegram botin käyttöönotto, ai-avustajan käyttöönotto"
+    "title": "RekaClip – Ota OpenClaw käyttöön alle minuutissa",
+    "description": "Ota OpenClaw käyttöön RekaClip:n kanssa yhdellä napsautuksella. Yhdistä Telegram, valitse malli ja aloita livelähetys nopeasti.",
+    "keywords": "rekaclip, ota käyttöön openclaw, openclaw-isännöinti, telegram botin käyttöönotto, ai-avustajan käyttöönotto"
   },
   "blog": {
     "title": "Blogi",
-    "description": "Uutisia, opetusohjelmia ja päivityksiä OpenClaw:n käyttöönotosta EasyClaw:n kanssa.",
+    "description": "Uutisia, opetusohjelmia ja päivityksiä OpenClaw:n käyttöönotosta RekaClip:n kanssa.",
     "read_more_text": "Lue lisää"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Hallintakeskus"
   },
   "sign_modal": {
-    "sign_in_title": "Kirjaudu sisään EasyClaw",
-    "sign_in_description": "Käytä EasyClaw-tiliäsi ottaaksesi käyttöön ja hallitaksesi OpenClaw:ää.",
-    "sign_up_title": "Liity joukkoon EasyClaw",
-    "sign_up_description": "Luo EasyClaw-tili",
+    "sign_in_title": "Kirjaudu sisään RekaClip",
+    "sign_in_description": "Käytä RekaClip-tiliäsi ottaaksesi käyttöön ja hallitaksesi OpenClaw:ää.",
+    "sign_up_title": "Liity joukkoon RekaClip",
+    "sign_up_description": "Luo RekaClip-tili",
     "email_title": "Sähköposti",
     "email_placeholder": "Kirjoita sähköpostiosoitteesi",
     "password_title": "Salasana",
     "password_placeholder": "Kirjoita salasanasi",
     "forgot_password": "Unohditko salasanan?",
     "or": "Tai",
-    "continue": "Jatka suuntaan EasyClaw",
-    "no_account": "Uusi EasyClaw?",
+    "continue": "Jatka suuntaan RekaClip",
+    "no_account": "Uusi RekaClip?",
     "email_sign_in": "Kirjaudu sisään sähköpostilla",
     "google_sign_in": "Jatka Googlella",
     "github_sign_in": "Jatka GitHubilla",
@@ -46,7 +46,7 @@
     "title": "Minun tilaukseni",
     "no_orders": "Tilauksia ei löytynyt",
     "tip": "",
-    "support_tip": "Tarvitsetko apua laskutuksessa tai peruutuksessa? Sähköposti support@easyclaw.pro.",
+    "support_tip": "Tarvitsetko apua laskutuksessa tai peruutuksessa? Sähköposti support@rekaclip.homes.",
     "activate_order": "Aktivoi Tilaus",
     "actived": "Aktivoitu",
     "join_discord": "Liity joukkoon Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Muokkaa kutsulinkkiä",
     "copy_invite_link": "Kopioi kutsulinkki",
     "invite_code": "Kutsukoodi",
-    "invite_tip": "Kutsu ystäviä EasyClaw:ään ja ansaitse palkintoja.",
+    "invite_tip": "Kutsu ystäviä RekaClip:ään ja ansaitse palkintoja.",
     "invite_balance": "Kutsu Reward Balance",
     "total_invite_count": "Kutsujen kokonaismäärä",
     "total_paid_count": "Maksettu kokonaismäärä",
@@ -131,7 +131,7 @@
     "submit": "Lähetä",
     "loading": "Lähetetään...",
     "contact_tip": "Muita tapoja ottaa meihin yhteyttä",
-    "rating_tip": "Mitä mieltä olet EasyClaw:stä?",
+    "rating_tip": "Mitä mieltä olet RekaClip:stä?",
     "placeholder": "Jätä sanasi tähän..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw – Yhden napsautuksen OpenClaw käyttöönotto",
+      "title": "RekaClip – Yhden napsautuksen OpenClaw käyttöönotto",
       "description": "Ota OpenClaw käyttöön alle minuutissa. Ei palvelimia tai DevOpsia. Valitse malli, yhdistä kanava ja käynnistä."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Otetaan käyttöön...",
       "deploy_button": "Ota käyttöön",
-      "sign_in_button": "Kirjaudu sisään ottaaksesi käyttöön EasyClaw:n avulla",
-      "sign_in_hint": "Kirjaudu sisään ottaaksesi OpenClaw käyttöön EasyClaw:n kanssa ja yhdistä kanavasi.",
+      "sign_in_button": "Kirjaudu sisään ottaaksesi käyttöön RekaClip:n avulla",
+      "sign_in_hint": "Kirjaudu sisään ottaaksesi OpenClaw käyttöön RekaClip:n kanssa ja yhdistä kanavasi.",
       "status_success": "Käyttöönotto onnistui! OpenClaw on nyt käynnissä.",
       "model_substitution_warning": "Mallin korvaaminen havaittu. Yritä asentaa uudelleen tai vaihtaa toiseen alueeseen/palveluntarjoajaan.",
       "hint_prefix": "Liitä Telegram jatkaaksesi.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

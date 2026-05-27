@@ -1,18 +1,18 @@
 {
   "exported_at": "2026-05-23T14:21:57.767Z",
   "database": "rekaclip",
-  "schema": "easyclaw",
+  "schema": "rekaclip",
   "tables": [
     "drizzle.__drizzle_migrations",
-    "easyclaw.affiliates",
-    "easyclaw.apikeys",
-    "easyclaw.credits",
-    "easyclaw.deployments",
-    "easyclaw.feedbacks",
-    "easyclaw.manual_payment_requests",
-    "easyclaw.orders",
-    "easyclaw.posts",
-    "easyclaw.users"
+    "rekaclip.affiliates",
+    "rekaclip.apikeys",
+    "rekaclip.credits",
+    "rekaclip.deployments",
+    "rekaclip.feedbacks",
+    "rekaclip.manual_payment_requests",
+    "rekaclip.orders",
+    "rekaclip.posts",
+    "rekaclip.users"
   ],
   "files": [
     "00_schema.sql",

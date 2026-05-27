@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: easyclaw-openclaw-staging
+  name: rekaclip-openclaw-staging
   annotations:
     argocd.argoproj.io/sync-wave: "-2"
   labels:
-    app.kubernetes.io/part-of: easyclaw
+    app.kubernetes.io/part-of: rekaclip

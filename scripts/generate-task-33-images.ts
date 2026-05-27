@@ -19,7 +19,7 @@ function svgWrap(opts: {
 
   // Keep everything self-contained: no external fonts/images.
   return `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="EasyClaw illustration">
+<svg width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RekaClip illustration">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a0a0a"/>
@@ -399,7 +399,7 @@ async function writeImages(outDir: string, specs: ImageSpec[]) {
 }
 
 async function main() {
-  const outDir = path.join(process.cwd(), "public/images/easyclaw");
+  const outDir = path.join(process.cwd(), "public/images/rekaclip");
 
   const specs: ImageSpec[] = [
     {

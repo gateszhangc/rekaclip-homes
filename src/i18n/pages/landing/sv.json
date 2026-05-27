@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClaw logotyp"
+      "alt": "RekaClip logotyp"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "Skapa konst av hög kvalitet",
     "description": "Ladda upp ett porträtt, välj en stil och få en ren karikatyr för avatarer, presenter eller innehåll.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "Välj en modell",
         "description": "Claude, GPT, Gemini — välj den bästa modellen för varje uppgift. Kreativt arbete med Claude, analys med GPT. Byt när som helst.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "Välj AI-modell - Claude, GPT eller Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "Anslut en kanal",
         "description": "Telegram, Discord, WhatsApp — en instrumentpanel för alla kanaler. Hantera alla konversationer från ett ställe, inga fler appar.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "Anslut meddelandekanaler"
         }
       },
@@ -242,7 +242,7 @@
         "title": "Installera och starta",
         "description": "Din AI-assistent är online på 60 sekunder. Skicka ditt första meddelande och börja automatisera.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "Distribuera och starta din assistent"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "Säg adjö till besväret",
-    "description": "Se vad som ändras när du byter till EasyClaw",
+    "description": "Se vad som ändras när du byter till RekaClip",
     "before_label": "Traditionell installation",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "Hyr servrar, konfigurera miljöer",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "Varför lag väljer EasyClaw",
+    "title": "Varför lag väljer RekaClip",
     "description": "Produktionsfärdig distribution utan DevOps-overhead. Noll underhåll, maximal fokus.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "Dagliga genomgångar",
         "description": "Förvandla meddelanden och uppdateringar till en kortfattad morgonbrief för ditt team.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "Dagliga genomgångar automatiseringsarbetsflöde"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "Kundsupportassistent",
         "description": "Skicka frågor, utkast till svar och håll supportkanalerna lyhörda.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "Arbetsflöde för automatisering av kundsupport"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "Team Ops Automation",
         "description": "Automatisera påminnelser, statusrapporter och rutinmässiga uppföljningar över kanaler.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "Arbetsflöde för automatisering av teamdrift"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "FAQ",
     "title": "Vanliga frågor",
-    "description": "Allt du behöver innan du distribuerar OpenClaw med EasyClaw.",
+    "description": "Allt du behöver innan du distribuerar OpenClaw med RekaClip.",
     "items": [
       {
-        "title": "Hur mycket kostar EasyClaw?",
+        "title": "Hur mycket kostar RekaClip?",
         "description": "Planerna börjar på $10/månad. Avbryt när som helst från ditt konto."
       },
       {
         "title": "Behöver jag hantera servrar?",
-        "description": "Nej. EasyClaw effektiviserar distributionsarbetsflödet så att du kan starta OpenClaw utan servrar eller DevOps."
+        "description": "Nej. RekaClip effektiviserar distributionsarbetsflödet så att du kan starta OpenClaw utan servrar eller DevOps."
       },
       {
         "title": "Vilka modeller stöds?",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "Det enklaste sättet att distribuera OpenClaw AI-assistent.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • easyclaw. Alla rättigheter reserverade.",
+    "copyright": "© 2026 • RekaClip. Alla rättigheter reserverade.",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "E-postsupport",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw är en oberoende produkt och är inte ansluten till någon tredje parts modellleverantörer eller varumärkesägare.",
+    "disclaimer": "RekaClip är en oberoende produkt och är inte ansluten till någon tredje parts modellleverantörer eller varumärkesägare.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro månadsvis",
+        "product_name": "RekaClip Pro månadsvis",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw Premium månadsvis",
+        "product_name": "RekaClip Premium månadsvis",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro årligen",
+        "product_name": "RekaClip Pro årligen",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw Premium årligen",
+        "product_name": "RekaClip Premium årligen",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

@@ -15,7 +15,7 @@ export async function generateMetadata({
   const siteUrl = getSiteUrl();
 
   return {
-    title: "Showcase | EasyClaw",
+    title: "Showcase | RekaClip",
     alternates: {
       canonical: getAbsoluteLocalizedUrl(siteUrl, locale, "/showcase"),
       languages: buildAlternateLanguageUrls(siteUrl, "/showcase"),

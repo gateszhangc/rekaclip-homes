@@ -29,7 +29,7 @@ const SKIP_TRANSLATE_KEYS = new Set([
 ]);
 
 const GLOSSARY_TERMS = [
-  "EasyClaw",
+  "RekaClip",
   "OpenClaw",
   "Claude",
   "GPT",

@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "EasyClaw كاتب شهري",
+        "product_name": "RekaClip كاتب شهري",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw برو الشهرية",
+        "product_name": "RekaClip برو الشهرية",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw كاتب سنويا",
+        "product_name": "RekaClip كاتب سنويا",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro سنويًا",
+        "product_name": "RekaClip Pro سنويًا",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

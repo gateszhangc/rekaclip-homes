@@ -1,31 +1,31 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: easyclaw-backend
+  name: rekaclip-backend
   labels:
-    app.kubernetes.io/name: easyclaw-backend
-    app.kubernetes.io/part-of: easyclaw
+    app.kubernetes.io/name: rekaclip-backend
+    app.kubernetes.io/part-of: rekaclip
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: easyclaw-backend
+      app.kubernetes.io/name: rekaclip-backend
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: easyclaw-backend
-        app.kubernetes.io/part-of: easyclaw
+        app.kubernetes.io/name: rekaclip-backend
+        app.kubernetes.io/part-of: rekaclip
     spec:
-      serviceAccountName: easyclaw-backend
+      serviceAccountName: rekaclip-backend
       imagePullSecrets:
         - name: dokploy-fleet-ghcr
       containers:
         - name: backend
-          image: registry.144.91.77.245.sslip.io/easyclaw-backend:latest
+          image: registry.144.91.77.245.sslip.io/rekaclip-backend:latest
           imagePullPolicy: IfNotPresent
           envFrom:
             - secretRef:
-                name: easyclaw-backend-env
+                name: rekaclip-backend-env
           ports:
             - name: http
               containerPort: 5001

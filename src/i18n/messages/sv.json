@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - Implementera OpenClaw på under 1 minut",
-    "description": "Distribuera OpenClaw med EasyClaw med ett klick. Anslut Telegram, välj en modell och gå live snabbt.",
-    "keywords": "easyclaw, distribuera openclaw, openclaw hosting, telegram bot-distribution, ai assistant-distribution"
+    "title": "RekaClip - Implementera OpenClaw på under 1 minut",
+    "description": "Distribuera OpenClaw med RekaClip med ett klick. Anslut Telegram, välj en modell och gå live snabbt.",
+    "keywords": "rekaclip, distribuera openclaw, openclaw hosting, telegram bot-distribution, ai assistant-distribution"
   },
   "blog": {
     "title": "Blogg",
-    "description": "Nyheter, handledningar och uppdateringar om att distribuera OpenClaw med EasyClaw.",
+    "description": "Nyheter, handledningar och uppdateringar om att distribuera OpenClaw med RekaClip.",
     "read_more_text": "Läs mer"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Admin Center"
   },
   "sign_modal": {
-    "sign_in_title": "Logga in på EasyClaw",
-    "sign_in_description": "Få åtkomst till ditt EasyClaw-konto för att distribuera och hantera OpenClaw.",
-    "sign_up_title": "Gå med i EasyClaw",
-    "sign_up_description": "Skapa ditt EasyClaw-konto",
+    "sign_in_title": "Logga in på RekaClip",
+    "sign_in_description": "Få åtkomst till ditt RekaClip-konto för att distribuera och hantera OpenClaw.",
+    "sign_up_title": "Gå med i RekaClip",
+    "sign_up_description": "Skapa ditt RekaClip-konto",
     "email_title": "E-post",
     "email_placeholder": "Ange din e-postadress",
     "password_title": "Lösenord",
     "password_placeholder": "Ange ditt lösenord",
     "forgot_password": "Glömt lösenordet?",
     "or": "Eller",
-    "continue": "Fortsätt till EasyClaw",
-    "no_account": "Ny på EasyClaw?",
+    "continue": "Fortsätt till RekaClip",
+    "no_account": "Ny på RekaClip?",
     "email_sign_in": "Logga in med e-post",
     "google_sign_in": "Fortsätt med Google",
     "github_sign_in": "Fortsätt med GitHub",
@@ -46,7 +46,7 @@
     "title": "Mina beställningar",
     "no_orders": "Inga beställningar hittades",
     "tip": "",
-    "support_tip": "Behöver du hjälp med fakturering eller avbokning? Skicka e-post till support@easyclaw.pro.",
+    "support_tip": "Behöver du hjälp med fakturering eller avbokning? Skicka e-post till support@rekaclip.homes.",
     "activate_order": "Aktivera beställning",
     "actived": "Aktiverad",
     "join_discord": "Gå med i Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Redigera inbjudningslänk",
     "copy_invite_link": "Kopiera inbjudningslänk",
     "invite_code": "Inbjudningskod",
-    "invite_tip": "Bjud in vänner till EasyClaw och tjäna belöningar.",
+    "invite_tip": "Bjud in vänner till RekaClip och tjäna belöningar.",
     "invite_balance": "Bjud in belöningssaldo",
     "total_invite_count": "Totalt antal inbjudningar",
     "total_paid_count": "Totalt antal betalda",
@@ -131,7 +131,7 @@
     "submit": "Skicka in",
     "loading": "Skickar...",
     "contact_tip": "Andra sätt att kontakta oss",
-    "rating_tip": "Vad tycker du om EasyClaw?",
+    "rating_tip": "Vad tycker du om RekaClip?",
     "placeholder": "Lämna dina ord här..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - OpenClaw-distribution med ett klick",
+      "title": "RekaClip - OpenClaw-distribution med ett klick",
       "description": "Distribuera OpenClaw på under 1 minut. Inga servrar eller DevOps. Välj en modell, anslut en kanal och starta."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Distribuerar...",
       "deploy_button": "Distribuera",
-      "sign_in_button": "Logga in för att distribuera med EasyClaw",
-      "sign_in_hint": "Logga in för att distribuera OpenClaw med EasyClaw och anslut dina kanaler.",
+      "sign_in_button": "Logga in för att distribuera med RekaClip",
+      "sign_in_hint": "Logga in för att distribuera OpenClaw med RekaClip och anslut dina kanaler.",
       "status_success": "Implementeringen lyckades! OpenClaw körs nu.",
       "model_substitution_warning": "Modellsubstitution upptäckt. Försök att distribuera om eller byt till en annan region/leverantör.",
       "hint_prefix": "Anslut Telegram för att fortsätta.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

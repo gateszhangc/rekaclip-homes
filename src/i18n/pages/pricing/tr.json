@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "EasyClaw Başlangıç Aylık",
+        "product_name": "RekaClip Başlangıç Aylık",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro Aylık",
+        "product_name": "RekaClip Pro Aylık",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw Başlangıç Yıllık",
+        "product_name": "RekaClip Başlangıç Yıllık",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro Yıllık",
+        "product_name": "RekaClip Pro Yıllık",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

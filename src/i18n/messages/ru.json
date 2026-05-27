@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw — разверните OpenClaw менее чем за 1 минуту.",
-    "description": "Разверните OpenClaw с помощью EasyClaw в один клик. Подключите Telegram, выберите модель и быстро приступайте к работе.",
-    "keywords": "easyclaw, развертывание openclaw, хостинг openclaw, развертывание бота Telegram, развертывание помощника AI"
+    "title": "RekaClip — разверните OpenClaw менее чем за 1 минуту.",
+    "description": "Разверните OpenClaw с помощью RekaClip в один клик. Подключите Telegram, выберите модель и быстро приступайте к работе.",
+    "keywords": "rekaclip, развертывание openclaw, хостинг openclaw, развертывание бота Telegram, развертывание помощника AI"
   },
   "blog": {
     "title": "Блог",
-    "description": "Новости, руководства и обновления по развертыванию OpenClaw с помощью EasyClaw.",
+    "description": "Новости, руководства и обновления по развертыванию OpenClaw с помощью RekaClip.",
     "read_more_text": "Подробнее"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Центр администрирования"
   },
   "sign_modal": {
-    "sign_in_title": "Войдите в EasyClaw",
-    "sign_in_description": "Получите доступ к своей учетной записи EasyClaw для развертывания и управления OpenClaw.",
-    "sign_up_title": "Присоединяйтесь к EasyClaw",
-    "sign_up_description": "Создайте свою учетную запись EasyClaw",
+    "sign_in_title": "Войдите в RekaClip",
+    "sign_in_description": "Получите доступ к своей учетной записи RekaClip для развертывания и управления OpenClaw.",
+    "sign_up_title": "Присоединяйтесь к RekaClip",
+    "sign_up_description": "Создайте свою учетную запись RekaClip",
     "email_title": "электронная почта",
     "email_placeholder": "Введите свой адрес электронной почты",
     "password_title": "Пароль",
     "password_placeholder": "Введите свой пароль",
     "forgot_password": "Забыли пароль?",
     "or": "Или",
-    "continue": "Продолжить EasyClaw",
-    "no_account": "Впервые в EasyClaw?",
+    "continue": "Продолжить RekaClip",
+    "no_account": "Впервые в RekaClip?",
     "email_sign_in": "Войти с помощью электронной почты",
     "google_sign_in": "Продолжить с Google",
     "github_sign_in": "Продолжить с GitHub",
@@ -46,7 +46,7 @@
     "title": "Мои заказы",
     "no_orders": "Заказы не найдены",
     "tip": "",
-    "support_tip": "Нужна помощь с выставлением счетов или отменой бронирования? Электронная почта support@easyclaw.pro.",
+    "support_tip": "Нужна помощь с выставлением счетов или отменой бронирования? Электронная почта support@rekaclip.homes.",
     "activate_order": "Активировать заказ",
     "actived": "Активировано",
     "join_discord": "Присоединяйтесь к Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Изменить ссылку для приглашения",
     "copy_invite_link": "Скопировать ссылку для приглашения",
     "invite_code": "Пригласительный код",
-    "invite_tip": "Приглашайте друзей в EasyClaw и получайте награды.",
+    "invite_tip": "Приглашайте друзей в RekaClip и получайте награды.",
     "invite_balance": "Баланс вознаграждений за приглашения",
     "total_invite_count": "Общее количество приглашений",
     "total_paid_count": "Общее количество оплаченных платежей",
@@ -131,7 +131,7 @@
     "submit": "Отправить",
     "loading": "Отправка...",
     "contact_tip": "Другие способы связаться с нами",
-    "rating_tip": "Как вы относитесь к EasyClaw?",
+    "rating_tip": "Как вы относитесь к RekaClip?",
     "placeholder": "Оставьте свои слова здесь..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw — развертывание OpenClaw в один клик",
+      "title": "RekaClip — развертывание OpenClaw в один клик",
       "description": "Разверните OpenClaw менее чем за 1 минуту. Никаких серверов и DevOps. Выберите модель, подключите канал и запустите."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Развертывание...",
       "deploy_button": "Развертывание",
-      "sign_in_button": "Войдите в систему для развертывания с помощью EasyClaw.",
-      "sign_in_hint": "Войдите, чтобы развернуть OpenClaw с помощью EasyClaw и подключить свои каналы.",
+      "sign_in_button": "Войдите в систему для развертывания с помощью RekaClip.",
+      "sign_in_hint": "Войдите, чтобы развернуть OpenClaw с помощью RekaClip и подключить свои каналы.",
       "status_success": "Развертывание успешно! OpenClaw теперь работает.",
       "model_substitution_warning": "Обнаружена подмена модели. Попробуйте выполнить повторное развертывание или переключиться на другой регион/провайдера.",
       "hint_prefix": "Подключите Telegram, чтобы продолжить.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

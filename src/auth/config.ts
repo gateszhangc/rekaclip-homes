@@ -136,7 +136,15 @@ export const providerMap = providers
   })
   .filter((provider) => provider.id !== "google-one-tap");
 
+const authSecret =
+  process.env.AUTH_SECRET ||
+  process.env.NEXTAUTH_SECRET ||
+  (process.env.NODE_ENV !== "production" || isAuthGloballyDisabled
+    ? "rekaclip-dev-auth-secret"
+    : undefined);
+
 export const authOptions: NextAuthConfig = {
+  secret: authSecret,
   providers,
   pages: {
     signIn: "/auth/signin",

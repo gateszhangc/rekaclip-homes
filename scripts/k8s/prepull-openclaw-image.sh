@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 MANIFEST_PATH="${ROOT_DIR}/ops/k8s/openclaw-image-prepull.yaml"
-NAMESPACE="${OPENCLAW_K8S_NAMESPACE:-easyclaw-openclaw}"
+NAMESPACE="${OPENCLAW_K8S_NAMESPACE:-rekaclip-openclaw}"
 DAEMONSET_NAME="${OPENCLAW_IMAGE_PREPULL_NAME:-openclaw-image-prepull}"
 TIMEOUT="${OPENCLAW_IMAGE_PREPULL_TIMEOUT:-10m}"
 ACTION="${1:-apply}"

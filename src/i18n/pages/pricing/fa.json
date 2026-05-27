@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "ماهنامه شروع EasyClaw",
+        "product_name": "ماهنامه شروع RekaClip",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "ماهنامه EasyClaw Pro",
+        "product_name": "ماهنامه RekaClip Pro",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw شروع کننده سالانه",
+        "product_name": "RekaClip شروع کننده سالانه",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro سالانه",
+        "product_name": "RekaClip Pro سالانه",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - Triển khai OpenClaw trong vòng chưa đầy 1 phút",
-    "description": "Triển khai OpenClaw với EasyClaw chỉ bằng một cú nhấp chuột. Kết nối Telegram, chọn một kiểu máy và phát hành nhanh chóng.",
-    "keywords": "easyclaw, triển khai openclaw, lưu trữ openclaw, triển khai bot telegram, triển khai trợ lý ai"
+    "title": "RekaClip - Triển khai OpenClaw trong vòng chưa đầy 1 phút",
+    "description": "Triển khai OpenClaw với RekaClip chỉ bằng một cú nhấp chuột. Kết nối Telegram, chọn một kiểu máy và phát hành nhanh chóng.",
+    "keywords": "rekaclip, triển khai openclaw, lưu trữ openclaw, triển khai bot telegram, triển khai trợ lý ai"
   },
   "blog": {
     "title": "Blog",
-    "description": "Tin tức, hướng dẫn và cập nhật về việc triển khai OpenClaw với EasyClaw.",
+    "description": "Tin tức, hướng dẫn và cập nhật về việc triển khai OpenClaw với RekaClip.",
     "read_more_text": "Đọc thêm"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Trung tâm quản trị"
   },
   "sign_modal": {
-    "sign_in_title": "Đăng nhập vào EasyClaw",
-    "sign_in_description": "Truy cập tài khoản EasyClaw của bạn để triển khai và quản lý OpenClaw.",
-    "sign_up_title": "Tham gia EasyClaw",
-    "sign_up_description": "Tạo tài khoản EasyClaw của bạn",
+    "sign_in_title": "Đăng nhập vào RekaClip",
+    "sign_in_description": "Truy cập tài khoản RekaClip của bạn để triển khai và quản lý OpenClaw.",
+    "sign_up_title": "Tham gia RekaClip",
+    "sign_up_description": "Tạo tài khoản RekaClip của bạn",
     "email_title": "Email",
     "email_placeholder": "Nhập địa chỉ email của bạn",
     "password_title": "Mật khẩu",
     "password_placeholder": "Nhập mật khẩu của bạn",
     "forgot_password": "Quên mật khẩu?",
     "or": "Hoặc",
-    "continue": "Tiếp tục đến EasyClaw",
-    "no_account": "Bạn mới sử dụng EasyClaw?",
+    "continue": "Tiếp tục đến RekaClip",
+    "no_account": "Bạn mới sử dụng RekaClip?",
     "email_sign_in": "Đăng nhập bằng Email",
     "google_sign_in": "Tiếp tục với Google",
     "github_sign_in": "Tiếp tục với GitHub",
@@ -46,7 +46,7 @@
     "title": "Đơn hàng của tôi",
     "no_orders": "Không tìm thấy đơn hàng nào",
     "tip": "",
-    "support_tip": "Cần trợ giúp về việc thanh toán hoặc hủy? Gửi email tới support@easyclaw.pro.",
+    "support_tip": "Cần trợ giúp về việc thanh toán hoặc hủy? Gửi email tới support@rekaclip.homes.",
     "activate_order": "Kích hoạt đơn hàng",
     "actived": "Đã kích hoạt",
     "join_discord": "Tham gia Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Chỉnh sửa liên kết mời",
     "copy_invite_link": "Sao chép liên kết mời",
     "invite_code": "Mã mời",
-    "invite_tip": "Mời bạn bè tham gia EasyClaw và kiếm phần thưởng.",
+    "invite_tip": "Mời bạn bè tham gia RekaClip và kiếm phần thưởng.",
     "invite_balance": "Số dư phần thưởng mời",
     "total_invite_count": "Tổng số lời mời",
     "total_paid_count": "Tổng số tiền đã thanh toán",
@@ -131,7 +131,7 @@
     "submit": "Gửi",
     "loading": "Đang gửi...",
     "contact_tip": "Những cách khác để liên hệ với chúng tôi",
-    "rating_tip": "Bạn cảm thấy thế nào về EasyClaw?",
+    "rating_tip": "Bạn cảm thấy thế nào về RekaClip?",
     "placeholder": "Hãy để lại lời nói của bạn ở đây..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - Triển khai OpenClaw chỉ bằng một cú nhấp chuột",
+      "title": "RekaClip - Triển khai OpenClaw chỉ bằng một cú nhấp chuột",
       "description": "Triển khai OpenClaw trong vòng chưa đầy 1 phút. Không có máy chủ hoặc DevOps. Chọn một mô hình, kết nối một kênh và khởi chạy."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Đang triển khai...",
       "deploy_button": "Triển khai",
-      "sign_in_button": "Đăng nhập để triển khai với EasyClaw",
-      "sign_in_hint": "Đăng nhập để triển khai OpenClaw với EasyClaw và kết nối các kênh của bạn.",
+      "sign_in_button": "Đăng nhập để triển khai với RekaClip",
+      "sign_in_hint": "Đăng nhập để triển khai OpenClaw với RekaClip và kết nối các kênh của bạn.",
       "status_success": "Triển khai thành công! OpenClaw hiện đang chạy.",
       "model_substitution_warning": "Đã phát hiện sự thay thế mô hình. Hãy thử triển khai lại hoặc chuyển sang khu vực/nhà cung cấp khác.",
       "hint_prefix": "Kết nối Telegram để tiếp tục.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

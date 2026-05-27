@@ -2289,7 +2289,7 @@ export default function SimpleClawLanding() {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-white">
-                          {guideChannel === "discord" ? "EasyClaw Bot" : "BotFather"}
+                          {guideChannel === "discord" ? "RekaClip Bot" : "BotFather"}
                         </p>
                         <p className="text-[10px] text-white/60">
                           {guideChannel === "discord" ? "Discord app" : "bot"}

@@ -214,7 +214,7 @@ export default function BlogDetail({ post }: { post: Post }) {
         <div className="mt-24 pt-12 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-center text-muted-foreground gap-6">
             <p className="text-sm font-medium opacity-60">
-              © {new Date().getFullYear()} easyclaw. All rights reserved.
+              © {new Date().getFullYear()} RekaClip. All rights reserved.
             </p>
             <Button variant="outline" className="rounded-full px-8 py-6 h-auto border-white/10 hover:bg-white/5 hover:text-white transition-all hover:scale-105 duration-300" asChild>
               <Link href={post.locale === "en" ? "/posts" : `/${post.locale}/posts`} className="flex items-center gap-2">

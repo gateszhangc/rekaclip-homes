@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "EasyClaw ஸ்டார்டர் மாதாந்திர",
+        "product_name": "RekaClip ஸ்டார்டர் மாதாந்திர",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro மாதாந்திர",
+        "product_name": "RekaClip Pro மாதாந்திர",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw ஸ்டார்டர் ஆண்டுதோறும்",
+        "product_name": "RekaClip ஸ்டார்டர் ஆண்டுதோறும்",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro ஆண்டுதோறும்",
+        "product_name": "RekaClip Pro ஆண்டுதோறும்",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

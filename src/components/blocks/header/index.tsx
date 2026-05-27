@@ -122,7 +122,7 @@ export default function Header({ header }: { header: HeaderType }) {
     return !(
       title.includes("support") ||
       url.startsWith("mailto:support@") ||
-      url.includes("support@easyclaw.pro")
+      url.includes("support@rekaclip.homes")
     );
   });
 

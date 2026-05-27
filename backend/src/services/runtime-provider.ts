@@ -1,7 +1,7 @@
 export type OpenClawRuntimeProvider = "docker" | "k8s";
 
 const DEFAULT_OPENCLAW_RUNTIME_PROVIDER: OpenClawRuntimeProvider = "k8s";
-const DEFAULT_OPENCLAW_K8S_NAMESPACE = "easyclaw-openclaw";
+const DEFAULT_OPENCLAW_K8S_NAMESPACE = "rekaclip-openclaw";
 
 export const resolveOpenClawRuntimeProvider = (): OpenClawRuntimeProvider => {
   const raw = process.env.OPENCLAW_RUNTIME_PROVIDER?.trim().toLowerCase();

@@ -6,6 +6,7 @@ import React from "react";
 import { getTranslations } from "next-intl/server";
 import GoogleAnalytics from "@/components/analytics/google-analytics";
 import GaRouteTracker from "@/components/analytics/ga-route-tracker";
+import ClarityAnalytics from "@/components/analytics/clarity";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations();
@@ -29,6 +30,7 @@ export default function LegalLayout({
     <div>
       <GoogleAnalytics />
       <GaRouteTracker />
+      <ClarityAnalytics />
       <a
         className="text-base-content cursor-pointer hover:opacity-80 transition-opacity"
         href="/"

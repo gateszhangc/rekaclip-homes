@@ -131,10 +131,10 @@ const nextConfig = {
         has: [
           {
             type: "host",
-            value: "easyclaw.pro",
+            value: "rekaclip.homes",
           },
         ],
-        destination: "https://www.easyclaw.pro/:path*",
+        destination: "https://www.rekaclip.homes/:path*",
         permanent: true,
       },
       {

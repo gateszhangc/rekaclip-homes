@@ -46,4 +46,4 @@ npm run db:migrate   # 见 deploy/DEPLOY.md 中迁移注意事项
 
 ## Schema 名称
 
-应用 Drizzle schema 为 **`easyclaw`**（历史项目名），表均在 `easyclaw.*` 下；`drizzle.__drizzle_migrations` 记录已执行的迁移。
+应用 Drizzle schema 为 **`rekaclip`**（历史项目名），表均在 `rekaclip.*` 下；`drizzle.__drizzle_migrations` 记录已执行的迁移。

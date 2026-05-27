@@ -1,14 +1,15 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: easyclaw-staging-tls
-  namespace: easyclaw-staging
+  name: rekaclip-live-tls
+  namespace: rekaclip
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec:
-  secretName: easyclaw-staging-tls
+  secretName: rekaclip-live-tls
   dnsNames:
-    - staging.easyclaw.pro
+    - www.rekaclip.homes
+    - rekaclip.homes
   issuerRef:
     kind: ClusterIssuer
-    name: letsencrypt-prod-cloudflare
+    name: letsencrypt-prod

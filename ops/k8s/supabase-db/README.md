@@ -133,7 +133,7 @@ export BACKUP_SECRET_ACCESS_KEY='...'
 Install prerequisites:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./install-cert-manager.sh
 ./install-cnpg.sh
 ./install-barman-plugin.sh
@@ -142,35 +142,35 @@ cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
 Bootstrap import:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./bootstrap-import.sh
 ```
 
 Promote to HA:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./promote-ha.sh
 ```
 
 Apply backups:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./apply-backup.sh
 ```
 
 Run verification:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./run-verify.sh
 ```
 
 Re-apply Supabase role memberships after import:
 
 ```bash
-cd /Users/a1-6/Desktop/code/test/test11/easyclaw-v3/ops/k8s/supabase-db
+cd /Users/a1-6/Desktop/code/test/test11/rekaclip-homes/ops/k8s/supabase-db
 ./apply-role-memberships.sh
 ```
 

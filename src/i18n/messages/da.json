@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - Implementer OpenClaw på under 1 minut",
-    "description": "Implementer OpenClaw med EasyClaw med et enkelt klik. Tilslut Telegram, vælg en model, og gå hurtigt live.",
-    "keywords": "easyclaw, implementering af openclaw, openclaw-hosting, implementering af telegrambot, implementering af ai-assistent"
+    "title": "RekaClip - Implementer OpenClaw på under 1 minut",
+    "description": "Implementer OpenClaw med RekaClip med et enkelt klik. Tilslut Telegram, vælg en model, og gå hurtigt live.",
+    "keywords": "rekaclip, implementering af openclaw, openclaw-hosting, implementering af telegrambot, implementering af ai-assistent"
   },
   "blog": {
     "title": "Blog",
-    "description": "Nyheder, selvstudier og opdateringer om implementering af OpenClaw med EasyClaw.",
+    "description": "Nyheder, selvstudier og opdateringer om implementering af OpenClaw med RekaClip.",
     "read_more_text": "Læs mere"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Admin Center"
   },
   "sign_modal": {
-    "sign_in_title": "Log ind på EasyClaw",
-    "sign_in_description": "Få adgang til din EasyClaw-konto for at implementere og administrere OpenClaw.",
-    "sign_up_title": "Tilmeld dig EasyClaw",
-    "sign_up_description": "Opret din EasyClaw-konto",
+    "sign_in_title": "Log ind på RekaClip",
+    "sign_in_description": "Få adgang til din RekaClip-konto for at implementere og administrere OpenClaw.",
+    "sign_up_title": "Tilmeld dig RekaClip",
+    "sign_up_description": "Opret din RekaClip-konto",
     "email_title": "E-mail",
     "email_placeholder": "Indtast din e-mailadresse",
     "password_title": "Adgangskode",
     "password_placeholder": "Indtast din adgangskode",
     "forgot_password": "Glemt adgangskode?",
     "or": "Eller",
-    "continue": "Fortsæt til EasyClaw",
-    "no_account": "Ny på EasyClaw?",
+    "continue": "Fortsæt til RekaClip",
+    "no_account": "Ny på RekaClip?",
     "email_sign_in": "Log ind med e-mail",
     "google_sign_in": "Fortsæt med Google",
     "github_sign_in": "Fortsæt med GitHub",
@@ -46,7 +46,7 @@
     "title": "Mine ordrer",
     "no_orders": "Ingen ordrer fundet",
     "tip": "",
-    "support_tip": "Har du brug for hjælp til fakturering eller annullering? E-mail support@easyclaw.pro.",
+    "support_tip": "Har du brug for hjælp til fakturering eller annullering? E-mail support@rekaclip.homes.",
     "activate_order": "Aktiver ordre",
     "actived": "Aktiveret",
     "join_discord": "Tilmeld dig Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Rediger invitationslink",
     "copy_invite_link": "Kopiér invitationslinket",
     "invite_code": "Invitationskode",
-    "invite_tip": "Inviter venner til EasyClaw og optjen belønninger.",
+    "invite_tip": "Inviter venner til RekaClip og optjen belønninger.",
     "invite_balance": "Invitationsbelønningssaldo",
     "total_invite_count": "Samlet antal invitationer",
     "total_paid_count": "Samlet antal betalte",
@@ -131,7 +131,7 @@
     "submit": "Indsend",
     "loading": "Indsender...",
     "contact_tip": "Andre måder at kontakte os på",
-    "rating_tip": "Hvad synes du om EasyClaw?",
+    "rating_tip": "Hvad synes du om RekaClip?",
     "placeholder": "Efterlad dine ord her..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - Et-klik OpenClaw-implementering",
+      "title": "RekaClip - Et-klik OpenClaw-implementering",
       "description": "Implementer OpenClaw på under 1 minut. Ingen servere eller DevOps. Vælg en model, tilslut en kanal, og start."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Implementerer...",
       "deploy_button": "Implementer",
-      "sign_in_button": "Log ind for at implementere med EasyClaw",
-      "sign_in_hint": "Log ind for at implementere OpenClaw med EasyClaw og forbinde dine kanaler.",
+      "sign_in_button": "Log ind for at implementere med RekaClip",
+      "sign_in_hint": "Log ind for at implementere OpenClaw med RekaClip og forbinde dine kanaler.",
       "status_success": "Implementeringen lykkedes! OpenClaw kører nu.",
       "model_substitution_warning": "Modelsubstitution opdaget. Prøv at ominstallere eller skift til en anden region/udbyder.",
       "hint_prefix": "Tilslut Telegram for at fortsætte.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

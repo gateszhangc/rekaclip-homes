@@ -374,6 +374,7 @@ async function creemCheckout({
   log.debug({ order }, "creating creem checkout for order");
 
   const product_id = products[order.product_id || ""] || "";
+  log.info({ env: process.env.CREEM_ENV, product_id, order_product_id: order.product_id }, "[creem debug]");
   if (!product_id) {
     throw new Error("invalid product_id");
   }

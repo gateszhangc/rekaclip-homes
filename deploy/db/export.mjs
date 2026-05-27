@@ -26,7 +26,7 @@ const maskedUrl = process.env.DATABASE_URL.replace(/:[^:@/]+@/, ":***@");
 const header = (file) => `-- Reka Clip local database export
 -- Generated: ${new Date().toISOString()}
 -- Source: ${maskedUrl}
--- Database: rekaclip (schema: easyclaw)
+-- Database: rekaclip (schema: rekaclip)
 --
 -- Restore:
 --   psql "$DATABASE_URL" -f deploy/db/00_schema.sql
@@ -123,7 +123,7 @@ fs.writeFileSync(
     {
       exported_at: new Date().toISOString(),
       database: "rekaclip",
-      schema: "easyclaw",
+      schema: "rekaclip",
       tables: tables.map((t) => `${t.table_schema}.${t.table_name}`),
       files: ["00_schema.sql", "01_data.sql", "migrations_combined.sql", "README.md"],
     },

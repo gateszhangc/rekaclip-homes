@@ -8,5 +8,5 @@ resources:
   - registry-pull.sealedsecret.yaml
   - web-env.sealedsecret.yaml
   - backend-env.sealedsecret.yaml
-  - easyclaw-staging.certificate.yaml
-  - easyclaw-staging.ingress.yaml
+  - rekaclip-staging.certificate.yaml
+  - rekaclip-staging.ingress.yaml

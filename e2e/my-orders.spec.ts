@@ -24,7 +24,7 @@ test("my orders page uses landing-shipany styling", async ({ page }) => {
   expect(parseFloat(innerShellRadius)).toBeGreaterThanOrEqual(16);
 
   await expect(
-    page.getByText("Need help with billing or cancellation? Email support@easyclaw.pro.")
+    page.getByText("Need help with billing or cancellation? Email support@rekaclip.homes.")
   ).toHaveCount(0);
   await expect(page.getByTestId("orders-empty-state")).toContainText("No orders found");
 

@@ -14,7 +14,7 @@ Behavior:
     compiled into the Next.js bundle during `next build`.
   - Builds one backend image that can be reused by both overlays.
   - Reuses the existing registry credentials from the live
-    `easyclaw/dokploy-fleet-ghcr` pull secret.
+    `rekaclip/dokploy-fleet-ghcr` pull secret.
 EOF
 }
 
@@ -49,8 +49,8 @@ require_cmd git
 REGISTRY="${REGISTRY:-registry.144.91.77.245.sslip.io}"
 # Optional: when Docker Hub is unreachable, set e.g. BASE_IMAGE=docker.m.daocloud.io/library/node:20-alpine
 BASE_IMAGE="${BASE_IMAGE:-node:20-alpine}"
-BACKEND_IMAGE_REPO="${BACKEND_IMAGE_REPO:-$REGISTRY/easyclaw-backend}"
-WEB_IMAGE_REPO="${WEB_IMAGE_REPO:-$REGISTRY/easyclaw-web}"
+BACKEND_IMAGE_REPO="${BACKEND_IMAGE_REPO:-$REGISTRY/rekaclip-backend}"
+WEB_IMAGE_REPO="${WEB_IMAGE_REPO:-$REGISTRY/rekaclip-web}"
 WEB_ENV_FILE="${WEB_ENV_FILE:-deploy/k8s/build-env/${ENVIRONMENT}.env}"
 WEB_IMAGE="${WEB_IMAGE_REPO}:${ENVIRONMENT}-${IMAGE_TAG}"
 BACKEND_IMAGE="${BACKEND_IMAGE_REPO}:${IMAGE_TAG}"
@@ -61,7 +61,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-kubectl get secret dokploy-fleet-ghcr -n easyclaw -o json \
+kubectl get secret dokploy-fleet-ghcr -n rekaclip -o json \
   | jq -r '.data[".dockerconfigjson"]' \
   | base64 -d > "$TEMP_DOCKER_CONFIG/config.json"
 export DOCKER_CONFIG="$TEMP_DOCKER_CONFIG"

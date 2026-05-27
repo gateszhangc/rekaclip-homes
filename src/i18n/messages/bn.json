@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - 1 মিনিটের মধ্যে OpenClaw স্থাপন করুন",
-    "description": "এক ক্লিকে EasyClaw-এর সাথে OpenClaw স্থাপন করুন। Telegram কানেক্ট করুন, একটি মডেল বেছে নিন এবং দ্রুত লাইভ করুন।",
-    "keywords": "easyclaw, openclaw, openclaw হোস্টিং, টেলিগ্রাম বট স্থাপন, AI সহকারী স্থাপনা"
+    "title": "RekaClip - 1 মিনিটের মধ্যে OpenClaw স্থাপন করুন",
+    "description": "এক ক্লিকে RekaClip-এর সাথে OpenClaw স্থাপন করুন। Telegram কানেক্ট করুন, একটি মডেল বেছে নিন এবং দ্রুত লাইভ করুন।",
+    "keywords": "rekaclip, openclaw, openclaw হোস্টিং, টেলিগ্রাম বট স্থাপন, AI সহকারী স্থাপনা"
   },
   "blog": {
     "title": "ব্লগ",
-    "description": "EasyClaw-এর সাথে OpenClaw মোতায়েনের বিষয়ে সংবাদ, টিউটোরিয়াল এবং আপডেট।",
+    "description": "RekaClip-এর সাথে OpenClaw মোতায়েনের বিষয়ে সংবাদ, টিউটোরিয়াল এবং আপডেট।",
     "read_more_text": "আরও পড়ুন"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "অ্যাডমিন সেন্টার"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw এ সাইন ইন করুন",
-    "sign_in_description": "OpenClaw স্থাপন এবং পরিচালনা করতে আপনার EasyClaw অ্যাকাউন্ট অ্যাক্সেস করুন৷",
-    "sign_up_title": "EasyClaw যোগ দিন",
-    "sign_up_description": "আপনার EasyClaw অ্যাকাউন্ট তৈরি করুন",
+    "sign_in_title": "RekaClip এ সাইন ইন করুন",
+    "sign_in_description": "OpenClaw স্থাপন এবং পরিচালনা করতে আপনার RekaClip অ্যাকাউন্ট অ্যাক্সেস করুন৷",
+    "sign_up_title": "RekaClip যোগ দিন",
+    "sign_up_description": "আপনার RekaClip অ্যাকাউন্ট তৈরি করুন",
     "email_title": "ইমেইল",
     "email_placeholder": "আপনার ইমেইল ঠিকানা লিখুন",
     "password_title": "পাসওয়ার্ড",
     "password_placeholder": "আপনার পাসওয়ার্ড লিখুন",
     "forgot_password": "পাসওয়ার্ড ভুলে গেছেন?",
     "or": "বা",
-    "continue": "EasyClaw চালিয়ে যান",
-    "no_account": "EasyClaw-এ নতুন?",
+    "continue": "RekaClip চালিয়ে যান",
+    "no_account": "RekaClip-এ নতুন?",
     "email_sign_in": "ইমেইল দিয়ে সাইন ইন করুন",
     "google_sign_in": "Google এর সাথে চালিয়ে যান",
     "github_sign_in": "GitHub এর সাথে চালিয়ে যান",
@@ -46,7 +46,7 @@
     "title": "আমার আদেশ",
     "no_orders": "কোন আদেশ পাওয়া যায়নি",
     "tip": "",
-    "support_tip": "বিলিং বা বাতিলকরণের জন্য সাহায্যের প্রয়োজন? support@easyclaw.pro ইমেল করুন।",
+    "support_tip": "বিলিং বা বাতিলকরণের জন্য সাহায্যের প্রয়োজন? support@rekaclip.homes ইমেল করুন।",
     "activate_order": "অর্ডার সক্রিয় করুন",
     "actived": "সক্রিয়",
     "join_discord": "Discord যোগ দিন",
@@ -105,7 +105,7 @@
     "edit_invite_link": "আমন্ত্রণ লিঙ্ক সম্পাদনা করুন",
     "copy_invite_link": "আমন্ত্রণ লিঙ্ক কপি করুন",
     "invite_code": "আমন্ত্রণ কোড",
-    "invite_tip": "EasyClaw-এ বন্ধুদের আমন্ত্রণ জানান এবং পুরস্কার জিতে নিন।",
+    "invite_tip": "RekaClip-এ বন্ধুদের আমন্ত্রণ জানান এবং পুরস্কার জিতে নিন।",
     "invite_balance": "পুরস্কার ব্যালেন্স আমন্ত্রণ",
     "total_invite_count": "মোট আমন্ত্রণের সংখ্যা",
     "total_paid_count": "মোট প্রদত্ত গণনা",
@@ -131,7 +131,7 @@
     "submit": "জমা দিন",
     "loading": "জমা দেওয়া হচ্ছে...",
     "contact_tip": "আমাদের সাথে যোগাযোগ করার অন্যান্য উপায়",
-    "rating_tip": "আপনি EasyClaw সম্পর্কে কেমন অনুভব করেন?",
+    "rating_tip": "আপনি RekaClip সম্পর্কে কেমন অনুভব করেন?",
     "placeholder": "তোমার কথাগুলো এখানে রেখে দাও..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - এক-ক্লিক OpenClaw স্থাপনা",
+      "title": "RekaClip - এক-ক্লিক OpenClaw স্থাপনা",
       "description": "1 মিনিটের মধ্যে OpenClaw স্থাপন করুন। কোনো সার্ভার বা DevOps নেই। একটি মডেল বাছুন, একটি চ্যানেল সংযোগ করুন এবং লঞ্চ করুন।"
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "স্থাপন করা হচ্ছে...",
       "deploy_button": "স্থাপন করুন",
-      "sign_in_button": "EasyClaw দিয়ে স্থাপন করতে সাইন ইন করুন",
-      "sign_in_hint": "EasyClaw এর সাথে OpenClaw স্থাপন করতে সাইন ইন করুন এবং আপনার চ্যানেলগুলিকে সংযুক্ত করুন৷",
+      "sign_in_button": "RekaClip দিয়ে স্থাপন করতে সাইন ইন করুন",
+      "sign_in_hint": "RekaClip এর সাথে OpenClaw স্থাপন করতে সাইন ইন করুন এবং আপনার চ্যানেলগুলিকে সংযুক্ত করুন৷",
       "status_success": "স্থাপন সফল! OpenClaw এখন চলছে।",
       "model_substitution_warning": "মডেল প্রতিস্থাপন সনাক্ত করা হয়েছে. পুনরায় স্থাপন করার চেষ্টা করুন বা অন্য অঞ্চল/প্রদানকারীতে স্যুইচ করুন।",
       "hint_prefix": "চালিয়ে যেতে Telegram কানেক্ট করুন।",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

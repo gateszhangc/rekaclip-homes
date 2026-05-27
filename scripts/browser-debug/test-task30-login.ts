@@ -26,7 +26,7 @@ async function testHomepage() {
     }
 
     console.log("\nTest 2: feature section icons");
-    const featureSection = page.locator("text=/Why teams choose EasyClaw/i");
+    const featureSection = page.locator("text=/Why teams choose RekaClip/i");
     if (await featureSection.count()) {
       await featureSection.scrollIntoViewIfNeeded();
       await page.waitForTimeout(1000);

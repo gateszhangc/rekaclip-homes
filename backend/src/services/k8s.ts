@@ -96,8 +96,8 @@ const IMAGE_NAME =
 const OPENCLAW_HOME_DIR = "/home/node/.openclaw";
 const OPENCLAW_CONFIG_FILE = `${OPENCLAW_HOME_DIR}/openclaw.json`;
 const OPENCLAW_WORKSPACE_DIR = `${OPENCLAW_HOME_DIR}/workspace`;
-const OPENCLAW_K8S_CONFIG_READY_FILE = `${OPENCLAW_HOME_DIR}/.easyclaw-config-ready`;
-const OPENCLAW_K8S_CONFIG_FINGERPRINT_FILE = `${OPENCLAW_HOME_DIR}/.easyclaw-config-fingerprint`;
+const OPENCLAW_K8S_CONFIG_READY_FILE = `${OPENCLAW_HOME_DIR}/.rekaclip-config-ready`;
+const OPENCLAW_K8S_CONFIG_FINGERPRINT_FILE = `${OPENCLAW_HOME_DIR}/.rekaclip-config-fingerprint`;
 const GATEWAY_MODE = process.env.OPENCLAW_GATEWAY_MODE || "local";
 const OPENCLAW_K8S_CONFIG_FINGERPRINT_VERSION = 2;
 export const OPENCLAW_GATEWAY_PORT = 18_789;
@@ -205,7 +205,7 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 const parseNodeSelector = (): Record<string, string> => {
   const raw = process.env.OPENCLAW_K8S_NODE_SELECTOR_JSON?.trim();
   if (!raw) {
-    return { "easyclaw-role": "openclaw-worker" };
+    return { "rekaclip-role": "openclaw-worker" };
   }
 
   const parsed = JSON.parse(raw);
@@ -1587,8 +1587,8 @@ export const buildOpenClawK8sLabels = (
 ): Record<string, string> => ({
   "app.kubernetes.io/name": "openclaw",
   "app.kubernetes.io/instance": `openclaw-${deploymentId}`,
-  "app.kubernetes.io/managed-by": "easyclaw-backend",
-  "easyclaw/deployment-id": deploymentId,
+  "app.kubernetes.io/managed-by": "rekaclip-backend",
+  "rekaclip/deployment-id": deploymentId,
 });
 
 export const buildOpenClawK8sDeploymentName = (
@@ -1903,7 +1903,7 @@ const getDeploymentPods = async (
 ): Promise<V1Pod[]> => {
   const podList = await core.listNamespacedPod({
     namespace,
-    labelSelector: `easyclaw/deployment-id=${deploymentId}`,
+    labelSelector: `rekaclip/deployment-id=${deploymentId}`,
   });
   return [...(podList.items || [])].sort((left, right) =>
     String(normalizeDateString(right.metadata?.creationTimestamp) || "").localeCompare(

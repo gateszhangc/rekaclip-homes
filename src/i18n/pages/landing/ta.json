@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClaw லோகோ"
+      "alt": "RekaClip லோகோ"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "உயர்தர கலையை உருவாக்குங்கள்",
     "description": "உருவப்படத்தைப் பதிவேற்றவும், ஒரு பாணியைத் தேர்ந்தெடுத்து, அவதாரங்கள், பரிசுகள் அல்லது உள்ளடக்கத்திற்கான சுத்தமான கேலிச்சித்திரத்தைப் பெறவும்.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "ஒரு மாதிரியைத் தேர்வுசெய்க",
         "description": "Claude, GPT, Gemini — ஒவ்வொரு பணிக்கும் சிறந்த மாதிரியைத் தேர்ந்தெடுக்கவும். Claude உடன் ஆக்கப்பூர்வமான வேலை, GPT உடன் பகுப்பாய்வு. எப்போது வேண்டுமானாலும் மாறலாம்.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "AI மாதிரியைத் தேர்வு செய்யவும் - Claude, GPT, அல்லது Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "சேனலை இணைக்கவும்",
         "description": "Telegram, Discord, WhatsApp — அனைத்து சேனல்களுக்கும் ஒரு டாஷ்போர்டு. எல்லா உரையாடல்களையும் ஒரே இடத்திலிருந்து நிர்வகிக்கவும், இனி ஆப்ஸை மாற்ற முடியாது.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "செய்தி அனுப்பும் சேனல்களை இணைக்கவும்"
         }
       },
@@ -242,7 +242,7 @@
         "title": "வரிசைப்படுத்தி தொடங்கவும்",
         "description": "உங்கள் AI உதவியாளர் 60 வினாடிகளில் ஆன்லைனில் இருப்பார். உங்கள் முதல் செய்தியை அனுப்பவும் மற்றும் தானியங்கு செய்யத் தொடங்கவும்.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "உங்கள் அசிஸ்டண்ட்டைத் தொடங்கவும்"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "தொந்தரவுக்கு விடைபெறுங்கள்",
-    "description": "EasyClaw க்கு மாறும்போது என்னென்ன மாற்றங்கள் ஏற்படுகின்றன என்பதைப் பார்க்கவும்",
+    "description": "RekaClip க்கு மாறும்போது என்னென்ன மாற்றங்கள் ஏற்படுகின்றன என்பதைப் பார்க்கவும்",
     "before_label": "பாரம்பரிய அமைப்பு",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "சேவையகங்களை வாடகைக்கு விடுங்கள், சூழல்களை உள்ளமைக்கவும்",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "அணிகள் ஏன் EasyClaw ஐ தேர்வு செய்கின்றன",
+    "title": "அணிகள் ஏன் RekaClip ஐ தேர்வு செய்கின்றன",
     "description": "DevOps ஓவர்ஹெட் இல்லாமல் உற்பத்திக்கு தயாராக வரிசைப்படுத்தல். பூஜ்ஜிய பராமரிப்பு, அதிகபட்ச கவனம்.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "தினசரி சுருக்கங்கள்",
         "description": "செய்திகளையும் புதுப்பிப்புகளையும் உங்கள் குழுவிற்கு சுருக்கமான காலை சுருக்கமாக மாற்றவும்.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "தினசரி விளக்கங்கள் ஆட்டோமேஷன் பணிப்பாய்வு"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "வாடிக்கையாளர் ஆதரவு உதவியாளர்",
         "description": "வழி கேள்விகள், வரைவு பதில்கள் மற்றும் ஆதரவு சேனல்களை பதிலளிக்கக்கூடியதாக வைத்திருங்கள்.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "வாடிக்கையாளர் ஆதரவு ஆட்டோமேஷன் பணிப்பாய்வு"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "டீம் ஆப்ஸ் ஆட்டோமேஷன்",
         "description": "சேனல்கள் முழுவதும் நினைவூட்டல்கள், நிலை அறிக்கைகள் மற்றும் வழக்கமான பின்தொடர்தல்களை தானியங்குபடுத்துங்கள்.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "குழு செயல்பாடுகள் ஆட்டோமேஷன் பணிப்பாய்வு"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "அடிக்கடி கேட்கப்படும் கேள்விகள்",
     "title": "பொதுவான கேள்விகள்",
-    "description": "EasyClaw உடன் OpenClaw ஐப் பயன்படுத்துவதற்கு முன் உங்களுக்குத் தேவையான அனைத்தும்.",
+    "description": "RekaClip உடன் OpenClaw ஐப் பயன்படுத்துவதற்கு முன் உங்களுக்குத் தேவையான அனைத்தும்.",
     "items": [
       {
-        "title": "EasyClaw எவ்வளவு செலவாகும்?",
+        "title": "RekaClip எவ்வளவு செலவாகும்?",
         "description": "திட்டங்கள் $10/மாதம் தொடங்கும். உங்கள் கணக்கிலிருந்து எப்போது வேண்டுமானாலும் ரத்துசெய்யலாம்."
       },
       {
         "title": "நான் சேவையகங்களை நிர்வகிக்க வேண்டுமா?",
-        "description": "எண். EasyClaw வரிசைப்படுத்தல் பணிப்பாய்வுகளை ஒழுங்குபடுத்துகிறது, எனவே நீங்கள் சேவையகங்கள் அல்லது DevOps இல்லாமல் OpenClaw ஐத் தொடங்கலாம்."
+        "description": "எண். RekaClip வரிசைப்படுத்தல் பணிப்பாய்வுகளை ஒழுங்குபடுத்துகிறது, எனவே நீங்கள் சேவையகங்கள் அல்லது DevOps இல்லாமல் OpenClaw ஐத் தொடங்கலாம்."
       },
       {
         "title": "எந்த மாதிரிகள் ஆதரிக்கப்படுகின்றன?",
@@ -541,11 +541,11 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "OpenClaw AI உதவியாளரைப் பயன்படுத்துவதற்கான எளிதான வழி.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -584,12 +584,12 @@
         {
           "title": "மின்னஞ்சல் ஆதரவு",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw ஒரு சுயாதீன தயாரிப்பு மற்றும் எந்த மூன்றாம் தரப்பு மாதிரி வழங்குநர்கள் அல்லது வர்த்தக முத்திரை உரிமையாளர்களுடன் இணைக்கப்படவில்லை.",
+    "disclaimer": "RekaClip ஒரு சுயாதீன தயாரிப்பு மற்றும் எந்த மூன்றாம் தரப்பு மாதிரி வழங்குநர்கள் அல்லது வர்த்தக முத்திரை உரிமையாளர்களுடன் இணைக்கப்படவில்லை.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro மாதாந்திர",
+        "product_name": "RekaClip Pro மாதாந்திர",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw பிரீமியம் மாதாந்திர",
+        "product_name": "RekaClip பிரீமியம் மாதாந்திர",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro ஆண்டுதோறும்",
+        "product_name": "RekaClip Pro ஆண்டுதோறும்",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw பிரீமியம் ஆண்டுதோறும்",
+        "product_name": "RekaClip பிரீமியம் ஆண்டுதோறும்",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

@@ -1,19 +1,19 @@
--- Schema initialization for easyclaw
+-- Schema initialization for rekaclip
 -- Run against your DATABASE_URL to provision the required tables.
 
 -- Create schema
-CREATE SCHEMA IF NOT EXISTS easyclaw;
+CREATE SCHEMA IF NOT EXISTS rekaclip;
 
 -- Grant privileges on the schema
-GRANT ALL ON SCHEMA easyclaw TO postgres, anon, authenticated, service_role;
+GRANT ALL ON SCHEMA rekaclip TO postgres, anon, authenticated, service_role;
 
 -- Default privileges for future objects
-ALTER DEFAULT PRIVILEGES IN SCHEMA easyclaw GRANT ALL ON TABLES TO postgres, anon, authenticated, service_role;
-ALTER DEFAULT PRIVILEGES IN SCHEMA easyclaw GRANT ALL ON SEQUENCES TO postgres, anon, authenticated, service_role;
-ALTER DEFAULT PRIVILEGES IN SCHEMA easyclaw GRANT ALL ON FUNCTIONS TO postgres, anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES IN SCHEMA rekaclip GRANT ALL ON TABLES TO postgres, anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES IN SCHEMA rekaclip GRANT ALL ON SEQUENCES TO postgres, anon, authenticated, service_role;
+ALTER DEFAULT PRIVILEGES IN SCHEMA rekaclip GRANT ALL ON FUNCTIONS TO postgres, anon, authenticated, service_role;
 
 -- Affiliates table
-CREATE TABLE IF NOT EXISTS easyclaw.affiliates (
+CREATE TABLE IF NOT EXISTS rekaclip.affiliates (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   user_uuid character varying NOT NULL,
   created_at timestamp with time zone DEFAULT now(),
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.affiliates (
 );
 
 -- API keys
-CREATE TABLE IF NOT EXISTS easyclaw.apikeys (
+CREATE TABLE IF NOT EXISTS rekaclip.apikeys (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   api_key character varying NOT NULL UNIQUE,
   title character varying,
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.apikeys (
 );
 
 -- Credits
-CREATE TABLE IF NOT EXISTS easyclaw.credits (
+CREATE TABLE IF NOT EXISTS rekaclip.credits (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   trans_no character varying NOT NULL UNIQUE,
   created_at timestamp with time zone DEFAULT now(),
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.credits (
 );
 
 -- Feedbacks
-CREATE TABLE IF NOT EXISTS easyclaw.feedbacks (
+CREATE TABLE IF NOT EXISTS rekaclip.feedbacks (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   created_at timestamp with time zone DEFAULT now(),
   status character varying,
@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.feedbacks (
 );
 
 -- Orders
-CREATE TABLE IF NOT EXISTS easyclaw.orders (
+CREATE TABLE IF NOT EXISTS rekaclip.orders (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   order_no character varying NOT NULL UNIQUE,
   created_at timestamp with time zone DEFAULT now(),
@@ -87,7 +87,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.orders (
 );
 
 -- Outfits
-CREATE TABLE IF NOT EXISTS easyclaw.outfits (
+CREATE TABLE IF NOT EXISTS rekaclip.outfits (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   uuid character varying NOT NULL UNIQUE,
   user_uuid character varying,
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.outfits (
 );
 
 -- Wallpapers
-CREATE TABLE IF NOT EXISTS easyclaw.wallpapers (
+CREATE TABLE IF NOT EXISTS rekaclip.wallpapers (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   uuid character varying NOT NULL UNIQUE,
   user_uuid character varying,
@@ -110,7 +110,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.wallpapers (
 );
 
 -- Posts
-CREATE TABLE IF NOT EXISTS easyclaw.posts (
+CREATE TABLE IF NOT EXISTS rekaclip.posts (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   uuid character varying NOT NULL UNIQUE,
   slug character varying,
@@ -127,7 +127,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.posts (
 );
 
 -- Users
-CREATE TABLE IF NOT EXISTS easyclaw.users (
+CREATE TABLE IF NOT EXISTS rekaclip.users (
   id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   uuid character varying NOT NULL UNIQUE,
   email character varying NOT NULL,
@@ -147,10 +147,10 @@ CREATE TABLE IF NOT EXISTS easyclaw.users (
 
 -- Unique index for (email, provider)
 CREATE UNIQUE INDEX IF NOT EXISTS email_provider_unique_idx
-  ON easyclaw.users (email, signin_provider);
+  ON rekaclip.users (email, signin_provider);
 
 -- Deployments table (for OpenClaw deployment feature)
-CREATE TABLE IF NOT EXISTS easyclaw.deployments (
+CREATE TABLE IF NOT EXISTS rekaclip.deployments (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   user_id character varying NOT NULL,
   status character varying NOT NULL DEFAULT 'provisioning'::character varying CHECK (status IN ('provisioning', 'running', 'failed')),
@@ -162,7 +162,7 @@ CREATE TABLE IF NOT EXISTS easyclaw.deployments (
 );
 
 -- Account pool table for OpenAI account management
-CREATE TABLE IF NOT EXISTS easyclaw.account_pool (
+CREATE TABLE IF NOT EXISTS rekaclip.account_pool (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   access_token_encrypted text NOT NULL,
   refresh_token_encrypted text NOT NULL,
@@ -180,11 +180,11 @@ CREATE TABLE IF NOT EXISTS easyclaw.account_pool (
 );
 
 -- Indexes for account pool
-CREATE INDEX IF NOT EXISTS idx_account_pool_status ON easyclaw.account_pool (is_bound, is_active);
-CREATE INDEX IF NOT EXISTS idx_account_pool_bound_user ON easyclaw.account_pool (bound_user_id) WHERE is_bound = true;
+CREATE INDEX IF NOT EXISTS idx_account_pool_status ON rekaclip.account_pool (is_bound, is_active);
+CREATE INDEX IF NOT EXISTS idx_account_pool_bound_user ON rekaclip.account_pool (bound_user_id) WHERE is_bound = true;
 
 -- Account unbind logs for audit
-CREATE TABLE IF NOT EXISTS easyclaw.account_unbind_logs (
+CREATE TABLE IF NOT EXISTS rekaclip.account_unbind_logs (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   account_id uuid NOT NULL,
   previous_user_id varchar(255) NOT NULL,
@@ -194,29 +194,29 @@ CREATE TABLE IF NOT EXISTS easyclaw.account_unbind_logs (
 );
 
 -- Indexes for unbind logs
-CREATE INDEX IF NOT EXISTS idx_unbind_logs_account ON easyclaw.account_unbind_logs (account_id);
-CREATE INDEX IF NOT EXISTS idx_unbind_logs_created ON easyclaw.account_unbind_logs (created_at);
+CREATE INDEX IF NOT EXISTS idx_unbind_logs_account ON rekaclip.account_unbind_logs (account_id);
+CREATE INDEX IF NOT EXISTS idx_unbind_logs_created ON rekaclip.account_unbind_logs (created_at);
 
 -- Add account_id, stopped_at, stop_reason columns to deployments table if they don't exist
 DO $$
 BEGIN
   IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
-    WHERE table_schema = 'easyclaw' AND table_name = 'deployments' AND column_name = 'account_id') THEN
-    ALTER TABLE easyclaw.deployments ADD COLUMN account_id uuid;
+    WHERE table_schema = 'rekaclip' AND table_name = 'deployments' AND column_name = 'account_id') THEN
+    ALTER TABLE rekaclip.deployments ADD COLUMN account_id uuid;
   END IF;
   
   IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
-    WHERE table_schema = 'easyclaw' AND table_name = 'deployments' AND column_name = 'stopped_at') THEN
-    ALTER TABLE easyclaw.deployments ADD COLUMN stopped_at timestamp with time zone;
+    WHERE table_schema = 'rekaclip' AND table_name = 'deployments' AND column_name = 'stopped_at') THEN
+    ALTER TABLE rekaclip.deployments ADD COLUMN stopped_at timestamp with time zone;
   END IF;
   
   IF NOT EXISTS (SELECT 1 FROM information_schema.columns 
-    WHERE table_schema = 'easyclaw' AND table_name = 'deployments' AND column_name = 'stop_reason') THEN
-    ALTER TABLE easyclaw.deployments ADD COLUMN stop_reason varchar(50);
+    WHERE table_schema = 'rekaclip' AND table_name = 'deployments' AND column_name = 'stop_reason') THEN
+    ALTER TABLE rekaclip.deployments ADD COLUMN stop_reason varchar(50);
   END IF;
 
   IF NOT EXISTS (SELECT 1 FROM information_schema.columns
-    WHERE table_schema = 'easyclaw' AND table_name = 'deployments' AND column_name = 'target_host') THEN
-    ALTER TABLE easyclaw.deployments ADD COLUMN target_host text;
+    WHERE table_schema = 'rekaclip' AND table_name = 'deployments' AND column_name = 'target_host') THEN
+    ALTER TABLE rekaclip.deployments ADD COLUMN target_host text;
   END IF;
 END $$;

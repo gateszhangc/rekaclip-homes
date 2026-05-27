@@ -1,30 +1,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: easyclaw
+  name: rekaclip
   labels:
-    app.kubernetes.io/name: easyclaw
-    app.kubernetes.io/part-of: easyclaw
+    app.kubernetes.io/name: rekaclip
+    app.kubernetes.io/part-of: rekaclip
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: easyclaw
+      app.kubernetes.io/name: rekaclip
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: easyclaw
-        app.kubernetes.io/part-of: easyclaw
+        app.kubernetes.io/name: rekaclip
+        app.kubernetes.io/part-of: rekaclip
     spec:
       imagePullSecrets:
         - name: dokploy-fleet-ghcr
       containers:
-        - name: easyclaw
-          image: registry.144.91.77.245.sslip.io/easyclaw-web:latest
+        - name: rekaclip
+          image: registry.144.91.77.245.sslip.io/rekaclip-web:latest
           imagePullPolicy: IfNotPresent
           envFrom:
             - secretRef:
-                name: easyclaw-web-env
+                name: rekaclip-web-env
           ports:
             - name: http
               containerPort: 3000

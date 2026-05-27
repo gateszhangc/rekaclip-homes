@@ -3,13 +3,13 @@ set -euo pipefail
 
 SERVER="${SERVER:-root@144.91.66.233}"
 SERVER_HOST="${SERVER_HOST:-${SERVER##*@}}"
-REMOTE_DIR="${REMOTE_DIR:-/opt/easyclaw-backend-prod}"
+REMOTE_DIR="${REMOTE_DIR:-/opt/rekaclip-backend-prod}"
 WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-ARCHIVE_PATH="${ARCHIVE_PATH:-/tmp/easyclaw-backend-prod-$(date +%Y%m%d-%H%M%S).tar.gz}"
+ARCHIVE_PATH="${ARCHIVE_PATH:-/tmp/rekaclip-backend-prod-$(date +%Y%m%d-%H%M%S).tar.gz}"
 
 PORT="${PORT:-5001}"
 ENCRYPTION_KEY="${ENCRYPTION_KEY:-f16fa862f2b766c9ffe863caf4cd7db7c3c09bedfa6b5ece99704a9e93378975}"
-DATABASE_URL="${DATABASE_URL:-postgresql://easyclaw_prod_app:20c65734f20797961f90627713578fd63b8e9d05db30c8ea@161.97.103.117:5432/easyclaw_prod?sslmode=no-verify}"
+DATABASE_URL="${DATABASE_URL:-postgresql://rekaclip_prod_app:20c65734f20797961f90627713578fd63b8e9d05db30c8ea@161.97.103.117:5432/rekaclip_prod?sslmode=no-verify}"
 DB_WRITE_FREEZE="${DB_WRITE_FREEZE:-false}"
 BACKEND_SERVER_HOST="${BACKEND_SERVER_HOST:-144.91.66.233}"
 DOCKER_HOST="${DOCKER_HOST:-unix:///var/run/docker.sock}"
@@ -20,8 +20,8 @@ OPENCLAW_HOMEPAGE_PROVIDER_MODE="${OPENCLAW_HOMEPAGE_PROVIDER_MODE:-mixed}"
 OPENCLAW_K8S_AUTO_UPDATE_FOR_OPENROUTER="${OPENCLAW_K8S_AUTO_UPDATE_FOR_OPENROUTER:-false}"
 OPENCLAW_K8S_KUBECONFIG_B64="${OPENCLAW_K8S_KUBECONFIG_B64:-}"
 OPENCLAW_K8S_KUBECONFIG="${OPENCLAW_K8S_KUBECONFIG:-}"
-OPENCLAW_K8S_NAMESPACE="${OPENCLAW_K8S_NAMESPACE:-easyclaw-openclaw}"
-OPENCLAW_K8S_NODE_SELECTOR_JSON="${OPENCLAW_K8S_NODE_SELECTOR_JSON:-{\"easyclaw-role\":\"openclaw-worker\"}}"
+OPENCLAW_K8S_NAMESPACE="${OPENCLAW_K8S_NAMESPACE:-rekaclip-openclaw}"
+OPENCLAW_K8S_NODE_SELECTOR_JSON="${OPENCLAW_K8S_NODE_SELECTOR_JSON:-{\"rekaclip-role\":\"openclaw-worker\"}}"
 OPENCLAW_K8S_STORAGE_CLASS="${OPENCLAW_K8S_STORAGE_CLASS:-local-path}"
 OPENCLAW_K8S_PVC_SIZE="${OPENCLAW_K8S_PVC_SIZE:-5Gi}"
 OPENCLAW_K8S_REQUEST_CPU="${OPENCLAW_K8S_REQUEST_CPU:-500m}"
@@ -152,7 +152,7 @@ COMPOSE_CMD='docker compose'
 CONFLICT_IDS=\$(docker ps -q --filter "publish=${PORT}" || true)
 for id in \$CONFLICT_IDS; do
   name=\$(docker inspect --format '{{.Name}}' "\$id" | sed 's#^/##')
-  if [[ "\$name" != "easyclaw-backend-prod-api-1" && "\$name" != "easyclaw-backend-api-1" ]]; then
+  if [[ "\$name" != "rekaclip-backend-prod-api-1" && "\$name" != "rekaclip-backend-api-1" ]]; then
     docker rm -f "\$id" >/dev/null 2>&1 || true
   fi
 done

@@ -5,7 +5,7 @@ import { maskDashboardUrl } from "./openclaw-dashboard/url.js";
 import type { DashboardTarget } from "./openclaw-dashboard/types.js";
 
 const target: DashboardTarget = {
-  namespace: "easyclaw-openclaw",
+  namespace: "rekaclip-openclaw",
   deployment: "openclaw-dep-123",
   pod: "openclaw-dep-123-abc",
   container: "openclaw",

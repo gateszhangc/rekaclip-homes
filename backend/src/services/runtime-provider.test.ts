@@ -35,12 +35,12 @@ test("resolveOpenClawRuntimeProvider accepts docker override", () => {
   }
 });
 
-test("resolveOpenClawK8sNamespace defaults to easyclaw-openclaw", () => {
+test("resolveOpenClawK8sNamespace defaults to rekaclip-openclaw", () => {
   const previous = process.env.OPENCLAW_K8S_NAMESPACE;
   delete process.env.OPENCLAW_K8S_NAMESPACE;
 
   try {
-    assert.equal(resolveOpenClawK8sNamespace(), "easyclaw-openclaw");
+    assert.equal(resolveOpenClawK8sNamespace(), "rekaclip-openclaw");
   } finally {
     if (previous === undefined) {
       delete process.env.OPENCLAW_K8S_NAMESPACE;

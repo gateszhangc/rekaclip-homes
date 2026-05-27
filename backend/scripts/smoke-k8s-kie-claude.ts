@@ -67,7 +67,7 @@ const modelSlug = requestedModel
   .replace(/-+/g, "-")
   .replace(/^-|-$/g, "")
   .toLowerCase();
-const smokeNamespace = `easyclaw-kie-smoke-${modelSlug}-${timestamp.toLowerCase()}`.slice(
+const smokeNamespace = `rekaclip-kie-smoke-${modelSlug}-${timestamp.toLowerCase()}`.slice(
   0,
   63
 );

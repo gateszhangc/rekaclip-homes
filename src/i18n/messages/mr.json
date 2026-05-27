@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - OpenClaw 1 मिनिटाच्या आत उपयोजित करा",
-    "description": "OpenClaw EasyClaw सह एका क्लिकवर तैनात करा. Telegram कनेक्ट करा, मॉडेल निवडा आणि जलद लाइव्ह व्हा.",
-    "keywords": "easyclaw, ओपनक्लॉ तैनात करा, ओपनक्लॉ होस्टिंग, टेलिग्राम बॉट तैनाती, एआय सहाय्यक तैनाती"
+    "title": "RekaClip - OpenClaw 1 मिनिटाच्या आत उपयोजित करा",
+    "description": "OpenClaw RekaClip सह एका क्लिकवर तैनात करा. Telegram कनेक्ट करा, मॉडेल निवडा आणि जलद लाइव्ह व्हा.",
+    "keywords": "rekaclip, ओपनक्लॉ तैनात करा, ओपनक्लॉ होस्टिंग, टेलिग्राम बॉट तैनाती, एआय सहाय्यक तैनाती"
   },
   "blog": {
     "title": "ब्लॉग",
-    "description": "EasyClaw सह OpenClaw तैनात करण्याबद्दल बातम्या, ट्यूटोरियल आणि अद्यतने.",
+    "description": "RekaClip सह OpenClaw तैनात करण्याबद्दल बातम्या, ट्यूटोरियल आणि अद्यतने.",
     "read_more_text": "अधिक वाचा"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "प्रशासन केंद्र"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw मध्ये साइन इन करा",
-    "sign_in_description": "OpenClaw उपयोजित आणि व्यवस्थापित करण्यासाठी तुमच्या EasyClaw खात्यात प्रवेश करा.",
-    "sign_up_title": "EasyClaw सामील व्हा",
-    "sign_up_description": "तुमचे EasyClaw खाते तयार करा",
+    "sign_in_title": "RekaClip मध्ये साइन इन करा",
+    "sign_in_description": "OpenClaw उपयोजित आणि व्यवस्थापित करण्यासाठी तुमच्या RekaClip खात्यात प्रवेश करा.",
+    "sign_up_title": "RekaClip सामील व्हा",
+    "sign_up_description": "तुमचे RekaClip खाते तयार करा",
     "email_title": "ईमेल",
     "email_placeholder": "तुमचा ईमेल पत्ता प्रविष्ट करा",
     "password_title": "पासवर्ड",
     "password_placeholder": "तुमचा पासवर्ड टाका",
     "forgot_password": "पासवर्ड विसरलात?",
     "or": "किंवा",
-    "continue": "EasyClaw वर सुरू ठेवा",
-    "no_account": "EasyClaw वर नवीन?",
+    "continue": "RekaClip वर सुरू ठेवा",
+    "no_account": "RekaClip वर नवीन?",
     "email_sign_in": "ईमेल सह साइन इन करा",
     "google_sign_in": "Google सह सुरू ठेवा",
     "github_sign_in": "GitHub सह सुरू ठेवा",
@@ -46,7 +46,7 @@
     "title": "माझे आदेश",
     "no_orders": "ऑर्डर आढळल्या नाहीत",
     "tip": "",
-    "support_tip": "बिलिंग किंवा रद्द करण्यासाठी मदत हवी आहे? support@easyclaw.pro वर ईमेल करा.",
+    "support_tip": "बिलिंग किंवा रद्द करण्यासाठी मदत हवी आहे? support@rekaclip.homes वर ईमेल करा.",
     "activate_order": "ऑर्डर सक्रिय करा",
     "actived": "सक्रिय केले",
     "join_discord": "Discord सामील व्हा",
@@ -105,7 +105,7 @@
     "edit_invite_link": "आमंत्रण लिंक संपादित करा",
     "copy_invite_link": "आमंत्रण लिंक कॉपी करा",
     "invite_code": "आमंत्रण कोड",
-    "invite_tip": "मित्रांना EasyClaw वर आमंत्रित करा आणि बक्षिसे मिळवा.",
+    "invite_tip": "मित्रांना RekaClip वर आमंत्रित करा आणि बक्षिसे मिळवा.",
     "invite_balance": "रिवॉर्ड शिल्लक आमंत्रित करा",
     "total_invite_count": "एकूण आमंत्रण संख्या",
     "total_paid_count": "एकूण सशुल्क संख्या",
@@ -131,7 +131,7 @@
     "submit": "सबमिट करा",
     "loading": "सबमिट करत आहे...",
     "contact_tip": "आमच्याशी संपर्क साधण्याचे इतर मार्ग",
-    "rating_tip": "तुम्हाला EasyClaw बद्दल कसे वाटते?",
+    "rating_tip": "तुम्हाला RekaClip बद्दल कसे वाटते?",
     "placeholder": "तुमचे शब्द इथे सोडा..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - एक-क्लिक OpenClaw उपयोजन",
+      "title": "RekaClip - एक-क्लिक OpenClaw उपयोजन",
       "description": "OpenClaw 1 मिनिटाच्या आत उपयोजित करा. कोणतेही सर्व्हर किंवा DevOps नाहीत. मॉडेल निवडा, चॅनेल कनेक्ट करा आणि लॉन्च करा."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "तैनात करत आहे...",
       "deploy_button": "तैनात करा",
-      "sign_in_button": "EasyClaw सह उपयोजित करण्यासाठी साइन इन करा",
-      "sign_in_hint": "EasyClaw सह OpenClaw उपयोजित करण्यासाठी साइन इन करा आणि तुमचे चॅनेल कनेक्ट करा.",
+      "sign_in_button": "RekaClip सह उपयोजित करण्यासाठी साइन इन करा",
+      "sign_in_hint": "RekaClip सह OpenClaw उपयोजित करण्यासाठी साइन इन करा आणि तुमचे चॅनेल कनेक्ट करा.",
       "status_success": "उपयोजन यशस्वी! OpenClaw आता चालू आहे.",
       "model_substitution_warning": "मॉडेल प्रतिस्थापन आढळले. पुन्हा तैनात करण्याचा प्रयत्न करा किंवा दुसऱ्या प्रदेश/प्रदात्यावर स्विच करा.",
       "hint_prefix": "सुरू ठेवण्यासाठी Telegram कनेक्ट करा.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

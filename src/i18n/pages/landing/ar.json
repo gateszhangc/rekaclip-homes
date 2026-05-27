@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "شعار EasyClaw"
+      "alt": "شعار RekaClip"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "إنشاء أعمال فنية عالية الجودة",
     "description": "قم بتحميل صورة، واختر نمطًا، واحصل على صورة كاريكاتورية نظيفة للصور الرمزية أو الهدايا أو المحتوى.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "اختر نموذجًا",
         "description": "Claude، GPT، Gemini - اختر النموذج الأفضل لكل مهمة. العمل الإبداعي مع Claude والتحليل مع GPT. التبديل في أي وقت.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "اختر طراز الذكاء الاصطناعي - Claude، أو GPT، أو Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "قم بتوصيل قناة",
         "description": "Telegram، Discord، WhatsApp — لوحة تحكم واحدة لجميع القنوات. إدارة جميع المحادثات من مكان واحد، لا مزيد من التبديل بين التطبيقات.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "ربط قنوات المراسلة"
         }
       },
@@ -242,7 +242,7 @@
         "title": "نشر والبدء",
         "description": "مساعد الذكاء الاصطناعي الخاص بك سيكون متصلاً بالإنترنت خلال 60 ثانية. أرسل رسالتك الأولى وابدأ التشغيل الآلي.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "نشر وبدء مساعدك"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "قل وداعا للمتاعب",
-    "description": "تعرف على التغييرات عند التبديل إلى EasyClaw",
+    "description": "تعرف على التغييرات عند التبديل إلى RekaClip",
     "before_label": "الإعداد التقليدي",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "استئجار الخوادم، وتكوين البيئات",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "لماذا تختار الفرق EasyClaw",
+    "title": "لماذا تختار الفرق RekaClip",
     "description": "نشر جاهز للإنتاج بدون تحميل DevOps. صيانة صفر، أقصى قدر من التركيز.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "الإحاطات اليومية",
         "description": "قم بتحويل الرسائل والتحديثات إلى ملخص صباحي موجز لفريقك.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "سير عمل أتمتة الإحاطات اليومية"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "مساعد دعم العملاء",
         "description": "قم بتوجيه الأسئلة، وصياغة الردود، والحفاظ على استجابة قنوات الدعم.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "سير عمل أتمتة دعم العملاء"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "أتمتة فريق العمليات",
         "description": "أتمتة التذكيرات وتقارير الحالة والمتابعة الروتينية عبر القنوات.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "سير عمل أتمتة عمليات الفريق"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "الأسئلة الشائعة",
     "title": "الأسئلة الشائعة",
-    "description": "كل ما تحتاجه قبل نشر OpenClaw مع EasyClaw.",
+    "description": "كل ما تحتاجه قبل نشر OpenClaw مع RekaClip.",
     "items": [
       {
-        "title": "كم تكلفة EasyClaw؟",
+        "title": "كم تكلفة RekaClip؟",
         "description": "تبدأ الخطط بسعر 10 دولارات شهريًا. قم بالإلغاء في أي وقت من حسابك."
       },
       {
         "title": "هل أحتاج إلى إدارة الخوادم؟",
-        "description": "لا، يعمل EasyClaw على تبسيط سير عمل النشر حتى تتمكن من تشغيل OpenClaw بدون خوادم أو DevOps."
+        "description": "لا، يعمل RekaClip على تبسيط سير عمل النشر حتى تتمكن من تشغيل OpenClaw بدون خوادم أو DevOps."
       },
       {
         "title": "ما هي النماذج المدعومة؟",
@@ -541,11 +541,11 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "أسهل طريقة لنشر مساعد OpenClaw AI.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -584,12 +584,12 @@
         {
           "title": "دعم البريد الإلكتروني",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw هو منتج مستقل ولا ينتمي إلى أي من موفري النماذج أو أصحاب العلامات التجارية التابعين لجهات خارجية.",
+    "disclaimer": "RekaClip هو منتج مستقل ولا ينتمي إلى أي من موفري النماذج أو أصحاب العلامات التجارية التابعين لجهات خارجية.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw برو الشهرية",
+        "product_name": "RekaClip برو الشهرية",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw قسط شهري",
+        "product_name": "RekaClip قسط شهري",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro سنويًا",
+        "product_name": "RekaClip Pro سنويًا",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw بريميوم سنويًا",
+        "product_name": "RekaClip بريميوم سنويًا",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

@@ -1,7 +1,7 @@
 -- Reka Clip local database export
 -- Generated: 2026-05-23T14:21:57.707Z
 -- Source: postgresql://postgres@localhost:5432/rekaclip
--- Database: rekaclip (schema: easyclaw)
+-- Database: rekaclip (schema: rekaclip)
 --
 -- Restore example:
 --   createdb rekaclip
@@ -12,7 +12,7 @@
 
 -- Schemas
 CREATE SCHEMA IF NOT EXISTS "drizzle";
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 CREATE SCHEMA IF NOT EXISTS "public";
 
 CREATE TABLE IF NOT EXISTS "drizzle"."__drizzle_migrations" (
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS "drizzle"."__drizzle_migrations" (
 "created_at" bigint
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."affiliates" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."affiliates" (
 "id" integer NOT NULL,
 "user_uuid" varchar NOT NULL,
 "created_at" timestamp with time zone,
@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."affiliates" (
 "reward_amount" integer DEFAULT 0 NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."apikeys" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."apikeys" (
 "id" integer NOT NULL,
 "api_key" varchar NOT NULL,
 "title" varchar,
@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."apikeys" (
 "status" varchar
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."credits" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."credits" (
 "id" integer NOT NULL,
 "trans_no" varchar NOT NULL,
 "created_at" timestamp with time zone,
@@ -53,7 +53,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."credits" (
 "expired_at" timestamp with time zone
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."deployments" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."deployments" (
 "id" uuid NOT NULL,
 "user_id" text NOT NULL,
 "account_id" uuid,
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."deployments" (
 "updated_at" timestamp with time zone DEFAULT now()
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."feedbacks" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."feedbacks" (
 "id" integer NOT NULL,
 "created_at" timestamp with time zone,
 "status" varchar,
@@ -81,7 +81,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."feedbacks" (
 "rating" integer
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."manual_payment_requests" (
 "id" uuid DEFAULT gen_random_uuid() NOT NULL,
 "order_no" varchar NOT NULL,
 "created_at" timestamp with time zone DEFAULT now() NOT NULL,
@@ -102,7 +102,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
 "notes" text
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."orders" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."orders" (
 "id" integer NOT NULL,
 "order_no" varchar NOT NULL,
 "created_at" timestamp with time zone,
@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."orders" (
 "paid_detail" text
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."posts" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."posts" (
 "id" integer NOT NULL,
 "uuid" varchar NOT NULL,
 "slug" varchar,
@@ -146,7 +146,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."posts" (
 "locale" varchar
 );
 
-CREATE TABLE IF NOT EXISTS "easyclaw"."users" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."users" (
 "id" integer NOT NULL,
 "uuid" varchar NOT NULL,
 "email" varchar NOT NULL,

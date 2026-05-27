@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClaw लोगो"
+      "alt": "RekaClip लोगो"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "उच्च दर्जाची कला तयार करा",
     "description": "पोर्ट्रेट अपलोड करा, शैली निवडा आणि अवतार, भेटवस्तू किंवा सामग्रीसाठी स्वच्छ व्यंगचित्र मिळवा.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "एक मॉडेल निवडा",
         "description": "Claude, GPT, Gemini — प्रत्येक कार्यासाठी सर्वोत्तम मॉडेल निवडा. Claude सह सर्जनशील कार्य, GPT सह विश्लेषण. कधीही स्विच करा.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "AI मॉडेल निवडा - Claude, GPT, किंवा Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "चॅनेल कनेक्ट करा",
         "description": "Telegram, Discord, WhatsApp — सर्व चॅनेलसाठी एक डॅशबोर्ड. सर्व संभाषणे एकाच ठिकाणाहून व्यवस्थापित करा, यापुढे ॲप्स बदलू नका.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "मेसेजिंग चॅनेल कनेक्ट करा"
         }
       },
@@ -242,7 +242,7 @@
         "title": "उपयोजित करा आणि सुरू करा",
         "description": "तुमचा AI सहाय्यक 60 सेकंदात ऑनलाइन आहे. तुमचा पहिला संदेश पाठवा आणि स्वयंचलित सुरू करा.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "तुमचा सहाय्यक तैनात करा आणि सुरू करा"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "त्रासाला निरोप द्या",
-    "description": "तुम्ही EasyClaw वर स्विच करता तेव्हा काय बदल होतात ते पहा",
+    "description": "तुम्ही RekaClip वर स्विच करता तेव्हा काय बदल होतात ते पहा",
     "before_label": "पारंपारिक सेटअप",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "सर्व्हर भाड्याने द्या, वातावरण कॉन्फिगर करा",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "संघ EasyClaw का निवडतात",
+    "title": "संघ RekaClip का निवडतात",
     "description": "DevOps ओव्हरहेडशिवाय उत्पादन-तयार उपयोजन. शून्य देखभाल, जास्तीत जास्त फोकस.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "दैनिक ब्रीफिंग्ज",
         "description": "तुमच्या टीमसाठी मेसेज आणि अपडेट्स सकाळच्या संक्षिप्त ब्रिफमध्ये बदला.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "दैनिक ब्रीफिंग ऑटोमेशन वर्कफ्लो"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "ग्राहक समर्थन सहाय्यक",
         "description": "प्रश्न मार्गी लावा, उत्तरे मसुदा करा आणि समर्थन चॅनेल प्रतिसादात्मक ठेवा.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "ग्राहक समर्थन ऑटोमेशन वर्कफ्लो"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "टीम ऑप्स ऑटोमेशन",
         "description": "चॅनेलवर स्वयंचलित स्मरणपत्रे, स्थिती अहवाल आणि नियमित फॉलो-अप.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "टीम ऑपरेशन्स ऑटोमेशन वर्कफ्लो"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "वारंवार विचारले जाणारे प्रश्न",
     "title": "सामान्य प्रश्न",
-    "description": "EasyClaw सह OpenClaw तैनात करण्यापूर्वी तुम्हाला आवश्यक असलेली प्रत्येक गोष्ट.",
+    "description": "RekaClip सह OpenClaw तैनात करण्यापूर्वी तुम्हाला आवश्यक असलेली प्रत्येक गोष्ट.",
     "items": [
       {
-        "title": "EasyClaw ची किंमत किती आहे?",
+        "title": "RekaClip ची किंमत किती आहे?",
         "description": "योजना $10/महिना पासून सुरू होतात. तुमच्या खात्यातून कधीही रद्द करा."
       },
       {
         "title": "मला सर्व्हर व्यवस्थापित करण्याची आवश्यकता आहे का?",
-        "description": "नाही. EasyClaw उपयोजन कार्यप्रवाह सुव्यवस्थित करते जेणेकरून तुम्ही सर्व्हर किंवा DevOps शिवाय OpenClaw लाँच करू शकता."
+        "description": "नाही. RekaClip उपयोजन कार्यप्रवाह सुव्यवस्थित करते जेणेकरून तुम्ही सर्व्हर किंवा DevOps शिवाय OpenClaw लाँच करू शकता."
       },
       {
         "title": "कोणते मॉडेल समर्थित आहेत?",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "OpenClaw AI सहाय्यक तैनात करण्याचा सर्वात सोपा मार्ग.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • easyclaw. सर्व हक्क राखीव.",
+    "copyright": "© 2026 • RekaClip. सर्व हक्क राखीव.",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "ईमेल समर्थन",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw एक स्वतंत्र उत्पादन आहे आणि कोणत्याही तृतीय-पक्ष मॉडेल प्रदाते किंवा ट्रेडमार्क मालकांशी संबद्ध नाही.",
+    "disclaimer": "RekaClip एक स्वतंत्र उत्पादन आहे आणि कोणत्याही तृतीय-पक्ष मॉडेल प्रदाते किंवा ट्रेडमार्क मालकांशी संबद्ध नाही.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro मासिक",
+        "product_name": "RekaClip Pro मासिक",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw प्रीमियम मासिक",
+        "product_name": "RekaClip प्रीमियम मासिक",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw प्रो वार्षिक",
+        "product_name": "RekaClip प्रो वार्षिक",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw प्रीमियम वार्षिक",
+        "product_name": "RekaClip प्रीमियम वार्षिक",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

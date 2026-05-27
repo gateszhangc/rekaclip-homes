@@ -28,7 +28,7 @@ type PgErrorLike = {
 const PG_UNDEFINED_COLUMN = '42703';
 const PG_UNDEFINED_TABLE = '42P01';
 const PG_CHECK_VIOLATION = '23514';
-const DEPLOYMENTS_TABLE = 'easyclaw.deployments';
+const DEPLOYMENTS_TABLE = 'rekaclip.deployments';
 
 const hasPgCode = (error: unknown, code: string): boolean =>
   typeof error === 'object' &&

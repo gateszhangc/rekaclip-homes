@@ -11,6 +11,7 @@ import { ThemeProvider } from "@/providers/theme";
 import { getSiteUrl } from "@/lib/site-url";
 import GoogleAnalytics from "@/components/analytics/google-analytics";
 import GaRouteTracker from "@/components/analytics/ga-route-tracker";
+import ClarityAnalytics from "@/components/analytics/clarity";
 
 export async function generateMetadata({
   params,
@@ -57,6 +58,7 @@ export default async function LocaleLayout({
           <ThemeProvider>
             <GoogleAnalytics />
             <GaRouteTracker />
+            <ClarityAnalytics />
             {children}
           </ThemeProvider>
         </AppContextProvider>

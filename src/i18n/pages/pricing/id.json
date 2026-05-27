@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "EasyClaw Pemula Bulanan",
+        "product_name": "RekaClip Pemula Bulanan",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro Bulanan",
+        "product_name": "RekaClip Pro Bulanan",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw Pemula Setiap Tahun",
+        "product_name": "RekaClip Pemula Setiap Tahun",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro Setiap Tahun",
+        "product_name": "RekaClip Pro Setiap Tahun",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

@@ -8,8 +8,8 @@ resources:
   - registry-pull.sealedsecret.yaml
   - web-env.sealedsecret.yaml
   - backend-env.sealedsecret.yaml
-  - easyclaw-live.certificate.yaml
-  - easyclaw-preview.certificate.yaml
-  - easyclaw-live.ingress.yaml
-  - easyclaw-preview.ingress.yaml
-  - easyclaw-staging-placeholder.configmap.yaml
+  - rekaclip-live.certificate.yaml
+  - rekaclip-preview.certificate.yaml
+  - rekaclip-live.ingress.yaml
+  - rekaclip-preview.ingress.yaml
+  - rekaclip-staging-placeholder.configmap.yaml

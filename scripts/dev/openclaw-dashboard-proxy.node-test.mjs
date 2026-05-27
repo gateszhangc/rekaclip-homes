@@ -72,7 +72,7 @@ test("openclaw dashboard proxy routes forward without frontend auth headers and 
               lastError: null,
               logs: [],
               target: {
-                namespace: "easyclaw-openclaw",
+                namespace: "rekaclip-openclaw",
                 deployment: "openclaw-deployment-123",
                 pod: "openclaw-deployment-123-abc",
                 container: "openclaw",
@@ -103,7 +103,7 @@ test("openclaw dashboard proxy routes forward without frontend auth headers and 
             lastError: null,
             logs: [],
             target: {
-              namespace: "easyclaw-openclaw",
+              namespace: "rekaclip-openclaw",
               deployment: "openclaw-deployment-123",
               pod: "openclaw-deployment-123-abc",
               container: "openclaw",
@@ -116,7 +116,7 @@ test("openclaw dashboard proxy routes forward without frontend auth headers and 
     async (requests) => {
       const params = Promise.resolve({ id: "deployment-123" });
       const requestUrl =
-        "https://staging.easyclaw.pro/api/deploy/deployment-123/openclaw-dashboard/start";
+        "https://staging.rekaclip.homes/api/deploy/deployment-123/openclaw-dashboard/start";
 
       const startResponse = await startRoute.POST(new Request(requestUrl), {
         params,
@@ -125,7 +125,7 @@ test("openclaw dashboard proxy routes forward without frontend auth headers and 
       assert.equal(startResponse.status, 200);
       assert.equal(
         startPayload.data.dashboardUrl,
-        "https://staging.easyclaw.pro/_openclaw-dashboard/deployment-123/control-ui/#token=codexwa-86add9d981"
+        "https://staging.rekaclip.homes/_openclaw-dashboard/deployment-123/control-ui/#token=codexwa-86add9d981"
       );
 
       const currentResponse = await currentRoute.GET(new Request(requestUrl), {
@@ -135,7 +135,7 @@ test("openclaw dashboard proxy routes forward without frontend auth headers and 
       assert.equal(currentResponse.status, 200);
       assert.equal(
         currentPayload.data.maskedDashboardUrl,
-        "https://staging.easyclaw.pro/_openclaw-dashboard/deployment-123/control-ui/#token=code...d981"
+        "https://staging.rekaclip.homes/_openclaw-dashboard/deployment-123/control-ui/#token=code...d981"
       );
 
       const stopResponse = await stopRoute.POST(new Request(requestUrl), {
@@ -192,7 +192,7 @@ test("same-domain dashboard route proxies backend responses and rewrites locatio
     async (requests) => {
       const response = await proxyRoute.GET(
         new Request(
-          "https://staging.easyclaw.pro/_openclaw-dashboard/deployment-123/control-ui/index.html?foo=1"
+          "https://staging.rekaclip.homes/_openclaw-dashboard/deployment-123/control-ui/index.html?foo=1"
         ),
         {
           params: Promise.resolve({
@@ -206,7 +206,7 @@ test("same-domain dashboard route proxies backend responses and rewrites locatio
       assert.equal(await response.text(), "<html>ok</html>");
       assert.equal(
         response.headers.get("location"),
-        "https://staging.easyclaw.pro/_openclaw-dashboard/deployment-123/control-ui/login"
+        "https://staging.rekaclip.homes/_openclaw-dashboard/deployment-123/control-ui/login"
       );
       assert.equal(
         requests[0]?.url,

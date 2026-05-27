@@ -15,7 +15,7 @@ import {
 const withTempStateFile = async (
   fn: (filePath: string) => Promise<void>
 ): Promise<void> => {
-  const tempDir = await mkdtemp(path.join(os.tmpdir(), "easyclaw-runtime-state-"));
+  const tempDir = await mkdtemp(path.join(os.tmpdir(), "rekaclip-runtime-state-"));
   const previousStateFile = process.env.OPENCLAW_RUNTIME_STATE_FILE;
   const filePath = path.join(tempDir, "deployment-runtime-state.json");
 
@@ -57,7 +57,7 @@ test("persistDeploymentRuntimeState writes and reads provider metadata from a JS
   await withTempStateFile(async (filePath) => {
     await persistDeploymentRuntimeState("dep-k8s", {
       provider: "k8s",
-      k8sNamespace: " easyclaw-openclaw ",
+      k8sNamespace: " rekaclip-openclaw ",
     });
     await persistDeploymentRuntimeState("dep-docker", {
       provider: "docker",
@@ -70,7 +70,7 @@ test("persistDeploymentRuntimeState writes and reads provider metadata from a JS
     assert.deepEqual(persistedK8s, {
       provider: "k8s",
       dockerTargetHost: null,
-      k8sNamespace: "easyclaw-openclaw",
+      k8sNamespace: "rekaclip-openclaw",
       updatedAt: persistedK8s?.updatedAt,
     });
     assert.deepEqual(persistedDocker, {
@@ -82,7 +82,7 @@ test("persistDeploymentRuntimeState writes and reads provider metadata from a JS
 
     const state = await readDeploymentRuntimeState(filePath);
     assert.equal(state["dep-k8s"]?.provider, "k8s");
-    assert.equal(state["dep-k8s"]?.k8sNamespace, "easyclaw-openclaw");
+    assert.equal(state["dep-k8s"]?.k8sNamespace, "rekaclip-openclaw");
     assert.equal(state["dep-docker"]?.dockerTargetHost, "144.91.74.92");
   });
 });
@@ -91,7 +91,7 @@ test("removePersistedDeploymentRuntimeState deletes a stored runtime record", as
   await withTempStateFile(async () => {
     await persistDeploymentRuntimeState("dep-k8s", {
       provider: "k8s",
-      k8sNamespace: "easyclaw-openclaw",
+      k8sNamespace: "rekaclip-openclaw",
     });
 
     await removePersistedDeploymentRuntimeState("dep-k8s");

@@ -198,8 +198,8 @@ test("buildOpenClawK8sLabels matches the current naming convention", () => {
   assert.deepEqual(buildOpenClawK8sLabels("dep-123"), {
     "app.kubernetes.io/name": "openclaw",
     "app.kubernetes.io/instance": "openclaw-dep-123",
-    "app.kubernetes.io/managed-by": "easyclaw-backend",
-    "easyclaw/deployment-id": "dep-123",
+    "app.kubernetes.io/managed-by": "rekaclip-backend",
+    "rekaclip/deployment-id": "dep-123",
   });
 });
 
@@ -670,7 +670,7 @@ test("runKieLivePreflightIfNeeded uses credit check plus gateway smoke for KIE G
     exec: execMock as any,
     pod: {
       name: "pod-gemini",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
   });
@@ -722,7 +722,7 @@ test("runKieLivePreflightIfNeeded keeps KIE GPT on pod-local preflight", async (
     exec: execMock as any,
     pod: {
       name: "pod-gpt",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
   });
@@ -876,8 +876,8 @@ test("performKiePodLocalPreflight maps empty or invalid success payloads to KIE_
 test("buildOpenClawK8sVolumePrepScript resets the gateway ready marker and restores it for matching config", () => {
   const script = buildOpenClawK8sVolumePrepScript("fingerprint-123");
 
-  assert.match(script, /\.easyclaw-config-ready/);
-  assert.match(script, /\.easyclaw-config-fingerprint/);
+  assert.match(script, /\.rekaclip-config-ready/);
+  assert.match(script, /\.rekaclip-config-fingerprint/);
   assert.match(script, /EXPECTED_FINGERPRINT='fingerprint-123'/);
   assert.match(script, /rm -f "\$READY_FILE"/);
   assert.match(script, /touch "\$READY_FILE"/);
@@ -935,7 +935,7 @@ test("buildOpenClawK8sDeploymentManifest binds workloads to openclaw workers wit
   assert.equal(container?.resources?.limits?.cpu, "2");
   assert.equal(container?.resources?.limits?.memory, "4Gi");
   assert.deepEqual(container?.command?.slice(0, 2), ["sh", "-lc"]);
-  assert.match(container?.command?.[2] || "", /\.easyclaw-config-ready/);
+  assert.match(container?.command?.[2] || "", /\.rekaclip-config-ready/);
   assert.match(container?.command?.[2] || "", /openclaw gateway run/);
   assert.equal(container?.securityContext?.runAsUser, 1000);
   assert.equal(container?.securityContext?.runAsGroup, 1000);
@@ -952,8 +952,8 @@ test("buildOpenClawK8sDeploymentManifest binds workloads to openclaw workers wit
   assert.equal(initContainer?.image, "fourplayers/openclaw:2026.3.23-2");
   assert.deepEqual(initContainer?.command?.slice(0, 2), ["sh", "-lc"]);
   assert.match(initContainer?.command?.[2] || "", /cat \/IMAGE_BUILD_DATE > \/home\/node\/\.openclaw\/\.last_image_update/);
-  assert.match(initContainer?.command?.[2] || "", /\.easyclaw-config-ready/);
-  assert.match(initContainer?.command?.[2] || "", /\.easyclaw-config-fingerprint/);
+  assert.match(initContainer?.command?.[2] || "", /\.rekaclip-config-ready/);
+  assert.match(initContainer?.command?.[2] || "", /\.rekaclip-config-fingerprint/);
   assert.match(initContainer?.command?.[2] || "", /fingerprint-123/);
   assert.equal(initContainer?.securityContext?.runAsUser, 0);
   assert.equal(initContainer?.securityContext?.runAsGroup, 0);
@@ -969,7 +969,7 @@ test("buildOpenClawK8sDeploymentManifest binds workloads to openclaw workers wit
   );
   assert.deepEqual(nodeExpressions, [
     {
-      key: "easyclaw-role",
+      key: "rekaclip-role",
       operator: "In",
       values: ["openclaw-worker"],
     },
@@ -1002,7 +1002,7 @@ test("configureOpenClawInPod writes config fingerprint + ready marker and no lon
     execMock.exec as any,
     {
       name: "pod-1",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     {
@@ -1022,7 +1022,7 @@ test("configureOpenClawInPod writes config fingerprint + ready marker and no lon
     true
   );
   assert.equal(
-    commands.some((cmd) => cmd.join(" ").includes(".easyclaw-config-ready")),
+    commands.some((cmd) => cmd.join(" ").includes(".rekaclip-config-ready")),
     true
   );
 });
@@ -1033,7 +1033,7 @@ test("restartOpenClawGatewayInPod kills the gateway child process for K8s runtim
 
   await restartOpenClawGatewayInPod(execMock.exec as any, {
     name: "pod-1",
-    namespace: "easyclaw-openclaw",
+    namespace: "rekaclip-openclaw",
     containerName: "openclaw",
   });
 
@@ -1053,7 +1053,7 @@ test("configureOpenClawInPod renders KIE config once and skips models CLI comman
     execMock.exec as any,
     {
       name: "pod-kie",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     {
@@ -1079,7 +1079,7 @@ test("configureOpenClawInPod renders KIE config once and skips models CLI comman
       cmd[0] === "sh" &&
       cmd[1] === "-lc" &&
       (cmd[2] || "").includes("openclaw.json.tmp") &&
-      (cmd[2] || "").includes(".easyclaw-config-ready")
+      (cmd[2] || "").includes(".rekaclip-config-ready")
   );
 
   assert.ok(configWriteCommand);
@@ -1095,7 +1095,7 @@ test("configureOpenClawInPod opens Discord guild replies for non-KIE runtimes", 
     execMock.exec as any,
     {
       name: "pod-discord",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     {
@@ -1123,7 +1123,7 @@ test("configureOpenClawInPod configures WhatsApp for DMs only on non-KIE runtime
     execMock.exec as any,
     {
       name: "pod-whatsapp",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     {
@@ -1476,7 +1476,7 @@ test("waitForOpenClawReady accepts Telegram health probe readiness without chann
     exec: execMock.exec as any,
     pod: {
       name: "pod-1",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     channel: "telegram",
@@ -1519,7 +1519,7 @@ test("waitForOpenClawReady accepts linked WhatsApp runtimes once listener startu
     exec: execMock.exec as any,
     pod: {
       name: "pod-whatsapp-linked",
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       containerName: "openclaw",
     },
     channel: "whatsapp",
@@ -1560,7 +1560,7 @@ test("waitForOpenClawReady maps unauthorized WhatsApp runtimes to WHATSAPP_SESSI
         exec: execMock.exec as any,
         pod: {
           name: "pod-whatsapp-unauthorized",
-          namespace: "easyclaw-openclaw",
+          namespace: "rekaclip-openclaw",
           containerName: "openclaw",
         },
         channel: "whatsapp",
@@ -1595,7 +1595,7 @@ test("waitForOpenClawReady maps Telegram unauthorized health probes to TELEGRAM_
         exec: execMock.exec as any,
         pod: {
           name: "pod-unauthorized",
-          namespace: "easyclaw-openclaw",
+          namespace: "rekaclip-openclaw",
           containerName: "openclaw",
         },
         channel: "telegram",
@@ -1657,7 +1657,7 @@ test("waitForOpenClawReady rejects Discord deployments when Message Content Inte
         exec: execMock.exec as any,
         pod: {
           name: "pod-discord-disabled-intent",
-          namespace: "easyclaw-openclaw",
+          namespace: "rekaclip-openclaw",
           containerName: "openclaw",
         },
         channel: "discord",

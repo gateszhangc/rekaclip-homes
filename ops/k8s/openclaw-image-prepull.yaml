@@ -2,11 +2,11 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: openclaw-image-prepull
-  namespace: easyclaw-openclaw
+  namespace: rekaclip-openclaw
   labels:
     app.kubernetes.io/name: openclaw-image-prepull
     app.kubernetes.io/component: image-prepull
-    app.kubernetes.io/managed-by: easyclaw-ops
+    app.kubernetes.io/managed-by: rekaclip-ops
 spec:
   selector:
     matchLabels:
@@ -18,10 +18,10 @@ spec:
       labels:
         app.kubernetes.io/name: openclaw-image-prepull
         app.kubernetes.io/component: image-prepull
-        app.kubernetes.io/managed-by: easyclaw-ops
+        app.kubernetes.io/managed-by: rekaclip-ops
     spec:
       nodeSelector:
-        easyclaw-role: openclaw-worker
+        rekaclip-role: openclaw-worker
       terminationGracePeriodSeconds: 0
       initContainers:
         - name: prepull-openclaw

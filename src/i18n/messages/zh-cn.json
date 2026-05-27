@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - 在 1 分钟内部署 OpenClaw",
-    "description": "一键部署 OpenClaw 和 EasyClaw。连接Telegram，选择型号，快速上线。",
-    "keywords": "easyclaw、部署openclaw、openclaw托管、电报机器人部署、人工智能助手部署"
+    "title": "RekaClip - 在 1 分钟内部署 OpenClaw",
+    "description": "一键部署 OpenClaw 和 RekaClip。连接Telegram，选择型号，快速上线。",
+    "keywords": "rekaclip、部署openclaw、openclaw托管、电报机器人部署、人工智能助手部署"
   },
   "blog": {
     "title": "博客",
-    "description": "有关使用 EasyClaw 部署 OpenClaw 的新闻、教程和更新。",
+    "description": "有关使用 RekaClip 部署 OpenClaw 的新闻、教程和更新。",
     "read_more_text": "了解更多"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "管理中心"
   },
   "sign_modal": {
-    "sign_in_title": "登录 EasyClaw",
-    "sign_in_description": "访问您的 EasyClaw 帐户以部署和管理 OpenClaw。",
-    "sign_up_title": "加入EasyClaw",
-    "sign_up_description": "创建您的 EasyClaw 帐户",
+    "sign_in_title": "登录 RekaClip",
+    "sign_in_description": "访问您的 RekaClip 帐户以部署和管理 OpenClaw。",
+    "sign_up_title": "加入RekaClip",
+    "sign_up_description": "创建您的 RekaClip 帐户",
     "email_title": "电子邮件",
     "email_placeholder": "输入您的电子邮件地址",
     "password_title": "密码",
     "password_placeholder": "输入您的密码",
     "forgot_password": "忘记密码？",
     "or": "或者",
-    "continue": "继续EasyClaw",
-    "no_account": "EasyClaw 新手？",
+    "continue": "继续RekaClip",
+    "no_account": "RekaClip 新手？",
     "email_sign_in": "使用电子邮件登录",
     "google_sign_in": "继续使用谷歌",
     "github_sign_in": "继续使用 GitHub",
@@ -46,7 +46,7 @@
     "title": "我的订单",
     "no_orders": "没有找到订单",
     "tip": "",
-    "support_tip": "需要计费或取消方面的帮助吗？发送电子邮件至 support@easyclaw.pro。",
+    "support_tip": "需要计费或取消方面的帮助吗？发送电子邮件至 support@rekaclip.homes。",
     "activate_order": "激活订单",
     "actived": "已激活",
     "join_discord": "加入Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "编辑邀请链接",
     "copy_invite_link": "复制邀请链接",
     "invite_code": "邀请码",
-    "invite_tip": "邀请朋友加入 EasyClaw 并赚取奖励。",
+    "invite_tip": "邀请朋友加入 RekaClip 并赚取奖励。",
     "invite_balance": "邀请奖励余额",
     "total_invite_count": "邀请总数",
     "total_paid_count": "付费总数",
@@ -131,7 +131,7 @@
     "submit": "提交",
     "loading": "正在提交...",
     "contact_tip": "其他联系我们的方式",
-    "rating_tip": "您对 EasyClaw 感觉如何？",
+    "rating_tip": "您对 RekaClip 感觉如何？",
     "placeholder": "在这里留下你的话..."
   },
   "outfit_generator": {
@@ -366,7 +366,7 @@
       "failed_to_fetch_deployment_status": "无法获取部署状态"
     },
     "hero": {
-      "title": "EasyClaw - 一键OpenClaw部署",
+      "title": "RekaClip - 一键OpenClaw部署",
       "description": "在 1 分钟内部署 OpenClaw。没有服务器或 DevOps。选择一个模型，连接一个渠道，然后启动。"
     },
     "selectors": {
@@ -377,8 +377,8 @@
     "deploy": {
       "deploying": "正在部署...",
       "deploy_button": "部署",
-      "sign_in_button": "使用 EasyClaw 登录进行部署",
-      "sign_in_hint": "登录以使用 EasyClaw 部署 OpenClaw 并连接您的频道。",
+      "sign_in_button": "使用 RekaClip 登录进行部署",
+      "sign_in_hint": "登录以使用 RekaClip 部署 OpenClaw 并连接您的频道。",
       "status_success": "部署成功！ OpenClaw 正在运行。",
       "model_substitution_warning": "检测到模型替换。尝试重新部署或切换到另一个区域/提供商。",
       "hint_prefix": "连接 Telegram 继续。",
@@ -419,9 +419,9 @@
       "preview_intro": "Discord 机器人已创建。把它邀请进你的服务器后，就可以在频道里回复。",
       "preview_step_1": "创建应用 -> Add Bot",
       "preview_step_2": "开启 Message Content Intent",
-      "preview_user_message": "Hi EasyClaw，你在线吗？",
+      "preview_user_message": "Hi RekaClip，你在线吗？",
       "preview_ready": "在线。你可以直接在 Discord 服务器频道里发消息，我会在那里回复。",
-      "preview_message_input": "发消息给 @EasyClaw Bot"
+      "preview_message_input": "发消息给 @RekaClip Bot"
     }
   }
 }

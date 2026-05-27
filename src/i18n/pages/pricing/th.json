@@ -46,7 +46,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-monthly",
-        "product_name": "EasyClaw เริ่มต้นรายเดือน",
+        "product_name": "RekaClip เริ่มต้นรายเดือน",
         "credits": 1200,
         "valid_months": 1,
         "group": "monthly"
@@ -79,7 +79,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw โปรรายเดือน",
+        "product_name": "RekaClip โปรรายเดือน",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -112,7 +112,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "starter-yearly",
-        "product_name": "EasyClaw เริ่มต้นทุกปี",
+        "product_name": "RekaClip เริ่มต้นทุกปี",
         "credits": 14400,
         "valid_months": 12,
         "group": "yearly"
@@ -145,7 +145,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro เป็นประจำทุกปี",
+        "product_name": "RekaClip Pro เป็นประจำทุกปี",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"

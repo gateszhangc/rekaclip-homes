@@ -8,7 +8,7 @@ source "$ROOT_DIR/scripts/staging/common.sh"
 
 OUTPUT_PATH="${1:-}"
 ENV_SOURCE_PATH="${ENV_SOURCE_PATH:-$ROOT_DIR/.env.production}"
-PRODUCTION_URL="${PRODUCTION_URL:-https://www.easyclaw.pro}"
+PRODUCTION_URL="${PRODUCTION_URL:-https://www.rekaclip.homes}"
 PRODUCTION_BACKEND_BASE_URL="${PRODUCTION_BACKEND_BASE_URL:-http://144.91.66.233:5001}"
 
 [[ -f "$ENV_SOURCE_PATH" ]] || fail "missing env source: $ENV_SOURCE_PATH"

@@ -1,7 +1,7 @@
 -- Add manual payment requests table for Alipay/WeChat QR code payments.
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."manual_payment_requests" (
   "id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
   "order_no" varchar(255) NOT NULL UNIQUE,
   "created_at" timestamp with time zone DEFAULT now() NOT NULL,
@@ -23,11 +23,11 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."manual_payment_requests" (
 );
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_user_uuid_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("user_uuid");
+  ON "rekaclip"."manual_payment_requests" USING btree ("user_uuid");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_status_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("status");
+  ON "rekaclip"."manual_payment_requests" USING btree ("status");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "manual_payment_product_idx"
-  ON "easyclaw"."manual_payment_requests" USING btree ("product_id", "user_uuid")
+  ON "rekaclip"."manual_payment_requests" USING btree ("product_id", "user_uuid")
   WHERE "status" = 'pending';

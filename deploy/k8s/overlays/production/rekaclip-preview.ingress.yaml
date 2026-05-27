@@ -1,24 +1,24 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: easyclaw-staging
-  namespace: easyclaw-staging
+  name: rekaclip-preview
+  namespace: rekaclip
   annotations:
     argocd.argoproj.io/sync-wave: "2"
 spec:
   ingressClassName: nginx
   rules:
-    - host: staging.easyclaw.pro
+    - host: 144.91.77.245.rekaclip.sslip.io
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: easyclaw
+                name: rekaclip
                 port:
                   number: 80
   tls:
-    - secretName: easyclaw-staging-tls
+    - secretName: rekaclip-preview-tls
       hosts:
-        - staging.easyclaw.pro
+        - 144.91.77.245.rekaclip.sslip.io

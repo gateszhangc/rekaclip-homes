@@ -6,8 +6,8 @@ const normalizeSiteUrl = (value: string) => {
   const normalized = value.startsWith("http") ? value : `https://${value}`;
   const url = new URL(normalized);
 
-  if (url.hostname === "easyclaw.pro") {
-    url.hostname = "www.easyclaw.pro";
+  if (url.hostname === "rekaclip.homes") {
+    url.hostname = "www.rekaclip.homes";
   }
 
   return stripTrailingSlash(url.toString());

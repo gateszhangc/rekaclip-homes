@@ -24,7 +24,7 @@ async function testSignInClick() {
       console.log("After-click screenshot: /tmp/test-2-after-click.png");
 
       const modalContentCount = await page
-        .locator("text=/Welcome to EasyClaw|Continue with Google/i")
+        .locator("text=/Welcome to RekaClip|Continue with Google/i")
         .count();
       console.log(
         `   Modal content check: ${

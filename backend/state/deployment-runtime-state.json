@@ -2,163 +2,163 @@
   "80642df1-6a2d-4e52-9145-105627af7b35": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T03:36:32.548Z"
   },
   "1613afcc-604b-422f-a16f-05244a971a40": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T03:41:43.643Z"
   },
   "cb523e43-7b0f-499e-b9f6-1ab0fe3c36b8": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T03:55:10.461Z"
   },
   "7e441dc7-42ff-4b7c-869d-446903919743": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T03:56:23.161Z"
   },
   "dc78157c-a02b-4133-bf2b-d4d3ecdcc215": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T04:39:20.532Z"
   },
   "f6371dad-3f55-4e9f-9400-db6a7ead0069": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T04:52:45.428Z"
   },
   "1efee876-e0d6-4e78-bed0-319fe9761f75": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-04-26T04:59:29.619Z"
   },
   "e53884cd-5325-44f4-b2c8-bf3896acaf97": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T10:12:14.099Z"
   },
   "633f9fcc-5f31-4c36-adb4-85de317192d8": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T10:50:10.351Z"
   },
   "0e2d4330-ded0-4f6b-92cd-b805019bf992": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T10:57:48.596Z"
   },
   "4dca5123-171d-4173-89f6-7a0be9cc73e0": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T11:28:42.054Z"
   },
   "26407135-aa2d-487b-b110-790761faa2bb": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T11:38:38.810Z"
   },
   "7ce4ac40-ddb4-414c-9470-4d83c15c201a": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T11:54:14.250Z"
   },
   "97b677e9-6a4b-4155-956e-a63116f17539": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T12:08:21.405Z"
   },
   "362f20e7-d951-456d-8755-3ac0bb7cc507": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T12:19:03.747Z"
   },
   "fb7c747b-1dc4-49ac-b4d4-c70ab5460212": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T12:19:23.913Z"
   },
   "7c30e122-a687-4001-80ae-9ecf8621c801": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T12:19:48.373Z"
   },
   "48809ddf-799f-4f1c-8284-199efa84299b": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T12:20:06.827Z"
   },
   "739e15c5-6fea-4622-827b-0e2dff7782ec": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T14:29:49.914Z"
   },
   "6a8a4e1c-e65f-498e-8512-aef0e8ecad0d": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T14:30:08.007Z"
   },
   "dfe359c4-1a70-449d-a9cb-f23fab465122": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T14:44:41.137Z"
   },
   "2883f5d4-f39e-4c3c-9da3-5474d3ada165": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-03T15:35:37.867Z"
   },
   "7b632991-12f8-4336-bbcc-bbea4fd12586": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-06T09:01:41.507Z"
   },
   "d8502772-64c5-42fe-8ac4-7fd2d3b82791": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-06T09:01:52.434Z"
   },
   "236b7821-d871-437c-9cd1-d072d3d24d73": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-06T09:23:44.503Z"
   },
   "8ab244db-bd77-4041-8174-bedd04b67548": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-06T09:31:35.821Z"
   },
   "7c9838f1-d6c8-4c29-8e1f-585092aaa239": {
     "provider": "k8s",
     "dockerTargetHost": null,
-    "k8sNamespace": "easyclaw-openclaw",
+    "k8sNamespace": "rekaclip-openclaw",
     "updatedAt": "2026-05-06T09:31:49.695Z"
   }
 }

@@ -75,10 +75,10 @@ export default function Footer({ footer }: { footer: FooterType }) {
             <p className="mb-2 text-sm text-muted-foreground">
               support:{" "}
               <a
-                href="mailto:support@easyclaw.pro"
+                href="mailto:support@rekaclip.homes"
                 className="hover:text-primary transition-colors"
               >
-                support@easyclaw.pro
+                support@rekaclip.homes
               </a>
             </p>
             {footer.disclaimer && (

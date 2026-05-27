@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - OpenClaw 1 நிமிடத்திற்குள் பயன்படுத்தவும்",
-    "description": "OpenClaw உடன் EasyClaw ஐ ஒரே கிளிக்கில் பயன்படுத்தவும். Telegram ஐ இணைத்து, மாதிரியைத் தேர்ந்தெடுத்து, விரைவாக நேரலைக்குச் செல்லவும்.",
+    "title": "RekaClip - OpenClaw 1 நிமிடத்திற்குள் பயன்படுத்தவும்",
+    "description": "OpenClaw உடன் RekaClip ஐ ஒரே கிளிக்கில் பயன்படுத்தவும். Telegram ஐ இணைத்து, மாதிரியைத் தேர்ந்தெடுத்து, விரைவாக நேரலைக்குச் செல்லவும்.",
     "keywords": "ஈஸிக்லா, ஓப்பன்க்லாவை வரிசைப்படுத்துதல், ஓபன் கிளா ஹோஸ்டிங், டெலிகிராம் பாட் வரிசைப்படுத்தல், ஏஐ அசிஸ்டெண்ட் வரிசைப்படுத்தல்"
   },
   "blog": {
     "title": "வலைப்பதிவு",
-    "description": "EasyClaw உடன் OpenClaw ஐப் பயன்படுத்துவது பற்றிய செய்திகள், பயிற்சிகள் மற்றும் புதுப்பிப்புகள்.",
+    "description": "RekaClip உடன் OpenClaw ஐப் பயன்படுத்துவது பற்றிய செய்திகள், பயிற்சிகள் மற்றும் புதுப்பிப்புகள்.",
     "read_more_text": "மேலும் படிக்க"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "நிர்வாக மையம்"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw இல் உள்நுழையவும்",
-    "sign_in_description": "OpenClaw ஐ வரிசைப்படுத்தவும் நிர்வகிக்கவும் உங்கள் EasyClaw கணக்கை அணுகவும்.",
-    "sign_up_title": "EasyClaw இல் சேரவும்",
-    "sign_up_description": "உங்கள் EasyClaw கணக்கை உருவாக்கவும்",
+    "sign_in_title": "RekaClip இல் உள்நுழையவும்",
+    "sign_in_description": "OpenClaw ஐ வரிசைப்படுத்தவும் நிர்வகிக்கவும் உங்கள் RekaClip கணக்கை அணுகவும்.",
+    "sign_up_title": "RekaClip இல் சேரவும்",
+    "sign_up_description": "உங்கள் RekaClip கணக்கை உருவாக்கவும்",
     "email_title": "மின்னஞ்சல்",
     "email_placeholder": "உங்கள் மின்னஞ்சல் முகவரியை உள்ளிடவும்",
     "password_title": "கடவுச்சொல்",
     "password_placeholder": "உங்கள் கடவுச்சொல்லை உள்ளிடவும்",
     "forgot_password": "கடவுச்சொல் மறந்துவிட்டதா?",
     "or": "அல்லது",
-    "continue": "EasyClaw க்கு தொடரவும்",
-    "no_account": "EasyClawக்கு புதியதா?",
+    "continue": "RekaClip க்கு தொடரவும்",
+    "no_account": "RekaClipக்கு புதியதா?",
     "email_sign_in": "மின்னஞ்சல் மூலம் உள்நுழையவும்",
     "google_sign_in": "Google உடன் தொடரவும்",
     "github_sign_in": "GitHub உடன் தொடரவும்",
@@ -46,7 +46,7 @@
     "title": "எனது ஆர்டர்கள்",
     "no_orders": "ஆர்டர்கள் எதுவும் இல்லை",
     "tip": "",
-    "support_tip": "பில்லிங் அல்லது ரத்து செய்ய உதவி தேவையா? மின்னஞ்சல் support@easyclaw.pro.",
+    "support_tip": "பில்லிங் அல்லது ரத்து செய்ய உதவி தேவையா? மின்னஞ்சல் support@rekaclip.homes.",
     "activate_order": "ஆர்டரைச் செயல்படுத்தவும்",
     "actived": "செயல்படுத்தப்பட்டது",
     "join_discord": "Discord இல் சேரவும்",
@@ -105,7 +105,7 @@
     "edit_invite_link": "அழைப்பு இணைப்பைத் திருத்தவும்",
     "copy_invite_link": "அழைப்பு இணைப்பை நகலெடுக்கவும்",
     "invite_code": "அழைப்பு குறியீடு",
-    "invite_tip": "EasyClaw க்கு நண்பர்களை அழைத்து வெகுமதிகளைப் பெறுங்கள்.",
+    "invite_tip": "RekaClip க்கு நண்பர்களை அழைத்து வெகுமதிகளைப் பெறுங்கள்.",
     "invite_balance": "வெகுமதி இருப்பை அழைக்கவும்",
     "total_invite_count": "மொத்த அழைப்பு எண்ணிக்கை",
     "total_paid_count": "மொத்த கட்டண எண்ணிக்கை",
@@ -131,7 +131,7 @@
     "submit": "சமர்ப்பிக்கவும்",
     "loading": "சமர்ப்பிக்கிறது...",
     "contact_tip": "எங்களைத் தொடர்புகொள்வதற்கான பிற வழிகள்",
-    "rating_tip": "EasyClaw பற்றி நீங்கள் எப்படி உணருகிறீர்கள்?",
+    "rating_tip": "RekaClip பற்றி நீங்கள் எப்படி உணருகிறீர்கள்?",
     "placeholder": "உங்கள் வார்த்தைகளை இங்கே விடுங்கள்..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - ஒரு கிளிக் OpenClaw வரிசைப்படுத்தல்",
+      "title": "RekaClip - ஒரு கிளிக் OpenClaw வரிசைப்படுத்தல்",
       "description": "OpenClawஐ 1 நிமிடத்திற்குள் பயன்படுத்தவும். சர்வர்கள் அல்லது DevOps இல்லை. ஒரு மாதிரியைத் தேர்ந்தெடுத்து, சேனலை இணைத்து, தொடங்கவும்."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "வரிசைப்படுத்துகிறது...",
       "deploy_button": "வரிசைப்படுத்து",
-      "sign_in_button": "EasyClaw உடன் பயன்படுத்த உள்நுழையவும்",
-      "sign_in_hint": "EasyClaw உடன் OpenClaw பயன்படுத்த உள்நுழைந்து உங்கள் சேனல்களை இணைக்கவும்.",
+      "sign_in_button": "RekaClip உடன் பயன்படுத்த உள்நுழையவும்",
+      "sign_in_hint": "RekaClip உடன் OpenClaw பயன்படுத்த உள்நுழைந்து உங்கள் சேனல்களை இணைக்கவும்.",
       "status_success": "வரிசைப்படுத்தல் வெற்றி! OpenClaw இப்போது இயங்குகிறது.",
       "model_substitution_warning": "மாதிரி மாற்றீடு கண்டறியப்பட்டது. மீண்டும் வரிசைப்படுத்த முயற்சிக்கவும் அல்லது வேறொரு பிராந்தியம்/வழங்கலுக்கு மாறவும்.",
       "hint_prefix": "தொடர Telegram ஐ இணைக்கவும்.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

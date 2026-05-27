@@ -362,7 +362,7 @@ export default function Pricing({
   }
 
   const description = pricing.description
-    ?.replace(/\s*Support:\s*support@easyclaw\.pro\.?/i, "")
+    ?.replace(/\s*Support:\s*support@rekaclip\.homes\.?/i, "")
     .trim();
 
   const checkoutPaused =

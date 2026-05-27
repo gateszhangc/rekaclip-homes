@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "Logo EasyClaw"
+      "alt": "Logo RekaClip"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "Créez des œuvres d'art de haute qualité",
     "description": "Téléchargez un portrait, choisissez un style et obtenez une caricature épurée pour vos avatars, vos cadeaux ou votre contenu.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "Choisissez un modèle",
         "description": "Claude, GPT, Gemini — choisissez le meilleur modèle pour chaque tâche. Travail créatif avec Claude, analyse avec GPT. Changez à tout moment.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "Choisissez le modèle AI - Claude, GPT ou Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "Connecter une chaîne",
         "description": "Telegram, Discord, WhatsApp — un tableau de bord pour tous les canaux. Gérez toutes les conversations à partir d'un seul endroit, plus besoin de changer d'application.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "Connectez les canaux de messagerie"
         }
       },
@@ -242,7 +242,7 @@
         "title": "Déployer et démarrer",
         "description": "Votre assistant IA est en ligne en 60 secondes. Envoyez votre premier message et commencez à automatiser.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "Déployez et démarrez votre assistant"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "Dites adieu aux tracas",
-    "description": "Découvrez ce qui change lorsque vous passez à EasyClaw",
+    "description": "Découvrez ce qui change lorsque vous passez à RekaClip",
     "before_label": "Configuration traditionnelle",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "Louer des serveurs, configurer des environnements",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "Pourquoi les équipes choisissent EasyClaw",
+    "title": "Pourquoi les équipes choisissent RekaClip",
     "description": "Déploiement prêt pour la production sans surcharge DevOps. Zéro maintenance, concentration maximale.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "Briefings quotidiens",
         "description": "Transformez les messages et les mises à jour en un briefing matinal concis pour votre équipe.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "Workflow d'automatisation des briefings quotidiens"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "Assistante Support Client",
         "description": "Acheminez les questions, rédigez les réponses et maintenez les canaux d'assistance réactifs.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "Flux de travail d'automatisation du support client"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "Automatisation des opérations d'équipe",
         "description": "Automatisez les rappels, les rapports d'état et les suivis de routine sur tous les canaux.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "Flux de travail d'automatisation des opérations d'équipe"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "FAQ",
     "title": "Questions courantes",
-    "description": "Tout ce dont vous avez besoin avant de déployer OpenClaw avec EasyClaw.",
+    "description": "Tout ce dont vous avez besoin avant de déployer OpenClaw avec RekaClip.",
     "items": [
       {
-        "title": "Combien coûte EasyClaw ?",
+        "title": "Combien coûte RekaClip ?",
         "description": "Les forfaits commencent à 10 $/mois. Annulez à tout moment depuis votre compte."
       },
       {
         "title": "Dois-je gérer des serveurs ?",
-        "description": "Non. EasyClaw rationalise le flux de travail de déploiement afin que vous puissiez lancer OpenClaw sans serveurs ni DevOps."
+        "description": "Non. RekaClip rationalise le flux de travail de déploiement afin que vous puissiez lancer OpenClaw sans serveurs ni DevOps."
       },
       {
         "title": "Quels modèles sont pris en charge ?",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "Le moyen le plus simple de déployer l'assistant OpenClaw AI.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • easyclaw. Tous droits réservés.",
+    "copyright": "© 2026 • RekaClip. Tous droits réservés.",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "Assistance par e-mail",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw est un produit indépendant et n'est affilié à aucun fournisseur de modèles tiers ou propriétaire de marque.",
+    "disclaimer": "RekaClip est un produit indépendant et n'est affilié à aucun fournisseur de modèles tiers ou propriétaire de marque.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro Mensuel",
+        "product_name": "RekaClip Pro Mensuel",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw Prime mensuelle",
+        "product_name": "RekaClip Prime mensuelle",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro Annuellement",
+        "product_name": "RekaClip Pro Annuellement",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw Prime annuelle",
+        "product_name": "RekaClip Prime annuelle",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

@@ -1,7 +1,7 @@
 -- Add waitlist table for subscription capacity overflow.
-CREATE SCHEMA IF NOT EXISTS "easyclaw";
+CREATE SCHEMA IF NOT EXISTS "rekaclip";
 --> statement-breakpoint
-CREATE TABLE IF NOT EXISTS "easyclaw"."waitlist" (
+CREATE TABLE IF NOT EXISTS "rekaclip"."waitlist" (
   "id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
   "email" varchar(255) NOT NULL,
   "created_at" timestamp with time zone DEFAULT now() NOT NULL,
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS "easyclaw"."waitlist" (
 );
 --> statement-breakpoint
 CREATE UNIQUE INDEX IF NOT EXISTS "waitlist_email_unique_idx"
-  ON "easyclaw"."waitlist" USING btree ("email");
+  ON "rekaclip"."waitlist" USING btree ("email");
 --> statement-breakpoint
 CREATE INDEX IF NOT EXISTS "waitlist_status_idx"
-  ON "easyclaw"."waitlist" USING btree ("status");
+  ON "rekaclip"."waitlist" USING btree ("status");

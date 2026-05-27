@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClawのロゴ"
+      "alt": "RekaClipのロゴ"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "高品質のアートを作成する",
     "description": "ポートレートをアップロードし、スタイルを選択し、アバター、ギフト、またはコンテンツ用のきれいな似顔絵を取得します。",
     "features": [
@@ -226,7 +226,7 @@
         "title": "モデルを選択してください",
         "description": "Claude、GPT、Gemini — 各タスクに最適なモデルを選択します。 Claudeでクリエイティブ作業、GPTで分析。いつでも切り替えることができます。",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "AI モデルを選択します - Claude、GPT、または Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "チャンネルを接続する",
         "description": "Telegram、Discord、WhatsApp — すべてのチャネルに 1 つのダッシュボード。すべての会話を 1 か所から管理できるため、アプリを切り替える必要はありません。",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "メッセージング チャネルを接続する"
         }
       },
@@ -242,7 +242,7 @@
         "title": "デプロイして開始する",
         "description": "AI アシスタントは 60 秒以内にオンラインになります。最初のメッセージを送信して自動化を開始します。",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "アシスタントをデプロイして開始する"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "面倒なことに別れを告げましょう",
-    "description": "EasyClaw に切り替えると何が変わるかを確認してください",
+    "description": "RekaClip に切り替えると何が変わるかを確認してください",
     "before_label": "従来のセットアップ",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "サーバーをレンタルし、環境を構成する",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "チームが EasyClaw を選ぶ理由",
+    "title": "チームが RekaClip を選ぶ理由",
     "description": "DevOps のオーバーヘッドを発生させずに本番環境に対応できるデプロイメント。メンテナンス不要で最大限の集中力。",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "毎日のブリーフィング",
         "description": "メッセージと最新情報をチーム向けの簡潔な朝のブリーフに変えます。",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "毎日のブリーフィングの自動化ワークフロー"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "カスタマーサポートアシスタント",
         "description": "質問や返信の下書きを転送し、サポート チャネルの応答性を維持します。",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "カスタマーサポート自動化ワークフロー"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "チームオペレーションの自動化",
         "description": "リマインダー、ステータスレポート、チャネル全体の日常的なフォローアップを自動化します。",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "チーム運用自動化ワークフロー"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "よくある質問",
     "title": "よくある質問",
-    "description": "EasyClaw を使用して OpenClaw を展開する前に必要なものがすべて揃っています。",
+    "description": "RekaClip を使用して OpenClaw を展開する前に必要なものがすべて揃っています。",
     "items": [
       {
-        "title": "EasyClawの価格はいくらですか?",
+        "title": "RekaClipの価格はいくらですか?",
         "description": "プランは月額 10 ドルから始まります。アカウントからいつでもキャンセルできます。"
       },
       {
         "title": "サーバーを管理する必要がありますか?",
-        "description": "いいえ。EasyClaw は展開ワークフローを合理化するため、サーバーや DevOps なしで OpenClaw を起動できます。"
+        "description": "いいえ。RekaClip は展開ワークフローを合理化するため、サーバーや DevOps なしで OpenClaw を起動できます。"
       },
       {
         "title": "どのモデルがサポートされていますか?",
@@ -541,11 +541,11 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "OpenClaw AI アシスタントを導入する最も簡単な方法。",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -584,12 +584,12 @@
         {
           "title": "電子メールサポート",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw は独立した製品であり、サードパーティのモデルプロバイダーや商標所有者とは提携していません。",
+    "disclaimer": "RekaClip は独立した製品であり、サードパーティのモデルプロバイダーや商標所有者とは提携していません。",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw プロ マンスリー",
+        "product_name": "RekaClip プロ マンスリー",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw プレミアムマンスリー",
+        "product_name": "RekaClip プレミアムマンスリー",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro 毎年",
+        "product_name": "RekaClip Pro 毎年",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw プレミアム年間",
+        "product_name": "RekaClip プレミアム年間",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

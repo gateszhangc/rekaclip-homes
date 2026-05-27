@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - 1분 이내에 OpenClaw 배포",
-    "description": "한 번의 클릭으로 EasyClaw와 함께 OpenClaw를 배포하세요. Telegram를 연결하고, 모델을 선택하고, 빠르게 시작하세요.",
-    "keywords": "easyclaw, openclaw 배포, openclaw 호스팅, 텔레그램 봇 배포, AI 보조 배포"
+    "title": "RekaClip - 1분 이내에 OpenClaw 배포",
+    "description": "한 번의 클릭으로 RekaClip와 함께 OpenClaw를 배포하세요. Telegram를 연결하고, 모델을 선택하고, 빠르게 시작하세요.",
+    "keywords": "rekaclip, openclaw 배포, openclaw 호스팅, 텔레그램 봇 배포, AI 보조 배포"
   },
   "blog": {
     "title": "블로그",
-    "description": "EasyClaw를 사용하여 OpenClaw 배포에 대한 뉴스, 튜토리얼 및 업데이트입니다.",
+    "description": "RekaClip를 사용하여 OpenClaw 배포에 대한 뉴스, 튜토리얼 및 업데이트입니다.",
     "read_more_text": "자세히 알아보기"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "관리 센터"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw에 로그인",
-    "sign_in_description": "EasyClaw 계정에 액세스하여 OpenClaw를 배포하고 관리하세요.",
-    "sign_up_title": "EasyClaw에 가입하세요",
-    "sign_up_description": "EasyClaw 계정 만들기",
+    "sign_in_title": "RekaClip에 로그인",
+    "sign_in_description": "RekaClip 계정에 액세스하여 OpenClaw를 배포하고 관리하세요.",
+    "sign_up_title": "RekaClip에 가입하세요",
+    "sign_up_description": "RekaClip 계정 만들기",
     "email_title": "이메일",
     "email_placeholder": "이메일 주소를 입력하세요",
     "password_title": "비밀번호",
     "password_placeholder": "비밀번호를 입력하세요",
     "forgot_password": "비밀번호를 잊으셨나요?",
     "or": "아니면",
-    "continue": "EasyClaw로 계속",
-    "no_account": "EasyClaw를 처음 사용하시나요?",
+    "continue": "RekaClip로 계속",
+    "no_account": "RekaClip를 처음 사용하시나요?",
     "email_sign_in": "이메일로 로그인",
     "google_sign_in": "Google로 계속하기",
     "github_sign_in": "GitHub로 계속하기",
@@ -46,7 +46,7 @@
     "title": "내 주문",
     "no_orders": "주문을 찾을 수 없습니다.",
     "tip": "",
-    "support_tip": "청구 또는 취소에 도움이 필요하십니까? support@easyclaw.pro로 이메일을 보내세요.",
+    "support_tip": "청구 또는 취소에 도움이 필요하십니까? support@rekaclip.homes로 이메일을 보내세요.",
     "activate_order": "주문 활성화",
     "actived": "활성화됨",
     "join_discord": "Discord에 가입하세요",
@@ -105,7 +105,7 @@
     "edit_invite_link": "초대 링크 편집",
     "copy_invite_link": "초대링크 복사",
     "invite_code": "코드 초대",
-    "invite_tip": "EasyClaw에 친구를 초대하고 보상을 받으세요.",
+    "invite_tip": "RekaClip에 친구를 초대하고 보상을 받으세요.",
     "invite_balance": "초대 보상 잔액",
     "total_invite_count": "총 초대 수",
     "total_paid_count": "총 지불 횟수",
@@ -131,7 +131,7 @@
     "submit": "제출",
     "loading": "제출 중...",
     "contact_tip": "우리에게 연락하는 다른 방법",
-    "rating_tip": "EasyClaw에 대해 어떻게 생각하세요?",
+    "rating_tip": "RekaClip에 대해 어떻게 생각하세요?",
     "placeholder": "여기에 말씀을 남겨주세요..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - 원클릭 OpenClaw 배포",
+      "title": "RekaClip - 원클릭 OpenClaw 배포",
       "description": "1분 안에 OpenClaw를 배포하세요. 서버나 DevOps가 없습니다. 모델을 선택하고 채널을 연결한 후 출시하세요."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "배포 중...",
       "deploy_button": "배포",
-      "sign_in_button": "EasyClaw로 배포하려면 로그인하세요.",
-      "sign_in_hint": "EasyClaw로 OpenClaw를 배포하고 채널을 연결하려면 로그인하세요.",
+      "sign_in_button": "RekaClip로 배포하려면 로그인하세요.",
+      "sign_in_hint": "RekaClip로 OpenClaw를 배포하고 채널을 연결하려면 로그인하세요.",
       "status_success": "배포 성공! 이제 OpenClaw가 실행 중입니다.",
       "model_substitution_warning": "모델 대체가 감지되었습니다. 재배포를 시도하거나 다른 지역/공급업체로 전환하세요.",
       "hint_prefix": "계속하려면 Telegram를 연결하세요.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

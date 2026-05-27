@@ -286,7 +286,7 @@ test("homepage whatsapp deploy flow only refreshes on demand and treats connecte
       },
     ],
     target: {
-      namespace: "easyclaw-openclaw",
+      namespace: "rekaclip-openclaw",
       deployment: "openclaw-whatsapp-deployment",
       pod: "openclaw-whatsapp-deployment-abc",
       container: "openclaw",

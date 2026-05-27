@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "Logo EasyClaw"
+      "alt": "Logo RekaClip"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "Ciptakan Seni Berkualitas Tinggi",
     "description": "Unggah potret, pilih gaya, dan dapatkan karikatur yang rapi untuk avatar, hadiah, atau konten.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "Pilih model",
         "description": "Claude, GPT, Gemini — pilih model terbaik untuk setiap tugas. Karya kreatif dengan Claude, analisis dengan GPT. Beralih kapan saja.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "Pilih model AI - Claude, GPT, atau Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "Hubungkan saluran",
         "description": "Telegram, Discord, WhatsApp — satu dasbor untuk semua saluran. Kelola semua percakapan dari satu tempat, tidak perlu lagi berpindah aplikasi.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "Hubungkan saluran perpesanan"
         }
       },
@@ -242,7 +242,7 @@
         "title": "Terapkan dan mulai",
         "description": "Asisten AI Anda online dalam 60 detik. Kirim pesan pertama Anda dan mulai otomatisasi.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "Terapkan dan mulai asisten Anda"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "Ucapkan selamat tinggal pada kerumitannya",
-    "description": "Lihat perubahan apa yang terjadi saat Anda beralih ke EasyClaw",
+    "description": "Lihat perubahan apa yang terjadi saat Anda beralih ke RekaClip",
     "before_label": "Pengaturan Tradisional",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "Sewa server, konfigurasikan lingkungan",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "Mengapa tim memilih EasyClaw",
+    "title": "Mengapa tim memilih RekaClip",
     "description": "Penerapan siap produksi tanpa overhead DevOps. Tanpa perawatan, fokus maksimal.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "Pengarahan Harian",
         "description": "Ubah pesan dan pembaruan menjadi ringkasan pagi yang ringkas untuk tim Anda.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "Alur kerja otomatisasi pengarahan harian"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "Asisten Dukungan Pelanggan",
         "description": "Arahkan pertanyaan, draf balasan, dan pertahankan saluran dukungan tetap responsif.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "Alur kerja otomatisasi dukungan pelanggan"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "Otomatisasi Operasi Tim",
         "description": "Otomatiskan pengingat, laporan status, dan tindak lanjut rutin di seluruh saluran.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "Alur kerja otomatisasi operasi tim"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "Pertanyaan Umum",
     "title": "Pertanyaan Umum",
-    "description": "Semua yang Anda perlukan sebelum menerapkan OpenClaw dengan EasyClaw.",
+    "description": "Semua yang Anda perlukan sebelum menerapkan OpenClaw dengan RekaClip.",
     "items": [
       {
-        "title": "Berapa biaya EasyClaw?",
+        "title": "Berapa biaya RekaClip?",
         "description": "Paket mulai dari $10/bulan. Batalkan kapan saja dari akun Anda."
       },
       {
         "title": "Apakah saya perlu mengelola server?",
-        "description": "Tidak. EasyClaw menyederhanakan alur kerja penerapan sehingga Anda dapat meluncurkan OpenClaw tanpa server atau DevOps."
+        "description": "Tidak. RekaClip menyederhanakan alur kerja penerapan sehingga Anda dapat meluncurkan OpenClaw tanpa server atau DevOps."
       },
       {
         "title": "Model mana yang didukung?",
@@ -541,11 +541,11 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "Cara termudah untuk menggunakan asisten AI OpenClaw.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -584,12 +584,12 @@
         {
           "title": "Dukungan Email",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw adalah produk independen dan tidak berafiliasi dengan penyedia model pihak ketiga atau pemilik merek dagang mana pun.",
+    "disclaimer": "RekaClip adalah produk independen dan tidak berafiliasi dengan penyedia model pihak ketiga atau pemilik merek dagang mana pun.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro Bulanan",
+        "product_name": "RekaClip Pro Bulanan",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw Premium Bulanan",
+        "product_name": "RekaClip Premium Bulanan",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro Setiap Tahun",
+        "product_name": "RekaClip Pro Setiap Tahun",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw Premium Setiap Tahun",
+        "product_name": "RekaClip Premium Setiap Tahun",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

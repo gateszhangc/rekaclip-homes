@@ -36,8 +36,8 @@ type DeploymentSql = {
 
 const DEPLOYMENT_ACTIVE_SEAT_UNIQUE_INDEX =
   "uniq_public_deployments_subscription_order_active_seat";
-const DEPLOYMENTS_TABLE = "easyclaw.deployments";
-const DEPLOYMENTS_SCHEMA = "easyclaw";
+const DEPLOYMENTS_TABLE = "rekaclip.deployments";
+const DEPLOYMENTS_SCHEMA = "rekaclip";
 const DEPLOYMENTS_TABLE_NAME = "deployments";
 const DEPLOYMENTS_ACCOUNT_ID_COLUMN = "account_id";
 const LEGACY_DEPLOY_CHANNEL: DeployChannel = "telegram";
@@ -45,7 +45,7 @@ const LEGACY_DISCORD_TOKEN_PREFIX = "discord:";
 const LEGACY_TELEGRAM_TOKEN_PREFIX = "telegram:";
 const LEGACY_WHATSAPP_TOKEN_PREFIX = "whatsapp:";
 export const WHATSAPP_CHANNEL_TOKEN_PLACEHOLDER =
-  "__easyclaw_whatsapp_placeholder__";
+  "__rekaclip_whatsapp_placeholder__";
 export const DEPLOYMENT_SEAT_UNAVAILABLE_ERROR_CODE =
   "DEPLOYMENT_SEAT_UNAVAILABLE";
 

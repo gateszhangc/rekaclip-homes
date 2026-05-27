@@ -10,10 +10,10 @@ import {
   uuid,
 } from "drizzle-orm/pg-core";
 
-export const easyclawSchema = pgSchema("easyclaw");
+export const rekaclipSchema = pgSchema("rekaclip");
 
 // Users table
-export const users = easyclawSchema.table(
+export const users = rekaclipSchema.table(
   "users",
   {
     id: integer().primaryKey().generatedAlwaysAsIdentity(),
@@ -41,7 +41,7 @@ export const users = easyclawSchema.table(
 );
 
 // Orders table
-export const orders = easyclawSchema.table("orders", {
+export const orders = rekaclipSchema.table("orders", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   order_no: varchar({ length: 255 }).notNull().unique(),
   created_at: timestamp({ withTimezone: true }),
@@ -70,7 +70,7 @@ export const orders = easyclawSchema.table("orders", {
 });
 
 // Waitlist table
-export const waitlist = easyclawSchema.table(
+export const waitlist = rekaclipSchema.table(
   "waitlist",
   {
     id: uuid("id").primaryKey().defaultRandom(),
@@ -83,7 +83,7 @@ export const waitlist = easyclawSchema.table(
 );
 
 // API Keys table
-export const apikeys = easyclawSchema.table("apikeys", {
+export const apikeys = rekaclipSchema.table("apikeys", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   api_key: varchar({ length: 255 }).notNull().unique(),
   title: varchar({ length: 100 }),
@@ -93,7 +93,7 @@ export const apikeys = easyclawSchema.table("apikeys", {
 });
 
 // Credits table
-export const credits = easyclawSchema.table("credits", {
+export const credits = rekaclipSchema.table("credits", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   trans_no: varchar({ length: 255 }).notNull().unique(),
   created_at: timestamp({ withTimezone: true }),
@@ -105,7 +105,7 @@ export const credits = easyclawSchema.table("credits", {
 });
 
 // Posts table
-export const posts = easyclawSchema.table("posts", {
+export const posts = rekaclipSchema.table("posts", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   uuid: varchar({ length: 255 }).notNull().unique(),
   slug: varchar({ length: 255 }),
@@ -122,7 +122,7 @@ export const posts = easyclawSchema.table("posts", {
 });
 
 // Affiliates table
-export const affiliates = easyclawSchema.table("affiliates", {
+export const affiliates = rekaclipSchema.table("affiliates", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   user_uuid: varchar({ length: 255 }).notNull(),
   created_at: timestamp({ withTimezone: true }),
@@ -135,7 +135,7 @@ export const affiliates = easyclawSchema.table("affiliates", {
 });
 
 // Feedbacks table
-export const feedbacks = easyclawSchema.table("feedbacks", {
+export const feedbacks = rekaclipSchema.table("feedbacks", {
   id: integer().primaryKey().generatedAlwaysAsIdentity(),
   created_at: timestamp({ withTimezone: true }),
   status: varchar({ length: 50 }),
@@ -145,7 +145,7 @@ export const feedbacks = easyclawSchema.table("feedbacks", {
 });
 
 // Wallpapers table
-export const wallpapers = easyclawSchema.table("wallpapers", {
+export const wallpapers = rekaclipSchema.table("wallpapers", {
   id: serial("id").primaryKey(),
   uuid: varchar({ length: 255 }).notNull().unique(),
   user_uuid: varchar({ length: 255 }),
@@ -156,7 +156,7 @@ export const wallpapers = easyclawSchema.table("wallpapers", {
 });
 
 // Outfits table
-export const outfits = easyclawSchema.table("outfits", {
+export const outfits = rekaclipSchema.table("outfits", {
   id: serial("id").primaryKey(),
   uuid: varchar({ length: 255 }).notNull().unique(),
   user_uuid: varchar({ length: 255 }),
@@ -168,7 +168,7 @@ export const outfits = easyclawSchema.table("outfits", {
 });
 
 // Error Logs table
-export const errorLogs = easyclawSchema.table("error_logs", {
+export const errorLogs = rekaclipSchema.table("error_logs", {
   id: serial("id").primaryKey(),
   request_id: varchar({ length: 255 }).notNull(),
   user_id: varchar({ length: 255 }),
@@ -179,7 +179,7 @@ export const errorLogs = easyclawSchema.table("error_logs", {
 });
 
 // Deployments table (for OpenClaw deployment feature)
-export const deployments = easyclawSchema.table("deployments", {
+export const deployments = rekaclipSchema.table("deployments", {
   id: uuid("id").primaryKey().defaultRandom(),
   user_id: varchar({ length: 255 }).notNull(),
   account_id: uuid("account_id"),
@@ -201,7 +201,7 @@ export const deployments = easyclawSchema.table("deployments", {
 });
 
 // Account Pool table (for OpenAI account management)
-export const accountPool = easyclawSchema.table("account_pool", {
+export const accountPool = rekaclipSchema.table("account_pool", {
   id: uuid("id").primaryKey().defaultRandom(),
   access_token_encrypted: text("access_token_encrypted").notNull(),
   refresh_token_encrypted: text("refresh_token_encrypted").notNull(),
@@ -219,7 +219,7 @@ export const accountPool = easyclawSchema.table("account_pool", {
 });
 
 // Account unbind logs (for audit)
-export const accountUnbindLogs = easyclawSchema.table("account_unbind_logs", {
+export const accountUnbindLogs = rekaclipSchema.table("account_unbind_logs", {
   id: uuid("id").primaryKey().defaultRandom(),
   account_id: uuid("account_id").notNull(),
   previous_user_id: varchar("previous_user_id", { length: 255 }).notNull(),
@@ -229,7 +229,7 @@ export const accountUnbindLogs = easyclawSchema.table("account_unbind_logs", {
 });
 
 // Manual payment requests (for Alipay/WeChat QR code payments)
-export const manualPaymentRequests = easyclawSchema.table("manual_payment_requests", {
+export const manualPaymentRequests = rekaclipSchema.table("manual_payment_requests", {
   id: uuid("id").primaryKey().defaultRandom(),
   order_no: varchar("order_no", { length: 255 }).notNull().unique(),
   created_at: timestamp("created_at", { withTimezone: true }).defaultNow(),

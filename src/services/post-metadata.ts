@@ -1,6 +1,6 @@
-const POST_META_MARKER = "easyclawmart:post-meta";
+const POST_META_MARKER = "rekaclipmart:post-meta";
 const POST_META_REGEX =
-  /^\s*<!--\s+easyclawmart:post-meta\s+({[\s\S]+?})\s+-->\s*/;
+  /^\s*<!--\s+rekaclipmart:post-meta\s+({[\s\S]+?})\s+-->\s*/;
 
 export type PostContentMeta = {
   tags?: string[];

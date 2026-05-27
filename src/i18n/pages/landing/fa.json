@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "آرم EasyClaw"
+      "alt": "آرم RekaClip"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "ایجاد هنر با کیفیت بالا",
     "description": "یک پرتره آپلود کنید، یک سبک انتخاب کنید و یک کاریکاتور تمیز برای آواتارها، هدایا یا محتوا دریافت کنید.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "یک مدل انتخاب کنید",
         "description": "Claude، GPT، Gemini - بهترین مدل را برای هر کار انتخاب کنید. کار خلاقانه با Claude، تجزیه و تحلیل با GPT. در هر زمان تغییر دهید.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "مدل هوش مصنوعی را انتخاب کنید - Claude، GPT، یا Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "یک کانال را وصل کنید",
         "description": "Telegram، Discord، WhatsApp - یک داشبورد برای همه کانال ها. همه مکالمات را از یک مکان مدیریت کنید، بدون تغییر برنامه دیگر.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "کانال های پیام رسانی را وصل کنید"
         }
       },
@@ -242,7 +242,7 @@
         "title": "مستقر و شروع کنید",
         "description": "دستیار هوش مصنوعی شما در 60 ثانیه آنلاین می شود. اولین پیام خود را ارسال کنید و شروع به خودکارسازی کنید.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "دستیار خود را مستقر کرده و راه اندازی کنید"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "با دردسر خداحافظی کنید",
-    "description": "ببینید با تغییر به EasyClaw چه تغییری می کند",
+    "description": "ببینید با تغییر به RekaClip چه تغییری می کند",
     "before_label": "راه اندازی سنتی",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "سرورها را اجاره کنید، محیط ها را پیکربندی کنید",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "چرا تیم ها EasyClaw را انتخاب می کنند",
+    "title": "چرا تیم ها RekaClip را انتخاب می کنند",
     "description": "استقرار آماده تولید بدون سربار DevOps. تعمیر و نگهداری صفر، حداکثر تمرکز.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "جلسات توجیهی روزانه",
         "description": "پیام ها و به روز رسانی ها را به یک خلاصه صبحگاهی مختصر برای تیم خود تبدیل کنید.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "گردش کار اتوماسیون جلسات توجیهی روزانه"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "دستیار پشتیبانی مشتری",
         "description": "مسیریابی سوالات، پیش نویس پاسخ ها، و پاسخگو نگه داشتن کانال های پشتیبانی.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "گردش کار اتوماسیون پشتیبانی مشتری"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "اتوماسیون عملیات تیم",
         "description": "یادآوری‌ها، گزارش‌های وضعیت و پیگیری‌های معمول در کانال‌ها را خودکار کنید.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "گردش کار اتوماسیون عملیات تیم"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "سوالات متداول",
     "title": "سوالات متداول",
-    "description": "همه چیزهایی که قبل از استقرار OpenClaw با EasyClaw نیاز دارید.",
+    "description": "همه چیزهایی که قبل از استقرار OpenClaw با RekaClip نیاز دارید.",
     "items": [
       {
-        "title": "هزینه EasyClaw چقدر است؟",
+        "title": "هزینه RekaClip چقدر است؟",
         "description": "برنامه ها از 10 دلار در ماه شروع می شوند. هر زمان خواستید از حساب خود لغو کنید."
       },
       {
         "title": "آیا باید سرورها را مدیریت کنم؟",
-        "description": "خیر. EasyClaw گردش کار استقرار را ساده می کند تا بتوانید OpenClaw را بدون سرور یا DevOps راه اندازی کنید."
+        "description": "خیر. RekaClip گردش کار استقرار را ساده می کند تا بتوانید OpenClaw را بدون سرور یا DevOps راه اندازی کنید."
       },
       {
         "title": "کدام مدل ها پشتیبانی می شوند؟",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "ساده ترین راه برای استقرار دستیار هوش مصنوعی OpenClaw.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • easyclaw. تمامی حقوق محفوظ است.",
+    "copyright": "© 2026 • RekaClip. تمامی حقوق محفوظ است.",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "پشتیبانی ایمیل",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw یک محصول مستقل است و به هیچ ارائه دهنده مدل شخص ثالث یا صاحبان علامت تجاری وابسته نیست.",
+    "disclaimer": "RekaClip یک محصول مستقل است و به هیچ ارائه دهنده مدل شخص ثالث یا صاحبان علامت تجاری وابسته نیست.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "ماهنامه EasyClaw Pro",
+        "product_name": "ماهنامه RekaClip Pro",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "ماهنامه حق بیمه EasyClaw",
+        "product_name": "ماهنامه حق بیمه RekaClip",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro سالانه",
+        "product_name": "RekaClip Pro سالانه",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw حق بیمه سالانه",
+        "product_name": "RekaClip حق بیمه سالانه",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

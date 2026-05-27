@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - Implante OpenClaw em menos de 1 minuto",
-    "description": "Implante OpenClaw com EasyClaw com um clique. Conecte Telegram, escolha um modelo e entre no ar rapidamente.",
-    "keywords": "easyclaw, implantação de openclaw, hospedagem openclaw, implantação de bot de telegrama, implantação de assistente de IA"
+    "title": "RekaClip - Implante OpenClaw em menos de 1 minuto",
+    "description": "Implante OpenClaw com RekaClip com um clique. Conecte Telegram, escolha um modelo e entre no ar rapidamente.",
+    "keywords": "rekaclip, implantação de openclaw, hospedagem openclaw, implantação de bot de telegrama, implantação de assistente de IA"
   },
   "blog": {
     "title": "Blogue",
-    "description": "Notícias, tutoriais e atualizações sobre a implantação do OpenClaw com EasyClaw.",
+    "description": "Notícias, tutoriais e atualizações sobre a implantação do OpenClaw com RekaClip.",
     "read_more_text": "Leia mais"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Centro de administração"
   },
   "sign_modal": {
-    "sign_in_title": "Faça login em EasyClaw",
-    "sign_in_description": "Acesse sua conta EasyClaw para implantar e gerenciar OpenClaw.",
-    "sign_up_title": "Junte-se ao EasyClaw",
-    "sign_up_description": "Crie sua conta EasyClaw",
+    "sign_in_title": "Faça login em RekaClip",
+    "sign_in_description": "Acesse sua conta RekaClip para implantar e gerenciar OpenClaw.",
+    "sign_up_title": "Junte-se ao RekaClip",
+    "sign_up_description": "Crie sua conta RekaClip",
     "email_title": "E-mail",
     "email_placeholder": "Digite seu endereço de e-mail",
     "password_title": "Senha",
     "password_placeholder": "Digite sua senha",
     "forgot_password": "Esqueceu a senha?",
     "or": "Ou",
-    "continue": "Continuar para EasyClaw",
-    "no_account": "Novo no EasyClaw?",
+    "continue": "Continuar para RekaClip",
+    "no_account": "Novo no RekaClip?",
     "email_sign_in": "Faça login com e-mail",
     "google_sign_in": "Continuar com o Google",
     "github_sign_in": "Continuar com GitHub",
@@ -46,7 +46,7 @@
     "title": "Meus pedidos",
     "no_orders": "Nenhum pedido encontrado",
     "tip": "",
-    "support_tip": "Precisa de ajuda com cobrança ou cancelamento? Envie um e-mail para support@easyclaw.pro.",
+    "support_tip": "Precisa de ajuda com cobrança ou cancelamento? Envie um e-mail para support@rekaclip.homes.",
     "activate_order": "Ativar pedido",
     "actived": "Ativado",
     "join_discord": "Junte-se ao Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Editar link de convite",
     "copy_invite_link": "Copiar link de convite",
     "invite_code": "Código de convite",
-    "invite_tip": "Convide amigos para o EasyClaw e ganhe recompensas.",
+    "invite_tip": "Convide amigos para o RekaClip e ganhe recompensas.",
     "invite_balance": "Saldo de recompensa de convite",
     "total_invite_count": "Contagem total de convites",
     "total_paid_count": "Contagem total paga",
@@ -131,7 +131,7 @@
     "submit": "Enviar",
     "loading": "Enviando...",
     "contact_tip": "Outras maneiras de entrar em contato conosco",
-    "rating_tip": "O que você acha do EasyClaw?",
+    "rating_tip": "O que você acha do RekaClip?",
     "placeholder": "Deixe suas palavras aqui..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - Implantação OpenClaw com um clique",
+      "title": "RekaClip - Implantação OpenClaw com um clique",
       "description": "Implante OpenClaw em menos de 1 minuto. Sem servidores ou DevOps. Escolha um modelo, conecte um canal e inicie."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Implantando...",
       "deploy_button": "Implantar",
-      "sign_in_button": "Faça login para implantar com EasyClaw",
-      "sign_in_hint": "Faça login para implantar OpenClaw com EasyClaw e conectar seus canais.",
+      "sign_in_button": "Faça login para implantar com RekaClip",
+      "sign_in_hint": "Faça login para implantar OpenClaw com RekaClip e conectar seus canais.",
       "status_success": "Implantação bem-sucedida! OpenClaw agora está em execução.",
       "model_substitution_warning": "Substituição de modelo detectada. Tente reimplantar ou mudar para outra região/provedor.",
       "hint_prefix": "Conecte Telegram para continuar.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

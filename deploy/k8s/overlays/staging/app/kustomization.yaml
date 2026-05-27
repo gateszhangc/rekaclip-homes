@@ -1,73 +1,73 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: easyclaw-staging
+namespace: rekaclip-staging
 resources:
   - ../../../base
 patches:
   - target:
       kind: ServiceAccount
-      name: easyclaw-backend
+      name: rekaclip-backend
     patch: |-
       apiVersion: v1
       kind: ServiceAccount
       metadata:
-        name: easyclaw-backend
+        name: rekaclip-backend
         annotations:
           argocd.argoproj.io/sync-wave: "-1"
   - target:
       kind: Service
-      name: easyclaw
+      name: rekaclip
     patch: |-
       apiVersion: v1
       kind: Service
       metadata:
-        name: easyclaw
+        name: rekaclip
         annotations:
           argocd.argoproj.io/sync-wave: "1"
   - target:
       kind: Service
-      name: easyclaw-backend
+      name: rekaclip-backend
     patch: |-
       apiVersion: v1
       kind: Service
       metadata:
-        name: easyclaw-backend
+        name: rekaclip-backend
         annotations:
           argocd.argoproj.io/sync-wave: "1"
   - target:
       kind: Deployment
-      name: easyclaw
+      name: rekaclip
     patch: |-
       apiVersion: apps/v1
       kind: Deployment
       metadata:
-        name: easyclaw
+        name: rekaclip
         annotations:
           argocd.argoproj.io/sync-wave: "1"
       spec:
         template:
           metadata:
             annotations:
-              easyclaw/config-revision: "2026-05-06-2"
+              rekaclip/config-revision: "2026-05-06-2"
   - target:
       kind: Deployment
-      name: easyclaw-backend
+      name: rekaclip-backend
     patch: |-
       apiVersion: apps/v1
       kind: Deployment
       metadata:
-        name: easyclaw-backend
+        name: rekaclip-backend
         annotations:
           argocd.argoproj.io/sync-wave: "1"
       spec:
         template:
           metadata:
             annotations:
-              easyclaw/config-revision: "2026-05-06-2"
+              rekaclip/config-revision: "2026-05-06-2"
 images:
-  - name: registry.144.91.77.245.sslip.io/easyclaw-web
-    newName: registry.144.91.77.245.sslip.io/easyclaw-web
+  - name: registry.144.91.77.245.sslip.io/rekaclip-web
+    newName: registry.144.91.77.245.sslip.io/rekaclip-web
     newTag: staging-20260506-2
-  - name: registry.144.91.77.245.sslip.io/easyclaw-backend
-    newName: registry.144.91.77.245.sslip.io/easyclaw-backend
+  - name: registry.144.91.77.245.sslip.io/rekaclip-backend
+    newName: registry.144.91.77.245.sslip.io/rekaclip-backend
     newTag: 20260506-2

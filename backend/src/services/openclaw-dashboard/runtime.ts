@@ -109,8 +109,8 @@ export class K8sDashboardRuntimeAdapter implements DashboardRuntimeAdapter {
         target: options.target,
         stop: async () => {
           const stopServer = (
-            forwardServer as net.Server & { __easyclawStop?: () => Promise<void> }
-          ).__easyclawStop;
+            forwardServer as net.Server & { __rekaclipStop?: () => Promise<void> }
+          ).__rekaclipStop;
           if (stopServer) {
             await stopServer();
             return;
@@ -206,7 +206,7 @@ export class K8sDashboardRuntimeAdapter implements DashboardRuntimeAdapter {
     });
     options.onLog("info", "Local dashboard forward server is listening.");
 
-    (server as net.Server & { __easyclawStop?: () => Promise<void> }).__easyclawStop =
+    (server as net.Server & { __rekaclipStop?: () => Promise<void> }).__rekaclipStop =
       async () => {
         stopping = true;
         for (const socket of sockets) {

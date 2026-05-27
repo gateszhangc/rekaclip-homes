@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - OpenClaw を 1 分以内にデプロイします",
-    "description": "ワンクリックで OpenClaw を EasyClaw とともにデプロイします。 Telegram を接続し、モデルを選択すれば、すぐに稼働できます。",
-    "keywords": "easyclaw、openclaw の展開、openclaw ホスティング、電報ボットの展開、AI アシスタントの展開"
+    "title": "RekaClip - OpenClaw を 1 分以内にデプロイします",
+    "description": "ワンクリックで OpenClaw を RekaClip とともにデプロイします。 Telegram を接続し、モデルを選択すれば、すぐに稼働できます。",
+    "keywords": "rekaclip、openclaw の展開、openclaw ホスティング、電報ボットの展開、AI アシスタントの展開"
   },
   "blog": {
     "title": "ブログ",
-    "description": "EasyClaw を使用した OpenClaw の展開に関するニュース、チュートリアル、および更新情報。",
+    "description": "RekaClip を使用した OpenClaw の展開に関するニュース、チュートリアル、および更新情報。",
     "read_more_text": "続きを読む"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "管理センター"
   },
   "sign_modal": {
-    "sign_in_title": "EasyClaw にサインインする",
-    "sign_in_description": "EasyClaw アカウントにアクセスして、OpenClaw を展開および管理します。",
+    "sign_in_title": "RekaClip にサインインする",
+    "sign_in_description": "RekaClip アカウントにアクセスして、OpenClaw を展開および管理します。",
     "sign_up_title": "参加する",
-    "sign_up_description": "EasyClaw アカウントを作成する",
+    "sign_up_description": "RekaClip アカウントを作成する",
     "email_title": "電子メール",
     "email_placeholder": "メールアドレスを入力してください",
     "password_title": "パスワード",
     "password_placeholder": "パスワードを入力してください",
     "forgot_password": "パスワードをお忘れですか?",
     "or": "または",
-    "continue": "EasyClaw に進む",
-    "no_account": "EasyClaw を初めてお使いですか?",
+    "continue": "RekaClip に進む",
+    "no_account": "RekaClip を初めてお使いですか?",
     "email_sign_in": "電子メールでサインインする",
     "google_sign_in": "Google を続ける",
     "github_sign_in": "GitHub を続ける",
@@ -46,7 +46,7 @@
     "title": "私の注文",
     "no_orders": "注文が見つかりませんでした",
     "tip": "",
-    "support_tip": "請求やキャンセルに関してサポートが必要ですか? support@easyclaw.pro に電子メールを送信してください。",
+    "support_tip": "請求やキャンセルに関してサポートが必要ですか? support@rekaclip.homes に電子メールを送信してください。",
     "activate_order": "注文をアクティブ化する",
     "actived": "アクティブ化された",
     "join_discord": "Discordに参加する",
@@ -105,7 +105,7 @@
     "edit_invite_link": "招待リンクの編集",
     "copy_invite_link": "招待リンクをコピー",
     "invite_code": "招待コード",
-    "invite_tip": "友達を EasyClaw に招待して報酬を獲得しましょう。",
+    "invite_tip": "友達を RekaClip に招待して報酬を獲得しましょう。",
     "invite_balance": "招待報酬残高",
     "total_invite_count": "合計招待数",
     "total_paid_count": "支払総額",
@@ -131,7 +131,7 @@
     "submit": "送信する",
     "loading": "送信中...",
     "contact_tip": "その他の連絡方法",
-    "rating_tip": "EasyClawについてどう思いますか？",
+    "rating_tip": "RekaClipについてどう思いますか？",
     "placeholder": "ここに言葉を残してください..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - ワンクリック OpenClaw 導入",
+      "title": "RekaClip - ワンクリック OpenClaw 導入",
       "description": "OpenClaw を 1 分以内にデプロイします。サーバーも DevOps もありません。モデルを選択し、チャンネルを接続して、起動します。"
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "導入中...",
       "deploy_button": "デプロイ",
-      "sign_in_button": "EasyClaw でサインインしてデプロイします",
-      "sign_in_hint": "サインインして EasyClaw で OpenClaw を展開し、チャネルに接続します。",
+      "sign_in_button": "RekaClip でサインインしてデプロイします",
+      "sign_in_hint": "サインインして RekaClip で OpenClaw を展開し、チャネルに接続します。",
       "status_success": "導入が成功しました! OpenClaw が実行中です。",
       "model_substitution_warning": "モデルの置換が検出されました。再デプロイするか、別のリージョン/プロバイダーに切り替えてみてください。",
       "hint_prefix": "続行するには、Telegram を接続します。",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - פרוס את OpenClaw תוך פחות מדקה",
-    "description": "פרוס OpenClaw עם EasyClaw בלחיצה אחת. חבר את Telegram, בחר דגם ועבור לרשת במהירות.",
-    "keywords": "easyclaw, פריסת Openclaw, Openclaw אירוח, פריסת בוט טלגרם, פריסת עוזרת ai"
+    "title": "RekaClip - פרוס את OpenClaw תוך פחות מדקה",
+    "description": "פרוס OpenClaw עם RekaClip בלחיצה אחת. חבר את Telegram, בחר דגם ועבור לרשת במהירות.",
+    "keywords": "rekaclip, פריסת Openclaw, Openclaw אירוח, פריסת בוט טלגרם, פריסת עוזרת ai"
   },
   "blog": {
     "title": "בלוג",
-    "description": "חדשות, הדרכות ועדכונים על פריסת OpenClaw עם EasyClaw.",
+    "description": "חדשות, הדרכות ועדכונים על פריסת OpenClaw עם RekaClip.",
     "read_more_text": "קרא עוד"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "מרכז ניהול"
   },
   "sign_modal": {
-    "sign_in_title": "היכנס אל EasyClaw",
-    "sign_in_description": "גש לחשבון EasyClaw שלך כדי לפרוס ולנהל את OpenClaw.",
-    "sign_up_title": "הצטרף ל-EasyClaw",
-    "sign_up_description": "צור את חשבון EasyClaw שלך",
+    "sign_in_title": "היכנס אל RekaClip",
+    "sign_in_description": "גש לחשבון RekaClip שלך כדי לפרוס ולנהל את OpenClaw.",
+    "sign_up_title": "הצטרף ל-RekaClip",
+    "sign_up_description": "צור את חשבון RekaClip שלך",
     "email_title": "דוא\"ל",
     "email_placeholder": "הזן את כתובת הדוא\"ל שלך",
     "password_title": "סיסמה",
     "password_placeholder": "הזן את הסיסמה שלך",
     "forgot_password": "שכחת סיסמה?",
     "or": "או",
-    "continue": "המשך אל EasyClaw",
-    "no_account": "חדש ב-EasyClaw?",
+    "continue": "המשך אל RekaClip",
+    "no_account": "חדש ב-RekaClip?",
     "email_sign_in": "היכנס באמצעות דואר אלקטרוני",
     "google_sign_in": "המשך עם גוגל",
     "github_sign_in": "המשך עם GitHub",
@@ -46,7 +46,7 @@
     "title": "ההזמנות שלי",
     "no_orders": "לא נמצאו הזמנות",
     "tip": "",
-    "support_tip": "זקוק לעזרה עם חיוב או ביטול? דוא\"ל support@easyclaw.pro.",
+    "support_tip": "זקוק לעזרה עם חיוב או ביטול? דוא\"ל support@rekaclip.homes.",
     "activate_order": "הפעל את ההזמנה",
     "actived": "הופעל",
     "join_discord": "הצטרף ל-Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "ערוך קישור הזמנה",
     "copy_invite_link": "העתק את קישור ההזמנה",
     "invite_code": "קוד הזמנה",
-    "invite_tip": "הזמן חברים ל-EasyClaw וזכה בפרסים.",
+    "invite_tip": "הזמן חברים ל-RekaClip וזכה בפרסים.",
     "invite_balance": "יתרת תגמול הזמנה",
     "total_invite_count": "סך כל ספירת ההזמנות",
     "total_paid_count": "סך כל ספירת התשלום",
@@ -131,7 +131,7 @@
     "submit": "שלח",
     "loading": "שולח...",
     "contact_tip": "דרכים נוספות ליצור איתנו קשר",
-    "rating_tip": "מה אתה מרגיש לגבי EasyClaw?",
+    "rating_tip": "מה אתה מרגיש לגבי RekaClip?",
     "placeholder": "השאר את דבריך כאן..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - פריסת OpenClaw בלחיצה אחת",
+      "title": "RekaClip - פריסת OpenClaw בלחיצה אחת",
       "description": "פרוס את OpenClaw תוך פחות מדקה. אין שרתים או DevOps. בחר דגם, חבר ערוץ והפעל."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "פריסה...",
       "deploy_button": "פרוס",
-      "sign_in_button": "היכנס לפריסה עם EasyClaw",
-      "sign_in_hint": "היכנס כדי לפרוס את OpenClaw עם EasyClaw ולחבר את הערוצים שלך.",
+      "sign_in_button": "היכנס לפריסה עם RekaClip",
+      "sign_in_hint": "היכנס כדי לפרוס את OpenClaw עם RekaClip ולחבר את הערוצים שלך.",
       "status_success": "הפריסה הצליחה! OpenClaw פועל כעת.",
       "model_substitution_warning": "זוהתה החלפת דגם. נסה לפרוס מחדש או לעבור לאזור/ספק אחר.",
       "hint_prefix": "חבר את Telegram כדי להמשיך.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

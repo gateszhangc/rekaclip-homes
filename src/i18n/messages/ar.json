@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - انشر OpenClaw في أقل من دقيقة واحدة",
-    "description": "انشر OpenClaw مع EasyClaw بنقرة واحدة. قم بتوصيل Telegram، واختر نموذجًا، وابدأ البث المباشر بسرعة.",
-    "keywords": "Easyclaw، نشر openclaw، استضافة openclaw، نشر روبوت برقية، نشر مساعد الذكاء الاصطناعي"
+    "title": "RekaClip - انشر OpenClaw في أقل من دقيقة واحدة",
+    "description": "انشر OpenClaw مع RekaClip بنقرة واحدة. قم بتوصيل Telegram، واختر نموذجًا، وابدأ البث المباشر بسرعة.",
+    "keywords": "RekaClip، نشر openclaw، استضافة openclaw، نشر روبوت برقية، نشر مساعد الذكاء الاصطناعي"
   },
   "blog": {
     "title": "مدونة",
-    "description": "الأخبار والبرامج التعليمية والتحديثات حول نشر OpenClaw مع EasyClaw.",
+    "description": "الأخبار والبرامج التعليمية والتحديثات حول نشر OpenClaw مع RekaClip.",
     "read_more_text": "اقرأ المزيد"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "مركز الإدارة"
   },
   "sign_modal": {
-    "sign_in_title": "تسجيل الدخول إلى EasyClaw",
-    "sign_in_description": "قم بالوصول إلى حساب EasyClaw الخاص بك لنشر OpenClaw وإدارته.",
-    "sign_up_title": "انضم إلى EasyClaw",
-    "sign_up_description": "قم بإنشاء حساب EasyClaw الخاص بك",
+    "sign_in_title": "تسجيل الدخول إلى RekaClip",
+    "sign_in_description": "قم بالوصول إلى حساب RekaClip الخاص بك لنشر OpenClaw وإدارته.",
+    "sign_up_title": "انضم إلى RekaClip",
+    "sign_up_description": "قم بإنشاء حساب RekaClip الخاص بك",
     "email_title": "البريد الإلكتروني",
     "email_placeholder": "أدخل عنوان بريدك الإلكتروني",
     "password_title": "كلمة المرور",
     "password_placeholder": "أدخل كلمة المرور الخاصة بك",
     "forgot_password": "هل نسيت كلمة المرور؟",
     "or": "أو",
-    "continue": "المتابعة إلى EasyClaw",
-    "no_account": "هل أنت جديد على EasyClaw؟",
+    "continue": "المتابعة إلى RekaClip",
+    "no_account": "هل أنت جديد على RekaClip؟",
     "email_sign_in": "تسجيل الدخول باستخدام البريد الإلكتروني",
     "google_sign_in": "تواصل مع جوجل",
     "github_sign_in": "تواصل مع جيثب",
@@ -46,7 +46,7 @@
     "title": "طلباتي",
     "no_orders": "لم يتم العثور على أي أوامر",
     "tip": "",
-    "support_tip": "هل تحتاج إلى مساعدة بشأن الفواتير أو الإلغاء؟ البريد الإلكتروني support@easyclaw.pro.",
+    "support_tip": "هل تحتاج إلى مساعدة بشأن الفواتير أو الإلغاء؟ البريد الإلكتروني support@rekaclip.homes.",
     "activate_order": "تفعيل الطلب",
     "actived": "تفعيلها",
     "join_discord": "انضم إلى Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "تحرير رابط الدعوة",
     "copy_invite_link": "انسخ رابط الدعوة",
     "invite_code": "رمز الدعوة",
-    "invite_tip": "قم بدعوة الأصدقاء إلى EasyClaw واكسب المكافآت.",
+    "invite_tip": "قم بدعوة الأصدقاء إلى RekaClip واكسب المكافآت.",
     "invite_balance": "دعوة رصيد المكافأة",
     "total_invite_count": "إجمالي عدد الدعوات",
     "total_paid_count": "إجمالي العدد المدفوع",
@@ -131,7 +131,7 @@
     "submit": "إرسال",
     "loading": "جارٍ الإرسال...",
     "contact_tip": "طرق أخرى للاتصال بنا",
-    "rating_tip": "ما هو شعورك تجاه EasyClaw؟",
+    "rating_tip": "ما هو شعورك تجاه RekaClip؟",
     "placeholder": "اترك كلامك هنا..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - نشر OpenClaw بنقرة واحدة",
+      "title": "RekaClip - نشر OpenClaw بنقرة واحدة",
       "description": "انشر OpenClaw في أقل من دقيقة واحدة. لا توجد خوادم أو DevOps. اختر نموذجًا، وقم بتوصيل القناة، ثم ابدأ التشغيل."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "جارٍ النشر...",
       "deploy_button": "نشر",
-      "sign_in_button": "قم بتسجيل الدخول للنشر باستخدام EasyClaw",
-      "sign_in_hint": "قم بتسجيل الدخول لنشر OpenClaw مع EasyClaw وتوصيل قنواتك.",
+      "sign_in_button": "قم بتسجيل الدخول للنشر باستخدام RekaClip",
+      "sign_in_hint": "قم بتسجيل الدخول لنشر OpenClaw مع RekaClip وتوصيل قنواتك.",
       "status_success": "تم النشر بنجاح! OpenClaw قيد التشغيل الآن.",
       "model_substitution_warning": "تم اكتشاف استبدال النموذج. حاول إعادة النشر أو التبديل إلى منطقة/مزود آخر.",
       "hint_prefix": "قم بتوصيل Telegram للمتابعة.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

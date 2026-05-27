@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "EasyClaw - Terapkan OpenClaw dalam waktu kurang dari 1 menit",
-    "description": "Terapkan OpenClaw dengan EasyClaw dalam satu klik. Hubungkan Telegram, pilih model, dan tayangkan dengan cepat.",
-    "keywords": "easyclaw, penerapan openclaw, hosting openclaw, penerapan bot telegram, penerapan asisten ai"
+    "title": "RekaClip - Terapkan OpenClaw dalam waktu kurang dari 1 menit",
+    "description": "Terapkan OpenClaw dengan RekaClip dalam satu klik. Hubungkan Telegram, pilih model, dan tayangkan dengan cepat.",
+    "keywords": "rekaclip, penerapan openclaw, hosting openclaw, penerapan bot telegram, penerapan asisten ai"
   },
   "blog": {
     "title": "blog",
-    "description": "Berita, tutorial, dan pembaruan tentang penerapan OpenClaw dengan EasyClaw.",
+    "description": "Berita, tutorial, dan pembaruan tentang penerapan OpenClaw dengan RekaClip.",
     "read_more_text": "Baca Lebih Lanjut"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Pusat Admin"
   },
   "sign_modal": {
-    "sign_in_title": "Masuk ke EasyClaw",
-    "sign_in_description": "Akses akun EasyClaw Anda untuk menyebarkan dan mengelola OpenClaw.",
-    "sign_up_title": "Bergabunglah dengan EasyClaw",
-    "sign_up_description": "Buat akun EasyClaw Anda",
+    "sign_in_title": "Masuk ke RekaClip",
+    "sign_in_description": "Akses akun RekaClip Anda untuk menyebarkan dan mengelola OpenClaw.",
+    "sign_up_title": "Bergabunglah dengan RekaClip",
+    "sign_up_description": "Buat akun RekaClip Anda",
     "email_title": "Surel",
     "email_placeholder": "Masukkan alamat email Anda",
     "password_title": "Kata sandi",
     "password_placeholder": "Masukkan kata sandi Anda",
     "forgot_password": "Lupa kata sandi?",
     "or": "Atau",
-    "continue": "Lanjutkan ke EasyClaw",
-    "no_account": "Baru mengenal EasyClaw?",
+    "continue": "Lanjutkan ke RekaClip",
+    "no_account": "Baru mengenal RekaClip?",
     "email_sign_in": "Masuk dengan Email",
     "google_sign_in": "Lanjutkan dengan Google",
     "github_sign_in": "Lanjutkan dengan GitHub",
@@ -46,7 +46,7 @@
     "title": "Pesanan saya",
     "no_orders": "Tidak ada pesanan yang ditemukan",
     "tip": "",
-    "support_tip": "Butuh bantuan terkait penagihan atau pembatalan? Surel dukungan@easyclaw.pro.",
+    "support_tip": "Butuh bantuan terkait penagihan atau pembatalan? Surel dukungan@rekaclip.homes.",
     "activate_order": "Aktifkan Pesanan",
     "actived": "Diaktifkan",
     "join_discord": "Bergabunglah dengan Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Edit Tautan Undangan",
     "copy_invite_link": "Salin Tautan Undangan",
     "invite_code": "Kode Undangan",
-    "invite_tip": "Undang teman ke EasyClaw dan dapatkan hadiah.",
+    "invite_tip": "Undang teman ke RekaClip dan dapatkan hadiah.",
     "invite_balance": "Undang Saldo Hadiah",
     "total_invite_count": "Jumlah Undangan Total",
     "total_paid_count": "Jumlah Total yang Dibayar",
@@ -131,7 +131,7 @@
     "submit": "Kirim",
     "loading": "Mengirimkan...",
     "contact_tip": "Cara lain untuk menghubungi kami",
-    "rating_tip": "Bagaimana perasaan Anda tentang EasyClaw?",
+    "rating_tip": "Bagaimana perasaan Anda tentang RekaClip?",
     "placeholder": "Tinggalkan kata-katamu di sini..."
   },
   "outfit_generator": {
@@ -365,7 +365,7 @@
       "discord_message_content_intent_disabled": "Discord Message Content Intent is disabled. Enable it in Discord Developer Portal before deploying."
     },
     "hero": {
-      "title": "EasyClaw - Penerapan OpenClaw sekali klik",
+      "title": "RekaClip - Penerapan OpenClaw sekali klik",
       "description": "Terapkan OpenClaw dalam waktu kurang dari 1 menit. Tidak ada server atau DevOps. Pilih model, sambungkan saluran, dan luncurkan."
     },
     "selectors": {
@@ -376,8 +376,8 @@
     "deploy": {
       "deploying": "Menyebarkan...",
       "deploy_button": "Menyebarkan",
-      "sign_in_button": "Masuk untuk menerapkan dengan EasyClaw",
-      "sign_in_hint": "Masuk untuk menyebarkan OpenClaw dengan EasyClaw dan menghubungkan saluran Anda.",
+      "sign_in_button": "Masuk untuk menerapkan dengan RekaClip",
+      "sign_in_hint": "Masuk untuk menyebarkan OpenClaw dengan RekaClip dan menghubungkan saluran Anda.",
       "status_success": "Penerapan berhasil! OpenClaw sekarang berjalan.",
       "model_substitution_warning": "Substitusi model terdeteksi. Coba terapkan ulang atau beralih ke wilayah/penyedia lain.",
       "hint_prefix": "Hubungkan Telegram untuk melanjutkan.",
@@ -418,9 +418,9 @@
       "preview_intro": "Discord bot created. DM access is open and the bot is ready to reply.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Message me anytime and I will reply in Discord DM.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     }
   }
 }

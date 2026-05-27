@@ -9,7 +9,7 @@ type DeploymentTargetHostRecord = {
 
 type DeploymentTargetHostState = Record<string, DeploymentTargetHostRecord>;
 
-const DEPLOYMENTS_SCHEMA = "easyclaw";
+const DEPLOYMENTS_SCHEMA = "rekaclip";
 const DEPLOYMENTS_TABLE = "deployments";
 const TARGET_HOST_COLUMN = "target_host";
 const DEFAULT_STATE_FILE = path.resolve(

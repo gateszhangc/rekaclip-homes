@@ -3,9 +3,9 @@ set -euo pipefail
 
 SERVER="${SERVER:-root@89.167.51.48}"
 SERVER_HOST="${SERVER_HOST:-${SERVER##*@}}"
-REMOTE_DIR="${REMOTE_DIR:-/opt/easyclaw-backend}"
+REMOTE_DIR="${REMOTE_DIR:-/opt/rekaclip-backend}"
 WORK_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-ARCHIVE_PATH="${ARCHIVE_PATH:-/tmp/easyclaw-backend-$(date +%Y%m%d-%H%M%S).tar.gz}"
+ARCHIVE_PATH="${ARCHIVE_PATH:-/tmp/rekaclip-backend-$(date +%Y%m%d-%H%M%S).tar.gz}"
 
 PORT="${PORT:-5000}"
 ENCRYPTION_KEY="${ENCRYPTION_KEY:-f16fa862f2b766c9ffe863caf4cd7db7c3c09bedfa6b5ece99704a9e93378975}"
@@ -60,7 +60,7 @@ fi
 CONFLICT_IDS=\$(docker ps -q --filter "publish=${PORT}" || true)
 for id in \$CONFLICT_IDS; do
   name=\$(docker inspect --format '{{.Name}}' "\$id" | sed 's#^/##')
-  if [[ "\$name" != "easyclaw-backend-api-1" ]]; then
+  if [[ "\$name" != "rekaclip-backend-api-1" ]]; then
     docker rm -f "\$id" >/dev/null 2>&1 || true
   fi
 done

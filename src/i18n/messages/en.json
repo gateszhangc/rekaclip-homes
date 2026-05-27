@@ -6,7 +6,7 @@
   },
   "blog": {
     "title": "Blog",
-    "description": "News, tutorials, and updates about deploying OpenClaw with EasyClaw.",
+    "description": "News, tutorials, and updates about deploying OpenClaw with RekaClip.",
     "read_more_text": "Read More"
   },
   "user": {
@@ -24,18 +24,18 @@
     "admin_center": "Admin Center"
   },
   "sign_modal": {
-    "sign_in_title": "Sign in to EasyClaw",
-    "sign_in_description": "Access your EasyClaw account to deploy and manage OpenClaw.",
-    "sign_up_title": "Join EasyClaw",
-    "sign_up_description": "Create your EasyClaw account",
+    "sign_in_title": "Sign in to RekaClip",
+    "sign_in_description": "Access your RekaClip account to deploy and manage OpenClaw.",
+    "sign_up_title": "Join RekaClip",
+    "sign_up_description": "Create your RekaClip account",
     "email_title": "Email",
     "email_placeholder": "Enter your email address",
     "password_title": "Password",
     "password_placeholder": "Enter your password",
     "forgot_password": "Forgot password?",
     "or": "Or",
-    "continue": "Continue to EasyClaw",
-    "no_account": "New to EasyClaw?",
+    "continue": "Continue to RekaClip",
+    "no_account": "New to RekaClip?",
     "email_sign_in": "Sign in with Email",
     "google_sign_in": "Continue with Google",
     "github_sign_in": "Continue with GitHub",
@@ -46,7 +46,7 @@
     "title": "My Orders",
     "no_orders": "No orders found",
     "tip": "",
-    "support_tip": "Need help with billing or cancellation? Email support@easyclaw.pro.",
+    "support_tip": "Need help with billing or cancellation? Email support@rekaclip.homes.",
     "activate_order": "Activate Order",
     "actived": "Activated",
     "join_discord": "Join Discord",
@@ -105,7 +105,7 @@
     "edit_invite_link": "Edit Invite Link",
     "copy_invite_link": "Copy Invite Link",
     "invite_code": "Invite Code",
-    "invite_tip": "Invite friends to EasyClaw and earn rewards.",
+    "invite_tip": "Invite friends to RekaClip and earn rewards.",
     "invite_balance": "Invite Reward Balance",
     "total_invite_count": "Total Invite Count",
     "total_paid_count": "Total Paid Count",
@@ -131,7 +131,7 @@
     "submit": "Submit",
     "loading": "Submitting...",
     "contact_tip": "Other ways to contact us",
-    "rating_tip": "How do you feel about EasyClaw?",
+    "rating_tip": "How do you feel about RekaClip?",
     "placeholder": "Leave your words here..."
   },
   "outfit_generator": {
@@ -371,7 +371,7 @@
       "whatsapp_wait_for_qr_timeout": "Timed out waiting for the first WhatsApp QR code. Try again."
     },
     "hero": {
-      "title": "EasyClaw - One-click OpenClaw Deployment",
+      "title": "RekaClip - One-click OpenClaw Deployment",
       "description": "Deploy OpenClaw in under 1 minute. No servers or DevOps. Pick a model, connect a channel, and launch."
     },
     "selectors": {
@@ -382,8 +382,8 @@
     "deploy": {
       "deploying": "Deploying...",
       "deploy_button": "Deploy",
-      "sign_in_button": "Sign in to deploy with EasyClaw",
-      "sign_in_hint": "Sign in to deploy OpenClaw with EasyClaw and connect your channels.",
+      "sign_in_button": "Sign in to deploy with RekaClip",
+      "sign_in_hint": "Sign in to deploy OpenClaw with RekaClip and connect your channels.",
       "status_success": "Deployment successful! OpenClaw is now running.",
       "model_substitution_warning": "Model substitution detected. Try redeploying or switch to another region/provider.",
       "hint_prefix": "Connect Telegram to continue.",
@@ -425,9 +425,9 @@
       "preview_intro": "Discord bot created. Invite it to your server and it will be ready to reply in your channels.",
       "preview_step_1": "Create app -> Add Bot",
       "preview_step_2": "Enable Message Content Intent",
-      "preview_user_message": "Hey EasyClaw, are you online?",
+      "preview_user_message": "Hey RekaClip, are you online?",
       "preview_ready": "Yes. Send a message in your Discord server and I can reply there.",
-      "preview_message_input": "Message @EasyClaw Bot"
+      "preview_message_input": "Message @RekaClip Bot"
     },
     "whatsapp": {
       "connect_title": "Connect WhatsApp",

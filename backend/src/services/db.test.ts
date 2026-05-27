@@ -30,7 +30,7 @@ const createFakeDbClient = ({
 
 test("buildPgPoolConfig uses the shared hardened connection settings", () => {
   const previousDatabaseUrl = process.env.DATABASE_URL;
-  process.env.DATABASE_URL = "postgresql://example:test@example.com:5432/easyclaw";
+  process.env.DATABASE_URL = "postgresql://example:test@example.com:5432/rekaclip";
 
   try {
     const config = buildPgPoolConfig();

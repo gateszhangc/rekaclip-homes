@@ -8,10 +8,10 @@ create table if not exists public.users (
   created_at timestamptz default now()
 );
 
-create schema if not exists easyclaw;
+create schema if not exists rekaclip;
 
 -- deployments
-create table if not exists easyclaw.deployments (
+create table if not exists rekaclip.deployments (
   id uuid primary key,
   user_id text not null,
   account_id uuid,
@@ -30,48 +30,48 @@ create table if not exists easyclaw.deployments (
   updated_at timestamptz default now()
 );
 
-alter table easyclaw.deployments add column if not exists requested_model text;
-alter table easyclaw.deployments add column if not exists resolved_model text;
-alter table easyclaw.deployments add column if not exists subscription_order_no text;
-alter table easyclaw.deployments add column if not exists consumed_success boolean default false;
-alter table easyclaw.deployments add column if not exists consumed_at timestamptz;
-alter table easyclaw.deployments add column if not exists channel_type text;
-alter table easyclaw.deployments add column if not exists channel_token_encrypted text;
-alter table easyclaw.deployments add column if not exists target_host text;
-alter table easyclaw.deployments add column if not exists account_id uuid;
+alter table rekaclip.deployments add column if not exists requested_model text;
+alter table rekaclip.deployments add column if not exists resolved_model text;
+alter table rekaclip.deployments add column if not exists subscription_order_no text;
+alter table rekaclip.deployments add column if not exists consumed_success boolean default false;
+alter table rekaclip.deployments add column if not exists consumed_at timestamptz;
+alter table rekaclip.deployments add column if not exists channel_type text;
+alter table rekaclip.deployments add column if not exists channel_token_encrypted text;
+alter table rekaclip.deployments add column if not exists target_host text;
+alter table rekaclip.deployments add column if not exists account_id uuid;
 
-update easyclaw.deployments
+update rekaclip.deployments
 set channel_type = coalesce(nullif(channel_type, ''), 'telegram')
 where channel_type is null or channel_type = '';
 
-update easyclaw.deployments
+update rekaclip.deployments
 set channel_token_encrypted = coalesce(channel_token_encrypted, telegram_token_encrypted)
 where channel_token_encrypted is null;
 
-alter table easyclaw.deployments alter column channel_type set default 'telegram';
-alter table easyclaw.deployments alter column channel_type set not null;
-alter table easyclaw.deployments alter column channel_token_encrypted set not null;
+alter table rekaclip.deployments alter column channel_type set default 'telegram';
+alter table rekaclip.deployments alter column channel_type set not null;
+alter table rekaclip.deployments alter column channel_token_encrypted set not null;
 
-create index if not exists idx_deployments_user_id on easyclaw.deployments(user_id);
-create index if not exists idx_deployments_status on easyclaw.deployments(status);
-create index if not exists idx_deployments_channel_type on easyclaw.deployments(channel_type);
-create index if not exists idx_deployments_subscription_order_no on easyclaw.deployments(subscription_order_no);
-create index if not exists idx_deployments_account_id on easyclaw.deployments(account_id);
+create index if not exists idx_deployments_user_id on rekaclip.deployments(user_id);
+create index if not exists idx_deployments_status on rekaclip.deployments(status);
+create index if not exists idx_deployments_channel_type on rekaclip.deployments(channel_type);
+create index if not exists idx_deployments_subscription_order_no on rekaclip.deployments(subscription_order_no);
+create index if not exists idx_deployments_account_id on rekaclip.deployments(account_id);
 
 -- Remove legacy one-user-one-success index.
-drop index if exists easyclaw.uniq_deployments_user_running_or_stopped;
+drop index if exists rekaclip.uniq_deployments_user_running_or_stopped;
 
-drop index if exists easyclaw.uniq_public_deployments_subscription_order_consumed_success;
+drop index if exists rekaclip.uniq_public_deployments_subscription_order_consumed_success;
 
 -- One subscription order can occupy only one active deployment seat at a time.
 create unique index if not exists uniq_public_deployments_subscription_order_active_seat
-  on easyclaw.deployments(subscription_order_no)
+  on rekaclip.deployments(subscription_order_no)
   where subscription_order_no is not null
     and status in ('provisioning', 'running');
 
 -- One-time backfill:
 -- Legacy successful states should stay consumed even if later state transitions happen.
-update easyclaw.deployments
+update rekaclip.deployments
 set consumed_success = true,
     consumed_at = coalesce(consumed_at, updated_at, created_at, now())
 where status in ('running', 'stopped');
@@ -86,15 +86,15 @@ begin
     from pg_constraint c
     join pg_class t on c.conrelid = t.oid
     join pg_namespace n on n.oid = t.relnamespace
-    where n.nspname = 'easyclaw'
+    where n.nspname = 'rekaclip'
       and t.relname = 'deployments'
       and c.contype = 'c'
       and pg_get_constraintdef(c.oid) ilike '%status%'
   loop
-    execute format('alter table easyclaw.deployments drop constraint %I', status_check.conname);
+    execute format('alter table rekaclip.deployments drop constraint %I', status_check.conname);
   end loop;
 
-  alter table easyclaw.deployments
+  alter table rekaclip.deployments
     add constraint deployments_status_check
     check (status in ('provisioning', 'running', 'failed', 'stopped'));
 end $$;

@@ -3,10 +3,10 @@
   "theme": "light",
   "header": {
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
@@ -39,12 +39,12 @@
     "show_locale": true
   },
   "hero": {
-    "title": "EasyClaw",
+    "title": "RekaClip",
     "title_logo": {
       "src": "/imgs/logos/logo.svg",
-      "alt": "EasyClaw logosu"
+      "alt": "RekaClip logosu"
     },
-    "highlight_text": "EasyClaw",
+    "highlight_text": "RekaClip",
     "subtitle": "Yüksek Kaliteli Sanat Yaratın",
     "description": "Bir portre yükleyin, bir stil seçin ve avatarlar, hediyeler veya içerik için temiz bir karikatür elde edin.",
     "features": [
@@ -226,7 +226,7 @@
         "title": "Bir model seçin",
         "description": "Claude, GPT, Gemini — her görev için en iyi modeli seçin. Claude ile yaratıcı çalışma, GPT ile analiz. İstediğiniz zaman geçiş yapın.",
         "image": {
-          "src": "/images/easyclaw/step-1-models.png",
+          "src": "/images/rekaclip/step-1-models.png",
           "alt": "AI modelini seçin - Claude, GPT veya Gemini"
         }
       },
@@ -234,7 +234,7 @@
         "title": "Bir kanal bağlayın",
         "description": "Telegram, Discord, WhatsApp — tüm kanallar için tek bir kontrol paneli. Artık uygulama değiştirmeye gerek kalmadan tüm konuşmaları tek bir yerden yönetin.",
         "image": {
-          "src": "/images/easyclaw/step-2-channels.png",
+          "src": "/images/rekaclip/step-2-channels.png",
           "alt": "Mesajlaşma kanallarını bağlayın"
         }
       },
@@ -242,7 +242,7 @@
         "title": "Dağıtın ve başlatın",
         "description": "Yapay zeka asistanınız 60 saniye içinde çevrimiçi olacak. İlk mesajınızı gönderin ve otomatikleştirmeye başlayın.",
         "image": {
-          "src": "/images/easyclaw/step-3-deploy.png",
+          "src": "/images/rekaclip/step-3-deploy.png",
           "alt": "Asistanınızı dağıtın ve başlatın"
         }
       }
@@ -295,9 +295,9 @@
     "disabled": false,
     "name": "comparison",
     "title": "Zorluklara elveda deyin",
-    "description": "EasyClaw'ye geçtiğinizde nelerin değiştiğini görün",
+    "description": "RekaClip'ye geçtiğinizde nelerin değiştiğini görün",
     "before_label": "Geleneksel Kurulum",
-    "after_label": "EasyClaw",
+    "after_label": "RekaClip",
     "items": [
       {
         "before": "Sunucuları kiralayın, ortamları yapılandırın",
@@ -325,7 +325,7 @@
   "feature": {
     "disabled": false,
     "name": "feature",
-    "title": "Ekipler neden EasyClaw'yi seçiyor?",
+    "title": "Ekipler neden RekaClip'yi seçiyor?",
     "description": "DevOps ek yükü olmadan üretime hazır dağıtım. Sıfır bakım, maksimum odaklanma.",
     "items": [
       {
@@ -370,7 +370,7 @@
         "title": "Günlük Brifingler",
         "description": "Mesajları ve güncellemeleri ekibiniz için kısa bir sabah özetine dönüştürün.",
         "image": {
-          "src": "/images/easyclaw/use-case-1-briefings.png",
+          "src": "/images/rekaclip/use-case-1-briefings.png",
           "alt": "Günlük brifing otomasyonu iş akışı"
         },
         "buttons": [
@@ -384,7 +384,7 @@
         "title": "Müşteri Destek Asistanı",
         "description": "Soruları yönlendirin, yanıt taslaklarını oluşturun ve destek kanallarının yanıt vermesini sağlayın.",
         "image": {
-          "src": "/images/easyclaw/use-case-2-support.png",
+          "src": "/images/rekaclip/use-case-2-support.png",
           "alt": "Müşteri desteği otomasyonu iş akışı"
         },
         "reverse": true,
@@ -399,7 +399,7 @@
         "title": "Ekip Operasyonları Otomasyonu",
         "description": "Kanallar arasında hatırlatıcıları, durum raporlarını ve rutin takipleri otomatikleştirin.",
         "image": {
-          "src": "/images/easyclaw/use-case-3-automation.png",
+          "src": "/images/rekaclip/use-case-3-automation.png",
           "alt": "Ekip operasyonları otomasyonu iş akışı"
         },
         "buttons": [
@@ -499,15 +499,15 @@
     "name": "faq",
     "label": "SSS",
     "title": "Sık Sorulan Sorular",
-    "description": "OpenClaw'yi EasyClaw ile dağıtmadan önce ihtiyacınız olan her şey.",
+    "description": "OpenClaw'yi RekaClip ile dağıtmadan önce ihtiyacınız olan her şey.",
     "items": [
       {
-        "title": "EasyClaw'nin maliyeti ne kadar?",
+        "title": "RekaClip'nin maliyeti ne kadar?",
         "description": "Planlar ayda 10 dolardan başlıyor. Hesabınızdan istediğiniz zaman iptal edin."
       },
       {
         "title": "Sunucuları yönetmem gerekiyor mu?",
-        "description": "Hayır. EasyClaw, dağıtım iş akışını kolaylaştırır, böylece OpenClaw'yi sunucular veya DevOps olmadan başlatabilirsiniz."
+        "description": "Hayır. RekaClip, dağıtım iş akışını kolaylaştırır, böylece OpenClaw'yi sunucular veya DevOps olmadan başlatabilirsiniz."
       },
       {
         "title": "Hangi modeller destekleniyor?",
@@ -541,15 +541,15 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "EasyClaw",
+      "title": "RekaClip",
       "description": "OpenClaw AI asistanını dağıtmanın en kolay yolu.",
       "logo": {
         "src": "/imgs/logos/logo.svg",
-        "alt": "EasyClaw"
+        "alt": "RekaClip"
       },
       "url": "/"
     },
-    "copyright": "© 2026 • easyclaw. Her hakkı saklıdır.",
+    "copyright": "© 2026 • RekaClip. Her hakkı saklıdır.",
     "nav": {
       "items": [
         {
@@ -584,12 +584,12 @@
         {
           "title": "E-posta Desteği",
           "icon": "RiMailLine",
-          "url": "mailto:support@easyclaw.pro",
+          "url": "mailto:support@rekaclip.homes",
           "target": "_self"
         }
       ]
     },
-    "disclaimer": "EasyClaw bağımsız bir üründür ve herhangi bir üçüncü taraf model sağlayıcıya veya ticari marka sahibine bağlı değildir.",
+    "disclaimer": "RekaClip bağımsız bir üründür ve herhangi bir üçüncü taraf model sağlayıcıya veya ticari marka sahibine bağlı değildir.",
     "agreement": {
       "items": [
         {
@@ -655,7 +655,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-monthly",
-        "product_name": "EasyClaw Pro Aylık",
+        "product_name": "RekaClip Pro Aylık",
         "credits": 250,
         "valid_months": 1,
         "group": "monthly"
@@ -687,7 +687,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-monthly",
-        "product_name": "EasyClaw Premium Aylık",
+        "product_name": "RekaClip Premium Aylık",
         "credits": 500,
         "valid_months": 1,
         "group": "monthly"
@@ -720,7 +720,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "pro-yearly",
-        "product_name": "EasyClaw Pro Yıllık",
+        "product_name": "RekaClip Pro Yıllık",
         "credits": 3000,
         "valid_months": 12,
         "group": "yearly"
@@ -752,7 +752,7 @@
           "icon": "RiFlashlightFill"
         },
         "product_id": "premium-yearly",
-        "product_name": "EasyClaw Premium Yıllık",
+        "product_name": "RekaClip Premium Yıllık",
         "credits": 6000,
         "valid_months": 12,
         "group": "yearly"

@@ -16,7 +16,7 @@ import {
 const withTempStateFile = async (
   fn: (filePath: string) => Promise<void>
 ): Promise<void> => {
-  const tempDir = await mkdtemp(path.join(os.tmpdir(), "easyclaw-target-hosts-"));
+  const tempDir = await mkdtemp(path.join(os.tmpdir(), "rekaclip-target-hosts-"));
   const previousStateFile = process.env.OPENCLAW_TARGET_HOST_STATE_FILE;
   const filePath = path.join(tempDir, "deployment-target-hosts.json");
 

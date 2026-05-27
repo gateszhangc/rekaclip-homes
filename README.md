@@ -86,12 +86,35 @@ cp .env.example .env.development
 
 ## Deploy
 
-当前部署平台为 **K8s + ArgoCD**，所有环境均从 `easyclaw-v3/main` 分支发布。
+当前部署平台为 **K8s + ArgoCD**。
 
-| 环境 | ArgoCD App | 域名 | 详细文档 |
-|------|-----------|------|---------|
-| Staging | `easyclaw-staging` | [staging.easyclaw.pro](https://staging.easyclaw.pro) | [docs/staging-deploy.md](docs/staging-deploy.md) |
-| Production | `easyclaw` | [www.easyclaw.pro](https://www.easyclaw.pro) | [docs/k8s-argocd-staged-prod-release.md](docs/k8s-argocd-staged-prod-release.md) |
+### 已上线
+
+| 环境 | 入口域名 | ArgoCD App | 配置仓库 |
+|------|---------|-----------|---------|
+| 生产 | [rekaclip.homes](https://rekaclip.homes) | `rekaclip-homes` | k8s-fleet `tenants/rekaclip-homes/` |
+
+部署详情见 [deploy/DEPLOY.md](deploy/DEPLOY.md) 第 14 节。
+
+### 发布新版本
+
+```bash
+# 构建 + 推送镜像
+docker build --build-arg BUILD_ENV_FILE=deploy/k8s/build-env/production.env \
+  -t ghcr.io/gateszhangc/rekaclip-homes:<新tag> .
+echo $(gh auth token) | docker login ghcr.io -u gateszhangc --password-stdin
+docker push ghcr.io/gateszhangc/rekaclip-homes:<新tag>
+
+# 更新 k8s-fleet 的 tenants/rekaclip-homes/kustomization.yaml 中 newTag
+# 提交推送后 ArgoCD 自动同步
+```
+
+### 规划中
+
+| 环境 | 域名 | 说明 |
+|------|------|------|
+| Production (全栈) | www.rekaclip.homes | web + backend + PostgreSQL，见 `deploy/k8s/overlays/production/` |
+| Staging | staging.rekaclip.homes | 见 `deploy/k8s/overlays/staging/` |
 
 ## Community
 

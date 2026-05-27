@@ -1,6 +1,6 @@
 # 任务1
-- 利用init下的脚本向DATABASE_URL配置的数据库初始化shema：easyclaw。同时修改当前项目中数据库操作层的schema为easyclaw 
-- 先联网搜下openclaw，以openclaw作为关键字修改：i18n下的文案、privacy-policy、terms-of-service页面修改。还有robots.txt，站点文件。我的线上地址是https://www.easyclaw.pro。修改完备测试下首页、privacy-policy、terms-of-service页面，修改完后模拟用户的使用过程测试下首页、privacy-policy、terms-of-service页面
+- 利用init下的脚本向DATABASE_URL配置的数据库初始化shema：rekaclip。同时修改当前项目中数据库操作层的schema为rekaclip 
+- 先联网搜下openclaw，以openclaw作为关键字修改：i18n下的文案、privacy-policy、terms-of-service页面修改。还有robots.txt，站点文件。我的线上地址是https://www.rekaclip.homes。修改完备测试下首页、privacy-policy、terms-of-service页面，修改完后模拟用户的使用过程测试下首页、privacy-policy、terms-of-service页面
 - 修改完后使用playwright测试下
 
 
@@ -14,7 +14,7 @@
 # 任务3
 - 编译报如下的错误：10:31:43.611 Running build in Washington, D.C., USA (East) – iad1 (Turbo Build Machine)
 10:31:43.612 Build machine configuration: 30 cores, 60 GB
-10:31:43.689 Cloning github.com/gateszhangc/easyclaw (Branch: main, Commit: cf57e4a)
+10:31:43.689 Cloning github.com/gateszhangc/rekaclip (Branch: main, Commit: cf57e4a)
 10:31:43.690 Previous build caches not available.
 10:31:44.104 Cloning completed: 414.000ms
 10:31:44.362 Running "vercel build"
@@ -53,14 +53,14 @@
 
 # 任务6
 - ![alt text](image-4.png)去掉上面红框中的各种Disallow呀，需要让各种爬虫爬呀
-  - 下面站点地图的应该是我的域名https://www.easyclaw.pro呀
+  - 下面站点地图的应该是我的域名https://www.rekaclip.homes呀
 - 给出更该方案后的等待我的反馈
 - ![alt text](image-5.png)将sitemap也这整理下呀，将首页没有的网页给去掉呀
 
 
 
 # 任务7
-修改数据库的操作easyclaw 
+修改数据库的操作rekaclip 
 
 
 # 任务8
@@ -256,7 +256,7 @@
 - 首页的图片的地方需要和对应的文字想匹配，分析下，给出修改方案
 
 # 任务34
-- ![alt text](image-41.png)红框中应该改为easyclaw
+- ![alt text](image-41.png)红框中应该改为rekaclip
 - 修改完后使用浏览器测试下
 
 # 任务35
@@ -353,7 +353,7 @@ Failed to proxy http://47.253.91.60:5000/api/deploy/3b89b25b-fc85-452c-a7c7-f69f
 
 # 任务52
 - ![alt text](image-63.png)如今将https://www.simpleclaw.org域名下的robots.txt页面中的域名改为https://www.simpleclaw.org。
-- https://www.simpleclaw.org目前和https://www.easyclaw.pro/共用一套代码
+- https://www.simpleclaw.org目前和https://www.rekaclip.homes/共用一套代码
 - 给出方案后等我的反馈
 
 # 任务53
