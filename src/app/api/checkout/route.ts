@@ -19,6 +19,10 @@ import { cookies } from "next/headers";
 
 const log = createLogger("api/checkout");
 
+const isCheckoutDisabled = () =>
+  process.env.CHECKOUT_DISABLED === "true" ||
+  process.env.NEXT_PUBLIC_PAUSE_CHECKOUT === "true";
+
 const parseGaClientId = (raw?: string | null) => {
   if (!raw) {
     return null;
@@ -93,6 +97,11 @@ const getGaCookieMetadata = async () => {
 
 export async function POST(req: Request) {
   try {
+    if (isCheckoutDisabled()) {
+      log.warn("checkout request blocked because checkout is disabled");
+      return respErr("checkout disabled");
+    }
+
     let { product_id, currency, locale } = await req.json();
 
     log.info({ product_id, currency, locale }, "checkout request received");
